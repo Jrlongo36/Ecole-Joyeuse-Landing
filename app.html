@@ -691,6 +691,9 @@ lord-icon{display:inline-block;flex-shrink:0}
 </div>
 
 <script>
+// ========== GLOBAL STATE ==========
+let PROGRESS = JSON.parse(localStorage.getItem('progress') || '{"xp":0,"completed":{},"scores":{},"badges":{}}');
+
 // ========== DATA ==========
 const SEQUENCES_INFO = [
   { id: 1, titre: 'Séquence 1', theme: 'Intégration & Milieu Immédiat', icon: '🏠', color: '#007A5E' },
