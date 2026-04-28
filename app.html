@@ -323,6 +323,16 @@ lord-icon{display:inline-block;flex-shrink:0}
 </style>
 <!-- LordIcon animations SVG interactives -->
 <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+
 </head>
 <body>
 <canvas id="confettiCanvas" width="400" height="800"></canvas>
@@ -3411,6 +3421,112 @@ function passerTestNiveau() {
   }));
   afficherNiveau(testNiveauState.niveau);
 }
+
+
+
+// ══════════════════════════════════════════════════════
+// ANALYTICS - ÉVÉNEMENTS PERSONNALISÉS
+// ══════════════════════════════════════════════════════
+
+// Fonction helper pour tracker événements
+function trackEvent(eventName, params = {}) {
+  if (typeof gtag !== 'undefined') {
+    gtag('event', eventName, params);
+  }
+}
+
+// Track niveau sélectionné
+const originalAfficherNiveau = window.afficherNiveau;
+window.afficherNiveau = function(niveau) {
+  trackEvent('niveau_selectionne', {
+    niveau: niveau,
+    timestamp: new Date().toISOString()
+  });
+  return originalAfficherNiveau.apply(this, arguments);
+};
+
+// Track leçon commencée
+const originalChargerLecon = window.chargerLecon;
+window.chargerLecon = function(niveau, matiere, index) {
+  trackEvent('lecon_commencee', {
+    niveau: niveau,
+    matiere: matiere,
+    lecon_index: index
+  });
+  return originalChargerLecon.apply(this, arguments);
+};
+
+// Track quiz terminé (override existing)
+const originalFinQuiz = window.finQuiz;
+window.finQuiz = function() {
+  const score = QUIZ_STATE.score;
+  const total = QUIZ_STATE.questions.length;
+  const pct = Math.round((score / total) * 100);
+  
+  trackEvent('quiz_termine', {
+    niveau: NIVEAU_ACTUEL,
+    matiere: MATIERE_ACTUELLE,
+    score: score,
+    total: total,
+    pourcentage: pct,
+    reussi: pct >= 75
+  });
+  
+  return originalFinQuiz.apply(this, arguments);
+};
+
+// Track test de niveau terminé
+window.addEventListener('DOMContentLoaded', function() {
+  const originalAccederNiveauApresTest = window.accederNiveauApresTest;
+  if (originalAccederNiveauApresTest) {
+    window.accederNiveauApresTest = function() {
+      trackEvent('test_niveau_termine', {
+        niveau: testNiveauState.niveau,
+        score: testNiveauState.score,
+        total: 10,
+        pourcentage: (testNiveauState.score / 10) * 100
+      });
+      return originalAccederNiveauApresTest.apply(this, arguments);
+    };
+  }
+});
+
+// Track badge obtenu
+const originalGagnerBadge = window.gagnerBadge;
+if (originalGagnerBadge) {
+  window.gagnerBadge = function(badgeId) {
+    trackEvent('badge_obtenu', {
+      badge_id: badgeId,
+      xp_total: PROGRESS.xp || 0
+    });
+    return originalGagnerBadge.apply(this, arguments);
+  };
+}
+
+// Track visite écran
+const originalChangerEcran = window.changerEcran;
+window.changerEcran = function(ecranId) {
+  trackEvent('navigation', {
+    ecran: ecranId,
+    from: document.querySelector('.screen.active')?.id || 'unknown'
+  });
+  return originalChangerEcran.apply(this, arguments);
+};
+
+// Track session
+window.addEventListener('load', function() {
+  trackEvent('session_debut', {
+    niveau_actuel: localStorage.getItem('niveau_actuel') || 'none',
+    xp_total: PROGRESS.xp || 0,
+    lessons_completed: Object.keys(PROGRESS.completed || {}).length
+  });
+});
+
+window.addEventListener('beforeunload', function() {
+  trackEvent('session_fin', {
+    duree_session: Math.round((Date.now() - performance.timing.navigationStart) / 1000)
+  });
+});
 
 
 </script>

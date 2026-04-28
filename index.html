@@ -387,6 +387,16 @@
       .pricing-card.popular { transform:scale(1); }
     }
   </style>
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+
 </head>
 <body>
 
@@ -649,6 +659,37 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     if (target) {
       target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
+  });
+});
+</script>
+
+
+<script>
+// Track clics CTA
+document.addEventListener('DOMContentLoaded', function() {
+  // Tous les boutons CTA
+  document.querySelectorAll('a[href="app.html"]').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      gtag('event', 'clic_cta', {
+        bouton_texte: this.textContent.trim(),
+        section: this.closest('section')?.id || 'unknown'
+      });
+    });
+  });
+  
+  // Scroll tracking
+  let scrollTracked = {25: false, 50: false, 75: false, 100: false};
+  window.addEventListener('scroll', function() {
+    const scrollPct = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
+    
+    Object.keys(scrollTracked).forEach(function(threshold) {
+      if (scrollPct >= threshold && !scrollTracked[threshold]) {
+        gtag('event', 'scroll', {
+          profondeur: threshold + '%'
+        });
+        scrollTracked[threshold] = true;
+      }
+    });
   });
 });
 </script>
