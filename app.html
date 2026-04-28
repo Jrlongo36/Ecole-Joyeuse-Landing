@@ -3136,4 +3136,281 @@ styleSheet.textContent = `
 document.head.appendChild(styleSheet);
 
 
+
+// ══════════════════════════════════════════════════════
+// TEST DE NIVEAU
+// ══════════════════════════════════════════════════════
+let testNiveauState = {
+  niveau: null,
+  questions: [],
+  currentIndex: 0,
+  score: 0,
+  userAnswers: [],
+  matiereScores: {}
+};
+
+function proposerTestNiveau(niveau) {
+  // Vérifier si test déjà passé pour ce niveau
+  const testPasse = localStorage.getItem('test_niveau_' + niveau);
+  
+  if (testPasse) {
+    // Test déjà passé, accès direct
+    afficherNiveau(niveau);
+  } else {
+    // Proposer le test
+    testNiveauState.niveau = niveau;
+    document.getElementById('test-niveau-titre').textContent = 
+      'Niveau ' + niveau.toUpperCase();
+    changerEcran('test-niveau');
+  }
+}
+
+function demarrerTestNiveau() {
+  const niveau = testNiveauState.niveau;
+  const niveauData = NIVEAUX[niveau];
+  
+  if (!niveauData) {
+    alert('Niveau non disponible');
+    return;
+  }
+  
+  // Collecter toutes les questions de ce niveau
+  const allQuestions = [];
+  const matieres = ['francais', 'maths', 'sciences', 'geographie', 'histoire'];
+  
+  matieres.forEach(mat => {
+    if (niveauData[mat]) {
+      niveauData[mat].forEach(lecon => {
+        if (lecon.quiz) {
+          lecon.quiz.forEach(q => {
+            allQuestions.push({
+              matiere: mat,
+              lecon: lecon.titre,
+              ...q
+            });
+          });
+        }
+      });
+    }
+  });
+  
+  // Mélanger et prendre 10 questions (2 par matière si possible)
+  const selected = [];
+  const matCount = {};
+  
+  // Shuffle
+  allQuestions.sort(() => Math.random() - 0.5);
+  
+  // Sélectionner max 2 par matière
+  for (const q of allQuestions) {
+    if (selected.length >= 10) break;
+    matCount[q.matiere] = (matCount[q.matiere] || 0);
+    if (matCount[q.matiere] < 2) {
+      selected.push(q);
+      matCount[q.matiere]++;
+    }
+  }
+  
+  // Compléter si moins de 10
+  for (const q of allQuestions) {
+    if (selected.length >= 10) break;
+    if (!selected.includes(q)) {
+      selected.push(q);
+    }
+  }
+  
+  testNiveauState.questions = selected.slice(0, 10);
+  testNiveauState.currentIndex = 0;
+  testNiveauState.score = 0;
+  testNiveauState.userAnswers = [];
+  testNiveauState.matiereScores = {};
+  
+  changerEcran('test-niveau-quiz');
+  afficherQuestionTest();
+}
+
+function afficherQuestionTest() {
+  if (testNiveauState.currentIndex >= testNiveauState.questions.length) {
+    afficherResultatsTest();
+    return;
+  }
+  
+  const q = testNiveauState.questions[testNiveauState.currentIndex];
+  document.getElementById('test-question-num').textContent = testNiveauState.currentIndex + 1;
+  
+  document.getElementById('test-question-container').innerHTML = `
+    <div style="background:#f0fdf4; padding:0.75rem 1rem; border-radius:8px; margin-bottom:1rem; font-size:0.9em; color:#007A5E;">
+      <strong>${capitalizeFirst(q.matiere)}</strong> • ${q.lecon}
+    </div>
+    <div style="font-size:1.1em; font-weight:500; color:#1f2937;">
+      ${q.q}
+    </div>
+  `;
+  
+  const choicesHTML = q.choices.map((choice, idx) => `
+    <button onclick="repondreTest(${idx})" class="quiz-choice" style="width:100%; text-align:left; margin-bottom:0.75rem;">
+      ${choice}
+    </button>
+  `).join('');
+  
+  document.getElementById('test-choices-container').innerHTML = choicesHTML;
+  document.getElementById('test-feedback').style.display = 'none';
+  document.getElementById('test-next-btn').style.display = 'none';
+}
+
+function repondreTest(choixIdx) {
+  const q = testNiveauState.questions[testNiveauState.currentIndex];
+  const correct = (choixIdx === q.answer);
+  
+  testNiveauState.userAnswers.push({
+    matiere: q.matiere,
+    correct: correct
+  });
+  
+  if (correct) {
+    testNiveauState.score++;
+    // Comptabiliser par matière
+    if (!testNiveauState.matiereScores[q.matiere]) {
+      testNiveauState.matiereScores[q.matiere] = { bon: 0, total: 0 };
+    }
+    testNiveauState.matiereScores[q.matiere].bon++;
+    testNiveauState.matiereScores[q.matiere].total++;
+  } else {
+    if (!testNiveauState.matiereScores[q.matiere]) {
+      testNiveauState.matiereScores[q.matiere] = { bon: 0, total: 0 };
+    }
+    testNiveauState.matiereScores[q.matiere].total++;
+  }
+  
+  // Désactiver boutons
+  document.querySelectorAll('.quiz-choice').forEach(btn => btn.disabled = true);
+  
+  // Feedback simple (pas d'explication pour test diagnostic)
+  const feedback = document.getElementById('test-feedback');
+  feedback.style.display = 'block';
+  feedback.style.background = correct ? '#d1fae5' : '#fee2e2';
+  feedback.style.border = correct ? '2px solid #007A5E' : '2px solid #CE1126';
+  feedback.innerHTML = `
+    <strong style="color:${correct ? '#007A5E' : '#CE1126'};">
+      ${correct ? '✅ Bonne réponse !' : '❌ Mauvaise réponse'}
+    </strong>
+  `;
+  
+  document.getElementById('test-next-btn').style.display = 'block';
+}
+
+function nextTestQuestion() {
+  testNiveauState.currentIndex++;
+  afficherQuestionTest();
+}
+
+function afficherResultatsTest() {
+  const score = testNiveauState.score;
+  const pct = (score / 10) * 100;
+  
+  // Emoji selon score
+  let emoji = '🎯';
+  if (pct >= 80) emoji = '🏆';
+  else if (pct >= 60) emoji = '👍';
+  else if (pct >= 40) emoji = '📚';
+  else emoji = '💪';
+  
+  document.getElementById('test-result-emoji').textContent = emoji;
+  
+  // Score
+  document.getElementById('test-score-display').innerHTML = `
+    <span style="color:${pct >= 60 ? '#007A5E' : '#CE1126'};">${score}/10</span>
+  `;
+  
+  // Appréciation
+  let appreciation = '';
+  if (pct >= 80) appreciation = 'Excellent ! Tu maîtrises déjà bien ce niveau.';
+  else if (pct >= 60) appreciation = 'Bon niveau ! Quelques révisions et tu seras au top.';
+  else if (pct >= 40) appreciation = 'Tu as des bases, mais il faut travailler certaines matières.';
+  else appreciation = 'Pas de souci ! Les leçons vont vous aider à progresser.';
+  
+  document.getElementById('test-appreciation').textContent = appreciation;
+  
+  // Breakdown par matière
+  let breakdownHTML = '';
+  for (const mat in testNiveauState.matiereScores) {
+    const scores = testNiveauState.matiereScores[mat];
+    const matPct = Math.round((scores.bon / scores.total) * 100);
+    const emoji = {
+      francais: '📖',
+      maths: '🔢',
+      sciences: '🔬',
+      geographie: '🌍',
+      histoire: '📜'
+    }[mat] || '📚';
+    
+    breakdownHTML += `
+      <div style="margin-bottom:1rem; padding-bottom:1rem; border-bottom:1px solid #e5e7eb;">
+        <div style="display:flex; justify-content:space-between; margin-bottom:0.5rem;">
+          <strong>${emoji} ${capitalizeFirst(mat)}</strong>
+          <span style="color:${matPct >= 50 ? '#007A5E' : '#CE1126'}; font-weight:600;">
+            ${scores.bon}/${scores.total} (${matPct}%)
+          </span>
+        </div>
+        <div style="width:100%; height:8px; background:#e5e7eb; border-radius:4px; overflow:hidden;">
+          <div style="width:${matPct}%; height:100%; background:${matPct >= 50 ? '#007A5E' : '#CE1126'}; transition:width 0.3s ease;"></div>
+        </div>
+      </div>
+    `;
+  }
+  document.getElementById('test-matiere-breakdown').innerHTML = breakdownHTML;
+  
+  // Recommandations
+  const recommandations = [];
+  for (const mat in testNiveauState.matiereScores) {
+    const scores = testNiveauState.matiereScores[mat];
+    const matPct = (scores.bon / scores.total) * 100;
+    if (matPct < 50) {
+      recommandations.push(`📌 <strong>${capitalizeFirst(mat)}</strong> : Concentre-toi sur cette matière en priorité`);
+    }
+  }
+  
+  if (recommandations.length === 0) {
+    recommandations.push('✅ Continue comme ça ! Révise régulièrement pour maintenir ton niveau.');
+  } else {
+    recommandations.push('💡 Ne vous inquiétez pas : les leçons sont là pour vous aider à progresser.');
+  }
+  
+  document.getElementById('test-recommandations').innerHTML = 
+    '<ul style="margin:0; padding-left:1.5rem;">' +
+    recommandations.map(r => `<li style="margin-bottom:0.75rem; color:#374151;">${r}</li>`).join('') +
+    '</ul>';
+  
+  // Sauvegarder résultat
+  localStorage.setItem('test_niveau_' + testNiveauState.niveau, JSON.stringify({
+    score: score,
+    date: new Date().toISOString(),
+    matieres: testNiveauState.matiereScores
+  }));
+  
+  changerEcran('test-niveau-results');
+  
+  if (pct >= 60) confetti();
+}
+
+function accederNiveauApresTest() {
+  afficherNiveau(testNiveauState.niveau);
+}
+
+function refaireTestNiveau() {
+  // Supprimer résultat sauvegardé
+  localStorage.removeItem('test_niveau_' + testNiveauState.niveau);
+  demarrerTestNiveau();
+}
+
+function passerTestNiveau() {
+  // Marquer comme passé mais sans score
+  localStorage.setItem('test_niveau_' + testNiveauState.niveau, JSON.stringify({
+    skipped: true,
+    date: new Date().toISOString()
+  }));
+  afficherNiveau(testNiveauState.niveau);
+}
+
+
 </script>
