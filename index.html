@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="École Joyeuse - App éducative #1 au Cameroun pour la réussite scolaire SIL-CM2. Conforme MINEDUB, 100% hors-ligne.">
+  <title>École Joyeuse - Réussite Scolaire Garantie 🇨🇲</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      line-height:1.6;
+      color:#1f2937;
+      background:#F5FDF9;
+    }
+    
+    /* ═══ COULEURS CAMEROUN ═══ */
+    :root {
+      --vert: #007A5E;
+      --rouge: #CE1126;
+      --jaune: #FCD116;
+      --bg: #F5FDF9;
+    }
+    
+    .container {
+      max-width:1200px;
+      margin:0 auto;
+      padding:0 1.5rem;
+    }
+    
+    /* ═══ HEADER ═══ */
+    header {
+      background:linear-gradient(135deg, var(--vert) 0%, #005A45 100%);
+      color:#fff;
+      padding:1rem 0;
+      position:sticky;
+      top:0;
+      z-index:100;
+      box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    header .container {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+    
+    .logo {
+      font-size:1.5em;
+      font-weight:800;
+      display:flex;
+      align-items:center;
+      gap:0.5rem;
+    }
+    
+    .btn {
+      padding:0.75rem 1.5rem;
+      border-radius:50px;
+      font-weight:600;
+      text-decoration:none;
+      display:inline-block;
+      transition:all 0.3s ease;
+      border:none;
+      cursor:pointer;
+      font-size:1em;
+    }
+    
+    .btn-primary {
+      background:var(--jaune);
+      color:#1f2937;
+      box-shadow:0 4px 12px rgba(252,209,22,0.3);
+    }
+    
+    .btn-primary:hover {
+      transform:translateY(-2px);
+      box-shadow:0 6px 16px rgba(252,209,22,0.4);
+    }
+    
+    .btn-secondary {
+      background:transparent;
+      color:#fff;
+      border:2px solid #fff;
+    }
+    
+    .btn-secondary:hover {
+      background:rgba(255,255,255,0.1);
+    }
+    
+    /* ═══ HERO SECTION ═══ */
+    .hero {
+      background:linear-gradient(135deg, var(--vert) 0%, #00C896 100%);
+      color:#fff;
+      padding:4rem 0;
+      text-align:center;
+    }
+    
+    .hero h1 {
+      font-size:2.5em;
+      margin-bottom:1rem;
+      font-weight:800;
+      line-height:1.2;
+    }
+    
+    .hero .highlight {
+      color:var(--jaune);
+      text-decoration:underline;
+      text-decoration-color:var(--rouge);
+      text-decoration-thickness:4px;
+    }
+    
+    .hero p {
+      font-size:1.2em;
+      margin-bottom:2rem;
+      opacity:0.95;
+      max-width:700px;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    
+    .hero-cta {
+      display:flex;
+      gap:1rem;
+      justify-content:center;
+      flex-wrap:wrap;
+      margin-bottom:2rem;
+    }
+    
+    .trust-badges {
+      display:flex;
+      gap:2rem;
+      justify-content:center;
+      flex-wrap:wrap;
+      margin-top:3rem;
+      padding-top:2rem;
+      border-top:1px solid rgba(255,255,255,0.2);
+    }
+    
+    .trust-badge {
+      font-size:2.5em;
+    }
+    
+    /* ═══ SECTIONS ═══ */
+    section {
+      padding:4rem 0;
+    }
+    
+    .section-title {
+      text-align:center;
+      font-size:2em;
+      font-weight:800;
+      margin-bottom:3rem;
+      color:var(--vert);
+    }
+    
+    .section-subtitle {
+      text-align:center;
+      font-size:1.1em;
+      color:#6b7280;
+      max-width:600px;
+      margin:0 auto 3rem auto;
+    }
+    
+    /* ═══ FEATURES ═══ */
+    .features-grid {
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+      gap:2rem;
+    }
+    
+    .feature-card {
+      background:#fff;
+      padding:2rem;
+      border-radius:16px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.08);
+      text-align:center;
+      border-top:4px solid var(--vert);
+      transition:transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .feature-card:hover {
+      transform:translateY(-8px);
+      box-shadow:0 8px 24px rgba(0,122,94,0.15);
+    }
+    
+    .feature-icon {
+      font-size:3em;
+      margin-bottom:1rem;
+    }
+    
+    .feature-card h3 {
+      color:var(--vert);
+      margin-bottom:0.75rem;
+      font-size:1.3em;
+    }
+    
+    /* ═══ PRICING ═══ */
+    .pricing-grid {
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+      gap:2rem;
+      max-width:1000px;
+      margin:0 auto;
+    }
+    
+    .pricing-card {
+      background:#fff;
+      padding:2.5rem 2rem;
+      border-radius:20px;
+      box-shadow:0 4px 16px rgba(0,0,0,0.1);
+      position:relative;
+      text-align:center;
+      border:3px solid transparent;
+      transition:all 0.3s ease;
+    }
+    
+    .pricing-card.popular {
+      border-color:var(--jaune);
+      transform:scale(1.05);
+    }
+    
+    .pricing-badge {
+      position:absolute;
+      top:-15px;
+      left:50%;
+      transform:translateX(-50%);
+      background:var(--jaune);
+      color:#1f2937;
+      padding:0.5rem 1.5rem;
+      border-radius:50px;
+      font-weight:700;
+      font-size:0.85em;
+      letter-spacing:0.5px;
+    }
+    
+    .pricing-card h3 {
+      font-size:1.5em;
+      margin-bottom:1rem;
+      color:var(--vert);
+    }
+    
+    .price {
+      font-size:3em;
+      font-weight:800;
+      color:var(--rouge);
+      margin-bottom:0.5rem;
+    }
+    
+    .price-period {
+      color:#6b7280;
+      font-size:0.9em;
+      margin-bottom:2rem;
+    }
+    
+    .pricing-features {
+      list-style:none;
+      margin-bottom:2rem;
+      text-align:left;
+    }
+    
+    .pricing-features li {
+      padding:0.75rem 0;
+      border-bottom:1px solid #e5e7eb;
+    }
+    
+    .pricing-features li:last-child {
+      border-bottom:none;
+    }
+    
+    /* ═══ TESTIMONIALS ═══ */
+    .testimonials-grid {
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+      gap:2rem;
+    }
+    
+    .testimonial {
+      background:#fff;
+      padding:2rem;
+      border-radius:16px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.08);
+      border-left:4px solid var(--jaune);
+    }
+    
+    .testimonial-text {
+      font-style:italic;
+      margin-bottom:1rem;
+      color:#374151;
+      line-height:1.7;
+    }
+    
+    .testimonial-author {
+      display:flex;
+      align-items:center;
+      gap:0.75rem;
+    }
+    
+    .testimonial-avatar {
+      width:50px;
+      height:50px;
+      border-radius:50%;
+      background:var(--vert);
+      color:#fff;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:1.5em;
+      font-weight:700;
+    }
+    
+    .testimonial-info strong {
+      display:block;
+      color:var(--vert);
+      margin-bottom:0.25rem;
+    }
+    
+    .testimonial-info span {
+      font-size:0.85em;
+      color:#6b7280;
+    }
+    
+    /* ═══ CTA FINAL ═══ */
+    .cta-final {
+      background:linear-gradient(135deg, var(--rouge) 0%, #991b1b 100%);
+      color:#fff;
+      padding:4rem 0;
+      text-align:center;
+    }
+    
+    .cta-final h2 {
+      font-size:2.5em;
+      margin-bottom:1rem;
+      font-weight:800;
+    }
+    
+    .cta-final p {
+      font-size:1.2em;
+      margin-bottom:2rem;
+      opacity:0.95;
+    }
+    
+    /* ═══ FOOTER ═══ */
+    footer {
+      background:#1f2937;
+      color:#fff;
+      padding:3rem 0 1.5rem 0;
+      text-align:center;
+    }
+    
+    .footer-links {
+      display:flex;
+      gap:2rem;
+      justify-content:center;
+      margin-bottom:2rem;
+      flex-wrap:wrap;
+    }
+    
+    .footer-links a {
+      color:#9ca3af;
+      text-decoration:none;
+      transition:color 0.3s ease;
+    }
+    
+    .footer-links a:hover {
+      color:var(--jaune);
+    }
+    
+    .footer-social {
+      display:flex;
+      gap:1.5rem;
+      justify-content:center;
+      margin-bottom:2rem;
+      font-size:1.5em;
+    }
+    
+    .copyright {
+      color:#6b7280;
+      font-size:0.9em;
+      padding-top:2rem;
+      border-top:1px solid #374151;
+    }
+    
+    /* ═══ RESPONSIVE ═══ */
+    @media (max-width: 768px) {
+      .hero h1 { font-size:2em; }
+      .section-title { font-size:1.5em; }
+      .pricing-card.popular { transform:scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════
+     HEADER
+═══════════════════════════════════════════════════ -->
+<header>
+  <div class="container">
+    <div class="logo">
+      🎓 École Joyeuse
+    </div>
+    <a href="#pricing" class="btn btn-secondary">Voir les tarifs</a>
+  </div>
+</header>
+
+<!-- ═══════════════════════════════════════════════════
+     HERO SECTION
+═══════════════════════════════════════════════════ -->
+<section class="hero">
+  <div class="container">
+    <h1>
+      Réussite Scolaire <span class="highlight">Garantie</span><br>
+      Pour Vos Enfants 🇨🇲
+    </h1>
+    <p>
+      L'application éducative #1 au Cameroun. Conforme au programme MINEDUB, 
+      100% hors-ligne, du SIL au CM2. Transformez votre smartphone en école privée.
+    </p>
+    <div class="hero-cta">
+      <a href="#pricing" class="btn btn-primary" style="font-size:1.1em; padding:1rem 2rem;">
+        🚀 Commencer gratuitement
+      </a>
+      <a href="#demo" class="btn btn-secondary">
+        ▶️ Voir la démo
+      </a>
+    </div>
+    
+    <div class="trust-badges">
+      <div class="trust-badge" title="Conforme MINEDUB">📚</div>
+      <div class="trust-badge" title="Fonctionne hors-ligne">📱</div>
+      <div class="trust-badge" title="+500 familles">👨‍👩‍👧‍👦</div>
+      <div class="trust-badge" title="Cameroun">🇨🇲</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     FEATURES
+═══════════════════════════════════════════════════ -->
+<section id="features">
+  <div class="container">
+    <h2 class="section-title">Pourquoi École Joyeuse ?</h2>
+    <p class="section-subtitle">
+      Conçue par des parents camerounais avec l'appui d'enseignants, 
+      validée par le curriculum MINEDUB.
+    </p>
+    
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">📚</div>
+        <h3>Conforme MINEDUB 100%</h3>
+        <p>Tous les programmes officiels du SIL au CM2. Français, Maths, Sciences, Géographie, Histoire.</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">📱</div>
+        <h3>Fonctionne Hors-Ligne</h3>
+        <p>Pas besoin d'internet. Parfait pour les zones rurales ou quand le forfait est épuisé.</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">🎯</div>
+        <h3>Quiz Interactifs</h3>
+        <p>Plus de 500 questions avec explications détaillées. Apprentissage par la pratique.</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">🎓</div>
+        <h3>Mode Révision CEP</h3>
+        <p>Préparez l'examen de fin de CM2 avec des quiz multi-niveaux chronométrés.</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">👨‍👩‍👧</div>
+        <h3>Espace Parent</h3>
+        <p>Suivez la progression de votre enfant. Stats détaillées et recommandations personnalisées.</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">🏅</div>
+        <h3>Système de Récompenses</h3>
+        <p>Badges, médailles, XP. Votre enfant apprend en s'amusant et reste motivé.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     PRICING
+═══════════════════════════════════════════════════ -->
+<section id="pricing" style="background:#fff;">
+  <div class="container">
+    <h2 class="section-title">Tarifs Transparents</h2>
+    <p class="section-subtitle">
+      Choisissez la formule qui convient à votre famille. 
+      Paiement sécurisé par Mobile Money.
+    </p>
+    
+    <div class="pricing-grid">
+      <!-- GRATUIT -->
+      <div class="pricing-card">
+        <h3>🆓 Découverte</h3>
+        <div class="price">0 <small style="font-size:0.4em;">FCFA</small></div>
+        <div class="price-period">Gratuit à vie</div>
+        <ul class="pricing-features">
+          <li>✅ SIL + CP complets</li>
+          <li>✅ 100+ questions de quiz</li>
+          <li>✅ Système de badges</li>
+          <li>❌ Pas de CEP</li>
+          <li>❌ Pas d'espace parent</li>
+        </ul>
+        <a href="#" class="btn btn-secondary" style="width:100%;">Commencer</a>
+      </div>
+      
+      <!-- PREMIUM (POPULAIRE) -->
+      <div class="pricing-card popular">
+        <div class="pricing-badge">⭐ LE PLUS POPULAIRE</div>
+        <h3>🎓 Premium Annuel</h3>
+        <div class="price">4 500 <small style="font-size:0.4em;">FCFA</small></div>
+        <div class="price-period">Pour 1 an</div>
+        <ul class="pricing-features">
+          <li>✅ TOUS les niveaux (SIL→CM2)</li>
+          <li>✅ 500+ quiz toutes matières</li>
+          <li>✅ Mode Révision CEP</li>
+          <li>✅ Espace Parent complet</li>
+          <li>✅ Support prioritaire</li>
+        </ul>
+        <a href="#" class="btn btn-primary" style="width:100%;">Souscrire</a>
+      </div>
+      
+      <!-- ÉCOLE -->
+      <div class="pricing-card">
+        <h3>🏫 Licence École</h3>
+        <div class="price">Sur devis</div>
+        <div class="price-period">Pour établissements</div>
+        <ul class="pricing-features">
+          <li>✅ Jusqu'à 200 élèves</li>
+          <li>✅ Dashboard directeur</li>
+          <li>✅ Stats par classe</li>
+          <li>✅ Formation enseignants</li>
+          <li>✅ Support dédié</li>
+        </ul>
+        <a href="mailto:contact@ecolejoyeuse.cm" class="btn btn-secondary" style="width:100%;">Demander un devis</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     AVANTAGES CLÉS
+═══════════════════════════════════════════════════ -->
+<section id="testimonials">
+  <div class="container">
+    <h2 class="section-title">Pourquoi Les Familles Choisissent École Joyeuse</h2>
+    
+    <div class="testimonials-grid">
+      <div class="testimonial">
+        <div class="testimonial-text">
+          <strong style="color:#007A5E; font-size:1.2em;">📱 Zéro Connexion Internet Requise</strong><br><br>
+          Toute l'app fonctionne 100% hors-ligne. Parfait pour les zones rurales (Maroua, Garoua, Bertoua) 
+          ou quand le forfait data est épuisé. Une fois installée, aucun mégaoctet consommé.
+        </div>
+      </div>
+      
+      <div class="testimonial">
+        <div class="testimonial-text">
+          <strong style="color:#007A5E; font-size:1.2em;">🎯 Apprentissage Guidé Pas à Pas</strong><br><br>
+          Chaque leçon suit le programme officiel MINEDUB. Quiz avec explications détaillées. 
+          Votre enfant progresse à son rythme, sans pression, avec des récompenses motivantes (badges, XP, médailles).
+        </div>
+      </div>
+      
+      <div class="testimonial">
+        <div class="testimonial-text">
+          <strong style="color:#007A5E; font-size:1.2em;">👨‍👩‍👧 Vous Gardez Le Contrôle</strong><br><br>
+          Espace Parent sécurisé par code PIN. Suivez la progression en temps réel, 
+          identifiez les matières à renforcer, recevez des recommandations personnalisées. 
+          Vous savez exactement où en est votre enfant.
+        </div>
+      </div>
+    </div>
+    
+    <div style="text-align:center; margin-top:3rem; padding:2rem; background:#FFF9E6; border-radius:16px; border:2px solid #FCD116;">
+      <p style="color:#CE1126; font-size:1.1em; font-weight:600; margin-bottom:1rem;">
+        📢 Vous utilisez déjà École Joyeuse ?
+      </p>
+      <p style="color:#374151; margin-bottom:0;">
+        Vos témoignages nous aident à améliorer l'application pour toutes les familles camerounaises.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     CTA FINAL
+═══════════════════════════════════════════════════ -->
+<section class="cta-final">
+  <div class="container">
+    <h2>Prêt à Transformer La Scolarité De Votre Enfant ?</h2>
+    <p>Rejoignez les centaines de familles camerounaises qui ont choisi École Joyeuse.</p>
+    <a href="#pricing" class="btn btn-primary" style="font-size:1.2em; padding:1.25rem 2.5rem;">
+      🚀 Commencer Gratuitement
+    </a>
+    <p style="margin-top:1.5rem; font-size:0.9em; opacity:0.8;">
+      Pas de carte bancaire requise • Annulation à tout moment
+    </p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-links">
+      <a href="#features">Fonctionnalités</a>
+      <a href="#pricing">Tarifs</a>
+      <a href="#testimonials">Avantages</a>
+      <a href="#">Politique de confidentialité</a>
+      <a href="#">CGU</a>
+      <a href="mailto:contact@ecolejoyeuse.cm">Support</a>
+    </div>
+    
+    <div class="footer-social">
+      <a href="#" style="color:#9ca3af;" title="Facebook">📘</a>
+      <a href="#" style="color:#9ca3af;" title="Instagram">📸</a>
+      <a href="#" style="color:#9ca3af;" title="YouTube">📺</a>
+    </div>
+    
+    <div class="copyright">
+      <p style="display:flex; gap:0.5rem; justify-content:center; align-items:center; flex-wrap:wrap;">
+        <span style="color:var(--vert);">●</span>
+        <span style="color:var(--rouge);">●</span>
+        <span style="color:var(--jaune);">●</span>
+      </p>
+      <p style="margin-top:1rem;">
+        © 2026 École Joyeuse. Tous droits réservés. 🇨🇲<br>
+        Fait avec ❤️ à Douala, Cameroun.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Smooth scroll pour les ancres
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+</script>
+
+</body>
+</html>
