@@ -1457,8 +1457,12 @@ function validerCodePremium() {
     }));
   } catch(e) {}
 
-  showScreen('dashboard');
-  updateDashboard();
+  if (state.eleve) {
+    updateDashboard();
+    showScreen('dashboard');
+  } else {
+    showScreen('profile');
+  }
 
   // Message de succès
   const msgs = {
@@ -1517,8 +1521,9 @@ function handleLogoTap() {
         if (f) { f.value = c; showScreen('premiumScreen'); setTimeout(validerCodePremium, 200); }
         else {
           try { localStorage.setItem(PREMIUM_KEY, JSON.stringify({ code: c, type: 'maitre', expire: '2099-12-31', maitre: true, unlocked: Date.now() })); } catch(e) {}
-          alert('✅ Accès maître activé !');
-          updateDashboard();
+          alert('✅ Accès maître activé ! Bienvenue Pasteur 🇨🇲');
+          if (state.eleve) { updateDashboard(); showScreen('dashboard'); }
+          else { showScreen('profile'); }
         }
       } else { alert('❌ Code incorrect.'); }
     }
@@ -1714,7 +1719,12 @@ window.onload = () => {
 };
 
 function splashAction() {
-  showScreen('profile');
+  if (state.eleve) {
+    updateDashboard();
+    showScreen('dashboard');
+  } else {
+    showScreen('profile');
+  }
 }
 
 // ========== SCREENS ==========
