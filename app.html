@@ -1861,6 +1861,7 @@ function getLessonsBySequence(niveauKey, matiereKey) {
 
 // Séquence débloquée = index dans localStorage
 function getUnlockedSeq(niveauKey, matiereKey) {
+  if (isPremium()) return 999; // testeur/maître : tout déverrouillé
   const k = `ej_seq_${niveauKey}_${matiereKey}`;
   return parseInt(localStorage.getItem(k) || '1');
 }
