@@ -6,182 +6,110 @@
   <title>Votre Avis Compte | École Joyeuse 🇨🇲</title>
   <style>
     * { margin:0; padding:0; box-sizing:border-box; }
-    
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       background: linear-gradient(135deg, #007A5E 0%, #005A45 100%);
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 1.5rem;
+      min-height:100vh; display:flex; align-items:center;
+      justify-content:center; padding:1.5rem;
     }
-    
     .container {
-      max-width: 600px;
-      width: 100%;
-      background: #fff;
-      border-radius: 20px;
-      padding: 2.5rem;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      max-width:600px; width:100%; background:#fff;
+      border-radius:20px; padding:2.5rem;
+      box-shadow:0 20px 60px rgba(0,0,0,0.3);
     }
-    
-    .logo {
-      text-align: center;
-      font-size: 3em;
-      margin-bottom: 1rem;
+    .logo-bloc {
+      text-align:center; margin-bottom:1rem;
     }
-    
-    h1 {
-      color: #007A5E;
-      text-align: center;
-      margin-bottom: 0.5rem;
-      font-size: 1.8em;
+    .logo-bloc img {
+      width:80px; height:80px; object-fit:contain;
     }
-    
-    .subtitle {
-      text-align: center;
-      color: #6b7280;
-      margin-bottom: 2rem;
-    }
-    
-    .form-group {
-      margin-bottom: 1.5rem;
-    }
-    
-    label {
-      display: block;
-      font-weight: 600;
-      margin-bottom: 0.5rem;
-      color: #1f2937;
-    }
-    
+    h1 { color:#007A5E; text-align:center; margin-bottom:0.5rem; font-size:1.8em; }
+    .subtitle { text-align:center; color:#6b7280; margin-bottom:2rem; }
+    .form-group { margin-bottom:1.5rem; }
+    label { display:block; font-weight:600; margin-bottom:0.5rem; color:#1f2937; }
     input, textarea, select {
-      width: 100%;
-      padding: 0.875rem;
-      border: 2px solid #e5e7eb;
-      border-radius: 10px;
-      font-size: 1em;
-      font-family: inherit;
-      transition: border-color 0.3s ease;
+      width:100%; padding:0.875rem; border:2px solid #e5e7eb;
+      border-radius:10px; font-size:1em; font-family:inherit;
+      transition:border-color 0.3s ease;
     }
-    
     input:focus, textarea:focus, select:focus {
-      outline: none;
-      border-color: #007A5E;
+      outline:none; border-color:#007A5E;
     }
-    
-    textarea {
-      min-height: 120px;
-      resize: vertical;
-    }
-    
-    .rating {
-      display: flex;
-      gap: 0.5rem;
-      justify-content: center;
-      margin: 1rem 0;
-    }
-    
+    textarea { min-height:120px; resize:vertical; }
+    .rating { display:flex; gap:0.5rem; justify-content:center; margin:1rem 0; }
     .star {
-      font-size: 2.5em;
-      cursor: pointer;
-      transition: transform 0.2s ease;
-      user-select: none;
+      font-size:2.5em; cursor:pointer;
+      transition:transform 0.2s ease; user-select:none;
     }
-    
-    .star:hover {
-      transform: scale(1.2);
-    }
-    
-    .star.selected {
-      color: #FCD116;
-    }
-    
-    .star:not(.selected) {
-      color: #d1d5db;
-    }
-    
+    .star:hover { transform:scale(1.2); }
+    .star.selected { color:#FCD116; }
+    .star:not(.selected) { color:#d1d5db; }
     .btn {
-      width: 100%;
-      padding: 1rem;
-      background: linear-gradient(135deg, #007A5E 0%, #005A45 100%);
-      color: #fff;
-      border: none;
-      border-radius: 50px;
-      font-size: 1.1em;
-      font-weight: 700;
-      cursor: pointer;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      margin-top: 1rem;
+      width:100%; padding:1rem;
+      background:linear-gradient(135deg, #007A5E 0%, #005A45 100%);
+      color:#fff; border:none; border-radius:50px;
+      font-size:1.1em; font-weight:700; cursor:pointer;
+      transition:transform 0.3s ease, box-shadow 0.3s ease; margin-top:1rem;
     }
-    
-    .btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 20px rgba(0,122,94,0.3);
-    }
-    
-    .btn:disabled {
-      opacity: 0.6;
-      cursor: not-allowed;
-    }
-    
+    .btn:hover { transform:translateY(-2px); box-shadow:0 8px 20px rgba(0,122,94,0.3); }
+    .btn:disabled { opacity:0.6; cursor:not-allowed; }
     .success-message {
-      display: none;
-      background: #d1fae5;
-      border: 2px solid #007A5E;
-      padding: 1.5rem;
-      border-radius: 12px;
-      text-align: center;
-      color: #007A5E;
-      font-weight: 600;
+      display:none; background:#d1fae5; border:2px solid #007A5E;
+      padding:1.5rem; border-radius:12px; text-align:center;
+      color:#007A5E; font-weight:600;
     }
-    
-    .success-message.show {
-      display: block;
-    }
-    
+    .success-message.show { display:block; }
     .back-link {
-      display: block;
-      text-align: center;
-      margin-top: 1.5rem;
-      color: #6b7280;
-      text-decoration: none;
-      font-size: 0.95em;
+      display:block; text-align:center; margin-top:1.5rem;
+      color:#6b7280; text-decoration:none; font-size:0.95em;
     }
-    
-    .back-link:hover {
-      color: #007A5E;
-    }
-    
+    .back-link:hover { color:#007A5E; }
+    .error-msg { color:#CE1126; font-size:0.9em; margin-top:0.4rem; display:none; }
     @media (max-width: 640px) {
-      .container {
-        padding: 1.5rem;
-      }
-      
-      h1 {
-        font-size: 1.5em;
-      }
-      
-      .star {
-        font-size: 2em;
-      }
+      .container { padding:1.5rem; }
+      h1 { font-size:1.5em; }
+      .star { font-size:2em; }
     }
   </style>
 </head>
 <body>
 
 <div class="container">
-  <div class="logo">🎓</div>
+
+  <!-- LOGO -->
+  <div class="logo-bloc">
+    <img src="logo.png" alt="École Joyeuse">
+  </div>
+
   <h1>Votre Avis Compte !</h1>
   <p class="subtitle">Aidez-nous à améliorer École Joyeuse pour tous les enfants camerounais</p>
-  
-  <form id="feedbackForm">
+
+  <!-- ══════════════════════════════════════════════
+       FORMULAIRE NETLIFY FORMS
+       - data-netlify="true"       : active la réception Netlify
+       - netlify-honeypot           : piège anti-spam (champ caché)
+       - name="feedback-ecole"      : nom du formulaire dans le dashboard
+  ══════════════════════════════════════════════ -->
+  <form
+    id="feedbackForm"
+    name="feedback-ecole"
+    method="POST"
+    data-netlify="true"
+    netlify-honeypot="bot-field"
+  >
+    <!-- Champ caché requis par Netlify pour identifier le formulaire -->
+    <input type="hidden" name="form-name" value="feedback-ecole">
+
+    <!-- Anti-spam : champ invisible, un robot le remplit, Netlify rejette -->
+    <p style="display:none;">
+      <label>Ne pas remplir : <input name="bot-field"></label>
+    </p>
+
     <div class="form-group">
       <label for="nom">Votre nom (ou celui de votre enfant) *</label>
       <input type="text" id="nom" name="nom" required placeholder="Ex: Marie Kouam">
     </div>
-    
+
     <div class="form-group">
       <label for="ville">Ville *</label>
       <select id="ville" name="ville" required>
@@ -198,7 +126,7 @@
         <option value="Autre">Autre</option>
       </select>
     </div>
-    
+
     <div class="form-group">
       <label for="niveau">Niveau utilisé *</label>
       <select id="niveau" name="niveau" required>
@@ -211,7 +139,7 @@
         <option value="CM2">CM2</option>
       </select>
     </div>
-    
+
     <div class="form-group">
       <label>Note globale *</label>
       <div class="rating" id="rating">
@@ -221,137 +149,118 @@
         <span class="star" data-value="4">★</span>
         <span class="star" data-value="5">★</span>
       </div>
-      <input type="hidden" id="note" name="note" required>
+      <!-- Champ caché qui stocke la note pour Netlify -->
+      <input type="hidden" id="note" name="note">
+      <p class="error-msg" id="noteError">Veuillez cliquer sur les étoiles pour noter.</p>
     </div>
-    
+
     <div class="form-group">
       <label for="avis">Votre avis / témoignage *</label>
-      <textarea id="avis" name="avis" required placeholder="Partagez votre expérience avec École Joyeuse. Qu'avez-vous aimé ? Qu'est-ce qui pourrait être amélioré ?"></textarea>
+      <textarea id="avis" name="avis" required
+        placeholder="Partagez votre expérience. Qu'avez-vous aimé ? Qu'est-ce qui pourrait être amélioré ?"></textarea>
     </div>
-    
+
     <div class="form-group">
       <label for="email">Email (optionnel, pour vous recontacter)</label>
       <input type="email" id="email" name="email" placeholder="votre@email.cm">
     </div>
-    
+
     <button type="submit" class="btn" id="submitBtn">
       📤 Envoyer mon avis
     </button>
   </form>
-  
+
   <div class="success-message" id="successMessage">
     <div style="font-size:3em; margin-bottom:1rem;">🎉</div>
     <div style="font-size:1.2em; margin-bottom:0.5rem;">Merci pour votre témoignage !</div>
     <div style="font-size:0.95em; opacity:0.9;">Votre avis nous aide à améliorer École Joyeuse pour tous.</div>
   </div>
-  
+
   <a href="app.html" class="back-link">← Retour à l'application</a>
 </div>
 
 <script>
-// ══════════════════════════════════════════════════════
-// SYSTÈME DE NOTATION
-// ══════════════════════════════════════════════════════
-const stars = document.querySelectorAll('.star');
+// ══════════════════════════════════════════════
+// ÉTOILES : notation interactive
+// ══════════════════════════════════════════════
+const stars     = document.querySelectorAll('.star');
 const noteInput = document.getElementById('note');
+const noteError = document.getElementById('noteError');
 
 stars.forEach(star => {
   star.addEventListener('click', function() {
-    const value = this.getAttribute('data-value');
-    noteInput.value = value;
-    
-    // Mettre à jour affichage
-    stars.forEach((s, idx) => {
-      if (idx < value) {
-        s.classList.add('selected');
-      } else {
-        s.classList.remove('selected');
-      }
+    const val = this.getAttribute('data-value');
+    noteInput.value = val;
+    noteError.style.display = 'none';
+    stars.forEach((s, i) => {
+      s.classList.toggle('selected', i < val);
+      s.style.color = i < val ? '#FCD116' : '';
     });
   });
-  
-  // Hover effect
   star.addEventListener('mouseenter', function() {
-    const value = this.getAttribute('data-value');
-    stars.forEach((s, idx) => {
-      if (idx < value) {
-        s.style.color = '#FCD116';
-      }
-    });
+    const val = this.getAttribute('data-value');
+    stars.forEach((s, i) => { s.style.color = i < val ? '#FCD116' : '#d1d5db'; });
   });
-  
   star.addEventListener('mouseleave', function() {
-    stars.forEach((s, idx) => {
-      if (!s.classList.contains('selected')) {
-        s.style.color = '#d1d5db';
-      }
+    const current = noteInput.value;
+    stars.forEach((s, i) => {
+      s.style.color = s.classList.contains('selected') ? '#FCD116' : '#d1d5db';
     });
   });
 });
 
-// ══════════════════════════════════════════════════════
-// SOUMISSION FORMULAIRE
-// ══════════════════════════════════════════════════════
-const form = document.getElementById('feedbackForm');
-const submitBtn = document.getElementById('submitBtn');
-const successMessage = document.getElementById('successMessage');
+// ══════════════════════════════════════════════
+// SOUMISSION : envoi vers Netlify Forms via fetch
+// Netlify Forms accepte les soumissions en application/x-www-form-urlencoded
+// ══════════════════════════════════════════════
+const form        = document.getElementById('feedbackForm');
+const submitBtn   = document.getElementById('submitBtn');
+const successMsg  = document.getElementById('successMessage');
+
+function encode(data) {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&');
+}
 
 form.addEventListener('submit', function(e) {
   e.preventDefault();
-  
+
   // Validation note
   if (!noteInput.value) {
-    alert('Veuillez donner une note en cliquant sur les étoiles');
+    noteError.style.display = 'block';
     return;
   }
-  
-  // Récupérer données
-  const formData = {
-    nom: document.getElementById('nom').value,
-    ville: document.getElementById('ville').value,
-    niveau: document.getElementById('niveau').value,
-    note: noteInput.value,
-    avis: document.getElementById('avis').value,
-    email: document.getElementById('email').value,
-    date: new Date().toISOString()
-  };
-  
-  // Désactiver bouton
+
   submitBtn.disabled = true;
   submitBtn.textContent = 'Envoi en cours...';
-  
-  // OPTION 1 : Envoyer à un service tiers (Google Forms, Formspree, etc.)
-  // fetch('VOTRE_URL_BACKEND', {
-  //   method: 'POST',
-  //   headers: {'Content-Type': 'application/json'},
-  //   body: JSON.stringify(formData)
-  // })
-  
-  // OPTION 2 : Simuler envoi (pour l'instant)
-  setTimeout(() => {
-    // Sauvegarder localement pour debug
-    const feedbacks = JSON.parse(localStorage.getItem('feedbacks') || '[]');
-    feedbacks.push(formData);
-    localStorage.setItem('feedbacks', JSON.stringify(feedbacks));
-    
-    // Afficher succès
+
+  const payload = {
+    'form-name': 'feedback-ecole',
+    nom:    document.getElementById('nom').value,
+    ville:  document.getElementById('ville').value,
+    niveau: document.getElementById('niveau').value,
+    note:   noteInput.value,
+    avis:   document.getElementById('avis').value,
+    email:  document.getElementById('email').value
+  };
+
+  fetch('/', {
+    method:  'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body:    encode(payload)
+  })
+  .then(() => {
     form.style.display = 'none';
-    successMessage.classList.add('show');
-    
-    // Track avec Analytics si disponible
-    if (typeof gtag !== 'undefined') {
-      gtag('event', 'feedback_soumis', {
-        note: formData.note,
-        niveau: formData.niveau,
-        ville: formData.ville
-      });
-    }
-    
-    // Rediriger après 3s
-    setTimeout(() => {
-      window.location.href = 'app.html';
-    }, 3000);
-  }, 1000);
+    successMsg.classList.add('show');
+    setTimeout(() => { window.location.href = 'app.html'; }, 3000);
+  })
+  .catch(err => {
+    console.error('Erreur envoi Netlify:', err);
+    submitBtn.disabled = false;
+    submitBtn.textContent = '📤 Envoyer mon avis';
+    alert('Erreur de connexion. Vérifiez votre réseau et réessayez.');
+  });
 });
 </script>
 

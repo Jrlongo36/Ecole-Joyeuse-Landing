@@ -560,34 +560,69 @@ lord-icon{display:inline-block;flex-shrink:0}
   </div>
 </div>
 
+<!-- CEP MENU SCREEN -->
+<div class="screen" id="cepMenuScreen" style="overflow-y:auto;padding-bottom:2rem">
+  <button class="back-btn" onclick="showScreen('levelScreen')">&#8592; Retour</button>
+  <div style="text-align:center;margin-bottom:18px">
+    <div style="font-size:2.8em">🎓</div>
+    <h2 style="color:#CE1126;margin:4px 0 2px;font-size:1.4em">Mode Révision CEP</h2>
+    <p style="font-size:.82em;color:#666;margin:0">Prépare ton Certificat d'Études Primaires</p>
+    <div id="cepCountdownBadge" style="display:inline-block;background:#CE1126;color:#fff;font-size:.78em;font-weight:700;padding:4px 14px;border-radius:50px;margin-top:8px"></div>
+  </div>
+  <!-- 6 Séquences -->
+  <div style="margin-bottom:18px">
+    <div style="font-size:.72em;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px">📅 Les 6 Séquences MINEDUB</div>
+    <div id="cepSeqList"></div>
+  </div>
+  <!-- Examen Blanc -->
+  <div style="background:linear-gradient(135deg,#CE1126,#8B0000);border-radius:14px;padding:16px;margin-bottom:12px;text-align:center">
+    <div style="font-size:1.6em;margin-bottom:4px">📝</div>
+    <div style="color:#fff;font-weight:700;font-size:1em;margin-bottom:4px">Examen Blanc Complet</div>
+    <div style="color:rgba(255,255,255,.8);font-size:.78em;margin-bottom:12px">20 questions · Toutes matières · Conditions réelles</div>
+    <button class="btn" onclick="lancerExamenBlanc()" style="background:#FCD116;color:#333;font-weight:700;width:100%">Commencer l'Examen Blanc 🏁</button>
+  </div>
+  <!-- Stats CEP -->
+  <div id="cepStatsPanel" style="background:#fff;border-radius:14px;padding:14px;box-shadow:0 2px 8px rgba(0,0,0,.06)"></div>
+</div>
+
 <!-- CEP REVISION SCREEN -->
 <div class="screen" id="cepScreen">
-  <button class="back-btn" onclick="showScreen('levelScreen')">&#8592; Retour</button>
+  <button class="back-btn" onclick="showScreen('cepMenuScreen')">&#8592; Retour</button>
   <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px">
     <span style="font-size:2.2em">&#127891;</span>
-    <div>
-      <h2 style="color:#CE1126;margin:0;font-size:1.3em">Révision CEP</h2>
-      <p style="font-size:.8em;color:#888;margin:0">Question <span id="cepCurrent">1</span> / <span id="cepTotal">10</span></p>
+    <div style="flex:1">
+      <h2 style="color:#CE1126;margin:0;font-size:1.2em" id="cepSessionTitle">Révision CEP</h2>
+      <p style="font-size:.78em;color:#888;margin:0">Question <span id="cepCurrent">1</span> / <span id="cepTotal">10</span> &nbsp;·&nbsp; <span id="cepNiveauBadge" style="font-weight:700"></span></p>
     </div>
+    <div id="cepTimerDisplay" style="background:#CE1126;color:#fff;font-size:.85em;font-weight:700;padding:4px 10px;border-radius:8px;display:none"></div>
   </div>
-  <div class="quiz-progress" style="margin-bottom:16px"><div class="quiz-progress-bar" id="cepProgressBar" style="width:0%;background:#CE1126"></div></div>
+  <div class="quiz-progress" style="margin-bottom:12px"><div class="quiz-progress-bar" id="cepProgressBar" style="width:0%;background:#CE1126"></div></div>
   <div id="cepMatBadge" style="display:inline-block;background:#F5FDF9;border:1.5px solid #007A5E;color:#007A5E;font-size:.75em;font-weight:700;padding:3px 10px;border-radius:50px;margin-bottom:10px"></div>
   <div id="cepQuestionContainer"></div>
 </div>
 
 <!-- CEP RESULTS SCREEN -->
-<div class="screen" id="cepResultsScreen" style="background:linear-gradient(160deg,#007A5E 0%,#005A45 40%,#CE1126 100%);align-items:center;justify-content:center;text-align:center">
-  <lord-icon src="https://cdn.lordicon.com/oqdmuxru.json" trigger="in" colors="primary:#FCD116,secondary:#fff" style="width:80px;height:80px;display:block;margin:0 auto 8px"></lord-icon>
-  <h2 id="cepResultTitle" style="color:#fff;font-size:1.6em;margin-bottom:4px"></h2>
-  <div class="score-circle" style="border-color:rgba(255,255,255,.4);margin:12px auto">
-    <div class="score-number" id="cepScoreNum" style="color:#FCD116"></div>
-    <div class="score-label" style="color:rgba(255,255,255,.8)">Score CEP</div>
+<div class="screen" id="cepResultsScreen" style="background:linear-gradient(160deg,#007A5E 0%,#005A45 40%,#CE1126 100%);overflow-y:auto;padding-bottom:2rem">
+  <div style="text-align:center;padding-top:1rem">
+    <lord-icon src="https://cdn.lordicon.com/oqdmuxru.json" trigger="in" colors="primary:#FCD116,secondary:#fff" style="width:80px;height:80px;display:block;margin:0 auto 8px"></lord-icon>
+    <h2 id="cepResultTitle" style="color:#fff;font-size:1.6em;margin-bottom:4px"></h2>
+    <div class="score-circle" style="border-color:rgba(255,255,255,.4);margin:12px auto">
+      <div class="score-number" id="cepScoreNum" style="color:#FCD116"></div>
+      <div class="score-label" style="color:rgba(255,255,255,.8)">Score CEP</div>
+    </div>
+    <div id="cepStars" style="font-size:1.8em;margin:8px 0;letter-spacing:3px"></div>
+    <p id="cepResultMsg" style="color:rgba(255,255,255,.9);margin:8px 20px 16px;font-size:1em;line-height:1.5"></p>
   </div>
-  <div id="cepStars" style="font-size:1.8em;margin:8px 0;letter-spacing:3px"></div>
-  <p id="cepResultMsg" style="color:rgba(255,255,255,.9);margin:8px 20px 20px;font-size:1em;line-height:1.5"></p>
-  <div id="cepReviewList" style="width:100%;max-width:360px;text-align:left;margin-bottom:20px"></div>
-  <button class="btn btn-primary" onclick="lancerRevisionCEP()" style="margin-bottom:10px">&#128257; Recommencer</button>
-  <button class="btn btn-secondary" onclick="showScreen('levelScreen')">&#8592; Retour CM2</button>
+  <!-- Tableau scores par matière -->
+  <div id="cepMatScores" style="background:rgba(255,255,255,.15);border-radius:14px;padding:14px;margin:0 16px 16px;backdrop-filter:blur(4px)"></div>
+  <!-- Verrou info -->
+  <div id="cepVerrouMsg" style="background:rgba(252,209,22,.2);border:1px solid rgba(252,209,22,.5);border-radius:12px;padding:12px 16px;margin:0 16px 16px;display:none"></div>
+  <!-- Récap erreurs -->
+  <div id="cepReviewList" style="margin:0 16px 20px;text-align:left"></div>
+  <div style="padding:0 16px;display:flex;flex-direction:column;gap:8px">
+    <button class="btn btn-primary" id="cepRetryBtn" onclick="cepRetry()" style="margin:0">&#128257; Réessayer</button>
+    <button class="btn btn-secondary" onclick="showScreen('cepMenuScreen')">&#8592; Menu CEP</button>
+  </div>
 </div>
 
 
@@ -2395,56 +2430,281 @@ function launchConfetti() {
   draw();
 }
 
-// ========== MODE RÉVISION CEP ==========
-let cepState = {
-  questions: [],
-  index: 0,
-  score: 0,
-  answered: false,
-  history: []
-};
+// ========== MODE RÉVISION CEP — VERSION ENRICHIE ==========
 
 const MAT_LABELS = {
   francais:'📖 Français', maths:'🔢 Maths', sciences:'🔬 Sciences',
   geographie:'🗺️ Géographie', histoire:'📜 Histoire', english:'🇬🇧 English', lcn:'🥁 LCN', dev_perso:'🌱 Dév. Perso'
 };
 
-function lancerRevisionCEP() {
-  // Collecter toutes les questions CM2
+// ---- Définition des 6 séquences MINEDUB ----
+const CEP_SEQUENCES = [
+  {
+    id: 1, titre: 'Séquence 1', sousTitre: 'Les Fondations et l\'Identité',
+    periode: 'Sept – Oct', emoji: '🌱',
+    matieres: ['francais','maths','sciences','histoire','geographie'],
+    questionsExpert: [
+      { q: 'Écris en chiffres : Trois milliards deux cent millions quatre-vingt-sept.', choices: ['3 200 000 087','3 200 000 870','3 020 000 087','32 000 000 087'], answer: 0, niveau: 'expert', matiere: 'maths', explication: 'Attention aux zéros intercalaires : milliards=3, millions=200, unités=87.' },
+      { q: 'Pourquoi dit-on que le Cameroun est une "Afrique en miniature" ?', choices: ['Car il a 10 régions distinctes','Car il réunit tous les reliefs et climats du continent','Car il est au centre géographique de l\'Afrique','Car il parle toutes les langues africaines'], answer: 1, niveau: 'expert', matiere: 'geographie', explication: 'Forêts équatoriales, savanes, désert, montagne, mer : tous les écosystèmes africains s\'y trouvent.' },
+      { q: 'Quelle est la fonction de l\'étoile sur le drapeau du Cameroun ?', choices: ['Représenter le soleil','Symboliser l\'unité nationale','Rappeler les étoiles du drapeau USA','Honorer les martyrs'], answer: 1, niveau: 'expert', matiere: 'histoire', explication: 'L\'étoile jaune sur la bande rouge est l\'Étoile de l\'Unité.' },
+      { q: 'Pourquoi un enfant a-t-il plus de cartilages qu\'un adulte ?', choices: ['Son alimentation est différente','Ses os ne sont pas encore soudés','Il fait plus de sport','Son squelette est plus petit'], answer: 1, niveau: 'expert', matiere: 'sciences', explication: 'Avec l\'âge, les cartilages se transforment en os : c\'est l\'ossification.' },
+      { q: 'Transforme en phrase interrogative (inversion du sujet) : "Le Cameroun est une terre d\'accueil."', choices: ['Est-ce que le Cameroun est une terre d\'accueil ?','Le Cameroun, est-il une terre d\'accueil ?','Est le Cameroun une terre d\'accueil ?','Cameroun est-il une terre d\'accueil ?'], answer: 1, niveau: 'expert', matiere: 'francais', explication: 'L\'inversion sujet-verbe : Le Cameroun → Le Cameroun, est-il...' }
+    ]
+  },
+  {
+    id: 2, titre: 'Séquence 2', sousTitre: 'Dimensions et Nutrition',
+    periode: 'Oct – Nov', emoji: '📐',
+    matieres: ['francais','maths','sciences','histoire','geographie'],
+    questionsExpert: [
+      { q: 'Un terrain rectangulaire a un périmètre de 60m. Sa largeur est 10m. Quelle est sa longueur ?', choices: ['20m','25m','30m','40m'], answer: 0, niveau: 'expert', matiere: 'maths', explication: 'P = 2(L+l) → 60 = 2(L+10) → L = 20m.' },
+      { q: 'Dans "L\'élève, attentif, écoute son maître", quelle est la fonction de "attentif" ?', choices: ['Épithète liée','Attribut du sujet','Épithète détachée','Complément circonstanciel'], answer: 2, niveau: 'expert', matiere: 'francais', explication: 'Séparé par des virgules = épithète détachée (ou apposée).' },
+      { q: 'Pourquoi la salive est-elle la première étape de la digestion ?', choices: ['Elle refroidit les aliments','Elle contient des enzymes qui commencent à décomposer l\'amidon','Elle tue les microbes','Elle lubrifie seulement'], answer: 1, niveau: 'expert', matiere: 'sciences', explication: 'La salive contient l\'amylase salivaire qui transforme l\'amidon en sucre.' },
+      { q: 'Le Mont Cameroun est actif. Quelle est une conséquence POSITIVE pour les populations ?', choices: ['Les éruptions détruisent les cultures','Les sols volcaniques sont très fertiles','Les villages doivent être évacués','La lave pollue les rivières'], answer: 1, niveau: 'expert', matiere: 'geographie', explication: 'La lave refroidie donne des sols basaltiques extrêmement riches en minéraux.' },
+      { q: 'Quelle différence entre un Droit et un Devoir ? Choisis l\'exemple correct.', choices: ['Droit : aller à l\'école / Devoir : ne pas frapper','Droit : obéir aux parents / Devoir : jouer','Droit : payer les taxes / Devoir : voter','Droit : punir un camarade / Devoir : étudier'], answer: 0, niveau: 'expert', matiere: 'histoire', explication: 'Le droit est ce à quoi on peut prétendre ; le devoir est une obligation.' }
+    ]
+  },
+  {
+    id: 3, titre: 'Séquence 3', sousTitre: 'Systèmes Vivants et Résistances',
+    periode: 'Nov – Déc', emoji: '🩸',
+    matieres: ['francais','maths','sciences','histoire','geographie'],
+    questionsExpert: [
+      { q: '15,75 litres de jus partagés entre 5 amis. Combien de millilitres chacun reçoit-il ?', choices: ['315 ml','3 150 ml','1 575 ml','157,5 ml'], answer: 1, niveau: 'expert', matiere: 'maths', explication: '15,75 ÷ 5 = 3,15 litres = 3 150 ml. Piège : penser à convertir !' },
+      { q: 'Conjugue "prendre" au passé composé à la 1ère personne du pluriel.', choices: ['Nous avons pris','Nous prenions','Nous avons prendu','Nous prîmes'], answer: 0, niveau: 'expert', matiere: 'francais', explication: '"Prendre" → participe passé irrégulier : pris. Auxiliaire : avoir.' },
+      { q: 'Pourquoi le sang sortant des poumons est-il plus rouge ?', choices: ['Il est plus chaud','Il est chargé d\'oxygène (O₂)','Il contient du fer','Il est plus rapide'], answer: 1, niveau: 'expert', matiere: 'sciences', explication: 'L\'hémoglobine liée à O₂ (oxyhémoglobine) est de couleur rouge vif.' },
+      { q: 'Compare Douala Manga Bell et Martin Paul Samba : quelle était la méthode de résistance de Manga Bell ?', choices: ['Résistance militaire','Résistance diplomatique et juridique','Résistance religieuse','Résistance par la fuite'], answer: 1, niveau: 'expert', matiere: 'histoire', explication: 'Manga Bell a porté son combat devant les tribunaux allemands. Samba a opté pour les armes.' },
+      { q: 'Comment le climat du Grand Nord influence-t-il les constructions ?', choices: ['Maisons en bois pour la chaleur','Maisons en terre avec toit plat pour résister à la sécheresse','Maisons sur pilotis contre les inondations','Maisons en béton pour la pluie'], answer: 1, niveau: 'expert', matiere: 'geographie', explication: 'Dans les zones sèches, les toits plats et la terre stabilisée limitent la chaleur.' }
+    ]
+  },
+  {
+    id: 4, titre: 'Séquence 4', sousTitre: 'Proportionnalité et Souveraineté',
+    periode: 'Jan – Fév', emoji: '⚖️',
+    matieres: ['francais','maths','sciences','histoire','geographie'],
+    questionsExpert: [
+      { q: 'Article : 5 000 FCFA. Hausse 20% puis taxe 10%. Quel est le prix final ?', choices: ['5 500 FCFA','6 000 FCFA','6 600 FCFA','5 600 FCFA'], answer: 2, niveau: 'expert', matiere: 'maths', explication: '5 000 × 1,20 = 6 000 puis 6 000 × 1,10 = 6 600 FCFA.' },
+      { q: 'Remplace par un pronom relatif : "J\'ai lu le livre. Tu m\'as conseillé ce livre."', choices: ['J\'ai lu le livre que tu m\'as conseillé.','J\'ai lu le livre qui tu m\'as conseillé.','J\'ai lu le livre dont tu m\'as conseillé.','J\'ai lu le livre lequel tu m\'as conseillé.'], answer: 0, niveau: 'expert', matiere: 'francais', explication: '"Ce livre" est COD du verbe conseiller → pronom relatif "que".' },
+      { q: 'Que s\'est-il passé le 1er janvier 1960 pour le Cameroun ?', choices: ['Réunification avec le Cameroun anglophone','Indépendance de la partie sous tutelle française','Première élection présidentielle','Signature de la constitution'], answer: 1, niveau: 'expert', matiere: 'histoire', explication: 'Le Cameroun français devient indépendant le 1er janvier 1960.' },
+      { q: 'Pourquoi l\'isoloir est-il obligatoire lors d\'un vote ?', choices: ['Pour compter les bulletins','Pour garantir le secret et la liberté du vote','Pour éviter les fraudes seulement','Car la loi l\'exige sans raison précise'], answer: 1, niveau: 'expert', matiere: 'histoire', explication: 'Le secret du vote protège chaque citoyen des pressions extérieures.' },
+      { q: 'Si les reins ne fonctionnent plus, pourquoi est-ce mortel ?', choices: ['Le sang ne circule plus','Les toxines et déchets s\'accumulent dans le sang','Le corps ne produit plus d\'hormones','L\'estomac cesse de fonctionner'], answer: 1, niveau: 'expert', matiere: 'sciences', explication: 'Les reins filtrent le sang. Sans eux, l\'urée et les toxines empoisonnent l\'organisme.' }
+    ]
+  },
+  {
+    id: 5, titre: 'Séquence 5', sousTitre: 'Espaces et Économie',
+    periode: 'Fév – Mars', emoji: '🏭',
+    matieres: ['francais','maths','sciences','histoire','geographie'],
+    questionsExpert: [
+      { q: 'Volume d\'un réservoir cubique dont la face a une aire de 9m². Quel est son volume ?', choices: ['27m³','9m³','18m³','3m³'], answer: 0, niveau: 'expert', matiere: 'maths', explication: 'Aire=9m² → côté=√9=3m → Volume = 3³ = 27m³.' },
+      { q: 'Mets à la voix passive : "Le planteur de l\'Ouest récolte le café."', choices: ['Le café est récolté par le planteur de l\'Ouest.','Le café récolte le planteur de l\'Ouest.','Le café a été récolté par le planteur.','Le planteur est récolté par le café.'], answer: 0, niveau: 'expert', matiere: 'francais', explication: 'Sujet actif → complément d\'agent. Verbe conjugué avec être + participe passé.' },
+      { q: 'Quelle différence entre énergie renouvelable et fossile ? Exemple camerounais de renouvelable ?', choices: ['Le pétrole de Limbé est renouvelable','L\'énergie solaire et hydroélectrique (Nachtigal) sont renouvelables','Le gaz naturel est renouvelable','Le charbon de Mamfé est renouvelable'], answer: 1, niveau: 'expert', matiere: 'sciences', explication: 'Solaire et hydraulique se régénèrent naturellement. Le pétrole non.' },
+      { q: 'Pourquoi le port de Kribi est-il qualifié de port en eau profonde ?', choices: ['Car il est plus grand que Douala','Car ses fonds permettent d\'accueillir les plus grands navires cargo','Car l\'eau y est plus salée','Car il est protégé par une baie'], answer: 1, niveau: 'expert', matiere: 'geographie', explication: 'La profondeur naturelle de Kribi évite le dragage constant nécessaire à Douala.' },
+      { q: 'Cite une institution spécialisée de l\'ONU pour l\'éducation et explique son rôle.', choices: ['OMS : soins de santé mondiaux','UNESCO : promotion de l\'éducation, des sciences et de la culture','UNICEF : protection des enfants uniquement','FAO : sécurité alimentaire'], answer: 1, niveau: 'expert', matiere: 'histoire', explication: 'UNESCO = United Nations Educational, Scientific and Cultural Organization.' }
+    ]
+  },
+  {
+    id: 6, titre: 'Séquence 6', sousTitre: 'Synthèse & Examen Blanc',
+    periode: 'Avr – Mai', emoji: '🏆',
+    matieres: ['francais','maths','sciences','histoire','geographie'],
+    questionsExpert: [
+      { q: 'Train Douala→Yaoundé : départ 8h, arrivée 11h30, distance 260km. Vitesse moyenne ?', choices: ['74,3 km/h','80 km/h','65 km/h','88,6 km/h'], answer: 0, niveau: 'expert', matiere: 'maths', explication: 'Durée = 3h30 = 3,5h. V = 260 ÷ 3,5 = 74,3 km/h.' },
+      { q: 'Quels sont les piliers de la paix sociale au Cameroun ?', choices: ['Armée, police, justice','Dialogue, intégration nationale, bilinguisme','Football, musique, tradition','Pétrole, cacao, bois'], answer: 1, niveau: 'expert', matiere: 'histoire', explication: 'Le Président Biya insiste sur ces trois piliers dans ses discours officiels.' },
+      { q: 'Pourquoi ne pas utiliser d\'engrais chimiques près d\'un cours d\'eau ?', choices: ['L\'eau devient trop froide','Les nitrates polluent l\'eau et provoquent la prolifération d\'algues (eutrophisation)','Le poisson mange les engrais','L\'eau devient trop chaude'], answer: 1, niveau: 'expert', matiere: 'sciences', explication: 'Les nitrates entraînent l\'eutrophisation : les algues étouffent les poissons.' },
+      { q: 'Syllogisme : "Tous les élèves d\'École Joyeuse réussissent au CEP. Tu es élève d\'École Joyeuse." Que peut-on conclure ?', choices: ['Tu pourrais réussir au CEP','Tu réussiras certainement au CEP','On ne peut rien conclure','Tu dois travailler davantage'], answer: 1, niveau: 'expert', matiere: 'francais', explication: 'Syllogisme déductif : si tous → X, et tu es dans X → tu réussiras.' },
+      { q: 'Capital 200 000 FCFA, taux annuel 5%, durée 2 ans. Quel est l\'intérêt simple total ?', choices: ['10 000 FCFA','20 000 FCFA','5 000 FCFA','40 000 FCFA'], answer: 1, niveau: 'expert', matiere: 'maths', explication: 'I = C × t × n = 200 000 × 0,05 × 2 = 20 000 FCFA.' }
+    ]
+  }
+];
+
+// ---- État CEP ----
+let cepState = {
+  questions: [], index: 0, score: 0, answered: false, history: [],
+  seqId: null, isExamenBlanc: false, timerInterval: null, timeLeft: 0
+};
+
+// ---- Scores séquences (localStorage) ----
+function getCepSeqScores() {
+  return JSON.parse(localStorage.getItem('cep_seq_scores') || '{}');
+}
+function saveCepSeqScore(seqId, pct) {
+  const scores = getCepSeqScores();
+  if (!scores[seqId] || pct > scores[seqId]) scores[seqId] = pct;
+  localStorage.setItem('cep_seq_scores', JSON.stringify(scores));
+}
+
+// ---- Ouvrir le menu CEP ----
+function ouvrirMenuCEP() {
+  renderCepMenuSeq();
+  renderCepStatsPanel();
+  renderCepCountdown();
+  showScreen('cepMenuScreen');
+}
+
+function renderCepCountdown() {
+  const badge = document.getElementById('cepCountdownBadge');
+  if (!badge) return;
+  const now = new Date();
+  const year = now.getMonth() >= 5 ? now.getFullYear() + 1 : now.getFullYear();
+  const cep = new Date(year, 4, 28); // ~28 mai
+  const jours = Math.ceil((cep - now) / 86400000);
+  badge.textContent = jours > 0 ? `⏳ CEP dans ${jours} jours` : '🎓 Période CEP !';
+}
+
+function renderCepMenuSeq() {
+  const container = document.getElementById('cepSeqList');
+  if (!container) return;
+  const scores = getCepSeqScores();
+  container.innerHTML = CEP_SEQUENCES.map((seq, idx) => {
+    const prevUnlocked = idx === 0 || (scores[idx] !== undefined && scores[idx] >= 80);
+    const thisScore = scores[seq.id];
+    const unlocked = idx === 0 || (scores[idx] !== undefined && scores[idx] >= 80);
+    const done = thisScore !== undefined;
+    const passed = thisScore >= 80;
+
+    let statusBg = unlocked ? '#fff' : '#f5f5f5';
+    let statusIcon = unlocked ? (done ? (passed ? '✅' : '🔄') : '▶️') : '🔒';
+    let borderColor = passed ? '#007A5E' : unlocked ? '#ddd' : '#eee';
+
+    return `<div onclick="${unlocked ? 'lancerSeqCEP(' + seq.id + ')' : ''}" style="
+      background:${statusBg};border:2px solid ${borderColor};border-radius:12px;
+      padding:12px 14px;margin-bottom:8px;display:flex;align-items:center;gap:12px;
+      cursor:${unlocked ? 'pointer' : 'default'};opacity:${unlocked ? 1 : 0.55};
+      transition:all .2s
+    ">
+      <div style="font-size:1.8em">${seq.emoji}</div>
+      <div style="flex:1">
+        <div style="font-weight:700;font-size:.9em;color:#333">${seq.titre} — ${seq.sousTitre}</div>
+        <div style="font-size:.72em;color:#888">${seq.periode} · ${seq.matieres.length} matières</div>
+        ${done ? `<div style="font-size:.72em;color:${passed ? '#007A5E' : '#CE1126'};font-weight:700;margin-top:2px">${passed ? '✓ Validée' : 'Score: ' + thisScore + '% — Réessayer'} (${thisScore}%)</div>` : ''}
+      </div>
+      <div style="font-size:1.4em">${statusIcon}</div>
+    </div>`;
+  }).join('');
+}
+
+function renderCepStatsPanel() {
+  const panel = document.getElementById('cepStatsPanel');
+  if (!panel) return;
+  const scores = getCepSeqScores();
+  const validated = Object.values(scores).filter(s => s >= 80).length;
+  panel.innerHTML = `
+    <div style="font-size:.72em;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px">📊 Mes statistiques</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+      <div style="background:#F5FDF9;border-radius:10px;padding:10px;text-align:center">
+        <div style="font-size:1.6em;font-weight:700;color:#007A5E">${validated}/6</div>
+        <div style="font-size:.72em;color:#666">Séquences validées</div>
+      </div>
+      <div style="background:#FFF8E1;border-radius:10px;padding:10px;text-align:center">
+        <div style="font-size:1.6em;font-weight:700;color:#F59E0B">${validated >= 6 ? '🏆' : Math.round(validated/6*100) + '%'}</div>
+        <div style="font-size:.72em;color:#666">Progression</div>
+      </div>
+    </div>`;
+}
+
+// ---- Lancer une séquence ----
+function lancerSeqCEP(seqId) {
+  const seq = CEP_SEQUENCES.find(s => s.id === seqId);
+  if (!seq) return;
+
+  // Pool : questions CM2 du curriculum + questions Expert de la séquence
   const pool = [];
   const cm2 = NIVEAUX['cm2'];
-  if (!cm2) { alert('Données CM2 non disponibles'); return; }
-  Object.keys(cm2).forEach(mat => {
-    if (!Array.isArray(cm2[mat])) return;
-    cm2[mat].forEach(lecon => {
-      (lecon.quiz || []).forEach(q => {
-        pool.push({ q: q.q, choices: q.choices, answer: q.answer, matiere: mat, lecon: lecon.titre });
+  if (cm2) {
+    seq.matieres.forEach(mat => {
+      if (!Array.isArray(cm2[mat])) return;
+      cm2[mat].forEach(lecon => {
+        (lecon.quiz || []).forEach(q => {
+          pool.push({ q: q.q, choices: q.choices, answer: q.answer, matiere: mat, lecon: lecon.titre, niveau: 'reperage', explication: null });
+        });
       });
     });
-  });
-  // Mélanger et tirer 10
+  }
+  // Ajouter les questions Expert de la séquence
+  seq.questionsExpert.forEach(q => pool.push({ ...q, lecon: seq.sousTitre }));
+
   const shuffled = pool.sort(() => Math.random() - .5);
-  // Équilibrer par matière : max 3 par matière
-  const selected = [];
-  const matCount = {};
+  // Équilibrer : max 2 par matière pour 10 questions
+  const selected = []; const matCount = {};
   for (const item of shuffled) {
     if (selected.length >= 10) break;
     matCount[item.matiere] = (matCount[item.matiere] || 0);
-    if (matCount[item.matiere] < 3) {
-      selected.push(item);
-      matCount[item.matiere]++;
-    }
+    if (matCount[item.matiere] < 2) { selected.push(item); matCount[item.matiere]++; }
   }
-  // Compléter si < 10
   for (const item of shuffled) {
     if (selected.length >= 10) break;
     if (!selected.includes(item)) selected.push(item);
   }
 
-  cepState = { questions: selected.slice(0, 10), index: 0, score: 0, answered: false, history: [] };
+  cepState = { questions: selected.slice(0,10), index:0, score:0, answered:false, history:[], seqId, isExamenBlanc:false, timerInterval:null, timeLeft:0 };
+  document.getElementById('cepSessionTitle').textContent = seq.titre + ' — ' + seq.sousTitre;
+  document.getElementById('cepNiveauBadge').textContent = seq.emoji;
+  document.getElementById('cepTimerDisplay').style.display = 'none';
   showScreen('cepScreen');
   renderCepQuestion();
 }
+
+// ---- Lancer l'examen blanc (Séquence 6, 20 questions, timer) ----
+function lancerExamenBlanc() {
+  const pool = [];
+  const cm2 = NIVEAUX['cm2'];
+  if (cm2) {
+    Object.keys(cm2).forEach(mat => {
+      if (!Array.isArray(cm2[mat])) return;
+      cm2[mat].forEach(lecon => {
+        (lecon.quiz || []).forEach(q => {
+          pool.push({ q:q.q, choices:q.choices, answer:q.answer, matiere:mat, lecon:lecon.titre, niveau:'reperage', explication:null });
+        });
+      });
+    });
+  }
+  // Toutes les questions Expert des 6 séquences
+  CEP_SEQUENCES.forEach(seq => {
+    seq.questionsExpert.forEach(q => pool.push({ ...q, lecon:seq.sousTitre }));
+  });
+
+  const shuffled = pool.sort(() => Math.random() - .5);
+  const matPoids = { francais:5, maths:5, sciences:3, geographie:3, histoire:4 };
+  const selected = []; const matCount = {};
+  for (const item of shuffled) {
+    if (selected.length >= 20) break;
+    matCount[item.matiere] = (matCount[item.matiere] || 0);
+    const max = matPoids[item.matiere] || 3;
+    if (matCount[item.matiere] < max) { selected.push(item); matCount[item.matiere]++; }
+  }
+  for (const item of shuffled) {
+    if (selected.length >= 20) break;
+    if (!selected.includes(item)) selected.push(item);
+  }
+
+  cepState = { questions:selected.slice(0,20), index:0, score:0, answered:false, history:[], seqId:null, isExamenBlanc:true, timerInterval:null, timeLeft:1200 };
+  document.getElementById('cepSessionTitle').textContent = '📝 Examen Blanc CEP';
+  document.getElementById('cepNiveauBadge').textContent = '⏱ 20 min';
+  const timerEl = document.getElementById('cepTimerDisplay');
+  timerEl.style.display = 'block';
+  timerEl.textContent = '20:00';
+  showScreen('cepScreen');
+  startCepTimer();
+  renderCepQuestion();
+}
+
+function startCepTimer() {
+  if (cepState.timerInterval) clearInterval(cepState.timerInterval);
+  cepState.timerInterval = setInterval(() => {
+    cepState.timeLeft--;
+    const el = document.getElementById('cepTimerDisplay');
+    if (el) {
+      const m = Math.floor(cepState.timeLeft / 60);
+      const s = cepState.timeLeft % 60;
+      el.textContent = m + ':' + (s < 10 ? '0' : '') + s;
+      el.style.background = cepState.timeLeft < 120 ? '#FCD116' : '#CE1126';
+      el.style.color = cepState.timeLeft < 120 ? '#333' : '#fff';
+    }
+    if (cepState.timeLeft <= 0) {
+      clearInterval(cepState.timerInterval);
+      showCepResults();
+    }
+  }, 1000);
+}
+
+// ---- Render question ----
+function lancerRevisionCEP() { ouvrirMenuCEP(); } // Compat ancien appel
 
 function renderCepQuestion() {
   const { questions, index } = cepState;
@@ -2453,22 +2713,24 @@ function renderCepQuestion() {
   document.getElementById('cepCurrent').textContent = index + 1;
   document.getElementById('cepTotal').textContent = total;
   document.getElementById('cepProgressBar').style.width = Math.round(index / total * 100) + '%';
-  document.getElementById('cepMatBadge').textContent = MAT_LABELS[q.matiere] || q.matiere;
 
-  const container = document.getElementById('cepQuestionContainer');
+  const niveauColor = q.niveau === 'expert' ? '#CE1126' : q.niveau === 'application' ? '#2563EB' : '#F59E0B';
+  const niveauLabel = q.niveau === 'expert' ? '🔴 Niveau Expert' : q.niveau === 'application' ? '🔵 Application' : '🟡 Repérage';
+  document.getElementById('cepMatBadge').innerHTML = `${MAT_LABELS[q.matiere] || q.matiere} &nbsp;<span style="color:${niveauColor};font-size:.85em">${niveauLabel}</span>`;
+
   const letters = ['A','B','C','D'];
+  const container = document.getElementById('cepQuestionContainer');
   container.innerHTML = `
-    <div style="background:#fff;border-radius:14px;padding:16px;margin-bottom:12px;box-shadow:0 2px 8px rgba(0,0,0,.07)">
+    <div style="background:#fff;border-radius:14px;padding:16px;margin-bottom:12px;box-shadow:0 2px 8px rgba(0,0,0,.07);border-left:4px solid ${niveauColor}">
       <p style="font-size:1em;font-weight:600;color:#333;line-height:1.5;margin-bottom:4px">${q.q}</p>
-      <p style="font-size:.75em;color:#aaa;margin-bottom:0">Leçon : ${q.lecon}</p>
+      <p style="font-size:.72em;color:#bbb;margin-bottom:0">Leçon : ${q.lecon}</p>
     </div>
     ${q.choices.map((c, i) => `
-      <button class="cep-choice" id="cep-choice-${i}" onclick="cepAnswer(${i})">
-        <span style="min-width:22px;height:22px;border-radius:50%;background:#F5FDF9;border:1.5px solid #d0ede4;display:flex;align-items:center;justify-content:center;font-size:.75em;font-weight:700;color:#007A5E;flex-shrink:0">${letters[i]}</span>
-        ${c}
+      <button class="cep-choice" id="cep-choice-${i}" onclick="cepAnswer(${i})" style="text-align:left;display:flex;align-items:center;gap:10px">
+        <span style="min-width:24px;height:24px;border-radius:50%;background:#F5FDF9;border:1.5px solid #d0ede4;display:flex;align-items:center;justify-content:center;font-size:.8em;font-weight:700;color:#007A5E;flex-shrink:0">${letters[i]}</span>
+        <span>${c}</span>
       </button>`).join('')}
-    <div id="cepExplication" style="display:none"></div>
-  `;
+    <div id="cepExplication" style="display:none"></div>`;
   cepState.answered = false;
 }
 
@@ -2480,7 +2742,6 @@ function cepAnswer(chosen) {
   const isCorrect = chosen === correct;
   if (isCorrect) cepState.score++;
 
-  // Feedback visuel
   for (let i = 0; i < q.choices.length; i++) {
     const btn = document.getElementById('cep-choice-' + i);
     if (btn) {
@@ -2489,19 +2750,23 @@ function cepAnswer(chosen) {
       else if (i === chosen && !isCorrect) btn.classList.add('wrong');
     }
   }
-  // Explication
+
+  // Explication enrichie + micro-leçon
   const expDiv = document.getElementById('cepExplication');
   if (expDiv) {
     expDiv.style.display = 'block';
     expDiv.className = 'cep-explication';
-    expDiv.innerHTML = isCorrect
-      ? '✅ Bonne réponse ! <strong>' + q.choices[correct] + '</strong>'
-      : '❌ La bonne réponse est : <strong>' + q.choices[correct] + '</strong>';
+    let html = isCorrect
+      ? `<div style="color:#007A5E;font-weight:700;margin-bottom:4px">✅ Bonne réponse !</div>`
+      : `<div style="color:#CE1126;font-weight:700;margin-bottom:4px">❌ La bonne réponse est : <strong>${q.choices[correct]}</strong></div>`;
+    if (q.explication) {
+      html += `<div style="background:#F5FDF9;border-radius:8px;padding:8px 10px;font-size:.82em;color:#374151;margin-top:6px;border-left:3px solid #007A5E">💡 <strong>Micro-leçon :</strong> ${q.explication}</div>`;
+    }
+    expDiv.innerHTML = html;
   }
-  // Sauvegarder dans l'historique
-  cepState.history.push({ q: q.q, correct: q.choices[correct], chosen: q.choices[chosen], ok: isCorrect, matiere: q.matiere });
 
-  // TTS
+  cepState.history.push({ q:q.q, correct:q.choices[correct], chosen:q.choices[chosen], ok:isCorrect, matiere:q.matiere, niveau:q.niveau||'reperage', explication:q.explication });
+
   const msg = isCorrect ? 'Bonne réponse !' : 'La bonne réponse est ' + q.choices[correct];
   if (window.speechSynthesis) {
     const utt = new SpeechSynthesisUtterance(EJ_Phonetique.corriger(msg));
@@ -2509,7 +2774,6 @@ function cepAnswer(chosen) {
     window.speechSynthesis.speak(utt);
   }
 
-  // Bouton Suivant
   const container = document.getElementById('cepQuestionContainer');
   const nextBtn = document.createElement('button');
   nextBtn.className = 'btn btn-primary';
@@ -2525,58 +2789,101 @@ function cepNext() {
   renderCepQuestion();
 }
 
+function cepRetry() {
+  if (cepState.seqId) lancerSeqCEP(cepState.seqId);
+  else lancerExamenBlanc();
+}
+
 function showCepResults() {
-  const { score, questions, history } = cepState;
+  if (cepState.timerInterval) clearInterval(cepState.timerInterval);
+  const { score, questions, history, seqId, isExamenBlanc } = cepState;
   const total = questions.length;
   const pct = Math.round(score / total * 100);
 
   document.getElementById('cepProgressBar').style.width = '100%';
 
-  // Titre et message
   let title, msg;
-  if (pct >= 80) {
-    title = 'Excellent ! 🏆';
-    msg = 'Tu es prêt(e) pour le CEP ! Continue à réviser et tu réussiras haut la main.';
-  } else if (pct >= 60) {
-    title = 'Bien joué ! 👍';
-    msg = 'Tu progresses bien. Revois les leçons où tu as fait des erreurs et retente !';
-  } else if (pct >= 40) {
-    title = 'Continue ! 💪';
-    msg = 'Il faut encore travailler. Relis les leçons CM2 et recommence la révision.';
-  } else {
-    title = 'Ne lâche pas ! 📚';
-    msg = 'Le CEP demande de la persévérance. Reprends les leçons depuis le début et tu progresseras !';
-  }
+  if (pct >= 80) { title = 'Excellent ! 🏆'; msg = 'Tu es prêt(e) pour le CEP !'; }
+  else if (pct >= 60) { title = 'Bien joué ! 👍'; msg = 'Revois les erreurs et retente !'; }
+  else if (pct >= 40) { title = 'Continue ! 💪'; msg = 'Relis les leçons CM2 et recommence.'; }
+  else { title = 'Ne lâche pas ! 📚'; msg = 'Reprends les leçons depuis le début.'; }
 
   document.getElementById('cepResultTitle').textContent = title;
   document.getElementById('cepScoreNum').textContent = score + '/' + total;
   document.getElementById('cepResultMsg').textContent = msg;
+  document.getElementById('cepStars').textContent = pct >= 80 ? '⭐⭐⭐' : pct >= 60 ? '⭐⭐' : '⭐';
 
-  // Étoiles
-  const stars = pct >= 80 ? '⭐⭐⭐' : pct >= 60 ? '⭐⭐' : '⭐';
-  document.getElementById('cepStars').textContent = stars;
+  // Sauvegarder score séquence
+  if (seqId) saveCepSeqScore(seqId, pct);
 
-  // XP bonus
+  // Tableau scores par matière
+  const matScores = {};
+  const matTotals = {};
+  history.forEach(h => {
+    matScores[h.matiere] = (matScores[h.matiere] || 0) + (h.ok ? 1 : 0);
+    matTotals[h.matiere] = (matTotals[h.matiere] || 0) + 1;
+  });
+  const matEl = document.getElementById('cepMatScores');
+  if (matEl) {
+    const rows = Object.keys(matTotals).map(mat => {
+      const s = matScores[mat] || 0;
+      const t = matTotals[mat];
+      const p = Math.round(s/t*100);
+      const barColor = p >= 80 ? '#007A5E' : p >= 60 ? '#F59E0B' : '#CE1126';
+      return `<div style="margin-bottom:8px">
+        <div style="display:flex;justify-content:space-between;margin-bottom:3px">
+          <span style="color:rgba(255,255,255,.9);font-size:.78em;font-weight:600">${MAT_LABELS[mat]||mat}</span>
+          <span style="color:#FCD116;font-size:.78em;font-weight:700">${s}/${t}</span>
+        </div>
+        <div style="background:rgba(255,255,255,.2);border-radius:4px;height:6px">
+          <div style="width:${p}%;height:100%;background:${barColor};border-radius:4px;transition:width .5s"></div>
+        </div>
+      </div>`;
+    }).join('');
+    matEl.innerHTML = `<div style="color:rgba(255,255,255,.7);font-size:.72em;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px">Résultats par matière</div>${rows}`;
+  }
+
+  // Verrou message
+  const verrouEl = document.getElementById('cepVerrouMsg');
+  if (verrouEl && seqId) {
+    if (pct >= 80) {
+      const nextSeq = CEP_SEQUENCES.find(s => s.id === seqId + 1);
+      verrouEl.style.display = 'block';
+      verrouEl.innerHTML = nextSeq
+        ? `🔓 <strong>Séquence ${nextSeq.id} débloquée !</strong> "${nextSeq.sousTitre}" est maintenant accessible.`
+        : `🏆 <strong>Toutes les séquences validées !</strong> Tu es prêt(e) pour le vrai CEP.`;
+    } else {
+      verrouEl.style.display = 'block';
+      verrouEl.innerHTML = `🔒 Score minimum 80% requis pour valider cette séquence. Tu as ${pct}%. Réessaie !`;
+    }
+  } else if (verrouEl) { verrouEl.style.display = 'none'; }
+
+  // XP
   if (state.eleve) {
-    const xpGain = score * 15;
+    const xpGain = isExamenBlanc ? score * 20 : score * 15;
     state.eleve.xp = (state.eleve.xp || 0) + xpGain;
     localStorage.setItem('ecoleJoyeuse', JSON.stringify(state.eleve));
   }
 
-  // Récap des erreurs
+  // Récap erreurs
   const errors = history.filter(h => !h.ok);
   const reviewDiv = document.getElementById('cepReviewList');
-  if (errors.length === 0) {
-    reviewDiv.innerHTML = '<p style="color:rgba(255,255,255,.8);text-align:center;font-size:.85em">&#127881; Zéro erreur — performance parfaite !</p>';
-  } else {
-    reviewDiv.innerHTML = '<p style="color:rgba(255,255,255,.7);font-size:.78em;margin-bottom:8px;font-weight:600">À revoir :</p>' +
-      errors.map(h => `<div class="cep-review-item wrong">
-        <div class="cep-review-q">${h.q}</div>
-        <div class="cep-review-wrong">✗ ${h.chosen}</div>
-        <div class="cep-review-ans">✓ ${h.correct}</div>
-      </div>`).join('');
+  if (reviewDiv) {
+    if (errors.length === 0) {
+      reviewDiv.innerHTML = '<div style="color:rgba(255,255,255,.8);text-align:center;font-size:.85em;padding:12px">🎉 Zéro erreur — performance parfaite !</div>';
+    } else {
+      reviewDiv.innerHTML = '<div style="color:rgba(255,255,255,.7);font-size:.78em;font-weight:700;margin-bottom:8px">À revoir :</div>' +
+        errors.slice(0,5).map(h => `<div style="background:rgba(206,17,38,.3);border-radius:10px;padding:10px;margin-bottom:8px;border:1px solid rgba(206,17,38,.4)">
+          <div style="color:#fff;font-size:.82em;font-weight:600;margin-bottom:4px">${h.q}</div>
+          <div style="color:rgba(255,150,150,.9);font-size:.75em">✗ ${h.chosen}</div>
+          <div style="color:#FCD116;font-size:.75em">✓ ${h.correct}</div>
+          ${h.explication ? `<div style="color:rgba(255,255,255,.7);font-size:.72em;margin-top:4px;font-style:italic">💡 ${h.explication}</div>` : ''}
+        </div>`).join('') +
+        (errors.length > 5 ? `<div style="color:rgba(255,255,255,.5);font-size:.72em;text-align:center">${errors.length - 5} autres erreurs…</div>` : '');
+    }
   }
 
+  document.getElementById('cepRetryBtn').textContent = isExamenBlanc ? '🔄 Refaire l\'Examen Blanc' : '🔄 Réessayer la séquence';
   showScreen('cepResultsScreen');
 }
 
@@ -2781,16 +3088,7 @@ const EJ_Phonetique = {
 };
 
 
-// ══════════════════════════════════════════════════════
-// MODE RÉVISION CEP
-// ══════════════════════════════════════════════════════
-let cepQuestions = [];
-let cepCurrentIndex = 0;
-let cepScore = 0;
-let cepTimer = null;
-let cepTimeLeft = 1200; // 20 minutes en secondes
-let cepUserAnswers = [];
-let cepStats = JSON.parse(localStorage.getItem('cep_stats') || '{"tentatives":0,"total_score":0,"best":0,"dates":[]}');
+// (variables CEP gérées dans le bloc MODE RÉVISION CEP ci-dessus)
 
 
 
