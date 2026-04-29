@@ -1354,7 +1354,7 @@ const CODES_PREMIUM = {
 };
 
 // ─── ÉTAT ────────────────────────────────────────────────────
-const NIVEAUX_PREMIUM = ['ce2','cm1','cm2'];
+const NIVEAUX_PREMIUM = []; // Promo : tous niveaux gratuits
 const PREMIUM_KEY     = 'ej_premium';
 let   _payTarifChoisi = 'annee';
 
@@ -1915,7 +1915,7 @@ function renderSequences() {
         const done = (state.eleve.completedLessons || []).includes(lKey);
         const prevIdx = l._idx - 1;
         const isFirstInSeq = seqLessons[0]._idx === l._idx;
-        let lessonUnlocked = isFirstInSeq || l._idx === 0 || (state.eleve.completedLessons || []).includes(state.currentNiveau + '_' + state.currentMatiere + '_' + prevIdx);
+        let lessonUnlocked = isPremium() || isFirstInSeq || l._idx === 0 || (state.eleve.completedLessons || []).includes(state.currentNiveau + '_' + state.currentMatiere + '_' + prevIdx);
         html += `<div class="lesson-card${lessonUnlocked ? '' : ' locked'}" ${lessonUnlocked ? `onclick="openLesson(${l._idx})"` : `onclick="showLockedMsg()"`} style="display:flex;align-items:center;gap:12px;padding:10px 12px;border-bottom:1px solid #f0f0f0">
           <div class="lesson-num" style="${!lessonUnlocked ? 'background:#ddd;color:#aaa' : ''}">${l._idx + 1}</div>
           <div style="flex:1;${!lessonUnlocked ? 'color:#aaa' : ''}"><strong>${l.titre}</strong></div>
@@ -2579,7 +2579,7 @@ function renderCepMenuSeq() {
   container.innerHTML = CEP_SEQUENCES.map((seq, idx) => {
     const prevUnlocked = idx === 0 || (scores[idx] !== undefined && scores[idx] >= 80);
     const thisScore = scores[seq.id];
-    const unlocked = idx === 0 || (scores[idx] !== undefined && scores[idx] >= 80);
+    const unlocked = isPremium() || idx === 0 || (scores[idx] !== undefined && scores[idx] >= 80);
     const done = thisScore !== undefined;
     const passed = thisScore >= 80;
 
