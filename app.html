@@ -8,7 +8,6 @@
 <meta name="apple-mobile-web-app-title" content="École Joyeuse">
 <meta name="theme-color" content="#007A5E">
 <meta name="description" content="École Joyeuse — Apprentissage primaire MINEDUB Cameroun. SIL au CM2.">
-<link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icon-192.png">
 <title>École Joyeuse</title>
 <style>
@@ -5660,16 +5659,20 @@ function isClasseLocked(classe) {
    SERVICE WORKER + INIT
    ════════════════════════════════════════════════════════════════ */
 function registerSW() {
-  // Skip en mode standalone : le JSON est inliné, le SW n'a aucun intérêt
+  // PWA DÉSACTIVÉ — phase démo (visite uniquement, aucune installation autorisée).
+  // Ce code nettoie automatiquement les visiteurs qui auraient une ancienne version PWA installée.
   if (window.__CURRICULUM__) return;
   if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('./service-worker.js').then(reg => {
-        console.log('[SW] registered:', reg.scope);
-      }).catch(err => {
-        console.warn('[SW] registration failed:', err);
+    navigator.serviceWorker.getRegistrations().then(regs => {
+      regs.forEach(reg => {
+        reg.unregister().then(() => console.log('[SW] ancien service worker désenregistré'));
       });
     });
+    if (window.caches) {
+      caches.keys().then(keys => {
+        keys.forEach(k => caches.delete(k).then(() => console.log('[Cache] purgé:', k)));
+      });
+    }
   }
 }
 
