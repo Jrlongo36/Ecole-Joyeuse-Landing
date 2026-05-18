@@ -1,91 +1,55 @@
-// Service Worker École Joyeuse v2.0
-// Stratégie: Cache-first pour assets, Network-first pour API
-
-const CACHE_NAME = 'ecole-joyeuse-v2.0';
-const ASSETS_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/ecole_joyeuse_icon.png',
-  '/ecole_joyeuse_square.png'
+// École Joyeuse — Service Worker v3.1.0
+// Stratégie : cache-first pour assets statiques + JSON, network-first pour mises à jour
+const CACHE_NAME = 'ecole-joyeuse-v3.1.0';
+const PRECACHE = [
+  './',
+  './index.html',
+  './manifest.json',
+  './ecole_joyeuse_curriculum.json',
+  './examens_cep_concours.json',
+  './icon-192.png',
+  './icon-512.png'
 ];
 
-// Installation : cache les assets essentiels
-self.addEventListener('install', (event) => {
-  console.log('[SW] Installation...');
+// Installation : pré-cache des assets essentiels
+self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then((cache) => {
-        console.log('[SW] Cache ouvert, ajout des assets');
-        return cache.addAll(ASSETS_TO_CACHE);
-      })
+      .then(cache => cache.addAll(PRECACHE).catch(err => {
+        console.warn('[SW] Some assets failed to precache:', err);
+      }))
       .then(() => self.skipWaiting())
   );
 });
 
-// Activation : nettoie les anciens caches
-self.addEventListener('activate', (event) => {
-  console.log('[SW] Activation...');
+// Activation : nettoyer les anciens caches
+self.addEventListener('activate', event => {
   event.waitUntil(
-    caches.keys().then((cacheNames) => {
-      return Promise.all(
-        cacheNames.map((cacheName) => {
-          if (cacheName !== CACHE_NAME) {
-            console.log('[SW] Suppression ancien cache:', cacheName);
-            return caches.delete(cacheName);
-          }
-        })
-      );
-    }).then(() => self.clients.claim())
+    caches.keys().then(names =>
+      Promise.all(names.filter(n => n !== CACHE_NAME).map(n => caches.delete(n)))
+    ).then(() => self.clients.claim())
   );
 });
 
-// Fetch : stratégie cache-first
-self.addEventListener('fetch', (event) => {
-  // Ignore non-GET requests
-  if (event.request.method !== 'GET') return;
-  
-  // Ignore chrome-extension et autres protocoles
-  if (!event.request.url.startsWith('http')) return;
-  
+// Fetch : cache-first pour les ressources de l'app
+self.addEventListener('fetch', event => {
+  const req = event.request;
+  if (req.method !== 'GET') return;
+
   event.respondWith(
-    caches.match(event.request)
-      .then((cachedResponse) => {
-        if (cachedResponse) {
-          console.log('[SW] Réponse depuis cache:', event.request.url);
-          return cachedResponse;
+    caches.match(req).then(cached => {
+      if (cached) return cached;
+      return fetch(req).then(response => {
+        // Mettre en cache la réponse pour les futures requêtes
+        if (response && response.status === 200 && response.type === 'basic') {
+          const respClone = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(req, respClone));
         }
-        
-        console.log('[SW] Fetch réseau:', event.request.url);
-        return fetch(event.request).then((response) => {
-          // Ne cache que les réponses valides
-          if (!response || response.status !== 200 || response.type !== 'basic') {
-            return response;
-          }
-          
-          // Clone la réponse car elle ne peut être consommée qu'une fois
-          const responseToCache = response.clone();
-          
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, responseToCache);
-          });
-          
-          return response;
-        }).catch(() => {
-          // Fallback offline
-          console.log('[SW] Offline, pas de cache disponible');
-          return new Response(
-            '<h1>Offline</h1><p>Cette ressource n\'est pas disponible hors ligne.</p>',
-            { headers: { 'Content-Type': 'text/html' } }
-          );
-        });
-      })
+        return response;
+      }).catch(() => {
+        // Offline : fallback sur l'index pour la navigation
+        if (req.mode === 'navigate') return caches.match('./index.html');
+      });
+    })
   );
-});
-
-// Message handler (pour communication avec l'app)
-self.addEventListener('message', (event) => {
-  if (event.data && event.data.type === 'SKIP_WAITING') {
-    self.skipWaiting();
-  }
 });
