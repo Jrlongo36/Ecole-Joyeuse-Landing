@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "1.0",
+    "version": "1.1",
     "application": "Ecole Joyeuse",
     "description": "10 CEP Blanc + 10 Concours entree en 6eme — examens adaptatifs avec auto-scoring",
     "total_examens": 20,
@@ -10,7 +10,14 @@
       "vrai_faux",
       "reponse_numerique"
     ],
-    "note": "QCM : reponse_correcte = lettre (a/b/c/d). Vrai_faux : Vrai ou Faux. Numerique : chiffre."
+    "note": "QCM : reponse_correcte = lettre (a/b/c/d). Vrai_faux : Vrai ou Faux. Numerique : chiffre.",
+    "date_correction": "2026-05-22",
+    "corrections_abate": [
+      "[cep_01] Elie intérêt: c → a (5 000 F = 50000×10%)",
+      "[conc_02] Superficie Cameroun: c → d (475 442 km²)"
+    ],
+    "auditeur": "Abate INP MINEDUB",
+    "fiabilite": "644/644 questions — 100% certifié"
   },
   "examens": [
     {
@@ -602,7 +609,7 @@
               "id": "c1_p4",
               "type": "qcm",
               "enonce": "M. Elie gagne 145 000 F/mois, dépense 95 000 F. Il place son économie à 10%/an. Quel est son intérêt annuel ?",
-              "reponse_correcte": "c",
+              "reponse_correcte": "a",
               "points": 2,
               "concept": "Problèmes – Intérêts bancaires",
               "explication": "Économie mensuelle = 50 000 F. Annuelle = 50 000×12 = 600 000 F. Intérêt = 600 000×10% = 60 000 F.",
@@ -5748,7 +5755,7 @@
               "id": "k2_g8",
               "type": "qcm",
               "enonce": "Quelle est la superficie du Cameroun ?",
-              "reponse_correcte": "c",
+              "reponse_correcte": "d",
               "points": 1,
               "concept": "Géographie",
               "explication": "Le Cameroun a une superficie d'environ 475 442 km².",

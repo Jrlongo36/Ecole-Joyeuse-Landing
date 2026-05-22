@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "date": "2026-05-22",
+  "classes": [
+    {
+      "id": "CP",
+      "label": "CP",
+      "file": "curriculum_CP.json",
+      "schema_version": "v3.1",
+      "active": true
+    },
+    {
+      "id": "CE1",
+      "label": "CE1",
+      "file": "curriculum_CE1.json",
+      "schema_version": "v3.1",
+      "active": true
+    },
+    {
+      "id": "CE2",
+      "label": "CE2",
+      "file": "curriculum_CE2.json",
+      "schema_version": "v3.1",
+      "active": true
+    },
+    {
+      "id": "CM1",
+      "label": "CM1",
+      "file": "curriculum_CM1.json",
+      "schema_version": "v3.1",
+      "active": true
+    },
+    {
+      "id": "CM2",
+      "label": "CM2",
+      "file": "curriculum_CM2.json",
+      "schema_version": "v3.1",
+      "active": true
+    }
+  ]
+}
