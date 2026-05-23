@@ -3309,7 +3309,9 @@ async function loadCurriculumForClass(classe) {
     if (!sv || (sv !== 'v3' && sv !== 'v3.1')) {
       throw new Error('Schéma incompatible : ' + sv);
     }
-    APP.curriculum = data;
+    if (!APP.curriculum) APP.curriculum = {};
+    APP.curriculum._meta = data._meta;
+    APP.curriculum[classe] = data[classe];
     return true;
   } catch (err) {
     console.error('[curriculum] erreur chargement', classe, err);
@@ -4830,7 +4832,7 @@ function getClasseAvant(classe) {
 }
 
 function shouldRequireTestNiveau(classe) {
-  if (DEV_MODE_UNLOCK_ALL) return false; // DEV bypass
+
   // SIL : pas de test (1ère classe)
   if (classe === 'SIL') return false;
   if (!getClasseAvant(classe)) return false;
