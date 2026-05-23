@@ -3543,7 +3543,7 @@ function renderDashboard() {
     extrasBlock.style.cssText = 'margin: 18px 14px 0; display:grid; grid-template-columns: 1fr 1fr; gap:10px;';
     grid.parentNode.appendChild(extrasBlock);
   }
-  const isCM2 = APP.profile.classe === 'CM2' || isPremiumActive();
+  const isCM2 = APP.profile.classe === 'CM2';
   let accessHTML = '';
   if (isCM2) {
     accessHTML += '<button class="parent-action-btn" style="background:linear-gradient(135deg,#CE1126,#9B0D1E);color:#fff;border:none;text-align:center;font-weight:700" onclick="openCepMenu()">🎓 Révision CEP</button>';
@@ -4828,6 +4828,7 @@ function getClasseAvant(classe) {
 function shouldRequireTestNiveau(classe) {
   // SIL : pas de test (1ère classe)
   if (classe === 'SIL') return false;
+  if (!getClasseAvant(classe)) return false;
   // Test déjà passé ?
   return !lsGet('ej_niveau_test_' + classe);
 }
