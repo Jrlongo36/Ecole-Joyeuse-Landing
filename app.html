@@ -3559,8 +3559,7 @@ function renderDashboard() {
 function renderNiveauCard(classe) {
   const prog = getProgress(classe);
   const data = APP.curriculum[classe];
-  if (!data) return '';
-  const totalLecons = countLeconsInClasse(classe);
+  const totalLecons = data ? countLeconsInClasse(classe) : 0;
   const done = Object.keys(prog.lecons_done || {}).length;
   const pct = totalLecons ? Math.round(done / totalLecons * 100) : 0;
   const isFree = classe === 'SIL' || classe === 'CP' || classe === 'CE1';
@@ -3610,13 +3609,18 @@ function countLeconsInDiscipline(d) {
   return n;
 }
 
-function openClasse(classe) {
+async function openClasse(classe) {
   // Vérification freemium en premier (sauf si premium actif via code RJV2025)
   if (isClasseLocked(classe)) {
     showScreen('premiumScreen');
     renderPremiumScreen();
     toast('Cette classe nécessite Premium', 2500);
     return;
+  }
+  if (!APP.curriculum || !APP.curriculum[classe]) {
+    toast('Chargement ' + classe + '...', 2000);
+    const ok = await loadCurriculumForClass(classe);
+    if (!ok) { toast('Impossible de charger ' + classe, 3000); return; }
   }
   APP.nav.classe = classe;
   // Test de niveau obligatoire à la 1ère connexion (sauf SIL)
@@ -4826,6 +4830,7 @@ function getClasseAvant(classe) {
 }
 
 function shouldRequireTestNiveau(classe) {
+  if (DEV_MODE_UNLOCK_ALL) return false; // DEV bypass
   // SIL : pas de test (1ère classe)
   if (classe === 'SIL') return false;
   if (!getClasseAvant(classe)) return false;
