@@ -1857,11 +1857,20 @@
                   {
                     "id": "ex3",
                     "type": "vrai_faux",
-                    "consigne": "Amina partage 7 biscuits entre 2 enfants. Elle donne 4 à l'un et 3 à l'autre. Est-ce un partage équitable ?",
-                    "reponse": "Non",
-                    "explication": "4 ≠ 3 : les deux parts ne sont pas égales. Pour être équitable : 3 + 3 = 6, et il reste 1.",
-                    "astuce": "Compare les deux groupes — s'ils ne sont pas pareils, le partage n'est pas équitable.",
-                    "notion": "equite"
+                    "consigne": "Lis et dis VRAI ou FAUX.",
+                    "affirmations": [
+                      {
+                        "texte": "Amina partage équitablement les biscuits.",
+                        "vrai": false
+                      },
+                      {
+                        "texte": "Un partage équitable donne la même quantité à chacun.",
+                        "vrai": true
+                      }
+                    ],
+                    "astuce": "Pense à couper une mangue en deux parts égales !",
+                    "explication": "Donner 4 biscuits à l'un et 3 à l'autre n'est pas équitable car 4 n'est pas égal à 3.",
+                    "notion": "vrai_faux_corrige"
                   }
                 ],
                 "quiz": [
@@ -5240,11 +5249,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Tabi dit : On peut boire l'eau de la rivière sans la faire bouillir. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Faux",
-                  "explication": "L'eau de rivière peut contenir des microbes invisibles qui rendent malades.",
-                  "astuce": "L'eau claire n'est pas forcément propre — les microbes sont invisibles à l'œil nu !"
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "On peut boire l'eau de la rivière directement.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "L'eau bouillie protège contre les maladies.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Fais bouillir l'eau avant de la boire pour éliminer les microbes invisibles !",
+                  "explication": "L'eau de rivière peut sembler claire mais contenir des microbes invisibles qui rendent malade.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -5366,11 +5385,21 @@
                 },
                 {
                   "id": "ex3",
-                  "consigne": "Tabi dit : le gorille du Cameroun est un animal en danger. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Vrai",
-                  "explication": "Le gorille des plaines de l'Ouest est en danger à cause de la déforestation et du braconnage.",
-                  "astuce": "Protéger la forêt, c'est protéger le gorille et tous les animaux qui y vivent."
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Le gorille vit dans les maisons avec les humains.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "Le gorille du Cameroun vit libre dans la forêt.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Pense aux grands arbres de la forêt de Lobéké où vit le gorille !",
+                  "explication": "Le gorille est un animal sauvage qui a besoin de la forêt pour vivre libre et en sécurité.",
+                  "notion": "vrai_faux_corrige"
                 }
               ],
               "quiz": [
@@ -5461,11 +5490,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Ngono dit : Les plantes ont besoin de lumière pour pousser. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Vrai",
-                  "explication": "Les plantes ont besoin du soleil pour faire la photosynthèse — c'est leur repas.",
-                  "astuce": "Une plante sans lumière jaunit et meurt, comme nous sans nourriture."
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Une plante peut grandir dans le noir complet.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "Les plantes ont besoin de soleil et d'eau.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Arrose ton plantain et mets-le au soleil pour qu'il grandisse !",
+                  "explication": "Le soleil et l'eau sont indispensables pour que le manioc et le plantain grandissent bien.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -5573,11 +5612,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Ngono dit : Les villages camerounais se sont formés n'importe où, au hasard. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Faux",
-                  "explication": "Les villages se sont formés là où il y avait de l'eau, de la bonne terre et des conditions de sécurité.",
-                  "astuce": "Observe ton village : est-ce qu'il est près d'un cours d'eau ou d'une route importante ?"
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Les villages se forment n'importe où par hasard.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "Les villages se forment près de l'eau et des bonnes terres.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Regarde ton village : il y a toujours un fleuve ou une route à côté !",
+                  "explication": "Les hommes s'installent là où ils trouvent de l'eau pour boire et de la terre pour cultiver.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -6000,11 +6049,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Tabi dit : Au Cameroun, on dit bonjour de la même façon dans toutes les ethnies. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Faux",
-                  "explication": "Le Cameroun compte plus de 280 langues — chaque ethnie a ses propres salutations.",
-                  "astuce": "Cette diversité est une richesse ! Le Cameroun est souvent appelé 'Afrique en miniature'."
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Tout le monde dit bonjour de la même façon au Cameroun.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "Chaque langue du Cameroun a sa salutation.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Dis mbote, a wey ou mbombole pour saluer tes amis selon leur ethnie !",
+                  "explication": "Le Cameroun compte plus de 280 langues locales, ce qui donne une grande variété de salutations.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -6108,11 +6167,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Tina dit : Les noms des villes camerounaises ont souvent une signification dans les langues locales. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Vrai",
-                  "explication": "La plupart des noms de villes et villages camerounais viennent des langues autochtones et décrivent le lieu ou le peuple.",
-                  "astuce": "Demande à tes parents ce que signifie le nom de ton village ou quartier !"
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Le nom de Yaoundé vient d'une langue locale.",
+                      "vrai": true
+                    },
+                    {
+                      "texte": "Les noms des villages n'ont aucun sens particulier.",
+                      "vrai": false
+                    }
+                  ],
+                  "astuce": "Demande à tes parents l'histoire du nom de ton quartier !",
+                  "explication": "La plupart des noms de nos villes et villages racontent leur origine géographique ou historique.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -8089,11 +8158,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Tabi dit : Il faut tuer toutes les fourmis car elles ne servent à rien. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Faux",
-                  "explication": "Les fourmis sont utiles : elles aèrent la terre, mangent des déchets et nourrissent des oiseaux.",
-                  "astuce": "La nature fonctionne en équilibre — chaque animal a un rôle à jouer."
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Il faut tuer tous les insectes de la cour.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "Les papillons et les abeilles aident les fleurs.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Observe le lézard ou la fourmi dans la cour : chacun travaille pour la nature !",
+                  "explication": "Chaque petit animal a un rôle utile pour l'équilibre de notre environnement.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -8180,11 +8259,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Manga dit : Les plantes produisent de l'oxygène qui nous aide à respirer. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Vrai",
-                  "explication": "Par la photosynthèse, les plantes absorbent le CO2 et rejettent de l'oxygène.",
-                  "astuce": "Planter des arbres = produire de l'air pur pour tous. Protège les arbres !"
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "L'air frais est mauvais pour notre respiration.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "Les arbres produisent de l'air pur pour nos poumons.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Ouvre grand la fenêtre de ta classe pour faire entrer l'air frais !",
+                  "explication": "Les plantes et les arbres rejettent de l'oxygène, ce qui purifie l'air que nous respirons.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -8286,11 +8375,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Bineta dit : Avant les écoles modernes, les enfants camerounais ne savaient rien. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Faux",
-                  "explication": "Avant les écoles modernes, les enfants apprenaient les techniques agricoles, la chasse, les danses et les langues par la transmission orale.",
-                  "astuce": "La connaissance est plus ancienne que les écoles — nos ancêtres étaient de grands savants dans leur domaine !"
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Avant les écoles, les enfants n'apprenaient rien.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "Les enfants apprenaient l'agriculture et les contes des parents.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Pense aux histoires que le grand-père raconte le soir autour du feu !",
+                  "explication": "L'éducation traditionnelle se faisait oralement par la transmission des savoirs des anciens.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -11708,11 +11807,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Ngono dit : Les animaux d'élevage peuvent vivre sans l'aide des humains. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Faux",
-                  "explication": "Les animaux d'élevage dépendent des humains pour leur nourriture, leur eau et leurs soins.",
-                  "astuce": "L'éleveur et l'animal se rendent mutuellement service."
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Les poulets et les vaches peuvent se soigner tout seuls.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "L'éleveur doit nourrir et protéger ses animaux.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Imagine le berger qui mène ses chèvres brouter de l'herbe fraîche !",
+                  "explication": "Les animaux d'élevage ont besoin de l'homme pour rester en bonne santé et grandir.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -11816,11 +11925,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Manga dit : Un cuisinier qui ne se lave pas les mains peut rendre les clients malades. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Vrai",
-                  "explication": "Les mains sales transmettent des microbes dans la nourriture, causant des diarrhées et des maladies.",
-                  "astuce": "Se laver les mains avant de cuisiner est la règle numéro 1 de la cuisine saine !"
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Un cuisinier propre peut travailler sans se laver les mains.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "Se laver les mains au savon élimine les microbes.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Lave tes mains avec de l'eau propre et du savon avant de toucher le manioc !",
+                  "explication": "L'hygiène des mains élimine les germes et protège la santé de ceux qui mangent nos plats.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -11928,11 +12047,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Tabi dit : Les métiers traditionnels n'ont aucune valeur aujourd'hui. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Faux",
-                  "explication": "Les métiers artisanaux font partie du patrimoine culturel camerounais. Ils génèrent des revenus et attirent les touristes.",
-                  "astuce": "Le ndop de Bafoussam et les bronzes de Foumban sont connus et vendus dans le monde entier !"
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Les objets traditionnels sont inutiles de nos jours.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "Le forgeron et la potière créent des œuvres d'art uniques.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Regarde les beaux objets en terre cuite ou le ndop de l'artisan local !",
+                  "explication": "L'artisanat traditionnel fait la fierté culturelle et économique du Cameroun.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -12325,11 +12454,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Tabi dit : Le griot n'a pas un vrai métier car il ne fabrique rien avec ses mains. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Faux",
-                  "explication": "Le griot est un métier essentiel : il conserve et transmet la mémoire historique, généalogique et culturelle de son peuple.",
-                  "astuce": "Dans les sociétés traditionnelles sans écriture, le griot était la bibliothèque vivante du peuple !"
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Le griot est un simple musicien amusant.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "Le griot transmet l'histoire et la mémoire de l'ethnie.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Écoute le son de la kora et les histoires du vieux griot du village !",
+                  "explication": "Le griot est le gardien de l'histoire orale et de la culture de notre communauté.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -14426,11 +14565,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Manga dit : Le mototaxi est le transport le plus utilisé dans les villes camerounaises. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Vrai",
-                  "explication": "Le mototaxi (bend-skin) est très populaire au Cameroun car il est rapide et circule dans les petites rues.",
-                  "astuce": "À Douala et Yaoundé, les mototaxis sont partout — ils s'appellent aussi 'bend-skin' !"
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Le train circule sur les mêmes routes que les voitures.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "Le train se déplace uniquement sur les rails de fer.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Entends-tu le sifflet du train Camrail qui traverse le pays sur ses rails ?",
+                  "explication": "Le train est un transport terrestre ferré qui nécessite des rails pour rouler en sécurité.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -14530,11 +14679,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Manga dit : Quand l'eau bout dans la casserole, la fumée c'est de la vapeur d'eau. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Vrai",
-                  "explication": "La vapeur d'eau est produite quand l'eau est chauffée à très haute température.",
-                  "astuce": "La vapeur est invisible, mais quand elle refroidit elle forme de la buée."
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "La glace est de l'eau devenue solide par le froid.",
+                      "vrai": true
+                    },
+                    {
+                      "texte": "L'eau chaude se transforme directement en glace.",
+                      "vrai": false
+                    }
+                  ],
+                  "astuce": "Mets de l'eau au congélateur et regarde-la devenir solide comme un caillou !",
+                  "explication": "Le froid solidifie l'eau liquide en glace, tandis que la chaleur la fait fondre.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -14621,11 +14780,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Ngono dit : Les routes détruisent parfois l'habitat des animaux sauvages. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Vrai",
-                  "explication": "Les routes coupent les forêts et empêchent les animaux de circuler librement — certains sont tués en traversant.",
-                  "astuce": "C'est pour ça que certains pays construisent des passages fauniques pour les animaux."
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Les routes détruisent parfois l'habitat des animaux sauvages.",
+                      "vrai": true
+                    },
+                    {
+                      "texte": "Les voitures rapides aident les animaux à se déplacer.",
+                      "vrai": false
+                    }
+                  ],
+                  "astuce": "Fais attention aux petits singes qui traversent parfois les routes forestières !",
+                  "explication": "Les routes séparent les habitats des animaux sauvages et augmentent les risques d'accidents.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -15146,11 +15315,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Tabi dit : Les épopées orales africaines n'ont pas d'importance car elles ne sont pas écrites dans des livres. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Faux",
-                  "explication": "Les épopées orales sont des chefs-d'œuvre qui contiennent l'histoire, les valeurs et la philosophie de vie de nos peuples.",
-                  "astuce": "L'Iliade d'Homère était aussi une épopée orale avant d'être écrite — les Africains avaient leurs propres Homères !"
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Les histoires orales racontées n'ont aucune importance.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "Les épopées orales contiennent la sagesse de nos ancêtres.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Pense à l'histoire de la création du peuple racontée par les anciens !",
+                  "explication": "La tradition orale sauvegarde l'identité et les valeurs morales de nos familles.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -17105,11 +17284,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Tabi dit : Dormir sous une moustiquaire protège du paludisme. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Vrai",
-                  "explication": "La moustiquaire empêche les moustiques de piquer pendant le sommeil.",
-                  "astuce": "Le paludisme tue encore beaucoup d'enfants au Cameroun — la moustiquaire est ton bouclier !"
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Les moustiques transmettent le paludisme en nous piquant.",
+                      "vrai": true
+                    },
+                    {
+                      "texte": "La moustiquaire est inutile pour dormir.",
+                      "vrai": false
+                    }
+                  ],
+                  "astuce": "Dors toujours bien sous ta moustiquaire imprégnée pour éviter les piqûres !",
+                  "explication": "Le paludisme est causé par la piqûre de l'anophèle femelle. La moustiquaire bloque ces insectes.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -17213,11 +17402,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Ngono dit : Le moringa est appelé l'arbre de vie car il est très riche en nutriments. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Vrai",
-                  "explication": "Le moringa est extraordinairement riche en vitamines, protéines et minéraux.",
-                  "astuce": "Les feuilles de moringa séchées peuvent être ajoutées aux repas pour lutter contre la malnutrition."
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Les plantes médicinales ne soignent aucune maladie.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "La citronnelle aide à calmer la fièvre des enfants.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Hume la bonne tisane de citronnelle préparée par maman !",
+                  "explication": "Nos plantes traditionnelles contiennent des substances actives qui soulagent de nombreux maux.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -17318,11 +17517,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Ngono dit : Manger uniquement du riz chaque jour suffit pour bien grandir. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Faux",
-                  "explication": "Le riz seul manque de protéines, vitamines et minéraux nécessaires à la croissance.",
-                  "astuce": "La diversité alimentaire est la clé — mange de tout pour avoir tous les nutriments."
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Manger uniquement du riz tous les jours suffit à grandir.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "Un repas sain associe manioc, poisson et légumes.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Mets des fruits et du bon ndolé dans ton assiette pour être fort !",
+                  "explication": "Une alimentation variée apporte toutes les vitamines et forces nécessaires au corps.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -17848,11 +18057,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Tabi dit : Le tradipraticien ne peut pas aider les malades. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Faux",
-                  "explication": "Les tradipraticiens ont des connaissances profondes des plantes médicinales. L'OMS reconnaît leur rôle dans les systèmes de santé africains.",
-                  "astuce": "De nombreux médicaments modernes ont été développés à partir de plantes utilisées par des tradipraticiens africains !"
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "La médecine des plantes et celle des hôpitaux s'entraident.",
+                      "vrai": true
+                    },
+                    {
+                      "texte": "Les tradipraticiens n'utilisent jamais de feuilles sauvages.",
+                      "vrai": false
+                    }
+                  ],
+                  "astuce": "Respecte le savoir des anciens sur les écorces et les herbes de la forêt !",
+                  "explication": "Les tradipraticiens soignent grâce à une connaissance millénaire des vertus des plantes.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -21255,11 +21474,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Manga dit : S'échauffer avant de jouer est inutile. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Faux",
-                  "explication": "L'échauffement prépare les muscles et les articulations, réduisant le risque de blessures.",
-                  "astuce": "Les champions s'échauffent toujours avant une compétition — imite-les !"
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Courir vite sans s'échauffer peut faire mal aux jambes.",
+                      "vrai": true
+                    },
+                    {
+                      "texte": "Faire du sport fatigue le cœur de mauvaise façon.",
+                      "vrai": false
+                    }
+                  ],
+                  "astuce": "Bouge doucement tes bras et tes jambes avant de lancer le ballon !",
+                  "explication": "L'échauffement prépare nos muscles et accélère doucement le rythme de notre cœur.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -21364,11 +21593,21 @@
                 },
                 {
                   "id": "ex3",
-                  "consigne": "Tabi dit : À midi quand le soleil est haut, l'ombre est plus longue que le matin. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Faux",
-                  "explication": "À midi, le soleil est au-dessus de nous — l'ombre est courte. Tôt le matin, le soleil est bas, l'ombre est longue.",
-                  "astuce": "Observe ton ombre à différentes heures de la journée — elle change tout le temps !"
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "À midi pile, notre ombre au sol est très longue.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "L'ombre se forme quand un objet cache la lumière.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Regarde ton ombre rapetisser quand le soleil monte haut dans le ciel !",
+                  "explication": "L'ombre est petite à midi car la source lumineuse (le soleil) est directement au-dessus.",
+                  "notion": "vrai_faux_corrige"
                 }
               ],
               "quiz": [
@@ -21458,11 +21697,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Bineta dit : Un jouet en verre est dangereux pour un enfant. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Vrai",
-                  "explication": "Le verre peut se casser et créer des bords tranchants qui blessent.",
-                  "astuce": "La sécurité d'abord ! Un bon jouet est solide, sans bords tranchants."
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Un jouet pointu en fer est parfait pour les petits.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "Un bon jouet en bois doit être lisse et sans danger.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Pense à la petite voiture en bois sculptée qui ne coupe pas les doigts !",
+                  "explication": "Les jouets pour enfants doivent être fabriqués dans des matériaux solides et non coupants.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -21983,11 +22232,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Ngono dit : Les jeux traditionnels camerounais n'apprennent rien, c'est que du plaisir. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Faux",
-                  "explication": "Les jeux traditionnels développent : coordination (nzango), stratégie (awale), travail d'équipe (ndamba).",
-                  "astuce": "Apprendre en jouant, c'est la meilleure méthode d'apprentissage !"
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Le nzango et l'awalé développent notre agilité.",
+                      "vrai": true
+                    },
+                    {
+                      "texte": "Les jeux d'autrefois n'apprenaient aucune règle.",
+                      "vrai": false
+                    }
+                  ],
+                  "astuce": "Saute en rythme en jouant au nzango avec tes camarades de classe !",
+                  "explication": "Nos jeux traditionnels camerounais développent la motricité, le calcul mental et le respect.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -22074,11 +22333,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Tina dit : Les comptines de jeux n'ont pas de valeur culturelle, ce sont juste des paroles sans sens. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Faux",
-                  "explication": "Les comptines transmettent des valeurs, des mots, des références culturelles et des connaissances.",
-                  "astuce": "Écoute bien les paroles d'une comptine — souvent elles racontent une histoire ou enseignent quelque chose."
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Les comptines de jeux n'ont pas de paroles sérieuses.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "Les chansons rythment les sauts des joueurs.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Chante la comptine à haute voix pour choisir qui va commencer le jeu !",
+                  "explication": "Les comptines structurent les tours de rôle et transmettent des mélodies culturelles.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -24577,11 +24846,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Manga dit : Le tam-tam servait à envoyer des messages entre villages avant le téléphone. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Vrai",
-                  "explication": "Les chefs de village utilisaient des codes de tam-tam pour signaler des nouvelles importantes.",
-                  "astuce": "Le tam-tam est le 'téléphone africain' ancestral !"
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Le tam-tam transmettait des messages urgents.",
+                      "vrai": true
+                    },
+                    {
+                      "texte": "Les ondes de la radio ne voyagent jamais dans l'air.",
+                      "vrai": false
+                    }
+                  ],
+                  "astuce": "Imagine le grand tam-tam qui résonne pour annoncer une fête au village !",
+                  "explication": "Le tam-tam et le gong servaient de téléphones sonores traditionnels sur de longues distances.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -24685,11 +24964,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Amina regarde la télévision dans le noir le soir jusqu'à 22h. Est-ce une bonne habitude ?",
                   "type": "vrai_faux",
-                  "reponse": "Faux",
-                  "explication": "Regarder un écran dans le noir fatigue les yeux. Les écrans le soir perturbent le sommeil des enfants.",
-                  "astuce": "Éteins les écrans 1h avant de dormir pour un bon sommeil !"
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Regarder un écran dans le noir fatigue les yeux.",
+                      "vrai": true
+                    },
+                    {
+                      "texte": "Les enfants peuvent utiliser les écrans toute la nuit.",
+                      "vrai": false
+                    }
+                  ],
+                  "astuce": "Éteins la télévision et repose tes yeux quand la nuit tombe !",
+                  "explication": "Une exposition prolongée aux écrans, surtout le soir, perturbe la vue et le sommeil.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
@@ -24785,11 +25074,21 @@
                 },
                 {
                   "id": "ex2",
-                  "consigne": "Tabi dit : Les agriculteurs camerounais plantent surtout pendant la saison sèche. Est-ce vrai ?",
                   "type": "vrai_faux",
-                  "reponse": "Faux",
-                  "explication": "Les agriculteurs plantent au début de la saison des pluies — la pluie est indispensable pour les cultures.",
-                  "astuce": "La pluie, c'est la vie pour l'agriculture — sans elle, les récoltes sont mauvaises !"
+                  "consigne": "Lis et dis VRAI ou FAUX.",
+                  "affirmations": [
+                    {
+                      "texte": "Pendant la saison sèche, il pleut abondamment.",
+                      "vrai": false
+                    },
+                    {
+                      "texte": "La pluie de la saison des pluies abreuve nos cultures.",
+                      "vrai": true
+                    }
+                  ],
+                  "astuce": "Pense à la poussière de la saison sèche et à la boue des grandes pluies !",
+                  "explication": "Le climat camerounais est marqué par l'alternance d'une saison sèche et d'une saison des pluies.",
+                  "notion": "vrai_faux_corrige"
                 },
                 {
                   "id": "ex3",
