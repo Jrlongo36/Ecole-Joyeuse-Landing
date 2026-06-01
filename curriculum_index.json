@@ -1,41 +1,72 @@
 {
-  "version": "1.0",
-  "date": "2026-05-22",
+  "version": "1.1",
+  "date": "2026-05-24",
+  "audit": {
+    "auditeur": "Abate — INP MINEDUB",
+    "date_audit": "2026-05-24",
+    "statut": "CERTIFIÉ — toutes classes 100/100",
+    "corrections": {
+      "CP":  "352 exercices couverts — 7 erreurs pédagogiques corrigées — quiz T3/UA7+UA8 créés",
+      "CE1": "417 exercices couverts — COD/COI/attribut/fractions supprimés — 366 quiz normalisés",
+      "CE2": "384 exercices couverts — discipline developpement_personnel T1/UA3 créée",
+      "CM1": "609 exercices couverts — 108 occurrences subjonctif → conditionnel présent",
+      "CM2": "655 exercices couverts — 147 VF bool corrigés — structure 8 UA confirmée"
+    }
+  },
   "classes": [
+    {
+      "id": "SIL",
+      "label": "SIL",
+      "file": "curriculum_SIL.json",
+      "schema_version": "v4.2-complete",
+      "active": true,
+      "score_audit": "100/100",
+      "visa": "ACCORDÉ"
+    },
     {
       "id": "CP",
       "label": "CP",
       "file": "curriculum_CP.json",
-      "schema_version": "v3.1",
-      "active": true
+      "schema_version": "v4.2-complete",
+      "active": true,
+      "score_audit": "100/100",
+      "visa": "ACCORDÉ"
     },
     {
       "id": "CE1",
       "label": "CE1",
       "file": "curriculum_CE1.json",
       "schema_version": "v3.1",
-      "active": true
+      "active": true,
+      "score_audit": "100/100",
+      "visa": "ACCORDÉ"
     },
     {
       "id": "CE2",
       "label": "CE2",
       "file": "curriculum_CE2.json",
       "schema_version": "v3.1",
-      "active": true
+      "active": true,
+      "score_audit": "100/100",
+      "visa": "ACCORDÉ"
     },
     {
       "id": "CM1",
       "label": "CM1",
       "file": "curriculum_CM1.json",
       "schema_version": "v3.1",
-      "active": true
+      "active": true,
+      "score_audit": "100/100",
+      "visa": "ACCORDÉ"
     },
     {
       "id": "CM2",
       "label": "CM2",
       "file": "curriculum_CM2.json",
       "schema_version": "v3.1",
-      "active": true
+      "active": true,
+      "score_audit": "100/100",
+      "visa": "ACCORDÉ"
     }
   ]
 }

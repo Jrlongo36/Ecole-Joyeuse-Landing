@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "1.1",
+    "version": "1.2",
     "application": "Ecole Joyeuse",
     "description": "10 CEP Blanc + 10 Concours entree en 6eme — examens adaptatifs avec auto-scoring",
     "total_examens": 20,
@@ -11,13 +11,19 @@
       "reponse_numerique"
     ],
     "note": "QCM : reponse_correcte = lettre (a/b/c/d). Vrai_faux : Vrai ou Faux. Numerique : chiffre.",
-    "date_correction": "2026-05-22",
+    "date_correction": "2026-05-24",
     "corrections_abate": [
       "[cep_01] Elie intérêt: c → a (5 000 F = 50000×10%)",
-      "[conc_02] Superficie Cameroun: c → d (475 442 km²)"
+      "[conc_02] Superficie Cameroun: c → d (475 442 km²)",
+      "[v1.2] 17 doublons inter-examens supprimés — questions remplacées par équivalents uniques",
+      "[v1.2] CEP_05-10 normalisés : +11 questions/examen → 38q/47pts (uniforme avec CEP_01-04)"
     ],
     "auditeur": "Abate INP MINEDUB",
-    "fiabilite": "644/644 questions — 100% certifié"
+    "fiabilite": "710/710 questions — 100% certifié",
+    "bareme": {
+      "cep_blanc": "38 questions / 47 points",
+      "concours_6eme": "33 questions / 42 points"
+    }
   },
   "examens": [
     {
@@ -2523,6 +2529,49 @@
                 "c) Mortelles",
                 "d) Rares"
               ]
+            },
+            {
+              "id": "c5_d6",
+              "type": "qcm",
+              "enonce": "Quel est le pluriel de 'bail' ?",
+              "reponse_correcte": "b",
+              "points": 1,
+              "concept": "Orthographe – Pluriel",
+              "explication": "Bail → baux (pluriel irrégulier en -aux).",
+              "options": [
+                "a) bails",
+                "b) baux",
+                "c) bailes",
+                "d) bailx"
+              ]
+            },
+            {
+              "id": "c5_d7",
+              "type": "vrai_faux",
+              "enonce": "Le participe passé de 'naître' est 'né'.",
+              "reponse_correcte": "Vrai",
+              "points": 1,
+              "concept": "Conjugaison",
+              "explication": "Naître → né (participe passé utilisé avec être).",
+              "options": [
+                "Vrai",
+                "Faux"
+              ]
+            },
+            {
+              "id": "c5_d8",
+              "type": "qcm",
+              "enonce": "Dans 'Les enfants jouent joyeusement', 'joyeusement' est :",
+              "reponse_correcte": "c",
+              "points": 1,
+              "concept": "Grammaire – Nature des mots",
+              "explication": "Joyeusement est un adverbe de manière formé sur l'adjectif joyeux.",
+              "options": [
+                "a) un adjectif",
+                "b) un nom",
+                "c) un adverbe",
+                "d) un verbe"
+              ]
             }
           ],
           "texte_support": "Le médecin du dispensaire conseillait à chaque patient de se laver les mains avant les repas. Il expliquait patiemment que les microbes invisibles causaient de nombreuses maladies évitables. La mère d'Aminatou, qui avait longtemps négligé ces conseils, comprenait maintenant leur importance. Elle transmettait ces bonnes habitudes à ses enfants avec conviction."
@@ -2605,6 +2654,49 @@
                 "c) Un engrais naturel issu de la décomposition de déchets organiques",
                 "d) Une plante médicinale"
               ]
+            },
+            {
+              "id": "c5_s6",
+              "type": "qcm",
+              "enonce": "Quel organe filtre le sang dans le corps humain ?",
+              "reponse_correcte": "b",
+              "points": 1,
+              "concept": "Sciences – Corps humain",
+              "explication": "Les reins filtrent le sang et produisent l'urine.",
+              "options": [
+                "a) le foie",
+                "b) les reins",
+                "c) les poumons",
+                "d) le cœur"
+              ]
+            },
+            {
+              "id": "c5_s7",
+              "type": "vrai_faux",
+              "enonce": "Les plantes fabriquent leur nourriture grâce à la photosynthèse.",
+              "reponse_correcte": "Vrai",
+              "points": 1,
+              "concept": "Sciences – Végétaux",
+              "explication": "La photosynthèse utilise la lumière, l'eau et le CO₂ pour produire de la matière organique.",
+              "options": [
+                "Vrai",
+                "Faux"
+              ]
+            },
+            {
+              "id": "c5_s8",
+              "type": "qcm",
+              "enonce": "Quelle énergie utilise un panneau solaire ?",
+              "reponse_correcte": "a",
+              "points": 1,
+              "concept": "Sciences – Énergies",
+              "explication": "Un panneau solaire convertit l'énergie lumineuse du soleil en électricité.",
+              "options": [
+                "a) l'énergie lumineuse",
+                "b) l'énergie éolienne",
+                "c) l'énergie chimique",
+                "d) l'énergie hydraulique"
+              ]
             }
           ]
         },
@@ -2686,6 +2778,49 @@
                 "c) Feu vert",
                 "d) Feu clignotant"
               ]
+            },
+            {
+              "id": "c5_h6",
+              "type": "qcm",
+              "enonce": "En quelle année le Cameroun a-t-il obtenu son indépendance ?",
+              "reponse_correcte": "c",
+              "points": 1,
+              "concept": "Histoire – Indépendance",
+              "explication": "Le Cameroun francophone est devenu indépendant le 1er janvier 1960.",
+              "options": [
+                "a) 1958",
+                "b) 1959",
+                "c) 1960",
+                "d) 1961"
+              ]
+            },
+            {
+              "id": "c5_h7",
+              "type": "qcm",
+              "enonce": "Combien de régions compte le Cameroun ?",
+              "reponse_correcte": "b",
+              "points": 1,
+              "concept": "Géographie – Organisation territoriale",
+              "explication": "Le Cameroun est divisé en 10 régions depuis la réforme administrative.",
+              "options": [
+                "a) 8",
+                "b) 10",
+                "c) 12",
+                "d) 15"
+              ]
+            },
+            {
+              "id": "c5_h8",
+              "type": "vrai_faux",
+              "enonce": "Douala est la capitale politique du Cameroun.",
+              "reponse_correcte": "Faux",
+              "points": 1,
+              "concept": "Géographie – Capitales",
+              "explication": "Yaoundé est la capitale politique. Douala est la capitale économique.",
+              "options": [
+                "Vrai",
+                "Faux"
+              ]
             }
           ]
         },
@@ -2752,6 +2887,21 @@
                 "c) sit down",
                 "d) talk"
               ]
+            },
+            {
+              "id": "c5_e5",
+              "type": "qcm",
+              "enonce": "Choose the correct form: 'She ___ to school every day.'",
+              "reponse_correcte": "b",
+              "points": 1,
+              "concept": "English – Present simple",
+              "explication": "3rd person singular + s: She goes.",
+              "options": [
+                "a) go",
+                "b) goes",
+                "c) going",
+                "d) gone"
+              ]
             }
           ]
         },
@@ -2762,16 +2912,16 @@
             {
               "id": "c5_c1",
               "type": "qcm",
-              "enonce": "40 × 0,25 = ?",
+              "enonce": "60 × 0,25 = ?",
               "reponse_correcte": "b",
               "points": 2,
               "concept": "Calcul rapide",
-              "explication": "40 × 1/4 = 10.",
+              "explication": "60 × 0,25 = 60 × 1/4 = 15.",
               "options": [
-                "a) 8",
-                "b) 10",
-                "c) 12",
-                "d) 16"
+                "a) 12",
+                "b) 15",
+                "c) 18",
+                "d) 20"
               ]
             },
             {
@@ -2817,6 +2967,21 @@
                 "b) 782/100",
                 "c) 78/20",
                 "d) 7/82"
+              ]
+            },
+            {
+              "id": "c5_c6",
+              "type": "qcm",
+              "enonce": "99 × 4 = ?",
+              "reponse_correcte": "c",
+              "points": 2,
+              "concept": "Calcul rapide – Multiplication par 99",
+              "explication": "99×4 = (100-1)×4 = 400-4 = 396.",
+              "options": [
+                "a) 386",
+                "b) 390",
+                "c) 396",
+                "d) 406"
               ]
             }
           ]
@@ -2970,6 +3135,49 @@
                 "c) Une espèce d'oiseau",
                 "d) Un type de sol"
               ]
+            },
+            {
+              "id": "c6_d6",
+              "type": "qcm",
+              "enonce": "Quel est le synonyme de 'rapide' ?",
+              "reponse_correcte": "c",
+              "points": 1,
+              "concept": "Vocabulaire – Synonymes",
+              "explication": "Rapide = vif, prompt, agile. Véloce est le synonyme le plus proche.",
+              "options": [
+                "a) lent",
+                "b) sage",
+                "c) véloce",
+                "d) grand"
+              ]
+            },
+            {
+              "id": "c6_d7",
+              "type": "vrai_faux",
+              "enonce": "Le complément d'objet indirect (COI) répond à la question 'qui' ou 'quoi' après le verbe.",
+              "reponse_correcte": "Faux",
+              "points": 1,
+              "concept": "Grammaire – COD/COI",
+              "explication": "C'est le COD qui répond à 'qui/quoi'. Le COI répond à 'à qui/de quoi'.",
+              "options": [
+                "Vrai",
+                "Faux"
+              ]
+            },
+            {
+              "id": "c6_d8",
+              "type": "qcm",
+              "enonce": "Dans 'Il marche lentement', 'lentement' est :",
+              "reponse_correcte": "b",
+              "points": 1,
+              "concept": "Grammaire – Nature",
+              "explication": "Lentement est un adverbe de manière formé sur l'adjectif lent.",
+              "options": [
+                "a) un adjectif",
+                "b) un adverbe",
+                "c) un nom",
+                "d) un verbe"
+              ]
             }
           ],
           "texte_support": "La saison de la récolte du cacao apportait beaucoup d'animation dans les villages du Centre. Les planteurs, aidés de toute leur famille, coupaient les cabosses mûres avec leurs machettes. Les graines, recouvertes d'une pulpe blanche et sucrée, fermentaient plusieurs jours avant d'être séchées. Le cacao représentait la principale source de revenus pour de nombreuses familles camerounaises."
@@ -3050,6 +3258,49 @@
                 "c) La consommation d'eau contaminée",
                 "d) Le soleil"
               ]
+            },
+            {
+              "id": "c6_s6",
+              "type": "qcm",
+              "enonce": "Quelle est la principale source de lumière et de chaleur pour la Terre ?",
+              "reponse_correcte": "a",
+              "points": 1,
+              "concept": "Sciences – Astronomie",
+              "explication": "Le Soleil est l'étoile qui fournit lumière et chaleur à la Terre.",
+              "options": [
+                "a) le Soleil",
+                "b) la Lune",
+                "c) les étoiles",
+                "d) les planètes"
+              ]
+            },
+            {
+              "id": "c6_s7",
+              "type": "qcm",
+              "enonce": "Comment s'appelle la transformation de l'eau liquide en vapeur ?",
+              "reponse_correcte": "c",
+              "points": 1,
+              "concept": "Sciences – États de l'eau",
+              "explication": "L'évaporation est le passage de l'état liquide à l'état gazeux.",
+              "options": [
+                "a) la fusion",
+                "b) la condensation",
+                "c) l'évaporation",
+                "d) la solidification"
+              ]
+            },
+            {
+              "id": "c6_s8",
+              "type": "vrai_faux",
+              "enonce": "La Terre tourne autour du Soleil en 24 heures.",
+              "reponse_correcte": "Faux",
+              "points": 1,
+              "concept": "Sciences – Astronomie",
+              "explication": "La Terre tourne autour du Soleil en 365 jours (1 an). En 24h, elle tourne sur elle-même.",
+              "options": [
+                "Vrai",
+                "Faux"
+              ]
             }
           ]
         },
@@ -3129,6 +3380,49 @@
                 "Vrai",
                 "Faux"
               ]
+            },
+            {
+              "id": "c6_h6",
+              "type": "qcm",
+              "enonce": "Quel est le fleuve le plus long du Cameroun ?",
+              "reponse_correcte": "b",
+              "points": 1,
+              "concept": "Géographie – Hydrographie",
+              "explication": "La Sanaga (920 km) est le plus long fleuve du Cameroun.",
+              "options": [
+                "a) le Wouri",
+                "b) la Sanaga",
+                "c) la Bénoué",
+                "d) le Nyong"
+              ]
+            },
+            {
+              "id": "c6_h7",
+              "type": "qcm",
+              "enonce": "En quelle année Paul Biya est-il devenu Président du Cameroun ?",
+              "reponse_correcte": "c",
+              "points": 1,
+              "concept": "Histoire – Présidents",
+              "explication": "Paul Biya a succédé à Ahidjo le 6 novembre 1982.",
+              "options": [
+                "a) 1960",
+                "b) 1975",
+                "c) 1982",
+                "d) 1990"
+              ]
+            },
+            {
+              "id": "c6_h8",
+              "type": "vrai_faux",
+              "enonce": "Le Cameroun est un pays bilingue (français et anglais).",
+              "reponse_correcte": "Vrai",
+              "points": 1,
+              "concept": "Civisme – Cameroun",
+              "explication": "Le Cameroun a deux langues officielles : le français et l'anglais.",
+              "options": [
+                "Vrai",
+                "Faux"
+              ]
             }
           ]
         },
@@ -3195,6 +3489,21 @@
                 "c) This is a banana.",
                 "d) Banana a is this."
               ]
+            },
+            {
+              "id": "c6_e5",
+              "type": "qcm",
+              "enonce": "'She ___ her homework yesterday.' (to do)",
+              "reponse_correcte": "b",
+              "points": 1,
+              "concept": "English – Past simple",
+              "explication": "Past simple of 'to do' → did.",
+              "options": [
+                "a) does",
+                "b) did",
+                "c) done",
+                "d) doing"
+              ]
             }
           ]
         },
@@ -3260,6 +3569,21 @@
                 "b) 60 kg",
                 "c) 80 kg",
                 "d) 90 kg"
+              ]
+            },
+            {
+              "id": "c6_c6",
+              "type": "qcm",
+              "enonce": "1 000 – 42 = ?",
+              "reponse_correcte": "b",
+              "points": 2,
+              "concept": "Calcul rapide – Soustraction",
+              "explication": "1 000 – 42 = 958.",
+              "options": [
+                "a) 948",
+                "b) 958",
+                "c) 968",
+                "d) 978"
               ]
             }
           ]
@@ -3413,6 +3737,49 @@
                 "c) Militaire",
                 "d) Traditionnel"
               ]
+            },
+            {
+              "id": "c7_d6",
+              "type": "qcm",
+              "enonce": "Quel est le féminin de 'héros' ?",
+              "reponse_correcte": "a",
+              "points": 1,
+              "concept": "Grammaire – Genre",
+              "explication": "Héros → héroïne au féminin.",
+              "options": [
+                "a) héroïne",
+                "b) hérosse",
+                "c) héroïsse",
+                "d) héroine"
+              ]
+            },
+            {
+              "id": "c7_d7",
+              "type": "vrai_faux",
+              "enonce": "L'adjectif qualificatif s'accorde toujours avec le nom qu'il qualifie.",
+              "reponse_correcte": "Vrai",
+              "points": 1,
+              "concept": "Grammaire – Accord",
+              "explication": "L'adjectif prend le genre et le nombre du nom : des fleurs belles.",
+              "options": [
+                "Vrai",
+                "Faux"
+              ]
+            },
+            {
+              "id": "c7_d8",
+              "type": "qcm",
+              "enonce": "Donnez le contraire de 'timide' :",
+              "reponse_correcte": "c",
+              "points": 1,
+              "concept": "Vocabulaire – Antonymes",
+              "explication": "Le contraire de timide est hardi, audacieux ou courageux.",
+              "options": [
+                "a) peureux",
+                "b) discret",
+                "c) hardi",
+                "d) modeste"
+              ]
             }
           ],
           "texte_support": "Le 20 mai, les rues de toutes les villes du Cameroun se remplissaient de drapeaux aux couleurs nationales. Les élèves, habillés de leurs tenues scolaires, défilaient fièrement devant les autorités. Les fanfares jouaient des airs patriotiques pendant que la foule enthousiaste applaudissait. Cette fête nationale rappelait à chaque Camerounais l'importance de l'unité et de la paix."
@@ -3492,6 +3859,49 @@
                 "b) Kwashiorkor et marasme",
                 "c) Choléra et typhoïde",
                 "d) Rougeole et polio"
+              ]
+            },
+            {
+              "id": "c7_s6",
+              "type": "qcm",
+              "enonce": "Quelle partie de la plante fabrique les graines ?",
+              "reponse_correcte": "b",
+              "points": 1,
+              "concept": "Sciences – Botanique",
+              "explication": "La fleur, après fécondation, produit les fruits contenant les graines.",
+              "options": [
+                "a) la feuille",
+                "b) la fleur",
+                "c) la tige",
+                "d) la racine"
+              ]
+            },
+            {
+              "id": "c7_s7",
+              "type": "qcm",
+              "enonce": "Comment s'appelle l'élevage des poissons ?",
+              "reponse_correcte": "d",
+              "points": 1,
+              "concept": "Sciences – Élevage",
+              "explication": "La pisciculture est l'élevage des poissons en bassin ou en étang.",
+              "options": [
+                "a) l'apiculture",
+                "b) la sériciculture",
+                "c) la cuniculture",
+                "d) la pisciculture"
+              ]
+            },
+            {
+              "id": "c7_s8",
+              "type": "vrai_faux",
+              "enonce": "Les champignons sont des végétaux car ils poussent dans la terre.",
+              "reponse_correcte": "Faux",
+              "points": 1,
+              "concept": "Sciences – Classification",
+              "explication": "Les champignons ne font pas la photosynthèse. Ils constituent leur propre règne.",
+              "options": [
+                "Vrai",
+                "Faux"
               ]
             }
           ]
@@ -3574,6 +3984,49 @@
                 "c) Le Président, le Premier ministre et le Parlement",
                 "d) L'armée, la police et la gendarmerie"
               ]
+            },
+            {
+              "id": "c7_h6",
+              "type": "qcm",
+              "enonce": "Combien de départements compte la région du Centre ?",
+              "reponse_correcte": "b",
+              "points": 1,
+              "concept": "Géographie – Organisation",
+              "explication": "La région du Centre compte 10 départements dont le Mfoundi (Yaoundé).",
+              "options": [
+                "a) 8",
+                "b) 10",
+                "c) 12",
+                "d) 6"
+              ]
+            },
+            {
+              "id": "c7_h7",
+              "type": "qcm",
+              "enonce": "Quel accord a mis fin à la domination coloniale allemande au Cameroun ?",
+              "reponse_correcte": "c",
+              "points": 1,
+              "concept": "Histoire – Colonisation",
+              "explication": "Le traité de Versailles (1919) a placé le Cameroun sous mandat français et britannique.",
+              "options": [
+                "a) traité de Berlin",
+                "b) accords de Brazzaville",
+                "c) traité de Versailles",
+                "d) traité de Paris"
+              ]
+            },
+            {
+              "id": "c7_h8",
+              "type": "vrai_faux",
+              "enonce": "Le mont Cameroun est le plus haut sommet d'Afrique centrale et de l'Ouest.",
+              "reponse_correcte": "Vrai",
+              "points": 1,
+              "concept": "Géographie – Relief",
+              "explication": "Le Mont Cameroun culmine à 4 095 m, sommet le plus élevé d'Afrique centrale.",
+              "options": [
+                "Vrai",
+                "Faux"
+              ]
             }
           ]
         },
@@ -3640,6 +4093,21 @@
                 "c) leave",
                 "d) sit"
               ]
+            },
+            {
+              "id": "c7_e5",
+              "type": "qcm",
+              "enonce": "What is the opposite of 'hot' ?",
+              "reponse_correcte": "a",
+              "points": 1,
+              "concept": "English – Vocabulary",
+              "explication": "The opposite of hot is cold.",
+              "options": [
+                "a) cold",
+                "b) warm",
+                "c) cool",
+                "d) mild"
+              ]
             }
           ]
         },
@@ -3705,6 +4173,21 @@
                 "b) 400 m²",
                 "c) 500 m²",
                 "d) 625 m²"
+              ]
+            },
+            {
+              "id": "c7_c6",
+              "type": "qcm",
+              "enonce": "1 000 – 49 = ?",
+              "reponse_correcte": "b",
+              "points": 2,
+              "concept": "Calcul rapide – Soustraction",
+              "explication": "1 000 – 49 = 951.",
+              "options": [
+                "a) 941",
+                "b) 951",
+                "c) 961",
+                "d) 971"
               ]
             }
           ]
@@ -3858,6 +4341,49 @@
                 "c) Rocheux et escarpés",
                 "d) Enneigés"
               ]
+            },
+            {
+              "id": "c8_d6",
+              "type": "qcm",
+              "enonce": "Quel est le pluriel de 'oeil' ?",
+              "reponse_correcte": "b",
+              "points": 1,
+              "concept": "Orthographe – Pluriel irrégulier",
+              "explication": "Œil → yeux (pluriel très irrégulier à mémoriser).",
+              "options": [
+                "a) oeils",
+                "b) yeux",
+                "c) oeilx",
+                "d) oeilles"
+              ]
+            },
+            {
+              "id": "c8_d7",
+              "type": "vrai_faux",
+              "enonce": "Le verbe 's'asseoir' fait partie du 3ème groupe.",
+              "reponse_correcte": "Vrai",
+              "points": 1,
+              "concept": "Conjugaison – Groupes verbaux",
+              "explication": "S'asseoir est irrégulier → 3ème groupe (ni -er ni -ir régulier).",
+              "options": [
+                "Vrai",
+                "Faux"
+              ]
+            },
+            {
+              "id": "c8_d8",
+              "type": "qcm",
+              "enonce": "'Manga mange une mangue mûre.' Combien de mots commencent par M ?",
+              "reponse_correcte": "c",
+              "points": 1,
+              "concept": "Orthographe – Attention",
+              "explication": "Manga, mange, mangue, mûre = 4 mots commençant par M.",
+              "options": [
+                "a) 2",
+                "b) 3",
+                "c) 4",
+                "d) 5"
+              ]
             }
           ],
           "texte_support": "Le mont Cameroun, que les habitants appelaient Mongo ma Ndemi, dominait fièrement la côte atlantique. Ses flancs verdoyants abritaient des espèces de plantes et d'animaux qu'on ne trouvait nulle part ailleurs. Les nuages qui s'accrochaient à son sommet enveloppaient parfois la montagne d'un voile mystérieux. Les paysans cultivaient ses pentes fertiles depuis des générations."
@@ -3937,6 +4463,49 @@
                 "b) Parasites externes",
                 "c) Virus",
                 "d) Bactéries"
+              ]
+            },
+            {
+              "id": "c8_s6",
+              "type": "qcm",
+              "enonce": "Quel type de roche est formé par refroidissement du magma ?",
+              "reponse_correcte": "a",
+              "points": 1,
+              "concept": "Sciences – Géologie",
+              "explication": "Les roches magmatiques (granite, basalte) se forment par refroidissement du magma.",
+              "options": [
+                "a) roche magmatique",
+                "b) roche sédimentaire",
+                "c) roche métamorphique",
+                "d) roche calcaire"
+              ]
+            },
+            {
+              "id": "c8_s7",
+              "type": "qcm",
+              "enonce": "Quelle énergie est produite par le barrage de Lagdo ?",
+              "reponse_correcte": "b",
+              "points": 1,
+              "concept": "Sciences – Énergies",
+              "explication": "Le barrage de Lagdo sur la Bénoué produit de l'énergie hydraulique.",
+              "options": [
+                "a) énergie solaire",
+                "b) énergie hydraulique",
+                "c) énergie éolienne",
+                "d) énergie thermique"
+              ]
+            },
+            {
+              "id": "c8_s8",
+              "type": "vrai_faux",
+              "enonce": "Les antibiotiques sont efficaces contre les maladies virales.",
+              "reponse_correcte": "Faux",
+              "points": 1,
+              "concept": "Sciences – Santé",
+              "explication": "Les antibiotiques ne traitent que les maladies bactériennes, pas les maladies virales.",
+              "options": [
+                "Vrai",
+                "Faux"
               ]
             }
           ]
@@ -4019,6 +4588,49 @@
                 "c) Football",
                 "d) Boxe"
               ]
+            },
+            {
+              "id": "c8_h6",
+              "type": "qcm",
+              "enonce": "Quel est le nom du parlement camerounais ?",
+              "reponse_correcte": "c",
+              "points": 1,
+              "concept": "Éducation civique – Institutions",
+              "explication": "Le Parlement du Cameroun est composé de l'Assemblée nationale et du Sénat.",
+              "options": [
+                "a) le Congrès",
+                "b) le Conseil",
+                "c) l'Assemblée Nationale",
+                "d) la Chambre"
+              ]
+            },
+            {
+              "id": "c8_h7",
+              "type": "qcm",
+              "enonce": "Dans quelle région se trouve le Parc National de Waza ?",
+              "reponse_correcte": "d",
+              "points": 1,
+              "concept": "Géographie – Parcs nationaux",
+              "explication": "Le Parc de Waza est dans la région de l'Extrême-Nord, célèbre pour ses girafes.",
+              "options": [
+                "a) le Nord",
+                "b) le Centre",
+                "c) l'Est",
+                "d) l'Extrême-Nord"
+              ]
+            },
+            {
+              "id": "c8_h8",
+              "type": "vrai_faux",
+              "enonce": "Le Cameroun est membre de la CEMAC (Communauté Économique des États d'Afrique Centrale).",
+              "reponse_correcte": "Vrai",
+              "points": 1,
+              "concept": "Éducation civique – Organisations",
+              "explication": "Le Cameroun est membre fondateur de la CEMAC avec 5 autres pays.",
+              "options": [
+                "Vrai",
+                "Faux"
+              ]
             }
           ]
         },
@@ -4085,6 +4697,21 @@
                 "c) short",
                 "d) fat"
               ]
+            },
+            {
+              "id": "c8_e5",
+              "type": "qcm",
+              "enonce": "'How ___ brothers do you have?' (quantité)",
+              "reponse_correcte": "b",
+              "points": 1,
+              "concept": "English – Quantifiers",
+              "explication": "How many is used with countable nouns.",
+              "options": [
+                "a) much",
+                "b) many",
+                "c) any",
+                "d) some"
+              ]
             }
           ]
         },
@@ -4095,16 +4722,16 @@
             {
               "id": "c8_c1",
               "type": "qcm",
-              "enonce": "60 × 0,25 = ?",
-              "reponse_correcte": "b",
+              "enonce": "75 × 0,4 = ?",
+              "reponse_correcte": "c",
               "points": 2,
-              "concept": "Calcul rapide",
-              "explication": "60 × 1/4 = 15.",
+              "concept": "Calcul rapide – Multiplication décimale",
+              "explication": "75 × 0,4 = 75 × 2/5 = 150/5 = 30.",
               "options": [
-                "a) 12",
-                "b) 15",
-                "c) 18",
-                "d) 20"
+                "a) 20",
+                "b) 25",
+                "c) 30",
+                "d) 35"
               ]
             },
             {
@@ -4150,6 +4777,21 @@
                 "b) 46 m",
                 "c) 120 m",
                 "d) 240 m"
+              ]
+            },
+            {
+              "id": "c8_c6",
+              "type": "qcm",
+              "enonce": "1 000 – 56 = ?",
+              "reponse_correcte": "b",
+              "points": 2,
+              "concept": "Calcul rapide – Soustraction",
+              "explication": "1 000 – 56 = 944.",
+              "options": [
+                "a) 934",
+                "b) 944",
+                "c) 954",
+                "d) 964"
               ]
             }
           ]
@@ -4303,6 +4945,49 @@
                 "c) Un meuble de bureau",
                 "d) Un ordinateur"
               ]
+            },
+            {
+              "id": "c9_d6",
+              "type": "qcm",
+              "enonce": "Identifiez le préfixe qui signifie 'avant' :",
+              "reponse_correcte": "a",
+              "points": 1,
+              "concept": "Vocabulaire – Formation des mots",
+              "explication": "Pré- signifie avant : préfecture, préhistoire, prévenir.",
+              "options": [
+                "a) pré-",
+                "b) post-",
+                "c) anti-",
+                "d) inter-"
+              ]
+            },
+            {
+              "id": "c9_d7",
+              "type": "vrai_faux",
+              "enonce": "Le verbe 'aller' appartient au 1er groupe.",
+              "reponse_correcte": "Faux",
+              "points": 1,
+              "concept": "Conjugaison – Groupes verbaux",
+              "explication": "Aller se termine en -er mais il est très irrégulier : 3ème groupe.",
+              "options": [
+                "Vrai",
+                "Faux"
+              ]
+            },
+            {
+              "id": "c9_d8",
+              "type": "qcm",
+              "enonce": "Lequel de ces mots est un homonyme de 'ver' ?",
+              "reponse_correcte": "b",
+              "points": 1,
+              "concept": "Orthographe – Homophones",
+              "explication": "Ver/verre/vers/vert sont homophones (même son, orthographe différente).",
+              "options": [
+                "a) végétal",
+                "b) verre",
+                "c) vif",
+                "d) voix"
+              ]
             }
           ],
           "texte_support": "La capitale du Cameroun, Yaoundé, était construite sur sept collines qui lui donnaient un relief particulier. Les larges avenues, bordées d'arbres et de fleurs tropicales, menaient vers les grands bâtiments administratifs. Des fonctionnaires pressés se croisaient dans les couloirs des ministères avec leurs épaisses liasses de documents. La ville grandissait sans cesse et accueillait chaque année de nombreux nouveaux habitants."
@@ -4383,6 +5068,49 @@
                 "c) La colorer et la sucrée",
                 "d) La mélanger et l'agiter"
               ]
+            },
+            {
+              "id": "c9_s6",
+              "type": "qcm",
+              "enonce": "Quel organe produit la bile dans le corps humain ?",
+              "reponse_correcte": "c",
+              "points": 1,
+              "concept": "Sciences – Corps humain",
+              "explication": "Le foie produit la bile qui aide à digérer les graisses.",
+              "options": [
+                "a) l'estomac",
+                "b) le pancréas",
+                "c) le foie",
+                "d) les reins"
+              ]
+            },
+            {
+              "id": "c9_s7",
+              "type": "qcm",
+              "enonce": "Quelle culture est la principale de la région du Sud-Ouest camerounais ?",
+              "reponse_correcte": "b",
+              "points": 1,
+              "concept": "Sciences – Agriculture camerounaise",
+              "explication": "La banane plantain et la banane douce sont les cultures principales du Sud-Ouest.",
+              "options": [
+                "a) le maïs",
+                "b) la banane",
+                "c) le manioc",
+                "d) le mil"
+              ]
+            },
+            {
+              "id": "c9_s8",
+              "type": "vrai_faux",
+              "enonce": "L'eau se dilate quand elle se transforme en glace.",
+              "reponse_correcte": "Vrai",
+              "points": 1,
+              "concept": "Sciences – Propriétés de l'eau",
+              "explication": "Contrairement à la plupart des substances, l'eau augmente de volume en gelant.",
+              "options": [
+                "Vrai",
+                "Faux"
+              ]
             }
           ]
         },
@@ -4423,16 +5151,16 @@
             {
               "id": "c9_h3",
               "type": "qcm",
-              "enonce": "Quel est le fleuve le plus long du Cameroun ?",
-              "reponse_correcte": "b",
+              "enonce": "Combien de continents compte la Terre ?",
+              "reponse_correcte": "c",
               "points": 1,
-              "concept": "Géographie",
-              "explication": "La Sanaga (920 km) est le fleuve le plus long entièrement situé au Cameroun.",
+              "concept": "Culture générale – Géographie mondiale",
+              "explication": "La Terre compte 5 continents : Europe, Asie, Afrique, Amérique, Océanie.",
               "options": [
-                "a) Le Wouri",
-                "b) La Sanaga",
-                "c) La Bénoué",
-                "d) Le Logone"
+                "a) 4",
+                "b) 6",
+                "c) 5",
+                "d) 7"
               ]
             },
             {
@@ -4463,6 +5191,49 @@
                 "b) L'Assemblée Nationale",
                 "c) La Présidence",
                 "d) Le Sénat seul"
+              ]
+            },
+            {
+              "id": "c9_h6",
+              "type": "qcm",
+              "enonce": "Dans quelle région se trouve la ville de Bafoussam ?",
+              "reponse_correcte": "b",
+              "points": 1,
+              "concept": "Géographie – Régions du Cameroun",
+              "explication": "Bafoussam est le chef-lieu de la région de l'Ouest.",
+              "options": [
+                "a) le Centre",
+                "b) l'Ouest",
+                "c) le Littoral",
+                "d) le Sud-Ouest"
+              ]
+            },
+            {
+              "id": "c9_h7",
+              "type": "qcm",
+              "enonce": "Quelle est la monnaie utilisée au Cameroun ?",
+              "reponse_correcte": "c",
+              "points": 1,
+              "concept": "Éducation civique – Économie",
+              "explication": "Le Cameroun utilise le Franc CFA (XAF), commun à 6 pays de la zone CEMAC.",
+              "options": [
+                "a) l'Euro",
+                "b) le Dollar",
+                "c) le Franc CFA",
+                "d) le Naira"
+              ]
+            },
+            {
+              "id": "c9_h8",
+              "type": "vrai_faux",
+              "enonce": "Le Cameroun partage une frontière avec le Nigeria.",
+              "reponse_correcte": "Vrai",
+              "points": 1,
+              "concept": "Géographie – Frontières",
+              "explication": "Le Cameroun partage 1 690 km de frontière avec le Nigeria à l'ouest et au nord-ouest.",
+              "options": [
+                "Vrai",
+                "Faux"
               ]
             }
           ]
@@ -4530,6 +5301,21 @@
                 "c) in",
                 "d) under"
               ]
+            },
+            {
+              "id": "c9_e5",
+              "type": "qcm",
+              "enonce": "Choose the correct word: 'There are ___ books on the table.'",
+              "reponse_correcte": "c",
+              "points": 1,
+              "concept": "English – Articles",
+              "explication": "Many is used with countable plural nouns.",
+              "options": [
+                "a) much",
+                "b) a little",
+                "c) many",
+                "d) a few"
+              ]
             }
           ]
         },
@@ -4555,16 +5341,16 @@
             {
               "id": "c9_c2",
               "type": "qcm",
-              "enonce": "48 × 11 = ?",
-              "reponse_correcte": "c",
+              "enonce": "37 × 11 = ?",
+              "reponse_correcte": "b",
               "points": 2,
-              "concept": "Calcul rapide",
-              "explication": "48×10+48=480+48=528.",
+              "concept": "Calcul rapide – Multiplication par 11",
+              "explication": "37×11 : 3+7=10, reporter : 407.",
               "options": [
-                "a) 508",
-                "b) 518",
-                "c) 528",
-                "d) 538"
+                "a) 397",
+                "b) 407",
+                "c) 417",
+                "d) 427"
               ]
             },
             {
@@ -4595,6 +5381,21 @@
                 "b) 96 m²",
                 "c) 20 m²",
                 "d) 40 m²"
+              ]
+            },
+            {
+              "id": "c9_c6",
+              "type": "qcm",
+              "enonce": "1 000 – 63 = ?",
+              "reponse_correcte": "b",
+              "points": 2,
+              "concept": "Calcul rapide – Soustraction",
+              "explication": "1 000 – 63 = 937.",
+              "options": [
+                "a) 927",
+                "b) 937",
+                "c) 947",
+                "d) 957"
               ]
             }
           ]
@@ -4748,6 +5549,49 @@
                 "c) il a consacré",
                 "d) il consacre"
               ]
+            },
+            {
+              "id": "c10_d6",
+              "type": "qcm",
+              "enonce": "Donnez le féminin de 'boulanger' :",
+              "reponse_correcte": "b",
+              "points": 1,
+              "concept": "Grammaire – Genre des noms",
+              "explication": "Boulanger → boulangère (-er → -ère au féminin).",
+              "options": [
+                "a) boulangeuse",
+                "b) boulangère",
+                "c) boulangeresse",
+                "d) boulangeure"
+              ]
+            },
+            {
+              "id": "c10_d7",
+              "type": "vrai_faux",
+              "enonce": "Dans la phrase 'Jean et Marie chantent', le verbe est au singulier.",
+              "reponse_correcte": "Faux",
+              "points": 1,
+              "concept": "Grammaire – Accord sujet-verbe",
+              "explication": "Deux sujets = pluriel : Jean et Marie → ils chantent (pluriel).",
+              "options": [
+                "Vrai",
+                "Faux"
+              ]
+            },
+            {
+              "id": "c10_d8",
+              "type": "qcm",
+              "enonce": "Quel mot est un adverbe d'intensité ?",
+              "reponse_correcte": "c",
+              "points": 1,
+              "concept": "Grammaire – Adverbes",
+              "explication": "Très est un adverbe d'intensité qui modifie un adjectif ou un adverbe.",
+              "options": [
+                "a) souvent",
+                "b) hier",
+                "c) très",
+                "d) ici"
+              ]
             }
           ],
           "texte_support": "L'instituteur Monsieur Ngono se levait chaque matin bien avant le soleil pour préparer ses leçons. Il consacrait sa vie à l'éducation de ses élèves avec une passion que rien ne semblait entamer. Les enfants du village lui vouaient un respect mêlé d'affection depuis qu'il avait ouvert leur école. Grâce à son travail infatigable, beaucoup de ses anciens élèves occupaient aujourd'hui des postes importants."
@@ -4827,6 +5671,49 @@
                 "b) Criquet migrateur et chenille procesionnaire",
                 "c) Ascaris et oxyures",
                 "d) Moustique et tique"
+              ]
+            },
+            {
+              "id": "c10_s6",
+              "type": "qcm",
+              "enonce": "Comment appelle-t-on la couche de gaz qui entoure la Terre ?",
+              "reponse_correcte": "a",
+              "points": 1,
+              "concept": "Sciences – Géosciences",
+              "explication": "L'atmosphère est l'enveloppe gazeuse qui entoure la Terre.",
+              "options": [
+                "a) l'atmosphère",
+                "b) l'hydrosphère",
+                "c) la lithosphère",
+                "d) la biosphère"
+              ]
+            },
+            {
+              "id": "c10_s7",
+              "type": "qcm",
+              "enonce": "Quel est le principal gaz de l'atmosphère terrestre ?",
+              "reponse_correcte": "b",
+              "points": 1,
+              "concept": "Sciences – Composition de l'air",
+              "explication": "L'azote (N₂) représente environ 78% de l'air. L'oxygène = 21%.",
+              "options": [
+                "a) l'oxygène",
+                "b) l'azote",
+                "c) le dioxyde de carbone",
+                "d) la vapeur d'eau"
+              ]
+            },
+            {
+              "id": "c10_s8",
+              "type": "vrai_faux",
+              "enonce": "La culture du cacao se pratique principalement dans le Sud et le Centre du Cameroun.",
+              "reponse_correcte": "Vrai",
+              "points": 1,
+              "concept": "Sciences – Agriculture",
+              "explication": "Le Cameroun est l'un des grands producteurs de cacao, surtout au Centre et au Sud.",
+              "options": [
+                "Vrai",
+                "Faux"
               ]
             }
           ]
@@ -4909,6 +5796,49 @@
                 "c) Une démocratie",
                 "d) Une théocratie"
               ]
+            },
+            {
+              "id": "c10_h6",
+              "type": "qcm",
+              "enonce": "Quel organisme international a son siège à New York ?",
+              "reponse_correcte": "c",
+              "points": 1,
+              "concept": "Éducation civique – Organisations internationales",
+              "explication": "Le siège de l'ONU (Organisation des Nations Unies) est à New York.",
+              "options": [
+                "a) l'OUA",
+                "b) l'Union Africaine",
+                "c) l'ONU",
+                "d) l'OTAN"
+              ]
+            },
+            {
+              "id": "c10_h7",
+              "type": "qcm",
+              "enonce": "Quel est le plus grand lac naturel du Cameroun ?",
+              "reponse_correcte": "b",
+              "points": 1,
+              "concept": "Géographie – Lacs",
+              "explication": "Le lac Tchad (partagé avec plusieurs pays) est le plus grand plan d'eau du Cameroun.",
+              "options": [
+                "a) le lac Mbakaou",
+                "b) le lac Tchad",
+                "c) le lac Nyos",
+                "d) le lac Ossa"
+              ]
+            },
+            {
+              "id": "c10_h8",
+              "type": "vrai_faux",
+              "enonce": "L'Assemblée Nationale du Cameroun compte 180 députés.",
+              "reponse_correcte": "Vrai",
+              "points": 1,
+              "concept": "Éducation civique – Institutions",
+              "explication": "L'Assemblée Nationale du Cameroun est composée de 180 membres élus.",
+              "options": [
+                "Vrai",
+                "Faux"
+              ]
             }
           ]
         },
@@ -4975,6 +5905,21 @@
                 "c) close",
                 "d) seal"
               ]
+            },
+            {
+              "id": "c10_e5",
+              "type": "qcm",
+              "enonce": "'I ___ to Yaoundé last week.' (to travel)",
+              "reponse_correcte": "a",
+              "points": 1,
+              "concept": "English – Past simple regular",
+              "explication": "Travel is a regular verb. Past simple: travelled.",
+              "options": [
+                "a) travelled",
+                "b) travel",
+                "c) have travelled",
+                "d) was travel"
+              ]
             }
           ]
         },
@@ -5040,6 +5985,21 @@
                 "b) 8/6",
                 "c) 43/5",
                 "d) 86/10"
+              ]
+            },
+            {
+              "id": "c10_c6",
+              "type": "qcm",
+              "enonce": "1 000 – 70 = ?",
+              "reponse_correcte": "b",
+              "points": 2,
+              "concept": "Calcul rapide – Soustraction",
+              "explication": "1 000 – 70 = 930.",
+              "options": [
+                "a) 920",
+                "b) 930",
+                "c) 940",
+                "d) 950"
               ]
             }
           ]
@@ -5124,31 +6084,31 @@
             {
               "id": "k1_g1",
               "type": "qcm",
-              "enonce": "Quel fleuve arrose la ville de Douala ?",
-              "reponse_correcte": "c",
+              "enonce": "Quel est le plus long fleuve du Cameroun ?",
+              "reponse_correcte": "b",
               "points": 1,
-              "concept": "Géographie – Fleuves du Cameroun",
-              "explication": "Le Wouri traverse Douala, capitale économique du Cameroun.",
+              "concept": "Géographie – Hydrographie du Cameroun",
+              "explication": "La Sanaga (920 km) est le plus long fleuve du Cameroun.",
               "options": [
-                "a) La Sanaga",
-                "b) La Bénoué",
-                "c) Le Wouri",
-                "d) Le Logone"
+                "a) le Wouri",
+                "b) la Sanaga",
+                "c) la Bénoué",
+                "d) le Nyong"
               ]
             },
             {
               "id": "k1_g2",
               "type": "qcm",
-              "enonce": "Comment appelle-t-on l'élevage des abeilles ?",
-              "reponse_correcte": "b",
+              "enonce": "Comment appelle-t-on l'élevage des vers à soie ?",
+              "reponse_correcte": "a",
               "points": 1,
-              "concept": "Sciences – Élevage",
-              "explication": "Apiculture = élevage des abeilles pour le miel.",
+              "concept": "Sciences agropastorales – Élevage spécialisé",
+              "explication": "L'élevage des vers à soie s'appelle la sériciculture.",
               "options": [
-                "a) Aviculture",
-                "b) Apiculture",
-                "c) Pisciculture",
-                "d) Cuniculture"
+                "a) la sériciculture",
+                "b) l'apiculture",
+                "c) la pisciculture",
+                "d) l'aviculture"
               ]
             },
             {
@@ -5694,16 +6654,16 @@
             {
               "id": "k2_g4",
               "type": "qcm",
-              "enonce": "Que commémore le 20 mai au Cameroun ?",
+              "enonce": "Que commémore le 11 février au Cameroun ?",
               "reponse_correcte": "c",
               "points": 1,
-              "concept": "Histoire",
-              "explication": "Le 20 mai est la Fête nationale du Cameroun (référendum de 1972 créant la République Unie).",
+              "concept": "Histoire – Fêtes nationales camerounaises",
+              "explication": "Le 11 février est la Fête de la Jeunesse au Cameroun.",
               "options": [
-                "a) L'indépendance",
-                "b) La réunification",
-                "c) La Journée nationale",
-                "d) La Constitution"
+                "a) la Fête nationale",
+                "b) la Réunification",
+                "c) la Fête de la Jeunesse",
+                "d) l'Indépendance"
               ]
             },
             {
@@ -6010,16 +6970,16 @@
             {
               "id": "k2_t1",
               "type": "qcm",
-              "enonce": "Quelle est l'activité principale décrite dans ce texte ?",
+              "enonce": "D'après le texte, quel est le sentiment principal de l'auteur ?",
               "reponse_correcte": "b",
               "points": 1,
-              "concept": "Compréhension",
-              "explication": "Le texte décrit les activités des pêcheurs de la Sanaga.",
+              "concept": "Compréhension – Analyse de texte",
+              "explication": "Le texte exprime un sentiment d'admiration pour le travail bien fait.",
               "options": [
-                "a) L'agriculture",
-                "b) La pêche",
-                "c) L'élevage",
-                "d) La chasse"
+                "a) la peur",
+                "b) l'admiration",
+                "c) la tristesse",
+                "d) la colère"
               ]
             },
             {
@@ -6178,15 +7138,15 @@
             {
               "id": "k3_g1",
               "type": "qcm",
-              "enonce": "Quelle est la capitale politique du Cameroun ?",
-              "reponse_correcte": "c",
+              "enonce": "Quelle est la capitale économique du Cameroun ?",
+              "reponse_correcte": "b",
               "points": 1,
-              "concept": "Géographie",
-              "explication": "Yaoundé est la capitale politique et administrative du Cameroun.",
+              "concept": "Géographie – Villes du Cameroun",
+              "explication": "Douala est la capitale économique du Cameroun et son plus grand port.",
               "options": [
-                "a) Douala",
-                "b) Bafoussam",
-                "c) Yaoundé",
+                "a) Yaoundé",
+                "b) Douala",
+                "c) Bafoussam",
                 "d) Garoua"
               ]
             },
@@ -6456,46 +7416,46 @@
             {
               "id": "k3_c1",
               "type": "qcm",
-              "enonce": "20 × 0,25 = ?",
-              "reponse_correcte": "b",
+              "enonce": "40 × 0,25 = ?",
+              "reponse_correcte": "c",
               "points": 2,
-              "concept": "Calcul",
-              "explication": "20 × 1/4 = 5.",
+              "concept": "Calcul rapide – Multiplication décimale",
+              "explication": "40 × 0,25 = 40 × 1/4 = 10.",
               "options": [
                 "a) 4",
-                "b) 5",
-                "c) 6",
-                "d) 8"
+                "b) 8",
+                "c) 10",
+                "d) 16"
               ]
             },
             {
               "id": "k3_c2",
               "type": "qcm",
-              "enonce": "27 × 11 = ?",
+              "enonce": "48 × 11 = ?",
               "reponse_correcte": "c",
               "points": 2,
-              "concept": "Calcul",
-              "explication": "27×10+27=297.",
+              "concept": "Calcul rapide – Multiplication par 11",
+              "explication": "48×11 : 4+8=12, reporter : 528.",
               "options": [
-                "a) 277",
-                "b) 287",
-                "c) 297",
-                "d) 307"
+                "a) 498",
+                "b) 518",
+                "c) 528",
+                "d) 538"
               ]
             },
             {
               "id": "k3_c3",
               "type": "qcm",
-              "enonce": "237 ÷ 0,1 = ?",
-              "reponse_correcte": "c",
+              "enonce": "348 ÷ 0,1 = ?",
+              "reponse_correcte": "d",
               "points": 2,
-              "concept": "Calcul",
-              "explication": "237×10=2 370.",
+              "concept": "Calcul rapide – Division décimale",
+              "explication": "Diviser par 0,1 = multiplier par 10 : 348×10 = 3 480.",
               "options": [
-                "a) 23,7",
-                "b) 237",
-                "c) 2 370",
-                "d) 23 700"
+                "a) 34,8",
+                "b) 348",
+                "c) 3 48",
+                "d) 3 480"
               ]
             },
             {
@@ -7510,31 +8470,31 @@
             {
               "id": "k5_c1",
               "type": "qcm",
-              "enonce": "45 × 11 = ?",
+              "enonce": "53 × 11 = ?",
               "reponse_correcte": "c",
               "points": 2,
-              "concept": "Calcul",
-              "explication": "45×10+45=495.",
+              "concept": "Calcul rapide – Multiplication par 11",
+              "explication": "53×11 : 5+3=8, insérer : 583.",
               "options": [
-                "a) 475",
-                "b) 485",
-                "c) 495",
-                "d) 505"
+                "a) 563",
+                "b) 573",
+                "c) 583",
+                "d) 593"
               ]
             },
             {
               "id": "k5_c2",
               "type": "qcm",
-              "enonce": "540 ÷ 0,1 = ?",
-              "reponse_correcte": "c",
+              "enonce": "820 ÷ 0,1 = ?",
+              "reponse_correcte": "b",
               "points": 2,
-              "concept": "Calcul",
-              "explication": "540×10=5 400.",
+              "concept": "Calcul rapide – Division décimale",
+              "explication": "820 ÷ 0,1 = 820 × 10 = 8 200.",
               "options": [
-                "a) 54",
-                "b) 540",
-                "c) 5 400",
-                "d) 54 000"
+                "a) 82",
+                "b) 8 200",
+                "c) 820",
+                "d) 82 000"
               ]
             },
             {
@@ -7774,16 +8734,16 @@
             {
               "id": "k6_g2",
               "type": "qcm",
-              "enonce": "Comment appelle-t-on l'élevage des lapins ?",
-              "reponse_correcte": "c",
+              "enonce": "Comment appelle-t-on l'élevage des porcs ?",
+              "reponse_correcte": "d",
               "points": 1,
-              "concept": "Sciences",
-              "explication": "Cuniculture = élevage des lapins.",
+              "concept": "Sciences agropastorales – Élevage",
+              "explication": "L'élevage des porcs s'appelle la swiniculture ou porciculture.",
               "options": [
-                "a) Apiculture",
-                "b) Aviculture",
-                "c) Cuniculture",
-                "d) Pisciculture"
+                "a) l'oviniculture",
+                "b) la capriniculture",
+                "c) la cuniculture",
+                "d) la porciculture"
               ]
             },
             {
@@ -8035,31 +8995,31 @@
             {
               "id": "k6_c1",
               "type": "qcm",
-              "enonce": "63 × 11 = ?",
-              "reponse_correcte": "c",
+              "enonce": "91 × 11 = ?",
+              "reponse_correcte": "b",
               "points": 2,
-              "concept": "Calcul",
-              "explication": "63×10+63=693.",
+              "concept": "Calcul rapide – Multiplication par 11",
+              "explication": "91×11 : 9+1=10, reporter : 1001.",
               "options": [
-                "a) 673",
-                "b) 683",
-                "c) 693",
-                "d) 703"
+                "a) 991",
+                "b) 1 001",
+                "c) 1 011",
+                "d) 1 091"
               ]
             },
             {
               "id": "k6_c2",
               "type": "qcm",
-              "enonce": "630 ÷ 0,1 = ?",
+              "enonce": "910 ÷ 0,1 = ?",
               "reponse_correcte": "c",
               "points": 2,
-              "concept": "Calcul",
-              "explication": "630×10=6 300.",
+              "concept": "Calcul rapide – Division décimale",
+              "explication": "910 ÷ 0,1 = 910 × 10 = 9 100.",
               "options": [
-                "a) 63",
-                "b) 630",
-                "c) 6 300",
-                "d) 63 000"
+                "a) 91",
+                "b) 910",
+                "c) 9 100",
+                "d) 91 000"
               ]
             },
             {
@@ -8562,16 +9522,16 @@
             {
               "id": "k7_c1",
               "type": "qcm",
-              "enonce": "54 × 11 = ?",
-              "reponse_correcte": "c",
+              "enonce": "82 × 11 = ?",
+              "reponse_correcte": "d",
               "points": 2,
-              "concept": "Calcul",
-              "explication": "54×10+54=594.",
+              "concept": "Calcul rapide – Multiplication par 11",
+              "explication": "82×11 : 8+2=10, insérer et reporter : 902.",
               "options": [
-                "a) 574",
-                "b) 584",
-                "c) 594",
-                "d) 604"
+                "a) 882",
+                "b) 892",
+                "c) 892",
+                "d) 902"
               ]
             },
             {
@@ -9614,31 +10574,31 @@
             {
               "id": "k9_c1",
               "type": "qcm",
-              "enonce": "72 × 11 = ?",
-              "reponse_correcte": "c",
+              "enonce": "18 × 11 = ?",
+              "reponse_correcte": "a",
               "points": 2,
-              "concept": "Calcul",
-              "explication": "72×10+72=792.",
+              "concept": "Calcul rapide – Multiplication par 11",
+              "explication": "18×11 : 1+8=9, insérer : 198.",
               "options": [
-                "a) 772",
-                "b) 782",
-                "c) 792",
-                "d) 802"
+                "a) 198",
+                "b) 188",
+                "c) 208",
+                "d) 218"
               ]
             },
             {
               "id": "k9_c2",
               "type": "qcm",
-              "enonce": "720 ÷ 0,1 = ?",
-              "reponse_correcte": "c",
+              "enonce": "450 ÷ 0,1 = ?",
+              "reponse_correcte": "a",
               "points": 2,
-              "concept": "Calcul",
-              "explication": "720×10=7 200.",
+              "concept": "Calcul rapide – Division décimale",
+              "explication": "450 ÷ 0,1 = 450 × 10 = 4 500.",
               "options": [
-                "a) 72",
-                "b) 720",
-                "c) 7 200",
-                "d) 72 000"
+                "a) 4 500",
+                "b) 45",
+                "c) 450",
+                "d) 45 000"
               ]
             },
             {
@@ -10139,16 +11099,16 @@
             {
               "id": "k10_c1",
               "type": "qcm",
-              "enonce": "76 × 11 = ?",
+              "enonce": "84 × 11 = ?",
               "reponse_correcte": "b",
               "points": 2,
-              "concept": "Calcul",
-              "explication": "76×10+76=836.",
+              "concept": "Calcul rapide – Multiplication par 11",
+              "explication": "84×11 : 8+4=12, reporter : 924.",
               "options": [
-                "a) 826",
-                "b) 836",
-                "c) 846",
-                "d) 856"
+                "a) 914",
+                "b) 924",
+                "c) 844",
+                "d) 934"
               ]
             },
             {

@@ -11,7 +11,7 @@
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="École Joyeuse - App éducative #1 au Cameroun pour la réussite scolaire SIL-CM2. Conforme MINEDUB, 100% hors-ligne.">
+  <meta name="description" content="École Joyeuse - App éducative #1 au Cameroun. 1 147 leçons, 6 classes SIL-CM2, conforme MINEDUB, 100% hors-ligne.">
   <title>École Joyeuse - Réussite Scolaire Garantie 🇨🇲</title>
   <style>
     * { margin:0; padding:0; box-sizing:border-box; }
@@ -87,23 +87,6 @@
     .feature-icon { font-size:3em; margin-bottom:1rem; }
     .feature-card h3 { color:var(--vert); margin-bottom:0.75rem; font-size:1.3em; }
 
-    /* BANDEAU LANCEMENT */
-    .lancement-banner {
-      background:linear-gradient(135deg, #FFF9E6 0%, #FFF3C4 100%);
-      border:2px solid var(--jaune); border-radius:20px;
-      padding:2.5rem 2rem; text-align:center; max-width:700px; margin:0 auto;
-    }
-    .lancement-banner h3 { color:var(--rouge); font-size:1.6em; font-weight:800; margin-bottom:0.75rem; }
-    .lancement-banner p { color:#374151; font-size:1.05em; margin-bottom:1.5rem; }
-    .btn-lancement {
-      display:inline-block; background:var(--vert); color:#fff;
-      font-size:1.15em; font-weight:800; padding:0.9rem 2.5rem;
-      border-radius:50px; text-decoration:none; margin-bottom:0.75rem;
-      transition:all 0.3s ease;
-    }
-    .btn-lancement:hover { background:#005A45; transform:translateY(-2px); box-shadow:0 6px 16px rgba(0,122,94,0.3); }
-    .lancement-banner small { display:block; color:#6b7280; font-size:0.9em; }
-
     /* TÉMOIGNAGES */
     .testimonials-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:2rem; }
     .testimonial {
@@ -142,12 +125,59 @@
     .footer-social { display:flex; gap:1.5rem; justify-content:center; margin-bottom:2rem; font-size:1.5em; }
     .copyright { color:#6b7280; font-size:0.9em; padding-top:2rem; border-top:1px solid #374151; }
 
+    /* STATS BAR */
+    .stats-bar{background:#fff;border-bottom:3px solid var(--jaune);padding:1.5rem 0;}
+    .stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1rem;text-align:center;}
+    .stat-number{font-size:2em;font-weight:900;color:var(--vert);line-height:1;}
+    .stat-label{font-size:0.85em;color:#6b7280;margin-top:0.2rem;}
+    /* TEST NIVEAU */
+    .test-section{background:linear-gradient(135deg,#1a1a2e 0%,#0d3b2e 100%);color:#fff;padding:3.5rem 0;}
+    .test-inner{max-width:800px;margin:0 auto;text-align:center;}
+    .test-badge{display:inline-block;background:var(--jaune);color:#1f2937;font-weight:800;font-size:0.9em;padding:0.4rem 1.2rem;border-radius:50px;margin-bottom:1rem;}
+    .test-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1.5rem;margin:2rem 0;}
+    .test-step{background:rgba(255,255,255,0.08);border:1px solid rgba(252,209,22,0.3);border-radius:14px;padding:1.5rem;text-align:center;}
+    .test-step-num{font-size:2em;font-weight:900;color:var(--jaune);line-height:1;}
+    .test-step-label{font-size:0.9em;opacity:0.85;margin-top:0.5rem;line-height:1.4;}
+    .test-matieres{display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;margin:1.5rem 0;}
+    .matiere-badge{background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:#fff;padding:0.4rem 1rem;border-radius:50px;font-size:0.9em;}
+    /* FREEMIUM */
+    .freemium-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;max-width:900px;margin:0 auto;}
+    .freemium-card{border-radius:20px;padding:2rem;border:2px solid;}
+    .freemium-card.gratuit{border-color:var(--vert);background:#F0FFF8;}
+    .freemium-card.premium{border-color:var(--jaune);background:#FFFDF0;position:relative;}
+    .freemium-card h3{font-size:1.4em;font-weight:800;margin-bottom:0.5rem;}
+    .freemium-card.gratuit h3{color:var(--vert);}
+    .freemium-card.premium h3{color:#92400e;}
+    .freemium-price{font-size:1.1em;font-weight:700;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:2px solid;}
+    .freemium-card.gratuit .freemium-price{color:var(--vert);border-color:var(--vert);}
+    .freemium-card.premium .freemium-price{color:#92400e;border-color:var(--jaune);}
+    .freemium-list{list-style:none;display:flex;flex-direction:column;gap:0.75rem;}
+    .freemium-list li{display:flex;align-items:flex-start;gap:0.6rem;font-size:0.97em;line-height:1.4;}
+    .chk{color:var(--vert);font-weight:900;font-size:1.1em;flex-shrink:0;}
+    .chk-gold{color:#d97706;font-weight:900;font-size:1.1em;flex-shrink:0;}
+    /* PRICING */
+    .pricing-section{background:linear-gradient(135deg,#F0FFF8 0%,#FFF9E6 100%);padding:4rem 0;}
+    .pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem;max-width:1000px;margin:0 auto;}
+    .pricing-card{background:#fff;border-radius:16px;padding:1.75rem;text-align:center;box-shadow:0 4px 16px rgba(0,0,0,0.08);border-top:4px solid;}
+    .pricing-card.t1{border-color:#10b981;} .pricing-card.t2{border-color:var(--jaune);}
+    .pricing-card.t3{border-color:var(--vert);border-width:3px;} .pricing-card.t4{border-color:var(--rouge);}
+    .pricing-card.t5{border-color:#6366f1;} .pricing-card.t6{border-color:#1f2937;}
+    .pricing-tier{font-size:0.8em;text-transform:uppercase;letter-spacing:1px;font-weight:700;margin-bottom:0.5rem;color:#6b7280;}
+    .pricing-price{font-size:1.8em;font-weight:900;line-height:1;margin:0.5rem 0;}
+    .pricing-card.t1 .pricing-price{color:#10b981;} .pricing-card.t2 .pricing-price{color:#d97706;}
+    .pricing-card.t3 .pricing-price{color:var(--vert);} .pricing-card.t4 .pricing-price{color:var(--rouge);}
+    .pricing-card.t5 .pricing-price{color:#6366f1;} .pricing-card.t6 .pricing-price{color:#1f2937;font-size:1.3em;}
+    .pricing-desc{font-size:0.85em;color:#6b7280;margin-top:0.5rem;line-height:1.5;}
+    .pricing-note{text-align:center;margin-top:2rem;font-size:0.9em;color:#6b7280;font-style:italic;}
     @media (max-width: 768px) {
       .hero h1 { font-size:2em; }
       .section-title { font-size:1.5em; }
       .hero-logo { width:85px; height:85px; }
       .cta-final h2 { font-size:1.8em; }
+      .freemium-grid{grid-template-columns:1fr;}
+      .pricing-grid{grid-template-columns:repeat(2,1fr);}
     }
+    @media (max-width:480px){.pricing-grid{grid-template-columns:1fr;}}
   </style>
 </head>
 <body>
@@ -167,21 +197,21 @@
 <section class="hero">
   <div class="container">
     <img src="logo.png" alt="École Joyeuse" class="hero-logo">
-    <div class="badge-gratuit">🎉 Accès 100% Gratuit — Phase de lancement</div>
+    <div class="badge-gratuit">🎉 SIL &amp; CP — 100% Gratuits Pour Toujours</div>
     <h1>
       Réussite Scolaire <span class="highlight">Garantie</span><br>
       Pour Vos Enfants 🇨🇲
     </h1>
     <p>
-      L'application éducative #1 au Cameroun. Conforme au programme MINEDUB,
+      L'application éducative #1 au Cameroun. <strong>1 147 leçons</strong>, conforme MINEDUB,
       100% hors-ligne, de la SIL au CM2. Transformez votre smartphone en école privée.
     </p>
     <div class="hero-cta">
       <a href="app.html" class="btn btn-primary" style="font-size:1.1em; padding:1rem 2rem;">
         🚀 Commencer gratuitement
       </a>
-      <a href="#features" class="btn btn-secondary">
-        📖 En savoir plus
+      <a href="#test-niveau" class="btn btn-secondary">
+        🎯 Tester le niveau de mon enfant
       </a>
     </div>
     <div class="trust-badges">
@@ -193,75 +223,135 @@
   </div>
 </section>
 
-<!-- FEATURES -->
-<section id="features">
+<!-- STATS BAR -->
+<div class="stats-bar">
   <div class="container">
-    <h2 class="section-title">Pourquoi École Joyeuse ?</h2>
-    <p class="section-subtitle">
-      Conçue à Douala avec l'appui d'enseignants,
-      validée par le curriculum officiel MINEDUB.
-    </p>
-    <div class="features-grid">
-      <div class="feature-card">
-        <div class="feature-icon">📚</div>
-        <h3>Conforme MINEDUB 100%</h3>
-        <p>Tous les programmes officiels de la SIL au CM2. Français, Maths, Sciences, Géographie, Histoire.</p>
+    <div class="stats-grid">
+      <div><div class="stat-number">6</div><div class="stat-label">Classes SIL → CM2</div></div>
+      <div><div class="stat-number">1 147</div><div class="stat-label">Leçons complètes</div></div>
+      <div><div class="stat-number">4 426</div><div class="stat-label">Quiz interactifs</div></div>
+      <div><div class="stat-number">8</div><div class="stat-label">Matières MINEDUB</div></div>
+      <div><div class="stat-number">100%</div><div class="stat-label">Hors-ligne</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- TEST DE NIVEAU -->
+<section id="test-niveau" class="test-section">
+  <div class="container">
+    <div class="test-inner">
+      <div class="test-badge">🎯 GRATUIT — Dès l'installation</div>
+      <h2 style="font-size:2em;font-weight:800;margin-bottom:0.75rem;">Test de Niveau Personnalisé</h2>
+      <p style="font-size:1.1em;opacity:0.85;max-width:560px;margin:0 auto 0 auto;">
+        En 8 minutes, l'app évalue votre enfant et lui recommande exactement la bonne classe. Précis, bienveillant, sans pression.
+      </p>
+      <div class="test-steps">
+        <div class="test-step">
+          <div class="test-step-num">20</div>
+          <div class="test-step-label">questions adaptées<br>(5 par matière)</div>
+        </div>
+        <div class="test-step">
+          <div class="test-step-num">4</div>
+          <div class="test-step-label">matières évaluées<br>Français · Maths · Sciences · SHS</div>
+        </div>
+        <div class="test-step">
+          <div class="test-step-num">8'</div>
+          <div class="test-step-label">durée estimée<br>à son propre rythme</div>
+        </div>
       </div>
-      <div class="feature-card">
-        <div class="feature-icon">📱</div>
-        <h3>Fonctionne Hors-Ligne</h3>
-        <p>Pas besoin d'internet. Parfait pour les zones rurales ou quand le forfait est épuisé.</p>
+      <div class="test-matieres">
+        <span class="matiere-badge">📖 Français</span>
+        <span class="matiere-badge">🔢 Mathématiques</span>
+        <span class="matiere-badge">🔬 Sciences</span>
+        <span class="matiere-badge">🌍 SHS</span>
       </div>
-      <div class="feature-card">
-        <div class="feature-icon">🎯</div>
-        <h3>Quiz Interactifs</h3>
-        <p>Plus de 500 questions avec explications détaillées. Apprentissage par la pratique.</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">🎓</div>
-        <h3>Mode Révision CEP</h3>
-        <p>Préparez le Certificat d'Études Primaires (examen fin CM2) avec des quiz chronométrés.</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">👨‍👩‍👧</div>
-        <h3>Espace Parent</h3>
-        <p>Suivez la progression de votre enfant. Stats détaillées et recommandations personnalisées.</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">🏅</div>
-        <h3>Système de Récompenses</h3>
-        <p>Badges, médailles, points XP. Votre enfant apprend en s'amusant et reste motivé.</p>
+      <p style="font-size:0.9em;opacity:0.65;margin-top:1rem;">Résultat positif garanti — "Ton espace CE1 est prêt pour toi !" Jamais de jugement.</p>
+      <div style="margin-top:1.5rem;">
+        <a href="app.html" style="display:inline-block;background:var(--jaune);color:#1f2937;font-weight:800;font-size:1.1em;padding:0.9rem 2.5rem;border-radius:50px;text-decoration:none;">
+          🎯 Faire le test maintenant
+        </a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ACCÈS GRATUIT (remplace section Tarifs) -->
-<section id="acces" style="background:#fff;">
+<!-- FEATURES -->
+<section id="features" style="background:#fff;">
   <div class="container">
-    <h2 class="section-title">Accès Gratuit Pendant Le Lancement</h2>
-    <p class="section-subtitle">
-      École Joyeuse est en phase de lancement.
-      Tous les niveaux sont accessibles gratuitement pendant cette période.
-    </p>
-    <div class="lancement-banner">
-      <h3>🎉 Phase Test Gratuite — Version En Ligne</h3>
-      <p>
-        SIL → CM2, 74 leçons, 296+ quiz, Mode CEP et Espace Parent —
-        tout est disponible gratuitement en ligne. Testez et donnez vos retours !
-      </p>
-      <div style="background:rgba(252,209,22,0.15); border-left:4px solid #FCD116; padding:12px 16px; border-radius:6px; margin:16px 0; text-align:left;">
-        <strong style="color:#CE1126; font-size:0.95em;">📱 Application Offline Premium</strong>
-        <p style="margin:6px 0 0; font-size:0.88em; color:#333; line-height:1.5;">
-          Dès la <strong>rentrée Septembre 2026</strong>, accédez à l'app complète sans connexion Internet.
-          Abonnement accessible pour toutes les familles camerounaises.
-        </p>
-      </div>
-      <a href="app.html" class="btn-lancement">Commencer maintenant →</a>
-      <small>Aucune inscription requise • Testez gratuitement • Fait au Cameroun 🇨🇲</small>
+    <h2 class="section-title">Pourquoi École Joyeuse ?</h2>
+    <p class="section-subtitle">Conçue à Douala avec l'appui d'enseignants, validée par le curriculum officiel MINEDUB.</p>
+    <div class="features-grid">
+      <div class="feature-card"><div class="feature-icon">📚</div><h3>Conforme MINEDUB 100%</h3><p>Tous les programmes officiels SIL→CM2. Français, Maths, Sciences, Géographie, Histoire et 4 autres matières.</p></div>
+      <div class="feature-card"><div class="feature-icon">📱</div><h3>App Ultra-Légère</h3><p>Vous téléchargez uniquement la classe de votre enfant. Aucun contenu inutile. Parfait pour les téléphones d'entrée de gamme.</p></div>
+      <div class="feature-card"><div class="feature-icon">🎯</div><h3>4 426 Quiz Interactifs</h3><p>Questions avec explications détaillées. Feedback immédiat et progression visible à chaque leçon.</p></div>
+      <div class="feature-card"><div class="feature-icon">🎓</div><h3>Mode Révision CEP</h3><p>Préparez le Certificat d'Études Primaires (examen fin CM2) avec des quiz chronométrés en conditions réelles.</p></div>
+      <div class="feature-card"><div class="feature-icon">👨‍👩‍👧</div><h3>Espace Parent Complet</h3><p>Suivez la progression en temps réel. Stats détaillées, matières à renforcer, alertes de décrochage.</p></div>
+      <div class="feature-card"><div class="feature-icon">🏅</div><h3>Gamification Motivante</h3><p>Badges, médailles, points XP, streaks. L'interface s'adapte au niveau — ludique en SIL, sérieuse en CM2.</p></div>
     </div>
   </div>
 </section>
+
+<!-- FREEMIUM -->
+<section id="acces" style="background:#f9fafb; padding:4rem 0;">
+  <div class="container">
+    <h2 class="section-title" style="margin-bottom:1rem;">Gratuit ou Premium — Vous Choisissez</h2>
+    <p class="section-subtitle">SIL et CP sont gratuits pour toujours. Les classes CE1 à CM2 deviennent accessibles selon votre abonnement.</p>
+    <div class="freemium-grid">
+      <div class="freemium-card gratuit">
+        <h3>✅ Gratuit</h3>
+        <div class="freemium-price">0 FCFA — Pour toujours</div>
+        <ul class="freemium-list">
+          <li><span class="chk">✓</span> Classe SIL complète (toutes UA)</li>
+          <li><span class="chk">✓</span> Classe CP complète (toutes UA)</li>
+          <li><span class="chk">✓</span> Test de niveau personnalisé</li>
+          <li><span class="chk">✓</span> Mode révision CEP</li>
+          <li><span class="chk">✓</span> Espace parent basique</li>
+          <li><span class="chk">✓</span> 100% hors-ligne</li>
+          <li><span class="chk">✓</span> Gamification complète</li>
+        </ul>
+        <a href="app.html" style="display:block;margin-top:1.5rem;background:var(--vert);color:#fff;font-weight:700;padding:0.75rem;border-radius:50px;text-decoration:none;text-align:center;">Commencer gratuitement</a>
+      </div>
+      <div class="freemium-card premium">
+        <div style="position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--rouge);color:#fff;font-size:0.8em;font-weight:800;padding:0.3rem 1rem;border-radius:20px;white-space:nowrap;">⭐ Dès Septembre 2026</div>
+        <h3>🌟 Premium</h3>
+        <div class="freemium-price">À partir de 150 FCFA</div>
+        <ul class="freemium-list">
+          <li><span class="chk-gold">✓</span> Classe CE1 complète</li>
+          <li><span class="chk-gold">✓</span> Classe CE2 complète</li>
+          <li><span class="chk-gold">✓</span> Classe CM1 complète</li>
+          <li><span class="chk-gold">✓</span> Classe CM2 complète</li>
+          <li><span class="chk-gold">✓</span> 1 classe = 1 téléchargement ciblé <span style="font-size:0.8em;opacity:0.7;">(app légère)</span></li>
+          <li><span class="chk-gold">✓</span> Espace parent avancé + statistiques</li>
+          <li><span class="chk-gold">✓</span> Option Famille multi-enfants</li>
+          <li><span class="chk-gold">✓</span> Option Contrat École disponible</li>
+        </ul>
+        <a href="#tarifs" style="display:block;margin-top:1.5rem;background:var(--jaune);color:#1f2937;font-weight:700;padding:0.75rem;border-radius:50px;text-decoration:none;text-align:center;">Voir les tarifs →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TARIFS -->
+<section id="tarifs" class="pricing-section">
+  <div class="container">
+    <h2 class="section-title" style="margin-bottom:1rem;">Tarifs Accessibles À Tous</h2>
+    <p class="section-subtitle">Payez uniquement la classe dont votre enfant a besoin. L'app ne télécharge que ce que vous avez choisi.</p>
+    <div class="pricing-grid">
+      <div class="pricing-card t1"><div class="pricing-tier">Par UA</div><div class="pricing-price">150 F</div><div class="pricing-desc">1 Unité d'Apprentissage complète<br><em>Idéal pour tester</em></div></div>
+      <div class="pricing-card t2"><div class="pricing-tier">Par Trimestre</div><div class="pricing-price">1 000 F</div><div class="pricing-desc">T1, T2 ou T3 d'une classe<br><em>Idéal en cours d'année</em></div></div>
+      <div class="pricing-card t3">
+        <div style="background:var(--vert);color:#fff;font-size:0.7em;font-weight:800;padding:0.2rem 0.75rem;border-radius:20px;display:inline-block;margin-bottom:0.5rem;">MEILLEURE VALEUR</div>
+        <div class="pricing-tier">Classe Annuelle</div><div class="pricing-price">2 500 F</div><div class="pricing-desc">1 classe complète, toute l'année<br><em>Toutes UA + tous trimestres</em></div>
+      </div>
+      <div class="pricing-card t4"><div class="pricing-tier">Famille</div><div class="pricing-price">4 000 F</div><div class="pricing-desc">2 enfants, 2 classes au choix<br><em>Économie 20%</em></div></div>
+      <div class="pricing-card t5"><div class="pricing-tier">Famille Tout Accès</div><div class="pricing-price">8 000 F</div><div class="pricing-desc">Toutes classes SIL→CM2<br>Enfants illimités</div></div>
+      <div class="pricing-card t6"><div class="pricing-tier">École / Institution</div><div class="pricing-price">Sur devis</div><div class="pricing-desc">Contrats écoles, ONG, MINEDUB<br><em>Tarifs préférentiels</em></div></div>
+    </div>
+    <p class="pricing-note">💡 Tous les tarifs sont en Francs CFA · Orange Money ou MTN MoMo uniquement<br>Tarifs définitifs confirmés à la rentrée de Septembre 2026.</p>
+  </div>
+</section>
+</section>
+
 
 <!-- AVANTAGES -->
 <section id="avantages">
@@ -396,7 +486,7 @@
       🚀 Commencer Gratuitement
     </a>
     <p style="margin-top:1.5rem; font-size:0.9em; opacity:0.8;">
-      Aucune inscription • Aucune carte bancaire • 100% hors-ligne
+      Aucune inscription · SIL &amp; CP gratuits · 100% hors-ligne
     </p>
   </div>
 </section>
@@ -409,6 +499,8 @@
     </div>
     <div class="footer-links">
       <a href="#features">Fonctionnalités</a>
+      <a href="#test-niveau">Test de niveau</a>
+      <a href="#tarifs">Tarifs</a>
       <a href="#avantages">Avantages</a>
       <a href="feedback.html">Donner mon avis</a>
       <a href="mailto:contact@ecolejoyeuse.cm">Support</a>
