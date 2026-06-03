@@ -7,7 +7,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="École Joyeuse">
 <meta name="theme-color" content="#007A5E">
-<meta name="description" content="École Joyeuse — Apprentissage primaire MINEDUB Cameroun. CP au CM2.">
+<meta name="description" content="École Joyeuse — Apprentissage primaire MINEDUB Cameroun. SIL au CM2.">
 <link rel="apple-touch-icon" href="icon-192.png">
 <title>École Joyeuse</title>
 <style>
@@ -2093,7 +2093,7 @@ input, select, textarea { font-family: inherit; font-size: 1em; }
   <div id="splashScreen" class="screen active">
     <img class="splash-logo" id="splashLogo" alt="École Joyeuse" />
     <div class="splash-title">École Joyeuse</div>
-    <div class="splash-tagline">Apprendre avec joie — CP au CM2</div>
+    <div class="splash-tagline">Apprendre avec joie — SIL au CM2 · Programme MINEDUB officiel</div>
     <button class="splash-cta" id="splashStartBtn" onclick="bootContinue()">Commencer →</button>
     <div class="splash-loading" id="splashLoading">Chargement du programme MINEDUB…</div>
   </div>
@@ -5708,7 +5708,7 @@ function renderPremiumScreen() {
   } else {
     html += '<div style="background:linear-gradient(135deg,#fff8d6,#fff);border-left:4px solid var(--jaune-etoile);padding:12px 14px;border-radius:12px;margin-bottom:14px;font-size:.88em;line-height:1.4">';
     html += '🔓 Débloque toutes les classes CE2, CM1 et CM2 + tous les examens CEP/Concours.';
-    html += '<br><small style="opacity:.7">Activation officielle : 1er juin 2026 — paiement Mobile Money</small>';
+    html += '<br><small style="opacity:.7">Paiement Mobile Money — Orange Money · MTN MoMo · CinetPay</small>';
     html += '</div>';
   }
 
@@ -5743,7 +5743,27 @@ function renderPremiumScreen() {
 }
 
 function initiatePremiumPurchase(plan, price) {
-  toast('Activation Mobile Money disponible le 1er juin 2026', 3500);
+  var msg = encodeURIComponent(
+    'Bonjour, je souhaite activer le plan ' + plan + ' (' + price + ' FCFA) pour Ecole Joyeuse.\n\n'
+    + 'Prenom de l\'enfant : ...\nClasse : ...\n\n'
+    + 'Merci de m\'indiquer comment effectuer le paiement Mobile Money.'
+  );
+  var waUrl = 'https://wa.me/237690384199?text=' + msg;
+  var modal = document.createElement('div');
+  modal.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.6);z-index:9999;display:flex;align-items:flex-end;justify-content:center';
+  modal.innerHTML = '<div style="background:#fff;border-radius:20px 20px 0 0;padding:24px 20px 32px;width:100%;max-width:480px">'
+    + '<div style="font-weight:700;font-size:1.1em;margin-bottom:4px">&#11088; Plan ' + plan + ' &mdash; ' + price + ' FCFA</div>'
+    + '<div style="font-size:.85em;color:#666;margin-bottom:18px">Choisissez votre mode de paiement&nbsp;:</div>'
+    + '<a href="' + waUrl + '" target="_blank" style="display:block;background:linear-gradient(135deg,#25D366,#128C7E);color:#fff;border-radius:12px;padding:14px;text-align:center;font-weight:700;font-size:.95em;text-decoration:none;margin-bottom:10px">&#128172; WhatsApp &mdash; Confirmer ma commande</a>'
+    + '<div style="background:#f5f5f5;border-radius:12px;padding:12px 14px;font-size:.82em;margin-bottom:14px">'
+    + '<b>Orange Money&nbsp;:</b> 690 384 199<br>'
+    + '<b>MTN MoMo&nbsp;:</b> 653 571 659<br>'
+    + '<span style="color:#888">Envoyez le montant exact puis cliquez WhatsApp ci-dessus</span>'
+    + '</div>'
+    + '<button onclick="this.parentNode.parentNode.remove()" style="width:100%;padding:12px;border-radius:12px;background:#eee;font-size:.9em;font-weight:600;border:none;cursor:pointer">Fermer</button>'
+    + '</div>';
+  document.body.appendChild(modal);
+  modal.addEventListener('click', function(e){ if(e.target === modal) modal.remove(); });
 }
 
 // ─── CODE DEV RJV2025 (7 taps sur le logo splash) ───
