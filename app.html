@@ -3287,8 +3287,26 @@ async function boot() {
   }
   try {
     // 1. Charger l'index léger (déclare classes disponibles, méta globale)
-    const resIdx = await fetch('./curriculum_index.json', { cache: 'no-store' });
+    // Timeout 8s sur le fetch — si SW cassé intercepte, on redirige vers clear-cache
+    const fetchWithTimeout = (url, opts, ms=8000) => {
+      const ctrl = new AbortController();
+      const t = setTimeout(() => ctrl.abort(), ms);
+      return fetch(url, { ...opts, signal: ctrl.signal }).finally(() => clearTimeout(t));
+    };
+    let resIdx;
+    try {
+      resIdx = await fetchWithTimeout('./curriculum_index.json', { cache: 'no-store' });
+    } catch(fetchErr) {
+      window.location.href = '/clear-cache.html';
+      return;
+    }
     if (!resIdx.ok) throw new Error('curriculum_index.json HTTP ' + resIdx.status);
+    // Vérifier que la réponse est bien du JSON (pas du HTML servi par un SW cassé)
+    const ct = resIdx.headers.get('content-type') || '';
+    if (!ct.includes('json') && !ct.includes('javascript')) {
+      window.location.href = '/clear-cache.html';
+      return;
+    }
     const indexData = await resIdx.json();
     APP.curriculumIndex = indexData;
 
@@ -3338,21 +3356,19 @@ async function loadCurriculumForClass(classe) {
 
 function bootError(e) {
   const isFile = location.protocol === 'file:';
+  // Si erreur réseau probable → rediriger vers page de nettoyage
+  if (!isFile) {
+    window.location.href = '/clear-cache.html';
+    return;
+  }
   document.getElementById('splashScreen').classList.remove('active');
   const errScreen = document.getElementById('errorScreen');
   errScreen.classList.add('active');
-  document.getElementById('errorTitle').textContent = isFile
-    ? "Lance un serveur local"
-    : "Impossible de charger le programme";
-  document.getElementById('errorDetail').textContent = isFile
-    ? "Le navigateur bloque le chargement des fichiers JSON quand tu ouvres app.html en double-clic. Démarre un mini serveur :"
-    : "Vérifie que curriculum_index.json et les fichiers curriculum_CP.json … curriculum_CM2.json sont bien à côté de app.html. Détail : " + (e.message || e);
-  if (isFile) {
-    document.getElementById('errorHelp').innerHTML =
-      "Dans le Terminal :<br><br>cd ~/Documents/QG_STRATEGIQUE/École_Joyeuse_v2_MINEDUB<br>python3 -m http.server 8000<br><br>Puis ouvre Safari : http://localhost:8000/app.html";
-  } else {
-    document.getElementById('errorHelp').textContent = "";
-  }
+  document.getElementById('errorTitle').textContent = 'Lance un serveur local';
+  document.getElementById('errorDetail').textContent =
+    'Le navigateur bloque le chargement des fichiers JSON en double-clic. Démarre un mini serveur :';
+  document.getElementById('errorHelp').innerHTML =
+    'Dans le Terminal :<br><br>cd ~/Documents/.../Repo\ Github<br>python3 -m http.server 8000<br><br>Puis ouvre : http://localhost:8000/app.html';
 }
 
 function bootContinue() {
