@@ -3274,9 +3274,20 @@ function fireConfetti() {
    ════════════════════════════════════════════════════════════════ */
 async function boot() {
   // logo src défini inline (logo.png + onerror LOGO_B64)
+  // Désinstaller tout SW existant avant de fetcher (évite les interceptions SW cassés)
+  if ('serviceWorker' in navigator) {
+    try {
+      const regs = await navigator.serviceWorker.getRegistrations();
+      await Promise.all(regs.map(r => r.unregister()));
+      if (window.caches) {
+        const keys = await caches.keys();
+        await Promise.all(keys.map(k => caches.delete(k)));
+      }
+    } catch(_) {}
+  }
   try {
     // 1. Charger l'index léger (déclare classes disponibles, méta globale)
-    const resIdx = await fetch('./curriculum_index.json', { cache: 'reload' });
+    const resIdx = await fetch('./curriculum_index.json', { cache: 'no-store' });
     if (!resIdx.ok) throw new Error('curriculum_index.json HTTP ' + resIdx.status);
     const indexData = await resIdx.json();
     APP.curriculumIndex = indexData;
