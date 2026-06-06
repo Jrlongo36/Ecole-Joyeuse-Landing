@@ -3273,21 +3273,24 @@ function fireConfetti() {
    BOOT
    ════════════════════════════════════════════════════════════════ */
 async function boot() {
+  const _log = msg => { try { document.getElementById('splashLoading').textContent = msg; } catch(_){} };
+  _log('boot() démarré…');
   // logo src défini inline (logo.png + onerror LOGO_B64)
-  // Désinstaller tout SW existant avant de fetcher (évite les interceptions SW cassés)
+  // Désinstaller tout SW existant avant de fetcher
   if ('serviceWorker' in navigator) {
     try {
+      _log('purge SW…');
       const regs = await navigator.serviceWorker.getRegistrations();
       await Promise.all(regs.map(r => r.unregister()));
       if (window.caches) {
         const keys = await caches.keys();
         await Promise.all(keys.map(k => caches.delete(k)));
       }
-    } catch(_) {}
+      _log('SW purgé ✓');
+    } catch(_) { _log('SW purge skip'); }
   }
   try {
-    // 1. Charger l'index léger (déclare classes disponibles, méta globale)
-    // Timeout 8s sur le fetch — si SW cassé intercepte, on redirige vers clear-cache
+    _log('fetch index…');
     const fetchWithTimeout = (url, opts, ms=8000) => {
       const ctrl = new AbortController();
       const t = setTimeout(() => ctrl.abort(), ms);
@@ -3296,15 +3299,18 @@ async function boot() {
     let resIdx;
     try {
       resIdx = await fetchWithTimeout('./curriculum_index.json', { cache: 'no-store' });
+      _log('fetch OK status=' + resIdx.status);
     } catch(fetchErr) {
-      window.location.href = '/clear-cache.html';
+      _log('fetch ERREUR: ' + fetchErr.message);
+      setTimeout(() => { window.location.href = '/clear-cache.html'; }, 2000);
       return;
     }
     if (!resIdx.ok) throw new Error('curriculum_index.json HTTP ' + resIdx.status);
-    // Vérifier que la réponse est bien du JSON (pas du HTML servi par un SW cassé)
     const ct = resIdx.headers.get('content-type') || '';
+    _log('content-type: ' + ct.substring(0,30));
     if (!ct.includes('json') && !ct.includes('javascript')) {
-      window.location.href = '/clear-cache.html';
+      _log('CT invalide → clear-cache');
+      setTimeout(() => { window.location.href = '/clear-cache.html'; }, 2000);
       return;
     }
     const indexData = await resIdx.json();
