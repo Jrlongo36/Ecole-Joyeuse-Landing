@@ -1052,7 +1052,7 @@
               "Dire bonjour et au revoir en français de manière polie",
               "Dire son nom, son prénom et son âge devant ses camarades",
               "Nommer sa classe (CP), son école et le nom de son enseignant",
-              "Utiliser les formules « S'il vous plaît » et « Merci » en contexte"
+              "Utiliser les formules « S'il vous plaît »"
             ],
             "exercices": [
               {
@@ -1185,7 +1185,7 @@
               "Identifier la lettre A en majuscule (A) et en minuscule (a)",
               "Prononcer le son [a] dans des mots familiers",
               "Lire des syllabes simples contenant la lettre A (la, ma, pa, ta)",
-              "Repérer la lettre A dans des mots de l'école et de la vie camerounaise"
+              "Repérer la lettre A dans des mots de l'école"
             ],
             "exercices": [
               {
@@ -1301,10 +1301,10 @@
             "titre": "Tracer la lettre A en majuscule et minuscule",
             "objectif": "À la fin de la leçon, l'élève sera capable de tracer correctement la lettre A et a en respectant les lignes du cahier d'écriture camerounais.",
             "savoirs_faire": [
-              "Tenir correctement son crayon (entre le pouce et l'index, appuyé sur le majeur)",
+              "Tenir correctement son crayon",
               "Tracer la lettre A en majuscule (3 traits droits)",
               "Tracer la lettre a en minuscule (rond fermé puis trait vertical)",
-              "Respecter les lignes du cahier 32 pages à grands carreaux utilisé au CP au Cameroun"
+              "Respecter les lignes du cahier 32 pages à grands carreaux"
             ],
             "exercices": [
               {
@@ -1415,8 +1415,8 @@
             "titre": "Le vocabulaire oral de l'école",
             "objectif": "À la fin de la leçon, l'élève sera capable de nommer oralement les objets et les personnes de l'école dans des phrases courtes prononcées.",
             "savoirs_faire": [
-              "Nommer oralement au moins 8 objets de la classe (livre, cahier, crayon, gomme, ardoise, règle, sac, table)",
-              "Nommer oralement les personnes de l'école (enseignant, élève, directeur, gardien)",
+              "Nommer oralement au moins 8 objets de la classe",
+              "Nommer oralement les personnes de l'école",
               "Dire à qui appartient un objet (« Le cahier est à Tina »)",
               "Distinguer à l'oral les objets et les personnes par leur nom"
             ],
@@ -1545,10 +1545,10 @@
                 "titre": "Les nombres de 1 à 5 — compter les objets de la maison",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Dénombrer une collection d'objets de 1 à 5 en pointant chaque objet du doigt",
-                  "Lire et écrire les chiffres 1, 2, 3, 4, 5 en associant chiffre et quantité",
-                  "Comparer deux collections (plus de / moins de / autant) dans le contexte de la maison",
-                  "Résoudre une situation d'addition simple jusqu'à 5 avec des objets de la maison"
+                  "Dénombrer une collection d'objets de 1 à 5 en pointant chaque",
+                  "Lire",
+                  "Comparer deux collections dans le contexte de la maison",
+                  "Résoudre une situation d'addition simple jusqu'à 5 avec des"
                 ],
                 "savoirs_etre": [
                   "Ranger les objets de la maison avec soin",
@@ -1703,10 +1703,10 @@
                 "titre": "Les nombres de 6 à 10 — compter dans la maison",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Dénombrer une collection d'objets de 6 à 10 en pointant chaque objet du doigt",
-                  "Lire et écrire les chiffres 6, 7, 8, 9, 10 en les associant à des quantités concrètes",
+                  "Dénombrer une collection d'objets de 6 à 10 en pointant chaque",
+                  "Lire",
                   "Ordonner les nombres de 1 à 10 sur la droite numérique",
-                  "Résoudre une addition ou soustraction simple avec résultat inférieur ou égal à 10"
+                  "Résoudre une addition ou soustraction simple avec résultat"
                 ],
                 "savoirs_etre": [
                   "Compter soigneusement avant de partager",
@@ -1861,10 +1861,10 @@
                 "titre": "Partager équitablement à la maison",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Répartir une collection en groupes égaux (notion de partage équitable)",
-                  "Reconnaître si un partage est équitable ou non en comparant les groupes",
+                  "Répartir une collection en groupes égaux",
+                  "Reconnaître si un partage est équitable ou non en comparant les",
                   "Utiliser le vocabulaire du partage : chacun, autant, égal, reste",
-                  "Résoudre un problème simple de partage dans le contexte de la famille camerounaise"
+                  "Résoudre un problème simple de partage dans le contexte de la"
                 ],
                 "savoirs_etre": [
                   "Partager équitablement avec ses frères et sœurs",
@@ -2014,10 +2014,10 @@
                 "titre": "Comparer des longueurs et des tailles à la maison",
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
-                  "Comparer deux objets de la maison par leur longueur sans instrument de mesure (plus long / plus court / pareil)",
-                  "Utiliser les termes grand, petit, haut, bas, large, étroit pour décrire les objets de la maison",
+                  "Comparer deux objets de la maison par leur longueur sans",
+                  "Utiliser les termes grand, petit, haut, bas, large, étroit",
                   "Ranger 3 objets du plus court au plus long",
-                  "Estimer et vérifier la longueur d'un objet en utilisant une unité non conventionnelle (pied, empan, cuillère)"
+                  "Estimer"
                 ],
                 "savoirs_etre": [
                   "Observer avec attention",
@@ -2151,10 +2151,10 @@
                 "titre": "Les formes géométriques dans la maison",
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
-                  "Reconnaître et nommer le carré, le rectangle, le triangle et le cercle dans les objets de la maison",
-                  "Décrire une forme géométrique simple en utilisant les termes côté, angle, rond",
+                  "Reconnaître",
+                  "Décrire une forme géométrique simple en utilisant les termes",
                   "Trier des objets de la maison selon leur forme géométrique",
-                  "Reproduire une forme simple (carré, rectangle) en traçant sur le cahier à grands carreaux"
+                  "Reproduire une forme simple en traçant sur le cahier à grands"
                 ],
                 "savoirs_etre": [
                   "Observer attentivement les formes autour de soi",
@@ -2332,9 +2332,9 @@
               "titre": "Les parties du corps — hygiène corporelle à la maison",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Identifier et nommer les principales parties du corps humain (tête, tronc, membres)",
-                "Nommer les organes des sens et leur rôle (yeux, oreilles, nez, bouche, peau)",
-                "Appliquer les règles d'hygiène corporelle liées à la maison : se laver les mains avant de manger",
+                "Identifier et nommer les principales parties du corps humain",
+                "Nommer les organes des sens et leur rôle",
+                "Appliquer les règles d'hygiène corporelle liées à la maison : se",
                 "Expliquer pourquoi l'hygiène corporelle protège de la maladie"
               ],
               "savoirs_etre": [
@@ -2521,10 +2521,10 @@
               "titre": "Les animaux de la maison et de la cour",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Nommer les animaux domestiques vivant près de la maison camerounaise (poule, chèvre, chien, chat, canard)",
-                "Décrire l'utilité de chaque animal domestique pour la famille (œufs, lait, viande, gardiennage)",
-                "Distinguer les animaux vivant dans la maison de ceux vivant dans la cour",
-                "Appliquer les règles d'hygiène liées aux animaux : ne pas les laisser entrer dans la cuisine"
+                "Nommer les animaux domestiques vivant près de la maison",
+                "Décrire l'utilité de chaque animal domestique pour la famille",
+                "Distinguer les animaux vivant dans la maison de ceux vivant dans",
+                "Appliquer les règles d'hygiène liées aux animaux : ne pas les"
               ],
               "savoirs_etre": [
                 "Traiter les animaux avec respect et sans cruauté",
@@ -2720,10 +2720,10 @@
               "titre": "L'eau à la maison — usages et économie",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Nommer les différents usages de l'eau dans la maison (boire, cuisiner, se laver, arroser)",
-                "Identifier les sources d'eau utilisées par les familles camerounaises (robinet, puits, source, bidon)",
-                "Appliquer une règle d'économie de l'eau : fermer le robinet quand on ne l'utilise pas",
-                "Expliquer pourquoi on doit utiliser de l'eau propre pour boire et cuisiner"
+                "Nommer les différents usages de l'eau dans la maison",
+                "Identifier les sources d'eau utilisées par les familles",
+                "Appliquer une règle d'économie de l'eau : fermer le robinet",
+                "Expliquer pourquoi on doit utiliser de l'eau propre pour boire"
               ],
               "savoirs_etre": [
                 "Économiser l'eau comme un bien précieux",
@@ -2909,9 +2909,9 @@
               "titre": "La maison traditionnelle au Cameroun — héritage et famille",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Décrire les différents types de maisons traditionnelles camerounaises (cases rondes du Nord, maisons en banco du Centre, cases sur pilotis côtières)",
-                "Expliquer que la maison est le lieu de vie de la famille et de transmission des valeurs",
-                "Identifier les objets anciens utilisés dans les maisons traditionnelles (mortier, calebasse, natte, canari)",
+                "Décrire les différents types de maisons traditionnelles",
+                "Expliquer que la maison est le lieu de vie de la famille",
+                "Identifier les objets anciens utilisés dans les maisons",
                 "Établir un lien entre la maison d'hier et la maison d'aujourd'hui"
               ],
               "savoirs_etre": [
@@ -3104,10 +3104,10 @@
               "titre": "Ma maison dans mon quartier — s'orienter dans l'espace proche",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Localiser sa propre maison dans son quartier en utilisant des repères proches (école, marché, église, mosquée).",
-                "Utiliser les termes de localisation : devant, derrière, à gauche, à droite, près de, loin de.",
-                "Décrire le chemin entre sa maison et l'école en nommant les repères du quartier.",
-                "Reconnaître les différents types de logements dans son quartier (maison, immeuble, case)."
+                "Localiser sa propre maison dans son quartier en utilisant des",
+                "Utiliser les termes de localisation : devant, derrière, à",
+                "Décrire le chemin entre sa maison",
+                "Reconnaître les différents types de logements dans son quartier."
               ],
               "savoirs_etre": [
                 "Connaître son adresse pour ne pas se perdre",
@@ -3274,9 +3274,9 @@
               "titre": "My Home — Vocabulary and simple phrases about the house",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Name at least 6 parts of the home in English (door, window, roof, wall, floor, room)",
+                "Name at least 6 parts of the home in English",
                 "Use the phrase 'This is a...' to identify objects in the home",
-                "Respond to simple questions about the home: 'What is this?' → 'It is a door'",
+                "Respond to simple questions about the home: 'What is this?' →",
                 "Count home objects in English from 1 to 5"
               ],
               "savoirs_etre": [
@@ -3461,9 +3461,9 @@
               "titre": "La maison dans les langues et cultures du Cameroun",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Nommer la maison dans au moins 2 langues camerounaises (Ewondo : nda / Fulfulde : galle / Bassa : ndap / Duala : mbedi)",
-                "Décrire un élément de la maison traditionelle propre à une ethnie camerounaise",
-                "Identifier des valeurs culturelles liées à la maison (hospitalité, respect des anciens, accueil de l'étranger)",
+                "Nommer la maison dans au moins 2 langues camerounaises",
+                "Décrire un élément de la maison traditionelle propre à une",
+                "Identifier des valeurs culturelles liées à la maison",
                 "Expliquer la tradition de l'accueil dans la culture camerounaise"
               ],
               "savoirs_etre": [
@@ -3619,9 +3619,9 @@
               "titre": "Contes et récits sur la maison — tradition orale camerounaise",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Écouter un conte camerounais court sur le thème de la maison et en restituer les éléments principaux",
+                "Écouter un conte camerounais court sur le thème de la maison",
                 "Identifier la morale d'un conte traditionnel camerounais",
-                "Reconnaître les personnages typiques des contes camerounais (l'araignée, le lièvre, l'éléphant)",
+                "Reconnaître les personnages typiques des contes camerounais",
                 "Produire oralement une phrase sur la leçon apprise dans le conte"
               ],
               "savoirs_etre": [
@@ -3775,10 +3775,10 @@
               "titre": "Je respecte ma maison et j'aide ma famille",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Identifier des tâches ménagères adaptées à son âge qu'un enfant peut faire à la maison",
-                "Expliquer pourquoi ranger et nettoyer sa maison est important pour le bien-être de la famille",
-                "Exprimer sa fierté et sa responsabilité vis-à-vis de sa maison et de sa famille",
-                "Pratiquer un geste concret d'aide à la maison : ranger ses affaires, balayer sa chambre"
+                "Identifier des tâches ménagères adaptées à son âge qu'un enfant",
+                "Expliquer pourquoi ranger",
+                "Exprimer sa fierté",
+                "Pratiquer un geste concret d'aide à la maison : ranger ses"
               ],
               "savoirs_etre": [
                 "Être responsable de son espace de vie",
@@ -4493,10 +4493,10 @@
             "titre": "Parler de ma famille à l'oral",
             "objectif": "À la fin de la leçon, l'élève sera capable de nommer oralement les membres de sa famille et de dire ce que chacun fait, en utilisant des phrases courtes prononcées.",
             "savoirs_faire": [
-              "Nommer à l'oral au moins 6 membres de la famille (papa, maman, frère, sœur, grand-père, grand-mère)",
-              "Dire à l'oral le prénom d'au moins 3 personnes de sa famille proche",
-              "Dire à l'oral ce que fait un membre de la famille (« Maman cuisine », « Papa travaille »)",
-              "Utiliser oralement les mots « mon », « ma », « mes » devant les membres de la famille"
+              "Nommer à l'oral au moins 6 membres de la famille",
+              "Dire à l'oral le prénom d'au moins 3 personnes de sa famille",
+              "Dire à l'oral ce que fait un membre de la famille",
+              "Utiliser oralement les mots « mon », « ma », « mes » devant les"
             ],
             "exercices": [
               {
@@ -4627,8 +4627,8 @@
             "savoirs_faire": [
               "Identifier la lettre I en majuscule (I) et en minuscule (i)",
               "Prononcer le son [i] dans des mots familiers",
-              "Lire des syllabes simples mélangeant A et I (ma, mi, la, li, pa, pi)",
-              "Repérer la lettre I dans des prénoms et des mots du quotidien camerounais"
+              "Lire des syllabes simples mélangeant A et I",
+              "Repérer la lettre I dans des prénoms"
             ],
             "exercices": [
               {
@@ -4746,8 +4746,8 @@
             "objectif": "À la fin de la leçon, l'élève sera capable de tracer correctement la lettre I et i en respectant les lignes du cahier 32 pages à grands carreaux utilisé au CP camerounais.",
             "savoirs_faire": [
               "Tracer la lettre I en majuscule (1 trait vertical bien droit)",
-              "Tracer la lettre i en minuscule (1 trait vertical + 1 point au-dessus)",
-              "Placer correctement le point au-dessus du i (jamais à côté ni en bas)",
+              "Tracer la lettre i en minuscule",
+              "Placer correctement le point au-dessus du i",
               "Respecter les lignes du cahier 32 pages à grands carreaux"
             ],
             "exercices": [
@@ -4856,10 +4856,10 @@
             "titre": "Le vocabulaire oral de la famille",
             "objectif": "À la fin de la leçon, l'élève sera capable de nommer oralement les membres de sa famille, de dire à qui appartient une chose, et d'utiliser oralement « mon », « ma », « mes ».",
             "savoirs_faire": [
-              "Nommer oralement au moins 6 membres de la famille (papa, maman, frère, sœur, grand-père, grand-mère, tante, oncle)",
-              "Utiliser oralement « mon » devant un mot masculin (« mon papa », « mon frère »)",
-              "Utiliser oralement « ma » devant un mot féminin (« ma maman », « ma sœur »)",
-              "Dire à voix haute ce que fait chaque membre de la famille (« Maman cuisine », « Papa lit »)"
+              "Nommer oralement au moins 6 membres de la famille",
+              "Utiliser oralement « mon » devant un mot masculin",
+              "Utiliser oralement « ma » devant un mot féminin",
+              "Dire à voix haute ce que fait chaque membre de la famille"
             ],
             "exercices": [
               {
@@ -4991,9 +4991,9 @@
                 "titre": "Les nombres de 6 à 9 et la réunion de collections",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Lire et écrire en chiffres et en lettres les nombres entiers de 6 à 9.",
+                  "Lire",
                   "Décomposer un nombre en somme de trois termes.",
-                  "Résoudre des situations-problèmes faisant intervenir les nombres de 6 à 9.",
+                  "Résoudre des situations-problèmes faisant intervenir les nombres",
                   "Traduire la réunion de collections d'éléments en somme."
                 ],
                 "savoirs_etre": [
@@ -5152,10 +5152,10 @@
                 "titre": "Identifier et comparer les grandeurs et les masses",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Identifier les grandeurs physiques (plus grand, plus petit, plus gros, plus mince).",
+                  "Identifier les grandeurs physiques.",
                   "Utiliser une règle ou un gabarit comme instrument de tracé.",
                   "Comparer des grandeurs en utilisant le vocabulaire approprié.",
-                  "Résoudre des situations-problèmes de la vie courante faisant intervenir les grandeurs."
+                  "Résoudre des situations-problèmes de la vie courante faisant"
                 ],
                 "savoirs_etre": [
                   "Respecter ses voisins et son environnement",
@@ -5320,7 +5320,7 @@
                   "Identifier et distinguer les unités de mesure arbitraires.",
                   "Comparer les mesures arbitraires de longueur et de masse.",
                   "Distinguer et utiliser les mesures arbitraires de longueur.",
-                  "Comparer des masses en utilisant des unités de mesure arbitraires."
+                  "Comparer des masses en utilisant des unités de mesure"
                 ],
                 "savoirs_etre": [
                   "Respecter ses voisins et son environnement",
@@ -5620,10 +5620,10 @@
                   "bonus_si_reussite": "🌟 Excellent ! Tu maîtrises dedans / dehors. Chapeau !"
                 },
                 "savoirs_faire": [
-                  "Reconnaître les formes géométriques simples (carré, rectangle, rond, triangle)",
+                  "Reconnaître les formes géométriques simples",
                   "Tracer des lignes droites avec une règle",
                   "Repérer des objets dans l'espace (devant, derrière, à côté)",
-                  "Pratiquer les compétences acquises dans des situations réelles."
+                  "Pratiquer dans des situations réelles"
                 ],
                 "objectif": "Objectif pédagogique. (Avec Bineta à Douala)",
                 "test_integration": {
@@ -5646,10 +5646,10 @@
               "titre": "L'eau dans le village et la ville",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Identifier les sources d'eau dans un village camerounais (puits, source, fleuve)",
-                "Nommer les sources d'eau dans une ville (robinet, château d'eau, CAMWATER)",
+                "Identifier les sources d'eau dans un village camerounais",
+                "Nommer les sources d'eau dans une ville",
                 "Expliquer pourquoi l'eau est indispensable à la vie",
-                "Appliquer la règle : boire de l'eau propre pour ne pas tomber malade"
+                "Appliquer la règle : boire de l'eau propre"
               ],
               "exercices": [
                 {
@@ -5757,7 +5757,7 @@
               "titre": "Les animaux sauvages du Cameroun — forêt et savane",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Nommer 5 animaux sauvages camerounais (éléphant, gorille, lion, crocodile, panthère)",
+                "Nommer 5 animaux sauvages camerounais",
                 "Distinguer animaux de forêt et animaux de savane",
                 "Expliquer que les animaux sauvages ne vivent pas avec les humains",
                 "Citer 2 parcs nationaux camerounais (Waza, Lobéké)"
@@ -5887,8 +5887,8 @@
               "titre": "Les plantes utiles du village — manioc, plantain, palmier",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Identifier 3 plantes alimentaires camerounaises et leurs parties comestibles (manioc/racine, plantain/fruit, palmier/huile)",
-                "Expliquer comment les plantes poussent : besoin de terre, eau, soleil",
+                "Identifier 3 plantes alimentaires camerounaises",
+                "Expliquer comment les plantes poussent : besoin de terre, eau,",
                 "Distinguer plantes alimentaires et plantes médicinales",
                 "Nommer 2 plantes médicinales camerounaises (citronnelle, moringa)"
               ],
@@ -6016,10 +6016,10 @@
               "titre": "La formation des villages et des villes au Cameroun",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Expliquer que les villages camerounais se sont formés autour de sources d'eau et de terres fertiles",
+                "Expliquer que les villages camerounais se sont formés autour de",
                 "Distinguer village et ville selon leurs caractéristiques",
                 "Nommer 3 grandes villes camerounaises (Douala, Yaoundé, Garoua)",
-                "Identifier le rôle des chefs traditionnels dans l'organisation des villages"
+                "Identifier le rôle des chefs traditionnels dans l'organisation"
               ],
               "exercices": [
                 {
@@ -6285,7 +6285,7 @@
                 "Découvrir le Cameroun sur une carte simple",
                 "Identifier sa région et sa ville ou village",
                 "Reconnaître quelques paysages camerounais (forêt, savane, mer)",
-                "Pratiquer les compétences acquises dans des situations réelles."
+                "Pratiquer dans des situations réelles"
               ],
               "objectif": "Objectif pédagogique. (Avec Tabi à Maroua)",
               "test_integration": {
@@ -6501,10 +6501,10 @@
               "titre": "Salutations dans les villages camerounais — dire bonjour dans sa langue",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Prononcer bonjour dans au moins 3 langues camerounaises (Ewondo, Fulfulde, Bassa, Duala)",
+                "Prononcer bonjour dans au moins 3 langues camerounaises",
                 "Expliquer que les salutations varient selon la région",
                 "Décrire les gestes qui accompagnent les salutations",
-                "Identifier la valeur culturelle de la salutation : marque de respect"
+                "Identifier la valeur culturelle de la salutation : marque de"
               ],
               "exercices": [
                 {
@@ -6626,10 +6626,10 @@
               "titre": "Les noms de lieux en langues camerounaises — ce que signifient nos noms",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Expliquer que les noms de villes camerounaises viennent des langues locales",
-                "Décoder le sens de quelques noms de villes (Yaoundé, Douala, Foumban, Ebolowa)",
+                "Expliquer que les noms de villes camerounaises viennent des",
+                "Décoder le sens de quelques noms de villes",
                 "Relier le nom d'un lieu à son histoire ou à sa géographie",
-                "Chercher si le nom de son village a une signification en langue locale"
+                "Chercher si le nom de son village a une signification en langue"
               ],
               "exercices": [
                 {
@@ -6901,10 +6901,10 @@
                 "bonus_si_reussite": "🌟 Excellent ! Tu maîtrises me connaître. Chapeau !"
               },
               "savoirs_faire": [
-                "Découvrir et exprimer ses émotions de base (joie, tristesse, colère, peur)",
+                "Découvrir et exprimer ses émotions de base",
                 "Comprendre l'importance du respect des autres",
                 "Adopter des règles de politesse à l'école et à la maison",
-                "Pratiquer les compétences acquises dans des situations réelles."
+                "Pratiquer dans des situations réelles"
               ],
               "objectif": "Objectif pédagogique. (Avec Mbappe à Bamenda)",
               "test_integration": {
@@ -7463,9 +7463,9 @@
             "objectif": "À la fin de la leçon, l'élève sera capable de nommer oralement son quartier ou son village, et de présenter à voix haute les lieux et personnes qu'il y trouve.",
             "savoirs_faire": [
               "Dire à l'oral le nom de son quartier ou de son village",
-              "Nommer à l'oral au moins 4 lieux importants du quartier (école, marché, église, boutique)",
-              "Nommer à l'oral au moins 2 personnes du quartier (voisin, voisine, boutiquier, mototaxi)",
-              "Dire à l'oral ce qu'on fait dans son quartier (aller à l'école, jouer, faire les courses)"
+              "Nommer à l'oral au moins 4 lieux importants du quartier",
+              "Nommer à l'oral au moins 2 personnes du quartier",
+              "Dire à l'oral ce qu'on fait dans son quartier"
             ],
             "exercices": [
               {
@@ -7594,9 +7594,9 @@
             "objectif": "À la fin de la leçon, l'élève sera capable de reconnaître et de lire la lettre U en majuscule et minuscule, et de combiner U avec A et I pour former des syllabes simples. (Avec Bineta à Douala)",
             "savoirs_faire": [
               "Identifier la lettre U en majuscule (U) et en minuscule (u)",
-              "Prononcer le son [y] dans des mots familiers (tu, lu, su, jus, rue, lune)",
-              "Lire des syllabes simples mélangeant A, I et U (la, li, lu — ma, mi, mu — pa, pi, pu)",
-              "Repérer la lettre U dans des mots du quartier (rue, bus, manuel, sucre)"
+              "Prononcer le son [y] dans des mots familiers",
+              "Lire des syllabes simples mélangeant A, I et U",
+              "Repérer la lettre U dans des mots du quartier"
             ],
             "exercices": [
               {
@@ -7708,10 +7708,10 @@
             "titre": "Tracer la lettre U en majuscule et minuscule",
             "objectif": "À la fin de la leçon, l'élève sera capable de tracer correctement la lettre U et u en respectant les lignes du cahier 32 pages à grands carreaux et en évitant la confusion avec la lettre n.",
             "savoirs_faire": [
-              "Tracer la lettre U en majuscule (deux traits verticaux reliés par une courbe en bas, comme un seau)",
-              "Tracer la lettre u en minuscule (forme arrondie en bas, avec petit retour à droite)",
+              "Tracer la lettre U en majuscule",
+              "Tracer la lettre u en minuscule",
               "Distinguer u (arrondi en bas) de n (arrondi en haut)",
-              "Respecter les lignes du cahier 32 pages à grands carreaux du CP camerounais"
+              "Respecter les lignes du cahier 32 pages à grands carreaux du CP"
             ],
             "exercices": [
               {
@@ -7818,10 +7818,10 @@
             "titre": "Le vocabulaire oral du quartier et du village",
             "objectif": "À la fin de la leçon, l'élève sera capable de nommer oralement les lieux et les personnes de son quartier ou village, et de dire à voix haute où il habite.",
             "savoirs_faire": [
-              "Nommer oralement au moins 5 lieux du quartier (école, marché, église, boutique, station mototaxi)",
-              "Nommer oralement au moins 3 personnes du quartier (voisin, voisine, boutiquier, mototaxi)",
-              "Dire à voix haute où on habite avec « j'habite à... » (ville) ou « j'habite dans... » (village)",
-              "Distinguer oralement un quartier (en ville) d'un village (à la campagne)"
+              "Nommer oralement au moins 5 lieux du quartier",
+              "Nommer oralement au moins 3 personnes du quartier",
+              "Dire à voix haute où on habite avec « j'habite à... » ou «",
+              "Distinguer oralement un quartier d'un village"
             ],
             "exercices": [
               {
@@ -7953,7 +7953,7 @@
                 "savoirs_faire": [
                   "Lire et écrire en chiffres et en lettres le nombre zéro (0).",
                   "Décomposer un nombre en somme de plusieurs termes.",
-                  "Résoudre des situations-problèmes faisant intervenir le nombre zéro.",
+                  "Résoudre des situations-problèmes faisant intervenir le nombre",
                   "Traduire la réunion de collections d'éléments en somme."
                 ],
                 "savoirs_etre": [
@@ -8113,8 +8113,8 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Utiliser les instruments de traçage avec précision et soin.",
-                  "Résoudre des situations-problèmes de la vie courante faisant intervenir les tracés.",
-                  "Utiliser la règle (non graduée) pour repérer et produire des alignements.",
+                  "Résoudre des situations-problèmes de la vie courante faisant",
+                  "Utiliser la règle pour repérer et produire des alignements.",
                   "Tracer des lignes droites et des segments à l'aide d'une règle."
                 ],
                 "savoirs_etre": [
@@ -8424,7 +8424,7 @@
                   "Comparer des grandeurs (plus grand, plus petit, égal)",
                   "Mesurer des longueurs avec une règle graduée",
                   "Reconnaître les pièces et billets de monnaie FCFA",
-                  "Pratiquer les compétences acquises dans des situations réelles."
+                  "Pratiquer dans des situations réelles"
                 ],
                 "objectif": "Objectif pédagogique. (Avec Tabi à Kribi)",
                 "test_integration": {
@@ -8580,10 +8580,10 @@
                   "bonus_si_reussite": "🌟 Excellent ! Tu maîtrises dedans / dehors. Chapeau !"
                 },
                 "savoirs_faire": [
-                  "Reconnaître les formes géométriques simples (carré, rectangle, rond, triangle)",
+                  "Reconnaître les formes géométriques simples",
                   "Tracer des lignes droites avec une règle",
                   "Repérer des objets dans l'espace (devant, derrière, à côté)",
-                  "Pratiquer les compétences acquises dans des situations réelles."
+                  "Pratiquer dans des situations réelles"
                 ],
                 "objectif": "Objectif pédagogique. (Avec Mbappe à Bamenda)",
                 "test_integration": {
@@ -8609,7 +8609,7 @@
                 "Nommer les 5 sens et les organes correspondants",
                 "Expliquer comment on utilise ses sens pour apprendre à l'école",
                 "Distinguer les informations reçues par chaque sens",
-                "Appliquer la protection des sens (ne pas regarder le soleil, ne pas mettre d'objets dans les oreilles)"
+                "Appliquer la protection des sens"
               ],
               "exercices": [
                 {
@@ -8751,7 +8751,7 @@
               "titre": "Les petits animaux de la cour d'école",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Identifier 5 petits animaux de la cour d'école camerounaise (fourmi, papillon, lézard, moustique, coccinelle)",
+                "Identifier 5 petits animaux de la cour d'école camerounaise",
                 "Distinguer animaux utiles et nuisibles",
                 "Décrire comment se déplacent ces animaux",
                 "Expliquer pourquoi il ne faut pas tuer les insectes utiles"
@@ -8970,10 +8970,10 @@
               "titre": "La création des premières écoles au Cameroun",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Expliquer que les premières écoles au Cameroun ont été créées par les missionnaires au XIXe siècle",
-                "Décrire comment les enfants apprenaient avant les écoles modernes : transmission orale et apprentissage par imitation",
+                "Expliquer que les premières écoles au Cameroun ont été créées",
+                "Décrire comment les enfants apprenaient avant les écoles",
                 "Identifier les valeurs que l'école transmet aujourd'hui",
-                "Établir un lien entre éducation traditionnelle et éducation moderne"
+                "Établir un lien entre éducation traditionnelle"
               ],
               "exercices": [
                 {
@@ -9226,7 +9226,7 @@
                 "Découvrir le Cameroun sur une carte simple",
                 "Identifier sa région et sa ville ou village",
                 "Reconnaître quelques paysages camerounais (forêt, savane, mer)",
-                "Pratiquer les compétences acquises dans des situations réelles."
+                "Pratiquer dans des situations réelles"
               ],
               "objectif": "Objectif pédagogique. (Avec Tabi à Bafoussam)",
               "test_integration": {
@@ -9759,10 +9759,10 @@
                 "bonus_si_reussite": "🌟 Excellent ! Tu maîtrises bien m'habiller. Chapeau !"
               },
               "savoirs_faire": [
-                "Découvrir et exprimer ses émotions de base (joie, tristesse, colère, peur)",
+                "Découvrir et exprimer ses émotions de base",
                 "Comprendre l'importance du respect des autres",
                 "Adopter des règles de politesse à l'école et à la maison",
-                "Pratiquer les compétences acquises dans des situations réelles."
+                "Pratiquer dans des situations réelles"
               ],
               "objectif": "Objectif pédagogique. (Avec Tabi à Bamenda)",
               "test_integration": {
@@ -11708,9 +11708,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Comparer des ensembles ou des collections d'éléments.",
-                  "Utiliser les expressions : plus grand que, plus petit que, plus de.",
-                  "Lire et écrire en chiffres et en lettres le nombre 10 et comprendre la notion de dizaine.",
-                  "Utiliser la propriété de la commutativité de l'addition et effectuer correctement une addition."
+                  "Utiliser les expressions : plus grand que, plus petit que, plus",
+                  "Lire",
+                  "Utiliser la propriété de la commutativité de l'addition"
                 ],
                 "savoirs_etre": [
                   "Respecter le travail des adultes",
@@ -11868,10 +11868,10 @@
                 "titre": "Résoudre les situations-problèmes significatives de…",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Résoudre les situations-problèmes significatives de la vie Résoudre les situations-problèmes significatives de la vie",
+                  "Résoudre les situations-problèmes significatives de la vie",
                   "Trouver le double d'un nombre",
                   "Résoudre des situations de partage équitable en 2 groupes égaux",
-                  "Résoudre des situations-problèmes significatives de la Résoudre des situations-problèmes significatives de la vie"
+                  "Résoudre des situations-problèmes significatives de la Résoudre"
                 ],
                 "savoirs_etre": [
                   "Respecter le travail des adultes",
@@ -12029,10 +12029,10 @@
                 "titre": "Reproduire des formes géométriques simples sur quadrillage",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Reproduire les figures géométriques simples à l'aide d'un quadrillage.",
+                  "Reproduire les figures géométriques simples à l'aide d'un",
                   "Utiliser la règle graduée et le papier quadrillé avec soin.",
-                  "Identifier et nommer le carré, le rectangle, le triangle et le rond.",
-                  "Résoudre des situations-problèmes de la vie courante faisant intervenir les figures géométriques."
+                  "Identifier",
+                  "Résoudre des situations-problèmes de la vie courante faisant"
                 ],
                 "savoirs_etre": [
                   "Respecter le travail des adultes",
@@ -12341,7 +12341,7 @@
                   "Comparer des grandeurs (plus grand, plus petit, égal)",
                   "Mesurer des longueurs avec une règle graduée",
                   "Reconnaître les pièces et billets de monnaie FCFA",
-                  "Pratiquer les compétences acquises dans des situations réelles."
+                  "Pratiquer dans des situations réelles"
                 ],
                 "objectif": "Objectif pédagogique. (Avec Ndonfack à Maroua)",
                 "test_integration": {
@@ -12494,10 +12494,10 @@
                   "bonus_si_reussite": "🌟 Excellent ! Tu maîtrises le triangle. Chapeau !"
                 },
                 "savoirs_faire": [
-                  "Reconnaître les formes géométriques simples (carré, rectangle, rond, triangle)",
+                  "Reconnaître les formes géométriques simples",
                   "Tracer des lignes droites avec une règle",
                   "Repérer des objets dans l'espace (devant, derrière, à côté)",
-                  "Pratiquer les compétences acquises dans des situations réelles."
+                  "Pratiquer dans des situations réelles"
                 ],
                 "objectif": "Objectif pédagogique. (Avec Tabi à Bamenda)",
                 "test_integration": {
@@ -12520,10 +12520,10 @@
               "titre": "Les aliments et les métiers — qui produit notre nourriture",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Identifier les métiers liés à l'alimentation (agriculteur, pêcheur, boucher, vendeur)",
+                "Identifier les métiers liés à l'alimentation",
                 "Classer les aliments selon leur origine végétale ou animale",
                 "Expliquer le trajet d'un aliment du champ à la table",
-                "Citer 3 aliments camerounais et leur origine (ndolè, tilapia, plantain)"
+                "Citer 3 aliments camerounais et leur origine"
               ],
               "exercices": [
                 {
@@ -12762,7 +12762,7 @@
               "duree_estimee_min": 20,
               "savoirs_faire": [
                 "Expliquer que chaque métier a des règles d'hygiène et de sécurité",
-                "Citer les équipements de protection : gants/médecin, casque/maçon, tablier/cuisinier, bottes/agriculteur",
+                "Citer les équipements de protection : gants/médecin,",
                 "Établir un lien entre hygiène professionnelle et santé publique",
                 "Identifier des comportements dangereux au travail"
               ],
@@ -12891,9 +12891,9 @@
               "titre": "Les métiers traditionnels camerounais — forgeron, tisserand, potière",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Nommer 4 métiers traditionnels camerounais et leurs produits (forgeron/outils, tisserand/tissus, potière/jarres, sculpteur/masques)",
-                "Expliquer comment ces métiers se transmettaient de génération en génération",
-                "Établir un lien entre les métiers traditionnels et la vie quotidienne d'autrefois",
+                "Nommer 4 métiers traditionnels camerounais et leurs produits",
+                "Expliquer comment ces métiers se transmettaient de génération en",
+                "Établir un lien entre les métiers traditionnels",
                 "Identifier des marchés artisanaux célèbres (Yaoundé, Foumban)"
               ],
               "exercices": [
@@ -13347,7 +13347,7 @@
               "duree_estimee_min": 20,
               "savoirs_faire": [
                 "Nommer 5 métiers dans au moins 2 langues camerounaises",
-                "Expliquer que les langues camerounaises ont des mots précis pour tous les métiers",
+                "Expliquer que les langues camerounaises ont des mots précis",
                 "Associer un métier à son rôle social (griot = mémoire du peuple)",
                 "Prononcer correctement des noms de métiers en langue locale"
               ],
@@ -13471,8 +13471,8 @@
               "titre": "Les proverbes camerounais sur le travail et l'effort",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Comprendre et expliquer le sens de 3 proverbes camerounais sur le travail",
-                "Associer chaque proverbe à une valeur morale (persévérance, solidarité, humilité)",
+                "Comprendre",
+                "Associer chaque proverbe à une valeur morale",
                 "Raconter un conte traditionnel qui illustre la valeur du travail",
                 "Comparer la sagesse des proverbes à des situations scolaires"
               ],
@@ -13742,10 +13742,10 @@
                 "bonus_si_reussite": "🌟 Excellent ! Tu maîtrises la persévérance. Chapeau !"
               },
               "savoirs_faire": [
-                "Découvrir et exprimer ses émotions de base (joie, tristesse, colère, peur)",
+                "Découvrir et exprimer ses émotions de base",
                 "Comprendre l'importance du respect des autres",
                 "Adopter des règles de politesse à l'école et à la maison",
-                "Pratiquer les compétences acquises dans des situations réelles."
+                "Pratiquer dans des situations réelles"
               ],
               "objectif": "Objectif pédagogique. (Avec Amina à Douala)",
               "test_integration": {
@@ -14810,7 +14810,7 @@
                   "Lire et écrire en chiffres et en lettres les nombres de 11 à 14.",
                   "Dénombrer des collections d'éléments comprises entre 11 et 14.",
                   "Associer un nombre de 11 à 14 à une quantité d'objets réels.",
-                  "Pratiquer les compétences acquises dans des situations réelles."
+                  "Pratiquer dans des situations réelles"
                 ],
                 "savoirs_etre": [
                   "Respecter les règles de sécurité en voyage",
@@ -14970,8 +14970,8 @@
                 "savoirs_faire": [
                   "Construire et utiliser la table d'addition de 0 à 10.",
                   "Trouver le double d'un nombre inférieur à 10.",
-                  "Résoudre des situations-problèmes significatives faisant intervenir la somme et le double.",
-                  "Pratiquer les compétences acquises dans des situations réelles."
+                  "Résoudre des situations-problèmes significatives faisant",
+                  "Pratiquer dans des situations réelles"
                 ],
                 "savoirs_etre": [
                   "Respecter les règles de sécurité en voyage",
@@ -15130,9 +15130,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Résoudre des situations de partage équitable en 2 groupes égaux",
-                  "Résoudre des situations-problèmes significatives de la Résoudre des situations-problèmes significatives de la vie",
-                  "Résoudre des situations-problèmes de la vie courante faisant Résoudre des situations-problèmes de la vie courante faisant",
-                  "Résoudre des de la vie courante faisant Résoudre des de la vie courante faisant"
+                  "Résoudre des situations-problèmes significatives de la Résoudre",
+                  "Résoudre des situations-problèmes de la vie courante faisant",
+                  "Résoudre des de la vie courante faisant Résoudre des de la vie"
                 ],
                 "savoirs_etre": [
                   "Respecter les règles de sécurité en voyage",
@@ -15294,10 +15294,10 @@
                 "titre": "Découvrir le vocabulaire du temps et de la semaine",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Utiliser le vocabulaire permettant de se situer dans le temps (jour, semaine, mois).",
+                  "Utiliser le vocabulaire permettant de se situer dans le temps.",
                   "Identifier les sept jours de la semaine dans l'ordre.",
-                  "Résoudre des situations-problèmes de la vie courante faisant intervenir les jours de la semaine.",
-                  "Pratiquer les compétences acquises dans des situations réelles."
+                  "Résoudre des situations-problèmes de la vie courante faisant",
+                  "Pratiquer dans des situations réelles"
                 ],
                 "savoirs_etre": [
                   "Respecter les règles de sécurité en voyage",
@@ -15594,10 +15594,10 @@
                   "bonus_si_reussite": "🌟 Excellent ! Tu maîtrises le triangle. Chapeau !"
                 },
                 "savoirs_faire": [
-                  "Reconnaître les formes géométriques simples (carré, rectangle, rond, triangle)",
+                  "Reconnaître les formes géométriques simples",
                   "Tracer des lignes droites avec une règle",
                   "Repérer des objets dans l'espace (devant, derrière, à côté)",
-                  "Pratiquer les compétences acquises dans des situations réelles."
+                  "Pratiquer dans des situations réelles"
                 ],
                 "objectif": "Objectif pédagogique. (Avec Ngono à Bamenda)",
                 "test_integration": {
@@ -15620,9 +15620,9 @@
               "titre": "Les moyens de transport au Cameroun — routes, fleuves, ciel",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Classer les transports : terrestre (car, mototaxi, train), fluvial (pirogue), aérien (avion)",
+                "Classer les transports : terrestre, fluvial, aérien",
                 "Identifier les caractéristiques de chaque transport",
-                "Nommer le principal port du Cameroun (Douala) et son aéroport (Nsimalen)",
+                "Nommer le principal port du Cameroun et son aéroport",
                 "Expliquer les règles de sécurité de base en transport"
               ],
               "exercices": [
@@ -15733,8 +15733,8 @@
               "titre": "Les changements de l'eau — solide, liquide, vapeur",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Identifier les 3 états de l'eau : liquide, solide (glace), gazeux (vapeur)",
-                "Expliquer la transformation eau → glace par le froid et glace → eau par la chaleur",
+                "Identifier les 3 états de l'eau : liquide, solide, gazeux",
+                "Expliquer la transformation eau → glace par le froid",
                 "Observer la vapeur d'eau lors de la cuisson",
                 "Faire le lien avec la vie quotidienne"
               ],
@@ -15853,9 +15853,9 @@
               "titre": "Les plantes et les animaux des bords de route",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Identifier 3 plantes des bords de routes camerounaises (herbes, rôniers, arbres fruitiers sauvages)",
-                "Nommer des animaux observables en voyage (oiseaux, singes, agoutis)",
-                "Expliquer comment les animaux et les plantes s'adaptent à leur milieu",
+                "Identifier 3 plantes des bords de routes camerounaises",
+                "Nommer des animaux observables en voyage",
+                "Expliquer comment les animaux",
                 "Décrire les dangers des routes pour les animaux"
               ],
               "exercices": [
@@ -16100,7 +16100,7 @@
                 "Découvrir l'histoire de sa famille et de son village",
                 "Connaître les grandes fêtes camerounaises",
                 "Reconnaître les symboles du Cameroun (drapeau, hymne)",
-                "Pratiquer les compétences acquises dans des situations réelles."
+                "Pratiquer dans des situations réelles"
               ],
               "objectif": "Objectif pédagogique. (Avec Manga à Garoua)",
               "test_integration": {
@@ -16448,9 +16448,9 @@
               "titre": "Les chants de voyage et les épopées orales camerounaises",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Expliquer que les voyages ancestraux camerounais étaient accompagnés de chants et de rites",
+                "Expliquer que les voyages ancestraux camerounais étaient",
                 "Identifier quelques épopées orales camerounaises",
-                "Comprendre que les chants de voyage exprimaient les émotions des voyageurs",
+                "Comprendre que les chants de voyage exprimaient les émotions des",
                 "Dire ou chanter une courte mélodie de voyage en langue locale"
               ],
               "exercices": [
@@ -16551,8 +16551,8 @@
               "titre": "Les proverbes camerounais sur le chemin et les rencontres",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Comprendre le sens de 3 proverbes sur les voyages et les rencontres",
-                "Expliquer que les rencontres en voyage enrichissent la connaissance",
+                "Comprendre le sens de 3 proverbes sur les voyages",
+                "Expliquer que les rencontres en voyage enrichissent la",
                 "Associer chaque proverbe à une situation de voyage",
                 "Partager un proverbe de sa communauté sur le voyage"
               ],
@@ -16822,10 +16822,10 @@
                 "bonus_si_reussite": "🌟 Excellent ! Tu maîtrises bien m'habiller. Chapeau !"
               },
               "savoirs_faire": [
-                "Découvrir et exprimer ses émotions de base (joie, tristesse, colère, peur)",
+                "Découvrir et exprimer ses émotions de base",
                 "Comprendre l'importance du respect des autres",
                 "Adopter des règles de politesse à l'école et à la maison",
-                "Pratiquer les compétences acquises dans des situations réelles."
+                "Pratiquer dans des situations réelles"
               ],
               "objectif": "Objectif pédagogique. (Avec Ndonfack à Bafoussam)",
               "test_integration": {
@@ -18050,9 +18050,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Calculer un produit par",
-                  "Résoudre des situations-problèmes Résoudre des situations-problèmes",
-                  "Résoudre des situations-problèmes de la vie courante faisant Résoudre des situations-problèmes de la vie courante faisant",
-                  "Résoudre des de la vie courante faisant Résoudre des de la vie courante faisant"
+                  "Résoudre des situations-problèmes Résoudre des",
+                  "Résoudre des situations-problèmes de la vie courante faisant",
+                  "Résoudre des de la vie courante faisant Résoudre des de la vie"
                 ],
                 "savoirs_etre": [
                   "Adopter de bonnes habitudes d'hygiène quotidienne",
@@ -18215,9 +18215,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Établir la relation entre le jour et la semaine.",
-                  "Utiliser le vocabulaire approprié pour se repérer dans le temps (aujourd'hui, hier, demain).",
-                  "Résoudre des situations-problèmes de la vie courante faisant intervenir la semaine.",
-                  "Pratiquer les compétences acquises dans des situations réelles."
+                  "Utiliser le vocabulaire approprié pour se repérer dans le temps.",
+                  "Résoudre des situations-problèmes de la vie courante faisant",
+                  "Pratiquer dans des situations réelles"
                 ],
                 "savoirs_etre": [
                   "Adopter de bonnes habitudes d'hygiène quotidienne",
@@ -18517,10 +18517,10 @@
                   "bonus_si_reussite": "🌟 Excellent ! Tu maîtrises au-dessus / en-dessous. Chapeau !"
                 },
                 "savoirs_faire": [
-                  "Reconnaître les formes géométriques simples (carré, rectangle, rond, triangle)",
+                  "Reconnaître les formes géométriques simples",
                   "Tracer des lignes droites avec une règle",
                   "Repérer des objets dans l'espace (devant, derrière, à côté)",
-                  "Pratiquer les compétences acquises dans des situations réelles."
+                  "Pratiquer dans des situations réelles"
                 ],
                 "objectif": "Objectif pédagogique. (Avec Manga à Foumban)",
                 "test_integration": {
@@ -18543,9 +18543,9 @@
               "titre": "Les maladies courantes au Cameroun — causes et prévention",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Nommer 3 maladies courantes (paludisme/moustique, diarrhée/eau sale, typhoïde/nourriture contaminée)",
+                "Nommer 3 maladies courantes",
                 "Expliquer le rôle des microbes",
-                "Appliquer les gestes de prévention : moustiquaire, eau bouillie, lavage des mains",
+                "Appliquer les gestes de prévention : moustiquaire, eau bouillie,",
                 "Identifier les structures de santé camerounaises"
               ],
               "exercices": [
@@ -18668,10 +18668,10 @@
               "titre": "Les plantes médicinales du Cameroun — soigner avec la nature",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Nommer 4 plantes médicinales (citronnelle/fièvre, gingembre/digestion, moringa/nutrition, neem/paludisme)",
-                "Expliquer que les plantes médicinales sont utilisées depuis des siècles",
+                "Nommer 4 plantes médicinales",
+                "Expliquer que les plantes médicinales sont utilisées depuis des",
                 "Distinguer médecine traditionnelle et médecine moderne",
-                "Préciser que les plantes complètent mais ne remplacent pas toujours les médicaments"
+                "Préciser que les plantes complètent mais ne remplacent pas"
               ],
               "exercices": [
                 {
@@ -18793,7 +18793,7 @@
               "titre": "Les aliments sains — bien manger pour rester en bonne santé",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Classer les aliments en 3 groupes : constructeurs, énergétiques, protecteurs",
+                "Classer les aliments en 3 groupes : constructeurs, énergétiques,",
                 "Composer un repas équilibré camerounais",
                 "Expliquer les risques de la malnutrition",
                 "Identifier les aliments riches en vitamines C et en fer"
@@ -19046,7 +19046,7 @@
                 "Découvrir l'histoire de sa famille et de son village",
                 "Connaître les grandes fêtes camerounaises",
                 "Reconnaître les symboles du Cameroun (drapeau, hymne)",
-                "Pratiquer les compétences acquises dans des situations réelles."
+                "Pratiquer dans des situations réelles"
               ],
               "objectif": "Objectif pédagogique. (Avec Amina à Kribi)",
               "test_integration": {
@@ -19394,10 +19394,10 @@
               "titre": "La médecine traditionnelle au Cameroun — guérisseurs et plantes",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Expliquer le rôle du tradipraticien dans les communautés camerounaises",
+                "Expliquer le rôle du tradipraticien dans les communautés",
                 "Nommer 3 pratiques de médecine traditionnelle camerounaise",
-                "Comprendre que la médecine traditionnelle et la médecine moderne peuvent se compléter",
-                "Identifier des plantes sacrées dans différentes cultures camerounaises"
+                "Comprendre que la médecine traditionnelle",
+                "Identifier des plantes sacrées dans différentes cultures"
               ],
               "exercices": [
                 {
@@ -19521,7 +19521,7 @@
               "savoirs_faire": [
                 "Mémoriser et expliquer 3 proverbes africains sur la santé",
                 "Associer chaque proverbe à un comportement de santé concret",
-                "Comprendre que nos ancêtres valorisaient la santé comme richesse fondamentale",
+                "Comprendre que nos ancêtres valorisaient la santé comme richesse",
                 "Relier les proverbes ancestraux aux conseils médicaux modernes"
               ],
               "exercices": [
@@ -19790,10 +19790,10 @@
                 "bonus_si_reussite": "🌟 Excellent ! Tu maîtrises la persévérance. Chapeau !"
               },
               "savoirs_faire": [
-                "Découvrir et exprimer ses émotions de base (joie, tristesse, colère, peur)",
+                "Découvrir et exprimer ses émotions de base",
                 "Comprendre l'importance du respect des autres",
                 "Adopter des règles de politesse à l'école et à la maison",
-                "Pratiquer les compétences acquises dans des situations réelles."
+                "Pratiquer dans des situations réelles"
               ],
               "objectif": "Objectif pédagogique. (Avec Ndonfack à Garoua)",
               "test_integration": {
@@ -22349,8 +22349,8 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Trouver la moitié d'un nombre (partager en 2 parts égales).",
-                  "Calculer le double d'un nombre et additionner deux ou plusieurs nombres.",
-                  "Résoudre des situations-problèmes de la vie courante faisant intervenir les additions.",
+                  "Calculer le double d'un nombre",
+                  "Résoudre des situations-problèmes de la vie courante faisant",
                   "Construire et utiliser les tables d'addition et de soustraction."
                 ],
                 "savoirs_etre": [
@@ -22510,9 +22510,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Calculer un produit par",
-                  "Résoudre des situations-problèmes Résoudre des situations-problèmes",
-                  "Résoudre des situations-problèmes de la vie courante faisant Résoudre des situations-problèmes de la vie courante faisant",
-                  "Résoudre des de la vie courante faisant Résoudre des de la vie courante faisant"
+                  "Résoudre des situations-problèmes Résoudre des",
+                  "Résoudre des situations-problèmes de la vie courante faisant",
+                  "Résoudre des de la vie courante faisant Résoudre des de la vie"
                 ],
                 "savoirs_etre": [
                   "Respecter scrupuleusement les règles du jeu",
@@ -22674,10 +22674,10 @@
                 "titre": "Résoudre des problèmes sur les longueurs et les masses",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Utiliser le vocabulaire permettant de comparer les grandeurs (plus long, plus court, plus lourd, plus léger).",
-                  "Utiliser le vocabulaire approprié pour estimer et comparer des capacités (rempli, vide, plus grand contenant).",
-                  "Résoudre des situations-problèmes faisant intervenir les mesures de longueur, de masse et de monnaie.",
-                  "Pratiquer les compétences acquises dans des situations réelles."
+                  "Utiliser le vocabulaire permettant de comparer les grandeurs.",
+                  "Utiliser le vocabulaire approprié pour estimer",
+                  "Résoudre des situations-problèmes faisant intervenir les mesures",
+                  "Pratiquer dans des situations réelles"
                 ],
                 "savoirs_etre": [
                   "Respecter scrupuleusement les règles du jeu",
@@ -22974,10 +22974,10 @@
                   "bonus_si_reussite": "🌟 Excellent ! Tu maîtrises le triangle. Chapeau !"
                 },
                 "savoirs_faire": [
-                  "Reconnaître les formes géométriques simples (carré, rectangle, rond, triangle)",
+                  "Reconnaître les formes géométriques simples",
                   "Tracer des lignes droites avec une règle",
                   "Repérer des objets dans l'espace (devant, derrière, à côté)",
-                  "Pratiquer les compétences acquises dans des situations réelles."
+                  "Pratiquer dans des situations réelles"
                 ],
                 "objectif": "Objectif pédagogique. (Avec Ndonfack à Foumban)",
                 "test_integration": {
@@ -23000,8 +23000,8 @@
               "titre": "Le corps en mouvement — muscles et énergie pendant le jeu",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Expliquer ce qui se passe dans le corps pendant un effort physique (cœur, respiration, transpiration)",
-                "Identifier les principaux groupes musculaires utilisés dans les jeux",
+                "Expliquer ce qui se passe dans le corps pendant un effort",
+                "Identifier les principaux groupes musculaires utilisés dans les",
                 "Expliquer pourquoi s'échauffer avant le sport est important",
                 "Nommer 2 règles de sécurité pendant les jeux"
               ],
@@ -23104,8 +23104,8 @@
               "titre": "La lumière et les ombres — explorer en jouant",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Expliquer que la lumière voyage en ligne droite et qu'un objet opaque crée une ombre",
-                "Distinguer sources lumineuses naturelles (soleil, lune) et artificielles (lampe, bougie)",
+                "Expliquer que la lumière voyage en ligne droite",
+                "Distinguer sources lumineuses naturelles et artificielles",
                 "Relier la taille de l'ombre à la position de la source lumineuse",
                 "Réaliser un jeu d'ombres chinoises avec ses mains"
               ],
@@ -23214,9 +23214,9 @@
               "duree_estimee_min": 20,
               "savoirs_faire": [
                 "Identifier les matériaux des jouets traditionnels camerounais",
-                "Distinguer les propriétés des matériaux : dur/mou, lourd/léger, naturel/artificiel",
-                "Expliquer pourquoi certains matériaux sont dangereux pour les jouets d'enfants",
-                "Décrire comment les artisans fabriquent des jouets en bois au Cameroun"
+                "Distinguer les propriétés des matériaux : dur/mou, lourd/léger,",
+                "Expliquer pourquoi certains matériaux sont dangereux",
+                "Décrire comment les artisans fabriquent des jouets en bois au"
               ],
               "exercices": [
                 {
@@ -23474,7 +23474,7 @@
                 "Découvrir l'histoire de sa famille et de son village",
                 "Connaître les grandes fêtes camerounaises",
                 "Reconnaître les symboles du Cameroun (drapeau, hymne)",
-                "Pratiquer les compétences acquises dans des situations réelles."
+                "Pratiquer dans des situations réelles"
               ],
               "objectif": "Objectif pédagogique. (Avec Mbappe à Garoua)",
               "test_integration": {
@@ -23822,8 +23822,8 @@
               "titre": "Les jeux traditionnels camerounais — ndamba, nzango, awale",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Décrire les règles de base de 3 jeux traditionnels camerounais (nzango, awale, ndamba)",
-                "Expliquer les valeurs transmises par les jeux traditionnels (respect des règles, stratégie, agilité)",
+                "Décrire les règles de base de 3 jeux traditionnels camerounais",
+                "Expliquer les valeurs transmises par les jeux traditionnels",
                 "Identifier la région d'origine de chaque jeu",
                 "Comparer les jeux traditionnels camerounais et les jeux modernes"
               ],
@@ -23926,7 +23926,7 @@
               "duree_estimee_min": 20,
               "savoirs_faire": [
                 "Identifier et mémoriser une comptine de jeu en langue locale",
-                "Expliquer le rôle des comptines dans les jeux : désigner les joueurs, rythmer les mouvements",
+                "Expliquer le rôle des comptines dans les jeux : désigner les",
                 "Comprendre que les comptines transmettent des valeurs culturelles",
                 "Chanter collectivement une comptine de jeu en classe"
               ],
@@ -24178,10 +24178,10 @@
                 "bonus_si_reussite": "🌟 Excellent ! Tu maîtrises bien m'habiller. Chapeau !"
               },
               "savoirs_faire": [
-                "Découvrir et exprimer ses émotions de base (joie, tristesse, colère, peur)",
+                "Découvrir et exprimer ses émotions de base",
                 "Comprendre l'importance du respect des autres",
                 "Adopter des règles de politesse à l'école et à la maison",
-                "Pratiquer les compétences acquises dans des situations réelles."
+                "Pratiquer dans des situations réelles"
               ],
               "objectif": "Objectif pédagogique. (Avec Tabi à Kribi)",
               "test_integration": {
@@ -25758,7 +25758,7 @@
                   "Lire et écrire en chiffres et en lettres le nombre 20.",
                   "Dénombrer des collections d'éléments jusqu'à 20.",
                   "Expliquer la notion de vingtaine.",
-                  "Pratiquer les compétences acquises dans des situations réelles."
+                  "Pratiquer dans des situations réelles"
                 ],
                 "savoirs_etre": [
                   "Écouter avant de parler",
@@ -25918,8 +25918,8 @@
                 "savoirs_faire": [
                   "Partager une collection d'objets en 2 groupes égaux.",
                   "Vérifier que les 2 parties ont le même nombre d'éléments.",
-                  "Utiliser le mot 'moitié' pour décrire le résultat d'un partage en 2 parts égales.",
-                  "Résoudre des situations-problèmes de partage équitable avec des nombres ≤ 20."
+                  "Utiliser le mot 'moitié'",
+                  "Résoudre des situations-problèmes de partage équitable avec des"
                 ],
                 "savoirs_etre": [
                   "Écouter avant de parler",
@@ -26078,10 +26078,10 @@
                 "titre": "Résoudre des situations-problèmes Résoudre des…",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Résoudre des situations-problèmes Résoudre des situations-problèmes",
-                  "Résoudre des situations-problèmes de la vie courante faisant Résoudre des situations-problèmes de la vie courante faisant",
-                  "Résoudre des de la vie courante faisant Résoudre des de la vie courante faisant",
-                  "Pratiquer les compétences acquises dans des situations réelles."
+                  "Résoudre des situations-problèmes Résoudre des",
+                  "Résoudre des situations-problèmes de la vie courante faisant",
+                  "Résoudre des de la vie courante faisant Résoudre des de la vie",
+                  "Pratiquer dans des situations réelles"
                 ],
                 "savoirs_etre": [
                   "Écouter avant de parler",
@@ -26243,10 +26243,10 @@
                 "titre": "Résoudre des problèmes de mesure avec de la monnaie",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Utiliser le vocabulaire permettant de manipuler les pièces et billets de monnaie FCFA jusqu'à 20.",
-                  "Utiliser le vocabulaire approprié pour comparer des capacités et des durées.",
-                  "Résoudre des situations-problèmes faisant intervenir les mesures et la monnaie FCFA jusqu'à 20.",
-                  "Pratiquer les compétences acquises dans des situations réelles."
+                  "Utiliser le vocabulaire permettant de manipuler les pièces",
+                  "Utiliser le vocabulaire approprié pour comparer des capacités",
+                  "Résoudre des situations-problèmes faisant intervenir les mesures",
+                  "Pratiquer dans des situations réelles"
                 ],
                 "savoirs_etre": [
                   "Écouter avant de parler",
@@ -26546,10 +26546,10 @@
                   "bonus_si_reussite": "🌟 Excellent ! Tu maîtrises dedans / dehors. Chapeau !"
                 },
                 "savoirs_faire": [
-                  "Reconnaître les formes géométriques simples (carré, rectangle, rond, triangle)",
+                  "Reconnaître les formes géométriques simples",
                   "Tracer des lignes droites avec une règle",
                   "Repérer des objets dans l'espace (devant, derrière, à côté)",
-                  "Pratiquer les compétences acquises dans des situations réelles."
+                  "Pratiquer dans des situations réelles"
                 ],
                 "objectif": "Objectif pédagogique. (Avec Ndongo à Bafoussam)",
                 "test_integration": {
@@ -26572,9 +26572,9 @@
               "titre": "Le son et la communication — tam-tam, radio, téléphone",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Expliquer que le son se propage dans l'air et permet la communication",
-                "Identifier des instruments de communication sonore traditionnels (tam-tam, sanza)",
-                "Expliquer comment les ondes radio permettent de communiquer à longue distance",
+                "Expliquer que le son se propage dans l'air",
+                "Identifier des instruments de communication sonore traditionnels",
+                "Expliquer comment les ondes radio permettent de communiquer à",
                 "Comparer communication traditionnelle et moderne"
               ],
               "exercices": [
@@ -26699,7 +26699,7 @@
               "savoirs_faire": [
                 "Identifier les principaux outils de communication modernes",
                 "Décrire l'usage de chaque outil",
-                "Expliquer les risques d'un usage excessif des écrans pour les enfants",
+                "Expliquer les risques d'un usage excessif des écrans",
                 "Nommer les précautions d'utilisation"
               ],
               "exercices": [
@@ -26823,7 +26823,7 @@
               "titre": "Les saisons au Cameroun — saison sèche et saison des pluies",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Identifier les 2 saisons principales du Cameroun et leurs caractéristiques",
+                "Identifier les 2 saisons principales du Cameroun",
                 "Expliquer comment les plantes et animaux s'adaptent aux saisons",
                 "Établir un lien entre les saisons et les activités humaines",
                 "Expliquer le cycle de l'eau"
@@ -27081,7 +27081,7 @@
                 "Découvrir l'histoire de sa famille et de son village",
                 "Connaître les grandes fêtes camerounaises",
                 "Reconnaître les symboles du Cameroun (drapeau, hymne)",
-                "Pratiquer les compétences acquises dans des situations réelles."
+                "Pratiquer dans des situations réelles"
               ],
               "objectif": "Objectif pédagogique. (Avec Ndonfack à Yaoundé)",
               "test_integration": {
@@ -27571,8 +27571,8 @@
                 }
               ],
               "savoirs_faire": [
-                "Expliquer pourquoi une communication respectueuse renforce la cohésion sociale",
-                "Identifier des comportements de bon citoyen dans les communications quotidiennes",
+                "Expliquer pourquoi une communication respectueuse renforce la",
+                "Identifier des comportements de bon citoyen dans les",
                 "Dire 'bonjour' dans au moins 2 langues camerounaises",
                 "Expliquer la règle : on salue avant de parler, même au téléphone",
                 "Associer chaque salutation à sa région et sa langue"
@@ -27742,10 +27742,10 @@
                 "bonus_si_reussite": "🌟 Excellent ! Tu maîtrises me connaître. Chapeau !"
               },
               "savoirs_faire": [
-                "Découvrir et exprimer ses émotions de base (joie, tristesse, colère, peur)",
+                "Découvrir et exprimer ses émotions de base",
                 "Comprendre l'importance du respect des autres",
                 "Adopter des règles de politesse à l'école et à la maison",
-                "Pratiquer les compétences acquises dans des situations réelles."
+                "Pratiquer dans des situations réelles"
               ],
               "objectif": "Objectif pédagogique. (Avec Tabi à Kribi)",
               "test_integration": {

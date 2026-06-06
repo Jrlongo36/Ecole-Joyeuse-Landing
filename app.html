@@ -4041,8 +4041,19 @@ function renderLesson() {
 
   // Savoirs-faire
   if (Array.isArray(l.savoirs_faire) && l.savoirs_faire.length) {
-    html += '<div class="savoirs-faire-box"><h4>🎯 À la fin de cette leçon, je sais :</h4><ul>';
-    l.savoirs_faire.forEach(s => { html += '<li>' + escapeHTML(s) + '</li>'; });
+    html += '<div class="savoirs-faire-box"><h4>🎯 Je vais apprendre à :</h4><ul>';
+    // REGLE SF-DISPLAY v1 : masque SF > 65 chars OU contenant du metalangage enseignant
+    // REGLE SF-DISPLAY v2 - mots interdits (metalangage enseignant)
+    // Exceptions legitimement exclues: structures de sante, infrastructures, structure d un poeme/conte
+    const SF_INTERDITS = ['compétence','notions clés','maîtriser','nature grammaticale','accord correct de','exercice pratique','rédiger et exprimer','développer ses','structurée','structuré en','curriculaire','lacunes','appliquant','manière structurée','exposé oral structuré','récit structuré','structured paragraph','structured letter'];
+    const SF_EXCEPTIONS = ['structures de santé','structures sanitaires','infrastructures','structure d'un poème','structure d'un conte','structure narrative'];
+    const SF_MAX = 65;
+    l.savoirs_faire.forEach(s => {
+      const tropLong = s.length > SF_MAX;
+      const estException = SF_EXCEPTIONS.some(e => s.toLowerCase().includes(e.toLowerCase()));
+      const interdit = !estException && SF_INTERDITS.some(m => s.toLowerCase().includes(m.toLowerCase()));
+      if (!tropLong && !interdit) html += '<li>' + escapeHTML(s) + '</li>';
+    });
     html += '</ul></div>';
   }
 

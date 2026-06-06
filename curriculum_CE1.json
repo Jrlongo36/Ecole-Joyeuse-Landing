@@ -54,8 +54,8 @@
                 "savoirs_faire": [
                   "Définir le nom.",
                   "Discriminer le nom propre et le nom commun.",
-                  "Identifier et maîtriser les notions clés de 'Le nom commun et le nom propre dans la maison' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Le nom commun et le nom propre dans la maison' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Le nom commun et le nom propre",
+                  "Utiliser les règles de Le nom commun et le nom propre"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -232,9 +232,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Discriminer le genre et le nombre du nom.",
-                  "Identifier et maîtriser les notions clés de 'Le genre et le nombre du nom à la maison' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Le genre et le nombre du nom à la maison' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Le genre et le nombre du nom à la maison' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Le genre et le nombre du nom",
+                  "Comprendre Le genre et le nombre du nom",
+                  "Utiliser les règles de Le genre et le nombre du nom"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -434,9 +434,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Former le pluriel des noms simples.",
-                  "Identifier et maîtriser les notions clés de 'Le pluriel des noms simples de la maison' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Le pluriel des noms simples de la maison' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Le pluriel des noms simples de la maison' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Le pluriel des noms simples de la maison",
+                  "Comprendre Le pluriel des noms simples de la maison",
+                  "Utiliser les règles de Le pluriel des noms simples de la maison"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -639,9 +639,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Distinguer les notions d'action passée, présente et future.",
-                  "Identifier et maîtriser les notions clés de 'Les actions passées, présentes et futures' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Les actions passées, présentes et futures' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Les actions passées, présentes et futures' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Les actions passées, présentes et futures",
+                  "Comprendre Les actions passées, présentes et futures",
+                  "Utiliser les règles de Les actions passées, présentes et futures"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -822,8 +822,8 @@
                 "savoirs_faire": [
                   "Expliquer les mots usuels.",
                   "Utiliser le champ lexical relatif à la maison.",
-                  "Identifier et maîtriser les notions clés de 'Le vocabulaire de la maison camerounaise' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Le vocabulaire de la maison camerounaise' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Le vocabulaire de la maison camerounaise",
+                  "Utiliser les règles de Le vocabulaire de la maison camerounaise"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -1027,10 +1027,10 @@
                 "titre": "Dictée préparée sur la maison de Amina",
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
-                  "Écrire sous dictée un texte court conforme aux règles de pluriel et de genre.",
+                  "Écrire sous dictée un texte court conforme aux règles de pluriel",
                   "Utiliser les marques du féminin du nom et des adjectifs.",
-                  "Identifier et maîtriser les notions clés de 'Dictée préparée sur la maison de Amina' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Dictée préparée sur la maison de Amina' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Dictée préparée sur la maison de Amina",
+                  "Utiliser les règles de Dictée préparée sur la maison de Amina"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -1231,10 +1231,10 @@
                 "titre": "Les nombres de 0 à 200 dans la maison",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Composer, décomposer les nombres entiers inférieurs ou égaux à 200 en utilisant des regroupements par dizaines et par centaines.",
-                  "Lire et écrire en chiffres et en lettres les nombres de 100 à 200.",
-                  "Identifier et maîtriser les notions clés de 'Les nombres de 0 à 200 dans la maison' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Les nombres de 0 à 200 dans la maison' appliqués à l'économie locale."
+                  "Composer, décomposer les nombres entiers inférieurs ou égaux à",
+                  "Lire",
+                  "Comprendre Les nombres de 0",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Les"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -1429,10 +1429,10 @@
                 "titre": "Estimer et ranger les longueurs des objets",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Estimer l'ordre de grandeur des objets et les ranger suivant leur longueur.",
-                  "Identifier et maîtriser les notions clés de 'Estimer et ranger les longueurs des objets' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Estimer et ranger les longueurs des objets' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Estimer et ranger les longueurs des objets' appliqués à l'économie locale."
+                  "Estimer l'ordre de grandeur des objets",
+                  "Comprendre Estimer et ranger les longueurs des objets",
+                  "Comprendre Estimer et ranger les longueurs des objets",
+                  "Résoudre des problèmes complexes en utilisant les outils de"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -1614,7 +1614,7 @@
                   "Identifier les unités de mesure de longueur.",
                   "Utiliser les unités de mesure de longueur.",
                   "Utiliser la règle graduée pour mesurer des longueurs.",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Mesurer avec la règle graduée en mètres et centimètres' appliqués à l'économie locale."
+                  "Résoudre des problèmes complexes en utilisant les outils de"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -1793,10 +1793,10 @@
                 "titre": "Tracer droites, segments et demi-droites",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Tracer les droites, segments de droite, demi-droites à partir des données représentées par les symboles correspondants.",
+                  "Tracer les droites, segments de droite, demi-droites à partir",
                   "Utiliser l'équerre et la règle graduée pour tracer des droites.",
-                  "Identifier et maîtriser les notions clés de 'Tracer droites, segments et demi-droites' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Tracer droites, segments et demi-droites' appliqués à l'économie locale."
+                  "Comprendre Tracer droites, segments et demi-droites",
+                  "Résoudre des problèmes complexes en utilisant les outils de"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -2004,7 +2004,7 @@
                   "Identifier les types d'os qui constituent le squelette humain.",
                   "Expliquer le rôle du squelette dans le corps humain.",
                   "Adopter de bonnes postures assises et debout.",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Le squelette humain et ses rôles dans le corps'."
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -2183,8 +2183,8 @@
                 "savoirs_faire": [
                   "Expliquer le rôle des aliments dans l'organisme humain.",
                   "Identifier les classes d'aliments simples.",
-                  "Identifier et maîtriser les notions clés de 'L'origine des aliments à la maison' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'L'origine des aliments à la maison'."
+                  "Comprendre L'origine des aliments",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -2388,8 +2388,8 @@
                 "savoirs_faire": [
                   "Expliquer la notion de mélange.",
                   "Identifier les différents types de mélanges.",
-                  "Identifier et maîtriser les notions clés de 'Les mélanges à la maison : eau, sucre et huile' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Les mélanges à la maison : eau, sucre et huile'."
+                  "Comprendre Les mélanges",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -2584,8 +2584,8 @@
                 "savoirs_faire": [
                   "Démonter et remonter une lampe de poche.",
                   "Allumer une ampoule avec une pile et dessiner le montage.",
-                  "Identifier et maîtriser les notions clés de 'La lampe de poche et son montage simple' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'La lampe de poche et son montage simple'."
+                  "Comprendre La lampe de poche et son montage simple",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -2775,8 +2775,8 @@
                 "savoirs_faire": [
                   "Définir la notion d'histoire.",
                   "Restituer l'histoire de sa famille.",
-                  "Identifier et maîtriser les notions clés de 'Raconter l'histoire de sa famille' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Raconter l'histoire de sa famille' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre Raconter l'histoire de sa famille",
+                  "Appliquer les concepts de 'Raconter l'histoire de sa famille'"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -2965,9 +2965,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Expliquer la notion de relief.",
-                  "Identifier et maîtriser les notions clés de 'Le relief autour de ma maison au Cameroun' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Le relief autour de ma maison au Cameroun' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Le relief autour de ma maison au Cameroun' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre Le relief autour de ma maison",
+                  "Comprendre Le relief autour de ma maison",
+                  "Appliquer les concepts de 'Le relief autour de ma maison au"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -3156,8 +3156,8 @@
                 "savoirs_faire": [
                   "Name members of the nuclear family.",
                   "Form sentences with words.",
-                  "Identifier et maîtriser les notions clés de 'The nuclear family at home' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'The nuclear family at home'."
+                  "Comprendre The nuclear family at home",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -3358,9 +3358,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Read names of members of the nuclear family.",
-                  "Identifier et maîtriser les notions clés de 'Reading the names of the family members' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Reading the names of the family members' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Reading the names of the family members'."
+                  "Comprendre Reading the names of the family members",
+                  "Comprendre Reading the names of the family members",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -3543,8 +3543,8 @@
                 "savoirs_faire": [
                   "Write the names of members of the nuclear family.",
                   "Copy names of items found in a home legibly.",
-                  "Identifier et maîtriser les notions clés de 'Writing the names of my family members' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Writing the names of my family members'."
+                  "Comprendre Writing the names of my family members",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -3741,9 +3741,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Use the plural forms of objects found in the home.",
-                  "Identifier et maîtriser les notions clés de 'Plural forms of home objects in English' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Plural forms of home objects in English' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Plural forms of home objects in English'."
+                  "Comprendre Plural forms of home objects in English",
+                  "Comprendre Plural forms of home objects in English",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -3924,10 +3924,10 @@
                 "titre": "La famille nucléaire dans nos langues camerounaises",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Identifier des lettres-sons complexes de l'AGLC en rapport avec les membres de la famille nucléaire.",
+                  "Identifier des lettres-sons complexes de l'AGLC en rapport avec",
                   "Nommer les membres de la famille dans une langue locale.",
-                  "Identifier et maîtriser les notions clés de 'La famille nucléaire dans nos langues camerounaises' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'La famille nucléaire dans nos langues camerounaises' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre La famille nucléaire",
+                  "Appliquer les concepts de 'La famille nucléaire dans nos langues"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -4106,8 +4106,8 @@
                 "savoirs_faire": [
                   "Décrire les types de maisons dans sa communauté en trois phrases.",
                   "Identifier les différentes parties de la maison.",
-                  "Identifier et maîtriser les notions clés de 'Les types de maisons dans nos communautés' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Les types de maisons dans nos communautés' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre Les types de maisons",
+                  "Appliquer les concepts de 'Les types de maisons dans nos"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -4301,10 +4301,10 @@
                 "titre": "Les matériaux pour construire la maison camerounaise",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Identifier les matériaux utilisés pour construire les maisons du Cameroun.",
-                  "Décrire en trois phrases comment on construit une maison dans sa communauté.",
-                  "Identifier et maîtriser les notions clés de 'Les matériaux pour construire la maison camerounaise' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Les matériaux pour construire la maison camerounaise' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Identifier les matériaux utilisés",
+                  "Décrire en trois phrases comment on construit une maison dans sa",
+                  "Comprendre Les matériaux pour construire la maison camerounaise",
+                  "Appliquer les concepts de 'Les matériaux"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -4508,8 +4508,8 @@
                 "savoirs_faire": [
                   "Décrire un téléphone portable.",
                   "Appeler avec un téléphone.",
-                  "Expliquer les précautions à prendre lorsqu'on utilise un téléphone portable.",
-                  "Appliquer les concepts de 'Le téléphone portable à la maison' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Expliquer les précautions à prendre lorsqu'on utilise un",
+                  "Appliquer les concepts de 'Le téléphone portable à la maison'"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -4714,10 +4714,10 @@
                 "titre": "L'hygiène et l'entretien de la maison",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Identifier les différentes règles d'hygiène pour maintenir un espace propre.",
-                  "Identifier et maîtriser les notions clés de 'L'hygiène et l'entretien de la maison' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'L'hygiène et l'entretien de la maison' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'L'hygiène et l'entretien de la maison' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Identifier les différentes règles d'hygiène",
+                  "Comprendre L'hygiène et l'entretien de la maison",
+                  "Comprendre L'hygiène et l'entretien de la maison",
+                  "Appliquer les concepts de 'L'hygiène"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -5585,7 +5585,7 @@
                   "Identifier le groupe nominal.",
                   "Identifier le verbe dans une phrase.",
                   "Reconnaître une phrase complète.",
-                  "Employer correctement les règles de 'Le groupe nominal le verbe et la phrase' pour rédiger et exprimer des récits culturels structurés."
+                  "Utiliser les règles de Le groupe nominal le verbe et la phrase"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -5776,8 +5776,8 @@
                 "savoirs_faire": [
                   "Expliquer l'utilité de la ponctuation.",
                   "Utiliser les signes de ponctuation (, . ? !).",
-                  "Transformer oralement une phrase affirmative en phrase négative ou interrogative.",
-                  "Employer correctement les règles de 'La ponctuation et les types de phrases simples' pour rédiger et exprimer des récits culturels structurés."
+                  "Transformer oralement une phrase affirmative en phrase négative",
+                  "Utiliser les règles de La ponctuation"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -5976,7 +5976,7 @@
                   "Expliquer les mots usuels.",
                   "Utiliser le champ lexical relatif au village et à la ville.",
                   "Associer chaque animal domestique à son cri.",
-                  "Employer correctement les règles de 'Le champ lexical du village et les cris des animaux' pour rédiger et exprimer des récits culturels structurés."
+                  "Utiliser les règles de Le champ lexical du village"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -6187,9 +6187,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Écrire sans erreur les formes conjuguées apprises.",
-                  "Identifier et maîtriser les notions clés de 'Écrire les formes des verbes au présent' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Écrire les formes des verbes au présent' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Écrire les formes des verbes au présent' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Écrire les formes des verbes",
+                  "Comprendre Écrire les formes des verbes",
+                  "Utiliser les règles de Écrire les formes des verbes"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -6400,8 +6400,8 @@
                 "savoirs_faire": [
                   "Identifier les temps simples de l'indicatif.",
                   "Conjuguer les verbes du 1er groupe au présent de l'indicatif.",
-                  "Identifier et maîtriser les notions clés de 'Le présent de l'indicatif des verbes du premier groupe' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Le présent de l'indicatif des verbes du premier groupe' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Le présent de l'indicatif des verbes du premier groupe",
+                  "Utiliser les règles de Le présent de l'indicatif des verbes du"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -6595,10 +6595,10 @@
                 "titre": "Les nombres de deux cents à trois cents",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Composer, décomposer les nombres entiers inférieurs ou égaux à 300 en utilisant des regroupements par dizaines et par centaines.",
-                  "Lire et écrire en chiffres et en lettres les nombres de 200 à 300.",
+                  "Composer, décomposer les nombres entiers inférieurs ou égaux à",
+                  "Lire",
                   "Comparer, ranger des nombres entiers de 200 à 300.",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Les nombres de deux cents à trois cents' appliqués à l'économie locale."
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Les"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -6787,9 +6787,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Expliquer la signification des symboles : ∈ ∪ ∩.",
-                  "Identifier et maîtriser les notions clés de 'Les symboles appartient réunion et intersection' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Les symboles appartient réunion et intersection' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Les symboles appartient réunion et intersection' appliqués à l'économie locale."
+                  "Comprendre Les symboles appartient réunion et intersection",
+                  "Comprendre Les symboles appartient réunion et intersection",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Les"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -6981,10 +6981,10 @@
                 "titre": "L'addition et la soustraction posées avec retenue",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Utiliser les techniques opératoires de l'addition et de la soustraction avec et sans retenue.",
-                  "Identifier et maîtriser les notions clés de 'L'addition et la soustraction posées avec retenue' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'L'addition et la soustraction posées avec retenue' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'L'addition et la soustraction posées avec retenue' appliqués à l'économie locale."
+                  "Utiliser les techniques opératoires de l'addition",
+                  "Comprendre L'addition et la soustraction posées avec retenue",
+                  "Comprendre L'addition et la soustraction posées avec retenue",
+                  "Résoudre des problèmes complexes en utilisant les outils de"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -7176,7 +7176,7 @@
                 "titre": "Mesurer les masses avec la balance et les unités",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Estimer l'ordre de grandeur des objets et les ranger suivant leur masse.",
+                  "Estimer l'ordre de grandeur des objets",
                   "Identifier les unités de mesure de masse.",
                   "Utiliser les unités de mesure de masse.",
                   "Utiliser la balance pour mesurer des masses."
@@ -7382,7 +7382,7 @@
                   "Donner les caractéristiques du cube.",
                   "Donner les caractéristiques du pavé droit.",
                   "Donner les caractéristiques du cylindre.",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Le cube le pavé droit et le cylindre' appliqués à l'économie locale."
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Le"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -7589,8 +7589,8 @@
                 "savoirs_faire": [
                   "Identifier les différents modes de reproduction des animaux.",
                   "Identifier les modes de nutrition des animaux.",
-                  "Identifier et maîtriser les notions clés de 'La reproduction et la nutrition des animaux du village' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'La reproduction et la nutrition des animaux du village'."
+                  "Comprendre La reproduction et la nutrition des animaux du village",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -7784,9 +7784,9 @@
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
                   "Réaliser un dispositif expérimental de filtrage de l'eau.",
-                  "Identifier et maîtriser les notions clés de 'Réaliser un dispositif de filtrage de l'eau' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Réaliser un dispositif de filtrage de l'eau' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Réaliser un dispositif de filtrage de l'eau'."
+                  "Comprendre Réaliser un dispositif de filtrage de l'eau",
+                  "Comprendre Réaliser un dispositif de filtrage de l'eau",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -7990,8 +7990,8 @@
                 "savoirs_faire": [
                   "Raconter l'histoire de sa localité.",
                   "Identifier les grandes figures de l'histoire de sa localité.",
-                  "Identifier et maîtriser les notions clés de 'L'histoire de notre localité et ses grandes figures' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'L'histoire de notre localité et ses grandes figures' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre L'histoire de notre localité et ses grandes figures",
+                  "Appliquer les concepts de 'L'histoire de notre localité"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -8175,8 +8175,8 @@
                 "savoirs_faire": [
                   "Expliquer la notion d'hydrographie.",
                   "Déterminer l'hydrographie de sa localité.",
-                  "Identifier et maîtriser les notions clés de 'L'hydrographie du Cameroun et de notre localité' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'L'hydrographie du Cameroun et de notre localité' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre L'hydrographie du Cameroun et de notre localité",
+                  "Appliquer les concepts de 'L'hydrographie du Cameroun"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -8366,8 +8366,8 @@
                 "savoirs_faire": [
                   "Listen to short texts about the village.",
                   "Use sight words to describe the village.",
-                  "Identifier et maîtriser les notions clés de 'Listening and speaking about my village' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Listening and speaking about my village'."
+                  "Comprendre Listening and speaking about my village",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -8551,8 +8551,8 @@
                 "savoirs_faire": [
                   "Read aloud sight words.",
                   "Read short texts about the village.",
-                  "Identifier et maîtriser les notions clés de 'Reading short texts about village life' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Reading short texts about village life'."
+                  "Comprendre Reading short texts about village life",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -8733,9 +8733,9 @@
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
                   "Copy the traditions of some villages.",
-                  "Identifier et maîtriser les notions clés de 'Copying short sentences about village traditions' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Copying short sentences about village traditions' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Copying short sentences about village traditions'."
+                  "Comprendre Copying short sentences about village traditions",
+                  "Comprendre Copying short sentences about village traditions",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -8923,7 +8923,7 @@
                   "Construct simple sentences with the simple past tense.",
                   "Construct sentences with the future simple tense.",
                   "Use opposites of one and two syllable words.",
-                  "Interact fluently in English using expressions and grammar related to 'Simple past future simple and opposites for village life'."
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -9122,10 +9122,10 @@
                 "titre": "Le village ses traditions et la ville multiculturelle",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "En utilisant convenablement les tons simples : utiliser le vocabulaire approprié pour dire les formules de salutation et de politesse et scénariser.",
+                  "En utilisant convenablement les tons simples : utiliser le",
                   "Exprimer un besoin ou solliciter un service dans sa communauté.",
                   "Distinguer les jeux traditionnels des jeux modernes.",
-                  "Produire des expressions adéquates pour saluer dans un environnement multilingue et multiculturel."
+                  "Produire des expressions adéquates"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -9329,8 +9329,8 @@
                 "savoirs_faire": [
                   "Identifier les principales fonctions de l'ordinateur à l'école.",
                   "Expliquer l'attitude à prendre vis-à-vis des téléphones d'autrui.",
-                  "Expliquer les précautions à prendre pour brancher ou débrancher un appareil électronique.",
-                  "Appliquer les concepts de 'L'ordinateur à l'école et la sécurité des téléphones' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Expliquer les précautions à prendre",
+                  "Appliquer les concepts de 'L'ordinateur à l'école"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -9533,8 +9533,8 @@
                 "savoirs_faire": [
                   "Préparer de la barbotine à partir de l'argile.",
                   "Fabriquer des objets par modelage (moulage).",
-                  "Identifier les différentes règles d'hygiène pour maintenir un espace propre.",
-                  "Appliquer les concepts de 'La poterie et l'entretien du milieu de vie' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Identifier les différentes règles d'hygiène",
+                  "Appliquer les concepts de 'La poterie"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -10395,7 +10395,7 @@
                   "Identifier les articles définis.",
                   "Identifier les articles indéfinis.",
                   "Identifier l'article élidé.",
-                  "Employer correctement les règles de 'Les articles définis et indéfinis à l'école' pour rédiger et exprimer des récits culturels structurés."
+                  "Utiliser les règles de Les articles définis et indéfinis"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -10590,9 +10590,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Utiliser les adjectifs possessifs.",
-                  "Identifier et maîtriser les notions clés de 'Les adjectifs possessifs en classe' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Les adjectifs possessifs en classe' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Les adjectifs possessifs en classe' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Les adjectifs possessifs",
+                  "Comprendre Les adjectifs possessifs",
+                  "Utiliser les règles de Les adjectifs possessifs"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -10782,10 +10782,10 @@
                 "titre": "Les mots invariables à connaître par cœur",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Orthographier sans erreur les mots invariables les plus fréquemment rencontrés ainsi que les mots-outils appris.",
-                  "Identifier et maîtriser les notions clés de 'Les mots invariables à connaître par cœur' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Les mots invariables à connaître par cœur' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Les mots invariables à connaître par cœur' pour rédiger et exprimer des récits culturels structurés."
+                  "Orthographier sans erreur les mots invariables les plus",
+                  "Comprendre Les mots invariables",
+                  "Comprendre Les mots invariables",
+                  "Utiliser les règles de Les mots invariables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -10976,9 +10976,9 @@
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
                   "Conjuguer les verbes être et avoir au présent de l'indicatif.",
-                  "Identifier et maîtriser les notions clés de 'Conjuguer être et avoir au présent' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Conjuguer être et avoir au présent' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Conjuguer être et avoir au présent' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Conjuguer être et avoir",
+                  "Comprendre Conjuguer être et avoir",
+                  "Utiliser les règles de Conjuguer être et avoir"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -11169,9 +11169,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Identifier des synonymes.",
-                  "Identifier et maîtriser les notions clés de 'Les synonymes dans le langage de l'école' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Les synonymes dans le langage de l'école' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Les synonymes dans le langage de l'école' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Les synonymes",
+                  "Comprendre Les synonymes",
+                  "Utiliser les règles de Les synonymes"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -11369,8 +11369,8 @@
                 "savoirs_faire": [
                   "Expliquer les mots usuels.",
                   "Utiliser le champ lexical relatif à l'école.",
-                  "Identifier et maîtriser les notions clés de 'Le champ lexical de l'école camerounaise' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Le champ lexical de l'école camerounaise' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Le champ lexical de l'école camerounaise",
+                  "Utiliser les règles de Le champ lexical de l'école camerounaise"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -11571,10 +11571,10 @@
                 "titre": "Dictée préparée sur l'école de Amina",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Réinvestir les acquis orthographiques (mots invariables, articles, accord sujet-verbe) dans une dictée.",
-                  "Identifier et maîtriser les notions clés de 'Dictée préparée sur l'école de Amina' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Dictée préparée sur l'école de Amina' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Dictée préparée sur l'école de Amina' pour rédiger et exprimer des récits culturels structurés."
+                  "Réinvestir les acquis orthographiques dans une dictée.",
+                  "Comprendre Dictée préparée sur l'école de Amina",
+                  "Comprendre Dictée préparée sur l'école de Amina",
+                  "Utiliser les règles de Dictée préparée sur l'école de Amina"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -11768,10 +11768,10 @@
                 "titre": "Les nombres de 300 à 500 à l'école",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Lire et écrire en chiffres et en lettres les nombres de 300 à 500.",
+                  "Lire",
                   "Comparer, ranger des nombres entiers de 300 à 500.",
-                  "Identifier et maîtriser les notions clés de 'Les nombres de 300 à 500 à l'école' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Les nombres de 300 à 500 à l'école' appliqués à l'économie locale."
+                  "Comprendre Les nombres de 300",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Les"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -11988,8 +11988,8 @@
                 "savoirs_faire": [
                   "Utiliser le vocabulaire approprié pour les mesures de capacité.",
                   "Mesurer en utilisant le litre.",
-                  "Identifier et maîtriser les notions clés de 'Mesurer les capacités avec le litre' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Mesurer les capacités avec le litre' appliqués à l'économie locale."
+                  "Comprendre Mesurer les capacités avec le litre",
+                  "Résoudre des problèmes complexes en utilisant les outils de"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -12195,8 +12195,8 @@
                 "savoirs_faire": [
                   "Identifier les propriétés du carré et du rectangle.",
                   "Tracer un carré et un rectangle à la règle.",
-                  "Identifier et maîtriser les notions clés de 'Le carré et le rectangle dans la classe' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Le carré et le rectangle dans la classe' appliqués à l'économie locale."
+                  "Comprendre Le carré et le rectangle",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Le"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -12393,8 +12393,8 @@
                 "savoirs_faire": [
                   "Expliquer la respiration des animaux.",
                   "Identifier les organes respiratoires.",
-                  "Identifier et maîtriser les notions clés de 'La respiration des animaux à l'école' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'La respiration des animaux à l'école'."
+                  "Comprendre La respiration des animaux",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -12596,8 +12596,8 @@
                 "savoirs_faire": [
                   "Identifier les principales parties d'une plante.",
                   "Décrire le rôle de chaque partie.",
-                  "Identifier et maîtriser les notions clés de 'Les principales parties d'une plante' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Les principales parties d'une plante'."
+                  "Comprendre Les principales parties d'une plante",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -12793,8 +12793,8 @@
                 "savoirs_faire": [
                   "Expliquer la reproduction des végétaux.",
                   "Décrire les étapes du semis.",
-                  "Identifier et maîtriser les notions clés de 'La reproduction des végétaux par semis' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'La reproduction des végétaux par semis'."
+                  "Comprendre La reproduction des végétaux par semis",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -12999,8 +12999,8 @@
                 "savoirs_faire": [
                   "Identifier les principales catégories d'énergie.",
                   "Donner des exemples d'énergies dans la vie quotidienne.",
-                  "Identifier et maîtriser les notions clés de 'Les catégories d'énergie utilisées à l'école' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Les catégories d'énergie utilisées à l'école'."
+                  "Comprendre Les catégories d'énergie utilisées",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -13211,8 +13211,8 @@
                 "savoirs_faire": [
                   "Expliquer la notion de levier.",
                   "Donner des exemples de leviers utilisés à l'école et à la maison.",
-                  "Identifier et maîtriser les notions clés de 'La notion de levier dans la vie scolaire' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'La notion de levier dans la vie scolaire'."
+                  "Comprendre La notion de levier",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -13420,8 +13420,8 @@
                 "savoirs_faire": [
                   "Expliquer la vie des premiers hommes.",
                   "Situer l'Afrique comme berceau de l'humanité.",
-                  "Identifier et maîtriser les notions clés de 'Les premiers hommes en Afrique' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Les premiers hommes en Afrique' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre Les premiers hommes",
+                  "Appliquer les concepts de 'Les premiers hommes en Afrique'"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -13639,8 +13639,8 @@
                 "savoirs_faire": [
                   "Utiliser les divisions du temps : jour, semaine, mois, année.",
                   "Lire un calendrier scolaire.",
-                  "Identifier et maîtriser les notions clés de 'Les divisions du temps à l'école' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Les divisions du temps à l'école' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre Les divisions du temps",
+                  "Appliquer les concepts de 'Les divisions du temps à l'école'"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -13855,9 +13855,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Use simple greetings and introductions in English at school.",
-                  "Identifier et maîtriser les notions clés de 'Greetings and introduction at school' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Greetings and introduction at school' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Greetings and introduction at school'."
+                  "Comprendre Greetings and introduction at school",
+                  "Comprendre Greetings and introduction at school",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -14065,9 +14065,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Read simple words about classroom objects in English.",
-                  "Identifier et maîtriser les notions clés de 'Reading classroom objects in English' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Reading classroom objects in English' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Reading classroom objects in English'."
+                  "Comprendre Reading classroom objects in English",
+                  "Comprendre Reading classroom objects in English",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -14279,10 +14279,10 @@
                 "titre": "Writing school objects in English",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Write simple words and short sentences about school objects in English.",
-                  "Identifier et maîtriser les notions clés de 'Writing school objects in English' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Writing school objects in English' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Writing school objects in English'."
+                  "Write simple words and short sentences about school objects in",
+                  "Comprendre Writing school objects in English",
+                  "Comprendre Writing school objects in English",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -14484,10 +14484,10 @@
                 "titre": "Prepositions of place in the classroom",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Use prepositions of place (in, on, under, next to) to describe classroom objects.",
-                  "Identifier et maîtriser les notions clés de 'Prepositions of place in the classroom' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Prepositions of place in the classroom' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Prepositions of place in the classroom'."
+                  "Use prepositions of place to describe classroom objects.",
+                  "Comprendre Prepositions of place in the classroom",
+                  "Comprendre Prepositions of place in the classroom",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -14709,10 +14709,10 @@
                 "titre": "Décrire ma journée à l'école en français",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Décrire une journée type à l'école en utilisant le présent de narration.",
-                  "Identifier et maîtriser les notions clés de 'Décrire ma journée à l'école en français' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Décrire ma journée à l'école en français' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Décrire ma journée à l'école en français' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Décrire une journée type à l'école en utilisant le présent de",
+                  "Comprendre Décrire ma journée",
+                  "Comprendre Décrire ma journée",
+                  "Appliquer les concepts de 'Décrire ma journée à l'école en"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -14909,10 +14909,10 @@
                 "titre": "Saluer dans nos langues camerounaises à l'école",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Identifier et utiliser les salutations dans plusieurs langues nationales camerounaises.",
-                  "Identifier et maîtriser les notions clés de 'Saluer dans nos langues camerounaises à l'école' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Saluer dans nos langues camerounaises à l'école' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Saluer dans nos langues camerounaises à l'école' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Identifier",
+                  "Comprendre Saluer",
+                  "Comprendre Saluer",
+                  "Appliquer les concepts de 'Saluer dans nos langues camerounaises"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -15122,8 +15122,8 @@
                 "savoirs_faire": [
                   "Comparer l'école d'autrefois et l'école actuelle au Cameroun.",
                   "Citer les changements positifs.",
-                  "Identifier et maîtriser les notions clés de 'L'école camerounaise hier et aujourd'hui' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'L'école camerounaise hier et aujourd'hui' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre L'école camerounaise hier et aujourd'hui",
+                  "Appliquer les concepts de 'L'école camerounaise hier"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -15330,8 +15330,8 @@
                 "savoirs_faire": [
                   "Identifier les icônes sur un bureau de téléphone portable.",
                   "Identifier les icônes sur un bureau d'ordinateur.",
-                  "Identifier et maîtriser les notions clés de 'Les icônes du bureau du téléphone et de l'ordinateur' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Les icônes du bureau du téléphone et de l'ordinateur' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre Les icônes du bureau du téléphone et de l'ordinateur",
+                  "Appliquer les concepts de 'Les icônes du bureau du téléphone"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -15537,10 +15537,10 @@
                 "titre": "Construire des figures géométriques en classe",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Construire des figures géométriques à partir de données exactes (mesures, couleurs, formes).",
-                  "Identifier et maîtriser les notions clés de 'Construire des figures géométriques en classe' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Construire des figures géométriques en classe' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Construire des figures géométriques en classe' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Construire des figures géométriques à partir de données exactes.",
+                  "Comprendre Construire des figures géométriques",
+                  "Comprendre Construire des figures géométriques",
+                  "Appliquer les concepts de 'Construire des figures géométriques"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -16472,8 +16472,8 @@
                 "savoirs_faire": [
                   "Identifier l'adjectif qualificatif dans une phrase.",
                   "Accorder l'adjectif qualificatif avec le nom.",
-                  "Identifier et maîtriser les notions clés de 'Les adjectifs qualificatifs pour parler des métiers' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Les adjectifs qualificatifs pour parler des métiers' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Les adjectifs qualificatifs pour parler des métiers",
+                  "Utiliser les règles de Les adjectifs qualificatifs"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -16675,8 +16675,8 @@
                 "savoirs_faire": [
                   "Accorder le verbe avec son sujet.",
                   "Accorder le déterminant avec le nom.",
-                  "Identifier et maîtriser les notions clés de 'Les accords verbe-sujet et déterminant-nom' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Les accords verbe-sujet et déterminant-nom' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Les accords verbe-sujet et déterminant-nom",
+                  "Utiliser les règles de Les accords verbe-sujet et déterminant-nom"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -16876,10 +16876,10 @@
                 "titre": "Le futur simple des verbes du premier groupe",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Conjuguer les verbes du 1er groupe au futur simple de l'indicatif.",
-                  "Identifier et maîtriser les notions clés de 'Le futur simple des verbes du premier groupe' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Le futur simple des verbes du premier groupe' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Le futur simple des verbes du premier groupe' pour rédiger et exprimer des récits culturels structurés."
+                  "Conjuguer les verbes du 1er groupe au futur simple de",
+                  "Comprendre Le futur simple des verbes du premier groupe",
+                  "Comprendre Le futur simple des verbes du premier groupe",
+                  "Utiliser les règles de Le futur simple des verbes du premier"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -17081,10 +17081,10 @@
                 "titre": "Les homonymes dans les noms de métiers",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Identifier les homonymes et choisir le mot pertinent dans une phrase.",
-                  "Identifier et maîtriser les notions clés de 'Les homonymes dans les noms de métiers' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Les homonymes dans les noms de métiers' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Les homonymes dans les noms de métiers' pour rédiger et exprimer des récits culturels structurés."
+                  "Identifier les homonymes",
+                  "Comprendre Les homonymes",
+                  "Comprendre Les homonymes",
+                  "Utiliser les règles de Les homonymes"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -17294,8 +17294,8 @@
                 "savoirs_faire": [
                   "Expliquer les mots usuels.",
                   "Utiliser le champ lexical relatif aux métiers.",
-                  "Identifier et maîtriser les notions clés de 'Le champ lexical des métiers camerounais' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Le champ lexical des métiers camerounais' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Le champ lexical des métiers camerounais",
+                  "Utiliser les règles de Le champ lexical des métiers camerounais"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -17512,10 +17512,10 @@
                 "titre": "Dictée préparée sur l'atelier du menuisier",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Réinvestir l'orthographe des mots usuels et les accords dans une dictée préparée.",
-                  "Identifier et maîtriser les notions clés de 'Dictée préparée sur l'atelier du menuisier' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Dictée préparée sur l'atelier du menuisier' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Dictée préparée sur l'atelier du menuisier' pour rédiger et exprimer des récits culturels structurés."
+                  "Réinvestir l'orthographe des mots usuels",
+                  "Comprendre Dictée préparée sur l'atelier du menuisier",
+                  "Comprendre Dictée préparée sur l'atelier du menuisier",
+                  "Utiliser les règles de Dictée préparée sur l'atelier du menuisier"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -17708,10 +17708,10 @@
                 "titre": "Les nombres de 500 à 700 au marché",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Lire et écrire en chiffres et en lettres les nombres de 500 à 700.",
+                  "Lire",
                   "Comparer et ranger les nombres entiers de 500 à 700.",
-                  "Identifier et maîtriser les notions clés de 'Les nombres de 500 à 700 au marché' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Les nombres de 500 à 700 au marché' appliqués à l'économie locale."
+                  "Comprendre Les nombres de 500",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Les"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -17922,10 +17922,10 @@
                 "titre": "Le calcul mental pour les achats au marché",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Utiliser le calcul mental pour additionner et soustraire rapidement.",
+                  "Utiliser le calcul mental pour additionner",
                   "Appliquer la commutativité : 3 + 5 = 5 + 3.",
-                  "Identifier et maîtriser les notions clés de 'Le calcul mental pour les achats au marché' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Le calcul mental pour les achats au marché' appliqués à l'économie locale."
+                  "Comprendre Le calcul mental pour les achats",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Le"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -18143,8 +18143,8 @@
                 "savoirs_faire": [
                   "Définir la notion de périmètre.",
                   "Calculer le périmètre d'un carré et d'un rectangle.",
-                  "Identifier et maîtriser les notions clés de 'Le périmètre des objets fabriqués' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Le périmètre des objets fabriqués' appliqués à l'économie locale."
+                  "Comprendre Le périmètre des objets fabriqués",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Le"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -18350,8 +18350,8 @@
                 "savoirs_faire": [
                   "Identifier le triangle parmi les figures planes.",
                   "Tracer un triangle à la règle.",
-                  "Identifier et maîtriser les notions clés de 'Le triangle dans le travail de l'artisan' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Le triangle dans le travail de l'artisan' appliqués à l'économie locale."
+                  "Comprendre Le triangle",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Le"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -18548,8 +18548,8 @@
                 "savoirs_faire": [
                   "Identifier les trois groupes d'aliments.",
                   "Composer un repas équilibré.",
-                  "Identifier et maîtriser les notions clés de 'Manger équilibré pour bien travailler' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Manger équilibré pour bien travailler'."
+                  "Comprendre Manger équilibré pour bien travailler",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -18753,8 +18753,8 @@
                 "savoirs_faire": [
                   "Identifier les bons gestes pour protéger ses poumons.",
                   "Citer les dangers pour la respiration au travail.",
-                  "Identifier et maîtriser les notions clés de 'L'hygiène de la respiration au travail' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'L'hygiène de la respiration au travail'."
+                  "Comprendre L'hygiène de la respiration",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -18954,10 +18954,10 @@
                 "titre": "Prévenir le SIDA par les gestes prudents",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Citer les principaux gestes de prudence pour ne pas attraper le SIDA.",
+                  "Citer les principaux gestes de prudence",
                   "Reconnaître les objets dangereux (lames, aiguilles).",
-                  "Identifier et maîtriser les notions clés de 'Prévenir le SIDA par les gestes prudents' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Prévenir le SIDA par les gestes prudents'."
+                  "Comprendre Prévenir le SIDA par les gestes prudents",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -19163,8 +19163,8 @@
                 "savoirs_faire": [
                   "Identifier les principaux artisans et leurs outils.",
                   "Décrire les étapes du travail d'un artisan.",
-                  "Identifier et maîtriser les notions clés de 'Le travail de l'artisan et ses outils' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Le travail de l'artisan et ses outils'."
+                  "Comprendre Le travail de l'artisan et ses outils",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -19370,8 +19370,8 @@
                 "savoirs_faire": [
                   "Identifier les bons conducteurs de chaleur.",
                   "Identifier les mauvais conducteurs (isolants) de chaleur.",
-                  "Identifier et maîtriser les notions clés de 'Les bons et les mauvais conducteurs de chaleur' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Les bons et les mauvais conducteurs de chaleur'."
+                  "Comprendre Les bons et les mauvais conducteurs de chaleur",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -19567,9 +19567,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Expliquer le peuplement du Cameroun.",
-                  "Identifier et maîtriser les notions clés de 'Le peuplement du Cameroun et sa diversité' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Le peuplement du Cameroun et sa diversité' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Le peuplement du Cameroun et sa diversité' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre Le peuplement du Cameroun et sa diversité",
+                  "Comprendre Le peuplement du Cameroun et sa diversité",
+                  "Appliquer les concepts de 'Le peuplement du Cameroun"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -19753,8 +19753,8 @@
                 "savoirs_faire": [
                   "Déterminer les activités économiques du village.",
                   "Identifier les artisans de sa localité.",
-                  "Identifier et maîtriser les notions clés de 'Les activités économiques et l'artisanat camerounais' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Les activités économiques et l'artisanat camerounais' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre Les activités économiques et l'artisanat camerounais",
+                  "Appliquer les concepts de 'Les activités économiques"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -19947,9 +19947,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Name common occupations orally in English.",
-                  "Identifier et maîtriser les notions clés de 'Talking about occupations in English' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Talking about occupations in English' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Talking about occupations in English'."
+                  "Comprendre Talking about occupations in English",
+                  "Comprendre Talking about occupations in English",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -20150,9 +20150,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Read simple sentences about occupations in English.",
-                  "Identifier et maîtriser les notions clés de 'Reading occupation vocabulary in English' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Reading occupation vocabulary in English' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Reading occupation vocabulary in English'."
+                  "Comprendre Reading occupation vocabulary in English",
+                  "Comprendre Reading occupation vocabulary in English",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -20353,9 +20353,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Write short sentences about a person's occupation and workplace.",
-                  "Identifier et maîtriser les notions clés de 'Writing sentences about people and occupations' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Writing sentences about people and occupations' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Writing sentences about people and occupations'."
+                  "Comprendre Writing sentences about people and occupations",
+                  "Comprendre Writing sentences about people and occupations",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -20545,10 +20545,10 @@
                 "titre": "Using opposites in occupation vocabulary",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Use opposite adjectives (one and two syllable words) about people and jobs.",
-                  "Identifier et maîtriser les notions clés de 'Using opposites in occupation vocabulary' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Using opposites in occupation vocabulary' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Using opposites in occupation vocabulary'."
+                  "Use opposite adjectives about people and jobs.",
+                  "Comprendre Using opposites in occupation vocabulary",
+                  "Comprendre Using opposites in occupation vocabulary",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -20763,9 +20763,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Décrire les activités d'un artisan dans sa langue locale.",
-                  "Identifier et maîtriser les notions clés de 'Décrire les activités d'un artisan en langue locale' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Décrire les activités d'un artisan en langue locale' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Décrire les activités d'un artisan en langue locale' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre Décrire les activités d'un artisan",
+                  "Comprendre Décrire les activités d'un artisan",
+                  "Appliquer les concepts de 'Décrire les activités d'un artisan en"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -20947,10 +20947,10 @@
                 "titre": "Produire un texte court avec le traitement de texte",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Produire un texte court avec un traitement de texte (Word ou LibreOffice).",
-                  "Identifier et maîtriser les notions clés de 'Produire un texte court avec le traitement de texte' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Produire un texte court avec le traitement de texte' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Produire un texte court avec le traitement de texte' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Produire un texte court avec un traitement de texte.",
+                  "Comprendre Produire un texte court avec le traitement de texte",
+                  "Comprendre Produire un texte court avec le traitement de texte",
+                  "Appliquer les concepts de 'Produire un texte court avec le"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -21137,8 +21137,8 @@
                 "savoirs_faire": [
                   "Réaliser des objets simples par vannerie.",
                   "Tricoter au crochet et broder au point de feston.",
-                  "Identifier et maîtriser les notions clés de 'La vannerie le tricotage et la broderie' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'La vannerie le tricotage et la broderie' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre La vannerie le tricotage et la broderie",
+                  "Appliquer les concepts de 'La vannerie le tricotage"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -22059,10 +22059,10 @@
                 "titre": "Distinguer les classes des mots variables",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Distinguer selon leur nature : les verbes, les noms, les pronoms personnels, les adjectifs qualificatifs, les déterminants.",
+                  "Distinguer selon leur nature : les verbes, les noms, les pronoms",
                   "Identifier la fonction épithète d'un adjectif qualificatif.",
-                  "Identifier la fonction description du sujet d'un adjectif qualificatif.",
-                  "Employer correctement les règles de 'Distinguer les classes des mots variables' pour rédiger et exprimer des récits culturels structurés."
+                  "Identifier la fonction description du sujet d'un adjectif",
+                  "Utiliser les règles de Distinguer les classes des mots variables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -22259,7 +22259,7 @@
                   "Expliquer les mots usuels.",
                   "Identifier des mots contraires.",
                   "Utiliser le champ lexical relatif aux voyages.",
-                  "Employer correctement les règles de 'Le champ lexical des voyages au Cameroun' pour rédiger et exprimer des récits culturels structurés."
+                  "Utiliser les règles de Le champ lexical des voyages"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -22460,10 +22460,10 @@
                 "titre": "La valeur des lettres c, g et s",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Appliquer les règles relatives à la valeur des lettres en fonction des voyelles placées à proximité (c/ç, c/qu, g/gu/ge, s/ss).",
-                  "Identifier et maîtriser les notions clés de 'La valeur des lettres c, g et s' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'La valeur des lettres c, g et s' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'La valeur des lettres c, g et s' pour rédiger et exprimer des récits culturels structurés."
+                  "Appliquer les règles relatives à la valeur des lettres en",
+                  "Comprendre La valeur des lettres c, g et s",
+                  "Comprendre La valeur des lettres c, g et s",
+                  "Utiliser les règles de La valeur des lettres c, g et s"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -22666,9 +22666,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Trouver l'infinitif des verbes.",
-                  "Conjuguer les verbes être et avoir au futur simple de l'indicatif.",
-                  "Identifier et maîtriser les notions clés de 'L'infinitif et le futur simple d'être et avoir' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'L'infinitif et le futur simple d'être et avoir' pour rédiger et exprimer des récits culturels structurés."
+                  "Conjuguer les verbes être",
+                  "Comprendre L'infinitif et le futur simple d'être et avoir",
+                  "Utiliser les règles de L'infinitif"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -22856,10 +22856,10 @@
                 "titre": "Les nombres de 700 à 800 dans le voyage",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Composer, décomposer les nombres entiers inférieurs ou égaux à 800 en utilisant des regroupements par dizaines et par centaines.",
-                  "Lire et écrire en chiffres et en lettres les nombres de 700 à 800.",
-                  "Repérer et placer des nombres à 3 chiffres sur une droite graduée.",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Les nombres de 700 à 800 dans le voyage' appliqués à l'économie locale."
+                  "Composer, décomposer les nombres entiers inférieurs ou égaux à",
+                  "Lire",
+                  "Repérer",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Les"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -23053,8 +23053,8 @@
                 "savoirs_faire": [
                   "Trouver le double et la moitié d'un nombre.",
                   "Identifier les nombres pairs.",
-                  "Identifier et maîtriser les notions clés de 'Le double, la moitié et les nombres pairs' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Le double, la moitié et les nombres pairs' appliqués à l'économie locale."
+                  "Comprendre Le double, la moitié et les nombres pairs",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Le"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -23250,10 +23250,10 @@
                 "titre": "Le périmètre du carré et sa formule",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Construire et utiliser la formule de calcul du périmètre du carré.",
-                  "Identifier et maîtriser les notions clés de 'Le périmètre du carré et sa formule' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Le périmètre du carré et sa formule' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Le périmètre du carré et sa formule' appliqués à l'économie locale."
+                  "Construire",
+                  "Comprendre Le périmètre du carré et sa formule",
+                  "Comprendre Le périmètre du carré et sa formule",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Le"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -23431,8 +23431,8 @@
                 "savoirs_faire": [
                   "Repérer des dates dans un calendrier.",
                   "Établir un emploi du temps.",
-                  "Identifier et maîtriser les notions clés de 'Le calendrier et l'emploi du temps' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Le calendrier et l'emploi du temps' appliqués à l'économie locale."
+                  "Comprendre Le calendrier et l'emploi du temps",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Le"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -23614,8 +23614,8 @@
                 "savoirs_faire": [
                   "Définir la notion d'angle.",
                   "Identifier les différents types d'angles.",
-                  "Identifier et maîtriser les notions clés de 'Les angles et leurs différents types' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Les angles et leurs différents types' appliqués à l'économie locale."
+                  "Comprendre Les angles et leurs différents types",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Les"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -23819,9 +23819,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Identifier les parasites intestinaux.",
-                  "Expliquer les modes d'infestation aux parasites intestinaux et de la peau.",
-                  "Identifier et maîtriser les notions clés de 'Les parasites intestinaux et leur prévention' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Les parasites intestinaux et leur prévention'."
+                  "Expliquer les modes d'infestation aux parasites intestinaux",
+                  "Comprendre Les parasites intestinaux et leur prévention",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -24020,9 +24020,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Décrire un moteur à deux temps.",
-                  "Identifier et maîtriser les notions clés de 'Les moyens de transport au Cameroun et leur utilité' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Les moyens de transport au Cameroun et leur utilité' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Les moyens de transport au Cameroun et leur utilité'."
+                  "Comprendre Les moyens de transport",
+                  "Comprendre Les moyens de transport",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -24206,8 +24206,8 @@
                 "savoirs_faire": [
                   "Expliquer la notion d'aire protégée.",
                   "Expliquer pourquoi et comment certaines aires sont protégées.",
-                  "Identifier et maîtriser les notions clés de 'Les aires protégées du Cameroun' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Les aires protégées du Cameroun'."
+                  "Comprendre Les aires protégées du Cameroun",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -24391,10 +24391,10 @@
                 "titre": "Les mouvements migratoires au Cameroun",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Illustrer les mouvements migratoires sur une carte du Cameroun et principalement dans : le Nord, l'Ouest, le Nord-ouest, le Centre, le Sud, l'Est et sur la Côte.",
-                  "Situer sur une carte du Cameroun les lieux où les premiers Européens sont entrés au Cameroun.",
-                  "Identifier la nationalité des premiers Européens arrivés au Cameroun.",
-                  "Appliquer les concepts de 'Les mouvements migratoires au Cameroun' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Illustrer les mouvements migratoires sur une carte du Cameroun",
+                  "Situer sur une carte du Cameroun les lieux où les premiers",
+                  "Identifier la nationalité des premiers Européens arrivés au",
+                  "Appliquer les concepts de 'Les mouvements migratoires au"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -24577,9 +24577,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Expliquer la notion de climat.",
-                  "Utiliser un vocabulaire approprié pour décrire le climat de sa localité.",
-                  "Énumérer les différents moyens de transport des biens et des hommes utilisés au Cameroun.",
-                  "Énumérer les principales sources d'énergie utiles à la production économique."
+                  "Utiliser un vocabulaire approprié",
+                  "Énumérer les différents moyens de transport des biens",
+                  "Énumérer les principales sources d'énergie utiles à la"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -24777,7 +24777,7 @@
                   "Pronounce the means of travelling.",
                   "Say common rhymes in English.",
                   "Count objects and people from 101 to 150.",
-                  "Interact fluently in English using expressions and grammar related to 'Means of travelling and numbers 101 to 150'."
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -24973,8 +24973,8 @@
                 "savoirs_faire": [
                   "Read the names of objects used for travelling.",
                   "Read numbers from 101 to 150.",
-                  "Identifier et maîtriser les notions clés de 'Reading about travelling and the numbers' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Reading about travelling and the numbers'."
+                  "Comprendre Reading about travelling and the numbers",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -25168,8 +25168,8 @@
                 "savoirs_faire": [
                   "Write the names of objects used for travelling.",
                   "Write numbers from 101 to 150 legibly.",
-                  "Identifier et maîtriser les notions clés de 'Writing means of transportation and numbers' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Writing means of transportation and numbers'."
+                  "Comprendre Writing means of transportation and numbers",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -25351,8 +25351,8 @@
                 "savoirs_faire": [
                   "Use opposites of one and two syllable words.",
                   "Use the correct pronoun in sentences.",
-                  "Identifier et maîtriser les notions clés de 'Pronouns and opposites in travel sentences' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Pronouns and opposites in travel sentences'."
+                  "Comprendre Pronouns and opposites in travel sentences",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -25551,10 +25551,10 @@
                 "titre": "Nommer les moyens de locomotion en langue locale",
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
-                  "Nommer (oralement) les moyens de locomotion en utilisant les qualificatifs appropriés.",
-                  "Identifier et maîtriser les notions clés de 'Nommer les moyens de locomotion en langue locale' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Nommer les moyens de locomotion en langue locale' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Nommer les moyens de locomotion en langue locale' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Nommer les moyens de locomotion en utilisant les qualificatifs",
+                  "Comprendre Nommer les moyens de locomotion",
+                  "Comprendre Nommer les moyens de locomotion",
+                  "Appliquer les concepts de 'Nommer les moyens de locomotion en"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -25738,8 +25738,8 @@
                 "savoirs_faire": [
                   "Créer un tableau à double entrée à l'aide d'un tableur.",
                   "Effectuer une addition et une soustraction à l'aide d'un tableur.",
-                  "Expliquer les précautions à prendre lors de l'utilisation des TIC pendant les voyages.",
-                  "Appliquer les concepts de 'Le tableur pour planifier un voyage' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Expliquer les précautions à prendre lors de l'utilisation des",
+                  "Appliquer les concepts de 'Le tableur"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -25923,10 +25923,10 @@
                 "titre": "Composer une bonne ration alimentaire pour voyager",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Composer les rations alimentaires : de croissance, des sportifs, de travail, des vieillards, des femmes enceintes.",
+                  "Composer les rations alimentaires : de croissance, des sportifs,",
                   "Entretenir le jardin scolaire.",
                   "Entretenir un animal en élevage.",
-                  "Appliquer les concepts de 'Composer une bonne ration alimentaire pour voyager' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Appliquer les concepts de 'Composer une bonne ration alimentaire"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -26712,8 +26712,8 @@
                 "savoirs_faire": [
                   "Définir la notion de pronom.",
                   "Identifier les pronoms personnels.",
-                  "Identifier et maîtriser les notions clés de 'Le pronom personnel et son rôle dans la phrase' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Le pronom personnel et son rôle dans la phrase' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Le pronom personnel et son rôle",
+                  "Utiliser les règles de Le pronom personnel et son rôle"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -27108,10 +27108,10 @@
                 "titre": "Préparer la dictée d'un court texte de santé",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Écrire sans erreur, sous la dictée, un court texte préparé ou non.",
-                  "Identifier et maîtriser les notions clés de 'Préparer la dictée d'un court texte de santé' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Préparer la dictée d'un court texte de santé' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Préparer la dictée d'un court texte de santé' pour rédiger et exprimer des récits culturels structurés."
+                  "Écrire sans erreur, sous la dictée, un court texte préparé ou",
+                  "Comprendre Préparer la dictée d'un court texte de santé",
+                  "Comprendre Préparer la dictée d'un court texte de santé",
+                  "Utiliser les règles de Préparer la dictée d'un court texte de"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -27308,10 +27308,10 @@
                 "titre": "Le passé composé des verbes du premier groupe",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Conjuguer les verbes du 1er groupe au passé composé de l'indicatif.",
-                  "Identifier et maîtriser les notions clés de 'Le passé composé des verbes du premier groupe' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Le passé composé des verbes du premier groupe' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Le passé composé des verbes du premier groupe' pour rédiger et exprimer des récits culturels structurés."
+                  "Conjuguer les verbes du 1er groupe au passé composé de",
+                  "Comprendre Le passé composé des verbes du premier groupe",
+                  "Comprendre Le passé composé des verbes du premier groupe",
+                  "Utiliser les règles de Le passé composé des verbes du premier"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -27491,10 +27491,10 @@
                 "titre": "Dictée préparée sur la prévention des maladies",
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
-                  "Écrire sans erreur, sous la dictée, un court texte préparé ou non.",
-                  "Identifier et maîtriser les notions clés de 'Dictée préparée sur la prévention des maladies' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Dictée préparée sur la prévention des maladies' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Dictée préparée sur la prévention des maladies' pour rédiger et exprimer des récits culturels structurés."
+                  "Écrire sans erreur, sous la dictée, un court texte préparé ou",
+                  "Comprendre Dictée préparée sur la prévention des maladies",
+                  "Comprendre Dictée préparée sur la prévention des maladies",
+                  "Utiliser les règles de Dictée préparée sur la prévention des"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -27695,10 +27695,10 @@
                 "titre": "Les nombres de 800 à 900 et la santé scolaire",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Composer, décomposer les nombres entiers inférieurs ou égaux à 900 en utilisant des regroupements par dizaines et par centaines.",
-                  "Lire et écrire en chiffres et en lettres les nombres de 800 à 900.",
-                  "Identifier et maîtriser les notions clés de 'Les nombres de 800 à 900 et la santé scolaire' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Les nombres de 800 à 900 et la santé scolaire' appliqués à l'économie locale."
+                  "Composer, décomposer les nombres entiers inférieurs ou égaux à",
+                  "Lire",
+                  "Comprendre Les nombres de 800",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Les"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -27892,8 +27892,8 @@
                 "savoirs_faire": [
                   "Estimer l'ordre de grandeur d'un résultat.",
                   "Résoudre un problème en plusieurs étapes",
-                  "Identifier et maîtriser les notions clés de 'les partages en parts égales' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'les partages en parts égales' appliqués à l'économie locale."
+                  "Comprendre les partages",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'les"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -28079,9 +28079,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Diviser un nombre entier par un nombre d'un chiffre.",
-                  "Vérifier le résultat d'une division en effectuant la preuve par 9.",
-                  "Identifier et maîtriser les notions clés de 'La division par un chiffre et la preuve par neuf' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'La division par un chiffre et la preuve par neuf' appliqués à l'économie locale."
+                  "Vérifier le résultat d'une division en effectuant la preuve par",
+                  "Comprendre La division par un chiffre et la preuve par neuf",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'La"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -28265,10 +28265,10 @@
                 "titre": "Le périmètre du rectangle et sa formule",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Construire et appliquer la formule de calcul du périmètre du rectangle.",
-                  "Identifier et maîtriser les notions clés de 'Le périmètre du rectangle et sa formule' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Le périmètre du rectangle et sa formule' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Le périmètre du rectangle et sa formule' appliqués à l'économie locale."
+                  "Construire",
+                  "Comprendre Le périmètre du rectangle et sa formule",
+                  "Comprendre Le périmètre du rectangle et sa formule",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Le"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -28434,8 +28434,8 @@
                 "savoirs_faire": [
                   "Identifier les unités de mesure de température.",
                   "Utiliser le thermomètre pour mesurer des températures.",
-                  "Identifier et maîtriser les notions clés de 'Mesurer la température avec un thermomètre' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Mesurer la température avec un thermomètre' appliqués à l'économie locale."
+                  "Comprendre Mesurer la température avec un thermomètre",
+                  "Résoudre des problèmes complexes en utilisant les outils de"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -28619,8 +28619,8 @@
                 "savoirs_faire": [
                   "Repérer des points dans un quadrillage à partir d'un code.",
                   "Repérer des objets sur un plan.",
-                  "Identifier et maîtriser les notions clés de 'Le repérage sur un quadrillage et sur un plan' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Le repérage sur un quadrillage et sur un plan' appliqués à l'économie locale."
+                  "Comprendre Le repérage sur un quadrillage et sur un plan",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Le"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -28805,9 +28805,9 @@
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
                   "Identifier les maladies contagieuses.",
-                  "Expliquer les mesures à prendre pour éviter les maladies contagieuses.",
+                  "Expliquer les mesures à prendre",
                   "Expliquer la différence entre vaccin et sérum.",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Les maladies contagieuses et leur prévention'."
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -28991,8 +28991,8 @@
                 "savoirs_faire": [
                   "Appliquer l'hygiène des organes de sens.",
                   "Expliquer les notions de malnutrition et de sous-alimentation.",
-                  "Identifier et maîtriser les notions clés de 'Les sens et la nutrition de l'homme' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Les sens et la nutrition de l'homme'."
+                  "Comprendre Les sens et la nutrition de l'homme",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -29193,8 +29193,8 @@
                 "savoirs_faire": [
                   "Décrire le thermomètre et expliquer son utilité.",
                   "Décrire les balances usuelles et dire leur utilité.",
-                  "Identifier et maîtriser les notions clés de 'Le thermomètre et les balances pour la santé' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Le thermomètre et les balances pour la santé'."
+                  "Comprendre Le thermomètre et les balances pour la santé",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -29380,8 +29380,8 @@
                 "savoirs_faire": [
                   "Situer la période de l'arrivée des Allemands au Cameroun.",
                   "Nommer les premiers Allemands arrivés au Cameroun.",
-                  "Identifier et maîtriser les notions clés de 'Les Allemands au Cameroun et la colonisation' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Les Allemands au Cameroun et la colonisation' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre Les Allemands",
+                  "Appliquer les concepts de 'Les Allemands au Cameroun"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -29566,7 +29566,7 @@
                   "Expliquer l'importance économique de la pêche.",
                   "Expliquer l'importance économique de l'élevage.",
                   "Déterminer les différentes groupes humains.",
-                  "Appliquer les concepts de 'La pêche, l'élevage et les groupes humains au Cameroun' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Appliquer les concepts de 'La pêche, l'élevage"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -29768,8 +29768,8 @@
                 "savoirs_faire": [
                   "Describe illnesses.",
                   "Count objects and people from 151 to 200.",
-                  "Identifier et maîtriser les notions clés de 'Talking about illnesses and numbers 151 to 200' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Talking about illnesses and numbers 151 to 200'."
+                  "Comprendre Talking about illnesses and numbers 151 to 200",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -29953,8 +29953,8 @@
                 "savoirs_faire": [
                   "Read short texts about illnesses.",
                   "Read numbers from 151 to 200.",
-                  "Identifier et maîtriser les notions clés de 'Reading short texts about illnesses' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Reading short texts about illnesses'."
+                  "Comprendre Reading short texts about illnesses",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -30136,8 +30136,8 @@
                 "savoirs_faire": [
                   "Write a description of illnesses.",
                   "Write numbers from 151 to 200 legibly.",
-                  "Identifier et maîtriser les notions clés de 'Writing a description of an illness' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Writing a description of an illness'."
+                  "Comprendre Writing a description of an illness",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -30319,8 +30319,8 @@
                 "savoirs_faire": [
                   "Use opposites of one and two syllable words.",
                   "Join words, phrases and sentences using conjunctions.",
-                  "Identifier et maîtriser les notions clés de 'Conjunctions and opposites in health sentences' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Conjunctions and opposites in health sentences'."
+                  "Comprendre Conjunctions and opposites in health sentences",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -30531,10 +30531,10 @@
                 "titre": "Nommer les maladies contagieuses en langue locale",
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
-                  "Utiliser un vocabulaire approprié pour nommer les maladies contagieuses dues à certaines pratiques culturelles (varicelle, rougeole, grippe, etc.).",
-                  "Identifier et maîtriser les notions clés de 'Nommer les maladies contagieuses en langue locale' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Nommer les maladies contagieuses en langue locale' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Nommer les maladies contagieuses en langue locale' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Utiliser un vocabulaire approprié",
+                  "Comprendre Nommer les maladies contagieuses",
+                  "Comprendre Nommer les maladies contagieuses",
+                  "Appliquer les concepts de 'Nommer les maladies contagieuses en"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -30736,7 +30736,7 @@
                   "Expliquer le concept de réseau.",
                   "Expliquer comment envoyer et recevoir un courrier électronique.",
                   "Expliquer comment se tenir devant un ordinateur.",
-                  "Expliquer les dangers causés par l'utilisation abusive du téléphone portable."
+                  "Expliquer les dangers causés par l'utilisation abusive du"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -30919,10 +30919,10 @@
                 "titre": "Bien manger et soigner les animaux pour la santé",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Composer les rations alimentaires : de croissance, des sportifs, des vieillards, des femmes enceintes.",
+                  "Composer les rations alimentaires : de croissance, des sportifs,",
                   "Entretenir l'animal en élevage.",
-                  "Identifier et maîtriser les notions clés de 'Bien manger et soigner les animaux pour la santé' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Bien manger et soigner les animaux pour la santé' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre Bien manger et soigner les animaux pour la santé",
+                  "Appliquer les concepts de 'Bien manger"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -31894,8 +31894,8 @@
                 "savoirs_faire": [
                   "Déterminer les différents types de verbes.",
                   "Accorder le verbe avec son sujet.",
-                  "Identifier et maîtriser les notions clés de 'Le verbe ses types et son accord avec le sujet' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Le verbe ses types et son accord avec le sujet' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Le verbe ses types et son accord avec le sujet",
+                  "Utiliser les règles de Le verbe ses types"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -32091,10 +32091,10 @@
                 "titre": "Le dictionnaire et le champ lexical des jeux",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Utiliser l'ordre alphabétique pour vérifier dans un dictionnaire l'écriture d'un mot ou en chercher le sens.",
+                  "Utiliser l'ordre alphabétique",
                   "Expliquer les mots usuels.",
                   "Utiliser le champ lexical relatif aux jeux.",
-                  "Employer correctement les règles de 'Le dictionnaire et le champ lexical des jeux' pour rédiger et exprimer des récits culturels structurés."
+                  "Utiliser les règles de Le dictionnaire"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -32276,10 +32276,10 @@
                 "titre": "Préparer la dictée du texte sur les jeux",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Écrire sans erreur, sous la dictée, un court texte préparé ou non.",
-                  "Identifier et maîtriser les notions clés de 'Préparer la dictée du texte sur les jeux' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Préparer la dictée du texte sur les jeux' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Préparer la dictée du texte sur les jeux' pour rédiger et exprimer des récits culturels structurés."
+                  "Écrire sans erreur, sous la dictée, un court texte préparé ou",
+                  "Comprendre Préparer la dictée du texte sur les jeux",
+                  "Comprendre Préparer la dictée du texte sur les jeux",
+                  "Utiliser les règles de Préparer la dictée du texte sur les jeux"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -32476,10 +32476,10 @@
                 "titre": "Le passé composé du 1er groupe avec les verbes des jeux",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Conjuguer les verbes du 1er groupe au passé composé de l'indicatif.",
-                  "Identifier et maîtriser les notions clés de 'Le passé composé du 1er groupe avec les verbes des jeux' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Le passé composé du 1er groupe avec les verbes des jeux' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Le passé composé du 1er groupe avec les verbes des jeux' pour rédiger et exprimer des récits culturels structurés."
+                  "Conjuguer les verbes du 1er groupe au passé composé de",
+                  "Comprendre Le passé composé du 1er groupe avec les verbes des",
+                  "Comprendre Le passé composé du 1er groupe avec les verbes des",
+                  "Utiliser les règles de Le passé composé du 1er groupe avec les"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -32659,10 +32659,10 @@
                 "titre": "Dictée préparée sur le mini-tournoi des jeux",
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
-                  "Écrire sans erreur, sous la dictée, un court texte préparé ou non.",
-                  "Identifier et maîtriser les notions clés de 'Dictée préparée sur le mini-tournoi des jeux' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Dictée préparée sur le mini-tournoi des jeux' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Dictée préparée sur le mini-tournoi des jeux' pour rédiger et exprimer des récits culturels structurés."
+                  "Écrire sans erreur, sous la dictée, un court texte préparé ou",
+                  "Comprendre Dictée préparée sur le mini-tournoi des jeux",
+                  "Comprendre Dictée préparée sur le mini-tournoi des jeux",
+                  "Utiliser les règles de Dictée préparée sur le mini-tournoi des"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -32863,10 +32863,10 @@
                 "titre": "Les nombres de 900 à 1000 et leur écriture",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Composer, décomposer les nombres entiers inférieurs ou égaux à 1000 en utilisant des regroupements par dizaines et par centaines.",
-                  "Lire et écrire en chiffres et en lettres les nombres de 900 à 1000.",
-                  "Identifier et maîtriser les notions clés de 'Les nombres de 900 à 1000 et leur écriture' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Les nombres de 900 à 1000 et leur écriture' appliqués à l'économie locale."
+                  "Composer, décomposer les nombres entiers inférieurs ou égaux à",
+                  "Lire",
+                  "Comprendre Les nombres de 900",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Les"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -33043,9 +33043,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Trouver le triple et le tiers d'un nombre.",
-                  "Identifier et maîtriser les notions clés de 'Le triple et le tiers d'un nombre simple' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Le triple et le tiers d'un nombre simple' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Le triple et le tiers d'un nombre simple' appliqués à l'économie locale."
+                  "Comprendre Le triple et le tiers d'un nombre simple",
+                  "Comprendre Le triple et le tiers d'un nombre simple",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Le"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -33227,8 +33227,8 @@
                 "savoirs_faire": [
                   "Identifier les instruments de mesure de temps.",
                   "Lire l'heure sur différents types de montres.",
-                  "Identifier et maîtriser les notions clés de 'Les instruments de mesure du temps et l'heure' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Les instruments de mesure du temps et l'heure' appliqués à l'économie locale."
+                  "Comprendre Les instruments de mesure du temps et l'heure",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Les"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -33407,9 +33407,9 @@
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
                   "Identifier l'unité de mesure des angles.",
-                  "Identifier et maîtriser les notions clés de 'L'unité de mesure des angles : le degré' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'L'unité de mesure des angles : le degré' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'L'unité de mesure des angles : le degré' appliqués à l'économie locale."
+                  "Comprendre L'unité de mesure des angles : le degré",
+                  "Comprendre L'unité de mesure des angles : le degré",
+                  "Résoudre des problèmes complexes en utilisant les outils de"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -33593,8 +33593,8 @@
                 "savoirs_faire": [
                   "Situer des objets dans un tableau à double entrée.",
                   "Situer et repérer des objets dans un tableau à double entrée.",
-                  "Identifier et maîtriser les notions clés de 'Les tableaux à double entrée pour organiser les jeux' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Les tableaux à double entrée pour organiser les jeux' appliqués à l'économie locale."
+                  "Comprendre Les tableaux",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Les"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -33781,9 +33781,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Distinguer les mouvements d'extension et de flexion.",
-                  "Identifier les éléments qui interviennent dans un mouvement du corps.",
-                  "Identifier et maîtriser les notions clés de 'Les mouvements du corps pendant les jeux' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Les mouvements du corps pendant les jeux'."
+                  "Identifier les éléments qui interviennent dans un mouvement du",
+                  "Comprendre Les mouvements du corps pendant les jeux",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -33969,9 +33969,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Décrire les composantes d'une pile électrique.",
-                  "Identifier et maîtriser les notions clés de 'La pile électrique et ses composantes principales' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'La pile électrique et ses composantes principales' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'La pile électrique et ses composantes principales'."
+                  "Comprendre La pile électrique et ses composantes principales",
+                  "Comprendre La pile électrique et ses composantes principales",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -34172,10 +34172,10 @@
                 "titre": "Les personnalités historiques majeures du Cameroun",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Nommer les principales personnalités historiques du Cameroun et situer leurs zones d'action.",
-                  "Identifier et maîtriser les notions clés de 'Les personnalités historiques majeures du Cameroun' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Les personnalités historiques majeures du Cameroun' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Les personnalités historiques majeures du Cameroun' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Nommer les principales personnalités historiques du Cameroun",
+                  "Comprendre Les personnalités historiques majeures du Cameroun",
+                  "Comprendre Les personnalités historiques majeures du Cameroun",
+                  "Appliquer les concepts de 'Les personnalités historiques"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -34375,9 +34375,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Décrire la diversité de la population du Cameroun.",
-                  "Identifier et maîtriser les notions clés de 'La diversité de la population camerounaise' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'La diversité de la population camerounaise' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'La diversité de la population camerounaise' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre La diversité de la population camerounaise",
+                  "Comprendre La diversité de la population camerounaise",
+                  "Appliquer les concepts de 'La diversité de la population"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -34565,8 +34565,8 @@
                 "savoirs_faire": [
                   "Describe the main activities of specific games.",
                   "Count objects and people from 201 to 250.",
-                  "Identifier et maîtriser les notions clés de 'Talking about games and numbers 201 to 250' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Talking about games and numbers 201 to 250'."
+                  "Comprendre Talking about games and numbers 201 to 250",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -34750,8 +34750,8 @@
                 "savoirs_faire": [
                   "Read the description of a particular game.",
                   "Read numbers from 201 to 250.",
-                  "Identifier et maîtriser les notions clés de 'Reading the description of a particular game' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Reading the description of a particular game'."
+                  "Comprendre Reading the description of a particular game",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -34933,8 +34933,8 @@
                 "savoirs_faire": [
                   "Write the types of school games.",
                   "Write numbers from 201 to 250 legibly.",
-                  "Identifier et maîtriser les notions clés de 'Writing the types of school games we play' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Writing the types of school games we play'."
+                  "Comprendre Writing the types of school games we play",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -35116,8 +35116,8 @@
                 "savoirs_faire": [
                   "Use opposites of one and two syllable words.",
                   "Use hi, great and hey to express feelings in communication.",
-                  "Identifier et maîtriser les notions clés de 'Interjections and opposites for games' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Interjections and opposites for games'."
+                  "Comprendre Interjections and opposites for games",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -35317,9 +35317,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Nommer les jeux traditionnels de sa localité.",
-                  "Utiliser un vocabulaire approprié pour décrire un jeu pratiqué dans son village.",
+                  "Utiliser un vocabulaire approprié",
                   "Expliquer les règles d'un jeu pratiqué dans sa localité.",
-                  "Appliquer les concepts de 'Les jeux traditionnels camerounais et leurs règles' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Appliquer les concepts de 'Les jeux traditionnels camerounais"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -35522,10 +35522,10 @@
                 "titre": "L'encodage d'une information et les algorithmes simples",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Utiliser un code (nombres ou lettres) pour représenter une information d'une autre manière.",
+                  "Utiliser un code",
                   "Créer un algorithme en utilisant des objets.",
-                  "Expliquer le fonctionnement d'un ordinateur (utilisation des programmes).",
-                  "Appliquer les concepts de 'L'encodage d'une information et les algorithmes simples' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Expliquer le fonctionnement d'un ordinateur.",
+                  "Appliquer les concepts de 'L'encodage d'une information"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -36522,8 +36522,8 @@
                 "savoirs_faire": [
                   "Identifier les conjonctions de coordination dans une phrase.",
                   "Utiliser les conjonctions de coordination.",
-                  "Identifier et maîtriser les notions clés de 'Les conjonctions de coordination dans la phrase' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Les conjonctions de coordination dans la phrase' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Les conjonctions de coordination",
+                  "Utiliser les règles de Les conjonctions de coordination"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -36710,7 +36710,7 @@
                   "Ranger des mots par ordre alphabétique.",
                   "Expliquer les mots usuels.",
                   "Utiliser le champ lexical relatif aux communications.",
-                  "Employer correctement les règles de 'Ranger les mots des communications dans le dictionnaire' pour rédiger et exprimer des récits culturels structurés."
+                  "Utiliser les règles de Ranger les mots des communications"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -36895,9 +36895,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Écrire sous la dictée sans erreur, un court texte préparé ou non.",
-                  "Identifier et maîtriser les notions clés de 'Préparer la dictée du texte sur les communications' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Préparer la dictée du texte sur les communications' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Préparer la dictée du texte sur les communications' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Préparer la dictée du texte sur les communications",
+                  "Comprendre Préparer la dictée du texte sur les communications",
+                  "Utiliser les règles de Préparer la dictée du texte sur les"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -37094,10 +37094,10 @@
                 "titre": "L'imparfait de l'indicatif des verbes du premier groupe",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Conjuguer à l'oral et à l'écrit les verbes du 1er groupe à l'imparfait de l'indicatif.",
-                  "Identifier et maîtriser les notions clés de 'L'imparfait de l'indicatif des verbes du premier groupe' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'L'imparfait de l'indicatif des verbes du premier groupe' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'L'imparfait de l'indicatif des verbes du premier groupe' pour rédiger et exprimer des récits culturels structurés."
+                  "Conjuguer à l'oral",
+                  "Comprendre L'imparfait de l'indicatif des verbes du premier",
+                  "Comprendre L'imparfait de l'indicatif des verbes du premier",
+                  "Utiliser les règles de L'imparfait de l'indicatif des verbes du"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -37278,9 +37278,9 @@
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
                   "Écrire sous la dictée sans erreur, un court texte préparé ou non.",
-                  "Identifier et maîtriser les notions clés de 'Dictée préparée sur les moyens de communication' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Dictée préparée sur les moyens de communication' pour développer ses compétences (compétence 3).",
-                  "Employer correctement les règles de 'Dictée préparée sur les moyens de communication' pour rédiger et exprimer des récits culturels structurés."
+                  "Comprendre Dictée préparée sur les moyens de communication",
+                  "Comprendre Dictée préparée sur les moyens de communication",
+                  "Utiliser les règles de Dictée préparée sur les moyens de"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -37481,10 +37481,10 @@
                 "titre": "Les nombres de 900 à 1 000 — révision et consolidation",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Composer, décomposer les nombres entiers de 900 à 1 000 en utilisant des regroupements par dizaines et par centaines.",
-                  "Lire et écrire en chiffres et en lettres les nombres de 4 chiffres.",
-                  "Identifier et maîtriser les notions clés de 'Les nombres de 900 à 1 000 — révision et consolidation' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Les nombres de 900 à 1 000 — révision et consolidation' appliqués à l'économie locale."
+                  "Composer, décomposer les nombres entiers de 900 à 1 000 en",
+                  "Lire",
+                  "Comprendre Les nombres de 900",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Les"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -37662,8 +37662,8 @@
                 "savoirs_faire": [
                   "Identifier les fonctions de base de la calculatrice.",
                   "Utiliser la calculatrice pour effectuer les 4 opérations.",
-                  "Identifier et maîtriser les notions clés de 'Réviser les quatre opérations de base (addition, soustraction, multiplication, division simple)' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Réviser les quatre opérations de base (addition, soustraction, multiplication, division simple)' appliqués à l'économie locale."
+                  "Comprendre Réviser les quatre opérations de base",
+                  "Résoudre des problèmes complexes en utilisant les outils de"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -37842,9 +37842,9 @@
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
                   "Écrire et dire des suites de nombres de 100 en 100 jusqu'à 1000.",
-                  "Identifier et maîtriser les notions clés de 'Compter de cent en cent jusqu'à mille' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Compter de cent en cent jusqu'à mille' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Compter de cent en cent jusqu'à mille' appliqués à l'économie locale."
+                  "Comprendre Compter de cent",
+                  "Comprendre Compter de cent",
+                  "Résoudre des problèmes complexes en utilisant les outils de"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -38024,10 +38024,10 @@
                 "titre": "La monnaie camerounaise et les échanges en FCFA",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Effectuer des échanges de monnaie pour des valeurs inférieures ou égales à 1 000 F dans des situations de vie courante.",
-                  "Identifier et maîtriser les notions clés de 'La monnaie camerounaise et les échanges en FCFA' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'La monnaie camerounaise et les échanges en FCFA' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'La monnaie camerounaise et les échanges en FCFA' appliqués à l'économie locale."
+                  "Effectuer des échanges de monnaie",
+                  "Comprendre La monnaie camerounaise et les échanges",
+                  "Comprendre La monnaie camerounaise et les échanges",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'La"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -38211,10 +38211,10 @@
                 "titre": "Représenter des données dans un tableau de données simple à deux colonnes",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Représenter les données au moyen des tableaux à double entrée à partir d'un point d'origine.",
-                  "Identifier et maîtriser les notions clés de 'Représenter des données dans un tableau de données simple à deux colonnes' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Représenter des données dans un tableau de données simple à deux colonnes' pour développer ses compétences (compétence 3).",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Représenter des données dans un tableau de données simple à deux colonnes' appliqués à l'économie locale."
+                  "Représenter les données au moyen des tableaux à double entrée à",
+                  "Comprendre Représenter des données",
+                  "Comprendre Représenter des données",
+                  "Résoudre des problèmes complexes en utilisant les outils de"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -38401,9 +38401,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Expliquer les mesures à prendre pour éviter le SIDA.",
-                  "Identifier et maîtriser les notions clés de 'Les gestes de prévention pour protéger sa santé' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'Les gestes de prévention pour protéger sa santé' pour développer ses compétences (compétence 3).",
-                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Les gestes de prévention pour protéger sa santé'."
+                  "Comprendre Les gestes de prévention pour protéger sa santé",
+                  "Comprendre Les gestes de prévention pour protéger sa santé",
+                  "Adopter des comportements éco-responsables"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -38588,10 +38588,10 @@
                 "titre": "La résistance camerounaise à la pénétration européenne",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Désigner les Camerounais qui ont organisé la résistance à la pénétration européenne.",
-                  "Identifier et maîtriser les notions clés de 'La résistance camerounaise à la pénétration européenne' pour développer ses compétences (compétence 2).",
-                  "Identifier et maîtriser les notions clés de 'La résistance camerounaise à la pénétration européenne' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'La résistance camerounaise à la pénétration européenne' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Désigner les Camerounais qui ont organisé la résistance à la",
+                  "Comprendre La résistance camerounaise",
+                  "Comprendre La résistance camerounaise",
+                  "Appliquer les concepts de 'La résistance camerounaise à la"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -38792,8 +38792,8 @@
                 "savoirs_faire": [
                   "Définir la notion d'astre.",
                   "Nommer les astres.",
-                  "Identifier et maîtriser les notions clés de 'Les astres dans le ciel et leurs caractéristiques' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Les astres dans le ciel et leurs caractéristiques' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre Les astres",
+                  "Appliquer les concepts de 'Les astres dans le ciel"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -38985,8 +38985,8 @@
                 "savoirs_faire": [
                   "Describe various means of communication.",
                   "Count objects and people from 251 to 300.",
-                  "Identifier et maîtriser les notions clés de 'Talking about means of communication and numbers 251 to 300' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Talking about means of communication and numbers 251 to 300'."
+                  "Comprendre Talking about means of communication and numbers 251",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -39170,8 +39170,8 @@
                 "savoirs_faire": [
                   "Read short texts about means of communication.",
                   "Read numbers from 251 to 300.",
-                  "Identifier et maîtriser les notions clés de 'Reading short texts about communication tools' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Reading short texts about communication tools'."
+                  "Comprendre Reading short texts about communication tools",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -39353,8 +39353,8 @@
                 "savoirs_faire": [
                   "Write sentences about means of communication.",
                   "Write numbers from 251 to 300 legibly.",
-                  "Identifier et maîtriser les notions clés de 'Writing sentences about communication and numbers 251 to 300' pour développer ses compétences (compétence 3).",
-                  "Interact fluently in English using expressions and grammar related to 'Writing sentences about communication and numbers 251 to 300'."
+                  "Comprendre Writing sentences about communication and numbers 251",
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -39537,7 +39537,7 @@
                   "Use capital letters at the appropriate positions of sentences.",
                   "Use the appropriate punctuation marks in writing.",
                   "Use opposites of one and two syllable words.",
-                  "Interact fluently in English using expressions and grammar related to 'Capitalisation punctuation and opposites in communication'."
+                  "Interact fluently in English using expressions and grammar"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -39737,9 +39737,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Nommer des outils traditionnels de communications de sa localité.",
-                  "Utiliser un vocabulaire approprié pour décrire des situations de communication dans son village.",
-                  "Mettre en scène des situations de communication utilisant des méthodes traditionnelles pour communiquer avec une personne éloignée ou proche.",
-                  "Appliquer les concepts de 'Les outils traditionnels de communication dans nos villages' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Utiliser un vocabulaire approprié",
+                  "Mettre en scène des situations de communication utilisant des",
+                  "Appliquer les concepts de 'Les outils traditionnels de"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -39938,10 +39938,10 @@
                 "titre": "Programmer avec Scratch et utiliser les TIC en sécurité",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Faire une programmation avec un logiciel dédié (Scratch, Art Tortue, Minecraft, etc.).",
-                  "Mettre en scène une bonne utilisation des outils TIC dans le respect de l'éthique et la morale.",
-                  "Expliquer les mesures de sécurité à prendre lorsqu'on utilise un ordinateur, un téléphone portable, un téléviseur.",
-                  "Appliquer les concepts de 'Programmer avec Scratch et utiliser les TIC en sécurité' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Faire une programmation avec un logiciel dédié.",
+                  "Mettre en scène une bonne utilisation des outils TIC dans le",
+                  "Expliquer les mesures de sécurité à prendre lorsqu'on utilise un",
+                  "Appliquer les concepts de 'Programmer avec Scratch"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -40125,10 +40125,10 @@
                 "titre": "Composer des rations alimentaires pour chaque besoin",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Composer les rations alimentaires de croissance, des sportifs (de travail), des vieillards.",
+                  "Composer les rations alimentaires de croissance, des sportifs,",
                   "Composer une ration alimentaire pour une femme enceinte.",
-                  "Identifier et maîtriser les notions clés de 'Composer des rations alimentaires pour chaque besoin' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Composer des rations alimentaires pour chaque besoin' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre Composer des rations alimentaires pour chaque besoin",
+                  "Appliquer les concepts de 'Composer des rations alimentaires"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
@@ -40308,8 +40308,8 @@
                 "savoirs_faire": [
                   "Laver des habits.",
                   "Repasser des habits simples.",
-                  "Identifier et maîtriser les notions clés de 'Entretenir son linge à la maison par le lavage' pour développer ses compétences (compétence 3).",
-                  "Appliquer les concepts de 'Entretenir son linge à la maison par le lavage' pour analyser et résoudre des situations de la vie quotidienne au Cameroun."
+                  "Comprendre Entretenir son linge",
+                  "Appliquer les concepts de 'Entretenir son linge à la maison par"
                 ],
                 "savoirs_faire_source_minedub": {
                   "document": "Curriculum-CE.pdf",
