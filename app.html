@@ -2095,7 +2095,7 @@ input, select, textarea { font-family: inherit; font-size: 1em; }
     <div class="splash-title">École Joyeuse</div>
     <div class="splash-tagline">Apprendre avec joie — SIL au CM2 · Programme MINEDUB officiel</div>
     <button class="splash-cta" id="splashStartBtn" onclick="bootContinue()">Commencer →</button>
-    <div class="splash-loading" id="splashLoading">Chargement…</div>
+    <div class="splash-loading" id="splashLoading">Chargement du programme MINEDUB…</div>
   </div>
 
   <!-- ═══════════ PROFILE ═══════════ -->
@@ -3273,61 +3273,27 @@ function fireConfetti() {
    BOOT
    ════════════════════════════════════════════════════════════════ */
 async function boot() {
-  const _log = msg => { try { document.getElementById('splashLoading').textContent = msg; } catch(_){} };
-  _log('boot() démarré…');
-  // logo src défini inline (logo.png + onerror LOGO_B64)
-  // Désinstaller tout SW existant avant de fetcher
-  if ('serviceWorker' in navigator) {
-    try {
-      _log('purge SW…');
-      const regs = await navigator.serviceWorker.getRegistrations();
-      await Promise.all(regs.map(r => r.unregister()));
-      if (window.caches) {
-        const keys = await caches.keys();
-        await Promise.all(keys.map(k => caches.delete(k)));
-      }
-      _log('SW purgé ✓');
-    } catch(_) { _log('SW purge skip'); }
-  }
+  // logo défini inline (src=logo.png + onerror=LOGO_B64)
   try {
-    _log('fetch index…');
-    const fetchWithTimeout = (url, opts, ms=8000) => {
-      const ctrl = new AbortController();
-      const t = setTimeout(() => ctrl.abort(), ms);
-      return fetch(url, { ...opts, signal: ctrl.signal }).finally(() => clearTimeout(t));
-    };
-    let resIdx;
-    try {
-      resIdx = await fetchWithTimeout('./curriculum_index.json', { cache: 'no-store' });
-      _log('fetch OK status=' + resIdx.status);
-    } catch(fetchErr) {
-      _log('fetch ERREUR: ' + fetchErr.message);
-      setTimeout(() => { window.location.href = '/clear-cache.html'; }, 2000);
-      return;
-    }
+    // 1. Charger l'index léger (déclare classes disponibles, méta globale)
+    const resIdx = await fetch('./curriculum_index.json', { cache: 'reload' });
     if (!resIdx.ok) throw new Error('curriculum_index.json HTTP ' + resIdx.status);
-    const ct = resIdx.headers.get('content-type') || '';
-    _log('content-type: ' + ct.substring(0,30));
-    if (!ct.includes('json') && !ct.includes('javascript')) {
-      _log('CT invalide → clear-cache');
-      setTimeout(() => { window.location.href = '/clear-cache.html'; }, 2000);
-      return;
-    }
     const indexData = await resIdx.json();
     APP.curriculumIndex = indexData;
 
-    // Afficher immédiatement le bouton Commencer dès que l'index léger est chargé
-    document.getElementById('splashLoading').textContent = '✓ Prêt !';
-    document.getElementById('splashStartBtn').classList.add('ready');
-
-    // Charger le curriculum en arrière-plan
+    // 2. Si un profil existe déjà avec une classe → charger UNIQUEMENT le curriculum de cette classe
     const existingProfile = loadProfile();
     if (existingProfile && existingProfile.classe && CLASSES.includes(existingProfile.classe)) {
-      loadCurriculumForClass(existingProfile.classe).then(ok => {
-        if (ok) document.getElementById('splashLoading').textContent =
-          '✓ Classe ' + existingProfile.classe + ' prête';
-      });
+      const ok = await loadCurriculumForClass(existingProfile.classe);
+      if (!ok) throw new Error('Chargement du curriculum pour ' + existingProfile.classe + ' échoué');
+      document.getElementById('splashLoading').textContent =
+        '✓ Classe ' + existingProfile.classe + ' prête (' + (APP.curriculum._meta.classe || '') + ')';
+    } else {
+      // Pas de profil → afficher juste un état neutre, le curriculum sera téléchargé après choix de la classe
+      document.getElementById('splashLoading').textContent =
+        '✓ Prêt — choisis ta classe pour commencer';
     }
+    document.getElementById('splashStartBtn').classList.add('ready');
   } catch(e) {
     bootError(e);
   }
@@ -3362,19 +3328,21 @@ async function loadCurriculumForClass(classe) {
 
 function bootError(e) {
   const isFile = location.protocol === 'file:';
-  // Si erreur réseau probable → rediriger vers page de nettoyage
-  if (!isFile) {
-    window.location.href = '/clear-cache.html';
-    return;
-  }
   document.getElementById('splashScreen').classList.remove('active');
   const errScreen = document.getElementById('errorScreen');
   errScreen.classList.add('active');
-  document.getElementById('errorTitle').textContent = 'Lance un serveur local';
-  document.getElementById('errorDetail').textContent =
-    'Le navigateur bloque le chargement des fichiers JSON en double-clic. Démarre un mini serveur :';
-  document.getElementById('errorHelp').innerHTML =
-    'Dans le Terminal :<br><br>cd ~/Documents/.../Repo\ Github<br>python3 -m http.server 8000<br><br>Puis ouvre : http://localhost:8000/app.html';
+  document.getElementById('errorTitle').textContent = isFile
+    ? "Lance un serveur local"
+    : "Impossible de charger le programme";
+  document.getElementById('errorDetail').textContent = isFile
+    ? "Le navigateur bloque le chargement des fichiers JSON quand tu ouvres app.html en double-clic. Démarre un mini serveur :"
+    : "Vérifie que curriculum_index.json et les fichiers curriculum_CP.json … curriculum_CM2.json sont bien à côté de app.html. Détail : " + (e.message || e);
+  if (isFile) {
+    document.getElementById('errorHelp').innerHTML =
+      "Dans le Terminal :<br><br>cd ~/Documents/QG_STRATEGIQUE/École_Joyeuse_v2_MINEDUB<br>python3 -m http.server 8000<br><br>Puis ouvre Safari : http://localhost:8000/app.html";
+  } else {
+    document.getElementById('errorHelp').textContent = "";
+  }
 }
 
 function bootContinue() {
@@ -4073,19 +4041,8 @@ function renderLesson() {
 
   // Savoirs-faire
   if (Array.isArray(l.savoirs_faire) && l.savoirs_faire.length) {
-    html += '<div class="savoirs-faire-box"><h4>🎯 Je vais apprendre à :</h4><ul>';
-    // REGLE SF-DISPLAY v1 : masque SF > 65 chars OU contenant du metalangage enseignant
-    // REGLE SF-DISPLAY v2 - mots interdits (metalangage enseignant)
-    // Exceptions legitimement exclues: structures de sante, infrastructures, structure d un poeme/conte
-    const SF_INTERDITS = ['compétence','notions clés','maîtriser','nature grammaticale','accord correct de','exercice pratique','rédiger et exprimer','développer ses','structurée','structuré en','curriculaire','lacunes','appliquant','manière structurée','exposé oral structuré','récit structuré','structured paragraph','structured letter'];
-    const SF_EXCEPTIONS = ['structures de santé','structures sanitaires','infrastructures','structure d'un poème','structure d'un conte','structure narrative'];
-    const SF_MAX = 65;
-    l.savoirs_faire.forEach(s => {
-      const tropLong = s.length > SF_MAX;
-      const estException = SF_EXCEPTIONS.some(e => s.toLowerCase().includes(e.toLowerCase()));
-      const interdit = !estException && SF_INTERDITS.some(m => s.toLowerCase().includes(m.toLowerCase()));
-      if (!tropLong && !interdit) html += '<li>' + escapeHTML(s) + '</li>';
-    });
+    html += '<div class="savoirs-faire-box"><h4>🎯 À la fin de cette leçon, je sais :</h4><ul>';
+    l.savoirs_faire.forEach(s => { html += '<li>' + escapeHTML(s) + '</li>'; });
     html += '</ul></div>';
   }
 
@@ -5767,9 +5724,9 @@ function renderPremiumScreen() {
     { name: '1 UA', duration: '1 Unité', price: 1000, popular: false,
       features: ['Une classe au choix', 'Toutes les UA d\'une séquence', 'Tests intégrés', 'Sans publicité'] },
     { name: 'Trimestre', duration: '3 mois', price: 2500, popular: true,
-      features: ['1 classe complète', '1 trimestre entier (T1, T2 ou T3)', 'Tous les tests + quiz CEP', 'Espace parent', 'Sans publicité'] },
+      features: ['Toutes les classes débloquées', '1 trimestre complet', 'Tous les tests + CEP', 'Espace parent', 'Sans publicité'] },
     { name: 'Année / Classe', duration: '12 mois', price: 5000, popular: false,
-      features: ['1 classe complète sur 1 an', 'Toutes UA + tous trimestres', 'CEP + Concours 6e', 'Mises à jour incluses'] }
+      features: ['Toutes les classes débloquées', 'Année complète', 'Tous les tests + CEP + Concours 6e', 'Espace parent', 'Mises à jour incluses'] }
   ];
   tiers.forEach(t => {
     html += '<div class="tier-card' + (t.popular ? ' popular' : '') + '">';
