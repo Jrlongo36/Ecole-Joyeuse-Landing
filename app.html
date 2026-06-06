@@ -2091,11 +2091,11 @@ input, select, textarea { font-family: inherit; font-size: 1em; }
 
   <!-- ═══════════ SPLASH ═══════════ -->
   <div id="splashScreen" class="screen active">
-    <img class="splash-logo" id="splashLogo" alt="École Joyeuse" />
+    <img class="splash-logo" id="splashLogo" src="./logo.png" onerror="this.src=LOGO_B64" alt="École Joyeuse" />
     <div class="splash-title">École Joyeuse</div>
     <div class="splash-tagline">Apprendre avec joie — SIL au CM2 · Programme MINEDUB officiel</div>
     <button class="splash-cta" id="splashStartBtn" onclick="bootContinue()">Commencer →</button>
-    <div class="splash-loading" id="splashLoading">Chargement du programme MINEDUB…</div>
+    <div class="splash-loading" id="splashLoading">Chargement…</div>
   </div>
 
   <!-- ═══════════ PROFILE ═══════════ -->
@@ -3273,7 +3273,7 @@ function fireConfetti() {
    BOOT
    ════════════════════════════════════════════════════════════════ */
 async function boot() {
-  document.getElementById('splashLogo').src = LOGO_B64;
+  // logo src défini inline (logo.png + onerror LOGO_B64)
   try {
     // 1. Charger l'index léger (déclare classes disponibles, méta globale)
     const resIdx = await fetch('./curriculum_index.json', { cache: 'reload' });
@@ -3281,19 +3281,18 @@ async function boot() {
     const indexData = await resIdx.json();
     APP.curriculumIndex = indexData;
 
-    // 2. Si un profil existe déjà avec une classe → charger UNIQUEMENT le curriculum de cette classe
+    // Afficher immédiatement le bouton Commencer dès que l'index léger est chargé
+    document.getElementById('splashLoading').textContent = '✓ Prêt !';
+    document.getElementById('splashStartBtn').classList.add('ready');
+
+    // Charger le curriculum en arrière-plan
     const existingProfile = loadProfile();
     if (existingProfile && existingProfile.classe && CLASSES.includes(existingProfile.classe)) {
-      const ok = await loadCurriculumForClass(existingProfile.classe);
-      if (!ok) throw new Error('Chargement du curriculum pour ' + existingProfile.classe + ' échoué');
-      document.getElementById('splashLoading').textContent =
-        '✓ Classe ' + existingProfile.classe + ' prête (' + (APP.curriculum._meta.classe || '') + ')';
-    } else {
-      // Pas de profil → afficher juste un état neutre, le curriculum sera téléchargé après choix de la classe
-      document.getElementById('splashLoading').textContent =
-        '✓ Prêt — choisis ta classe pour commencer';
+      loadCurriculumForClass(existingProfile.classe).then(ok => {
+        if (ok) document.getElementById('splashLoading').textContent =
+          '✓ Classe ' + existingProfile.classe + ' prête';
+      });
     }
-    document.getElementById('splashStartBtn').classList.add('ready');
   } catch(e) {
     bootError(e);
   }
