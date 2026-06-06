@@ -1,0 +1,27 @@
+# Cloudflare Pages — Politique de cache École Joyeuse
+# Règle : aucun cache navigateur sur aucun fichier.
+# Chaque visite = version fraîche depuis le serveur.
+
+/*
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+  Pragma: no-cache
+  Expires: 0
+
+# Service worker : désactivation absolue du cache
+/service-worker.js
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+  Service-Worker-Allowed: /
+
+# Fichiers HTML
+/*.html
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+
+# Fichiers curriculum JSON — toujours frais
+/*.json
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+
+# Assets statiques (logo, icônes) — 1h seulement
+/*.png
+  Cache-Control: public, max-age=3600
+/*.svg
+  Cache-Control: public, max-age=3600
