@@ -3801,7 +3801,7 @@ function renderDiscipline(classe, trim, uaKey, disc, dData) {
      • Déverrouillage progressif des leçons (score ≥ 50%)
      • Verrouillage premium des classes CE2/CM1/CM2
    ════════════════════════════════════════════════════════════════ */
-const DEV_MODE_UNLOCK_ALL = true;
+const DEV_MODE_UNLOCK_ALL = false;
 
 const UNLOCK_THRESHOLD = 50; // %
 
@@ -5732,12 +5732,12 @@ function renderPremiumScreen() {
 
   // 3 tiers
   const tiers = [
-    { name: 'Séquence', duration: '1 mois', price: 1500, popular: false,
+    { name: '1 UA', duration: '1 Unité', price: 1000, popular: false,
       features: ['Une classe au choix', 'Toutes les UA d\'une séquence', 'Tests intégrés', 'Sans publicité'] },
-    { name: 'Trimestre', duration: '3 mois', price: 3500, popular: true,
-      features: ['Toutes les classes débloquées', '1 trimestre complet', 'Tous les tests + CEP', 'Espace parent', 'Sans publicité'] },
-    { name: 'Année', duration: '12 mois', price: 12000, popular: false,
-      features: ['Toutes les classes débloquées', 'Année complète', 'Tous les tests + CEP + Concours 6e', 'Espace parent', 'Mises à jour incluses'] }
+    { name: 'Trimestre', duration: '3 mois', price: 2500, popular: true,
+      features: ['1 classe complète', '1 trimestre entier (T1, T2 ou T3)', 'Tous les tests + quiz CEP', 'Espace parent', 'Sans publicité'] },
+    { name: 'Année / Classe', duration: '12 mois', price: 5000, popular: false,
+      features: ['1 classe complète sur 1 an', 'Toutes UA + tous trimestres', 'CEP + Concours 6e', 'Mises à jour incluses'] }
   ];
   tiers.forEach(t => {
     html += '<div class="tier-card' + (t.popular ? ' popular' : '') + '">';
