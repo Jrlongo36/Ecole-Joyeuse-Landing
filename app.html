@@ -109,7 +109,7 @@ input, select, textarea { font-family: inherit; font-size: 1em; }
   margin-bottom: 24px;
   box-shadow: 0 8px 32px rgba(0,0,0,.3);
   animation: popIn .9s cubic-bezier(.34,1.56,.64,1);
-  background: #fff;
+  background: transparent;
   cursor: pointer;
   user-select: none;
 }
@@ -2430,7 +2430,7 @@ const CLASSE_LABELS = {
   CM1: 'Cours Moyen 1',
   CM2: 'Cours Moyen 2'
 };
-const AVATARS = ['👦🏾','👧🏾','🧒🏾','🦁','🦋','🐘','🌟','📚','⚽','🎨','🎵','🚀'];
+const AVATARS = ['👦🏾','👧🏾','🧒🏾','🌟','📚','⚽','🎨','🎵','🚀'];
 const TRIM_LABELS = { T1:'Trimestre 1', T2:'Trimestre 2', T3:'Trimestre 3' };
 const TRIM_PERIODES = {
   T1: 'septembre — décembre',
@@ -3273,7 +3273,7 @@ function fireConfetti() {
    BOOT
    ════════════════════════════════════════════════════════════════ */
 async function boot() {
-  // logo défini inline (src=logo.png + onerror=LOGO_B64)
+  // logo défini inline
   try {
     // 1. Charger l'index léger (déclare classes disponibles, méta globale)
     const resIdx = await fetch('./curriculum_index.json', { cache: 'reload' });
@@ -3559,9 +3559,7 @@ function renderDashboard() {
     accessHTML += '<button class="parent-action-btn" style="background:linear-gradient(135deg,#007A5E,#005A45);color:#fff;border:none;text-align:center;font-weight:700" onclick="openConcoursMenu()">🏆 Concours 6e</button>';
   }
   accessHTML += '<button class="parent-action-btn" style="background:linear-gradient(135deg,#1a1a2e,#16213e);color:#fff;border:none;text-align:center;font-weight:700' + (isCM2 ? '' : ';grid-column:span 2') + '" onclick="openPin()">👨‍👩‍👧 Espace parent</button>';
-  if (!isPremiumActive()) {
-    accessHTML += '<button class="parent-action-btn" style="background:linear-gradient(135deg,#FCD116,#f97316);color:#000;border:none;text-align:center;font-weight:700' + (isCM2 ? '' : ';grid-column:span 2') + '" onclick="showScreen(\'premiumScreen\');renderPremiumScreen()">⭐ Passer Premium</button>';
-  }
+  // DÉMO : bouton premium masqué
   extrasBlock.innerHTML = accessHTML;
 }
 
@@ -3806,6 +3804,7 @@ const DEV_MODE_UNLOCK_ALL = false;
 const UNLOCK_THRESHOLD = 50; // %
 
 function isLeconUnlocked(classe, lecons, idx, prog) {
+  return true; // DÉMO
   if (DEV_MODE_UNLOCK_ALL) return true;          // ⚠ DEV : tout débloqué
   if (idx === 0) return true;                       // 1re leçon toujours libre
   if (isPremiumActive && isPremiumActive()) return true; // premium = pas de verrou
@@ -5798,13 +5797,8 @@ function setupLogoTaps() {
 
 // ─── FREEMIUM (verrouillage classes) ───
 function isClasseLocked(classe) {
-  // SIL toujours gratuit
-  if (classe === 'SIL') return false;
-  // Premium actif → tout débloqué
-  if (isPremiumActive()) return false;
-  // CP, CE1 : gratuites pour Lot 1/2 (peuvent passer en payant en Lot 3 si besoin)
-  // CE2, CM1, CM2 : verrouillées
-  return ['CE2','CM1','CM2'].includes(classe);
+  // DÉMO : toutes classes accessibles
+  return false;
 }
 
 /* ════════════════════════════════════════════════════════════════
