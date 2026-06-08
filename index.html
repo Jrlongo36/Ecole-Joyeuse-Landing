@@ -15,105 +15,131 @@
   <title>École Joyeuse - Réussite Scolaire Garantie 🇨🇲</title>
   <style>
     * { margin:0; padding:0; box-sizing:border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-      line-height:1.6; color:#1f2937; background:#F5FDF9;
-    }
+    body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif; line-height:1.6; color:#1f2937; background:#F5FDF9; }
     :root { --vert:#007A5E; --rouge:#CE1126; --jaune:#FCD116; --bg:#F5FDF9; }
     .container { max-width:1200px; margin:0 auto; padding:0 1.5rem; }
 
     /* HEADER */
-    header {
-      background:linear-gradient(135deg, var(--vert) 0%, #005A45 100%);
-      color:#fff; padding:0.75rem 0; position:sticky; top:0; z-index:100;
-      box-shadow:0 2px 8px rgba(0,0,0,0.1);
-    }
+    header { background:linear-gradient(135deg,var(--vert) 0%,#005A45 100%); color:#fff; padding:0.75rem 0; position:sticky; top:0; z-index:100; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
     header .container { display:flex; justify-content:space-between; align-items:center; }
     .logo-header { display:flex; align-items:center; gap:0.6rem; }
     .logo-header img { height:46px; width:46px; object-fit:contain; border-radius:8px; }
     .logo-header span { font-size:1.3em; font-weight:800; color:#fff; }
-
-    .btn {
-      padding:0.75rem 1.5rem; border-radius:50px; font-weight:600;
-      text-decoration:none; display:inline-block; transition:all 0.3s ease;
-      border:none; cursor:pointer; font-size:1em;
-    }
+    .btn { padding:0.75rem 1.5rem; border-radius:50px; font-weight:600; text-decoration:none; display:inline-block; transition:all 0.3s ease; border:none; cursor:pointer; font-size:1em; }
     .btn-primary { background:var(--jaune); color:#1f2937; box-shadow:0 4px 12px rgba(252,209,22,0.3); }
     .btn-primary:hover { transform:translateY(-2px); box-shadow:0 6px 16px rgba(252,209,22,0.4); }
     .btn-secondary { background:transparent; color:#fff; border:2px solid #fff; }
     .btn-secondary:hover { background:rgba(255,255,255,0.1); }
 
     /* HERO */
-    .hero {
-      background:linear-gradient(135deg, var(--vert) 0%, #00C896 100%);
-      color:#fff; padding:4rem 0; text-align:center;
-    }
-    .hero-logo {
-      display:block; margin:0 auto 1.5rem auto;
-      width:110px; height:110px; object-fit:contain;
-      filter:drop-shadow(0 8px 24px rgba(0,0,0,0.3));
-    }
-    .badge-gratuit {
-      display:inline-block; background:var(--rouge); color:#fff;
-      font-weight:700; font-size:0.95em; padding:0.4rem 1.2rem;
-      border-radius:50px; margin-bottom:1.5rem; letter-spacing:0.5px;
-    }
-    .hero h1 { font-size:2.5em; margin-bottom:1rem; font-weight:800; line-height:1.2; }
-    .hero .highlight {
-      color:var(--jaune);
-      text-decoration:underline; text-decoration-color:var(--rouge); text-decoration-thickness:4px;
-    }
-    .hero p { font-size:1.2em; margin-bottom:2rem; opacity:0.95; max-width:700px; margin-left:auto; margin-right:auto; }
-    .hero-cta { display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-bottom:2rem; }
-    .trust-badges {
-      display:flex; gap:2rem; justify-content:center; flex-wrap:wrap;
-      margin-top:3rem; padding-top:2rem; border-top:1px solid rgba(255,255,255,0.2);
-    }
+    .hero { background:linear-gradient(135deg,var(--vert) 0%,#00C896 100%); color:#fff; padding:4rem 0 2rem 0; }
+    .hero-inner { display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:center; }
+    .hero-text { text-align:left; }
+    .hero-visual { display:flex; justify-content:center; align-items:center; }
+    .hero-visual img { max-width:100%; max-height:420px; object-fit:contain; filter:drop-shadow(0 16px 40px rgba(0,0,0,0.35)); border-radius:16px; animation:float 3s ease-in-out infinite; }
+    @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
+    .badge-gratuit { display:inline-block; background:var(--rouge); color:#fff; font-weight:700; font-size:0.95em; padding:0.4rem 1.2rem; border-radius:50px; margin-bottom:1.5rem; letter-spacing:0.5px; }
+    .hero h1 { font-size:2.6em; margin-bottom:1rem; font-weight:800; line-height:1.2; }
+    .hero .highlight { color:var(--jaune); text-decoration:underline; text-decoration-color:var(--rouge); text-decoration-thickness:4px; }
+    .hero p { font-size:1.15em; margin-bottom:2rem; opacity:0.95; }
+    .hero-cta { display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:2rem; }
+    .trust-badges { display:flex; gap:2rem; flex-wrap:wrap; margin-top:2rem; padding-top:2rem; border-top:1px solid rgba(255,255,255,0.2); }
     .trust-badge { font-size:2.5em; }
+
+    /* STATS BAR */
+    .stats-bar { background:#fff; border-bottom:3px solid var(--jaune); padding:1.5rem 0; }
+    .stats-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:1rem; text-align:center; }
+    .stat-number { font-size:2em; font-weight:900; color:var(--vert); line-height:1; }
+    .stat-label { font-size:0.85em; color:#6b7280; margin-top:0.2rem; }
 
     /* SECTIONS */
     section { padding:4rem 0; }
     .section-title { text-align:center; font-size:2em; font-weight:800; margin-bottom:3rem; color:var(--vert); }
     .section-subtitle { text-align:center; font-size:1.1em; color:#6b7280; max-width:600px; margin:0 auto 3rem auto; }
 
+    /* APP SHOWCASE */
+    .showcase-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1.5rem; }
+    .showcase-item { background:#fff; border-radius:20px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,0.1); transition:transform 0.3s ease,box-shadow 0.3s ease; }
+    .showcase-item:hover { transform:translateY(-8px); box-shadow:0 16px 40px rgba(0,122,94,0.2); }
+    .showcase-item img { width:100%; height:340px; object-fit:cover; object-position:top; display:block; }
+    .showcase-label { padding:0.75rem 1rem; font-size:0.85em; font-weight:700; color:var(--vert); text-align:center; background:#F0FFF8; }
+
     /* FEATURES */
-    .features-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:2rem; }
-    .feature-card {
-      background:#fff; padding:2rem; border-radius:16px;
-      box-shadow:0 4px 12px rgba(0,0,0,0.08); text-align:center;
-      border-top:4px solid var(--vert); transition:transform 0.3s ease, box-shadow 0.3s ease;
-    }
+    .features-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:2rem; }
+    .feature-card { background:#fff; padding:2rem; border-radius:16px; box-shadow:0 4px 12px rgba(0,0,0,0.08); text-align:center; border-top:4px solid var(--vert); transition:transform 0.3s ease,box-shadow 0.3s ease; }
     .feature-card:hover { transform:translateY(-8px); box-shadow:0 8px 24px rgba(0,122,94,0.15); }
     .feature-icon { font-size:3em; margin-bottom:1rem; }
     .feature-card h3 { color:var(--vert); margin-bottom:0.75rem; font-size:1.3em; }
 
-    /* TÉMOIGNAGES */
-    .testimonials-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:2rem; }
-    .testimonial {
-      background:#fff; padding:2rem; border-radius:16px;
-      box-shadow:0 4px 12px rgba(0,0,0,0.08); border-left:4px solid var(--jaune);
-    }
-    .testimonial-text { font-style:italic; color:#374151; line-height:1.7; }
+    /* FEATURE AVEC IMAGE */
+    .feature-with-img { display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:center; margin-bottom:4rem; }
+    .feature-with-img.reverse { direction:rtl; }
+    .feature-with-img.reverse > * { direction:ltr; }
+    .feature-with-img img { width:100%; max-width:360px; border-radius:20px; box-shadow:0 12px 36px rgba(0,0,0,0.15); }
+    .feature-with-img .text-block h3 { font-size:1.6em; font-weight:800; color:var(--vert); margin-bottom:1rem; }
+    .feature-with-img .text-block p { font-size:1.05em; color:#374151; line-height:1.7; margin-bottom:1rem; }
+    .feature-with-img .text-block ul { list-style:none; display:flex; flex-direction:column; gap:0.5rem; }
+    .feature-with-img .text-block ul li { display:flex; align-items:flex-start; gap:0.5rem; font-size:0.97em; color:#374151; }
+    .feature-with-img .text-block ul li::before { content:'✓'; color:var(--vert); font-weight:900; flex-shrink:0; }
 
-    /* APPEL AVIS */
-    .avis-callout {
-      text-align:center; margin-top:3rem; padding:2rem;
-      background:#FFF9E6; border-radius:16px; border:2px solid var(--jaune);
-    }
+    /* TESTIMONIALS */
+    .testimonials-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:2rem; }
+    .testimonial { background:#fff; padding:2rem; border-radius:16px; box-shadow:0 4px 12px rgba(0,0,0,0.08); border-left:4px solid var(--jaune); }
+    .testimonial-text { font-style:italic; color:#374151; line-height:1.7; }
+    .avis-callout { text-align:center; margin-top:3rem; padding:2rem; background:#FFF9E6; border-radius:16px; border:2px solid var(--jaune); }
     .avis-callout .titre-avis { color:var(--rouge); font-size:1.1em; font-weight:600; margin-bottom:0.75rem; }
     .avis-callout .texte-avis { color:#374151; margin-bottom:1rem; }
-    .btn-avis {
-      display:inline-block; background:var(--jaune); color:#1f2937;
-      font-weight:700; padding:0.75rem 2rem; border-radius:50px;
-      text-decoration:none; transition:all 0.3s ease;
-    }
+    .btn-avis { display:inline-block; background:var(--jaune); color:#1f2937; font-weight:700; padding:0.75rem 2rem; border-radius:50px; text-decoration:none; transition:all 0.3s ease; }
     .btn-avis:hover { transform:translateY(-2px); box-shadow:0 6px 16px rgba(252,209,22,0.4); }
 
+    /* TEST NIVEAU */
+    .test-section { background:linear-gradient(135deg,#1a1a2e 0%,#0d3b2e 100%); color:#fff; padding:3.5rem 0; }
+    .test-inner { max-width:800px; margin:0 auto; text-align:center; }
+    .test-badge { display:inline-block; background:var(--jaune); color:#1f2937; font-weight:800; font-size:0.9em; padding:0.4rem 1.2rem; border-radius:50px; margin-bottom:1rem; }
+    .test-steps { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:1.5rem; margin:2rem 0; }
+    .test-step { background:rgba(255,255,255,0.08); border:1px solid rgba(252,209,22,0.3); border-radius:14px; padding:1.5rem; text-align:center; }
+    .test-step-num { font-size:2em; font-weight:900; color:var(--jaune); line-height:1; }
+    .test-step-label { font-size:0.9em; opacity:0.85; margin-top:0.5rem; line-height:1.4; }
+    .test-matieres { display:flex; gap:0.75rem; justify-content:center; flex-wrap:wrap; margin:1.5rem 0; }
+    .matiere-badge { background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.2); color:#fff; padding:0.4rem 1rem; border-radius:50px; font-size:0.9em; }
+
+    /* FREEMIUM */
+    .freemium-grid { display:grid; grid-template-columns:1fr 1fr; gap:2rem; max-width:900px; margin:0 auto; }
+    .freemium-card { border-radius:20px; padding:2rem; border:2px solid; position:relative; }
+    .freemium-card.gratuit { border-color:var(--vert); background:#F0FFF8; }
+    .freemium-card.premium { border-color:var(--jaune); background:#FFFDF0; }
+    .freemium-card h3 { font-size:1.4em; font-weight:800; margin-bottom:0.5rem; }
+    .freemium-card.gratuit h3 { color:var(--vert); }
+    .freemium-card.premium h3 { color:#92400e; }
+    .freemium-price { font-size:1.1em; font-weight:700; margin-bottom:1.5rem; padding-bottom:1rem; border-bottom:2px solid; }
+    .freemium-card.gratuit .freemium-price { color:var(--vert); border-color:var(--vert); }
+    .freemium-card.premium .freemium-price { color:#92400e; border-color:var(--jaune); }
+    .freemium-list { list-style:none; display:flex; flex-direction:column; gap:0.75rem; }
+    .freemium-list li { display:flex; align-items:flex-start; gap:0.6rem; font-size:0.97em; line-height:1.4; }
+    .chk { color:var(--vert); font-weight:900; font-size:1.1em; flex-shrink:0; }
+    .chk-gold { color:#d97706; font-weight:900; font-size:1.1em; flex-shrink:0; }
+
+    /* PRICING */
+    .pricing-section { background:linear-gradient(135deg,#F0FFF8 0%,#FFF9E6 100%); padding:4rem 0; }
+    .pricing-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1.5rem; max-width:1000px; margin:0 auto; }
+    .pricing-card { background:#fff; border-radius:16px; padding:1.75rem; text-align:center; box-shadow:0 4px 16px rgba(0,0,0,0.08); border-top:4px solid; }
+    .pricing-card.t1{border-color:#10b981;} .pricing-card.t2{border-color:var(--jaune);}
+    .pricing-card.t3{border-color:var(--vert);border-width:3px;} .pricing-card.t4{border-color:var(--rouge);}
+    .pricing-card.t6{border-color:#1f2937;}
+    .pricing-tier { font-size:0.8em; text-transform:uppercase; letter-spacing:1px; font-weight:700; margin-bottom:0.5rem; color:#6b7280; }
+    .pricing-price { font-size:1.8em; font-weight:900; line-height:1; margin:0.5rem 0; }
+    .pricing-card.t1 .pricing-price{color:#10b981;} .pricing-card.t2 .pricing-price{color:#d97706;}
+    .pricing-card.t3 .pricing-price{color:var(--vert);} .pricing-card.t4 .pricing-price{color:var(--rouge);}
+    .pricing-card.t6 .pricing-price{color:#1f2937;font-size:1.3em;}
+    .pricing-desc { font-size:0.85em; color:#6b7280; margin-top:0.5rem; line-height:1.5; }
+    .pricing-note { text-align:center; margin-top:2rem; font-size:0.9em; color:#6b7280; font-style:italic; }
+
+    /* CEP */
+    .cep-inner-grid { display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:center; }
+    .cep-img img { width:100%; max-width:440px; border-radius:20px; box-shadow:0 16px 48px rgba(0,0,0,0.4); }
+
     /* CTA FINAL */
-    .cta-final {
-      background:linear-gradient(135deg, var(--rouge) 0%, #991b1b 100%);
-      color:#fff; padding:4rem 0; text-align:center;
-    }
+    .cta-final { background:linear-gradient(135deg,var(--rouge) 0%,#991b1b 100%); color:#fff; padding:4rem 0; text-align:center; }
     .cta-final h2 { font-size:2.5em; margin-bottom:1rem; font-weight:800; }
     .cta-final p { font-size:1.2em; margin-bottom:2rem; opacity:0.95; }
 
@@ -125,59 +151,34 @@
     .footer-social { display:flex; gap:1.5rem; justify-content:center; margin-bottom:2rem; font-size:1.5em; }
     .copyright { color:#6b7280; font-size:0.9em; padding-top:2rem; border-top:1px solid #374151; }
 
-    /* STATS BAR */
-    .stats-bar{background:#fff;border-bottom:3px solid var(--jaune);padding:1.5rem 0;}
-    .stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1rem;text-align:center;}
-    .stat-number{font-size:2em;font-weight:900;color:var(--vert);line-height:1;}
-    .stat-label{font-size:0.85em;color:#6b7280;margin-top:0.2rem;}
-    /* TEST NIVEAU */
-    .test-section{background:linear-gradient(135deg,#1a1a2e 0%,#0d3b2e 100%);color:#fff;padding:3.5rem 0;}
-    .test-inner{max-width:800px;margin:0 auto;text-align:center;}
-    .test-badge{display:inline-block;background:var(--jaune);color:#1f2937;font-weight:800;font-size:0.9em;padding:0.4rem 1.2rem;border-radius:50px;margin-bottom:1rem;}
-    .test-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1.5rem;margin:2rem 0;}
-    .test-step{background:rgba(255,255,255,0.08);border:1px solid rgba(252,209,22,0.3);border-radius:14px;padding:1.5rem;text-align:center;}
-    .test-step-num{font-size:2em;font-weight:900;color:var(--jaune);line-height:1;}
-    .test-step-label{font-size:0.9em;opacity:0.85;margin-top:0.5rem;line-height:1.4;}
-    .test-matieres{display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;margin:1.5rem 0;}
-    .matiere-badge{background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:#fff;padding:0.4rem 1rem;border-radius:50px;font-size:0.9em;}
-    /* FREEMIUM */
-    .freemium-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;max-width:900px;margin:0 auto;}
-    .freemium-card{border-radius:20px;padding:2rem;border:2px solid;}
-    .freemium-card.gratuit{border-color:var(--vert);background:#F0FFF8;}
-    .freemium-card.premium{border-color:var(--jaune);background:#FFFDF0;position:relative;}
-    .freemium-card h3{font-size:1.4em;font-weight:800;margin-bottom:0.5rem;}
-    .freemium-card.gratuit h3{color:var(--vert);}
-    .freemium-card.premium h3{color:#92400e;}
-    .freemium-price{font-size:1.1em;font-weight:700;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:2px solid;}
-    .freemium-card.gratuit .freemium-price{color:var(--vert);border-color:var(--vert);}
-    .freemium-card.premium .freemium-price{color:#92400e;border-color:var(--jaune);}
-    .freemium-list{list-style:none;display:flex;flex-direction:column;gap:0.75rem;}
-    .freemium-list li{display:flex;align-items:flex-start;gap:0.6rem;font-size:0.97em;line-height:1.4;}
-    .chk{color:var(--vert);font-weight:900;font-size:1.1em;flex-shrink:0;}
-    .chk-gold{color:#d97706;font-weight:900;font-size:1.1em;flex-shrink:0;}
-    /* PRICING */
-    .pricing-section{background:linear-gradient(135deg,#F0FFF8 0%,#FFF9E6 100%);padding:4rem 0;}
-    .pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem;max-width:1000px;margin:0 auto;}
-    .pricing-card{background:#fff;border-radius:16px;padding:1.75rem;text-align:center;box-shadow:0 4px 16px rgba(0,0,0,0.08);border-top:4px solid;}
-    .pricing-card.t1{border-color:#10b981;} .pricing-card.t2{border-color:var(--jaune);}
-    .pricing-card.t3{border-color:var(--vert);border-width:3px;} .pricing-card.t4{border-color:var(--rouge);}
-    .pricing-card.t5{border-color:#6366f1;} .pricing-card.t6{border-color:#1f2937;}
-    .pricing-tier{font-size:0.8em;text-transform:uppercase;letter-spacing:1px;font-weight:700;margin-bottom:0.5rem;color:#6b7280;}
-    .pricing-price{font-size:1.8em;font-weight:900;line-height:1;margin:0.5rem 0;}
-    .pricing-card.t1 .pricing-price{color:#10b981;} .pricing-card.t2 .pricing-price{color:#d97706;}
-    .pricing-card.t3 .pricing-price{color:var(--vert);} .pricing-card.t4 .pricing-price{color:var(--rouge);}
-    .pricing-card.t5 .pricing-price{color:#6366f1;} .pricing-card.t6 .pricing-price{color:#1f2937;font-size:1.3em;}
-    .pricing-desc{font-size:0.85em;color:#6b7280;margin-top:0.5rem;line-height:1.5;}
-    .pricing-note{text-align:center;margin-top:2rem;font-size:0.9em;color:#6b7280;font-style:italic;}
-    @media (max-width: 768px) {
+    /* OFFLINE SECTION */
+    .offline-grid { display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:center; }
+    .offline-img img { width:100%; max-width:440px; border-radius:20px; box-shadow:0 12px 36px rgba(0,0,0,0.12); }
+
+    /* RESPONSIVE */
+    @media (max-width:900px) {
+      .hero-inner { grid-template-columns:1fr; text-align:center; }
+      .hero-text { text-align:center; }
+      .hero-cta { justify-content:center; }
+      .trust-badges { justify-content:center; }
+      .hero-visual { margin-top:2rem; }
+      .feature-with-img { grid-template-columns:1fr; text-align:center; }
+      .feature-with-img img { margin:0 auto; }
+      .feature-with-img.reverse { direction:ltr; }
+      .cep-inner-grid { grid-template-columns:1fr; text-align:center; }
+      .cep-img { display:flex; justify-content:center; }
+      .offline-grid { grid-template-columns:1fr; text-align:center; }
+      .offline-img { display:flex; justify-content:center; }
+    }
+    @media (max-width:768px) {
       .hero h1 { font-size:2em; }
       .section-title { font-size:1.5em; }
-      .hero-logo { width:85px; height:85px; }
       .cta-final h2 { font-size:1.8em; }
-      .freemium-grid{grid-template-columns:1fr;}
-      .pricing-grid{grid-template-columns:repeat(2,1fr);}
+      .freemium-grid { grid-template-columns:1fr; }
+      .pricing-grid { grid-template-columns:repeat(2,1fr); }
+      .showcase-item img { height:240px; }
     }
-    @media (max-width:480px){.pricing-grid{grid-template-columns:1fr;}}
+    @media (max-width:480px) { .pricing-grid { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -196,29 +197,25 @@
 <!-- HERO -->
 <section class="hero">
   <div class="container">
-    <img src="logo.png" alt="École Joyeuse" class="hero-logo">
-    <div class="badge-gratuit">🎉 SIL &amp; CP — 100% Gratuits Pour Toujours</div>
-    <h1>
-      Réussite Scolaire <span class="highlight">Garantie</span><br>
-      Pour Vos Enfants 🇨🇲
-    </h1>
-    <p>
-      L'application éducative #1 au Cameroun. <strong>1 046 leçons</strong>, conforme MINEDUB,
-      100% hors-ligne, de la SIL au CM2. Transformez votre smartphone en école privée.
-    </p>
-    <div class="hero-cta">
-      <a href="app.html" class="btn btn-primary" style="font-size:1.1em; padding:1rem 2rem;">
-        🚀 Commencer gratuitement
-      </a>
-      <a href="#test-niveau" class="btn btn-secondary">
-        🎯 Tester le niveau de mon enfant
-      </a>
-    </div>
-    <div class="trust-badges">
-      <div class="trust-badge" title="Conforme MINEDUB">📚</div>
-      <div class="trust-badge" title="Fonctionne hors-ligne">📱</div>
-      <div class="trust-badge" title="Pour toute la famille">👨‍👩‍👧‍👦</div>
-      <div class="trust-badge" title="Fait au Cameroun">🇨🇲</div>
+    <div class="hero-inner">
+      <div class="hero-text">
+        <div class="badge-gratuit">🎉 SIL &amp; CP — 100% Gratuits Pour Toujours</div>
+        <h1>Réussite Scolaire <span class="highlight">Garantie</span><br>Pour Vos Enfants 🇨🇲</h1>
+        <p>L'application éducative #1 au Cameroun. <strong>1 046 leçons</strong>, conforme MINEDUB, 100% hors-ligne, de la SIL au CM2.</p>
+        <div class="hero-cta">
+          <a href="app.html" class="btn btn-primary" style="font-size:1.1em;padding:1rem 2rem;">🚀 Commencer gratuitement</a>
+          <a href="#test-niveau" class="btn btn-secondary">🎯 Tester le niveau</a>
+        </div>
+        <div class="trust-badges">
+          <div class="trust-badge" title="Conforme MINEDUB">📚</div>
+          <div class="trust-badge" title="Fonctionne hors-ligne">📱</div>
+          <div class="trust-badge" title="Pour toute la famille">👨‍👩‍👧‍👦</div>
+          <div class="trust-badge" title="Fait au Cameroun">🇨🇲</div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="mascot_screen.png" alt="École Joyeuse - Mascotte avec l'application" loading="eager">
+      </div>
     </div>
   </div>
 </section>
@@ -236,28 +233,116 @@
   </div>
 </div>
 
+<!-- APERÇU DE L'APP -->
+<section id="apercu" style="background:#f9fafb;">
+  <div class="container">
+    <h2 class="section-title">L'App en Images</h2>
+    <p class="section-subtitle">Voici ce que vit votre enfant chaque jour dans École Joyeuse.</p>
+    <div class="showcase-grid">
+      <div class="showcase-item">
+        <img src="screen_dashboard.png" alt="Tableau de bord École Joyeuse" loading="lazy">
+        <div class="showcase-label">🏠 Tableau de Bord</div>
+      </div>
+      <div class="showcase-item">
+        <img src="screen_lecon.png" alt="Lecteur de leçon" loading="lazy">
+        <div class="showcase-label">📖 Lecteur de Leçon</div>
+      </div>
+      <div class="showcase-item">
+        <img src="screen_quiz.png" alt="Exercice quiz interactif" loading="lazy">
+        <div class="showcase-label">✏️ Quiz Interactif</div>
+      </div>
+      <div class="showcase-item">
+        <img src="screen_trophees.png" alt="Coffre aux trophées" loading="lazy">
+        <div class="showcase-label">🏆 Trophées &amp; Récompenses</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES AVEC IMAGES -->
+<section id="features" style="background:#fff;">
+  <div class="container">
+    <h2 class="section-title">Pourquoi École Joyeuse ?</h2>
+    <p class="section-subtitle">Conçue à Douala avec l'appui d'enseignants, validée par le curriculum officiel MINEDUB.</p>
+
+    <div class="feature-with-img">
+      <div class="text-block">
+        <h3>📚 Conforme MINEDUB 100%</h3>
+        <p>Tous les programmes officiels SIL→CM2. Français, Maths, Sciences, Géographie, Histoire et 4 autres matières — exactement comme à l'école.</p>
+        <ul>
+          <li>1 046 leçons structurées par Unité d'Apprentissage</li>
+          <li>Progressions trimestrielles respectées (T1, T2, T3)</li>
+          <li>Savoirs-faire actionnables, sans jargon enseignant</li>
+          <li>Homologué Juin 2026</li>
+        </ul>
+      </div>
+      <img src="screen_lecon.png" alt="Lecteur de leçon conforme MINEDUB" loading="lazy">
+    </div>
+
+    <div class="feature-with-img reverse">
+      <div class="text-block">
+        <h3>🏆 Gamification Motivante</h3>
+        <p>Badges, médailles, points XP, streaks de connexion. Votre enfant progresse sans s'en rendre compte — le jeu est l'école.</p>
+        <ul>
+          <li>Coffre aux trophées déblocables</li>
+          <li>Progression visible à chaque leçon terminée</li>
+          <li>Feedback positif garanti après chaque exercice</li>
+          <li>Interface ludique en SIL, plus sérieuse en CM2</li>
+        </ul>
+      </div>
+      <img src="screen_trophees.png" alt="Système de récompenses et trophées" loading="lazy">
+    </div>
+
+    <div class="feature-with-img">
+      <div class="text-block">
+        <h3>✏️ 4 184 Quiz Interactifs</h3>
+        <p>Questions avec explications détaillées à chaque réponse. Feedback immédiat, tolérance aux fautes de frappe, résultats clairs.</p>
+        <ul>
+          <li>4 quiz par leçon, 4 leçons par UA</li>
+          <li>Réponses vérifiées sans sensibilité aux accents</li>
+          <li>Explication de l'erreur + astuce pour retenir</li>
+          <li>Résultat détaillé à la fin de chaque exercice</li>
+        </ul>
+      </div>
+      <img src="screen_quiz.png" alt="Quiz interactifs avec feedback" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- SECTION HORS-LIGNE -->
+<section id="offline" style="background:#F0FFF8;">
+  <div class="container">
+    <div class="offline-grid">
+      <div class="offline-img">
+        <img src="visual_offline.png" alt="École Joyeuse fonctionne hors-ligne" loading="lazy">
+      </div>
+      <div>
+        <h2 style="font-size:2em;font-weight:800;color:var(--vert);margin-bottom:1rem;">📱 100% Hors-Ligne</h2>
+        <p style="font-size:1.1em;color:#374151;line-height:1.7;margin-bottom:1.5rem;">
+          Une fois installée, École Joyeuse n'a plus besoin d'internet. Parfait pour Maroua, Garoua, Bertoua — ou quand le forfait data est épuisé.
+        </p>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:0.75rem;">
+          <li style="display:flex;gap:0.6rem;align-items:flex-start;"><span style="color:var(--vert);font-weight:900;">✓</span> Leçons, quiz et exercices disponibles sans connexion</li>
+          <li style="display:flex;gap:0.6rem;align-items:flex-start;"><span style="color:var(--vert);font-weight:900;">✓</span> Progression sauvegardée localement sur l'appareil</li>
+          <li style="display:flex;gap:0.6rem;align-items:flex-start;"><span style="color:var(--vert);font-weight:900;">✓</span> Aucun abonnement data nécessaire pendant l'utilisation</li>
+          <li style="display:flex;gap:0.6rem;align-items:flex-start;"><span style="color:var(--vert);font-weight:900;">✓</span> Compatible téléphones d'entrée de gamme Android</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- TEST DE NIVEAU -->
 <section id="test-niveau" class="test-section">
   <div class="container">
     <div class="test-inner">
       <div class="test-badge">🎯 GRATUIT — Dès l'installation</div>
       <h2 style="font-size:2em;font-weight:800;margin-bottom:0.75rem;">Test de Niveau Personnalisé</h2>
-      <p style="font-size:1.1em;opacity:0.85;max-width:560px;margin:0 auto 0 auto;">
-        En 8 minutes, l'app évalue votre enfant et lui recommande exactement la bonne classe. Précis, bienveillant, sans pression.
-      </p>
+      <p style="font-size:1.1em;opacity:0.85;max-width:560px;margin:0 auto;">En 8 minutes, l'app évalue votre enfant et lui recommande exactement la bonne classe. Précis, bienveillant, sans pression.</p>
       <div class="test-steps">
-        <div class="test-step">
-          <div class="test-step-num">20</div>
-          <div class="test-step-label">questions adaptées<br>(5 par matière)</div>
-        </div>
-        <div class="test-step">
-          <div class="test-step-num">4</div>
-          <div class="test-step-label">matières évaluées<br>Français · Maths · Sciences · SHS</div>
-        </div>
-        <div class="test-step">
-          <div class="test-step-num">8'</div>
-          <div class="test-step-label">durée estimée<br>à son propre rythme</div>
-        </div>
+        <div class="test-step"><div class="test-step-num">20</div><div class="test-step-label">questions adaptées<br>(5 par matière)</div></div>
+        <div class="test-step"><div class="test-step-num">4</div><div class="test-step-label">matières évaluées<br>Français · Maths · Sciences · SHS</div></div>
+        <div class="test-step"><div class="test-step-num">8'</div><div class="test-step-label">durée estimée<br>à son propre rythme</div></div>
       </div>
       <div class="test-matieres">
         <span class="matiere-badge">📖 Français</span>
@@ -267,32 +352,48 @@
       </div>
       <p style="font-size:0.9em;opacity:0.65;margin-top:1rem;">Résultat positif garanti — "Ton espace CE1 est prêt pour toi !" Jamais de jugement.</p>
       <div style="margin-top:1.5rem;">
-        <a href="app.html" style="display:inline-block;background:var(--jaune);color:#1f2937;font-weight:800;font-size:1.1em;padding:0.9rem 2.5rem;border-radius:50px;text-decoration:none;">
-          🎯 Faire le test maintenant
-        </a>
+        <a href="app.html" style="display:inline-block;background:var(--jaune);color:#1f2937;font-weight:800;font-size:1.1em;padding:0.9rem 2.5rem;border-radius:50px;text-decoration:none;">🎯 Faire le test maintenant</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- FEATURES -->
-<section id="features" style="background:#fff;">
+<!-- FEATURES GRID (compléments) -->
+<section style="background:#fff;">
   <div class="container">
-    <h2 class="section-title">Pourquoi École Joyeuse ?</h2>
-    <p class="section-subtitle">Conçue à Douala avec l'appui d'enseignants, validée par le curriculum officiel MINEDUB.</p>
+    <h2 class="section-title">Tout Ce Dont Votre Enfant a Besoin</h2>
     <div class="features-grid">
-      <div class="feature-card"><div class="feature-icon">📚</div><h3>Conforme MINEDUB 100%</h3><p>Tous les programmes officiels SIL→CM2. Français, Maths, Sciences, Géographie, Histoire et 4 autres matières.</p></div>
-      <div class="feature-card"><div class="feature-icon">📱</div><h3>App Ultra-Légère</h3><p>Vous téléchargez uniquement la classe de votre enfant. Aucun contenu inutile. Parfait pour les téléphones d'entrée de gamme.</p></div>
-      <div class="feature-card"><div class="feature-icon">🎯</div><h3>4 184 Quiz Interactifs</h3><p>Questions avec explications détaillées. Feedback immédiat et progression visible à chaque leçon.</p></div>
-      <div class="feature-card"><div class="feature-icon">🎓</div><h3>Mode Révision CEP</h3><p>Préparez le Certificat d'Études Primaires (examen fin CM2) avec des quiz chronométrés en conditions réelles.</p></div>
+      <div class="feature-card"><div class="feature-icon">🎓</div><h3>Mode Révision CEP</h3><p>Préparez le Certificat d'Études Primaires avec des quiz chronométrés en conditions réelles d'examen.</p></div>
       <div class="feature-card"><div class="feature-icon">👨‍👩‍👧</div><h3>Espace Parent Complet</h3><p>Suivez la progression en temps réel. Stats détaillées, matières à renforcer, alertes de décrochage.</p></div>
-      <div class="feature-card"><div class="feature-icon">🏅</div><h3>Gamification Motivante</h3><p>Badges, médailles, points XP, streaks. L'interface s'adapte au niveau — ludique en SIL, sérieuse en CM2.</p></div>
+      <div class="feature-card"><div class="feature-icon">🇨🇲</div><h3>Ancrage Camerounais</h3><p>Contexte culturel local dans toutes les leçons : manioc, cacao, marchés, élevage, villes du Cameroun.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- MODE CEP AVEC IMAGE -->
+<section id="cep" style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);color:#fff;padding:4rem 0;">
+  <div class="container">
+    <div class="cep-inner-grid">
+      <div>
+        <div style="display:inline-block;background:var(--rouge);color:#fff;font-weight:800;font-size:0.9em;padding:0.4rem 1.2rem;border-radius:50px;margin-bottom:1rem;letter-spacing:1px;text-transform:uppercase;">🎓 100% Gratuit</div>
+        <h2 style="font-size:2.2em;font-weight:800;margin-bottom:0.75rem;">Mode Révision <span style="color:var(--jaune);">CEP</span></h2>
+        <p style="font-size:1.1em;opacity:0.85;line-height:1.7;margin-bottom:2rem;">Prépare le <strong>Certificat d'Études Primaires</strong> avec le seul outil 100% aligné sur les 6 séquences officielles MINEDUB.</p>
+        <div style="display:flex;flex-direction:column;gap:1rem;margin-bottom:2rem;">
+          <div style="display:flex;gap:1rem;align-items:flex-start;"><span style="color:var(--jaune);font-size:1.4em;">📋</span><div><strong>6 Séquences MINEDUB</strong><br><span style="opacity:0.8;font-size:0.9em;">Les Fondations · Nutrition · Systèmes Vivants · Proportionnalité · Espaces &amp; Économie · Examen Blanc</span></div></div>
+          <div style="display:flex;gap:1rem;align-items:flex-start;"><span style="color:var(--jaune);font-size:1.4em;">⏱️</span><div><strong>Examen Blanc Complet</strong><br><span style="opacity:0.8;font-size:0.9em;">20 questions · Toutes matières · Chronomètre 20 minutes · Conditions réelles</span></div></div>
+          <div style="display:flex;gap:1rem;align-items:flex-start;"><span style="color:var(--jaune);font-size:1.4em;">🇨🇲</span><div><strong>Contexte Camerounais</strong><br><span style="opacity:0.8;font-size:0.9em;">Questions sur le Cameroun, ses villes, sa géographie et son histoire</span></div></div>
+        </div>
+        <a href="app.html" style="display:inline-block;background:var(--jaune);color:#1f2937;font-size:1.1em;font-weight:800;padding:1rem 2.5rem;border-radius:50px;text-decoration:none;">🎓 Accéder au Mode CEP Gratuit</a>
+      </div>
+      <div class="cep-img">
+        <img src="visual_cep.png" alt="Préparation CEP avec École Joyeuse" loading="lazy">
+      </div>
     </div>
   </div>
 </section>
 
 <!-- FREEMIUM -->
-<section id="acces" style="background:#f9fafb; padding:4rem 0;">
+<section id="acces" style="background:#f9fafb;padding:4rem 0;">
   <div class="container">
     <h2 class="section-title" style="margin-bottom:1rem;">Gratuit ou Premium — Vous Choisissez</h2>
     <p class="section-subtitle">SIL et CP sont gratuits pour toujours. Les classes CE1 à CM2 deviennent accessibles selon votre abonnement.</p>
@@ -320,7 +421,7 @@
           <li><span class="chk-gold">✓</span> Classe CE2 complète</li>
           <li><span class="chk-gold">✓</span> Classe CM1 complète</li>
           <li><span class="chk-gold">✓</span> Classe CM2 complète</li>
-          <li><span class="chk-gold">✓</span> 1 classe = 1 téléchargement ciblé <span style="font-size:0.8em;opacity:0.7;">(app légère)</span></li>
+          <li><span class="chk-gold">✓</span> 1 classe = 1 téléchargement ciblé</li>
           <li><span class="chk-gold">✓</span> Espace parent avancé + statistiques</li>
           <li><span class="chk-gold">✓</span> Option Famille multi-enfants</li>
           <li><span class="chk-gold">✓</span> Option Contrat École disponible</li>
@@ -335,7 +436,7 @@
 <section id="tarifs" class="pricing-section">
   <div class="container">
     <h2 class="section-title" style="margin-bottom:1rem;">Tarifs Accessibles À Tous</h2>
-    <p class="section-subtitle">Payez uniquement la classe dont votre enfant a besoin. L'app ne télécharge que ce que vous avez choisi.</p>
+    <p class="section-subtitle">Payez uniquement la classe dont votre enfant a besoin.</p>
     <div class="pricing-grid">
       <div class="pricing-card t1"><div class="pricing-tier">Par UA</div><div class="pricing-price">1 000 F</div><div class="pricing-desc">1 Unité d'Apprentissage complète<br><em>Idéal pour tester</em></div></div>
       <div class="pricing-card t2"><div class="pricing-tier">Par Trimestre</div><div class="pricing-price">2 500 F</div><div class="pricing-desc">T1, T2 ou T3 d'une classe<br><em>Idéal en cours d'année</em></div></div>
@@ -355,77 +456,14 @@
   <div class="container">
     <h2 class="section-title">Ce Que Les Familles Apprécient</h2>
     <div class="testimonials-grid">
-      <div class="testimonial">
-        <div class="testimonial-text">
-          <strong style="color:#007A5E; font-size:1.1em;">📱 Zéro Connexion Internet Requise</strong><br><br>
-          Toute l'app fonctionne 100% hors-ligne. Parfait pour les zones rurales (Maroua, Garoua, Bertoua)
-          ou quand le forfait data est épuisé. Une fois installée, aucun mégaoctet consommé.
-        </div>
-      </div>
-      <div class="testimonial">
-        <div class="testimonial-text">
-          <strong style="color:#007A5E; font-size:1.1em;">🎯 Apprentissage Guidé Pas à Pas</strong><br><br>
-          Chaque leçon suit le programme officiel MINEDUB. Quiz avec explications détaillées.
-          Votre enfant progresse à son rythme, avec des récompenses motivantes.
-        </div>
-      </div>
-      <div class="testimonial">
-        <div class="testimonial-text">
-          <strong style="color:#007A5E; font-size:1.1em;">👨‍👩‍👧 Vous Gardez Le Contrôle</strong><br><br>
-          Espace Parent sécurisé par code PIN. Suivez la progression en temps réel,
-          identifiez les matières à renforcer, recevez des recommandations personnalisées.
-        </div>
-      </div>
+      <div class="testimonial"><div class="testimonial-text"><strong style="color:#007A5E;font-size:1.1em;">📱 Zéro Connexion Internet Requise</strong><br><br>Toute l'app fonctionne 100% hors-ligne. Parfait pour les zones rurales (Maroua, Garoua, Bertoua) ou quand le forfait data est épuisé. Une fois installée, aucun mégaoctet consommé.</div></div>
+      <div class="testimonial"><div class="testimonial-text"><strong style="color:#007A5E;font-size:1.1em;">🎯 Apprentissage Guidé Pas à Pas</strong><br><br>Chaque leçon suit le programme officiel MINEDUB. Quiz avec explications détaillées. Votre enfant progresse à son rythme, avec des récompenses motivantes.</div></div>
+      <div class="testimonial"><div class="testimonial-text"><strong style="color:#007A5E;font-size:1.1em;">👨‍👩‍👧 Vous Gardez Le Contrôle</strong><br><br>Espace Parent sécurisé par code PIN. Suivez la progression en temps réel, identifiez les matières à renforcer, recevez des recommandations personnalisées.</div></div>
     </div>
-
     <div class="avis-callout">
       <p class="titre-avis">📢 Vous utilisez déjà École Joyeuse ?</p>
-      <p class="texte-avis">
-        Partagez votre expérience ! Vos retours nous aident à améliorer
-        l'application pour toutes les familles camerounaises.
-      </p>
+      <p class="texte-avis">Partagez votre expérience ! Vos retours nous aident à améliorer l'application pour toutes les familles camerounaises.</p>
       <a href="feedback.html" class="btn-avis">✍️ Laisser mon avis</a>
-    </div>
-  </div>
-</section>
-
-<!-- MODE CEP -->
-<section id="cep" style="background:linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color:#fff; padding:4rem 0;">
-  <div class="container">
-    <div style="text-align:center; margin-bottom:2.5rem;">
-      <div style="display:inline-block; background:var(--rouge); color:#fff; font-weight:800; font-size:0.9em; padding:0.4rem 1.2rem; border-radius:50px; margin-bottom:1rem; letter-spacing:1px; text-transform:uppercase;">
-        🎓 100% Gratuit
-      </div>
-      <h2 style="font-size:2.2em; font-weight:800; margin-bottom:0.75rem;">
-        Mode Révision <span style="color:var(--jaune);">CEP</span>
-      </h2>
-      <p style="font-size:1.1em; opacity:0.85; max-width:600px; margin:0 auto;">
-        Prépare ton <strong>Certificat d'Études Primaires</strong> avec le seul outil
-        100% aligné sur les 6 séquences officielles MINEDUB — directement sur ton téléphone.
-      </p>
-    </div>
-    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:1.5rem; margin-bottom:3rem;">
-      <div style="background:rgba(255,255,255,0.07); border:1px solid rgba(252,209,22,0.3); border-radius:16px; padding:1.75rem; text-align:center;">
-        <div style="font-size:2.5em; margin-bottom:0.75rem;">📋</div>
-        <h3 style="color:var(--jaune); font-size:1.2em; margin-bottom:0.5rem;">6 Séquences MINEDUB</h3>
-        <p style="opacity:0.8; font-size:0.95em; line-height:1.6;">Les Fondations · Dimensions &amp; Nutrition · Systèmes Vivants · Proportionnalité · Espaces &amp; Économie · Synthèse &amp; Examen Blanc</p>
-      </div>
-      <div style="background:rgba(255,255,255,0.07); border:1px solid rgba(252,209,22,0.3); border-radius:16px; padding:1.75rem; text-align:center;">
-        <div style="font-size:2.5em; margin-bottom:0.75rem;">⏱️</div>
-        <h3 style="color:var(--jaune); font-size:1.2em; margin-bottom:0.5rem;">Examen Blanc Complet</h3>
-        <p style="opacity:0.8; font-size:0.95em; line-height:1.6;">20 questions · Toutes matières · Chronomètre 20 minutes · Conditions réelles d'examen pour s'entraîner sans stress.</p>
-      </div>
-      <div style="background:rgba(255,255,255,0.07); border:1px solid rgba(252,209,22,0.3); border-radius:16px; padding:1.75rem; text-align:center;">
-        <div style="font-size:2.5em; margin-bottom:0.75rem;">🇨🇲</div>
-        <h3 style="color:var(--jaune); font-size:1.2em; margin-bottom:0.5rem;">Contexte Camerounais</h3>
-        <p style="opacity:0.8; font-size:0.95em; line-height:1.6;">Questions sur le Cameroun, ses villes, sa géographie et son histoire. Niveau Expert, exactement comme au vrai CEP.</p>
-      </div>
-    </div>
-    <div style="text-align:center;">
-      <a href="app.html" style="display:inline-block; background:var(--jaune); color:#1f2937; font-size:1.15em; font-weight:800; padding:1rem 2.5rem; border-radius:50px; text-decoration:none; box-shadow:0 6px 20px rgba(252,209,22,0.35);">
-        🎓 Accéder au Mode CEP Gratuit
-      </a>
-      <p style="margin-top:1rem; opacity:0.6; font-size:0.9em;">Disponible dès maintenant · Aucune inscription · Hors-ligne</p>
     </div>
   </div>
 </section>
@@ -435,22 +473,19 @@
   <div class="container">
     <h2>Prêt à Transformer La Scolarité De Votre Enfant ?</h2>
     <p>Rejoignez les familles camerounaises qui ont choisi École Joyeuse.</p>
-    <a href="app.html" class="btn btn-primary" style="font-size:1.2em; padding:1.25rem 2.5rem;">
-      🚀 Commencer Gratuitement
-    </a>
-    <p style="margin-top:1.5rem; font-size:0.9em; opacity:0.8;">
-      Aucune inscription · SIL &amp; CP gratuits · 100% hors-ligne
-    </p>
+    <a href="app.html" class="btn btn-primary" style="font-size:1.2em;padding:1.25rem 2.5rem;">🚀 Commencer Gratuitement</a>
+    <p style="margin-top:1.5rem;font-size:0.9em;opacity:0.8;">Aucune inscription · SIL &amp; CP gratuits · 100% hors-ligne</p>
   </div>
 </section>
 
 <!-- FOOTER -->
 <footer>
   <div class="container">
-    <div style="display:flex; justify-content:center; margin-bottom:1.5rem;">
-      <img src="logo.png" alt="École Joyeuse" style="height:52px; object-fit:contain; border-radius:8px;">
+    <div style="display:flex;justify-content:center;margin-bottom:1.5rem;">
+      <img src="logo.png" alt="École Joyeuse" style="height:52px;object-fit:contain;border-radius:8px;">
     </div>
     <div class="footer-links">
+      <a href="#apercu">L'app en images</a>
       <a href="#features">Fonctionnalités</a>
       <a href="#test-niveau">Test de niveau</a>
       <a href="#tarifs">Tarifs</a>
@@ -464,15 +499,12 @@
       <a href="#" style="color:#9ca3af;" title="YouTube">📺</a>
     </div>
     <div class="copyright">
-      <p style="display:flex; gap:0.5rem; justify-content:center; align-items:center;">
+      <p style="display:flex;gap:0.5rem;justify-content:center;align-items:center;">
         <span style="color:var(--vert);">●</span>
         <span style="color:var(--rouge);">●</span>
         <span style="color:var(--jaune);">●</span>
       </p>
-      <p style="margin-top:1rem;">
-        © 2026 École Joyeuse. Tous droits réservés. 🇨🇲<br>
-        Fait avec ❤️ à Douala, Cameroun.
-      </p>
+      <p style="margin-top:1rem;">© 2026 École Joyeuse. Tous droits réservés. 🇨🇲<br>Fait avec ❤️ à Douala, Cameroun.</p>
     </div>
   </div>
 </footer>
