@@ -4415,7 +4415,7 @@ function renderExoFill(ex) {
   exoState = { type: 'fillblank', items: items, answers: [] };
   let html = '';
   items.forEach((it, i) => {
-    const phrase = (it.phrase || it.texte || '').replace(/___+|\.\.\./, '<input type="text" class="exo-fillblank-input" data-i="' + i + '" oninput="setFillAnswer(' + i + ',this.value)" style="display:inline-block;width:auto;min-width:120px;margin:0 4px">');
+    const phrase = (it.phrase || it.texte || '').replace(/___+|\.\.\./, '<input type="text" class="exo-fillblank-input" data-i="' + i + '" oninput="setFillAnswer(' + i + ',this.value)" style="display:inline-block;width:auto;min-width:110px;max-width:calc(100% - 8px);margin:4px 4px">');
     html += '<div style="margin-bottom:14px">' + sanitizeLessonHTML(phrase) + '</div>';
   });
   return html;
@@ -4571,11 +4571,51 @@ function validateExercice() {
   fb.classList.remove('correct','wrong');
   fb.classList.add(res.ok ? 'correct' : 'wrong');
   fb.classList.add('show');
-  let fbText = res.ok ? '✅ Bravo ! ' : '❌ Pas encore. ';
-  if (res.ok && ex.feedback_correct) fbText += ex.feedback_correct;
-  if (!res.ok && ex.feedback_incorrect) fbText += ex.feedback_incorrect;
-  fb.innerHTML = escapeHTML(fbText) + ' <span style="opacity:.7">(' + pts + '/' + maxPts + ' pts)</span>';
-  if (ex.astuce && !res.ok) fb.innerHTML += '<span class="astuce">💡 ' + escapeHTML(ex.astuce) + '</span>';
+
+  // Feedback titre
+  let fbHTML = '';
+  if (res.ok) {
+    let titre = '✅ Bravo ! ';
+    if (ex.feedback_correct) titre += escapeHTML(ex.feedback_correct);
+    fbHTML += '<strong>' + titre + '</strong>';
+  } else {
+    let titre = '❌ Pas encore.';
+    if (ex.feedback_incorrect) titre += ' ' + escapeHTML(ex.feedback_incorrect);
+    fbHTML += '<strong>' + titre + '</strong>';
+  }
+  fbHTML += ' <span style="opacity:.7">(' + pts + '/' + maxPts + ' pts)</span>';
+
+  // Détail item par item pour fillblank
+  if (!res.ok && exoState.type === 'fillblank' && Array.isArray(exoState.items)) {
+    let details = '';
+    exoState.items.forEach(function(it, i) {
+      const exp = (it.reponse || '').toString().trim();
+      const got = (exoState.answers[i] || '').toString().trim();
+      const norm = function(s){ return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,' ').trim(); };
+      const correct = exp && norm(got) === norm(exp);
+      if (!correct) {
+        const phraseLabel = (it.phrase || it.texte || '').replace(/___+|\.\.\.|<[^>]+>/g,'').trim().substring(0,60);
+        details += '<div style="margin-top:6px;font-size:.9em">';
+        details += '🔴 <em>' + escapeHTML(phraseLabel || ('Réponse ' + (i+1))) + '</em>';
+        if (got) {
+          details += ' — tu as écrit <strong style="color:var(--rouge-drapeau)">' + escapeHTML(got) + '</strong>';
+        } else {
+          details += ' — <span style="color:var(--rouge-drapeau)">pas de réponse</span>';
+        }
+        details += '</div>';
+        if (it.astuce) {
+          details += '<div class="astuce" style="margin-top:4px;font-size:.85em">💡 ' + escapeHTML(it.astuce) + '</div>';
+        }
+      }
+    });
+    if (details) fbHTML += details;
+  }
+
+  // Astuce générale
+  if (ex.astuce && !res.ok) {
+    fbHTML += '<span class="astuce">💡 ' + escapeHTML(ex.astuce) + '</span>';
+  }
+  fb.innerHTML = fbHTML;
 
   // Bloquer interactions
   document.querySelectorAll('.exo-option, .vf-btn, .relier-item, .exo-classer-item, .exo-ordonner-item').forEach(el => el.style.pointerEvents = 'none');
@@ -4618,8 +4658,11 @@ function checkExercice(ex, st) {
     case 'fillblank':
       st.items.forEach((it, i) => {
         max += 1;
-        const exp = (it.reponse || '').toString().trim().toLowerCase();
-        const got = (st.answers[i] || '').toString().trim().toLowerCase();
+        const normFill = s => s.toString().trim().toLowerCase()
+          .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+          .replace(/\s+/g,' ');
+        const exp = normFill(it.reponse || '');
+        const got = normFill(st.answers[i] || '');
         if (exp && got === exp) pts++;
         else ok = false;
       });
@@ -4671,8 +4714,8 @@ function checkExercice(ex, st) {
       // Validation numérique tolérante (virgule/point, espaces)
       max = st.calculs.length;
       st.calculs.forEach((c, i) => {
-        const exp = String(c.reponse || '').trim().replace(',', '.').replace(/\s/g, '');
-        const got = String(st.answers[i] || '').trim().replace(',', '.').replace(/\s/g, '');
+        const exp = String(c.reponse || '').trim().replace(',', '.').replace(/\s/g, '').normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+        const got = String(st.answers[i] || '').trim().replace(',', '.').replace(/\s/g, '').normalize('NFD').replace(/[\u0300-\u036f]/g,'');
         if (exp && got && exp === got) pts++;
         else if (exp && got) {
           // tolérance numérique : comparer en float
