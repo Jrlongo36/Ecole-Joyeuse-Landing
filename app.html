@@ -3175,7 +3175,10 @@ const EJ_Phonetique = {
   ],
   corriger(texte) {
     if (!texte) return texte;
-    let r = texte;
+    // Supprimer tous les emojis et symboles avant lecture vocale
+    let r = texte.replace(/[\u{1F000}-\u{1FFFF}\u{2600}-\u{27BF}\u{2300}-\u{23FF}\u{FE00}-\u{FE0F}\u{1F900}-\u{1F9FF}\u{1FA00}-\u{1FA9F}]/gu, ' ');
+    // Nettoyer les espaces multiples generes par la suppression
+    r = r.replace(/  +/g, ' ').trim();
     for (const [mot, ph] of this.lexique) {
       const escaped = mot.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
       r = r.replace(new RegExp(escaped, 'gi'), ph);
