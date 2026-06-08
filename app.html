@@ -3566,7 +3566,14 @@ function renderDashboard() {
 function renderNiveauCard(classe) {
   const prog = getProgress(classe);
   const data = APP.curriculum[classe];
-  const totalLecons = data ? countLeconsInClasse(classe) : 0;
+  // Si curriculum chargé → compter dynamiquement. Sinon → lire depuis l'index.
+  let totalLecons = 0;
+  if (data) {
+    totalLecons = countLeconsInClasse(classe);
+  } else if (APP.curriculumIndex && APP.curriculumIndex.classes) {
+    const entry = APP.curriculumIndex.classes.find(e => e.id === classe);
+    if (entry && entry.total_lecons) totalLecons = entry.total_lecons;
+  }
   const done = Object.keys(prog.lecons_done || {}).length;
   const pct = totalLecons ? Math.round(done / totalLecons * 100) : 0;
   const isFree = classe === 'SIL' || classe === 'CP' || classe === 'CE1';
@@ -3633,7 +3640,7 @@ async function openClasse(classe) {
   APP.nav.classe = classe;
   // Test de niveau obligatoire à la 1ère connexion (sauf SIL)
   if (shouldRequireTestNiveau(classe)) {
-    openTestNiveau(classe);
+    await openTestNiveau(classe);
     return;
   }
   showScreen('levelScreen');
@@ -4891,9 +4898,15 @@ function shouldRequireTestNiveau(classe) {
 
 let _testNivState = null;
 
-function openTestNiveau(classe) {
+async function openTestNiveau(classe) {
   const classePrec = getClasseAvant(classe);
   if (!classePrec) { showScreen('dashboardScreen'); return; }
+  // Charger le curriculum de la classe précédente si absent en mémoire
+  if (!APP.curriculum || !APP.curriculum[classePrec]) {
+    toast('Chargement du test ' + classePrec + '...', 2000);
+    const ok = await loadCurriculumForClass(classePrec);
+    if (!ok) { toast('Impossible de charger le test pour ' + classePrec, 3000); showScreen('dashboardScreen'); return; }
+  }
   _testNivState = {
     classeCible: classe,
     classePrec: classePrec,

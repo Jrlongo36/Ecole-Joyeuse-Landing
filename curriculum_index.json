@@ -6,7 +6,7 @@
     "date_audit": "2026-05-24",
     "statut": "CERTIFIÉ — toutes classes 100/100",
     "corrections": {
-      "CP":  "352 exercices couverts — 7 erreurs pédagogiques corrigées — quiz T3/UA7+UA8 créés",
+      "CP": "352 exercices couverts — 7 erreurs pédagogiques corrigées — quiz T3/UA7+UA8 créés",
       "CE1": "417 exercices couverts — COD/COI/attribut/fractions supprimés — 366 quiz normalisés",
       "CE2": "384 exercices couverts — discipline developpement_personnel T1/UA3 créée",
       "CM1": "609 exercices couverts — 108 occurrences subjonctif → conditionnel présent",
@@ -21,7 +21,9 @@
       "schema_version": "v4.2-complete",
       "active": true,
       "score_audit": "100/100",
-      "visa": "ACCORDÉ"
+      "visa": "ACCORDÉ",
+      "total_lecons": 112,
+      "total_quiz": 448
     },
     {
       "id": "CP",
@@ -30,7 +32,9 @@
       "schema_version": "v4.2-complete",
       "active": true,
       "score_audit": "100/100",
-      "visa": "ACCORDÉ"
+      "visa": "ACCORDÉ",
+      "total_lecons": 138,
+      "total_quiz": 552
     },
     {
       "id": "CE1",
@@ -39,7 +43,9 @@
       "schema_version": "v3.1",
       "active": true,
       "score_audit": "100/100",
-      "visa": "ACCORDÉ"
+      "visa": "ACCORDÉ",
+      "total_lecons": 183,
+      "total_quiz": 942
     },
     {
       "id": "CE2",
@@ -48,7 +54,9 @@
       "schema_version": "v3.1",
       "active": true,
       "score_audit": "100/100",
-      "visa": "ACCORDÉ"
+      "visa": "ACCORDÉ",
+      "total_lecons": 192,
+      "total_quiz": 936
     },
     {
       "id": "CM1",
@@ -57,7 +65,9 @@
       "schema_version": "v3.1",
       "active": true,
       "score_audit": "100/100",
-      "visa": "ACCORDÉ"
+      "visa": "ACCORDÉ",
+      "total_lecons": 230,
+      "total_quiz": 1174
     },
     {
       "id": "CM2",
@@ -66,7 +76,9 @@
       "schema_version": "v3.1",
       "active": true,
       "score_audit": "100/100",
-      "visa": "ACCORDÉ"
+      "visa": "ACCORDÉ",
+      "total_lecons": 233,
+      "total_quiz": 1113
     }
   ]
 }
