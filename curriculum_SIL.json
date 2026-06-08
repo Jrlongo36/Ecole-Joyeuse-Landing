@@ -101,7 +101,8 @@
                   "Utilise une formule de salutation ou de politesse appropriée",
                   "Fait preuve d'assurance et regarde ses interlocuteurs"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Ma famille (parents, frères et sœurs)</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer les membres de sa famille nucléaire (père, mère, frère, sœur)</li>\n<li>Présenter les membres de sa famille à voix haute devant la classe</li>\n<li>Expliquer son lien de parenté de façon simple et audible</li>\n<li>Adopter une posture d&#x27;écoute respectueuse lorsque ses camarades parlent</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA1_EO_L2",
@@ -183,7 +184,8 @@
                   "Explique de façon cohérente l'usage de chaque pièce/objet",
                   "Respecte les règles d'expression orale de la SIL (audio rate 0.72)"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les pièces de la maison et objets domestiques</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer les différentes pièces de la maison (salon, chambre, cuisine, douche)</li>\n<li>Identifier les objets domestiques courants (table, chaise, lit, marmite)</li>\n<li>Expliquer l&#x27;utilité principale de chaque pièce de la maison</li>\n<li>Adopter les bons réflexes de sécurité avec les objets dangereux (couteau, feu)</li>\n</ul></div>"
             }
           ]
         },
@@ -270,7 +272,8 @@
                   "Explique la différence (debout / couché) avec ses propres mots",
                   "Effectue le pointage de gauche à droite"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Initiation au graphisme (lignes verticales et horizontales)</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Distinguer visuellement une ligne verticale d&#x27;une ligne horizontale</li>\n<li>Suivre du doigt des lignes tracées au tableau ou sur une feuille de gauche à droite</li>\n<li>Identifier des objets de l&#x27;environnement qui rappellent des lignes verticales ou horizontales</li>\n<li>Montrer de l&#x27;intérêt pour les formes et le dessin de base</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA1_LC_L2",
@@ -352,7 +355,8 @@
                   "Exclut correctement les mots ne contenant pas la lettre 'a'",
                   "Montre du doigt de façon précise et calme"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les formes et la reconnaissance de la lettre &#x27;a&#x27;</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Reconnaître la lettre &#x27;a&#x27; minuscule script parmi d&#x27;autres lettres</li>\n<li>Associer la lettre &#x27;a&#x27; au son vocalique [a] prononcé par l&#x27;enseignant</li>\n<li>Distinguer la forme ronde et la petite canne de la lettre &#x27;a&#x27;</li>\n<li>Repérer la lettre &#x27;a&#x27; dans des étiquettes de mots simples illustrés</li>\n</ul></div>"
             }
           ]
         },
@@ -439,7 +443,8 @@
                   "Trace des lignes horizontales rectilignes de gauche à droite",
                   "Présente un travail propre, sans ratures excessives"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Tracé de lignes verticales et horizontales</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Tenir correctement son crayon ou sa craie avec trois doigts (pince)</li>\n<li>Tracer des lignes verticales bien droites de haut en bas sur l&#x27;ardoise</li>\n<li>Tracer des lignes horizontales bien droites de gauche à droite sur l&#x27;ardoise</li>\n<li>Respecter l&#x27;espace d&#x27;écriture sur l&#x27;ardoise ou la feuille</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA1_EC_L2",
@@ -521,7 +526,8 @@
                   "Respecte l'alignement et la taille uniforme des lettres",
                   "Tient sa craie ou son crayon correctement sans crispation"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Écriture de la lettre &#x27;a&#x27; en minuscule script</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Tracer un rond bien fermé sur son ardoise de droite à gauche</li>\n<li>Tracer une petite canne verticale bien droite sur le côté droit du rond</li>\n<li>Assembler les deux gestes pour former la lettre &#x27;a&#x27; minuscule script</li>\n<li>Respecter le lignage d&#x27;écriture de base</li>\n</ul></div>"
             }
           ]
         },
@@ -608,7 +614,8 @@
                   "Identifie sans erreur tous les triangles présents",
                   "Explique par un critère simple (c'est rond, ça a des pointes) la différence"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les formes géométriques simples (cercle, carré, triangle)</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Reconnaître visuellement un cercle, un carré et un triangle</li>\n<li>Pointer du doigt et nommer ces formes géométriques simples</li>\n<li>Associer des objets domestiques familiers à ces formes géométriques</li>\n<li>Distinguer les caractéristiques simples (le carré a 4 côtés, le cercle est rond)</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA1_MA_L2",
@@ -690,7 +697,8 @@
                   "Associe à l'oral le chiffre '1' au mot-nombre 'un' avec clarté",
                   "Maintient un travail propre et lisible sur son ardoise"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Le nombre 1 (compter 1 objet de la maison)</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Dénombrer une collection comprenant exactement 1 objet</li>\n<li>Associer la quantité unitaire au mot-nombre &#x27;un&#x27; à l&#x27;oral</li>\n<li>Reconnaître le symbole chiffré &#x27;1&#x27; à l&#x27;écran</li>\n<li>Tracer le chiffre &#x27;1&#x27; sur son ardoise (un petit trait oblique puis un grand trait vertical)</li>\n</ul></div>"
             }
           ]
         },
@@ -777,7 +785,8 @@
                   "Mentionne l'obligation d'utiliser de l'eau propre (non souillée) et du savon",
                   "Maintient une posture d'hygiène corporelle saine"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les parties du corps et l&#x27;hygiène des mains à la maison</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer les grandes parties de son corps (tête, bras, ventre, jambes)</li>\n<li>Pointer ses mains et expliquer à quoi elles servent à la maison</li>\n<li>Démontrer la technique correcte de lavage des mains avec de l&#x27;eau propre et du savon</li>\n<li>Expliquer l&#x27;importance de se laver les mains avant de manger</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA1_SC_L2",
@@ -859,7 +868,8 @@
                   "Démontre à travers le mime le soin apporté aux affaires familiales",
                   "Utilise un langage adapté et respectueux"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">La propreté et le rangement de la maison</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier les outils de nettoyage de la maison (balai, seau d&#x27;eau, serpillière)</li>\n<li>Expliquer pourquoi il ne faut pas jeter de déchets par terre au salon ou à la cuisine</li>\n<li>Participer activement à ranger ses jouets et ses habits à leur place</li>\n<li>Adopter des habitudes de vie hygiéniques au foyer</li>\n</ul></div>"
             }
           ]
         },
@@ -946,7 +956,8 @@
                   "Formule l'explication (respect de l'ancien + danger de la pluie)",
                   "Garde un ton calme et respectueux sans crier"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Respecter ses parents et ses aînés à la maison</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Saluer poliment ses parents et les anciens de la maison au réveil</li>\n<li>Écouter attentivement les consignes et conseils donnés par ses parents</li>\n<li>Adopter un langage poli et respectueux (s&#x27;il vous plaît, merci, pardon)</li>\n<li>Comprendre l&#x27;importance de l&#x27;obéissance pour vivre en sécurité</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA1_SH_L2",
@@ -1028,7 +1039,8 @@
                   "Formule les phrases d'explication de façon simple et polie",
                   "Démontre une volonté d'entraide familiale sincère"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Participer aux petites tâches ménagères en famille</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier les tâches de la maison adaptées à son âge en SIL</li>\n<li>Expliquer pourquoi il est important d&#x27;aider sa famille à la maison</li>\n<li>Démontrer sa volonté de collaborer (ranger, essuyer la table)</li>\n<li>Adopter une attitude joyeuse et volontaire dans l&#x27;effort familial</li>\n</ul></div>"
             }
           ]
         },
@@ -1115,7 +1127,8 @@
                   "Looks at the person he is greeting politely",
                   "Expresses self with confidence in English"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Introducing my family members (father, mother, sister, brother)</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Understand the English words for core family members (father, mother, brother, sister)</li>\n<li>Point to drawings representing these family members when named in English</li>\n<li>Say &#x27;This is my mother&#x27; or &#x27;This is my father&#x27; clearly at school</li>\n<li>Greet family members in English at home (Good morning, Hello)</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA1_EN_L2",
@@ -1197,7 +1210,8 @@
                   "Uses polite English expressions ('please', 'thank you')",
                   "Speaks in a clear, audible voice adapted to SIL level"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Naming common house objects (table, chair, bed, door)</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Recognize and name common house objects in English (table, chair, bed, door)</li>\n<li>Point to these objects in the room when requested in English</li>\n<li>Understand simple instructions in English (Open the door, sit on the chair)</li>\n<li>Enjoy learning vocabulary through songs and interactive play</li>\n</ul></div>"
             }
           ]
         }
@@ -1290,7 +1304,8 @@
                   "Utilise au moins une formule de politesse",
                   "S'exprime de façon compréhensible et audible"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Mon village, ma ville</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Décrire oralement des objets et des lieux réels en utilisant un vocabulaire approprié en rapport avec le village et la ville (maison, rue, marché, puits, fontaine, quartier)</li>\n<li>Demander et donner une information sur son lieu de vie (Où habites-tu ? J&#x27;habite à... / dans un village / dans une ville)</li>\n<li>Échanger entre locuteurs dans diverses situations de communication liées au cadre de vie</li>\n<li>Prononcer des sons de l&#x27;alphabet et identifier les sons [a], [o], [i] dans des mots courants du village/ville</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA2_EO_L2",
@@ -1372,7 +1387,8 @@
                   "Propose un geste réaliste de protection (couvrir l'eau, ne pas y jeter d'ordures...)",
                   "S'exprime en phrases complètes et compréhensibles"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">L&#x27;eau dans notre vie</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Décrire oralement les sources et les usages de l&#x27;eau dans le village/ville (pluie, rivière, puits, fontaine, robinet)</li>\n<li>Identifier les sons [a], [o], [i] dans des mots liés à l&#x27;eau (eau, robinet, pluie, fontaine, puits)</li>\n<li>Raconter une situation liée à l&#x27;eau (aller chercher de l&#x27;eau, se laver, arroser)</li>\n<li>Exprimer oralement l&#x27;importance de l&#x27;eau propre pour la santé et la vie quotidienne</li>\n</ul></div>"
             }
           ]
         },
@@ -1460,7 +1476,8 @@
                   "Identifie correctement le nombre de [o] dans chaque mot",
                   "Lit à un rythme compréhensible (pas trop vite, pas syllabe par syllabe isolée)"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les voyelles A et O</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Prononcer correctement le son [a] et identifier la lettre &#x27;a&#x27; en minuscule et en majuscule dans une série de lettres</li>\n<li>Prononcer correctement le son [o] et identifier la lettre &#x27;o&#x27; en minuscule et en majuscule</li>\n<li>Lire des syllabes directes contenant a et o : ma, la, ta, pa, mo, lo, to, po, bo</li>\n<li>Lire des mots simples formés avec a et o et en comprendre le sens : mama, moto, polo, boa</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA2_LC_L2",
@@ -1542,7 +1559,8 @@
                   "Ne confond pas [i] et [l] à la lecture",
                   "Donne au moins 1 sens de mot lorsqu'on le lui demande"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">La voyelle I et les mots</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Prononcer correctement le son [i] et identifier la lettre &#x27;i&#x27; (minuscule et majuscule) dans une série de lettres et de mots</li>\n<li>Lire des syllabes directes contenant i : mi, li, pi, ti, si, bi</li>\n<li>Lire des mots mélangeant les voyelles a, o, i : ami, midi, loti, pili, miso</li>\n<li>Comprendre le sens d&#x27;un mot lu à partir du contexte ou de l&#x27;image associée</li>\n</ul></div>"
             }
           ]
         },
@@ -1630,7 +1648,8 @@
                   "Respecte le sens d'écriture gauche-droite",
                   "L'espacement entre les lettres d'un mot est correct"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">J&#x27;écris les lettres A et O</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Tracer correctement la lettre &#x27;a&#x27; en minuscule en respectant le sens conventionnel d&#x27;écriture (de gauche à droite, de haut en bas)</li>\n<li>Tracer correctement la lettre &#x27;A&#x27; en majuscule sur une ligne de cahier</li>\n<li>Tracer correctement les lettres &#x27;o&#x27; et &#x27;O&#x27; (ronde, fermée, dans la bonne proportion)</li>\n<li>Copier des mots simples contenant a et o — moto, polo, mama — en respectant la taille et la forme des lettres</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA2_EC_L2",
@@ -1712,7 +1731,8 @@
                   "L'espacement entre les lettres et entre les mots est lisible",
                   "L'écriture va de gauche à droite sur la ligne"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">J&#x27;écris la lettre I et je copie des mots</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Tracer correctement la lettre &#x27;i&#x27; minuscule : un trait vertical droit surmonté d&#x27;un point</li>\n<li>Tracer correctement la lettre &#x27;I&#x27; majuscule avec ses deux petites barres horizontales</li>\n<li>Copier des mots mêlant a, o, i en respectant la taille, la forme et l&#x27;espace entre les mots</li>\n<li>Respecter le sens conventionnel de l&#x27;écriture et l&#x27;espacement correct entre les lettres d&#x27;un même mot</li>\n</ul></div>"
             }
           ]
         },
@@ -1799,7 +1819,8 @@
                   "Identifie correctement le plus grand et le plus petit nombre",
                   "Utilise les termes 'plus que' et 'moins que' dans sa réponse"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Je compte dans mon quartier — Les nombres 1 à 6</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Compter des objets du village/ville de 1 à 6 (maisons, arbres, étals de marché, personnes) en pointant chaque objet</li>\n<li>Associer le symbole chiffre à la quantité correspondante pour les nombres 1 à 6</li>\n<li>Écrire les chiffres 4, 5 et 6 en respectant la forme correcte (les chiffres 1, 2, 3 étant supposés acquis de UA1)</li>\n<li>Comparer deux quantités (entre 1 et 6) et utiliser les termes : plus que / moins que / autant que</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA2_MA_L2",
@@ -1881,7 +1902,8 @@
                   "Associe chaque forme à l'élément de la maison/quartier qu'elle représente",
                   "Nomme au moins une autre forme qu'il voit dans la vie réelle"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les formes de ma ville — Géométrie</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Reconnaître et nommer les 4 formes géométriques de base : cercle, carré, triangle, rectangle</li>\n<li>Associer une forme géométrique à un objet réel du village/ville (fenêtre=carré, roue=cercle, toit=triangle, porte=rectangle)</li>\n<li>Trier et classer des objets ou des images selon leur forme géométrique (4 groupes)</li>\n<li>Reproduire à main levée un cercle, un carré et un triangle en respectant approximativement les proportions</li>\n</ul></div>"
             }
           ]
         },
@@ -1968,7 +1990,8 @@
                   "Propose un geste réaliste et applicable (couvrir l'eau, ne pas jeter d'ordures près des sources)",
                   "S'exprime clairement avec des phrases compréhensibles"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">L&#x27;eau dans notre vie</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier et nommer les différentes sources d&#x27;eau présentes au village/ville (pluie, rivière, puits, fontaine, robinet)</li>\n<li>Décrire les principales utilisations de l&#x27;eau au quotidien (boire, cuisiner, se laver, arroser, construire)</li>\n<li>Distinguer l&#x27;eau propre (claire, sans odeur) de l&#x27;eau sale (trouble, colorée, malodorante) et expliquer les risques</li>\n<li>Citer au moins 3 gestes concrets pour conserver et protéger l&#x27;eau propre</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA2_SC_L2",
@@ -2050,7 +2073,8 @@
                   "Choisit un geste personnel applicable dès demain",
                   "S'exprime avec conviction et des phrases complètes"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Notre quartier propre</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier les types de déchets et de pollution présents dans le quartier/village (ordures ménagères, eaux usées, fumées, déchets animaux)</li>\n<li>Expliquer les conséquences de la pollution du quartier sur la santé et le cadre de vie (maladies, mauvaises odeurs, insectes, laideur)</li>\n<li>Citer au moins 3 bonnes pratiques pour maintenir son quartier propre (jeter dans la poubelle, balayer devant sa porte, ne pas brûler n&#x27;importe où)</li>\n<li>Distinguer un quartier propre d&#x27;un quartier sale à partir d&#x27;images et en tirer des conclusions pratiques</li>\n</ul></div>"
             }
           ]
         },
@@ -2137,7 +2161,8 @@
                   "La règle citée est liée au respect du voisinage (bruit, propreté, entraide)",
                   "Le jeu de rôle est compréhensible et naturel"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Je vis avec mes voisins</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Définir ce qu&#x27;est un voisin et décrire les relations de bon voisinage (partage, respect, entraide)</li>\n<li>Identifier les comportements qui favorisent la paix dans le quartier (saluer, ne pas faire de bruit la nuit, partager, aider)</li>\n<li>Distinguer les comportements perturbateurs (disputes, bruit, vols, insolence) des comportements pacifiques</li>\n<li>Appliquer les formules de politesse dans les échanges avec les voisins (bonjour, merci, s&#x27;il vous plaît, pardon)</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA2_SH_L2",
@@ -2219,7 +2244,8 @@
                   "Identifie le service qu'il fréquente et donne une raison cohérente",
                   "Utilise un vocabulaire adapté (soigner, apprendre, acheter, prier, administrer)"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les services de mon quartier</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier et nommer les services essentiels du village/ville : école, marché, dispensaire, lieu de culte, mairie/chefferie, fontaine/puits</li>\n<li>Associer chaque service à sa fonction principale (dispensaire → soigner, marché → acheter/vendre, école → apprendre)</li>\n<li>Expliquer l&#x27;importance de chaque service pour la vie et le bien-être de la communauté</li>\n<li>Localiser dans son propre quartier ou village au moins 3 services qu&#x27;il fréquente réellement</li>\n</ul></div>"
             }
           ]
         },
@@ -2306,7 +2332,8 @@
                   "Answers the question about the well with at least 'The well is...'",
                   "Is understood by the listener (clear enough English)"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">My village, my town</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Name 6 key places in a village or town in English: market, school, hospital, church, well, road</li>\n<li>Use simple sentences to locate a place: The market is near my house / My school is far / The well is here</li>\n<li>Listen to simple English sentences and identify the place being described</li>\n<li>Ask and answer simple questions about places using basic English: Where is the market? — It is near the well.</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA2_EN_L2",
@@ -2388,7 +2415,8 @@
                   "Recites 2 lines of the chant with correct words (rhythm may be imperfect)",
                   "Is understood by the listener — pronunciation effort is visible"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Water is life</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Name water-related vocabulary in English: water, rain, river, well, tap, clean, dirty, drink, wash</li>\n<li>Use simple sentences about water: We drink clean water / Do not drink dirty water / Rain comes from the sky</li>\n<li>Listen to and respond to simple instructions about water: Point to the river / Show me the well / Is this water clean or dirty?</li>\n<li>Recite a short English water chant with correct rhythm and pronunciation</li>\n</ul></div>"
             }
           ]
         }
@@ -2481,7 +2509,8 @@
                   "Énonce une règle scolaire réelle et justifiée",
                   "S'exprime en phrases complètes et compréhensibles"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Mon école, mes camarades</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Décrire oralement l&#x27;environnement scolaire en utilisant le vocabulaire approprié (salle de classe, cour, toilettes, bureau du directeur, tableau, pupitres, fenêtres)</li>\n<li>Présenter ses camarades de classe et son enseignant à l&#x27;aide de formules appropriées (Je vous présente... Il/Elle s&#x27;appelle... C&#x27;est mon ami/mon amie...)</li>\n<li>Raconter oralement une courte situation vécue ou imaginée à l&#x27;école en utilisant des phrases simples et cohérentes</li>\n<li>Identifier et prononcer les sons [u] et [e] dans des mots liés à l&#x27;école (école, bureau, élève, pupitres, uniforme)</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA3_EO_L2",
@@ -2563,7 +2592,8 @@
                   "2 lignes du poème récitées avec les bons mots et une expression vocale",
                   "Volume de voix suffisant pour être entendu clairement"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">J&#x27;apprends à l&#x27;école — matériel et poème</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer et décrire les matériels scolaires courants en indiquant leur utilité (crayon → écrire, cahier → noter les leçons, ardoise → s&#x27;exercer, règle → tracer des lignes, cartable → transporter ses affaires)</li>\n<li>Décrire les activités d&#x27;apprentissage à l&#x27;école (lire, écrire, compter, dessiner, chanter, écouter, réciter, jouer)</li>\n<li>Déclamer un court poème sur l&#x27;école avec expression vocale, rythme et volume appropriés</li>\n<li>Prononcer clairement les sons [é], [è] et [ê] dans des mots liés à l&#x27;école (école, élève, fête, être, fenêtre, règle, maître)</li>\n</ul></div>"
             }
           ]
         },
@@ -2652,7 +2682,8 @@
                   "Frappe le bon nombre de syllabes pour au moins 4 mots",
                   "Distingue [u] de [o] sans confusion à la lecture"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les voyelles U et E</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Prononcer correctement le son [u] (comme dans &#x27;lune&#x27;) et identifier la lettre &#x27;u&#x27; en minuscule et en majuscule dans des séries de lettres et de mots</li>\n<li>Prononcer correctement le son [e/ə] (comme dans &#x27;le&#x27;) et identifier la lettre &#x27;e&#x27; en minuscule et en majuscule</li>\n<li>Lire des syllabes directes contenant u et e : lu, ru, tu, mu, su / le, me, te, se, re, pe</li>\n<li>Lire des mots simples mélangeant toutes les voyelles connues (a, o, i, u, e) et en identifier le sens dans un contexte scolaire</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA3_LC_L2",
@@ -2734,7 +2765,8 @@
                   "Identifie le type d'accent (aigu/grave/circonflexe) dans au moins 2 mots",
                   "Produit des phrases d'explication compréhensibles (même courtes)"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les voyelles accentuées É, È, Ê et les mots de l&#x27;école</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Distinguer et prononcer correctement les trois voyelles accentuées : é [é fermé, bouche mi-fermée], è et ê [è ouvert, bouche plus ouverte]</li>\n<li>Identifier et nommer les accents : accent aigu (é), accent grave (è), accent circonflexe (ê) et comprendre leur rôle sur le son</li>\n<li>Lire des mots fréquents de l&#x27;école contenant é, è, ê comme mots globaux : école, élève, fête, fenêtre, règle, maître, été</li>\n<li>Comprendre le sens d&#x27;un mot lu à partir de son contexte scolaire (image, situation de classe)</li>\n</ul></div>"
             }
           ]
         },
@@ -2822,7 +2854,8 @@
                   "La lettre 'e' est clairement identifiable avec son ouverture à droite",
                   "L'espacement entre les lettres et les mots est correct"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">J&#x27;écris les lettres U et E</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Tracer correctement la lettre &#x27;u&#x27; minuscule : deux traits verticaux liés en bas par une courbe, suivi d&#x27;un trait final vers le bas</li>\n<li>Tracer correctement la lettre &#x27;U&#x27; majuscule : deux traits verticaux liés par une courbe en bas</li>\n<li>Tracer correctement la lettre &#x27;e&#x27; minuscule : une boucle horizontale ouverte à droite, partant d&#x27;un trait horizontal au milieu</li>\n<li>Copier des mots simples contenant u et e en respectant la taille, la forme et l&#x27;espacement des lettres</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA3_EC_L2",
@@ -2904,7 +2937,8 @@
                   "Le sens de l'accent est correct (aigu vs grave vs circonflexe)",
                   "Les mots sont lisibles et l'écriture va de gauche à droite"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">J&#x27;écris É, È, Ê et des mots de l&#x27;école</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Tracer correctement les trois accents sur le &#x27;e&#x27; : accent aigu (trait montant vers la droite /), accent grave (trait descendant vers la droite \\), accent circonflexe (chapeau pointu ^)</li>\n<li>Écrire correctement é, è, ê dans des mots simples de l&#x27;école</li>\n<li>Copier des mots de l&#x27;école contenant des voyelles accentuées : été, école, élève, règle</li>\n<li>Produire par écrit 2 à 3 mots en rapport avec l&#x27;école sous dictée guidée</li>\n</ul></div>"
             }
           ]
         },
@@ -2991,7 +3025,8 @@
                   "Range les 3 nombres dans le bon ordre croissant",
                   "Dit à voix haute le nombre le plus grand et le plus petit"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Je compte mon matériel scolaire — Les nombres 7 à 10</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Compter des objets scolaires de 7 à 10 (stylos, crayons, cahiers, élèves, chaises) en pointant chaque objet</li>\n<li>Associer le symbole chiffre à la quantité correspondante pour les nombres 7, 8, 9 et 10</li>\n<li>Écrire les chiffres 7, 8, 9 et 10 en respectant la forme correcte et l&#x27;orientation</li>\n<li>Ordonner les nombres de 1 à 10 dans l&#x27;ordre croissant (1→10) et décroissant (10→1)</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA3_MA_L2",
@@ -3073,7 +3108,8 @@
                   "Calcule correctement 3 + 4 = 7 avec les objets ou les doigts",
                   "Écrit l'opération 3 + 4 = 7 de façon lisible"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Premier et dernier — Les nombres ordinaux et initiation à l&#x27;addition</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Utiliser les nombres ordinaux simples dans des situations concrètes de la vie scolaire : premier, deuxième, troisième, dernier</li>\n<li>Identifier la position d&#x27;un objet ou d&#x27;une personne dans une file/série (le 2ème élève dans la queue, la 3ème chaise en partant de la porte)</li>\n<li>Ordonner une série de 5 images ou d&#x27;objets et indiquer la position de chacun avec le nombre ordinal correct</li>\n<li>Réaliser des additions simples concrètes avec des objets scolaires : 3 crayons + 2 crayons = 5 crayons (en manipulant des objets physiques)</li>\n</ul></div>"
             }
           ]
         },
@@ -3160,7 +3196,8 @@
                   "Décrit 2 gestes de soin réalistes et applicables",
                   "Fait le lien entre le matériau et l'utilité de l'objet pour au moins 2 objets"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Mon matériel scolaire</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer et classer les matériels scolaires par catégorie fonctionnelle : outils pour écrire (crayon, stylo, craie, ardoise), outils pour lire (livre, cahier), outils pour ranger (cartable, trousse)</li>\n<li>Identifier les matériaux dont sont faits les objets scolaires et comprendre leur utilité (bois du crayon → léger et solide, papier du cahier → facile à écrire dessus, plastique de la règle → résistant et transparent)</li>\n<li>Expliquer l&#x27;utilité de chaque matériel scolaire dans les apprentissages quotidiens</li>\n<li>Prendre soin du matériel scolaire : identifier les bons gestes (couvrir les livres, ranger la trousse, ne pas casser les crayons, taille-crayons utilisé correctement)</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA3_SC_L2",
@@ -3242,7 +3279,8 @@
                   "Décrit au moins 1 différence pertinente classe propre / classe sale",
                   "S'exprime avec confiance et des phrases complètes"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">La propreté à l&#x27;école</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier les règles d&#x27;hygiène à respecter à l&#x27;école : se laver les mains avant de manger, jeter les papiers et emballages dans la corbeille, garder sa table et son espace de travail propres, ne pas cracher par terre</li>\n<li>Expliquer pourquoi la propreté est importante à l&#x27;école : santé des élèves (microbes), cadre d&#x27;apprentissage (concentration), respect de l&#x27;environnement et des autres</li>\n<li>Distinguer une salle de classe propre d&#x27;une salle de classe sale à partir d&#x27;images et identifier les conséquences de chaque situation</li>\n<li>S&#x27;engager dans 3 actions concrètes quotidiennes pour garder sa salle de classe propre</li>\n</ul></div>"
             }
           ]
         },
@@ -3329,7 +3367,8 @@
                   "Exemple de comportement à corriger bien choisi",
                   "Alternative positive proposée pour le comportement (pas uniquement une sanction)"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les règles de mon école</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier et nommer les principales règles de vie scolaire (arriver à l&#x27;heure, respecter l&#x27;enseignant et les camarades, ne pas se battre, lever la main avant de parler, ne pas tricher, prendre soin du matériel)</li>\n<li>Expliquer pourquoi chaque règle est nécessaire au bon fonctionnement de la classe et de l&#x27;école</li>\n<li>Distinguer les comportements acceptables des comportements inacceptables à l&#x27;école et proposer une alternative correcte</li>\n<li>Participer à la construction collective d&#x27;une &#x27;charte de classe&#x27; simple avec au moins 5 règles fondamentales formulées à la 1ère personne</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA3_SH_L2",
@@ -3411,7 +3450,8 @@
                   "Propose une résolution pacifique et réaliste pour chaque situation",
                   "S'exprime avec maturité et équité (ne prend pas parti de façon injuste)"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Mes droits et devoirs à l&#x27;école</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer ses droits fondamentaux à l&#x27;école : droit d&#x27;apprendre dans de bonnes conditions, droit à la sécurité et à la protection contre la violence, droit d&#x27;être respecté, droit de poser des questions et de demander de l&#x27;aide</li>\n<li>Nommer ses devoirs à l&#x27;école : devoir de venir régulièrement, de faire ses devoirs, de respecter les autres élèves et l&#x27;enseignant, de prendre soin du matériel de l&#x27;école</li>\n<li>Associer chaque droit à son devoir correspondant (droit d&#x27;apprendre ↔ devoir d&#x27;être attentif et présent)</li>\n<li>Citer des exemples concrets de situations où ses droits sont respectés ou non respectés, et savoir à qui s&#x27;adresser en cas de problème</li>\n</ul></div>"
             }
           ]
         },
@@ -3498,7 +3538,8 @@
                   "Correctly names the colours of 2 objects in English",
                   "Is understood by the listener (pronunciation effort is clear)"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">My classroom</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Name 8 classroom objects in English with correct pronunciation: board (tableau), chalk (craie), desk (pupitre), chair (chaise), book (livre), pen (stylo), pencil (crayon), bag (sac/cartable)</li>\n<li>Use simple sentences to describe the classroom: There is a board in my classroom / I have a pencil and a book / My bag is on the desk</li>\n<li>Ask and answer using &#x27;What is this?&#x27; — &#x27;This is a book/chair/pen...&#x27; and &#x27;What colour is your...?&#x27; — &#x27;It is red/blue/green...&#x27;</li>\n<li>Identify colours of classroom objects in English: red, blue, green, yellow, black, white, brown, orange</li>\n</ul></div>"
             },
             {
               "id": "SIL_T1_UA3_EN_L2",
@@ -3580,7 +3621,8 @@
                   "Correctly follows 2 classroom instructions (sit down, stand up, open book, etc.)",
                   "Overall communication is understandable in English"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">At school</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Describe a school day routine using simple English: wake up, go to school, learn, eat, play, go home, sleep</li>\n<li>Understand and respond to 6 common classroom instructions in English: Sit down / Stand up / Open your book / Close your book / Listen / Repeat / Write / Stop</li>\n<li>Express preferences about school using &#x27;I like&#x27; and &#x27;I don&#x27;t like&#x27;: I like drawing / I don&#x27;t like sitting still for a long time</li>\n<li>Describe a school day in 3 simple English sentences: In the morning I go to school / At school I learn and play / In the evening I go home</li>\n</ul></div>"
             }
           ]
         }
@@ -3725,7 +3767,8 @@
                   "Phrases complètes et audibles"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Manga à Yaoundé)"
+              "objectif": "Objectif pédagogique. (Avec Manga à Yaoundé)",
+              "contenu": "<h2 class=\"lecon-titre\">Les métiers de mon quartier</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Manga à Yaoundé)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer 6 métiers du quartier : menuisier, couturier, forgeron, maçon, commerçant, enseignant</li>\n<li>Associer chaque métier à son lieu de travail (forgeron→forge, commerçant→marché)</li>\n<li>Décrire en 1 phrase l&#x27;action principale d&#x27;un artisan (Le menuisier coupe le bois avec sa scie)</li>\n<li>Identifier et prononcer le son complexe [ou] dans des mots de métiers : couture, outil, coudre</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA4_EO_L2",
@@ -3807,7 +3850,8 @@
                   "2 mots avec [ou] identifiés",
                   "Ton adapté à une petite enfant"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Le travail et ses outils</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer les outils principaux de 4 métiers : marteau→forgeron, scie→menuisier, balance→commerçant, truelle→maçon</li>\n<li>Décrire l&#x27;utilité de chaque outil en 1 phrase : Le marteau sert à frapper le métal</li>\n<li>Raconter une courte histoire autour d&#x27;un artisan camerounais en utilisant le vocabulaire du métier</li>\n<li>Identifier et prononcer le son [ou] dans des mots d&#x27;outils : outil, couteau, moudre, moule</li>\n</ul></div>"
             }
           ]
         },
@@ -3895,7 +3939,8 @@
                   "Distingue [o] de [ou]"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Amina à Bamenda)"
+              "objectif": "Objectif pédagogique. (Avec Amina à Bamenda)",
+              "contenu": "<h2 class=\"lecon-titre\">La voyelle complexe OU et la consonne M</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Amina à Bamenda)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Prononcer correctement la voyelle complexe [ou] et identifier &#x27;ou&#x27; dans des mots écrits</li>\n<li>Lire les syllabes directes avec M : ma, mo, mi, mu, me, mou</li>\n<li>Lire la syllabe complexe &#x27;mou&#x27; et distinguer [ou] de [o]</li>\n<li>Lire des mots contenant &#x27;ou&#x27; et M : mou, moue, moule, mouton, moto</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA4_LC_L2",
@@ -3978,7 +4023,8 @@
                   "Distingue syllabe directe et inversée"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ndongo à Yaoundé)"
+              "objectif": "Objectif pédagogique. (Avec Ndongo à Yaoundé)",
+              "contenu": "<h2 class=\"lecon-titre\">Les syllabes inversées AL, OL, UL, IL</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndongo à Yaoundé)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Lire les syllabes inversées al, ol, ul, il (voyelle puis consonne L)</li>\n<li>Distinguer syllabes directes (la, lo, lu, li) des syllabes inversées (al, ol, ul, il)</li>\n<li>Lire des mots contenant ces syllabes inversées : bal, col, til, mal, sol</li>\n<li>Comprendre le sens de ces mots dans le contexte des métiers</li>\n</ul></div>"
             }
           ]
         },
@@ -4066,7 +4112,8 @@
                   "Écriture gauche-droite sur la ligne"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Manga à Kribi)"
+              "objectif": "Objectif pédagogique. (Avec Manga à Kribi)",
+              "contenu": "<h2 class=\"lecon-titre\">J&#x27;écris OU et la consonne M</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Manga à Kribi)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Tracer correctement la voyelle complexe &#x27;ou&#x27; en deux lettres bien formées et liées</li>\n<li>Tracer correctement la consonne M minuscule (3 bosses vers le haut) et majuscule</li>\n<li>Écrire des syllabes avec M : ma, mo, mi, mu, me, mou</li>\n<li>Copier des mots contenant M et ou : mouton, mou, moule, mama</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA4_EC_L2",
@@ -4149,7 +4196,8 @@
                   "Lettres dans la bonne direction"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ndongo à Douala)"
+              "objectif": "Objectif pédagogique. (Avec Ndongo à Douala)",
+              "contenu": "<h2 class=\"lecon-titre\">J&#x27;écris les syllabes inversées et des mots de métiers</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndongo à Douala)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Écrire les syllabes inversées al, ol, ul, il en respectant l&#x27;ordre voyelle + L</li>\n<li>Écrire des mots simples contenant des syllabes inversées : bal, col, sol, mal</li>\n<li>Copier une courte phrase : &#x27;Mama coud ma robe&#x27;</li>\n<li>Produire par écrit 2 mots de métiers sous dictée guidée</li>\n</ul></div>"
             }
           ]
         },
@@ -4237,7 +4285,8 @@
                   "Vérifie en comptant à voix haute"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Bineta à Maroua)"
+              "objectif": "Objectif pédagogique. (Avec Bineta à Maroua)",
+              "contenu": "<h2 class=\"lecon-titre\">L&#x27;addition au marché</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Bineta à Maroua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Comprendre l&#x27;addition comme &#x27;mettre ensemble&#x27; à partir de situations concrètes de métiers</li>\n<li>Réaliser des additions simples (résultats ≤ 10) en manipulant des objets</li>\n<li>Lire et écrire : 3 + 4 = 7 (signe +, signe =, résultat)</li>\n<li>Résoudre 3 additions simples en contexte de marché ou d&#x27;atelier</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA4_MA_L2",
@@ -4320,7 +4369,8 @@
                   "Vérifie si incertain"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Tina à Douala)"
+              "objectif": "Objectif pédagogique. (Avec Tina à Douala)",
+              "contenu": "<h2 class=\"lecon-titre\">Résoudre des problèmes d&#x27;addition</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Tina à Douala)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier les informations utiles dans un énoncé (qui, combien, que se passe-t-il)</li>\n<li>Choisir l&#x27;addition pour résoudre un problème de métier</li>\n<li>Écrire l&#x27;opération et calculer le résultat</li>\n<li>Formuler la réponse en phrase complète</li>\n</ul></div>"
             }
           ]
         },
@@ -4408,7 +4458,8 @@
                   "Justification logique de chaque association"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ndongo à Yaoundé)"
+              "objectif": "Objectif pédagogique. (Avec Ndongo à Yaoundé)",
+              "contenu": "<h2 class=\"lecon-titre\">Les matériaux des artisans</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndongo à Yaoundé)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier les matériaux des artisans camerounais : bois, métal, tissu, argile, raphia</li>\n<li>Associer matériau et artisan : bois→menuisier, métal→forgeron, tissu→couturier, argile→potier</li>\n<li>Décrire les propriétés sensorielles d&#x27;un matériau : dur/mou, lisse/rugueux, lourd/léger</li>\n<li>Expliquer pourquoi chaque artisan choisit son matériau principal</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA4_SC_L2",
@@ -4490,7 +4541,8 @@
                   "1 raison valable de valoriser les artisans",
                   "S'exprime avec respect"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">D&#x27;où viennent les objets que j&#x27;utilise ?</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier l&#x27;origine naturelle des matériaux : bois=forêt, métal=mines, tissu=coton, argile=sol</li>\n<li>Décrire le chemin de transformation d&#x27;un objet : arbre→bois→meuble / coton→fil→tissu→vêtement</li>\n<li>Reconnaître des objets artisanaux camerounais : mortier, natte, panier, canari</li>\n<li>Exprimer de la gratitude pour le travail des artisans</li>\n</ul></div>"
             }
           ]
         },
@@ -4578,7 +4630,8 @@
                   "Ton respectueux et chaleureux"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Mbappe à Foumban)"
+              "objectif": "Objectif pédagogique. (Avec Mbappe à Foumban)",
+              "contenu": "<h2 class=\"lecon-titre\">Les métiers qui servent la communauté</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Mbappe à Foumban)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier les métiers de service essentiels : médecin, enseignant, infirmier, agent de propreté, policier</li>\n<li>Expliquer comment chaque métier contribue au bien-être de la communauté</li>\n<li>Distinguer métiers visibles et moins visibles mais tout aussi importants</li>\n<li>Exprimer de la gratitude envers ceux qui exercent des métiers de service</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA4_SH_L2",
@@ -4661,7 +4714,8 @@
                   "Ton valorisant pour tous les métiers"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Bineta à Kribi)"
+              "objectif": "Objectif pédagogique. (Avec Bineta à Kribi)",
+              "contenu": "<h2 class=\"lecon-titre\">Respect du travail et dignité de tous les métiers</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Bineta à Kribi)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Affirmer que tous les métiers honnêtes méritent le respect quelle que soit leur rémunération</li>\n<li>Identifier des préjugés sur certains métiers (manuel = moins bien) et les déconstruire</li>\n<li>Relier travail honnête à fierté personnelle et dignité humaine</li>\n<li>Exprimer ses aspirations professionnelles en les justifiant par des valeurs</li>\n</ul></div>"
             }
           ]
         },
@@ -4749,7 +4803,8 @@
                   "Is understandable"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Bineta à Maroua)"
+              "objectif": "Objectif pédagogique. (Avec Bineta à Maroua)",
+              "contenu": "<h2 class=\"lecon-titre\">Jobs and professions</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Bineta à Maroua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Name 7 jobs in English: teacher, doctor, farmer, carpenter, merchant, blacksmith, tailor</li>\n<li>Use simple sentences: A teacher teaches / A farmer grows food / A doctor heals sick people</li>\n<li>Identify a job when described in simple English (builds houses → builder/mason)</li>\n<li>Ask and answer: What do you want to be? — I want to be a doctor/teacher/farmer</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA4_EN_L2",
@@ -4832,7 +4887,8 @@
                   "Answers question about preference"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ndongo à Garoua)"
+              "objectif": "Objectif pédagogique. (Avec Ndongo à Garoua)",
+              "contenu": "<h2 class=\"lecon-titre\">What do they do? — Action verbs for jobs</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndongo à Garoua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Use 8 action verbs for jobs: teach, heal, grow, build, sell, make, cook, drive</li>\n<li>Connect verb to job: A teacher teaches / A farmer grows food / A builder builds houses</li>\n<li>Use simple present: She teaches children / He grows maize / They sell at the market</li>\n<li>Listen and respond to job-related instructions: Mime a farmer / Point to the carpenter</li>\n</ul></div>"
             }
           ]
         }
@@ -4970,7 +5026,8 @@
                   "Recommandation avec 2 raisons",
                   "S'exprime de façon organisée"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les moyens de transport au Cameroun</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer 7 moyens de transport : moto, taxi, bus, pirogue, train, avion, vélo</li>\n<li>Associer chaque transport à son milieu : air, eau, terre</li>\n<li>Comparer les transports selon leurs caractéristiques : rapide/lent, cher/abordable</li>\n<li>Identifier le son [r] dans des mots de transport : route, rail, rapide, rivière</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA5_EO_L2",
@@ -5053,7 +5110,8 @@
                   "Moyen de transport nommé"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Tabi à Bamenda)"
+              "objectif": "Objectif pédagogique. (Avec Tabi à Bamenda)",
+              "contenu": "<h2 class=\"lecon-titre\">Je prépare mon voyage</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Tabi à Bamenda)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Décrire les étapes de préparation : faire les bagages, acheter les provisions, dire au revoir, prendre le transport</li>\n<li>Exprimer des émotions liées au voyage : excitation, peur, joie, tristesse de quitter la famille</li>\n<li>Raconter un voyage avec connecteurs temporels : d&#x27;abord, ensuite, puis, enfin</li>\n<li>Identifier le son [r] dans des mots du voyage : route, rivière, arriver, partir, retour</li>\n</ul></div>"
             }
           ]
         },
@@ -5141,7 +5199,8 @@
                   "Compte les syllabes de 2 mots"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Tabi à Foumban)"
+              "objectif": "Objectif pédagogique. (Avec Tabi à Foumban)",
+              "contenu": "<h2 class=\"lecon-titre\">Les consonnes R et T</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Tabi à Foumban)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Prononcer correctement R [r] et identifier &#x27;r&#x27; en minuscule et majuscule</li>\n<li>Prononcer correctement T [t] et identifier &#x27;t&#x27; en minuscule et majuscule</li>\n<li>Lire des syllabes avec R et T : ra, ro, ri, ru, re / ta, to, ti, tu, te</li>\n<li>Lire des mots contenant R et T : roue, route, riz, tôt, moto, tomate</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA5_LC_L2",
@@ -5224,7 +5283,8 @@
                   "Sens de 3 mots compris"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Amina à Yaoundé)"
+              "objectif": "Objectif pédagogique. (Avec Amina à Yaoundé)",
+              "contenu": "<h2 class=\"lecon-titre\">La consonne P et les syllabes inversées AR, OR, UR, IR, ER</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Amina à Yaoundé)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Prononcer correctement P [p] et identifier &#x27;p&#x27; minuscule et majuscule</li>\n<li>Lire les syllabes inversées ar, or, ur, ir, er (voyelle puis R)</li>\n<li>Lire des mots contenant P et syllabes inversées : par, port, sur, mer, peur, partir, arriver</li>\n<li>Comprendre le sens des mots lus dans le contexte du voyage</li>\n</ul></div>"
             }
           ]
         },
@@ -5312,7 +5372,8 @@
                   "Direction gauche-droite"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Tabi à Yaoundé)"
+              "objectif": "Objectif pédagogique. (Avec Tabi à Yaoundé)",
+              "contenu": "<h2 class=\"lecon-titre\">J&#x27;écris R et T</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Tabi à Yaoundé)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Tracer &#x27;r&#x27; minuscule (petit pont courbé) et &#x27;R&#x27; majuscule</li>\n<li>Tracer &#x27;t&#x27; minuscule (trait vertical + barre au milieu) et &#x27;T&#x27; majuscule</li>\n<li>Écrire des syllabes : ra, ro, ri, ta, to, ti</li>\n<li>Copier des mots de voyage : route, riz, tôt, moto</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA5_EC_L2",
@@ -5395,7 +5456,8 @@
                   "Phrase avec majuscule et point"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Tabi à Maroua)"
+              "objectif": "Objectif pédagogique. (Avec Tabi à Maroua)",
+              "contenu": "<h2 class=\"lecon-titre\">J&#x27;écris P et les syllabes inversées</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Tabi à Maroua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Tracer &#x27;p&#x27; minuscule (jambage descendant + boucle à droite en bas) et &#x27;P&#x27; majuscule</li>\n<li>Écrire les syllabes inversées ar, or, ur, ir, er (voyelle + R)</li>\n<li>Écrire des mots du voyage avec P et syllabes inversées : par, port, peur, partir</li>\n<li>Copier une courte phrase : &#x27;Tabi part en bus.&#x27;</li>\n</ul></div>"
             }
           ]
         },
@@ -5483,7 +5545,8 @@
                   "Vérifie en comptant"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ndonfack à Maroua)"
+              "objectif": "Objectif pédagogique. (Avec Ndonfack à Maroua)",
+              "contenu": "<h2 class=\"lecon-titre\">La soustraction — enlever et donner</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndonfack à Maroua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Comprendre la soustraction comme &#x27;enlever&#x27;, &#x27;partir&#x27;, &#x27;dépenser&#x27;, &#x27;donner&#x27;</li>\n<li>Réaliser des soustractions (résultats ≥ 0) en manipulant des objets</li>\n<li>Lire et écrire : 8 - 3 = 5 (signe -, signe =, résultat)</li>\n<li>Résoudre 3 soustractions simples en contexte de voyage ou de marché</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA5_MA_L2",
@@ -5566,7 +5629,8 @@
                   "Vérifie avec doigts ou objets"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Manga à Garoua)"
+              "objectif": "Objectif pédagogique. (Avec Manga à Garoua)",
+              "contenu": "<h2 class=\"lecon-titre\">Problèmes de voyage — addition et soustraction</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Manga à Garoua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier si on doit additionner (mettre ensemble) ou soustraire (enlever, dépenser)</li>\n<li>Résoudre des problèmes mêlant addition et soustraction en contexte voyage</li>\n<li>Écrire l&#x27;opération et formuler la réponse en phrase</li>\n<li>Vérifier son résultat par manipulation ou comptage</li>\n</ul></div>"
             }
           ]
         },
@@ -5653,7 +5717,8 @@
                   "Recommande un transport écologique avec raison",
                   "S'exprime simplement"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Comment fonctionnent les transports ?</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier la source d&#x27;énergie de 3 transports : carburant (moto/bus), vent (voilier), énergie humaine (vélo/pirogue)</li>\n<li>Expliquer simplement pourquoi un véhicule se déplace : carburant→moteur→roues</li>\n<li>Comparer les transports selon l&#x27;impact environnemental : carburant = pollution, vélo = propre</li>\n<li>Nommer 2 inventions qui ont changé les voyages au Cameroun : la moto, le téléphone portable</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA5_SC_L2",
@@ -5736,7 +5801,8 @@
                   "S'exprime avec confiance et sérieux"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ndonfack à Yaoundé)"
+              "objectif": "Objectif pédagogique. (Avec Ndonfack à Yaoundé)",
+              "contenu": "<h2 class=\"lecon-titre\">La sécurité dans les transports</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndonfack à Yaoundé)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier les règles de sécurité : casque sur moto, ceinture en voiture, ne pas surcharger la pirogue, rester assis dans le bus</li>\n<li>Expliquer pourquoi chaque règle est importante et quel accident elle prévient</li>\n<li>Décrire le comportement d&#x27;un bon voyageur : patient, respectueux, attentif aux consignes</li>\n<li>Réagir correctement face à une urgence simple : bus en panne, blessure légère, perte de vue de la famille</li>\n</ul></div>"
             }
           ]
         },
@@ -5823,7 +5889,8 @@
                   "1 geste de solidarité concret",
                   "S'exprime avec empathie"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Le voyage en famille et en communauté</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Décrire les préparatifs collectifs : décisions partagées, répartition des tâches</li>\n<li>Expliquer la solidarité en voyage : aider un vieux avec ses bagages, partager sa nourriture</li>\n<li>Identifier les comportements respectueux envers les autres voyageurs</li>\n<li>Relier le voyage à la découverte de nouvelles cultures et régions du Cameroun</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA5_SH_L2",
@@ -5906,7 +5973,8 @@
                   "Ton d'adulte responsable"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Amina à Garoua)"
+              "objectif": "Objectif pédagogique. (Avec Amina à Garoua)",
+              "contenu": "<h2 class=\"lecon-titre\">Respect des règles et sécurité en voyage</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Amina à Garoua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier les règles dans les espaces de transport public : gare, terminus, embarcadère</li>\n<li>Expliquer le rôle des agents de transport : conducteur, agent de gare, policier de route</li>\n<li>Appliquer la règle de la file d&#x27;attente : premier arrivé, premier servi</li>\n<li>Comprendre l&#x27;importance du billet : preuve de voyage, identification, sécurité</li>\n</ul></div>"
             }
           ]
         },
@@ -5994,7 +6062,8 @@
                   "Is understood"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ngono à Douala)"
+              "objectif": "Objectif pédagogique. (Avec Ngono à Douala)",
+              "contenu": "<h2 class=\"lecon-titre\">Means of transport</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ngono à Douala)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Name 7 means of transport: car, bus, motorcycle, boat/canoe, plane, bicycle, train</li>\n<li>Use simple sentences: I travel by bus / We go by boat / She flies by plane</li>\n<li>Classify transport: land (car, bus, bicycle) / water (boat, canoe) / air (plane)</li>\n<li>Ask and answer: How do you go to school? — I go by bus/on foot/by motorcycle</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA5_EN_L2",
@@ -6077,7 +6146,8 @@
                   "Is understood"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Tabi à Yaoundé)"
+              "objectif": "Objectif pédagogique. (Avec Tabi à Yaoundé)",
+              "contenu": "<h2 class=\"lecon-titre\">Going on a journey — directions and travel phrases</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Tabi à Yaoundé)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Use basic direction words: left, right, straight, near, far, here, there</li>\n<li>Use travel phrases: Where is the bus station? / Turn left / Go straight / It is near the market</li>\n<li>Listen and respond to simple direction instructions in English</li>\n<li>Say a journey in 3 English sentences: I leave home / I take the bus / I arrive at school</li>\n</ul></div>"
             }
           ]
         }
@@ -6216,7 +6286,8 @@
                   "S'exprime clairement et calmement"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ngono à Kribi)"
+              "objectif": "Objectif pédagogique. (Avec Ngono à Kribi)",
+              "contenu": "<h2 class=\"lecon-titre\">Mon corps et ma santé</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ngono à Kribi)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer les symptômes de maladies courantes : fièvre, toux, douleurs abdominales, maux de tête, éruptions</li>\n<li>Associer symptôme à maladie probable : fièvre+frissons→paludisme / toux+mucus→rhume</li>\n<li>Décrire son état de santé : J&#x27;ai mal à la tête / Je tousse / J&#x27;ai de la fièvre depuis hier</li>\n<li>Identifier le son [s] dans des mots de santé : santé, symptôme, soin, sang</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA6_EO_L2",
@@ -6299,7 +6370,8 @@
                   "Ton calme et coopératif"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Bineta à Bafoussam)"
+              "objectif": "Objectif pédagogique. (Avec Bineta à Bafoussam)",
+              "contenu": "<h2 class=\"lecon-titre\">Chez le docteur et à l&#x27;infirmerie</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Bineta à Bafoussam)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Jouer une consultation médicale : décrire ses symptômes, écouter et comprendre les conseils</li>\n<li>Nommer les acteurs de la santé et leurs rôles : médecin, infirmier, pharmacien, agent de santé</li>\n<li>Comprendre l&#x27;importance de prendre tous ses médicaments selon la prescription</li>\n<li>Identifier les sons [s], [b] et [d] dans le vocabulaire médical : soin, bandage, dispensaire</li>\n</ul></div>"
             }
           ]
         },
@@ -6387,7 +6459,8 @@
                   "Sens de 2 mots en phrase sur la santé"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ngono à Douala)"
+              "objectif": "Objectif pédagogique. (Avec Ngono à Douala)",
+              "contenu": "<h2 class=\"lecon-titre\">Les consonnes S et B</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ngono à Douala)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Prononcer correctement S [s] (fricative sifflante) et identifier &#x27;s&#x27;</li>\n<li>Prononcer correctement B [b] (occlusive sonore) et identifier &#x27;b&#x27;</li>\n<li>Lire des syllabes avec S et B : sa, so, si, su, se / ba, bo, bi, bu, be</li>\n<li>Lire des mots de santé : soin, soif, boire, bébé, sirop, bas</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA6_LC_L2",
@@ -6470,7 +6543,8 @@
                   "Lit à un rythme compréhensible"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Mbappe à Bafoussam)"
+              "objectif": "Objectif pédagogique. (Avec Mbappe à Bafoussam)",
+              "contenu": "<h2 class=\"lecon-titre\">La consonne D et lecture de phrases simples</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Mbappe à Bafoussam)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Prononcer correctement D [d] (occlusive sonore, langue contre les dents) et identifier &#x27;d&#x27;</li>\n<li>Lire des syllabes avec D : da, do, di, du, de</li>\n<li>Lire des phrases simples de 3 à 5 mots sur la santé</li>\n<li>Comprendre le sens d&#x27;une phrase lue et répondre à des questions simples</li>\n</ul></div>"
             }
           ]
         },
@@ -6558,7 +6632,8 @@
                   "S et B entourés correctement"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Bineta à Kribi)"
+              "objectif": "Objectif pédagogique. (Avec Bineta à Kribi)",
+              "contenu": "<h2 class=\"lecon-titre\">J&#x27;écris S et B</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Bineta à Kribi)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Tracer &#x27;s&#x27; minuscule (double courbe) et &#x27;S&#x27; majuscule</li>\n<li>Tracer &#x27;b&#x27; minuscule (jambage montant + boucle à droite) et &#x27;B&#x27; majuscule</li>\n<li>Distinguer b/d/p/q à l&#x27;écrit : chacun a sa boucle dans un sens différent</li>\n<li>Copier des mots de santé : soif, boire, sirop, bébé</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA6_EC_L2",
@@ -6641,7 +6716,8 @@
                   "Écriture lisible et dans la bonne direction"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ngono à Bamenda)"
+              "objectif": "Objectif pédagogique. (Avec Ngono à Bamenda)",
+              "contenu": "<h2 class=\"lecon-titre\">J&#x27;écris D et des phrases sur la santé</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ngono à Bamenda)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Tracer &#x27;d&#x27; minuscule (boucle à gauche + jambage montant) et &#x27;D&#x27; majuscule</li>\n<li>Consolider la distinction écrite b/d : droite pour b, gauche pour d</li>\n<li>Copier une phrase sur la santé (5-6 mots) avec majuscule, espaces et point</li>\n<li>Produire par écrit 2 mots sur la santé sous dictée guidée</li>\n</ul></div>"
             }
           ]
         },
@@ -6729,7 +6805,8 @@
                   "Vérification proposée pour 1 opération"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ndongo à Bamenda)"
+              "objectif": "Objectif pédagogique. (Avec Ndongo à Bamenda)",
+              "contenu": "<h2 class=\"lecon-titre\">Au dispensaire — problèmes de santé</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndongo à Bamenda)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier si l&#x27;opération est addition ou soustraction dans un problème de santé</li>\n<li>Résoudre des problèmes liés au dispensaire : comprimés, médicaments, lits</li>\n<li>Réviser additions et soustractions (résultats 0-10)</li>\n<li>Formuler la réponse en phrase complète adaptée au contexte médical</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA6_MA_L2",
@@ -6812,7 +6889,8 @@
                   "Réponses en phrases"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Manga à Douala)"
+              "objectif": "Objectif pédagogique. (Avec Manga à Douala)",
+              "contenu": "<h2 class=\"lecon-titre\">Bilan T2 — révision mathématiques</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Manga à Douala)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Réviser toutes les compétences mathématiques du T2 : dénombrement 1-10, addition, soustraction, ordinaux</li>\n<li>Résoudre des problèmes variés sans catégorie indiquée</li>\n<li>Montrer la progression depuis le début de l&#x27;année</li>\n<li>Identifier ses points forts et domaines à améliorer</li>\n</ul></div>"
             }
           ]
         },
@@ -6899,7 +6977,8 @@
                   "3 gestes de prévention adaptés",
                   "S'exprime clairement"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les maladies courantes au Cameroun et leurs causes</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer 5 maladies courantes et leurs agents : paludisme=moustique/plasmodium, choléra=eau sale, grippe=virus, typhoïde=aliments contaminés, vers=mains sales</li>\n<li>Distinguer 3 modes de transmission : insectes, eau/nourriture contaminée, contact/air</li>\n<li>Identifier les situations à risque pour chaque maladie</li>\n<li>Exprimer le lien entre comportements préventifs et réduction des maladies</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA6_SC_L2",
@@ -6982,7 +7061,8 @@
                   "S'exprime avec conviction"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Mbappe à Foumban)"
+              "objectif": "Objectif pédagogique. (Avec Mbappe à Foumban)",
+              "contenu": "<h2 class=\"lecon-titre\">Les gestes qui protègent la santé</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Mbappe à Foumban)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer et décrire 6 gestes de prévention : se laver les mains avec savon, boire eau traitée, dormir sous moustiquaire, laver les fruits/légumes, se vacciner, couvrir les aliments</li>\n<li>Expliquer le mécanisme de protection de chaque geste : le savon détruit les microbes</li>\n<li>Construire sa routine d&#x27;hygiène quotidienne en 5 gestes dans l&#x27;ordre de la journée</li>\n<li>Comprendre l&#x27;importance des vaccinations pour protection individuelle ET collective</li>\n</ul></div>"
             }
           ]
         },
@@ -7069,7 +7149,8 @@
                   "Problème réel identifié",
                   "Solution réaliste et créative"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les droits à la santé</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Affirmer que chaque enfant a le droit d&#x27;être soigné quelle que soit sa situation</li>\n<li>Identifier les structures de santé accessibles : dispensaire, CSI, hôpital de district</li>\n<li>Expliquer la gratuité des soins pour les enfants de moins de 5 ans au Cameroun</li>\n<li>Dénoncer les situations d&#x27;injustice : manque d&#x27;accès aux soins dans les zones rurales</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA6_SH_L2",
@@ -7152,7 +7233,8 @@
                   "S'exprime avec empathie"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Tina à Bamenda)"
+              "objectif": "Objectif pédagogique. (Avec Tina à Bamenda)",
+              "contenu": "<h2 class=\"lecon-titre\">Prendre soin des malades — solidarité et compassion</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Tina à Bamenda)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Décrire les comportements bienveillants envers un malade : écouter, apporter de l&#x27;eau, rester calme, éviter les bruits forts</li>\n<li>Distinguer comportements qui aident (écouter, aider) de ceux qui nuisent (se moquer, abandonner)</li>\n<li>Exprimer de l&#x27;empathie et de la compassion envers les personnes malades ou vulnérables</li>\n<li>Comprendre que prendre soin des malades est une valeur universelle et une responsabilité de communauté</li>\n</ul></div>"
             }
           ]
         },
@@ -7240,7 +7322,8 @@
                   "Is understood"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Mbappe à Bamenda)"
+              "objectif": "Objectif pédagogique. (Avec Mbappe à Bamenda)",
+              "contenu": "<h2 class=\"lecon-titre\">Parts of the body and health vocabulary</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Mbappe à Bamenda)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Name 8 body parts: head, stomach, leg, arm, hand, eye, ear, tooth</li>\n<li>Use sentences about feeling sick: I have a headache / My stomach hurts / I feel sick / I have a fever</li>\n<li>Describe healthy vs unhealthy: I feel well / I feel sick / He is healthy / She is ill</li>\n<li>Respond: How do you feel? — I feel fine/sick. Where does it hurt? — My head hurts.</li>\n</ul></div>"
             },
             {
               "id": "SIL_T2_UA6_EN_L2",
@@ -7323,7 +7406,8 @@
                   "English is understandable"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Amina à Kribi)"
+              "objectif": "Objectif pédagogique. (Avec Amina à Kribi)",
+              "contenu": "<h2 class=\"lecon-titre\">Going to the doctor — health conversations</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Amina à Kribi)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Use a simple doctor-patient dialogue in English (4-6 exchanges)</li>\n<li>Name 4 health professionals: doctor, nurse, pharmacist, health worker</li>\n<li>Use imperatives for health advice: Drink water / Rest / Take your medicine / Wash your hands</li>\n<li>Say 3 prevention sentences: I sleep under a mosquito net / I wash my hands / I drink clean water</li>\n</ul></div>"
             }
           ]
         }
@@ -7485,7 +7569,8 @@
                   "Règle principale expliquée clairement",
                   "Raison personnelle exprimée avec enthousiasme"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Mes jeux préférés au Cameroun</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer et décrire 6 jeux traditionnels camerounais : ngonga, osselets, corde à sauter, billes, cache-cache, course</li>\n<li>Comparer les jeux traditionnels et les jeux modernes (téléphone, console) : avantages et inconvénients</li>\n<li>Décrire les caractéristiques d&#x27;un jeu : nombre de joueurs, matériel, lieu de jeu, buts</li>\n<li>Identifier et prononcer le son [n] dans des mots de jeux : ngonga, nager, nœud, niveau</li>\n</ul></div>"
             },
             {
               "id": "SIL_T3_UA7_EO_L2",
@@ -7568,7 +7653,8 @@
                   "S'exprime clairement devant la classe"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ndonfack à Douala)"
+              "objectif": "Objectif pédagogique. (Avec Ndonfack à Douala)",
+              "contenu": "<h2 class=\"lecon-titre\">Les règles du jeu</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndonfack à Douala)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Expliquer les règles d&#x27;un jeu simple en respectant l&#x27;ordre des actions : d&#x27;abord / ensuite / enfin</li>\n<li>Distinguer les comportements de fair-play (accepter de perdre, respecter les règles) des mauvais comportements (tricher, se disputer)</li>\n<li>Exprimer ses émotions face au jeu : joie de gagner, déception de perdre, surprise d&#x27;un retournement</li>\n<li>Identifier et prononcer le son [v] dans des mots de jeux et de valeurs : victoire, valeur, vainqueur, vite</li>\n</ul></div>"
             }
           ]
         },
@@ -7656,7 +7742,8 @@
                   "Prononce [n] et [v] distinctement"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Tabi à Bafoussam)"
+              "objectif": "Objectif pédagogique. (Avec Tabi à Bafoussam)",
+              "contenu": "<h2 class=\"lecon-titre\">Les consonnes N et V</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Tabi à Bafoussam)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Prononcer correctement N [n] (nasale, vibration du nez) et identifier &#x27;n&#x27; dans les mots</li>\n<li>Prononcer correctement V [v] (fricative sonore, lèvre inférieure contre dents du haut) et identifier &#x27;v&#x27;</li>\n<li>Lire les syllabes avec N et V : na, no, ni, nu, ne / va, vo, vi, vu, ve</li>\n<li>Lire des mots de jeux contenant N et V : nœud, niveau, vite, victoire, vélo, nager</li>\n</ul></div>"
             },
             {
               "id": "SIL_T3_UA7_LC_L2",
@@ -7739,7 +7826,8 @@
                   "Comprend le sens de la phrase"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ndonfack à Maroua)"
+              "objectif": "Objectif pédagogique. (Avec Ndonfack à Maroua)",
+              "contenu": "<h2 class=\"lecon-titre\">Les syllabes inversées AN, AM, EN, EM</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndonfack à Maroua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Lire les syllabes inversées an, am, en, em (voyelle puis consonne nasale N ou M)</li>\n<li>Distinguer : an/am (voyelle A + nasale) et en/em (voyelle E + nasale)</li>\n<li>Lire des mots contenant ces syllabes inversées : dans, temps, enfant, lampe, champ, vent, dent</li>\n<li>Comprendre le sens de mots lus dans le contexte des jeux</li>\n</ul></div>"
             }
           ]
         },
@@ -7827,7 +7915,8 @@
                   "n = 2 bosses / v = pointe"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ndonfack à Garoua)"
+              "objectif": "Objectif pédagogique. (Avec Ndonfack à Garoua)",
+              "contenu": "<h2 class=\"lecon-titre\">J&#x27;écris N et V</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndonfack à Garoua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Tracer &#x27;n&#x27; minuscule (2 bosses vers le haut) et &#x27;N&#x27; majuscule</li>\n<li>Tracer &#x27;v&#x27; minuscule (2 traits qui se rejoignent en pointe) et &#x27;V&#x27; majuscule</li>\n<li>Distinguer à l&#x27;écrit : m (3 bosses) / n (2 bosses) / v (pointe vers le bas)</li>\n<li>Copier des mots de jeux contenant N et V : nœud, vite, niveau, victoire</li>\n</ul></div>"
             },
             {
               "id": "SIL_T3_UA7_EC_L2",
@@ -7910,7 +7999,8 @@
                   "Écriture lisible"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Bineta à Bamenda)"
+              "objectif": "Objectif pédagogique. (Avec Bineta à Bamenda)",
+              "contenu": "<h2 class=\"lecon-titre\">J&#x27;écris les syllabes nasales AN, AM, EN, EM</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Bineta à Bamenda)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Écrire les syllabes inversées nasales an, am, en, em en respectant l&#x27;ordre voyelle + nasale</li>\n<li>Écrire des mots contenant ces syllabes : dans, vent, enfant, temps</li>\n<li>Copier une courte phrase sur les jeux : &#x27;Tabi joue dans le champ.&#x27;</li>\n<li>Produire par écrit 2 mots sous dictée guidée contenant une syllabe nasale</li>\n</ul></div>"
             }
           ]
         },
@@ -7998,7 +8088,8 @@
                   "15 identifié comme nombre après 14"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Amina à Yaoundé)"
+              "objectif": "Objectif pédagogique. (Avec Amina à Yaoundé)",
+              "contenu": "<h2 class=\"lecon-titre\">Les nombres 11 à 15</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Amina à Yaoundé)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Dénombrer des collections de 11 à 15 objets en groupant par 10 + unités restantes</li>\n<li>Lire et écrire les nombres 11, 12, 13, 14, 15 en chiffres</li>\n<li>Comprendre la décomposition : 11 = 10 + 1 / 12 = 10 + 2 ... / 15 = 10 + 5</li>\n<li>Comparer et ordonner les nombres de 11 à 15 : 12 &lt; 14 / 15 &gt; 11</li>\n</ul></div>"
             },
             {
               "id": "SIL_T3_UA7_MA_L2",
@@ -8081,7 +8172,8 @@
                   "Utilise des objets ou doigts pour vérifier"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Amina à Garoua)"
+              "objectif": "Objectif pédagogique. (Avec Amina à Garoua)",
+              "contenu": "<h2 class=\"lecon-titre\">Les nombres 16 à 20</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Amina à Garoua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Dénombrer des collections de 16 à 20 objets en groupant par 10 + unités restantes</li>\n<li>Lire et écrire les nombres 16, 17, 18, 19, 20 en chiffres</li>\n<li>Comprendre que 20 = 2 dizaines = 10 + 10</li>\n<li>Ordonner les nombres de 1 à 20 sur une ligne numérique</li>\n</ul></div>"
             }
           ]
         },
@@ -8168,7 +8260,8 @@
                   "3 étapes dans l'ordre logique",
                   "Argument de sécurité valable"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Comment les jouets sont-ils fabriqués ?</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier les matériaux des jouets courants : plastique, bois, métal, tissu, caoutchouc</li>\n<li>Décrire simplement le processus de fabrication d&#x27;un jouet simple (voiture en bois, poupée en tissu)</li>\n<li>Comparer jouets artisanaux camerounais (voiture en canettes, ballon en chaussettes) et jouets industriels</li>\n<li>Identifier les caractéristiques d&#x27;un jouet sûr pour un enfant</li>\n</ul></div>"
             },
             {
               "id": "SIL_T3_UA7_SC_L2",
@@ -8251,7 +8344,8 @@
                   "S'exprime comme un professionnel de santé"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Manga à Kribi)"
+              "objectif": "Objectif pédagogique. (Avec Manga à Kribi)",
+              "contenu": "<h2 class=\"lecon-titre\">Les jeux en plein air et la santé</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Manga à Kribi)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Expliquer les bénéfices des jeux en plein air sur la santé : endurance, force musculaire, coordination, bien-être mental</li>\n<li>Distinguer les jeux qui font bouger le corps (corde, course, danse) des jeux sédentaires (cartes, téléphone)</li>\n<li>Identifier les précautions à prendre lors des jeux en plein air : soleil, blessures, hydratation</li>\n<li>Relier activité physique régulière et bonne santé à long terme</li>\n</ul></div>"
             }
           ]
         },
@@ -8339,7 +8433,8 @@
                   "S'exprime avec assurance et bienveillance"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ngono à Bamenda)"
+              "objectif": "Objectif pédagogique. (Avec Ngono à Bamenda)",
+              "contenu": "<h2 class=\"lecon-titre\">Jouer ensemble — partage, fair-play, respect</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ngono à Bamenda)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Définir le fair-play : jouer selon les règles, accepter la défaite, respecter l&#x27;adversaire</li>\n<li>Identifier des situations de fair-play et d&#x27;anti-fair-play dans des scénarios de jeu</li>\n<li>Exprimer des valeurs de partage et d&#x27;inclusion : inviter un camarade isolé à jouer</li>\n<li>Comprendre que le jeu collectif renforce les liens sociaux et la cohésion du groupe</li>\n</ul></div>"
             },
             {
               "id": "SIL_T3_UA7_SH_L2",
@@ -8421,7 +8516,8 @@
                   "1 valeur transmise par jeu",
                   "Fierté culturelle exprimée sincèrement"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les jeux traditionnels camerounais — patrimoine culturel</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier 5 jeux traditionnels camerounais et leurs régions d&#x27;origine : le ndolo, le bon-bon, la mangala, la course à l&#x27;œuf, la lutte traditionnelle</li>\n<li>Expliquer pourquoi les jeux traditionnels sont un patrimoine culturel à préserver</li>\n<li>Comparer les valeurs transmises par les jeux traditionnels (endurance, stratégie, communauté) et les jeux modernes</li>\n<li>Exprimer de la fierté pour les jeux traditionnels camerounais et l&#x27;envie de les partager</li>\n</ul></div>"
             }
           ]
         },
@@ -8509,7 +8605,8 @@
                   "Is understood"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Tina à Foumban)"
+              "objectif": "Objectif pédagogique. (Avec Tina à Foumban)",
+              "contenu": "<h2 class=\"lecon-titre\">Games and toys</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Tina à Foumban)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Name 7 toys and games in English: ball, rope, doll, toy car, marbles, hide-and-seek, race</li>\n<li>Use sentences about playing: I play with a ball / We play hide-and-seek / She likes dolls</li>\n<li>Describe a game: It is a game for 2 players / You need a rope / The winner is the fastest</li>\n<li>Ask and answer: What is your favourite game? — My favourite game is ___</li>\n</ul></div>"
             },
             {
               "id": "SIL_T3_UA7_EN_L2",
@@ -8592,7 +8689,8 @@
                   "Is understood by the class"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ngono à Douala)"
+              "objectif": "Objectif pédagogique. (Avec Ngono à Douala)",
+              "contenu": "<h2 class=\"lecon-titre\">Let&#x27;s play! — game instructions and turn-taking</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ngono à Douala)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Use game instruction vocabulary: your turn / my turn / start / stop / win / lose / score / team</li>\n<li>Follow and give simple game instructions in English: Roll the dice / Jump over the rope / Run to the line</li>\n<li>Count scores in English from 1 to 20: Team A has fifteen points / Team B has twelve</li>\n<li>Say sportsmanship phrases: Well done / Good game / Try again / You won / It is a tie</li>\n</ul></div>"
             }
           ]
         }
@@ -8730,7 +8828,8 @@
                   "Choix justifié pour une urgence",
                   "S'exprime clairement et de façon convaincante"
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Comment communique-t-on au Cameroun ?</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer et décrire les moyens de communication traditionnels : tam-tam, crieur public, message oral transmis de bouche à oreille</li>\n<li>Nommer et décrire les moyens de communication modernes : téléphone, radio, télévision, WhatsApp, internet</li>\n<li>Comparer la rapidité, la portée et le coût de chaque moyen de communication</li>\n<li>Identifier et prononcer le son [f] dans des mots de communication : fil, fax, filaire, fréquence</li>\n</ul></div>"
             },
             {
               "id": "SIL_T3_UA8_EO_L2",
@@ -8813,7 +8912,8 @@
                   "Ton approprié à la situation d'urgence"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Mbappe à Garoua)"
+              "objectif": "Objectif pédagogique. (Avec Mbappe à Garoua)",
+              "contenu": "<h2 class=\"lecon-titre\">Écrire et envoyer un message</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Mbappe à Garoua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Décrire les étapes de rédaction d&#x27;un message simple : destinataire, contenu, formule de politesse</li>\n<li>Distinguer les types de messages selon leur contexte : message d&#x27;urgence, invitation, remerciement, information</li>\n<li>Identifier les éléments essentiels d&#x27;un message complet : qui parle, à qui, pour dire quoi, dans quel but</li>\n<li>Identifier et prononcer les sons [k] (comme C/Q/K) et [z] dans des mots de communication : code, quiz, zéro, zone</li>\n</ul></div>"
             }
           ]
         },
@@ -8901,7 +9001,8 @@
                   "Sens de 2 mots compris"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ndongo à Maroua)"
+              "objectif": "Objectif pédagogique. (Avec Ndongo à Maroua)",
+              "contenu": "<h2 class=\"lecon-titre\">Les consonnes F, Z et la syllabe EU</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndongo à Maroua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Prononcer correctement F [f] (fricative sourde) et Z [z] (fricative sonore) et les identifier dans des mots</li>\n<li>Distinguer [f] et [v] (même articulation, sourd/sonore) et [s] et [z] (même distinction)</li>\n<li>Lire la syllabe complexe &#x27;eu&#x27; [ø] et des mots contenant &#x27;eu&#x27; : peu, feu, jeu, bleu, vœu</li>\n<li>Lire des mots de communication contenant F et Z : fax, filaire, zone, zéro, fusée</li>\n</ul></div>"
             },
             {
               "id": "SIL_T3_UA8_LC_L2",
@@ -8984,7 +9085,8 @@
                   "Comprend le sens global du texte"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Tina à Bamenda)"
+              "objectif": "Objectif pédagogique. (Avec Tina à Bamenda)",
+              "contenu": "<h2 class=\"lecon-titre\">Les consonnes C/Q/K et lecture de textes variés</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Tina à Bamenda)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Comprendre que C, Q et K peuvent faire le son [k] dans différents contextes : car, qui, kilo</li>\n<li>Lire des mots contenant [k] : car, coq, kilo, qui, que, avec, tac, bloc</li>\n<li>Lire un court texte de 3 à 5 phrases sur la communication et en comprendre le sens global</li>\n<li>Répondre à des questions simples sur un texte lu : Qui ? Quoi ? Où ? Quand ?</li>\n</ul></div>"
             }
           ]
         },
@@ -9072,7 +9174,8 @@
                   "La syllabe 'eu' reconnaissable"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ndongo à Yaoundé)"
+              "objectif": "Objectif pédagogique. (Avec Ndongo à Yaoundé)",
+              "contenu": "<h2 class=\"lecon-titre\">J&#x27;écris F, Z et EU</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndongo à Yaoundé)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Tracer &#x27;f&#x27; minuscule (trait courbe + barre) et &#x27;F&#x27; majuscule</li>\n<li>Tracer &#x27;z&#x27; minuscule (trait horizontal, diagonal, horizontal) et &#x27;Z&#x27; majuscule</li>\n<li>Écrire des syllabes contenant F et Z : fa, fo, ze, za, feu</li>\n<li>Copier des mots de communication contenant F, Z et EU : fax, zone, feu, jeu, zéro</li>\n</ul></div>"
             },
             {
               "id": "SIL_T3_UA8_EC_L2",
@@ -9155,7 +9258,8 @@
                   "Toutes les lettres bien orientées (b ≠ d, m ≠ n)"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ndonfack à Bamenda)"
+              "objectif": "Objectif pédagogique. (Avec Ndonfack à Bamenda)",
+              "contenu": "<h2 class=\"lecon-titre\">Bilan écriture SIL — je produis mes propres phrases</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndonfack à Bamenda)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Réviser toutes les lettres apprises en SIL : a, i, b, v, u, e, m, p, l, r, t, s, n, d, o, f, z et voyelles complexes (ou, eu)</li>\n<li>Écrire correctement de mémoire au moins 10 lettres de l&#x27;alphabet apprises en SIL</li>\n<li>Produire par écrit 1 phrase courte de 3 à 5 mots de façon autonome</li>\n<li>Distinguer à l&#x27;écrit les lettres souvent confondues : b/d/p/q, m/n, r/n, v/u</li>\n</ul></div>"
             }
           ]
         },
@@ -9243,7 +9347,8 @@
                   "12+5=17 avec réponse en phrase"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ndonfack à Yaoundé)"
+              "objectif": "Objectif pédagogique. (Avec Ndonfack à Yaoundé)",
+              "contenu": "<h2 class=\"lecon-titre\">Révision générale — les nombres de 1 à 20</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndonfack à Yaoundé)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Dénombrer, lire et écrire tous les nombres de 1 à 20</li>\n<li>Ordonner les nombres de 1 à 20 dans l&#x27;ordre croissant et décroissant</li>\n<li>Réviser les opérations : additions et soustractions avec résultats entre 0 et 10</li>\n<li>Résoudre des problèmes variés liés au contexte des communications</li>\n</ul></div>"
             },
             {
               "id": "SIL_T3_UA8_MA_L2",
@@ -9327,7 +9432,8 @@
                   "12+5=17 avec opération et réponse"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ngono à Douala)"
+              "objectif": "Objectif pédagogique. (Avec Ngono à Douala)",
+              "contenu": "<h2 class=\"lecon-titre\">Bilan annuel mathématiques SIL — test final</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ngono à Douala)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Démontrer la maîtrise des nombres 1-20 acquise tout au long de l&#x27;année SIL</li>\n<li>Résoudre des problèmes variés utilisant addition et soustraction de façon autonome</li>\n<li>Identifier les formes géométriques de base : cercle, carré, triangle, rectangle</li>\n<li>Montrer la progression globale en mathématiques depuis le début de l&#x27;année SIL</li>\n</ul></div>"
             }
           ]
         },
@@ -9415,7 +9521,8 @@
                   "S'exprime clairement, avec patience (c'est pour un grand-père !)"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Manga à Maroua)"
+              "objectif": "Objectif pédagogique. (Avec Manga à Maroua)",
+              "contenu": "<h2 class=\"lecon-titre\">Les outils de communication modernes</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Manga à Maroua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier et décrire 5 outils de communication modernes : téléphone portable, radio, télévision, ordinateur, internet</li>\n<li>Expliquer simplement comment fonctionne un téléphone portable : antenne, signal, réseau</li>\n<li>Identifier les sources d&#x27;énergie des appareils de communication : batterie, électricité, panneau solaire</li>\n<li>Comprendre que l&#x27;internet connecte des personnes partout dans le monde</li>\n</ul></div>"
             },
             {
               "id": "SIL_T3_UA8_SC_L2",
@@ -9498,7 +9605,8 @@
                   "Fierté culturelle exprimée avec sincérité"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ndongo à Yaoundé)"
+              "objectif": "Objectif pédagogique. (Avec Ndongo à Yaoundé)",
+              "contenu": "<h2 class=\"lecon-titre\">Les moyens de communication traditionnels</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndongo à Yaoundé)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Décrire le fonctionnement du tam-tam comme moyen de communication codifié</li>\n<li>Identifier les autres moyens de communication traditionnels : griots, crieurs publics, signaux de fumée, courriers portés</li>\n<li>Comparer les avantages et limites des communications traditionnelles et modernes</li>\n<li>Exprimer de la fierté et du respect pour les systèmes de communication développés par les ancêtres africains</li>\n</ul></div>"
             }
           ]
         },
@@ -9586,7 +9694,8 @@
                   "S'excuse auprès d'un ami avec sincérité"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Ngono à Bamenda)"
+              "objectif": "Objectif pédagogique. (Avec Ngono à Bamenda)",
+              "contenu": "<h2 class=\"lecon-titre\">Communiquer avec respect et bienveillance</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ngono à Bamenda)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier les règles d&#x27;une communication respectueuse : écouter sans interrompre, parler à son tour, respecter l&#x27;opinion de l&#x27;autre</li>\n<li>Distinguer une communication bienveillante (encourageante, polie) d&#x27;une communication blessante (insultes, moqueries)</li>\n<li>Appliquer les formules de politesse dans différents contextes de communication : saluer, remercier, s&#x27;excuser</li>\n<li>Comprendre que les mots peuvent blesser autant que les actes physiques — notion de violence verbale</li>\n</ul></div>"
             },
             {
               "id": "SIL_T3_UA8_SH_L2",
@@ -9669,7 +9778,8 @@
                   "S'exprime avec émotion et maturité"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Tina à Douala)"
+              "objectif": "Objectif pédagogique. (Avec Tina à Douala)",
+              "contenu": "<h2 class=\"lecon-titre\">Bilan SIL — ce que j&#x27;ai appris cette année</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Tina à Douala)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Faire le bilan de toutes les valeurs et compétences sociales apprises au cours de l&#x27;année SIL</li>\n<li>Exprimer de la gratitude envers les enseignants, les parents et les camarades pour l&#x27;année vécue ensemble</li>\n<li>Projeter ses apprentissages vers la classe CP : qu&#x27;est-ce qui va changer ? Qu&#x27;est-ce qu&#x27;on va apprendre ?</li>\n<li>Exprimer ses émotions face à la fin de l&#x27;année SIL et à la transition vers le CP</li>\n</ul></div>"
             }
           ]
         },
@@ -9757,7 +9867,8 @@
                   "Is understood by the reader"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Tabi à Maroua)"
+              "objectif": "Objectif pédagogique. (Avec Tabi à Maroua)",
+              "contenu": "<h2 class=\"lecon-titre\">Ways to communicate</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Tabi à Maroua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Name 7 ways to communicate in English: phone, radio, television, letter, message, talk, listen</li>\n<li>Use sentences about communication: I call my friend / We listen to the radio / She sends a message</li>\n<li>Describe traditional African communication: The drum sends messages / The griot tells stories</li>\n<li>Compare: &#x27;In the past, people used drums. Now, people use phones.&#x27;</li>\n</ul></div>"
             },
             {
               "id": "SIL_T3_UA8_EN_L2",
@@ -9840,7 +9951,8 @@
                   "Has fun and celebrates the year's learning"
                 ]
               },
-              "objectif": "Objectif pédagogique. (Avec Manga à Maroua)"
+              "objectif": "Objectif pédagogique. (Avec Manga à Maroua)",
+              "contenu": "<h2 class=\"lecon-titre\">Saying goodbye — final English bilan SIL</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Manga à Maroua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Use goodbye phrases and good wishes in English: Goodbye / See you / Good luck / Have a good day / Thank you</li>\n<li>Say 3 things learned in English class this year (vocabulary domains: jobs, transport, health, games, communication)</li>\n<li>Count from 1 to 20 in English</li>\n<li>Say 1 complete English sentence independently: I want to be a ___ / I travel by ___ / I feel well</li>\n</ul></div>"
             }
           ]
         }

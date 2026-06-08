@@ -1177,7 +1177,8 @@
                 ],
                 "duree_minutes": 30,
                 "_editorial": "valide",
-                "_calibrage_ua1_t1": "Tous les exercices sont oralisés. Aucune lecture/écriture exigée de l'élève."
+                "_calibrage_ua1_t1": "Tous les exercices sont oralisés. Aucune lecture/écriture exigée de l'élève.",
+                "contenu": "<h3>👋 Se saluer et se présenter</h3><p>Quand <strong>Tina</strong> arrive à l'école le matin, elle dit <em>« Bonjour madame »</em> à sa maîtresse. C'est la <strong>politesse</strong>. À midi, quand elle part, elle dit <em>« Au revoir madame »</em>.</p><h3>📚 Se présenter à voix haute en 3 étapes</h3><p>Quand on rencontre quelqu'un de nouveau, on se présente à <strong>voix haute</strong> :</p><ul><li><strong>Étape 1</strong> : « Bonjour ! »</li><li><strong>Étape 2</strong> : « Je m'appelle <em>Amina</em>. »</li><li><strong>Étape 3</strong> : « J'ai <em>6 ans</em>. Je suis en <em>CP</em> à l'école <em>publique de Bonabéri</em>. »</li></ul><h3>🇨🇲 Au Cameroun, on apprend la politesse</h3><p><strong>Bineta</strong> habite à Maroua. <strong>Ngono</strong> habite à Yaoundé. <strong>Manga</strong> habite à Douala. Tous les enfants du Cameroun apprennent à parler poliment. Avec un adulte, on ajoute <em>« madame »</em> ou <em>« monsieur »</em>.</p><h3>✨ Les mots magiques (à dire)</h3><p>Trois mots rendent la parole belle quand on les <strong>prononce</strong> :</p><ul><li><strong>Bonjour</strong> — pour saluer</li><li><strong>S'il vous plaît</strong> — pour demander</li><li><strong>Merci</strong> — pour remercier</li></ul>"
               }
             ]
           },
@@ -1300,7 +1301,8 @@
                   "Manga"
                 ],
                 "duree_minutes": 30,
-                "_editorial": "valide"
+                "_editorial": "valide",
+                "contenu": "<h3>📖 La lettre A — première voyelle</h3><p>La lettre <strong>A</strong> est la <em>première lettre</em> de l'alphabet. C'est une <strong>voyelle</strong>. Elle s'écrit de deux façons :</p><ul><li><strong>A</strong> — en majuscule (grande lettre)</li><li><strong>a</strong> — en minuscule (petite lettre)</li></ul><h3>🔊 Le son [a]</h3><p>La lettre A se prononce <strong>[a]</strong>. C'est un son qu'on entend dans beaucoup de mots du Cameroun :</p><ul><li><em>Amina</em> — un prénom du Nord</li><li><em>Tabi</em> — un prénom</li><li><em>papa</em>, <em>maman</em></li><li><em>banane</em>, <em>ananas</em></li><li><em>Sanaga</em> — un fleuve du Cameroun</li></ul><h3>✍️ Syllabes simples avec A</h3><p>On combine A avec d'autres lettres :</p><p><em>la — ma — pa — ta — na — ra — sa</em></p><p>Exemple : <strong>Tina</strong> écrit Ti + na. <strong>Manga</strong> écrit Man + ga. Tu vois la lettre A à la fin !</p><h3>🇨🇲 Cherche la lettre A</h3><p>Dans ta classe au CP, regarde ton cahier, ton crayon, ton ardoise. Cherche la lettre A. Elle est partout !</p>"
               }
             ]
           },
@@ -1418,7 +1420,8 @@
                   "Tabi"
                 ],
                 "duree_minutes": 30,
-                "_editorial": "valide"
+                "_editorial": "valide",
+                "contenu": "<h3>✍️ Écrire la lettre A au CP camerounais</h3><p>Avant d'écrire, <strong>Tina</strong> prend bien son crayon : entre le <em>pouce</em>, l'<em>index</em>, et appuyé sur le <em>majeur</em>. Le dos est droit, le <strong>cahier 32 pages à grands carreaux</strong> bien posé devant. C'est le cahier qu'utilisent tous les CP au Cameroun.</p><h3>📐 Tracer A en majuscule (3 traits)</h3><p>La majuscule A se construit en 3 étapes :</p><ol><li>Premier trait : descend en penchant à gauche (\\)</li><li>Deuxième trait : descend en penchant à droite (/)</li><li>Troisième trait : une petite barre au milieu (—)</li></ol><p>Résultat : la lettre <strong>A</strong> ressemble à un toit pointu de case !</p><h3>🔵 Tracer a en minuscule (2 étapes)</h3><p>La minuscule a se construit en 2 étapes :</p><ol><li>Trace un <strong>petit rond fermé</strong>, comme une boule</li><li>Ajoute un <strong>trait vertical</strong> à droite, qui descend</li></ol><h3>📏 Respecter le carreau</h3><p>À l'école publique de Bonabéri, <strong>Amina</strong> fait attention à son cahier : la <em>majuscule A</em> est grande, elle monte tout en haut du carreau. La <em>minuscule a</em> reste petite, dans l'<em>interligne du milieu</em>. <strong>Tabi</strong>, lui, garde toujours son ardoise propre pour s'entraîner avant le cahier — c'est la règle au CP camerounais.</p>"
               }
             ]
           },
@@ -1548,7 +1551,8 @@
                   "Amina"
                 ],
                 "duree_minutes": 30,
-                "_editorial": "valide"
+                "_editorial": "valide",
+                "contenu": "<h3>🏫 Le vocabulaire oral de l'école</h3><p>Dans la classe de CP, <strong>Ngono</strong> apprend à <em>nommer</em> tous les objets utiles. À voix haute, il dit :</p><ul><li><strong>Le livre</strong> — pour lire</li><li><strong>Le cahier</strong> — pour écrire</li><li><strong>Le crayon</strong> — pour tracer</li><li><strong>La gomme</strong> — pour effacer</li><li><strong>L'ardoise</strong> — pour s'entraîner</li><li><strong>La règle</strong> — pour faire des traits droits</li><li><strong>Le sac</strong> — pour transporter</li><li><strong>La table</strong> — pour poser ses affaires</li></ul><h3>👥 Les personnes de l'école</h3><p>À l'école publique de Bonabéri, <strong>Manga</strong> rencontre : l'<em>enseignant(e)</em> qui enseigne, le <em>directeur</em> qui dirige, le <em>gardien</em> qui surveille, et les <em>élèves</em> comme lui.</p><h3>🗣️ Dire à qui appartient un objet</h3><p>Quand on parle, on peut dire à qui est un objet :</p><ul><li><em>« Le cahier est à <strong>Tina</strong>. »</em></li><li><em>« La gomme est à <strong>Tabi</strong>. »</em></li><li><em>« Le sac est à <strong>Bineta</strong>. »</em></li></ul><h3>🇨🇲 À l'école camerounaise</h3><p>Au CP, on apprend d'abord à <strong>parler</strong> avant d'écrire. <strong>Amina</strong> nomme les objets à voix haute. C'est le premier pas vers la lecture et l'écriture.</p>"
               }
             ]
           }
@@ -1711,7 +1715,8 @@
                     "Application exacte et sans erreur des concepts étudiés.",
                     "Clarté de la démarche ou de l'expression."
                   ]
-                }
+                },
+                "contenu": "<h3>🔢 Les nombres de 1 à 5</h3><p>Aujourd'hui on apprend à compter les objets de <strong>notre maison</strong>. Chaque objet compte ! 🏠</p><h3>👆 Compter avec les doigts</h3><ul><li>1 = un doigt levé → <span class='exemple'>1 porte</span></li><li>2 = deux doigts → <span class='exemple'>2 fenêtres</span></li><li>3 = trois doigts → <span class='exemple'>3 chaises</span></li><li>4 = quatre doigts → <span class='exemple'>4 assiettes</span></li><li>5 = toute la main → <span class='exemple'>5 tasses</span></li></ul><h3>➕ Additionner</h3><p>Tina a <strong>2 bols</strong>. Sa maman lui donne <strong>2 bols</strong> de plus. Elle a maintenant <strong>4 bols</strong> : 2 + 2 = 4.</p><h3>📝 À retenir</h3><ul><li>Pour compter : pointer chaque objet du doigt</li><li>+ veut dire <em>ajouter</em>, − veut dire <em>enlever</em></li></ul>"
               },
               {
                 "id": "cp-t1-ua1-math-nc-2",
@@ -1868,7 +1873,8 @@
                     "Application exacte et sans erreur des concepts étudiés.",
                     "Clarté de la démarche ou de l'expression."
                   ]
-                }
+                },
+                "contenu": "<h3>🔢 Les nombres de 6 à 10</h3><p>On continue à compter dans notre maison ! Maintenant on va jusqu'à <strong>10</strong> — comme les 10 doigts des deux mains. 🤲</p><h3>📊 La droite numérique</h3><p>1 — 2 — 3 — 4 — 5 — <strong>6 — 7 — 8 — 9 — 10</strong></p><ul><li><span class='exemple'>6 assiettes sur la table</span></li><li><span class='exemple'>7 briques dans le mur</span></li><li><span class='exemple'>8 tuiles sur le toit</span></li><li><span class='exemple'>9 marches de l'escalier</span></li><li><span class='exemple'>10 doigts pour compter</span></li></ul><h3>➕ Additionner jusqu'à 10</h3><p>Manga a <strong>6 bois</strong> pour le feu. Il ramasse <strong>4</strong> de plus. Il en a <strong>10</strong> : 6 + 4 = 10. 🔥</p>"
               },
               {
                 "id": "cp-t1-ua1-math-nc-3",
@@ -2016,7 +2022,8 @@
                     "Application exacte et sans erreur des concepts étudiés.",
                     "Clarté de la démarche ou de l'expression."
                   ]
-                }
+                },
+                "contenu": "<h3>🤝 Partager équitablement</h3><p>Dans notre maison, on partage. <strong>Partager équitablement</strong> veut dire que chaque personne reçoit <strong>la même quantité</strong>. C'est juste et beau ! 🌟</p><h3>🍊 Exemple du marché</h3><p>Mama Ngono revient du marché avec <strong>6 oranges</strong>. Elle les donne à ses <strong>2</strong> enfants. Elle en donne <strong>3 à Tina</strong> et <strong>3 à Tabi</strong> : 3 = 3 → partage équitable ✅</p><h3>📝 Les mots du partage</h3><ul><li><em>chacun</em> → chaque personne reçoit sa part</li><li><em>autant</em> → la même quantité</li><li><em>reste</em> → ce qui est en trop après le partage</li></ul>"
               }
             ]
           },
@@ -2152,7 +2159,8 @@
                     "Application exacte et sans erreur des concepts étudiés.",
                     "Clarté de la démarche ou de l'expression."
                   ]
-                }
+                },
+                "contenu": "<h3>📏 Comparer les tailles</h3><p>Dans notre maison, certains objets sont <strong>grands</strong>, d'autres <strong>petits</strong>. On peut les comparer <strong>sans règle</strong> — avec nos mains et nos pieds ! 🖐️👣</p><h3>🏠 Dans la maison de Tina</h3><ul><li>La <strong>porte</strong> est plus haute que la <strong>fenêtre</strong></li><li>Le <strong>lit</strong> est plus long que la <strong>chaise</strong></li><li>La <strong>table</strong> est plus large que le <strong>tabouret</strong></li></ul><h3>📐 Mesurer avec la main : l'empan</h3><p>Ouvre ta main. La distance entre ton pouce et ton petit doigt = <strong>1 empan</strong>. Pose ta main sur un objet et compte combien de fois tu la poses — c'est sa longueur !</p>"
               }
             ]
           },
@@ -2331,7 +2339,8 @@
                     "Application exacte et sans erreur des concepts étudiés.",
                     "Clarté de la démarche ou de l'expression."
                   ]
-                }
+                },
+                "contenu": "<h3>🔷 Les formes dans ma maison</h3><p>Regarde autour de toi ! Ta maison est pleine de <strong>formes géométriques</strong>. 🏠</p><h3>🔍 Les formes principales</h3><ul><li>⬛ <strong>Carré</strong> : 4 côtés égaux → <span class='exemple'>carreaux du sol</span></li><li>▬ <strong>Rectangle</strong> : 2 côtés longs + 2 courts → <span class='exemple'>porte, fenêtre</span></li><li>🔺 <strong>Triangle</strong> : 3 côtés → <span class='exemple'>toit de la maison</span></li><li>⚪ <strong>Cercle</strong> : forme ronde → <span class='exemple'>assiette, bol</span></li></ul><h3>👁️ Exercice d'observation</h3><p>Tina regarde sa cuisine : la fenêtre est un <strong>rectangle</strong>, l'assiette est un <strong>cercle</strong>, la natte est un <strong>rectangle</strong>. Elle voit des formes partout !</p>"
               }
             ]
           }
@@ -2524,7 +2533,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h3>🧍 Mon corps et mon hygiène</h3><p>Notre corps est notre maison vivante ! Pour être en bonne santé, il faut en prendre soin chaque jour à la maison. 🏠❤️</p><h3>🔍 Les 3 grandes parties du corps</h3><ul><li><strong>La tête</strong> : yeux 👁️ oreilles 👂 nez 👃 bouche 👄</li><li><strong>Le tronc</strong> : cœur, poumons, estomac</li><li><strong>Les membres</strong> : bras 💪 mains ✋ jambes 🦵 pieds 🦶</li></ul><h3>🧼 Se laver les mains à Douala</h3><p>Tabi revient du marché. Sa mama lui dit : <em>« Avant de toucher la nourriture, lave-toi les mains ! »</em> Il prend le savon, se frotte 30 secondes, rince et sèche. 4 étapes pour éloigner les microbes ! ✅</p>"
             },
             {
               "id": "cp-t1-ua1-sci-2",
@@ -2722,7 +2732,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h3>🐓 Les animaux de notre maison</h3><p>À Douala et dans tout le Cameroun, beaucoup de familles élèvent des animaux dans leur <strong>cour</strong>. Ces animaux aident la famille ! 🏡</p><h3>🦮 Les animaux de la cour camerounaise</h3><ul><li>🐔 <strong>La poule</strong> → œufs et viande</li><li>🐐 <strong>La chèvre</strong> → lait et viande</li><li>🐕 <strong>Le chien</strong> → garde la maison</li><li>🐈 <strong>Le chat</strong> → chasse les souris</li><li>🦆 <strong>Le canard</strong> → viande et œufs</li></ul><h3>🧼 Règle d'hygiène importante</h3><p>Les animaux de la cour <strong>ne doivent pas entrer dans la cuisine</strong> — leurs pattes transportent des microbes. Mama Tina ferme toujours la porte de la cuisine ! 🚪</p>"
             },
             {
               "id": "cp-t1-ua1-sci-3",
@@ -2906,7 +2917,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h3>💧 L'eau dans notre maison</h3><p>L'eau est <strong>indispensable à la vie</strong>. Dans notre maison, on l'utilise pour tout. Au Cameroun, l'eau est précieuse — il faut la respecter ! 🌍</p><h3>🏠 Les usages de l'eau chez Tina</h3><ul><li>🥤 <strong>Boire</strong> : eau bouillie ou filtrée</li><li>🍳 <strong>Cuisiner</strong> : pour le riz, les sauces, le ndolè</li><li>🚿 <strong>Se laver</strong> : douche, laver les mains</li><li>🌱 <strong>Arroser</strong> : le jardin de la cour</li></ul><h3>💡 Économisons l'eau !</h3><p>À Douala, l'eau peut manquer dans certains quartiers. Manga ferme <strong>toujours</strong> le robinet après usage. <em>Une goutte économisée = une goutte pour demain.</em> 🌊</p>"
             }
           ]
         },
@@ -3100,7 +3112,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h3>🏚️ La maison camerounaise hier et aujourd'hui</h3><p>Au Cameroun, il y a plus de <strong>250 ethnies</strong> — et chacune a sa façon de construire sa maison ! 🇨🇲</p><h3>🗺️ Les maisons selon les régions</h3><ul><li>🔵 <strong>Nord</strong> : case ronde en banco à toit de paille</li><li>🟤 <strong>Centre/Est</strong> : case rectangulaire en bois ou banco</li><li>🔶 <strong>Côte/Littoral</strong> : maison sur pilotis au bord de l'eau</li><li>🟢 <strong>Ville (Douala/Yaoundé)</strong> : immeuble en béton et tôle</li></ul><h3>🏺 Les objets d'hier qu'on utilise encore</h3><p>Chez la grand-mère d'Amina à Maroua : le <strong>mortier</strong> pour piler, la <strong>calebasse</strong> pour l'eau, la <strong>natte</strong> pour dormir, le <strong>canari</strong> pour garder l'eau fraîche. Ces objets racontent notre histoire ! 📖</p>"
             }
           ]
         },
@@ -3269,7 +3282,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h3>🏘️ Ma maison dans mon quartier</h3><p>Chaque maison est dans un <strong>quartier</strong>. Pour trouver son chemin, on utilise des <strong>repères</strong> — des éléments qu'on reconnaît facilement. 🗺️</p><h3>📍 Les repères du quartier de Tabi (Douala)</h3><ul><li>🏫 L'école (devant)</li><li>🛒 Le marché (derrière)</li><li>⛪ L'église (à droite)</li><li>🌳 Le grand fromager (à gauche)</li></ul><h3>🏠 Mon adresse = ma carte d'identité de la maison</h3><p>Amina habite au <em>Quartier Makepe, près du marché, Douala</em>. Connaître son adresse permet d'être retrouvé si on se perd. Mémorise la tienne ! 📝</p><h3>🧭 Les mots d'orientation</h3><p><strong>Devant / Derrière / À droite / À gauche / Près de / Loin de</strong> — ce sont les outils du géographe !</p>"
             }
           ]
         },
@@ -3455,7 +3469,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h3>🏠 My Home — Ma maison en anglais</h3><p>Today we learn to talk about our <strong>home</strong> in English ! 🇬🇧</p><h3>📚 Home Vocabulary</h3><ul><li>🚪 <strong>door</strong> = porte</li><li>🪟 <strong>window</strong> = fenêtre</li><li>🏚️ <strong>roof</strong> = toit</li><li>🧱 <strong>wall</strong> = mur</li><li>🪵 <strong>floor</strong> = sol</li><li>🛏️ <strong>room</strong> = pièce</li></ul><h3>💬 Simple Sentences</h3><ul><li><em>This is a door.</em> → C'est une porte.</li><li><em>This is my home.</em> → C'est ma maison.</li><li><em>I have two windows.</em> → J'ai deux fenêtres.</li></ul><h3>🔢 Count with Tina</h3><p><strong>One</strong> door — <strong>Two</strong> windows — <strong>Three</strong> rooms — <strong>Four</strong> walls — <strong>Five</strong> family members. Let's count together ! 🖐️</p>"
             }
           ]
         },
@@ -3616,7 +3631,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h3>🗣️ La maison dans nos langues camerounaises</h3><p>Le Cameroun a plus de <strong>250 langues</strong> ! Chaque ethnie a son mot pour dire 'maison'. Apprenons ensemble ! 🇨🇲</p><h3>🏠 'Maison' en langues nationales</h3><ul><li>🟢 <strong>Ewondo</strong> (Centre Cameroun) : <em>nda</em></li><li>🔵 <strong>Fulfulde</strong> (Nord Cameroun) : <em>galle</em></li><li>🟤 <strong>Bassa</strong> (Littoral/Centre) : <em>ndap</em></li><li>🔶 <strong>Duala</strong> (Littoral) : <em>mbedi</em></li></ul><h3>🤝 La valeur de l'hospitalité</h3><p>Dans toutes les cultures du Cameroun, la maison est un lieu d'<strong>accueil</strong>. Quand un visiteur arrive, on lui offre de la nourriture et à boire. C'est l'<em>hospitalité africaine</em> — une richesse que nous partageons tous ! ❤️</p>"
             },
             {
               "id": "cp-t1-ua1-lcn-2",
@@ -3767,7 +3783,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h3>📖 Les contes camerounais et la maison</h3><p>En Afrique, les histoires se transmettent à voix haute, le soir, autour d'un feu. C'est la <strong>tradition orale</strong>. 🔥</p><h3>🕷️ Le conte d'Anansi</h3><p>L'araignée <strong>Anansi</strong> construit une belle maison mais refuse d'y accueillir ses voisins. Un soir, une tempête arrive. Seule, elle a peur. Ses voisins viennent l'aider malgré tout. Elle comprend enfin que <em>la vraie maison, c'est ceux qu'on y accueille</em>. 🏡❤️</p><h3>🦁 Les personnages des contes camerounais</h3><ul><li>🕷️ <strong>Anansi</strong> → la ruse</li><li>🐢 <strong>La tortue</strong> → la sagesse et la patience</li><li>🐰 <strong>Le lièvre</strong> → l'intelligence</li><li>🦁 <strong>Le lion</strong> → la force</li></ul><h3>✨ Morale du jour</h3><p><em>« Une maison sans amour n'est qu'une cage. »</em> — Proverbe camerounais</p>"
             }
           ]
         },
@@ -3942,7 +3959,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h3>🌟 Je suis responsable de ma maison</h3><p>La maison appartient à toute la famille — même aux enfants ! Chacun peut contribuer à la garder <strong>propre, rangée et agréable</strong>. 🏠✨</p><h3>🧹 Les tâches de Tina et Tabi (6-7 ans)</h3><ul><li>🧸 Ranger ses jouets et ses affaires</li><li>🌿 Arroser les plantes de la cour</li><li>🍂 Ramasser les feuilles dehors</li><li>🧹 Balayer sa chambre</li></ul><h3>💪 Pourquoi aider ?</h3><p>Manga aide sa mama parce qu'il l'aime. Quand tout le monde aide, la maison est belle. Et quand la maison est belle, toute la famille est heureuse. <em>C'est la coopération !</em> 🤝</p><h3>✅ Mon engagement du soir</h3><p>Choisis une tâche et dis-la à voix haute : <em>« Ce soir, je vais... »</em> Tiens ta promesse — c'est comme ça qu'on devient grand(e) ! 🌟</p>"
             }
           ]
         },
@@ -4622,7 +4640,8 @@
                 ],
                 "duree_minutes": 30,
                 "_editorial": "valide",
-                "_calibrage_ua1_t1": "100% oral. Aucune lecture/écriture exigée."
+                "_calibrage_ua1_t1": "100% oral. Aucune lecture/écriture exigée.",
+                "contenu": "<h3>👨‍👩‍👧‍👦 Parler de ma famille</h3><p>Au Cameroun, la famille est très importante. <strong>Tina</strong> habite à Yaoundé avec son papa, sa maman, son grand frère et sa petite sœur. Tous les soirs, ils mangent ensemble.</p><h3>🗣️ Les membres de la famille</h3><p>À l'oral, on apprend à nommer les personnes de la famille :</p><ul><li><strong>Mon papa</strong> — l'homme qui m'a fait naître</li><li><strong>Ma maman</strong> — la femme qui m'a fait naître</li><li><strong>Mon frère</strong> — le garçon qui a les mêmes parents que moi</li><li><strong>Ma sœur</strong> — la fille qui a les mêmes parents que moi</li><li><strong>Mon grand-père</strong> — le papa de mon papa ou de ma maman</li><li><strong>Ma grand-mère</strong> — la maman de mon papa ou de ma maman</li></ul><h3>🏡 Présenter sa famille à voix haute</h3><p><strong>Amina</strong> dit à ses camarades : <em>« Voici ma famille. Mon papa s'appelle Issa. Ma maman s'appelle Aïcha. Mon frère s'appelle Moussa. »</em></p><h3>🇨🇲 La famille africaine</h3><p>Chez <strong>Bineta</strong> à Maroua, comme chez <strong>Manga</strong> à Douala, la famille est grande : il y a aussi les tantes, les oncles, les cousins. Tout le monde s'aide. C'est ce qu'on appelle la <em>famille élargie</em>.</p>"
               }
             ]
           },
@@ -4746,7 +4765,8 @@
                   "Manga"
                 ],
                 "duree_minutes": 30,
-                "_editorial": "valide"
+                "_editorial": "valide",
+                "contenu": "<h3>📖 La lettre I — deuxième voyelle</h3><p>Après la lettre <strong>A</strong>, voici la lettre <strong>I</strong>. C'est aussi une <strong>voyelle</strong>. Elle s'écrit de deux façons :</p><ul><li><strong>I</strong> — en majuscule (grande lettre, droite comme un poteau)</li><li><strong>i</strong> — en minuscule (petite lettre avec un point au-dessus)</li></ul><h3>🔊 Le son [i]</h3><p>La lettre I se prononce <strong>[i]</strong>. C'est un son qu'on entend dans beaucoup de mots :</p><ul><li><em>Tina</em> — un prénom camerounais</li><li><em>Amina, Tabi, Bineta</em> — d'autres prénoms du Cameroun</li><li><em>riz, lit, ami</em></li><li><em>midi</em> — quand le soleil est au plus haut</li><li><em>île</em> — une terre entourée d'eau</li></ul><h3>✍️ Syllabes simples avec I et A</h3><p>On combine I avec d'autres lettres. Et comme on connaît déjà A, on peut faire plein de syllabes :</p><p><em>li — mi — pi — ti — ni — ri — si</em></p><p><em>la, li — ma, mi — pa, pi</em></p><p>Exemple : <strong>Tina</strong> écrit T + i + n + a. <strong>Bineta</strong> écrit B + i + n + e + t + a. Tu vois la lettre I qui se cache au début !</p><h3>🇨🇲 Cherche la lettre I</h3><p>Dans ta famille, cherche des prénoms qui ont un i : Tina, Tabi, Amina, Bineta. Au marché de Douala, cherche des mots avec i : <em>riz, miel, igname</em>.</p>"
               }
             ]
           },
@@ -4861,7 +4881,8 @@
                   "Amina"
                 ],
                 "duree_minutes": 30,
-                "_editorial": "valide"
+                "_editorial": "valide",
+                "contenu": "<h3>✍️ Écrire la lettre I au CP camerounais</h3><p>Après la lettre A, voici la deuxième voyelle à écrire : la lettre <strong>I</strong>. <strong>Tina</strong> prépare son <strong>cahier 32 pages à grands carreaux</strong> et son crayon bien taillé. Le dos droit, les pieds à plat sur le sol.</p><h3>📐 Tracer I en majuscule (1 seul trait)</h3><p>La majuscule I est la lettre la plus facile à écrire :</p><ol><li>On pose le crayon sur la ligne du haut du carreau</li><li>On descend tout droit jusqu'à la ligne du bas</li><li>C'est fini ! Un seul trait vertical, bien droit comme un poteau</li></ol><p>Exemple : la majuscule I, c'est comme un palmier sans branches !</p><h3>🔵 Tracer i en minuscule (2 étapes)</h3><p>La minuscule i se construit en 2 étapes :</p><ol><li>Trace un <strong>petit trait vertical</strong> dans l'interligne du milieu (entre les 2 lignes du milieu)</li><li>Ajoute un <strong>petit point juste au-dessus</strong> du trait</li></ol><p><strong>Attention</strong> : sans le point, la lettre ressemble à un 1 ou à un l ! Le point est <em>obligatoire</em>.</p><h3>📏 Respecter le carreau camerounais</h3><p>À l'école publique de Bonabéri, <strong>Tabi</strong> écrit avec soin sur son <em>cahier 32 pages à grands carreaux</em>. La majuscule I monte tout en haut. La minuscule i, plus petite, reste dans le milieu du carreau, avec son point juste au-dessus de la ligne du milieu. <strong>Amina</strong> fait pareil et son cahier devient un vrai chef-d'œuvre !</p>"
               }
             ]
           },
@@ -4996,7 +5017,8 @@
                 ],
                 "duree_minutes": 30,
                 "_editorial": "valide",
-                "_calibrage_ua1_t1": "100% oral. Aucune lecture/écriture exigée."
+                "_calibrage_ua1_t1": "100% oral. Aucune lecture/écriture exigée.",
+                "contenu": "<h3>👨‍👩‍👧‍👦 Le vocabulaire oral de la famille</h3><p>Au Cameroun, la famille est très importante. <strong>Ngono</strong> apprend à <em>nommer</em> à voix haute tous les membres de sa famille. Voici les mots à connaître :</p><ul><li><strong>Mon papa</strong> et <strong>ma maman</strong> — mes parents</li><li><strong>Mon frère</strong> et <strong>ma sœur</strong> — les enfants de mes parents</li><li><strong>Mon grand-père</strong> et <strong>ma grand-mère</strong> — les parents de mes parents</li><li><strong>Mon oncle</strong> et <strong>ma tante</strong> — les frères et sœurs de mes parents</li><li><strong>Mon cousin</strong> et <strong>ma cousine</strong> — les enfants de mon oncle et de ma tante</li></ul><h3>🗣️ « Mon », « ma », « mes » : à quoi ça sert ?</h3><p>Ces 3 petits mots montrent que la personne est de NOTRE famille :</p><ul><li><em><strong>Mon</strong> papa</em> — devant un mot masculin (« papa »)</li><li><em><strong>Ma</strong> maman</em> — devant un mot féminin (« maman »)</li><li><em><strong>Mes</strong> parents</em> — quand il y a plusieurs personnes</li></ul><h3>🏡 Ce que fait chacun à la maison</h3><p>Chez <strong>Manga</strong> à Douala :</p><ul><li><em>Ma maman cuisine le ndolè</em></li><li><em>Mon papa travaille au marché</em></li><li><em>Mon grand frère joue au football</em></li><li><em>Ma petite sœur dort</em></li></ul><h3>🇨🇲 La famille camerounaise</h3><p>Chez <strong>Bineta</strong> à Maroua, tout le monde s'entraide. La grand-mère raconte des histoires, les tantes aident à la cuisine, les oncles vont au champ. La famille, c'est une grande équipe.</p>"
               }
             ]
           }
@@ -5767,7 +5789,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">L&#x27;eau dans le village et la ville</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier les sources d&#x27;eau dans un village camerounais (puits, source, fleuve)</li>\n<li>Nommer les sources d&#x27;eau dans une ville (robinet, château d&#x27;eau, CAMWATER)</li>\n<li>Expliquer pourquoi l&#x27;eau est indispensable à la vie</li>\n<li>Appliquer la règle : boire de l&#x27;eau propre pour ne pas tomber malade</li>\n</ul></div>"
             },
             {
               "id": "cp-t1-ua2-sci-2",
@@ -5896,7 +5919,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les animaux sauvages du Cameroun — forêt et savane</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer 5 animaux sauvages camerounais (éléphant, gorille, lion, crocodile, panthère)</li>\n<li>Distinguer animaux de forêt et animaux de savane</li>\n<li>Expliquer que les animaux sauvages ne vivent pas avec les humains</li>\n<li>Citer 2 parcs nationaux camerounais (Waza, Lobéké)</li>\n</ul></div>"
             },
             {
               "id": "cp-t1-ua2-sci-3",
@@ -6020,7 +6044,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les plantes utiles du village — manioc, plantain, palmier</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier 3 plantes alimentaires camerounaises et leurs parties comestibles (manioc/racine, plantain/fruit, palmier/huile)</li>\n<li>Expliquer comment les plantes poussent : besoin de terre, eau, soleil</li>\n<li>Distinguer plantes alimentaires et plantes médicinales</li>\n<li>Nommer 2 plantes médicinales camerounaises (citronnelle, moringa)</li>\n</ul></div>"
             }
           ]
         },
@@ -6148,7 +6173,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">La formation des villages et des villes au Cameroun</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Expliquer que les villages camerounais se sont formés autour de sources d&#x27;eau et de terres fertiles</li>\n<li>Distinguer village et ville selon leurs caractéristiques</li>\n<li>Nommer 3 grandes villes camerounaises (Douala, Yaoundé, Garoua)</li>\n<li>Identifier le rôle des chefs traditionnels dans l&#x27;organisation des villages</li>\n</ul></div>"
             }
           ]
         },
@@ -6503,7 +6529,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h3>🏘️ My Village and Town</h3><ul><li>🏡 <strong>village</strong> = le village</li><li>🏙️ <strong>town</strong> = la ville</li><li>🛒 <strong>market</strong> = le marché</li><li>🏫 <strong>school</strong> = l'école</li></ul><h3>💬 Dialogue</h3><ul><li><em>A: Hello! Where do you live?</em></li><li><em>B: I live in a village.</em></li><li><em>A: I live in town.</em></li></ul>"
             }
           ]
         },
@@ -6631,7 +6658,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Salutations dans les villages camerounais — dire bonjour dans sa langue</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Prononcer bonjour dans au moins 3 langues camerounaises (Ewondo, Fulfulde, Bassa, Duala)</li>\n<li>Expliquer que les salutations varient selon la région</li>\n<li>Décrire les gestes qui accompagnent les salutations</li>\n<li>Identifier la valeur culturelle de la salutation : marque de respect</li>\n</ul></div>"
             },
             {
               "id": "cp-t1-ua2-lcn-2",
@@ -6755,7 +6783,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les noms de lieux en langues camerounaises — ce que signifient nos noms</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Expliquer que les noms de villes camerounaises viennent des langues locales</li>\n<li>Décoder le sens de quelques noms de villes (Yaoundé, Douala, Foumban, Ebolowa)</li>\n<li>Relier le nom d&#x27;un lieu à son histoire ou à sa géographie</li>\n<li>Chercher si le nom de son village a une signification en langue locale</li>\n</ul></div>"
             }
           ]
         },
@@ -7599,7 +7628,8 @@
                 ],
                 "duree_minutes": 30,
                 "_editorial": "valide",
-                "_calibrage_ua1_t1": "100% oral. Aucune lecture/écriture exigée."
+                "_calibrage_ua1_t1": "100% oral. Aucune lecture/écriture exigée.",
+                "contenu": "<h3>🏘️ Mon quartier ou mon village</h3><p>Chaque enfant habite quelque part. Au Cameroun, certains enfants habitent dans un <strong>quartier</strong> de ville, et d'autres dans un <strong>village</strong>.</p><h3>🌆 Le quartier en ville</h3><p><strong>Manga</strong> habite à <em>Bonabéri</em>, un quartier de Douala. Dans son quartier, il y a :</p><ul><li><strong>L'école publique</strong> — pour apprendre</li><li><strong>Le marché</strong> — pour acheter à manger</li><li><strong>L'église</strong> ou <strong>la mosquée</strong> — pour prier</li><li><strong>La boutique</strong> du coin — pour les petites courses</li><li><strong>La station mototaxi</strong> — pour se déplacer</li></ul><p><strong>Ngono</strong>, lui, habite à <em>Mvog-Ada</em>, un quartier de Yaoundé.</p><h3>🌾 Le village à la campagne</h3><p><strong>Bineta</strong> habite dans un village au Nord. Dans son village, il y a la <em>chefferie</em>, les <em>champs</em> où on cultive le mil, et la <em>case</em> de chaque famille. Tout le monde se connaît.</p><h3>👥 Les personnes du quartier ou du village</h3><p>Dans le quartier, on rencontre les <strong>voisins</strong> et les <strong>voisines</strong>, le <strong>boutiquier</strong>, le <strong>mototaxi</strong>, le <strong>gardien</strong>. Tout le monde se salue le matin : <em>« Bonjour ! »</em>.</p><h3>🇨🇲 Vivre ensemble au Cameroun</h3><p>Au Cameroun, dans le quartier comme au village, les gens s'entraident. Quand <strong>Amina</strong> rentre de l'école à Maroua, ses voisines la saluent toujours.</p>"
               }
             ]
           },
@@ -7718,7 +7748,8 @@
                   "Manga"
                 ],
                 "duree_minutes": 30,
-                "_editorial": "valide"
+                "_editorial": "valide",
+                "contenu": "<h3>📖 La lettre U — troisième voyelle</h3><p>Après A et I, voici la lettre <strong>U</strong>. C'est aussi une <strong>voyelle</strong>. Elle s'écrit de deux façons :</p><ul><li><strong>U</strong> — en majuscule (en forme de seau)</li><li><strong>u</strong> — en minuscule (petite forme arrondie en bas)</li></ul><h3>🔊 Le son [y]</h3><p>La lettre U seule se prononce <strong>[y]</strong>. Attention, c'est différent du « ou » qu'on entend dans « Douala » ! Le son [y] se trouve dans beaucoup de mots du quartier :</p><ul><li><em>tu</em> — pour s'adresser à un camarade</li><li><em>la lune</em> — qui brille la nuit au-dessus de Douala</li><li><em>le bus</em> — qui transporte les gens en ville</li><li><em>la rue</em> — où on marche dans le quartier</li><li><em>le sucre</em> — qu'on met dans le thé</li><li><em>l'université</em> — la grande école</li></ul><h3>✍️ Syllabes simples avec A, I et U</h3><p>Maintenant tu connais 3 voyelles ! Tu peux faire beaucoup de syllabes :</p><p><em>la, li, lu — ma, mi, mu — pa, pi, pu — ta, ti, tu</em></p><p>Exemple : « tu » s'écrit T + u. « bu » s'écrit B + u. Tu peux lire des petits mots maintenant !</p><h3>🇨🇲 Cherche la lettre U dans ton quartier</h3><p>Au marché de <strong>Manga</strong>, cherche des mots avec u : <em>sucre, jus, manuel, bus</em>. Dans la rue, regarde : il y a beaucoup de u cachés dans les noms !</p>"
               }
             ]
           },
@@ -7832,7 +7863,8 @@
                   "Tabi"
                 ],
                 "duree_minutes": 30,
-                "_editorial": "valide"
+                "_editorial": "valide",
+                "contenu": "<h3>✍️ Écrire la lettre U au CP camerounais</h3><p>Voici la troisième voyelle à écrire : la lettre <strong>U</strong>. <strong>Ngono</strong> sort son <strong>cahier 32 pages à grands carreaux</strong>, taille bien son crayon, et s'installe correctement à sa table.</p><h3>🪣 Tracer U en majuscule (forme de seau)</h3><p>La majuscule U se construit en un seul mouvement, comme un seau :</p><ol><li>On part de la <strong>ligne du haut à gauche</strong></li><li>On descend tout droit</li><li>On fait une <strong>courbe arrondie en bas</strong> (comme le fond du seau)</li><li>On remonte tout droit jusqu'à la ligne du haut à droite</li></ol><p>Résultat : la majuscule <strong>U</strong> ressemble à un seau prêt à contenir de l'eau.</p><h3>🔵 Tracer u en minuscule (attention au sens !)</h3><p>La minuscule u se construit aussi en un mouvement :</p><ol><li>On part de la ligne du milieu en haut</li><li>On descend</li><li>On fait une <strong>petite courbe en BAS</strong></li><li>On remonte, et on ajoute un petit retour à droite</li></ol><p><strong>⚠️ ATTENTION</strong> : la lettre u est arrondie en BAS, comme un petit seau. La lettre n est arrondie en HAUT, comme un petit pont. Ne pas confondre !</p><h3>📏 Le piège du u et du n</h3><p>À l'école de Bonabéri, <strong>Tabi</strong> s'est trompé une fois : il a écrit « na » au lieu de « tu ». Sa maîtresse lui a expliqué : <em>u = seau (creux en bas), n = pont (bosse en haut)</em>. Depuis, il ne se trompe plus !</p>"
               }
             ]
           },
@@ -7965,7 +7997,8 @@
                 ],
                 "duree_minutes": 30,
                 "_editorial": "valide",
-                "_calibrage_ua1_t1": "100% oral. Aucune lecture/écriture exigée."
+                "_calibrage_ua1_t1": "100% oral. Aucune lecture/écriture exigée.",
+                "contenu": "<h3>🏘️ Le vocabulaire oral du quartier et du village</h3><p><strong>Amina</strong> habite à Maroua, dans le Nord du Cameroun. <strong>Manga</strong> habite à Bonabéri, à Douala. Tous les deux savent nommer les lieux et personnes de chez eux à voix haute.</p><h3>📍 Dire à voix haute où on habite</h3><p>Pour dire où on habite, on utilise une formule simple :</p><ul><li><em>« J'habite à <strong>Douala</strong>. »</em> — pour une ville</li><li><em>« J'habite à <strong>Maroua</strong>. »</em> — pour une ville</li><li><em>« J'habite dans un <strong>village</strong> du Nord. »</em> — pour un village</li></ul><h3>🏪 Les lieux du quartier</h3><p>Dans un quartier ou un village camerounais, on trouve :</p><ul><li><strong>L'école</strong> — pour apprendre</li><li><strong>Le marché</strong> — pour acheter à manger</li><li><strong>L'église</strong> ou <strong>la mosquée</strong> — pour prier</li><li><strong>La boutique</strong> — pour les petites courses</li><li><strong>La station mototaxi</strong> — pour se déplacer</li><li><strong>Le terrain de foot</strong> — pour jouer</li></ul><h3>👥 Les personnes du quartier</h3><p>Dans le quartier, on connaît :</p><ul><li><strong>Le voisin / la voisine</strong> — qui habite à côté</li><li><strong>Le boutiquier</strong> — qui vend dans la boutique</li><li><strong>Le mototaxi</strong> — qui transporte les gens</li><li><strong>Le gardien</strong> — qui surveille la nuit</li></ul><h3>🇨🇲 Quartier ou village ?</h3><p>Le <strong>quartier</strong> se trouve EN VILLE (Bonabéri à Douala, Mvog-Ada à Yaoundé). Le <strong>village</strong> se trouve À LA CAMPAGNE, où il y a des champs, des cases et beaucoup d'animaux. Les deux sont des lieux où on vit bien ensemble.</p>"
               }
             ]
           }
@@ -8770,7 +8803,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les 5 sens — apprendre et découvrir à l&#x27;école</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer les 5 sens et les organes correspondants</li>\n<li>Expliquer comment on utilise ses sens pour apprendre à l&#x27;école</li>\n<li>Distinguer les informations reçues par chaque sens</li>\n<li>Appliquer la protection des sens (ne pas regarder le soleil, ne pas mettre d&#x27;objets dans les oreilles)</li>\n</ul></div>"
             },
             {
               "id": "cp-t1-ua3-sci-2",
@@ -8880,7 +8914,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les petits animaux de la cour d&#x27;école</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier 5 petits animaux de la cour d&#x27;école camerounaise (fourmi, papillon, lézard, moustique, coccinelle)</li>\n<li>Distinguer animaux utiles et nuisibles</li>\n<li>Décrire comment se déplacent ces animaux</li>\n<li>Expliquer pourquoi il ne faut pas tuer les insectes utiles</li>\n</ul></div>"
             },
             {
               "id": "cp-t1-ua3-sci-3",
@@ -8983,7 +9018,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">L&#x27;air et la respiration — l&#x27;oxygène à l&#x27;école</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Mbappe à Yaoundé)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Expliquer que l&#x27;air est indispensable à la vie</li>\n<li>Identifier les poumons comme organes de la respiration</li>\n<li>Expliquer pourquoi il faut aérer les classes</li>\n<li>Lier les plantes à la production d&#x27;oxygène</li>\n</ul></div>"
             }
           ]
         },
@@ -9098,7 +9134,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">La création des premières écoles au Cameroun</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Expliquer que les premières écoles au Cameroun ont été créées par les missionnaires au XIXe siècle</li>\n<li>Décrire comment les enfants apprenaient avant les écoles modernes : transmission orale et apprentissage par imitation</li>\n<li>Identifier les valeurs que l&#x27;école transmet aujourd&#x27;hui</li>\n<li>Établir un lien entre éducation traditionnelle et éducation moderne</li>\n</ul></div>"
             }
           ]
         },
@@ -9453,7 +9490,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h3>🏫 My School</h3><ul><li>👩‍🏫 <strong>teacher</strong> = le maître / la maîtresse</li><li>✏️ <strong>pen</strong> = le stylo</li><li>📖 <strong>book</strong> = le livre</li><li>🎒 <strong>bag</strong> = le cartable</li><li>🪑 <strong>desk</strong> = la table</li></ul><h3>💬 Simple sentences</h3><ul><li><em>I have a pen.</em></li><li><em>I read my book.</em></li><li><em>My teacher is kind.</em></li></ul>"
             }
           ]
         },
@@ -11395,7 +11433,8 @@
                     "Application exacte et sans erreur des concepts étudiés.",
                     "Clarté de la démarche ou de l'expression."
                   ]
-                }
+                },
+                "contenu": "<h2 class=\"lecon-titre\">Le son O — expression orale</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Écouter attentivement et identifier le son O dans des mots prononcés à voix haute par l&#x27;enseignant</li>\n<li>Prononcer clairement le son O en répétant des mots simples après le maître</li>\n<li>Nommer des objets ou des personnes de l&#x27;environnement camerounais dont le nom contient le son O</li>\n<li>Construire oralement une phrase simple contenant un mot avec le son O</li>\n</ul></div>"
               }
             ]
           },
@@ -11510,7 +11549,8 @@
                     "Application exacte et sans erreur des concepts étudiés.",
                     "Clarté de la démarche ou de l'expression."
                   ]
-                }
+                },
+                "contenu": "<h2 class=\"lecon-titre\">La lettre O — lecture</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ngono à Douala)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Reconnaître la lettre O majuscule et o minuscule parmi d&#x27;autres lettres connues</li>\n<li>Lire correctement les syllabes O, OI et OU formées avec les lettres connues</li>\n<li>Lire à voix haute les mots simples ou et oui en les pointant du doigt</li>\n<li>Lire une phrase courte contenant le mot ou et le mot oui avec fluidité</li>\n</ul></div>"
               }
             ]
           },
@@ -11623,7 +11663,8 @@
                     "Application exacte et sans erreur des concepts étudiés.",
                     "Clarté de la démarche ou de l'expression."
                   ]
-                }
+                },
+                "contenu": "<h2 class=\"lecon-titre\">La lettre O — écriture</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Mbappe à Bafoussam)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Tracer la lettre O majuscule dans les grands carreaux en respectant la hauteur de deux carreaux</li>\n<li>Tracer la lettre o minuscule dans les grands carreaux en respectant la hauteur d&#x27;un carreau</li>\n<li>Copier correctement les syllabes OI et OU dans le cahier à grands carreaux</li>\n<li>Écrire le mot ou sous dictée dans le cahier en respectant l&#x27;espace entre les lettres</li>\n</ul></div>"
               }
             ]
           },
@@ -11732,7 +11773,8 @@
                     "Application exacte et sans erreur des concepts étudiés.",
                     "Clarté de la démarche ou de l'expression."
                   ]
-                }
+                },
+                "contenu": "<h2 class=\"lecon-titre\">Le son O dans les mots — étude de la langue</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndongo à Yaoundé)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier et trier des mots selon qu&#x27;ils contiennent ou non le son O</li>\n<li>Associer une image à son nom en repérant la présence du son O</li>\n<li>Choisir correctement entre ou et oui pour compléter une phrase simple</li>\n<li>Produire oralement une phrase courte en utilisant ou ou oui de manière appropriée</li>\n</ul></div>"
               }
             ]
           }
@@ -12666,7 +12708,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les aliments et les métiers — qui produit notre nourriture</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier les métiers liés à l&#x27;alimentation (agriculteur, pêcheur, boucher, vendeur)</li>\n<li>Classer les aliments selon leur origine végétale ou animale</li>\n<li>Expliquer le trajet d&#x27;un aliment du champ à la table</li>\n<li>Citer 3 aliments camerounais et leur origine (ndolè, tilapia, plantain)</li>\n</ul></div>"
             },
             {
               "id": "cp-t2-ua4-sci-2",
@@ -12790,7 +12833,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les animaux d&#x27;élevage au Cameroun — vache, mouton, poulet</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer 5 animaux d&#x27;élevage camerounais et ce qu&#x27;ils produisent</li>\n<li>Distinguer animaux d&#x27;élevage et animaux sauvages</li>\n<li>Expliquer le rôle des éleveurs : nourrir, soigner, protéger</li>\n<li>Citer des produits dérivés : lait/vache, œufs/poule, laine/mouton</li>\n</ul></div>"
             },
             {
               "id": "cp-t2-ua4-sci-3",
@@ -12915,7 +12959,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">L&#x27;hygiène au travail — propreté et sécurité</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Tabi à Foumban)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Expliquer que chaque métier a des règles d&#x27;hygiène et de sécurité</li>\n<li>Citer les équipements de protection : gants/médecin, casque/maçon, tablier/cuisinier, bottes/agriculteur</li>\n<li>Établir un lien entre hygiène professionnelle et santé publique</li>\n<li>Identifier des comportements dangereux au travail</li>\n</ul></div>"
             }
           ]
         },
@@ -13043,7 +13088,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les métiers traditionnels camerounais — forgeron, tisserand, potière</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer 4 métiers traditionnels camerounais et leurs produits (forgeron/outils, tisserand/tissus, potière/jarres, sculpteur/masques)</li>\n<li>Expliquer comment ces métiers se transmettaient de génération en génération</li>\n<li>Établir un lien entre les métiers traditionnels et la vie quotidienne d&#x27;autrefois</li>\n<li>Identifier des marchés artisanaux célèbres (Yaoundé, Foumban)</li>\n</ul></div>"
             }
           ]
         },
@@ -13367,7 +13413,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h3>👷 Jobs in Cameroon</h3><ul><li>👨‍⚕️ <strong>doctor</strong> = le médecin</li><li>👩‍🏫 <strong>teacher</strong> = le maître</li><li>🌾 <strong>farmer</strong> = l'agriculteur</li><li>🚌 <strong>driver</strong> = le chauffeur</li><li>👨‍🍳 <strong>cook</strong> = le cuisinier</li></ul><h3>💬 Simple sentences</h3><ul><li><em>My mother is a cook.</em></li><li><em>The doctor heals people.</em></li><li><em>A farmer grows food.</em></li></ul>"
             }
           ]
         },
@@ -13495,7 +13542,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les métiers en langues camerounaises — vocabulaire du travail</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer 5 métiers dans au moins 2 langues camerounaises</li>\n<li>Expliquer que les langues camerounaises ont des mots précis pour tous les métiers</li>\n<li>Associer un métier à son rôle social (griot = mémoire du peuple)</li>\n<li>Prononcer correctement des noms de métiers en langue locale</li>\n</ul></div>"
             },
             {
               "id": "cp-t2-ua4-lcn-2",
@@ -13615,7 +13663,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les proverbes camerounais sur le travail et l&#x27;effort</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Comprendre et expliquer le sens de 3 proverbes camerounais sur le travail</li>\n<li>Associer chaque proverbe à une valeur morale (persévérance, solidarité, humilité)</li>\n<li>Raconter un conte traditionnel qui illustre la valeur du travail</li>\n<li>Comparer la sagesse des proverbes à des situations scolaires</li>\n</ul></div>"
             }
           ]
         },
@@ -14451,7 +14500,8 @@
                     "Construit une phrase grammaticalement acceptable avec le mot et"
                   ],
                   "perso": "Toute la classe — Bineta présente en modèle"
-                }
+                },
+                "contenu": "<h2 class=\"lecon-titre\">Le son E — expression orale</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Écouter attentivement et identifier le son E dans des mots prononcés à voix haute par l&#x27;enseignant</li>\n<li>Prononcer clairement le son E en répétant des mots simples après le maître</li>\n<li>Nommer des objets ou des situations de l&#x27;environnement camerounais dont le nom contient le son E</li>\n<li>Construire oralement une phrase simple contenant un mot avec le son E</li>\n</ul></div>"
               }
             ]
           },
@@ -14584,7 +14634,8 @@
                   "perso": "Tabi",
                   "note_correction": "Tâche simplifiée : é/è/ê d'abord, puis reconnaissance globale de 'et' — ancienne tâche combinait trop d'éléments"
                 },
-                "objectif": "Objectif pédagogique. (Avec Ndongo à Yaoundé)"
+                "objectif": "Objectif pédagogique. (Avec Ndongo à Yaoundé)",
+                "contenu": "<h2 class=\"lecon-titre\">La lettre E et les voyelles accentuées — lecture</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndongo à Yaoundé)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Reconnaître la lettre E majuscule et e minuscule parmi toutes les lettres connues</li>\n<li>Lire correctement les voyelles accentuées é, è, ê en distinguant leur prononciation /e/ ou /ɛ/</li>\n<li>Lire à voix haute le mot-outil et en le pointant du doigt, en mémorisant sa forme globale</li>\n<li>Lire une phrase courte contenant le mot et avec fluidité</li>\n</ul></div>"
               }
             ]
           },
@@ -14714,7 +14765,8 @@
                   "perso": "Ngono",
                   "note_correction": "Tâche allégée : suppression de la dictée de phrase complète — remplacée par identification de 'et' dans une phrase écrite au tableau. Charge cognitive adaptée au CP T2."
                 },
-                "objectif": "Objectif pédagogique. (Avec Ngono à Maroua)"
+                "objectif": "Objectif pédagogique. (Avec Ngono à Maroua)",
+                "contenu": "<h2 class=\"lecon-titre\">La lettre E et les voyelles accentuées — écriture</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ngono à Maroua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Tracer la lettre E majuscule dans les grands carreaux en respectant la hauteur de deux carreaux et les 4 traits</li>\n<li>Tracer la lettre e minuscule dans les grands carreaux en respectant la hauteur d&#x27;un carreau</li>\n<li>Copier correctement les voyelles accentuées é et è dans le cahier à grands carreaux en respectant les accents et les espacements</li>\n<li>Écrire le mot et sous dictée dans le cahier en respectant l&#x27;absence d&#x27;espace entre les deux lettres</li>\n</ul></div>"
               }
             ]
           },
@@ -14840,7 +14892,8 @@
                   ],
                   "perso": "Tabi"
                 },
-                "objectif": "Objectif pédagogique. (Avec Amina à Maroua)"
+                "objectif": "Objectif pédagogique. (Avec Amina à Maroua)",
+                "contenu": "<h2 class=\"lecon-titre\">Le son E dans les mots — étude de la langue</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Amina à Maroua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier et trier des mots selon qu&#x27;ils contiennent ou non le son E</li>\n<li>Associer une image à son nom en repérant la présence du son E</li>\n<li>Utiliser correctement le mot et pour relier deux éléments dans une phrase orale</li>\n<li>Produire oralement une phrase courte en utilisant le mot et pour unir deux personnes ou deux objets</li>\n</ul></div>"
               }
             ]
           }
@@ -15771,7 +15824,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les moyens de transport au Cameroun — routes, fleuves, ciel</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Classer les transports : terrestre (car, mototaxi, train), fluvial (pirogue), aérien (avion)</li>\n<li>Identifier les caractéristiques de chaque transport</li>\n<li>Nommer le principal port du Cameroun (Douala) et son aéroport (Nsimalen)</li>\n<li>Expliquer les règles de sécurité de base en transport</li>\n</ul></div>"
             },
             {
               "id": "cp-t2-ua5-sci-2",
@@ -15890,7 +15944,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les changements de l&#x27;eau — solide, liquide, vapeur</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier les 3 états de l&#x27;eau : liquide, solide (glace), gazeux (vapeur)</li>\n<li>Expliquer la transformation eau → glace par le froid et glace → eau par la chaleur</li>\n<li>Observer la vapeur d&#x27;eau lors de la cuisson</li>\n<li>Faire le lien avec la vie quotidienne</li>\n</ul></div>"
             },
             {
               "id": "cp-t2-ua5-sci-3",
@@ -15992,7 +16047,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les plantes et les animaux des bords de route</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier 3 plantes des bords de routes camerounaises (herbes, rôniers, arbres fruitiers sauvages)</li>\n<li>Nommer des animaux observables en voyage (oiseaux, singes, agoutis)</li>\n<li>Expliquer comment les animaux et les plantes s&#x27;adaptent à leur milieu</li>\n<li>Décrire les dangers des routes pour les animaux</li>\n</ul></div>"
             }
           ]
         },
@@ -16478,7 +16534,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h3>🚌 How do we travel?</h3><ul><li>🚗 <strong>car</strong> = la voiture</li><li>🚌 <strong>bus</strong> = le bus</li><li>✈️ <strong>plane</strong> = l'avion</li><li>⛵ <strong>boat</strong> = le bateau</li></ul><h3>💬 Simple sentences</h3><ul><li><em>I travel by bus.</em></li><li><em>A plane is very fast.</em></li><li><em>The boat is on the water.</em></li></ul>"
             }
           ]
         },
@@ -16584,7 +16641,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les chants de voyage et les épopées orales camerounaises</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Expliquer que les voyages ancestraux camerounais étaient accompagnés de chants et de rites</li>\n<li>Identifier quelques épopées orales camerounaises</li>\n<li>Comprendre que les chants de voyage exprimaient les émotions des voyageurs</li>\n<li>Dire ou chanter une courte mélodie de voyage en langue locale</li>\n</ul></div>"
             },
             {
               "id": "cp-t2-ua5-lcn-2",
@@ -16704,7 +16762,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les proverbes camerounais sur le chemin et les rencontres</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Comprendre le sens de 3 proverbes sur les voyages et les rencontres</li>\n<li>Expliquer que les rencontres en voyage enrichissent la connaissance</li>\n<li>Associer chaque proverbe à une situation de voyage</li>\n<li>Partager un proverbe de sa communauté sur le voyage</li>\n</ul></div>"
             }
           ]
         },
@@ -17551,7 +17610,8 @@
                   ],
                   "perso": "Tabi"
                 },
-                "objectif": "Objectif pédagogique. (Avec Manga à Garoua)"
+                "objectif": "Objectif pédagogique. (Avec Manga à Garoua)",
+                "contenu": "<h2 class=\"lecon-titre\">Le son T — expression orale</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Manga à Garoua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Écouter attentivement et identifier le son T dans des mots prononcés à voix haute par l&#x27;enseignant</li>\n<li>Prononcer clairement le son T en répétant des mots simples après le maître</li>\n<li>Distinguer oralement les mots qui commencent par T de ceux qui commencent par une voyelle</li>\n<li>Construire oralement une phrase simple contenant un mot qui commence par le son T</li>\n</ul></div>"
               }
             ]
           },
@@ -17688,7 +17748,8 @@
                   "perso": "Ngono",
                   "note_correction": "Ancienne phrase 'Tu et toi, c'est la même personne' REMPLACÉE — confusion grammaticale. Nouvelle phrase illustre tu (sujet) et toi (tonique) dans deux contextes différents et corrects."
                 },
-                "objectif": "Objectif pédagogique. (Avec Ndonfack à Maroua)"
+                "objectif": "Objectif pédagogique. (Avec Ndonfack à Maroua)",
+                "contenu": "<h2 class=\"lecon-titre\">La lettre T — lecture</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndonfack à Maroua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Reconnaître la lettre T majuscule et t minuscule parmi toutes les lettres connues</li>\n<li>Lire correctement les syllabes directes TA, TI, TU, TO, TE en combinant T avec chaque voyelle connue</li>\n<li>Lire à voix haute les mots tu, ta et toi en les pointant du doigt</li>\n<li>Lire une phrase courte contenant tu ou ta avec fluidité</li>\n<li>Lire correctement les syllabes inversées AT, OT, IT, UT formées en plaçant la voyelle avant T</li>\n</ul></div>"
               }
             ]
           },
@@ -17812,7 +17873,8 @@
                   "perso": "Tabi",
                   "note_correction": "SF3 étendu aux 5 syllabes — ancienne tâche limitée à TU. Cohérence interne Lecture/Écriture rétablie."
                 },
-                "objectif": "Objectif pédagogique. (Avec Ngono à Foumban)"
+                "objectif": "Objectif pédagogique. (Avec Ngono à Foumban)",
+                "contenu": "<h2 class=\"lecon-titre\">La lettre T — écriture</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ngono à Foumban)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Tracer la lettre T majuscule dans les grands carreaux en respectant la hauteur de deux carreaux et les 2 traits</li>\n<li>Tracer la lettre t minuscule dans les grands carreaux en respectant la hauteur d&#x27;un carreau et demi</li>\n<li>Copier correctement les syllabes TA, TI, TU, TO, TE dans le cahier à grands carreaux en respectant les espacements</li>\n<li>Écrire le mot tu sous dictée dans le cahier en respectant l&#x27;absence d&#x27;espace entre les deux lettres</li>\n</ul></div>"
               }
             ]
           },
@@ -17930,7 +17992,8 @@
                   ],
                   "perso": "Tabi"
                 },
-                "objectif": "Objectif pédagogique. (Avec Ndongo à Douala)"
+                "objectif": "Objectif pédagogique. (Avec Ndongo à Douala)",
+                "contenu": "<h2 class=\"lecon-titre\">La lettre T dans les mots — étude de la langue</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ndongo à Douala)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier et trier des mots selon qu&#x27;ils commencent ou non par le son T</li>\n<li>Associer une image à son nom en repérant la présence du son T au début du mot</li>\n<li>Choisir correctement entre tu et ta pour compléter une phrase simple</li>\n<li>Produire oralement une phrase courte en utilisant tu ou ta de manière appropriée</li>\n</ul></div>"
               }
             ]
           }
@@ -18715,7 +18778,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les maladies courantes au Cameroun — causes et prévention</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer 3 maladies courantes (paludisme/moustique, diarrhée/eau sale, typhoïde/nourriture contaminée)</li>\n<li>Expliquer le rôle des microbes</li>\n<li>Appliquer les gestes de prévention : moustiquaire, eau bouillie, lavage des mains</li>\n<li>Identifier les structures de santé camerounaises</li>\n</ul></div>"
             },
             {
               "id": "cp-t2-ua6-sci-2",
@@ -18839,7 +18903,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les plantes médicinales du Cameroun — soigner avec la nature</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Nommer 4 plantes médicinales (citronnelle/fièvre, gingembre/digestion, moringa/nutrition, neem/paludisme)</li>\n<li>Expliquer que les plantes médicinales sont utilisées depuis des siècles</li>\n<li>Distinguer médecine traditionnelle et médecine moderne</li>\n<li>Préciser que les plantes complètent mais ne remplacent pas toujours les médicaments</li>\n</ul></div>"
             },
             {
               "id": "cp-t2-ua6-sci-3",
@@ -18947,7 +19012,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les aliments sains — bien manger pour rester en bonne santé</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Classer les aliments en 3 groupes : constructeurs, énergétiques, protecteurs</li>\n<li>Composer un repas équilibré camerounais</li>\n<li>Expliquer les risques de la malnutrition</li>\n<li>Identifier les aliments riches en vitamines C et en fer</li>\n</ul></div>"
             }
           ]
         },
@@ -19433,7 +19499,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h3>💊 Staying Healthy</h3><ul><li>🤒 <strong>sick</strong> = malade</li><li>👨‍⚕️ <strong>doctor</strong> = le médecin</li><li>🏥 <strong>hospital</strong> = l'hôpital</li><li>🚿 <strong>wash</strong> = se laver</li></ul><h3>💬 Simple sentences</h3><ul><li><em>I wash my hands.</em></li><li><em>When I am sick, I go to the doctor.</em></li><li><em>The hospital helps sick people.</em></li></ul>"
             }
           ]
         },
@@ -19561,7 +19628,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">La médecine traditionnelle au Cameroun — guérisseurs et plantes</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Expliquer le rôle du tradipraticien dans les communautés camerounaises</li>\n<li>Nommer 3 pratiques de médecine traditionnelle camerounaise</li>\n<li>Comprendre que la médecine traditionnelle et la médecine moderne peuvent se compléter</li>\n<li>Identifier des plantes sacrées dans différentes cultures camerounaises</li>\n</ul></div>"
             },
             {
               "id": "cp-t2-ua6-lcn-2",
@@ -19681,7 +19749,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les proverbes camerounais sur la santé et le corps</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Mémoriser et expliquer 3 proverbes africains sur la santé</li>\n<li>Associer chaque proverbe à un comportement de santé concret</li>\n<li>Comprendre que nos ancêtres valorisaient la santé comme richesse fondamentale</li>\n<li>Relier les proverbes ancestraux aux conseils médicaux modernes</li>\n</ul></div>"
             }
           ]
         },
@@ -21154,7 +21223,8 @@
                   }
                 },
                 "html": "<div class='lecon'><h2>🎮 On joue ensemble !</h2><p><strong>Thème :</strong> Les jeux traditionnels camerounais</p><div class='jeux'><div class='jeu'><span class='emoji'>🪵</span><strong>L'awalé</strong> — jeu de stratégie avec des graines</div><div class='jeu'><span class='emoji'>⚽</span><strong>Le ndamba</strong> — football dans la cour</div><div class='jeu'><span class='emoji'>🤸</span><strong>Le nzango</strong> — jeu de saut et de rythme</div></div><div class='formules'><h3>Je sais dire…</h3><p>✅ Inviter : <em>«Viens jouer avec moi !»</em></p><p>✅ Accepter : <em>«Oui, j'arrive !»</em></p><p>✅ Refuser : <em>«Pas maintenant, peut-être après.»</em></p></div><div class='recit'><h3>Je raconte dans l'ordre :</h3><p>📍 <strong>D'abord</strong> → <strong>Ensuite</strong> → <strong>Après</strong> → <strong>À la fin</strong></p></div></div>",
-                "titre": "On joue ensemble !"
+                "titre": "On joue ensemble !",
+                "contenu": "<div class='lecon'><h2>🎮 On joue ensemble !</h2><p><strong>Thème :</strong> Les jeux traditionnels camerounais</p><div class='jeux'><div class='jeu'><span class='emoji'>🪵</span><strong>L'awalé</strong> — jeu de stratégie avec des graines</div><div class='jeu'><span class='emoji'>⚽</span><strong>Le ndamba</strong> — football dans la cour</div><div class='jeu'><span class='emoji'>🤸</span><strong>Le nzango</strong> — jeu de saut et de rythme</div></div><div class='formules'><h3>Je sais dire…</h3><p>✅ Inviter : <em>«Viens jouer avec moi !»</em></p><p>✅ Accepter : <em>«Oui, j'arrive !»</em></p><p>✅ Refuser : <em>«Pas maintenant, peut-être après.»</em></p></div><div class='recit'><h3>Je raconte dans l'ordre :</h3><p>📍 <strong>D'abord</strong> → <strong>Ensuite</strong> → <strong>Après</strong> → <strong>À la fin</strong></p></div></div>"
               }
             ]
           },
@@ -21536,7 +21606,8 @@
                   }
                 },
                 "html": "<div class='lecon'><h2>🔤 La lettre L fait /l/</h2><div class='grapheme'><span class='lettre-L'>L</span><span class='lettre-l'>l</span><p>Comme un <strong>lampadaire</strong> dans la cour !</p></div><div class='syllabes'><h3>Je lis :</h3><div class='grille-syllabes'><span>la</span><span>le</span><span>li</span><span>lo</span><span>lu</span></div></div><div class='mots'><h3>Mes mots :</h3><p>loi — lui — <strong>lit</strong> — <strong>loto</strong> — outil</p></div><div class='phrase-lecon'><h3>Ma phrase :</h3><p class='phrase'>Il lit le loto. Toi et lui !</p></div><div class='jeu-lien'><p>🎲 Tabi joue au <strong>loto</strong> avec Tina !</p></div></div>",
-                "titre": "La lettre L fait /l/"
+                "titre": "La lettre L fait /l/",
+                "contenu": "<div class='lecon'><h2>🔤 La lettre L fait /l/</h2><div class='grapheme'><span class='lettre-L'>L</span><span class='lettre-l'>l</span><p>Comme un <strong>lampadaire</strong> dans la cour !</p></div><div class='syllabes'><h3>Je lis :</h3><div class='grille-syllabes'><span>la</span><span>le</span><span>li</span><span>lo</span><span>lu</span></div></div><div class='mots'><h3>Mes mots :</h3><p>loi — lui — <strong>lit</strong> — <strong>loto</strong> — outil</p></div><div class='phrase-lecon'><h3>Ma phrase :</h3><p class='phrase'>Il lit le loto. Toi et lui !</p></div><div class='jeu-lien'><p>🎲 Tabi joue au <strong>loto</strong> avec Tina !</p></div></div>"
               }
             ]
           },
@@ -21902,7 +21973,8 @@
                   }
                 },
                 "html": "<div class='lecon'><h2>✏️ J'écris la lettre L</h2><div class='trace-demo'><div class='lettre-demo'><span class='grand-L'>L</span><p>Vertical + pied<br>1 levée de crayon</p></div><div class='lettre-demo'><span class='grand-l'>l</span><p>Vertical seul<br>Aucune levée</p></div></div><div class='progression'><h3>Je progresse :</h3><p>① Syllabes : <strong>la — le — li — lu</strong></p><p>② Mots : <strong>loi — lui — lit — loto — outil</strong></p><p>③ Phrase : <strong>Il lit le loto. Toi et lui !</strong></p></div><div class='checklist'><h3>Je vérifie :</h3><p>☐ Majuscule au début</p><p>☐ Espace entre les mots</p><p>☐ Point à la fin</p></div></div>",
-                "titre": "J'écris la lettre L"
+                "titre": "J'écris la lettre L",
+                "contenu": "<div class='lecon'><h2>✏️ J'écris la lettre L</h2><div class='trace-demo'><div class='lettre-demo'><span class='grand-L'>L</span><p>Vertical + pied<br>1 levée de crayon</p></div><div class='lettre-demo'><span class='grand-l'>l</span><p>Vertical seul<br>Aucune levée</p></div></div><div class='progression'><h3>Je progresse :</h3><p>① Syllabes : <strong>la — le — li — lu</strong></p><p>② Mots : <strong>loi — lui — lit — loto — outil</strong></p><p>③ Phrase : <strong>Il lit le loto. Toi et lui !</strong></p></div><div class='checklist'><h3>Je vérifie :</h3><p>☐ Majuscule au début</p><p>☐ Espace entre les mots</p><p>☐ Point à la fin</p></div></div>"
               }
             ]
           },
@@ -22403,7 +22475,8 @@
                   }
                 },
                 "html": "<div class='lecon'><h2>🔍 Le son /l/ — le et la</h2><div class='son-positions'><h3>Je localise /l/ :</h3><div class='position-grille'><div class='pos debut'><span>🎯 DÉBUT</span><p>loto — lune — lit</p></div><div class='pos milieu'><span>🎯 MILIEU</span><p>ballon — soleil</p></div><div class='pos fin'><span>🎯 FIN</span><p>outil — sol</p></div></div></div><div class='articles'><h3>Je choisis :</h3><div class='article-grille'><div class='art'><strong>le</strong><p>le loto ✓<br>le lit ✓</p></div><div class='art'><strong>la</strong><p>la loi ✓</p></div></div></div><div class='jeu-lien'><p>🎲 Ngono : <em>«Le loto, la loi du jeu — et lui qui gagne !»</em></p></div></div>",
-                "titre": "Le son /l/ — le et la"
+                "titre": "Le son /l/ — le et la",
+                "contenu": "<div class='lecon'><h2>🔍 Le son /l/ — le et la</h2><div class='son-positions'><h3>Je localise /l/ :</h3><div class='position-grille'><div class='pos debut'><span>🎯 DÉBUT</span><p>loto — lune — lit</p></div><div class='pos milieu'><span>🎯 MILIEU</span><p>ballon — soleil</p></div><div class='pos fin'><span>🎯 FIN</span><p>outil — sol</p></div></div></div><div class='articles'><h3>Je choisis :</h3><div class='article-grille'><div class='art'><strong>le</strong><p>le loto ✓<br>le lit ✓</p></div><div class='art'><strong>la</strong><p>la loi ✓</p></div></div></div><div class='jeu-lien'><p>🎲 Ngono : <em>«Le loto, la loi du jeu — et lui qui gagne !»</em></p></div></div>"
               }
             ]
           }
@@ -23164,7 +23237,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Le corps en mouvement — muscles et énergie pendant le jeu</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Bineta à Maroua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Expliquer ce qui se passe dans le corps pendant un effort physique (cœur, respiration, transpiration)</li>\n<li>Identifier les principaux groupes musculaires utilisés dans les jeux</li>\n<li>Expliquer pourquoi s&#x27;échauffer avant le sport est important</li>\n<li>Nommer 2 règles de sécurité pendant les jeux</li>\n</ul></div>"
             },
             {
               "id": "cp-t3-ua7-sci-2",
@@ -23272,7 +23346,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">La lumière et les ombres — explorer en jouant</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Amina à Maroua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Expliquer que la lumière voyage en ligne droite et qu&#x27;un objet opaque crée une ombre</li>\n<li>Distinguer sources lumineuses naturelles (soleil, lune) et artificielles (lampe, bougie)</li>\n<li>Relier la taille de l&#x27;ombre à la position de la source lumineuse</li>\n<li>Réaliser un jeu d&#x27;ombres chinoises avec ses mains</li>\n</ul></div>"
             },
             {
               "id": "cp-t3-ua7-sci-3",
@@ -23388,7 +23463,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les matériaux des jouets — bois, plastique, tissu, métal</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier les matériaux des jouets traditionnels camerounais</li>\n<li>Distinguer les propriétés des matériaux : dur/mou, lourd/léger, naturel/artificiel</li>\n<li>Expliquer pourquoi certains matériaux sont dangereux pour les jouets d&#x27;enfants</li>\n<li>Décrire comment les artisans fabriquent des jouets en bois au Cameroun</li>\n</ul></div>"
             }
           ]
         },
@@ -23874,7 +23950,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h3>🎮 Let us play!</h3><ul><li>⚽ <strong>play</strong> = jouer</li><li>🏃 <strong>run</strong> = courir</li><li>🤸 <strong>jump</strong> = sauter</li><li>⚽ <strong>ball</strong> = le ballon</li><li>🏆 <strong>win</strong> = gagner</li></ul><h3>💬 Simple sentences</h3><ul><li><em>I play football.</em></li><li><em>We run in the yard.</em></li><li><em>I jump high!</em></li></ul>"
             }
           ]
         },
@@ -23980,7 +24057,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les jeux traditionnels camerounais — ndamba, nzango, awale</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Décrire les règles de base de 3 jeux traditionnels camerounais (nzango, awale, ndamba)</li>\n<li>Expliquer les valeurs transmises par les jeux traditionnels (respect des règles, stratégie, agilité)</li>\n<li>Identifier la région d&#x27;origine de chaque jeu</li>\n<li>Comparer les jeux traditionnels camerounais et les jeux modernes</li>\n</ul></div>"
             },
             {
               "id": "cp-t3-ua7-lcn-2",
@@ -24082,7 +24160,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les chansons et comptines de jeux en langues camerounaises</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier et mémoriser une comptine de jeu en langue locale</li>\n<li>Expliquer le rôle des comptines dans les jeux : désigner les joueurs, rythmer les mouvements</li>\n<li>Comprendre que les comptines transmettent des valeurs culturelles</li>\n<li>Chanter collectivement une comptine de jeu en classe</li>\n</ul></div>"
             }
           ]
         },
@@ -24993,7 +25072,8 @@
                   ],
                   "seuil_validation": "2 critères sur 3",
                   "note_enseignant": "Ce test intègre les 4 SF : identification d'un moyen de communication (SF1), présence du son [m] dans la réponse orale (SF2), production d'une phrase structurée (SF3), et mobilisation d'un mot-clé avec M (SF4). Accepter les variantes culturelles locales."
-                }
+                },
+                "contenu": "<h2 class=\"lecon-titre\">Je parle des moyens de communication — Le son [M]</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier et nommer oralement des moyens de communication utilisés au Cameroun (voix, tam-tam, téléphone, radio)</li>\n<li>Discriminer auditivement le phonème [m] dans des mots relatifs aux communications</li>\n<li>Produire oralement une phrase simple décrivant un acte de communication en utilisant un mot contenant le son [m]</li>\n<li>Associer le phonème [m] à la lettre M dans un contexte de communication orale en classe</li>\n</ul></div>"
               }
             ]
           },
@@ -25261,7 +25341,8 @@
                   "ancrage_cameroun": "La moto comme messager est une réalité quotidienne dans les villes et villages camerounais.",
                   "note_enseignant": "Ce texte active les 4 SF : reconnaissance de M/m (SF1), lecture de syllabes fusionnées (SF2), lecture des mots cibles (SF3), lecture fluide avec compréhension (SF4)."
                 },
-                "objectif": "Objectif pédagogique. (Avec Ngono à Foumban)"
+                "objectif": "Objectif pédagogique. (Avec Ngono à Foumban)",
+                "contenu": "<h2 class=\"lecon-titre\">Je lis la lettre M — Les messages de Manga</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Ngono à Foumban)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Reconnaître la lettre M majuscule et m minuscule dans un texte ou une liste de mots</li>\n<li>Lire à voix haute les syllabes directes ma, mi, mu, mo, me avec la bonne valeur phonique</li>\n<li>Lire des mots décodables contenant M : ami, mot, moi, mil, moto, mal, lame</li>\n<li>Lire une phrase courte entièrement décodable contenant M avec fluidité et compréhension</li>\n</ul></div>"
               }
             ]
           },
@@ -25515,7 +25596,8 @@
                   "ancrage_cameroun": "Écrire un mot pour l'envoyer à quelqu'un, c'est ce que font les familles camerounaises depuis toujours.",
                   "note_enseignant": "SF1+SF2 : tracé isolé. SF3 : copie mémorisée. SF4 : dictée en contexte. La phrase finale intègre toutes les acquisitions."
                 },
-                "objectif": "Objectif pédagogique. (Avec Amina à Foumban)"
+                "objectif": "Objectif pédagogique. (Avec Amina à Foumban)",
+                "contenu": "<h2 class=\"lecon-titre\">J&#x27;écris la lettre M — Écrire pour communiquer</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Amina à Foumban)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Tracer la lettre M majuscule dans les grands carreaux en respectant le sens du tracé, la hauteur et la position sur les lignes (activité de Manga)</li>\n<li>Tracer la lettre m minuscule dans les grands carreaux en respectant les deux bosses égales et la taille intermédiaire</li>\n<li>Copier sans erreur des syllabes et des mots décodables contenant M sur le cahier en respectant l&#x27;espacement et la lisibilité</li>\n<li>Écrire sous dictée des syllabes et des mots décodables contenant M entendus une seule fois</li>\n</ul></div>"
               }
             ]
           },
@@ -25819,7 +25901,8 @@
                   "note_enseignant": "SF1 : retrouver les mots qui nomment. SF2 : choix du bon mot (le/la/ma). SF3 : usage de 'ma'. SF4 : production autonome d'une phrase complète. Toute phrase cohérente respectant la contrainte phonique est acceptée.",
                   "ancrage_cameroun": "Un message écrit livré par moto, lu par l'ami destinataire — pratique quotidienne dans les quartiers et villages camerounais."
                 },
-                "objectif": "Objectif pédagogique. (Avec Mbappe à Bamenda)"
+                "objectif": "Objectif pédagogique. (Avec Mbappe à Bamenda)",
+                "contenu": "<h2 class=\"lecon-titre\">Les mots qui nomment — ma, la, le devant les noms</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Mbappe à Bamenda)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Retrouver les mots qui désignent une personne ou une chose dans une liste de mots décodables liés aux communications (exercice avec Amina)</li>\n<li>Choisir le bon mot parmi &#x27;le&#x27;, &#x27;la&#x27; ou &#x27;ma&#x27; devant des mots connus</li>\n<li>Utiliser &#x27;ma&#x27; devant un mot qui désigne quelque chose qui m&#x27;appartient, dans un contexte de communication</li>\n<li>Construire oralement et par écrit une phrase complète (QUI + FAIT QUOI + QUOI) avec des mots décodables contenant M</li>\n</ul></div>"
               }
             ]
           }
@@ -26766,7 +26849,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Le son et la communication — tam-tam, radio, téléphone</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Expliquer que le son se propage dans l&#x27;air et permet la communication</li>\n<li>Identifier des instruments de communication sonore traditionnels (tam-tam, sanza)</li>\n<li>Expliquer comment les ondes radio permettent de communiquer à longue distance</li>\n<li>Comparer communication traditionnelle et moderne</li>\n</ul></div>"
             },
             {
               "id": "cp-t3-ua8-sci-2",
@@ -26891,7 +26975,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les outils de communication modernes — téléphone, ordinateur, radio</h2>\n<div class=\"lecon-objectif\"><strong>🎯 Objectif :</strong> Objectif pédagogique. (Avec Bineta à Garoua)</div>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier les principaux outils de communication modernes</li>\n<li>Décrire l&#x27;usage de chaque outil</li>\n<li>Expliquer les risques d&#x27;un usage excessif des écrans pour les enfants</li>\n<li>Nommer les précautions d&#x27;utilisation</li>\n</ul></div>"
             },
             {
               "id": "cp-t3-ua8-sci-3",
@@ -27004,7 +27089,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h2 class=\"lecon-titre\">Les saisons au Cameroun — saison sèche et saison des pluies</h2>\n<div class=\"lecon-sf-block\"><p><strong>📋 Ce que tu vas apprendre :</strong></p><ul>\n<li>Identifier les 2 saisons principales du Cameroun et leurs caractéristiques</li>\n<li>Expliquer comment les plantes et animaux s&#x27;adaptent aux saisons</li>\n<li>Établir un lien entre les saisons et les activités humaines</li>\n<li>Expliquer le cycle de l&#x27;eau</li>\n</ul></div>"
             }
           ]
         },
@@ -27490,7 +27576,8 @@
                   "Application exacte et sans erreur des concepts étudiés.",
                   "Clarté de la démarche ou de l'expression."
                 ]
-              }
+              },
+              "contenu": "<h3>📞 Communication</h3><ul><li>📱 <strong>phone</strong> = le téléphone</li><li>📻 <strong>radio</strong> = la radio</li><li>✉️ <strong>letter</strong> = la lettre</li><li>📰 <strong>news</strong> = les nouvelles</li></ul><h3>💬 Simple sentences</h3><ul><li><em>I call my mama on the phone.</em></li><li><em>We listen to the radio.</em></li><li><em>I write a letter to my friend.</em></li></ul>"
             }
           ]
         },
