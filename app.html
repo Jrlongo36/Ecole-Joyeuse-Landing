@@ -3083,6 +3083,8 @@ function showParcoursScreen() {
    NAVIGATION
    ════════════════════════════════════════════════════════════════ */
 function showScreen(id) {
+  // Arreter la lecture audio en cours avant tout changement d'ecran
+  if ('speechSynthesis' in window) window.speechSynthesis.cancel();
   document.querySelectorAll('.screen, .placeholder-screen').forEach(s => s.classList.remove('active'));
   const el = document.getElementById(id);
   if (el) {
