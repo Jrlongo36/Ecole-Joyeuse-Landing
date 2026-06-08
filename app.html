@@ -306,7 +306,7 @@ input, select, textarea { font-family: inherit; font-size: 1em; }
 .dash-xp-label { font-size: .78em; opacity: .9; margin-top: 6px; }
 .dash-xp-label b { color: var(--jaune-etoile); }
 
-/* Mascotte Lion */
+/* Mascotte */
 .dash-lion {
   display: flex;
   align-items: flex-start;
@@ -2421,7 +2421,7 @@ const LOGO_B64 = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQ
 
 const CLASSES = ['SIL','CP','CE1','CE2','CM1','CM2'];
 const CLASSES_INACTIVES = []; // SIL réactivée
-const CLASSE_EMOJIS = { SIL:'🌱', CP:'🌿', CE1:'🌳', CE2:'🦋', CM1:'🦅', CM2:'🎓' };
+const CLASSE_EMOJIS = { SIL:'🌱', CP:'🌿', CE1:'🌳', CE2:'🌺', CM1:'⭐', CM2:'🎓' };
 const CLASSE_LABELS = {
   SIL: 'Section Initiation',
   CP:  'Cours Préparatoire',
@@ -2430,7 +2430,7 @@ const CLASSE_LABELS = {
   CM1: 'Cours Moyen 1',
   CM2: 'Cours Moyen 2'
 };
-const AVATARS = ['👦🏾','👧🏾','🧒🏾','🌟','📚','⚽','🎨','🎵','🚀'];
+const AVATARS = ['👦🏾','👧🏾','🧒🏾','🌟','📚','⚽','🎨','🎵','🚀','🏆','✏️','🎯'];
 const TRIM_LABELS = { T1:'Trimestre 1', T2:'Trimestre 2', T3:'Trimestre 3' };
 const TRIM_PERIODES = {
   T1: 'septembre — décembre',
@@ -2611,7 +2611,7 @@ const SPECIAL_BADGES = [
   { id: 'ua_done',       emoji: '🏆', titre: 'UA terminée',         desc: 'Une Unité d\'Apprentissage entière !' },
   { id: 'streak_3',      emoji: '🔥', titre: 'Sérieux',             desc: '3 jours d\'affilée' },
   { id: 'streak_7',      emoji: '⚡', titre: 'Persévérant',         desc: '7 jours d\'affilée' },
-  { id: 'streak_30',     emoji: '🦁', titre: 'Lion Indomptable',    desc: '30 jours d\'affilée — champion absolu !' },
+  { id: 'streak_30',     emoji: '🏆', titre: 'Champion Indomptable',    desc: '30 jours d\'affilée — champion absolu !' },
   { id: 'matinal',       emoji: '🌅', titre: 'Lève-tôt',            desc: 'Une leçon avant 8h du matin' },
   { id: 'noctambule',    emoji: '🌙', titre: 'Studieux du soir',    desc: 'Une leçon après 20h' },
   { id: 'all_classes',   emoji: '🎓', titre: 'Explorateur classes', desc: 'Au moins 1 leçon dans chaque classe' }
@@ -2740,7 +2740,7 @@ function checkUACompleted(classe, prog) {
           });
         } else if (o && typeof o === 'object') {
           for (const k of Object.keys(o)) {
-            if (['meta_ua','test_integration_UA','test_integration'].includes(k)) continue;
+            if (['meta_ua','test_integration_UA','test_integration','ua_list','bilan_T2','bilan_T3_annuel'].includes(k)) continue;
             walk(o[k], path + '/' + k);
           }
         }
@@ -2783,7 +2783,7 @@ function showXpToast(xp, badges) {
   }, duration);
 }
 
-/* ─── Mascotte Lion : phrases contextuelles ─── */
+/* ─── Mascotte : phrases contextuelles ─── */
 function getLionMessage() {
   const prenom = (APP.profile && APP.profile.prenom) || 'ami';
   const streak = getStreak();
@@ -2938,7 +2938,7 @@ function findLessonById(classe, lid) {
           }
         }
         for (const k of Object.keys(node)) {
-          if (['meta_ua','test_integration_UA','test_integration','lecons'].includes(k)) continue;
+          if (['meta_ua','test_integration_UA','test_integration','lecons','ua_list','bilan_T2','bilan_T3_annuel'].includes(k)) continue;
           const r = seek(node[k], path.concat([k]));
           if (r) return r;
         }
@@ -3530,7 +3530,7 @@ function renderDashboard() {
   const streak = getStreak();
   const lion = getLionMessage();
   let extras = '<div class="dash-lion">';
-  extras += '<div class="dash-lion-avatar heartbeat">🦁</div>';
+  extras += '<div class="dash-lion-avatar heartbeat">🌟</div>';
   extras += '<div class="dash-lion-bubble">' + escapeHTML(lion) + '</div>';
   extras += '</div>';
   extras += '<div class="dash-streak-row">';
@@ -3598,7 +3598,7 @@ function countLeconsInClasse(classe) {
       if (!uaKey.startsWith('UA')) return;
       const ua = td[uaKey];
       Object.keys(ua).forEach(disc => {
-        const META_FIELDS_C = new Set(['meta_ua','test_integration_UA','test_integration','notions_couvertes','excellence_seuil','mention_seuil','score_min_validation_pct','remediation_seuil_pct','remediation_quiz_seuil_validation_pct']);
+        const META_FIELDS_C = new Set(['meta_ua','test_integration_UA','test_integration','notions_couvertes','excellence_seuil','mention_seuil','score_min_validation_pct','remediation_seuil_pct','remediation_quiz_seuil_validation_pct','ua_list','bilan_T2','bilan_T3_annuel']);
         if (META_FIELDS_C.has(disc)) return;
         n += countLeconsInDiscipline(ua[disc]);
       });
@@ -3719,7 +3719,7 @@ function toggleUA(uaId) {
 }
 
 function renderUABody(classe, trim, uaKey, ua) {
-  const META_FIELDS = new Set(['meta_ua','test_integration_UA','test_integration','notions_couvertes','excellence_seuil','mention_seuil','score_min_validation_pct','remediation_seuil_pct','remediation_quiz_seuil_validation_pct']);
+  const META_FIELDS = new Set(['meta_ua','test_integration_UA','test_integration','notions_couvertes','excellence_seuil','mention_seuil','score_min_validation_pct','remediation_seuil_pct','remediation_quiz_seuil_validation_pct','ua_list','bilan_T2','bilan_T3_annuel']);
   const disciplines = Object.keys(ua).filter(k => !META_FIELDS.has(k));
   if (!disciplines.length) return '<div style="font-size:.85em;opacity:.6">Aucune leçon disponible</div>';
 
@@ -3898,7 +3898,7 @@ function renderThemesTab() {
           });
         } else if (o && typeof o === 'object') {
           Object.keys(o).forEach(k => {
-            if (['meta_ua','test_integration_UA','test_integration'].includes(k)) return;
+            if (['meta_ua','test_integration_UA','test_integration','ua_list','bilan_T2','bilan_T3_annuel'].includes(k)) return;
             walk(o[k]);
           });
         }
@@ -3977,7 +3977,7 @@ function renderProgrammeTab() {
       if (meta.projet) html += '<div style="font-size:.85em;margin-top:4px;color:var(--text-2)">🎨 ' + escapeHTML(meta.projet) + '</div>';
       // Lister les savoirs-faire de chaque discipline
       Object.keys(ua).forEach(disc => {
-        if (disc === 'meta_ua' || disc === 'test_integration_UA' || disc === 'test_integration') return;
+        if (disc === 'meta_ua' || disc === 'test_integration_UA' || disc === 'test_integration' || disc === 'ua_list' || disc === 'bilan_T2' || disc === 'bilan_T3_annuel') return;
         const sf = collectSavoirsFaire(ua[disc]);
         if (sf.length) {
           html += '<div style="margin-top:8px;font-weight:600;font-size:.85em;color:var(--vert-primaire)">' + (DISC_EMOJIS[disc]||'') + ' ' + (DISC_LABELS[disc]||disc) + '</div>';

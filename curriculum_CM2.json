@@ -986,10 +986,10 @@
                 "titre": "Le groupe nominal et ses fonctions",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Définir groupe nominal",
-                  "Identifier les adjectifs indefinis et numeraux",
-                  "Indiquer les différentes fonctions du groupe nominal dans la",
-                  "Produire un court texte cohérent en employant des groupes"
+                  "Definir la notion de groupe nominal et identifier ses elements (noyau, determinant, adjectifs, complement du nom)",
+                  "Identifier les adjectifs indefinis et numeraux (ordinaux et cardinaux)",
+                  "Indiquer les différentes fonctions du groupe nominal dans la phrase (sujet, COD, COI, attribut, CC)",
+                  "Produire un court texte cohérent en employant des groupes nominaux variés et en identifiant leur fonction syntaxique."
                 ],
                 "savoirs_etre": [
                   "Être un communicateur efficace et correct"
@@ -1255,10 +1255,10 @@
                 "titre": "Les mots en -aie, -ail, -eil, -euil, -aille, -eille, -euille",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Appliquer la graphie des mots masculins en -ail, -eil, -euil",
-                  "Appliquer la graphie des mots feminins en -aie, -aille, -eille,",
-                  "Distinguer les paires ail/aille, eil/eille, euil/euille selon le",
-                  "Appliquer les règles d'accord"
+                  "Appliquer correctement la graphie des mots masculins en -ail, -eil, -euil",
+                  "Appliquer correctement la graphie des mots feminins en -aie, -aille, -eille, -euille",
+                  "Distinguer les paires ail/aille, eil/eille, euil/euille selon le genre du nom",
+                  "Appliquer les règles d'accord et orthographier correctement les mots se terminant par les suffixes complexes étudiés."
                 ],
                 "savoirs_etre": [
                   "Être un redacteur correct et efficace"
@@ -1541,10 +1541,10 @@
                 "titre": "Le verbe : états, types et groupes",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Identifier les différents états du verbe",
-                  "Distinguer les verbes d action et les verbes d état",
-                  "Identifier les trois groupes de verbes selon leur infinitif",
-                  "Identifier le rôle d'un verbe dans une phrase"
+                  "Identifier les différents états du verbe (infinitif, forme conjuguee)",
+                  "Distinguer les verbes d action et les verbes d état (être, paraître, sembler, devenir, demeurer, rester)",
+                  "Identifier les trois groupes de verbes selon leur infinitif (-er, -ir, autres)",
+                  "Identifier le rôle d'un verbe dans une phrase et conjuguer correctement les verbes réguliers et irréguliers des trois groupes."
                 ],
                 "savoirs_etre": [
                   "Être un communicateur efficace et precis"
@@ -1819,10 +1819,10 @@
                 "titre": "Le dictionnaire et le champ lexical de la nature",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Utiliser les codes et abreviations du dictionnaire",
-                  "Retrouver le sens precis d un mot dans différents dictionnaires",
-                  "Définir",
-                  "Utiliser le dictionnaire"
+                  "Utiliser les codes et abreviations du dictionnaire (n.m., n.f., v., adj., adv., prep.)",
+                  "Retrouver le sens precis d un mot dans différents dictionnaires en tenant compte du contexte",
+                  "Definir et constituer un champ lexical en rapport avec la nature au Cameroun",
+                  "Utiliser le dictionnaire pour rechercher le sens précis de mots inconnus et enrichir son vocabulaire lié au thème de la nature."
                 ],
                 "savoirs_etre": [
                   "Être un locuteur pertinent qui utilise un lexique riche et precis"
@@ -2109,10 +2109,10 @@
                 "titre": "Dictee — La nature autour de moi",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Écrire sous la dictee un texte de 5 a 7 phrases en respectant l",
-                  "Reinvestir les graphies en -ail, -aille, -eil, -eille, -euil,",
-                  "Appliquer les accords sujet-verbe",
-                  "Écrire sous dictée un texte cohérent"
+                  "Écrire sous la dictee un texte de 5 a 7 phrases en respectant l orthographe lexicale et grammaticale",
+                  "Reinvestir les graphies en -ail, -aille, -eil, -eille, -euil, -euille apprises en orthographe",
+                  "Appliquer les accords sujet-verbe et nom-adjectif dans un texte continu",
+                  "Écrire sous dictée un texte cohérent en appliquant de manière autonome les règles grammaticales et orthographiques maîtrisées."
                 ],
                 "savoirs_etre": [
                   "Être un redacteur correct et attentif"
@@ -2370,10 +2370,10 @@
                 "titre": "Écouter et nuancer son point de vue sur la nature",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Reagir efficacement a une consigne ou a un propos entendu au",
-                  "Formuler clairement ses idees avec une syntaxe correcte",
-                  "Nuancer son point de vue a l aide d un vocabulaire pertinent,",
-                  "Prendre la parole en public"
+                  "Reagir efficacement a une consigne ou a un propos entendu au cours d une communication orale",
+                  "Formuler clairement ses idees avec une syntaxe correcte et un vocabulaire varie",
+                  "Nuancer son point de vue a l aide d un vocabulaire pertinent, varie et au besoin specialise",
+                  "Prendre la parole en public de manière structurée pour nuancer son point de vue sur un sujet environnemental d'actualité."
                 ],
                 "savoirs_etre": [
                   "Être un locuteur efficace qui sait écouter et s exprimer",
@@ -2632,10 +2632,10 @@
                 "titre": "Calligraphie et resume de texte",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Former les caracteres d ecriture manuscrite avec proprete",
+                  "Former les caracteres d ecriture manuscrite avec proprete et lisibilite",
                   "Identifier les idees principales et secondaires d un texte",
-                  "Resumer un texte en environ un tiers de sa longueur en gardant",
-                  "Résumer un texte documentaire"
+                  "Resumer un texte en environ un tiers de sa longueur en gardant le sens et la chronologie",
+                  "Rédiger le résumé structuré d'un texte documentaire sur l'environnement en respectant les consignes de mise en page."
                 ],
                 "savoirs_etre": [
                   "Être un redacteur efficace et performant"
@@ -2886,10 +2886,10 @@
                 "titre": "Heros et heroines du Cameroun",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Lire integralement une oeuvre mettant en jeu un heros ou une",
-                  "Reperer les caracteristiques d un heros",
-                  "Trouver des elements recherches dans un ouvrage ou dans une",
-                  "Analyser le profil"
+                  "Lire integralement une oeuvre mettant en jeu un heros ou une heroine national(e)",
+                  "Reperer les caracteristiques d un heros (courage, vertu morale, engagement pour les autres)",
+                  "Trouver des elements recherches dans un ouvrage ou dans une bibliotheque",
+                  "Analyser le profil et les actions d'un héros historique camerounais et en tirer des leçons de civisme et de courage."
                 ],
                 "savoirs_etre": [
                   "Être un lecteur assidu et curieux de son histoire"
@@ -3170,7 +3170,7 @@
                   "Déterminer le cardinal d'un ensemble",
                   "Lire, écrire et décomposer les nombres jusqu'au milliard",
                   "Déterminer la valeur de chaque chiffre selon sa position",
-                  "Représenter"
+                  "Représenter et comparer de grands nombres jusqu'au milliard à l'aide d'un tableau de numération positionnel."
                 ],
                 "savoirs_etre": [
                   "Être rigoureux dans la lecture des grands nombres"
@@ -3410,7 +3410,7 @@
                   "Calculer la somme de grands nombres (jusqu'au milliard)",
                   "Calculer la différence de grands nombres",
                   "Résoudre des problèmes de la vie courante avec les grands nombres",
-                  "Résoudre des problèmes complexes du quotidien nécessitant des"
+                  "Résoudre des problèmes complexes du quotidien nécessitant des opérations d'addition ou de soustraction sur de grands nombres."
                 ],
                 "savoirs_etre": [
                   "Vérifier ses calculs avec méthode et patience"
@@ -3606,7 +3606,7 @@
                   "Convertir des unités de longueur (km, hm, dam, m, dm, cm, mm)",
                   "Utiliser le tableau de conversion de longueur",
                   "Résoudre des problèmes faisant intervenir les longueurs",
-                  "Convertir des mesures de longueur dans diverses unités"
+                  "Convertir des mesures de longueur dans diverses unités et les utiliser pour résoudre des situations pratiques d'aménagement."
                 ],
                 "savoirs_etre": [
                   "Utiliser le bon outil de mesure selon la situation"
@@ -3827,7 +3827,7 @@
                   "Calculer le périmètre d'un carré, d'un rectangle et d'un triangle",
                   "Convertir des unités de capacité (L, dL, cL, mL)",
                   "Résoudre des problèmes mêlant périmètres et capacités",
-                  "Calculer le périmètre de figures géométriques planes régulières"
+                  "Calculer le périmètre de figures géométriques planes régulières et convertir des capacités dans le cadre de situations réelles."
                 ],
                 "savoirs_etre": [
                   "Appliquer les formules avec précision"
@@ -4032,10 +4032,10 @@
                 "titre": "Figures géométriques dans la nature",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Reconnaître et nommer les figures planes",
+                  "Reconnaître et nommer les figures planes (carré, rectangle, triangle, cercle, losange)",
                   "Identifier les axes de symétrie d'une figure",
                   "Distinguer les angles droits, aigus et obtus",
-                  "Identifier, caractériser"
+                  "Identifier, caractériser et tracer avec précision des figures géométriques planes à partir d'instruments géométriques classiques."
                 ],
                 "savoirs_etre": [
                   "Observer la nature avec un regard géométrique"
@@ -4270,7 +4270,7 @@
                   "Calculer la moyenne arithmétique d'une série de données",
                   "Interpréter une moyenne dans un contexte réel",
                   "Construire un tableau de données simples",
-                  "Recueillir des données statistiques simples"
+                  "Recueillir des données statistiques simples et calculer la moyenne arithmétique d'une série numérique thématique."
                 ],
                 "savoirs_etre": [
                   "Analyser des données avec esprit critique"
@@ -4474,8 +4474,8 @@
                 "savoirs_faire": [
                   "Identifier les cinq classes d'aliments et leurs roles nutritifs",
                   "Construire une ration alimentaire equilibree camerounaise",
-                  "Expliquer les besoins alimentaires variables selon l'age",
-                  "Élaborer des menus équilibrés en associant les différentes"
+                  "Expliquer les besoins alimentaires variables selon l'age et l'activite",
+                  "Élaborer des menus équilibrés en associant les différentes classes d'aliments selon leurs fonctions biologiques dans l'organisme."
                 ],
                 "savoirs_etre": [
                   "Adopter une alimentation saine et equilibree"
@@ -4700,7 +4700,7 @@
                   "Distinguer les animaux vertebres des invertebres",
                   "Identifier les 5 classes de vertebres avec exemples camerounais",
                   "Expliquer les différents modes de reproduction des animaux",
-                  "Distinguer les grands embranchements du règne animal"
+                  "Distinguer les grands embranchements du règne animal et classer les animaux de la faune camerounaise selon des critères scientifiques précis."
                 ],
                 "savoirs_ete": [
                   "Respecter et proteger la faune camerounaise"
@@ -4956,10 +4956,10 @@
                 "titre": "Les états de la matiere",
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
-                  "Identifier les trois états principaux de la matiere",
+                  "Identifier les trois états principaux de la matiere (solide, liquide, gazeux)",
                   "Decrire les changements d'etat de l'eau",
-                  "Expliquer la notion de matiere",
-                  "Expliquer les facteurs influençant les changements d'états de la"
+                  "Expliquer la notion de matiere et donner des exemples du quotidien",
+                  "Expliquer les facteurs influençant les changements d'états de la matière et les appliquer à des phénomènes naturels observables au Cameroun."
                 ],
                 "savoirs_etre": [
                   "Observer la nature avec curiosite scientifique"
@@ -5203,7 +5203,7 @@
                   "Identifier des outils agricoles simples et leur usage",
                   "Expliquer le principe du levier et du plan incline",
                   "Etablir le lien entre un outil et la tache qu'il facilite",
-                  "Identifier des outils technologiques simples, expliquer leur"
+                  "Identifier des outils technologiques simples, expliquer leur fonctionnement et les manipuler en toute sécurité pour des travaux pratiques."
                 ],
                 "savoirs_etre": [
                   "Valoriser le travail manuel et l'ingeniosite locale"
@@ -5428,7 +5428,7 @@
                   "Decrire les étapes de la culture vivriere au Cameroun",
                   "Identifier les types d'elevage pratiques au Cameroun",
                   "Expliquer les bonnes pratiques agricoles et d'elevage",
-                  "Concevoir un projet agricole ou d'élevage miniature en"
+                  "Concevoir un projet agricole ou d'élevage miniature en appliquant les techniques culturales respectueuses de l'environnement au Cameroun."
                 ],
                 "savoirs_etre": [
                   "Valoriser le travail de la terre et respecter l'environnement agricole"
@@ -5660,7 +5660,7 @@
                   "Definir la biodiversite et expliquer son importance",
                   "Identifier les principales menaces sur la nature au Cameroun",
                   "Citer des actions concretes de protection de l'environnement",
-                  "Proposer des solutions écologiques locales"
+                  "Proposer des solutions écologiques locales pour lutter contre la dégradation de la biodiversité dans sa communauté au Cameroun."
                 ],
                 "savoirs_etre": [
                   "Adopter des comportements eco-responsables au quotidien"
@@ -5900,9 +5900,9 @@
               "duree_estimee_min": 20,
               "savoirs_faire": [
                 "Identifier les grandes civilisations africaines precoloniales",
-                "Expliquer le role de la nature dans le développement de ces",
-                "Situer les civilisations africaines sur une frise chronologique",
-                "Comparer l'organisation sociale"
+                "Expliquer le role de la nature (fleuves, sol, forêt) dans le développement de ces civilisations",
+                "Situer les civilisations africaines sur une frise chronologique simple",
+                "Comparer l'organisation sociale et le rapport à l'environnement des grandes civilisations de l'Afrique ancienne."
               ],
               "savoirs_etre": [
                 "Être fier de l'histoire et du patrimoine africain"
@@ -6136,10 +6136,10 @@
               "titre": "La colonisation et les ressources naturelles du Cameroun",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Expliquer pourquoi les puissances europeennes ont colonise",
-                "Identifier les ressources naturelles qui ont attire les",
-                "Decrire les consequences de la colonisation sur la nature",
-                "Analyser l'impact de la colonisation européenne sur"
+                "Expliquer pourquoi les puissances europeennes ont colonise l'Afrique",
+                "Identifier les ressources naturelles qui ont attire les colonisateurs au Cameroun",
+                "Decrire les consequences de la colonisation sur la nature et les peuples camerounais",
+                "Analyser l'impact de la colonisation européenne sur l'exploitation des ressources naturelles et forestières du Cameroun."
               ],
               "savoirs_etre": [
                 "Comprendre le passe pour construire un avenir meilleur"
@@ -6360,10 +6360,10 @@
               "titre": "Les zones ecologiques et le relief du Cameroun",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Identifier les 5 zones ecologiques du Cameroun",
+                "Identifier les 5 zones ecologiques du Cameroun et leurs caracteristiques",
                 "Decrire le relief du Cameroun (plaines, plateaux, montagnes)",
                 "Etablir le lien entre zone ecologique et activites humaines",
-                "Identifier sur une carte les grands ensembles de relief"
+                "Identifier sur une carte les grands ensembles de relief et les zones écologiques du Cameroun et caractériser leur climat."
               ],
               "savoirs_etre": [
                 "Être fier de la richesse naturelle du Cameroun"
@@ -6614,7 +6614,7 @@
                 "Nommer et localiser les principaux fleuves du Cameroun",
                 "Expliquer le role des cours d'eau dans la vie des populations",
                 "Identifier les sources et embouchures des principaux fleuves",
-                "Tracer le cours des fleuves majeurs du Cameroun, identifier"
+                "Tracer le cours des fleuves majeurs du Cameroun, identifier leurs affluents et expliquer leur rôle dans l'économie locale."
               ],
               "savoirs_etre": [
                 "Respecter et proteger les ressources en eau"
@@ -6857,7 +6857,7 @@
                   "Identify and name elements of nature in English",
                   "Describe a natural environment using simple sentences",
                   "Ask and answer questions about nature in English",
-                  "Express simple opinions about nature conservation using"
+                  "Express simple opinions about nature conservation using appropriate environmental vocabulary in English."
                 ],
                 "savoirs_ete": [
                   "Show respect for nature through language"
@@ -7097,10 +7097,10 @@
                 "titre": "Reading about Cameroon's nature",
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
-                  "Read a short English text about nature and understand its main",
+                  "Read a short English text about nature and understand its main idea",
                   "Identify key information (who, what, where, when) in a text",
                   "Answer comprehension questions in English",
-                  "Read and extract key information from a simple English text"
+                  "Read and extract key information from a simple English text about environmental protection in Cameroon."
                 ],
                 "savoirs_ete": [
                   "Develop a love of reading in English"
@@ -7316,10 +7316,10 @@
                 "titre": "Writing about nature",
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
-                  "Write a short descriptive paragraph about a natural place in",
+                  "Write a short descriptive paragraph about a natural place in Cameroon",
                   "Use adjectives to make descriptions more precise",
                   "Apply correct punctuation and capitalisation in English",
-                  "Write a short, coherent paragraph in English describing a"
+                  "Write a short, coherent paragraph in English describing a natural landscape and proposing a conservation rule."
                 ],
                 "savoirs_ete": [
                   "Express ideas clearly and carefully in writing"
@@ -7533,7 +7533,7 @@
                   "Identify and use nouns, adjectives and verbs related to nature",
                   "Form correct sentences using subject + verb + complement",
                   "Use the present simple tense to describe nature",
-                  "Apply vocabulary related to ecosystems and grammar rules in"
+                  "Apply vocabulary related to ecosystems and grammar rules (adjectives and plurals) in short written English exercises."
                 ],
                 "savoirs_ete": [
                   "Communicate correctly and confidently in English"
@@ -7766,10 +7766,10 @@
               "titre": "Contes et proverbes sur la nature en langues camerounaises",
               "duree_estimee_min": 15,
               "savoirs_faire": [
-                "Lire",
+                "Lire et comprendre un conte traditionnel camerounais lie a la nature",
                 "Identifier les valeurs transmises par les contes et proverbes",
-                "Expliquer le sens d'un proverbe camerounais en rapport avec la",
-                "Raconter un conte traditionnel africain mettant en scène des"
+                "Expliquer le sens d'un proverbe camerounais en rapport avec la nature",
+                "Raconter un conte traditionnel africain mettant en scène des animaux de la forêt et en dégager la leçon de morale environnementale."
               ],
               "savoirs_ete": [
                 "Valoriser et transmettre le patrimoine oral camerounais"
@@ -7974,10 +7974,10 @@
               "titre": "Valeurs culturelles et nature au Cameroun",
               "duree_estimee_min": 15,
               "savoirs_faire": [
-                "Identifier les valeurs culturelles camerounaises liees au",
-                "Analyser une situation de la vie courante",
-                "Expliquer comment les traditions camerounaises protegent la",
-                "Identifier des pratiques traditionnelles positives de"
+                "Identifier les valeurs culturelles camerounaises liees au respect de la nature",
+                "Analyser une situation de la vie courante et donner les valeurs qui y sont impliquees",
+                "Expliquer comment les traditions camerounaises protegent la nature",
+                "Identifier des pratiques traditionnelles positives de préservation de la nature au Cameroun et les comparer aux lois modernes."
               ],
               "savoirs_ete": [
                 "Vivre en harmonie avec la nature selon les valeurs de nos ancetres"
@@ -8208,7 +8208,7 @@
                 "Identifier les composantes d'un ordinateur et leurs fonctions",
                 "Distinguer les peripheriques d'entree et de sortie",
                 "Demarrer et eteindre correctement un ordinateur",
-                "Distinguer le matériel informatique"
+                "Distinguer le matériel informatique (hardware) et les logiciels (software) et appliquer les consignes de sécurité d'usage."
               ],
               "savoirs_ete": [
                 "Utiliser les outils numeriques avec soin et responsabilite"
@@ -8434,10 +8434,10 @@
               "titre": "Prendre soin de son environnement naturel",
               "duree_estimee_min": 15,
               "savoirs_faire": [
-                "Identifier des comportements eco-responsables adaptee au",
+                "Identifier des comportements eco-responsables adaptee au contexte camerounais",
                 "Expliquer les consequences de ses actes sur la nature",
-                "Elaborer un plan d'action personnel",
-                "Planifier"
+                "Elaborer un plan d'action personnel pour proteger son environnement",
+                "Planifier et mener une action collective d'éco-citoyenneté pour nettoyer et embellir l'environnement immédiat de l'école."
               ],
               "savoirs_ete": [
                 "Être un citoyen responsable et respectueux de la nature"
@@ -9516,8 +9516,8 @@
                 "savoirs_faire": [
                   "Identifier les propositions dans une phrase complexe",
                   "Distinguer coordination, juxtaposition et subordination",
-                  "Utiliser les conjonctions de coordination",
-                  "Identifier"
+                  "Utiliser les conjonctions de coordination et de subordination correctement",
+                  "Identifier et employer des propositions juxtaposées, coordonnées et subordonnées pour exprimer des liens logiques dans un récit de voyage."
                 ],
                 "savoirs_etre": [
                   "Construire des phrases elaborees pour s'exprimer avec precision"
@@ -9725,10 +9725,10 @@
                 "titre": "L'accord dans le groupe nominal",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Appliquer les regles d'accord du nom",
+                  "Appliquer les regles d'accord du nom et de l'adjectif en genre et en nombre",
                   "Former le pluriel des noms composes",
                   "Identifier et corriger les erreurs d'accord dans un texte",
-                  "Accorder correctement en genre"
+                  "Accorder correctement en genre et en nombre tous les déterminants, adjectifs et noms à l'intérieur du groupe nominal."
                 ],
                 "savoirs_ete": [
                   "Écrire avec soin pour communiquer clairement"
@@ -9954,7 +9954,7 @@
                   "Identifier les différents groupes de verbes (1er, 2eme, 3eme)",
                   "Conjuguer des verbes au futur simple de l'indicatif",
                   "Utiliser le futur simple pour parler de projets et de promesses",
-                  "Conjuguer les verbes des trois groupes au futur simple de"
+                  "Conjuguer les verbes des trois groupes au futur simple de l'indicatif et les employer dans des récits de projets d'avenir."
                 ],
                 "savoirs_ete": [
                   "Exprimer ses projets avec confiance et precision"
@@ -10170,10 +10170,10 @@
                 "titre": "La classe grammaticale des mots : nature et fonction",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Identifier la classe grammaticale d'un mot : nom, verbe,",
+                  "Identifier la classe grammaticale (nature) d'un mot : nom, verbe, adjectif, adverbe, pronom, determinant, preposition, conjonction",
                   "Distinguer la nature d'un mot de sa fonction dans la phrase",
-                  "Utiliser correctement le dictionnaire",
-                  "Distinguer la nature"
+                  "Utiliser correctement le dictionnaire pour trouver la classe d'un mot",
+                  "Distinguer la nature (classe grammaticale) et la fonction des mots dans une phrase pour enrichir son expression écrite."
                 ],
                 "savoirs_ete": [
                   "Analyser le langage avec methode et precision"
@@ -10409,9 +10409,9 @@
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
                   "Identifier et utiliser le champ lexical de la ville et du village",
-                  "Distinguer les mots specifiques a la ville",
+                  "Distinguer les mots specifiques a la ville et ceux specifiques au village",
                   "Enrichir ses productions écrites avec un vocabulaire precis",
-                  "Employer le vocabulaire spécifique des champs lexicaux de la"
+                  "Employer le vocabulaire spécifique des champs lexicaux de la ville et du village pour rédiger des descriptions comparatives."
                 ],
                 "savoirs_ete": [
                   "Exprimer avec precision les realites de son environnement"
@@ -10636,8 +10636,8 @@
                 "savoirs_faire": [
                   "Écrire sous dictee un texte sur la vie au village et en ville",
                   "Appliquer les regles d'accord du GN et du GV",
-                  "Verifier l'orthographe des mots du champ lexical de la ville",
-                  "Écrire sans erreur un texte dicté sur la vie rurale"
+                  "Verifier l'orthographe des mots du champ lexical de la ville et du village",
+                  "Écrire sans erreur un texte dicté sur la vie rurale et urbaine en appliquant les accords grammaticaux et orthographiques."
                 ],
                 "savoirs_ete": [
                   "Écrire avec attention et relire son travail avec soin"
@@ -10853,10 +10853,10 @@
                 "titre": "Expression orale : decrire et comparer la ville et le village",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Decrire oralement un lieu de facon organisee",
-                  "Comparer deux environnements en utilisant des expressions de",
+                  "Decrire oralement un lieu (village ou ville camerounaise) de facon organisee",
+                  "Comparer deux environnements en utilisant des expressions de comparaison",
                   "Écouter les autres et reformuler leurs idees",
-                  "Prendre la parole devant ses pairs"
+                  "Prendre la parole devant ses pairs pour exposer de manière structurée les avantages et les inconvénients de la vie urbaine et rurale."
                 ],
                 "savoirs_ete": [
                   "S'exprimer avec clarte et écouter avec respect"
@@ -11066,10 +11066,10 @@
                 "titre": "Production écrite : rediger une description de lieu",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Décrire un lieu camerounais",
+                  "Rediger une description structuree d'un lieu camerounais",
                   "Utiliser des connecteurs de lieu et d'organisation",
-                  "Reviser",
-                  "Décrire un lieu camerounais"
+                  "Reviser et ameliorer sa production en appliquant les regles apprises",
+                  "Rédiger une description de lieu structurée et évocatrice en utilisant des indicateurs spatiaux et des adjectifs sensoriels."
                 ],
                 "savoirs_ete": [
                   "Produire des écrits soignes et comunicatifs"
@@ -11285,10 +11285,10 @@
                 "titre": "Lecture : Un recit de vie entre village et ville",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Lire",
-                  "Identifier les thèmes principaux",
+                  "Lire et analyser un extrait litteraire camerounais sur la vie entre village et ville",
+                  "Identifier les thèmes principaux et les valeurs vehiculees par l'oeuvre",
                   "Donner son avis motive sur un texte litteraire",
-                  "Analyser le schéma narratif"
+                  "Analyser le schéma narratif et les thèmes d'un récit littéraire africain traitant de l'exode rural ou du retour aux sources."
                 ],
                 "savoirs_ete": [
                   "Decouvrir et apprecier la litterature africaine"
@@ -11496,8 +11496,8 @@
                 "savoirs_faire": [
                   "Construire et memoriser les tables de multiplication jusqu'a 9",
                   "Calculer le produit de deux entiers par la methode posee",
-                  "Resoudre des problemes de multiplication dans la vie du village",
-                  "Poser"
+                  "Resoudre des problemes de multiplication dans la vie du village et de la ville",
+                  "Poser et effectuer des multiplications de grands nombres à plusieurs chiffres pour évaluer des budgets ou des productions."
                 ],
                 "savoirs_etre": [
                   "Travailler avec methode et vérifier ses calculs"
@@ -11712,7 +11712,7 @@
                   "Poser et effectuer une division euclidienne",
                   "Identifier dividende, diviseur, quotient et reste",
                   "Resoudre des problemes de partage et de groupement",
-                  "Poser"
+                  "Poser et effectuer une division euclidienne de grands nombres et interpréter le dividende, le diviseur, le quotient et le reste."
                 ],
                 "savoirs_ete": [
                   "Partager equitablement avec justice"
@@ -11933,7 +11933,7 @@
                   "Connaitre les unites de masse et leur equivalences",
                   "Convertir des unites de masse (t, kg, hg, dag, g, dg, cg, mg)",
                   "Resoudre des problemes mettant en jeu des masses",
-                  "Convertir des mesures de masse à l'aide d'un tableau"
+                  "Convertir des mesures de masse à l'aide d'un tableau et résoudre des problèmes pratiques de chargement et de transport."
                 ],
                 "savoirs_ete": [
                   "Être precis dans les mesures du quotidien"
@@ -12174,9 +12174,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Definir la notion d'angle et identifier ses elements",
-                  "Distinguer et construire les différents types d'angles",
+                  "Distinguer et construire les différents types d'angles (droit, aigu, obtus, plat, plein)",
                   "Mesurer un angle a l'aide d'un rapporteur",
-                  "Caractériser, mesurer"
+                  "Caractériser, mesurer et tracer avec précision des angles droits, aigus, obtus et plats à l'aide du rapporteur."
                 ],
                 "savoirs_ete": [
                   "Construire avec precision et methode"
@@ -12419,8 +12419,8 @@
                 "savoirs_faire": [
                   "Lire et interpreter un tableau de donnees statistiques",
                   "Construire un diagramme en barres a partir d'un tableau",
-                  "Calculer des effectifs et identifier la valeur la plus frequente",
-                  "Organiser des données réelles dans un tableau"
+                  "Calculer des effectifs et identifier la valeur la plus frequente (mode)",
+                  "Organiser des données réelles dans un tableau et construire un diagramme en barres pour analyser des statistiques locales."
                 ],
                 "savoirs_ete": [
                   "Lire les donnees avec esprit critique"
@@ -12646,9 +12646,9 @@
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
                   "Definir l'hygiene alimentaire et expliquer son importance",
-                  "Construire une ration alimentaire equilibree adaptee au contexte",
+                  "Construire une ration alimentaire equilibree adaptee au contexte camerounais",
                   "Identifier les risques lies a une mauvaise hygiene alimentaire",
-                  "Analyser l'apport nutritionnel des repas locaux"
+                  "Analyser l'apport nutritionnel des repas locaux et concevoir des rations équilibrées pour éviter les carences alimentaires."
                 ],
                 "savoirs_ete": [
                   "Adopter une hygiene alimentaire saine au quotidien"
@@ -12859,10 +12859,10 @@
                 "titre": "La puberte : changements et hygiene corporelle",
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
-                  "Decrire les changements morphologiques",
+                  "Decrire les changements morphologiques et physiologiques de la puberte",
                   "Expliquer l'importance de l'hygiene corporelle durant la puberte",
                   "Aborder le sujet avec maturite et respect de soi et des autres",
-                  "Expliquer les changements physiques"
+                  "Expliquer les changements physiques et physiologiques de la puberté et adopter les règles d'hygiène corporelle requises."
                 ],
                 "savoirs_ete": [
                   "Respecter son corps et celui des autres"
@@ -13082,8 +13082,8 @@
                 "savoirs_faire": [
                   "Distinguer un corps pur d'un melange",
                   "Identifier les caracteristiques de l'eau potable",
-                  "Decrire les methodes de traitement de l'eau dans le contexte",
-                  "Concevoir un protocole expérimental simple de filtration"
+                  "Decrire les methodes de traitement de l'eau dans le contexte camerounais",
+                  "Concevoir un protocole expérimental simple de filtration et de décantation pour purifier de l'eau boueuse au village."
                 ],
                 "savoirs_ete": [
                   "Utiliser et preserver l'eau avec responsabilite"
@@ -13330,10 +13330,10 @@
                 "titre": "Technologies de l'eau : du puits au robinet",
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
-                  "Identifier les technologies d'approvisionnement en eau au village",
-                  "Decrire le fonctionnement d'un puits, d'une pompe",
+                  "Identifier les technologies d'approvisionnement en eau au village et en ville",
+                  "Decrire le fonctionnement d'un puits, d'une pompe et d'un chateau d'eau",
                   "Comprendre le circuit de l'eau potable en ville camerounaise",
-                  "Schématiser le circuit de captage, de traitement"
+                  "Schématiser le circuit de captage, de traitement et de distribution d'eau potable d'une ville camerounaise (CDE/Camwater)."
                 ],
                 "savoirs_ete": [
                   "Valoriser et preserver les infrastructures d'eau collective"
@@ -13574,8 +13574,8 @@
                 "savoirs_faire": [
                   "Decrire les étapes de creation et d'entretien d'un jardin potager",
                   "Identifier les plantes cultivees dans les jardins camerounais",
-                  "Expliquer les avantages du jardin scolaire pour la nutrition",
-                  "Appliquer les techniques de compostage"
+                  "Expliquer les avantages du jardin scolaire pour la nutrition et l'apprentissage",
+                  "Appliquer les techniques de compostage et de rotation des cultures pour optimiser le potager scolaire."
                 ],
                 "savoirs_ete": [
                   "Cultiver la patience, le travail en équipe et le respect de la nature"
@@ -13810,10 +13810,10 @@
                 "titre": "Hygiene du cadre de vie en ville et au village",
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
-                  "Identifier les sources de pollution dans les villes",
+                  "Identifier les sources de pollution dans les villes et villages camerounais",
                   "Decrire les comportements qui maintiennent un cadre de vie sain",
                   "Expliquer le lien entre hygiene du milieu et sante publique",
-                  "Proposer un plan communautaire de gestion"
+                  "Proposer un plan communautaire de gestion et d'élimination des déchets (caniveaux, ordures) pour assainir son quartier."
                 ],
                 "savoirs_ete": [
                   "Être un citoyen propre et responsable de son environnement"
@@ -14046,10 +14046,10 @@
               "titre": "Chefferies et royaumes : organisation des villages et villes traditionnels camerounais",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Identifier les grandes chefferies",
-                "Decrire l'organisation sociale",
+                "Identifier les grandes chefferies et royaumes traditionnels du Cameroun",
+                "Decrire l'organisation sociale et politique d'un village traditionnel",
                 "Expliquer le role du chef dans la societe camerounaise",
-                "Décrire l'organisation politique, sociale"
+                "Décrire l'organisation politique, sociale et culturelle d'une grande chefferie traditionnelle du Cameroun ancien."
               ],
               "savoirs_etre": [
                 "Être fier de l'organisation sociale de ses ancetres"
@@ -14274,7 +14274,7 @@
                 "Decrire les caracteristiques de l'habitat en ville et au village",
                 "Identifier les infrastructures essentielles de chaque milieu",
                 "Comprendre le phenomene d'urbanisation au Cameroun",
-                "Analyser l'évolution des infrastructures urbaines"
+                "Analyser l'évolution des infrastructures urbaines et rurales au Cameroun et proposer des aménagements civiques."
               ],
               "savoirs_ete": [
                 "Apprecier et respecter les deux modes de vie camerounais"
@@ -14508,7 +14508,7 @@
                   "Describe village and city life using English vocabulary",
                   "Ask and answer questions about where people live",
                   "Use 'there is / there are' to describe a place",
-                  "Compare city and village life using simple comparative"
+                  "Compare city and village life using simple comparative structures in English during oral or written exchanges."
                 ],
                 "savoirs_ete": [
                   "Communicate respectfully about différent ways of life"
@@ -14737,10 +14737,10 @@
                 "titre": "Reading : A tale of two places",
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
-                  "Read and understand a comparative text about village and city",
+                  "Read and understand a comparative text about village and city life",
                   "Identify main ideas and supporting details",
                   "Infer the meaning of unfamiliar words from context",
-                  "Read a simple English dialogue comparing life in Limbe and a"
+                  "Read a simple English dialogue comparing life in Limbe and a forest village, and answer reading comprehension questions."
                 ],
                 "savoirs_ete": [
                   "Read critically and appreciate différent perspectives"
@@ -14956,10 +14956,10 @@
                 "titre": "Writing : Describing my community",
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
-                  "Describe a community in writing",
+                  "Write a structured paragraph describing a community",
                   "Use prepositions of place correctly",
                   "Apply capital letters for proper nouns",
-                  "Write a simple letter in English to a foreign pen pal describing"
+                  "Write a simple letter in English to a foreign pen pal describing the layout and main monuments of one's village or city."
                 ],
                 "savoirs_ete": [
                   "Write clearly about your community with pride"
@@ -15179,7 +15179,7 @@
                   "Use the verb 'to be' correctly in present tense",
                   "Combine 'to be' with prepositions of place",
                   "Build correct sentences about community life",
-                  "Use the present tense of 'to be' and basic prepositions of place"
+                  "Use the present tense of 'to be' and basic prepositions of place to describe where people and objects are located in the community."
                 ],
                 "savoirs_ete": [
                   "Communicate accurately about places"
@@ -15407,7 +15407,7 @@
                 "Lire et analyser un recit sur la vie en ville ou au village",
                 "Identifier les valeurs culturelles camerounaises dans une oeuvre",
                 "Donner son avis sur les valeurs transmises",
-                "Traduire"
+                "Traduire et conter un court récit traditionnel célébrant la solidarité villageoise dans sa langue maternelle (Ewondo, Douala ou Bassa)."
               ],
               "savoirs_ete": [
                 "Apprecier la richesse des recits de vie de sa culture"
@@ -15602,10 +15602,10 @@
               "titre": "Gerer l'eau et l'environnement selon nos traditions",
               "duree_estimee_min": 15,
               "savoirs_faire": [
-                "Expliquer comment les communautes camerounaises gerent",
+                "Expliquer comment les communautes camerounaises gerent traditionnellement l'eau",
                 "Identifier les pratiques culturelles de protection des sources",
                 "Comparer gestion traditionnelle et moderne de l'eau",
-                "Décrire les règles traditionnelles sacrées d'assainissement"
+                "Décrire les règles traditionnelles sacrées d'assainissement et de respect des sources d'eau de sa région d'origine au Cameroun."
               ],
               "savoirs_ete": [
                 "Valoriser la sagesse ecologique de nos ancetres"
@@ -15831,8 +15831,8 @@
               "savoirs_faire": [
                 "Identifier les dechets industriels et leurs impacts",
                 "Expliquer la responsabilite envers les generations futures",
-                "Proposer des actions culturellement ancrees",
-                "Identifier"
+                "Proposer des actions culturellement ancrees pour preserver le cadre de vie",
+                "Identifier et transmettre les contes et proverbes sur le respect de la nature sacrée de nos ancêtres pour sensibiliser sa classe."
               ],
               "savoirs_ete": [
                 "Agir en citoyen responsable pour les generations futures"
@@ -16050,10 +16050,10 @@
               "titre": "Le traitement de texte : saisir et mettre en forme un document",
               "duree_estimee_min": 20,
               "savoirs_faire": [
-                "Identifier les fonctions de base d'un logiciel de traitement de",
+                "Identifier les fonctions de base d'un logiciel de traitement de texte",
                 "Saisir, corriger et mettre en forme un texte simple",
                 "Enregistrer et ouvrir un document",
-                "Saisir, mettre en forme"
+                "Saisir, mettre en forme (gras, italique, souligné) et enregistrer proprement un court paragraphe dans un logiciel de traitement de texte."
               ],
               "savoirs_etre": [
                 "Utiliser les outils numeriques avec soin"
@@ -16289,7 +16289,7 @@
                 "Definir respect, solidarite et citoyennete",
                 "Identifier des comportements de bon citoyen",
                 "Elaborer des regles de vie en communaute",
-                "Proposer des comportements de médiation"
+                "Proposer des comportements de médiation et de solidarité pour résoudre pacifiquement les conflits dans sa classe ou son quartier."
               ],
               "savoirs_ete": [
                 "Être un citoyen respectueux et solidaire"
@@ -17381,7 +17381,7 @@
                   "Identifier les 4 types de phrases",
                   "Distinguer forme affirmative et negative",
                   "Transformer une phrase selon le type demande",
-                  "Transformer des phrases simples de la forme affirmative à la"
+                  "Transformer des phrases simples de la forme affirmative à la forme négative ou interrogative pour diversifier son expression."
                 ],
                 "savoirs_etre": [
                   "Construire des phrases variees et precises"
@@ -17606,7 +17606,7 @@
                   "Distinguer a/a, on/ont, son/sont, ce/se",
                   "Appliquer les tests de remplacement",
                   "Corriger des erreurs d'homophones",
-                  "Distinguer les homophones grammaticaux courants"
+                  "Distinguer les homophones grammaticaux courants et les orthographier sans erreur dans des dictées ou rédactions."
                 ],
                 "savoirs_ete": [
                   "Écrire avec soin et vérifier ses homophones"
@@ -17836,7 +17836,7 @@
                   "Identifier l'emploi de l'imparfait",
                   "Conjuguer les verbes a l'imparfait",
                   "Utiliser l'imparfait dans un recit",
-                  "Conjuguer les verbes des trois groupes à l'imparfait de"
+                  "Conjuguer les verbes des trois groupes à l'imparfait de l'indicatif et les employer pour rédiger des descriptions ou des récits du passé."
                 ],
                 "savoirs_etre": [
                   "Exprimer le passe avec precision"
@@ -18044,7 +18044,7 @@
                   "Distinguer sens propre et sens figure",
                   "Interpreter des expressions figurees",
                   "Utiliser les deux sens dans ses productions",
-                  "Distinguer le sens propre"
+                  "Distinguer le sens propre et le sens figuré d'un mot dans un texte et l'employer de façon imagée dans des productions personnelles."
                 ],
                 "savoirs_ete": [
                   "S'exprimer avec richesse et precision"
@@ -18265,7 +18265,7 @@
                   "Identifier et utiliser le champ lexical de l'ecole",
                   "Classer lieux, personnes, objets, activites",
                   "Enrichir ses textes avec vocabulaire scolaire",
-                  "Utiliser le champ lexical de l'école"
+                  "Utiliser le champ lexical de l'école pour rédiger des écrits administratifs ou des récits de vie scolaire."
                 ],
                 "savoirs_ete": [
                   "Exprimer la realite scolaire avec precision"
@@ -18488,7 +18488,7 @@
                   "Écrire sous dictee un texte scolaire",
                   "Appliquer accords et homophones",
                   "Verifier et corriger sa dictee",
-                  "Écrire sans erreur un texte dicté sur l'école"
+                  "Écrire sans erreur un texte dicté sur l'école en appliquant de manière autonome les accords de l'imparfait et des homophones."
                 ],
                 "savoirs_etre": [
                   "Écrire avec attention et relire avec soin"
@@ -18694,7 +18694,7 @@
                   "Raconter oralement une expérience scolaire",
                   "Utiliser les connecteurs temporels",
                   "Exprimer ses emotions sur un evenement",
-                  "Raconter oralement une histoire"
+                  "Raconter oralement de manière structurée et expressive un événement ou une expérience marquante de sa vie scolaire devant sa classe."
                 ],
                 "savoirs_etre": [
                   "S'exprimer avec clarte et organisation"
@@ -18897,7 +18897,7 @@
                   "Identifier les elements d'une lettre formelle",
                   "Rediger une lettre a un directeur",
                   "Appliquer formules de politesse et mise en page",
-                  "Rédiger une lettre administrative formelle au directeur de"
+                  "Rédiger une lettre administrative formelle au directeur de l'école en respectant les codes épistolaires usuels."
                 ],
                 "savoirs_ete": [
                   "Produire des écrits soignes et communicatifs"
@@ -19120,7 +19120,7 @@
                   "Lire et analyser un extrait sur l'ecole africaine",
                   "Identifier message et valeurs de l'auteur",
                   "Donner un avis critique",
-                  "Analyser le profil"
+                  "Analyser le profil et le parcours du personnage de Toundi dans l'œuvre de Ferdinand Oyono 'Une vie de boy' et en dégager une analyse critique."
                 ],
                 "savoirs_ete": [
                   "Decouvrir et apprecier la litterature africaine"
@@ -19332,10 +19332,10 @@
                 "titre": "PGCD et PPCM : diviseurs communs et multiples communs",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Lister les diviseurs d'un nombre",
-                  "Déterminer le PGCD de deux nombres par la méthode des diviseurs",
-                  "Déterminer le PPCM de deux nombres par la méthode des multiples",
-                  "Résoudre des problèmes de partage équitable"
+                  "Lister les diviseurs d'un nombre et identifier les diviseurs communs à deux nombres",
+                  "Déterminer le PGCD de deux nombres par la méthode des diviseurs communs",
+                  "Déterminer le PPCM de deux nombres par la méthode des multiples communs",
+                  "Résoudre des problèmes de partage équitable et de synchronisation à l'aide du PGCD et du PPCM"
                 ],
                 "savoirs_etre": [
                   "Être rigoureux et ordonné dans la liste des diviseurs et des multiples"
@@ -19457,7 +19457,7 @@
                   "Lire et écrire les nombres decimaux",
                   "Comparer et ranger des decimaux",
                   "Placer des decimaux sur une droite numerique",
-                  "Comparer, ranger"
+                  "Comparer, ranger et encadrer des nombres décimaux sur une droite numérique dans des situations de mesures de performances scolaires."
                 ],
                 "savoirs_ete": [
                   "Être precis dans la lecture des decimaux"
@@ -19666,7 +19666,7 @@
                   "Calculer la somme de nombres decimaux",
                   "Calculer la difference de nombres decimaux",
                   "Resoudre des problemes avec des decimaux",
-                  "Poser"
+                  "Poser et effectuer des additions et des soustractions de nombres décimaux pour évaluer des budgets ou des moyennes."
                 ],
                 "savoirs_ete": [
                   "Calculer avec precision et vérifier ses résultats"
@@ -19882,7 +19882,7 @@
                   "Connaitre les unites de duree et leurs equivalences",
                   "Calculer des durees et des horaires",
                   "Lire et interpreter un emploi du temps",
-                  "Résoudre des problèmes de conversion de durées appliquées à"
+                  "Résoudre des problèmes de conversion de durées (heures, minutes, secondes) appliquées à l'emploi du temps ou aux horaires d'examens."
                 ],
                 "savoirs_ete": [
                   "Gerer son temps avec rigueur et ponctualite"
@@ -20095,10 +20095,10 @@
                 "titre": "Droites paralleles, perpendiculaires et secantes",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Reconnaitre",
+                  "Reconnaitre et construire des droites paralleles et perpendiculaires",
                   "Identifier les droites secantes",
                   "Utiliser equerre et regle pour tracer correctement",
-                  "Identifier, caractériser"
+                  "Identifier, caractériser et tracer des droites parallèles, perpendiculaires et sécantes à l'aide d'outils géométriques classiques."
                 ],
                 "savoirs_ete": [
                   "Construire avec precision et methode geometrique"
@@ -20328,7 +20328,7 @@
                   "Calculer des frequences (pourcentages simples)",
                   "Interpreter un tableau de frequences",
                   "Construire un diagramme circulaire simple",
-                  "Calculer des fréquences simples"
+                  "Calculer des fréquences simples et construire des représentations graphiques pour analyser les effectifs ou les résultats de la classe."
                 ],
                 "savoirs_ete": [
                   "Analyser les donnees avec esprit critique"
@@ -20555,7 +20555,7 @@
                   "Expliquer le mecanisme de la digestion",
                   "Identifier les organes de l'appareil digestif",
                   "Decrire le parcours des aliments dans le tube digestif",
-                  "Schématiser le trajet des aliments dans le tube digestif"
+                  "Schématiser le trajet des aliments dans le tube digestif et expliquer le rôle mécanique et chimique de chaque organe de la digestion."
                 ],
                 "savoirs_ete": [
                   "Prendre soin de son appareil digestif"
@@ -20798,7 +20798,7 @@
                   "Definir l'excretion et expliquer son role",
                   "Identifier les organes excréteurs",
                   "Expliquer le role des reins, de la peau et des poumons",
-                  "Expliquer le mécanisme d'élimination des déchets par l'appareil"
+                  "Expliquer le mécanisme d'élimination des déchets par l'appareil urinaire et la peau pour maintenir la santé de l'organisme."
                 ],
                 "savoirs_ete": [
                   "Prendre soin de ses organes excréteurs par l'hygiene"
@@ -21033,7 +21033,7 @@
                   "Identifier les principales maladies de l'appareil digestif",
                   "Expliquer leurs causes et symptomes",
                   "Decrire les mesures de prevention",
-                  "Proposer des mesures d'hygiène"
+                  "Proposer des mesures d'hygiène et de prévention contre les principales maladies de l'appareil digestif transmissibles à l'école."
                 ],
                 "savoirs_ete": [
                   "Adopter des comportements preventifs pour proteger sa sante digestive"
@@ -21276,10 +21276,10 @@
                 "titre": "Nutrition, croissance et besoins variables",
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
-                  "Expliquer les besoins nutritionnels variables selon l'age",
+                  "Expliquer les besoins nutritionnels variables selon l'age et l'activite",
                   "Decrire les effets de la sous-nutrition et de la malnutrition",
                   "Proposer des solutions nutritionnelles adaptees au Cameroun",
-                  "Déterminer les besoins alimentaires énergétiques variables d'un"
+                  "Déterminer les besoins alimentaires énergétiques variables d'un élève selon son âge, son sexe et son activité physique."
                 ],
                 "savoirs_ete": [
                   "Manger de facon equilibree pour grandir sainement"
@@ -21521,7 +21521,7 @@
                   "Planifier la production d'un jardin scolaire selon les saisons",
                   "Identifier les plantes potageres rapides a cultiver a l'ecole",
                   "Expliquer comment le jardin scolaire ameliore la nutrition",
-                  "Concevoir"
+                  "Concevoir et mettre en œuvre un projet de potager scolaire en rotation pour approvisionner la cantine de l'école."
                 ],
                 "savoirs_ete": [
                   "Valoriser le travail de la terre et l'autonomie alimentaire"
@@ -21748,9 +21748,9 @@
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
                   "Identifier les regles d'hygiene dans le milieu scolaire",
-                  "Expliquer les consequences d'une mauvaise hygiene sur la sante",
+                  "Expliquer les consequences d'une mauvaise hygiene sur la sante et les apprentissages",
                   "Proposer des actions pour maintenir un cadre scolaire sain",
-                  "Proposer des actions concrètes de salubrité"
+                  "Proposer des actions concrètes de salubrité et d'hygiène du cadre de vie pour éliminer les gîtes larvaires des moustiques à l'école."
                 ],
                 "savoirs_ete": [
                   "Adopter des comportements hygieniques exemplaires a l'ecole"
@@ -21994,10 +21994,10 @@
               "titre": "L'histoire de l'ecole au Cameroun",
               "duree_estimee_min": 25,
               "savoirs_faire": [
-                "Retracer les grandes étapes de l'evolution de l'ecole au",
-                "Distinguer l'ecole missionnaire, l'ecole coloniale",
+                "Retracer les grandes étapes de l'evolution de l'ecole au Cameroun depuis la periode allemande",
+                "Distinguer l'ecole missionnaire, l'ecole coloniale et l'ecole moderne",
                 "Citer les principaux acteurs et reformes de l'ecole camerounaise",
-                "Retracer les grandes étapes historiques de la création de"
+                "Retracer les grandes étapes historiques de la création de l'école au Cameroun et la contribution des figures pionnières."
               ],
               "savoirs_etre": [
                 "Avoir une conscience historique et apprecier le chemin parcouru par l'ecole camerounaise",
@@ -22177,10 +22177,10 @@
               "titre": "La carte scolaire du Cameroun et le mode d'administration des écoles",
               "duree_estimee_min": 25,
               "savoirs_faire": [
-                "Localiser les 10 regions du Cameroun",
-                "Distinguer les écoles publiques, privees laiques",
-                "Comparer le mode d'administration des écoles dans les zones",
-                "Analyser la répartition des infrastructures scolaires au Cameroun"
+                "Localiser les 10 regions du Cameroun et leurs delegations regionales de l'education",
+                "Distinguer les écoles publiques, privees laiques et confessionnelles",
+                "Comparer le mode d'administration des écoles dans les zones urbaines et rurales",
+                "Analyser la répartition des infrastructures scolaires au Cameroun et expliquer l'organisation administrative des écoles."
               ],
               "savoirs_etre": [
                 "Avoir une conscience civique du droit a l'education sur tout le territoire",
@@ -22371,10 +22371,10 @@
                 "titre": "At school: greetings, classroom objects and instructions",
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
-                  "Greet a teacher and classmates in English in différent moments",
+                  "Greet a teacher and classmates in English in différent moments of the day",
                   "Name the main classroom objects and school subjects in English",
                   "Understand and obey simple classroom instructions in English",
-                  "Give and follow simple classroom instructions and describe"
+                  "Give and follow simple classroom instructions and describe school objects in English during lessons."
                 ],
                 "savoirs_etre": [
                   "Be respectful when speaking English with teachers and classmates",
@@ -22578,10 +22578,10 @@
                 "titre": "Reading: A school day in Bamenda",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Read aloud a short English text about a Cameroonian school day",
+                  "Read aloud a short English text about a Cameroonian school day with correct pronunciation",
                   "Answer simple comprehension questions about a text in English",
                   "Identify the main idea and key words of a short narrative text",
-                  "Read and extract information from a simple English story about a"
+                  "Read and extract information from a simple English story about a typical school day of a student in Bamenda."
                 ],
                 "savoirs_etre": [
                   "Take pleasure in reading English texts",
@@ -22771,10 +22771,10 @@
                 "titre": "Writing: My school day",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Write a short paragraph of 5 to 8 sentences about one's own",
-                  "Use correctly the simple present tense for daily routines",
+                  "Write a short paragraph of 5 to 8 sentences about one's own school day",
+                  "Use correctly the simple present tense for daily routines (I wake up, I go, I eat)",
                   "Apply basic punctuation rules: capital letter, full stop, comma",
-                  "Write a short paragraph in English describing one's school"
+                  "Write a short paragraph in English describing one's school routine and favorite subjects."
                 ],
                 "savoirs_etre": [
                   "Be honest and personal when writing about oneself",
@@ -22962,9 +22962,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Form and ask Wh- questions: What, Where, When, Who, How",
-                  "Name the main school subjects in English and use them in a",
+                  "Name the main school subjects in English and use them in a sentence",
                   "Match a Wh- question with the right type of answer",
-                  "Formulate simple questions in English using 'Wh-' question words"
+                  "Formulate simple questions in English using 'Wh-' question words (Who, What, Where, When) to ask about school life."
                 ],
                 "savoirs_etre": [
                   "Be curious and willing to ask questions in English",
@@ -23169,10 +23169,10 @@
               "titre": "Les langues nationales du Cameroun et leur place a l'ecole",
               "duree_estimee_min": 25,
               "savoirs_faire": [
-                "Citer au moins 5 grandes langues nationales du Cameroun",
-                "Expliquer le role des langues nationales dans la transmission",
-                "Differencier langue officielle, langue nationale",
-                "Identifier la place"
+                "Citer au moins 5 grandes langues nationales du Cameroun et leur zone geographique",
+                "Expliquer le role des langues nationales dans la transmission des valeurs et de la culture",
+                "Differencier langue officielle, langue nationale et langue maternelle",
+                "Identifier la place et l'utilité des langues nationales camerounaises et de la culture traditionnelle dans le système éducatif."
               ],
               "savoirs_etre": [
                 "Être fier de sa langue maternelle camerounaise",
@@ -23372,10 +23372,10 @@
               "titre": "Les valeurs traditionnelles transmises a l'ecole camerounaise",
               "duree_estimee_min": 25,
               "savoirs_faire": [
-                "Identifier les valeurs traditionnelles camerounaises",
-                "Expliquer comment l'ecole moderne",
+                "Identifier les valeurs traditionnelles camerounaises (respect des aines, solidarite, travail)",
+                "Expliquer comment l'ecole moderne et l'education traditionnelle se completent",
                 "Donner des exemples de valeurs vecues a l'ecole et a la maison",
-                "Expliquer"
+                "Expliquer et appliquer les valeurs traditionnelles morales et civiques de respect et de solidarité transmises par nos aînés."
               ],
               "savoirs_etre": [
                 "Pratiquer le respect envers les enseignants, les aines et les camarades",
@@ -23582,10 +23582,10 @@
               "titre": "L'ordinateur a l'ecole : usages educatifs et bons reflexes",
               "duree_estimee_min": 25,
               "savoirs_faire": [
-                "Identifier les principales parties d'un ordinateur",
+                "Identifier les principales parties d'un ordinateur (ecran, clavier, souris, unite centrale)",
                 "Citer 3 usages utiles de l'ordinateur pour apprendre a l'ecole",
-                "Appliquer les bons reflexes d'hygiene",
-                "Utiliser l'ordinateur à l'école"
+                "Appliquer les bons reflexes d'hygiene et de securite a l'ordinateur",
+                "Utiliser l'ordinateur à l'école pour effectuer des recherches éducatives simples et appliquer les bons réflexes de sécurité."
               ],
               "savoirs_etre": [
                 "Être curieux des outils numeriques pour apprendre",
@@ -23804,10 +23804,10 @@
               "titre": "Reussir sa scolarite : confiance en soi et organisation",
               "duree_estimee_min": 25,
               "savoirs_faire": [
-                "Identifier ses points forts",
+                "Identifier ses points forts et ses points a ameliorer dans ses apprentissages",
                 "Planifier sa semaine de travail avec un emploi du temps personnel",
-                "Adopter des techniques d'apprentissage efficaces",
-                "Élaborer une méthode personnelle de planification de son travail"
+                "Adopter des techniques d'apprentissage efficaces (relecture, repetition espacee, fiches)",
+                "Élaborer une méthode personnelle de planification de son travail scolaire (emploi du temps, devoirs) pour réussir sa scolarité."
               ],
               "savoirs_etre": [
                 "Avoir confiance en sa capacite a progresser",
@@ -25989,7 +25989,7 @@
                   "Distinguer et/est, ou/ou, son/sont, a/a",
                   "Appliquer les trucs de vérification",
                   "Corriger des erreurs dans un texte",
-                  "Utiliser les règles de Les homophones grammaticaux : et/est,"
+                  "Employer correctement les règles de 'Les homophones grammaticaux : et/est, ou/ou, son/sont, a/a' pour rédiger et exprimer des récits culturels structurés."
                 ],
                 "savoirs_ete": [
                   "Être rigoureux dans l'ecriture des homophones"
@@ -26690,10 +26690,10 @@
                 "titre": "Expression orale — Presenter un metier",
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
-                  "Présenter oralement un métier",
+                  "Presenter oralement un metier de maniere structuree",
                   "Utiliser le vocabulaire specifique",
                   "S'exprimer avec aisance",
-                  "Utiliser les règles de Expression orale — Presenter un metier"
+                  "Employer correctement les règles de 'Expression orale — Presenter un metier' pour rédiger et exprimer des récits culturels structurés."
                 ],
                 "savoirs_ete": [
                   "Avoir confiance lors d'une prise de parole"
@@ -27001,10 +27001,10 @@
                 "titre": "Litterature : Le conte du forgeron de Foumban",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Lire integralement un conte traditionnel camerounais sur un",
-                  "Identifier la structure d'un conte",
+                  "Lire integralement un conte traditionnel camerounais sur un metier",
+                  "Identifier la structure d'un conte (situation initiale, peripeties, denouement, morale)",
                   "Extraire la morale d'un conte et la mettre en lien avec un metier",
-                  "Utiliser les règles de Litterature : Le conte du forgeron de"
+                  "Employer correctement les règles de 'Litterature : Le conte du forgeron de Foumban' pour rédiger et exprimer des récits culturels structurés."
                 ],
                 "savoirs_etre": [
                   "Apprecier la sagesse des contes africains",
@@ -27209,7 +27209,7 @@
                 "titre": "Les fractions simples : demi, tiers, quart et comparaison",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Reconnaitre et nommer les fractions simples",
+                  "Reconnaitre et nommer les fractions simples (1/2, 1/3, 1/4, 3/4...)",
                   "Representer une fraction",
                   "Comparer des fractions de même denominateur",
                   "Resoudre des problemes sur les fractions"
@@ -27385,7 +27385,7 @@
                 "titre": "Les fractions decimales et la division euclidienne",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Reconnaitre et écrire des fractions decimales",
+                  "Reconnaitre et écrire des fractions decimales (denom 10, 100, 1000)",
                   "Convertir fraction decimale et nombre decimal",
                   "Effectuer une division euclidienne avec reste",
                   "Resoudre des problemes de partage"
@@ -27972,7 +27972,7 @@
                   "Lire et interpreter un tableau de donnees",
                   "Lire un graphique en barres simples",
                   "Calculer un total et une moyenne simple",
-                  "Résoudre des problèmes complexes en utilisant les outils de"
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Lecture et interpretation de tableaux et graphiques' appliqués à l'économie locale."
                 ],
                 "savoirs_ete": [
                   "Developper l'esprit d'analyse face aux donnees"
@@ -28352,10 +28352,10 @@
                 "titre": "L'énergie électrique : sources, usages et métiers au Cameroun",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Distinguer les sources d'énergie électrique",
-                  "Identifier les principaux usages de l'électricité dans les",
+                  "Distinguer les sources d'énergie électrique (barrage, solaire, thermique)",
+                  "Identifier les principaux usages de l'électricité dans les métiers camerounais",
                   "Citer des métiers liés à l'énergie et à l'électricité au Cameroun",
-                  "Adopter des comportements éco-responsables"
+                  "Adopter des comportements éco-responsables et scientifiques basés sur 'L'énergie électrique : sources, usages et métiers au Cameroun'."
                 ],
                 "savoirs_etre": [
                   "Être économe de l'énergie et sensible aux enjeux énergétiques du Cameroun"
@@ -28503,9 +28503,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Identifier les principaux outils des metiers manuels au Cameroun",
-                  "Expliquer le principe des 5 machines simples",
+                  "Expliquer le principe des 5 machines simples (levier, poulie, plan incline, vis, roue)",
                   "Associer chaque outil au metier qui l'utilise",
-                  "Adopter des comportements éco-responsables"
+                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Les outils et machines simples des artisans camerounais'."
                 ],
                 "savoirs_etre": [
                   "Respecter le savoir-faire des artisans",
@@ -28733,10 +28733,10 @@
                 "titre": "Les metiers de l'agriculture et de l'elevage au Cameroun",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Citer les principales productions agricoles du Cameroun par",
-                  "Decrire les principales techniques d'elevage",
+                  "Citer les principales productions agricoles du Cameroun par region",
+                  "Decrire les principales techniques d'elevage (avicole, bovin, porcin, piscicole)",
                   "Expliquer le role economique des metiers agropastoraux",
-                  "Adopter des comportements éco-responsables"
+                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Les metiers de l'agriculture et de l'elevage au Cameroun'."
                 ],
                 "savoirs_etre": [
                   "Respecter le travail des paysans et eleveurs",
@@ -28964,10 +28964,10 @@
                 "titre": "Les metiers et la protection de l'environnement au Cameroun",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Identifier les metiers qui protegent l'environnement",
+                  "Identifier les metiers qui protegent l'environnement (forestier, eboueur, ecologue)",
                   "Reconnaitre les impacts negatifs de certains metiers",
                   "Proposer des bonnes pratiques pour un metier durable",
-                  "Adopter des comportements éco-responsables"
+                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Les metiers et la protection de l'environnement au Cameroun'."
                 ],
                 "savoirs_etre": [
                   "Être soucieux du futur de la planete",
@@ -29518,7 +29518,7 @@
                   "Understand a dialogue about jobs",
                   "Ask and answer questions about jobs",
                   "Describe a job using modal verbs",
-                  "Interact fluently in English using expressions and grammar"
+                  "Interact fluently in English using expressions and grammar related to 'Talking about jobs and professions'."
                 ],
                 "savoirs_ete": [
                   "Show respect for all professions"
@@ -29676,7 +29676,7 @@
                   "Read and understand a text about farming",
                   "Identify key information",
                   "Understand vocabulary in context",
-                  "Interact fluently in English using expressions and grammar"
+                  "Interact fluently in English using expressions and grammar related to 'Reading: A Farmer's Day in the Mungo Valley'."
                 ],
                 "savoirs_ete": [
                   "Value farmers who feed the nation"
@@ -29844,7 +29844,7 @@
                   "Write a personal text about a future job",
                   "Give reasons using 'because'",
                   "Use future tense correctly",
-                  "Interact fluently in English using expressions and grammar"
+                  "Interact fluently in English using expressions and grammar related to 'Writing: My Dream Job'."
                 ],
                 "savoirs_ete": [
                   "Express personal ambitions with confidence"
@@ -31983,10 +31983,10 @@
                 "titre": "Le passé simple de l'indicatif : formation et emploi",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Former le passé simple des verbes du 1er groupe",
-                  "Former le passé simple des verbes du 2e groupe",
-                  "Former le passé simple des verbes irréguliers courants : être,",
-                  "Employer le passé simple dans un récit écrit"
+                  "Former le passé simple des verbes du 1er groupe (-er → -ai, -as, -a, -âmes, -âtes, -èrent)",
+                  "Former le passé simple des verbes du 2e groupe (-ir → -is, -is, -it, -îmes, -îtes, -irent)",
+                  "Former le passé simple des verbes irréguliers courants : être, avoir, venir, faire, voir",
+                  "Employer le passé simple dans un récit écrit pour exprimer des actions ponctuelles passées"
                 ],
                 "savoirs_etre": [
                   "Maîtriser un temps essentiel pour la réussite au CEP et au concours d'entrée en 6e"
@@ -32491,7 +32491,7 @@
                   "Decrire oralement ses symptomes avec precision",
                   "Jouer une scene de consultation",
                   "Utiliser intensite et duree pour decrire une douleur",
-                  "Utiliser les règles de Expression orale — Consulter un medecin"
+                  "Employer correctement les règles de 'Expression orale — Consulter un medecin' pour rédiger et exprimer des récits culturels structurés."
                 ],
                 "savoirs_ete": [
                   "Communiquer clairement sur sa sante"
@@ -32647,7 +32647,7 @@
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
                   "Rediger un texte explicatif de 10-12 phrases",
-                  "Organiser en 4 parties : definition, causes, symptomes,",
+                  "Organiser en 4 parties : definition, causes, symptomes, prevention",
                   "Utiliser vocabulaire medical, pronoms relatifs et CC",
                   "Relire et corriger"
                 ],
@@ -32807,9 +32807,9 @@
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
                   "Lire et comprendre un extrait de recit de voyage camerounais",
-                  "Identifier les caracteristiques d'un recit de voyage",
+                  "Identifier les caracteristiques d'un recit de voyage (lieu, temps, emotions, decouvertes)",
                   "Distinguer narration, description et dialogue dans un recit",
-                  "Utiliser les règles de Litterature : Le retour"
+                  "Employer correctement les règles de 'Litterature : Le retour au pays — recit de voyage' pour rédiger et exprimer des récits culturels structurés."
                 ],
                 "savoirs_etre": [
                   "Apprecier la litterature camerounaise",
@@ -33778,8 +33778,8 @@
                 "savoirs_faire": [
                   "Lire un tableau de donnees et un graphique en barres",
                   "Calculer la moyenne arithmetique d'une série de nombres",
-                  "Representer une série de donnees sous forme de graphique en",
-                  "Résoudre des problèmes complexes en utilisant les outils de"
+                  "Representer une série de donnees sous forme de graphique en barres",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Statistiques : lire un graphique et calculer une moyenne' appliqués à l'économie locale."
                 ],
                 "savoirs_etre": [
                   "Avoir un esprit de rigueur",
@@ -34380,10 +34380,10 @@
                 "titre": "Les moyens de transport et leurs technologies au Cameroun",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Citer les principaux moyens de transport au Cameroun",
-                  "Expliquer le principe technique de la roue, du moteur a",
+                  "Citer les principaux moyens de transport au Cameroun (terrestre, fluvial, maritime, aerien)",
+                  "Expliquer le principe technique de la roue, du moteur a combustion et de l'aile d'avion",
                   "Comparer la rapidite et le cout des moyens de transport",
-                  "Adopter des comportements éco-responsables"
+                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Les moyens de transport et leurs technologies au Cameroun'."
                 ],
                 "savoirs_etre": [
                   "Être prudent dans les transports (casque, ceinture)",
@@ -34597,10 +34597,10 @@
                 "titre": "Les voyages des plantes : cultures originaires et importees",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Identifier les plantes cultivees originaires du Cameroun",
-                  "Retracer le voyage historique de quelques cultures",
-                  "Comprendre l'echange agricole entre l'Afrique",
-                  "Adopter des comportements éco-responsables"
+                  "Identifier les plantes cultivees originaires du Cameroun et celles importees",
+                  "Retracer le voyage historique de quelques cultures (manioc, mais, cacao)",
+                  "Comprendre l'echange agricole entre l'Afrique et le reste du monde",
+                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Les voyages des plantes : cultures originaires et importees'."
                 ],
                 "savoirs_etre": [
                   "Apprecier la diversite alimentaire camerounaise",
@@ -34815,7 +34815,7 @@
                   "Identifier les principales pollutions liees aux voyages",
                   "Citer les sites touristiques camerounais a proteger",
                   "Proposer des pratiques de voyage ecoresponsables",
-                  "Adopter des comportements éco-responsables"
+                  "Adopter des comportements éco-responsables et scientifiques basés sur 'L'impact environnemental des voyages et du tourisme'."
                 ],
                 "savoirs_etre": [
                   "Être un voyageur respectueux",
@@ -35442,7 +35442,7 @@
                   "Listen to and understand a health centre dialogue",
                   "Describe health problems",
                   "Give advice using should/must",
-                  "Interact fluently in English using expressions and grammar"
+                  "Interact fluently in English using expressions and grammar related to 'At the Health Centre'."
                 ],
                 "savoirs_ete": [
                   "Show empathy and give helpful health advice"
@@ -35600,7 +35600,7 @@
                   "Read an informative text about the Cameroonian health system",
                   "Identify main idea and details",
                   "Understand statistics in a text",
-                  "Interact fluently in English using expressions and grammar"
+                  "Interact fluently in English using expressions and grammar related to 'Reading: Healthcare in Cameroon'."
                 ],
                 "savoirs_ete": [
                   "Value healthcare workers"
@@ -35768,7 +35768,7 @@
                   "Write a health awareness message",
                   "Use imperative sentences",
                   "Organise title, advice and conclusion",
-                  "Interact fluently in English using expressions and grammar"
+                  "Interact fluently in English using expressions and grammar related to 'Writing: A Health Awareness Message'."
                 ],
                 "savoirs_ete": [
                   "Spread positive health messages"
@@ -36094,7 +36094,7 @@
                 "Identifier les principales plantes medicinales camerounaises",
                 "Decrire le role du tradipraticien",
                 "Expliquer la complementarite medecine traditionnelle/moderne",
-                "Reconnaitre la valeur scientifique des savoirs medicaux"
+                "Reconnaitre la valeur scientifique des savoirs medicaux traditionnels"
               ],
               "savoirs_ete": [
                 "Valoriser le patrimoine medical traditionnel"
@@ -37429,7 +37429,7 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Distinguer DD et DI",
-                  "Transposer DD vers DI",
+                  "Transposer DD vers DI en appliquant les changements",
                   "Identifier verbes introducteurs et concordance des temps",
                   "Produire des phrases au DI sur les loisirs"
                 ],
@@ -38139,7 +38139,7 @@
                   "Écrire un texte sur une fête",
                   "Appliquer accord PP avec AVOIR",
                   "Orthographier le vocabulaire des fêtes",
-                  "Utiliser les règles de Dictee — Le Ngondo"
+                  "Employer correctement les règles de 'Dictee — Le Ngondo' pour rédiger et exprimer des récits culturels structurés."
                 ],
                 "savoirs_ete": [
                   "Être un redacteur attentif"
@@ -38312,7 +38312,7 @@
                   "Formuler une invitation",
                   "Accepter ou refuser poliment",
                   "Decrire ses loisirs préfères avec details",
-                  "Utiliser les règles de Inviter quelqu'un et decrire ses loisirs"
+                  "Employer correctement les règles de 'Inviter quelqu'un et decrire ses loisirs' pour rédiger et exprimer des récits culturels structurés."
                 ],
                 "savoirs_ete": [
                   "Communiquer avec aisance dans les situations sociales"
@@ -38616,7 +38616,7 @@
                   "Lire et reciter un poeme camerounais sur la sante",
                   "Identifier la structure d'un poeme (strophe, vers, rime)",
                   "Trouver le message principal d'une poesie engagee",
-                  "Utiliser les règles de Poésie : 'Le Ngondo' — célébration"
+                  "Employer correctement les règles de 'Poésie : 'Le Ngondo' — célébration et loisirs sur le Wouri' pour rédiger et exprimer des récits culturels structurés."
                 ],
                 "savoirs_etre": [
                   "Apprecier la poesie comme art de la parole",
@@ -39579,7 +39579,7 @@
                   "Lire et interpréter un tableau de résultats sportifs",
                   "Calculer une moyenne à partir d'un tableau de scores",
                   "Construire un diagramme en barres à partir de données sportives",
-                  "Résoudre des problèmes complexes en utilisant les outils de"
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Statistiques sportives : lire et interpréter des données de compétition' appliqués à l'économie locale."
                 ],
                 "savoirs_etre": [
                   "Avoir un esprit critique face aux chiffres",
@@ -40138,10 +40138,10 @@
                 "titre": "Les instruments de musique traditionnels camerounais et leur physique du son",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Identifier les principaux instruments de musique traditionnels",
-                  "Distinguer instruments à cordes, à vent",
-                  "Expliquer simplement pourquoi un instrument produit un son",
-                  "Adopter des comportements éco-responsables"
+                  "Identifier les principaux instruments de musique traditionnels du Cameroun et leur région d'origine",
+                  "Distinguer instruments à cordes, à vent et à percussion selon leur mode de production du son",
+                  "Expliquer simplement pourquoi un instrument produit un son (vibration)",
+                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Les instruments de musique traditionnels camerounais et leur physique du son'."
                 ],
                 "savoirs_etre": [
                   "Valoriser le patrimoine musical camerounais comme une richesse culturelle"
@@ -40325,9 +40325,9 @@
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
                   "Identifier les 6 groupes d'aliments et leur role pour le corps",
-                  "Composer un repas équilibre avec les aliments du marche",
-                  "Reconnaitre les aliments locaux nutritifs",
-                  "Adopter des comportements éco-responsables"
+                  "Composer un repas équilibre avec les aliments du marche camerounais",
+                  "Reconnaitre les aliments locaux nutritifs (ndole, koki, manioc, banane plantain)",
+                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Alimentation et sante : bien manger camerounais'."
                 ],
                 "savoirs_etre": [
                   "Manger varie et équilibre",
@@ -40579,10 +40579,10 @@
                 "titre": "Sante et environnement : pollution et maladies au Cameroun",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Identifier les principales pollutions affectant la sante au",
+                  "Identifier les principales pollutions affectant la sante au Cameroun (air, eau, sol)",
                   "Relier une pollution a une maladie qu'elle peut provoquer",
-                  "Proposer des gestes individuels",
-                  "Adopter des comportements éco-responsables"
+                  "Proposer des gestes individuels et collectifs pour reduire les pollutions",
+                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Sante et environnement : pollution et maladies au Cameroun'."
                 ],
                 "savoirs_etre": [
                   "Être soucieux de sa sante et de celle des autres",
@@ -41272,7 +41272,7 @@
                   "Understand a dialogue about hobbies",
                   "Ask and answer questions about free time",
                   "Express preferences using I love/prefer/enjoy + -ing",
-                  "Interact fluently in English using expressions and grammar"
+                  "Interact fluently in English using expressions and grammar related to 'Talking about hobbies and free time'."
                 ],
                 "savoirs_ete": [
                   "Show genuine interest in others' hobbies"
@@ -41430,7 +41430,7 @@
                   "Read and understand a text about a Cameroonian sporting event",
                   "Identify main idea and supporting details",
                   "Understand statistics in context",
-                  "Interact fluently in English using expressions and grammar"
+                  "Interact fluently in English using expressions and grammar related to 'Reading: The Mount Cameroon Race of Hope'."
                 ],
                 "savoirs_ete": [
                   "Appreciate Cameroonian sporting and cultural achievements"
@@ -41606,7 +41606,7 @@
                   "Write about a favourite leisure activity",
                   "Use past simple for past expériences and present for habits",
                   "Organise in 4 paragraphs with linking words",
-                  "Interact fluently in English using expressions and grammar"
+                  "Interact fluently in English using expressions and grammar related to 'Writing: My Favourite Leisure Activity'."
                 ],
                 "savoirs_ete": [
                   "Express personal expériences in English with confidence"
@@ -42218,7 +42218,7 @@
               "duree_estimee_min": 25,
               "savoirs_faire": [
                 "Identifier les fonctions d'un logiciel de présentation",
-                "Créer des diapositives avec titre",
+                "Creer des diapositives avec titre et contenu structure",
                 "Inserer et formater du texte, choisir un thème visuel",
                 "Appliquer les principes : lisibilite, concision, coherence"
               ],
@@ -44074,7 +44074,7 @@
                 "duree_estimee_min": 20,
                 "savoirs_faire": [
                   "Former les adverbes en -ment a partir d'adjectifs",
-                  "Connaitre les regles de formation",
+                  "Connaitre les regles de formation (fem. adj. + -ment ; -ant/-ent -> -amment/-emment)",
                   "Identifier un adverbe dans une phrase sportive",
                   "Employer les adverbes pour enrichir un recit sportif"
                 ],
@@ -44284,10 +44284,10 @@
                 "titre": "Le subjonctif présent : formation et emploi",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Identifier les situations qui exigent le subjonctif",
+                  "Identifier les situations qui exigent le subjonctif (souhait, doute, obligation, sentiment)",
                   "Former le subjonctif présent des verbes du 1er groupe",
-                  "Former le subjonctif présent des verbes irréguliers : être,",
-                  "Employer le subjonctif après les locutions : il faut que,"
+                  "Former le subjonctif présent des verbes irréguliers : être, avoir, aller, faire, pouvoir, vouloir",
+                  "Employer le subjonctif après les locutions : il faut que, pour que, bien que, afin que"
                 ],
                 "savoirs_etre": [
                   "Reconnaître et employer le subjonctif pour s'exprimer avec précision et élégance"
@@ -44770,7 +44770,7 @@
                   "Commenter oralement un match ou evenement sportif",
                   "Utiliser le vocabulaire du sport et les adverbes",
                   "Exprimer l'enthousiasme et l'analyse",
-                  "Utiliser les règles de Expression orale — Commenter un evenement"
+                  "Employer correctement les règles de 'Expression orale — Commenter un evenement sportif' pour rédiger et exprimer des récits culturels structurés."
                 ],
                 "savoirs_ete": [
                   "S'exprimer avec aisance et precision sur des evenements sportifs"
@@ -44920,7 +44920,7 @@
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
                   "Rediger un article de journal sportif de 10-12 phrases",
-                  "Organiser : titre accrocheur, chapeau, corps, conclusion",
+                  "Organiser : titre accrocheur, chapeau, corps (deroulement + résultat), conclusion",
                   "Utiliser vocabulaire sportif, adverbes et futur simple",
                   "Respecter le style journalistique : concision et dynamisme"
                 ],
@@ -45077,9 +45077,9 @@
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
                   "Lire et jouer une courte saynete de theatre camerounaise",
-                  "Identifier les caracteristiques du texte theatral",
+                  "Identifier les caracteristiques du texte theatral (acte, scene, didascalie, replique)",
                   "Reperer le thème et le message d'une saynete sportive",
-                  "Utiliser les règles de Litterature : Saynete de theatre sur le"
+                  "Employer correctement les règles de 'Litterature : Saynete de theatre sur le football — 'Les Lions Indomptables'' pour rédiger et exprimer des récits culturels structurés."
                 ],
                 "savoirs_etre": [
                   "Apprecier le theatre comme art vivant",
@@ -45906,7 +45906,7 @@
                 "titre": "Les angles : mesure au rapporteur et tracé",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Identifier et nommer les types d'angles",
+                  "Identifier et nommer les types d'angles (aigu, droit, obtus, plat)",
                   "Mesurer un angle au rapporteur",
                   "Tracer un angle d'une mesure donnee",
                   "Resoudre des problemes d'angles (somme des angles d'un triangle)"
@@ -46119,7 +46119,7 @@
                   "Lire un classement sportif et un tableau de résultats",
                   "Calculer points, moyennes et pourcentages sportifs",
                   "Representer les performances d'une équipe en graphique",
-                  "Résoudre des problèmes complexes en utilisant les outils de"
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Statistiques sportives : lire les résultats d'une competition' appliqués à l'économie locale."
                 ],
                 "savoirs_etre": [
                   "Être rigoureux dans les calculs",
@@ -46330,7 +46330,7 @@
                   "Identifier les trois composantes du système locomoteur",
                   "Decrire le role des os, muscles et articulations",
                   "Expliquer le mecanisme de la contraction musculaire dans le sport",
-                  "Appliquer les regles de sante"
+                  "Appliquer les regles de sante et prevention des blessures sportives"
                 ],
                 "savoirs_ete": [
                   "Comprendre son corps pour s'entrainer intelligemment et prevenir les blessures"
@@ -46526,7 +46526,7 @@
                 "titre": "Les forces : poids, poussee et flottaison",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Définir une force et ses caracteristiques",
+                  "Definir une force et ses caracteristiques (intensite, direction, sens)",
                   "Distinguer poids et masse",
                   "Expliquer la poussee d'Archimede et la flottaison",
                   "Appliquer a des situations sportives (natation, aviron)"
@@ -46740,10 +46740,10 @@
                 "titre": "La technologie au service du sport et des loisirs",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Identifier les principales technologies utilisees dans le sport",
-                  "Expliquer le role du chronometre, de la VAR",
-                  "Comprendre l'impact de la technologie sur la performance",
-                  "Adopter des comportements éco-responsables"
+                  "Identifier les principales technologies utilisees dans le sport moderne",
+                  "Expliquer le role du chronometre, de la VAR et des materiaux sportifs",
+                  "Comprendre l'impact de la technologie sur la performance et l'equite",
+                  "Adopter des comportements éco-responsables et scientifiques basés sur 'La technologie au service du sport et des loisirs'."
                 ],
                 "savoirs_etre": [
                   "Apprecier l'innovation technologique",
@@ -46964,10 +46964,10 @@
                 "titre": "Alimentation et performance : que mange un sportif camerounais ?",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Identifier les besoins nutritionnels specifiques d'un sportif",
-                  "Composer un menu de sportif a partir d'aliments camerounais",
+                  "Identifier les besoins nutritionnels specifiques d'un sportif (énergie, proteines, hydratation)",
+                  "Composer un menu de sportif a partir d'aliments camerounais locaux",
                   "Distinguer une alimentation saine d'une alimentation deficiente",
-                  "Adopter des comportements éco-responsables"
+                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Alimentation et performance : que mange un sportif camerounais ?'."
                 ],
                 "savoirs_etre": [
                   "Apprecier l'agriculture locale comme base de la performance",
@@ -47227,10 +47227,10 @@
                 "titre": "Sports, loisirs et environnement : pratiquer en respectant la nature",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Identifier les sports et loisirs en plein air au Cameroun",
-                  "Reconnaitre les impacts du sport sur l'environnement",
+                  "Identifier les sports et loisirs en plein air au Cameroun (randonnee, peche, foot, jeux traditionnels)",
+                  "Reconnaitre les impacts du sport sur l'environnement (dechets, bruit, erosion)",
                   "Proposer des bonnes pratiques pour pratiquer un sport ecologique",
-                  "Adopter des comportements éco-responsables"
+                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Sports, loisirs et environnement : pratiquer en respectant la nature'."
                 ],
                 "savoirs_etre": [
                   "Apprecier la nature comme terrain de jeu",
@@ -47824,7 +47824,7 @@
                   "Listen to and understand a sports conversation",
                   "Ask and answer questions about sports achievements",
                   "Express opinions about sport using I think/believe/feel",
-                  "Interact fluently in English using expressions and grammar"
+                  "Interact fluently in English using expressions and grammar related to 'Talking about sports and achievements'."
                 ],
                 "savoirs_ete": [
                   "Show pride in Cameroonian sports achievements"
@@ -47982,7 +47982,7 @@
                   "Read and understand a text about Roger Milla",
                   "Identify main ideas and supporting details",
                   "Understand sequence of events",
-                  "Interact fluently in English using expressions and grammar"
+                  "Interact fluently in English using expressions and grammar related to 'Reading: Roger Milla and the 1990 World Cup'."
                 ],
                 "savoirs_ete": [
                   "Feel proud of Cameroon's sporting legends"
@@ -48154,7 +48154,7 @@
                   "Write a sports report with headline, summary, body and conclusion",
                   "Use past simple for match events",
                   "Include scores, names and key moments",
-                  "Interact fluently in English using expressions and grammar"
+                  "Interact fluently in English using expressions and grammar related to 'Writing: A Sports Report'."
                 ],
                 "savoirs_ete": [
                   "Report accurately and enthusiastically on sporting events"
@@ -48511,7 +48511,7 @@
                 "Identifier les sports et jeux de force par region",
                 "Expliquer leur signification sociale et culturelle",
                 "Comparer sports traditionnels et sports modernes",
-                "Reconnaitre des athletes camerounais dans des disciplines"
+                "Reconnaitre des athletes camerounais dans des disciplines traditionnelles"
               ],
               "savoirs_ete": [
                 "Valoriser le patrimoine sportif camerounais comme fondement des sports modernes"
@@ -49902,8 +49902,8 @@
                 "savoirs_faire": [
                   "Identifier les modes indicatif, conditionnel et subjonctif",
                   "Distinguer l'usage de chaque mode dans une phrase",
-                  "Employer le mode adéquat selon le sens",
-                  "Utiliser les règles de Les modes du verbe — indicatif,"
+                  "Employer le mode adéquat selon le sens (fait réel, hypothèse, doute)",
+                  "Employer correctement les règles de 'Les modes du verbe — indicatif, conditionnel, subjonctif' pour rédiger et exprimer des récits culturels structurés."
                 ],
                 "savoirs_etre": [
                   "Être précis dans l'expression de la pensée"
@@ -50080,9 +50080,9 @@
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
                   "Identifier l'auxiliaire ÊTRE dans les temps composés et au passif",
-                  "Accorder le participe passé avec le sujet quand l'auxiliaire est",
-                  "Distinguer les constructions avec ÊTRE et avec AVOIR",
-                  "Appliquer la règle dans des textes variés"
+                  "Accorder le participe passé avec le sujet quand l'auxiliaire est ÊTRE",
+                  "Distinguer les constructions avec ÊTRE (accord) et avec AVOIR (pas d'accord automatique)",
+                  "Appliquer la règle dans des textes variés (récits, descriptions, textes scientifiques sur l'espace)"
                 ],
                 "savoirs_etre": [
                   "Soigner l'orthographe grammaticale dans toutes les productions écrites"
@@ -50223,10 +50223,10 @@
                 "titre": "Le passé du conditionnel : hypothèses irréelles et regrets",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Former le passé du conditionnel",
-                  "Distinguer le conditionnel présent et le passé",
-                  "Employer le passé du conditionnel",
-                  "Reconnaître le passé du conditionnel dans des textes de"
+                  "Former le passé du conditionnel (conditionnel présent de ÊTRE/AVOIR + participe passé)",
+                  "Distinguer le conditionnel présent (hypothèse possible) et le passé (hypothèse irréelle, passée)",
+                  "Employer le passé du conditionnel pour exprimer un regret ou une action non réalisée",
+                  "Reconnaître le passé du conditionnel dans des textes de science-fiction"
                 ],
                 "savoirs_etre": [
                   "Enrichir ses productions écrites par l'expression de l'hypothèse et du regret"
@@ -50370,7 +50370,7 @@
                   "Identifier et utiliser le champ lexical de l'astronomie",
                   "Distinguer les niveaux de langue (courant, scientifique)",
                   "Employer 15+ termes spatiaux dans des phrases construites",
-                  "Utiliser les règles de Le champ lexical de l'astronomie"
+                  "Employer correctement les règles de 'Le champ lexical de l'astronomie et de l'espace' pour rédiger et exprimer des récits culturels structurés."
                 ],
                 "savoirs_etre": [
                   "Enrichir son vocabulaire scientifique"
@@ -50563,9 +50563,9 @@
                 "titre": "Dictée préparée — Le rêve africain de l'espace",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Écrire sous la dictée un texte de 6 à 8 phrases sur le thème de",
-                  "Appliquer les accords du participe passé avec ÊTRE dans un texte",
-                  "Orthographier correctement le vocabulaire astronomique appris en",
+                  "Écrire sous la dictée un texte de 6 à 8 phrases sur le thème de l'espace",
+                  "Appliquer les accords du participe passé avec ÊTRE dans un texte dicté",
+                  "Orthographier correctement le vocabulaire astronomique appris en UA8",
                   "Vérifier et corriger sa copie après la dictée"
                 ],
                 "savoirs_etre": [
@@ -50753,8 +50753,8 @@
                 "titre": "Présenter oralement une planète du Système solaire — exposé scientifique",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Présenter un exposé oral sur une planète",
-                  "Utiliser le vocabulaire astronomique appris avec précision",
+                  "Préparer un exposé oral structuré (introduction, développement, conclusion) sur une planète",
+                  "Utiliser le vocabulaire astronomique appris avec précision et aisance",
                   "Présenter clairement des faits scientifiques devant un auditoire",
                   "Répondre à des questions de ses camarades avec assurance"
                 ],
@@ -50898,9 +50898,9 @@
                 "titre": "Rédiger un récit d'exploration spatiale",
                 "duree_estimee_min": 40,
                 "savoirs_faire": [
-                  "Rédiger un récit en 8 à 12 phrases",
-                  "Intégrer des éléments scientifiques réels dans un récit de",
-                  "Utiliser les temps du récit de manière cohérente : passé simple,",
+                  "Rédiger un récit structuré (situation initiale, péripétie, dénouement) en 8 à 12 phrases",
+                  "Intégrer des éléments scientifiques réels dans un récit de fiction (science-fiction)",
+                  "Utiliser les temps du récit de manière cohérente : passé simple, imparfait, conditionnel",
                   "Soigner la présentation et l'orthographe du récit final"
                 ],
                 "savoirs_etre": [
@@ -51046,7 +51046,7 @@
                   "Identifier le genre du merveilleux scientifique (science-fiction)",
                   "Citer 2-3 auteurs et leurs œuvres",
                   "Découvrir des auteurs africains de science-fiction",
-                  "Utiliser les règles de Le merveilleux scientifique — de Jules"
+                  "Employer correctement les règles de 'Le merveilleux scientifique — de Jules Verne à la science-fiction africaine' pour rédiger et exprimer des récits culturels structurés."
                 ],
                 "savoirs_etre": [
                   "Aimer la lecture et l'imagination"
@@ -51264,10 +51264,10 @@
                 "titre": "Les grands nombres et les distances astronomiques",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Lire",
-                  "Effectuer des opérations sur les grands nombres liés à",
-                  "Comparer et ordonner des distances astronomiques",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'Les"
+                  "Lire et écrire les grands nombres jusqu'au billion dans le contexte des distances spatiales",
+                  "Effectuer des opérations sur les grands nombres liés à l'astronomie",
+                  "Comparer et ordonner des distances astronomiques (de la Lune aux étoiles)",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'Les grands nombres et les distances astronomiques' appliqués à l'économie locale."
                 ],
                 "savoirs_etre": [
                   "Être curieux et s'émerveiller de la vastitude de l'Univers"
@@ -51575,7 +51575,7 @@
                 "titre": "Les mesures du temps : du jour au millenaire",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Determiner",
+                  "Determiner et utiliser les unites de mesure de duree : seconde, minute, heure, jour, semaine, mois, année, siècle, millenaire",
                   "Etablir les relations entre les unites de temps",
                   "Determiner un instant a partir d'un autre instant et d'une duree",
                   "Resoudre des problemes de duree et d'horaires"
@@ -51758,10 +51758,10 @@
                 "titre": "La vitesse et les unités : du km/h à la vitesse de la lumière",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Rappeler",
+                  "Rappeler et appliquer la formule v = d/t pour calculer une vitesse",
                   "Convertir des vitesses (km/h ↔ m/s) dans des contextes spatiaux",
-                  "Résoudre des problèmes de vitesse, distance",
-                  "Résoudre des problèmes complexes en utilisant les outils de 'La"
+                  "Résoudre des problèmes de vitesse, distance et temps liés à l'espace",
+                  "Résoudre des problèmes complexes en utilisant les outils de 'La vitesse et les unités : du km/h à la vitesse de la lumière' appliqués à l'économie locale."
                 ],
                 "savoirs_etre": [
                   "Relier les mathématiques aux réalités de la physique spatiale"
@@ -51901,7 +51901,7 @@
                 "savoirs_faire": [
                   "Se reperer sur une carte (du Cameroun, d'Afrique, du monde)",
                   "Coder des deplacements dans des espaces familiers",
-                  "Utiliser un vocabulaire approprie pour définir des positions",
+                  "Utiliser un vocabulaire approprie pour définir des positions et des deplacements",
                   "Lire et utiliser les points cardinaux et les coordonnees simples"
                 ],
                 "savoirs_etre": [
@@ -52310,7 +52310,7 @@
                 "savoirs_faire": [
                   "Expliquer le phénomène de la réflexion de la lumière",
                   "Analyser le fonctionnement de l'œil humain",
-                  "Déterminer les avantages des instruments d'observation",
+                  "Déterminer les avantages des instruments d'observation (lunettes, télescope)",
                   "Relier la vision à la réflexion solaire sur les astres"
                 ],
                 "savoirs_etre": [
@@ -52537,9 +52537,9 @@
                 "duree_estimee_min": 35,
                 "savoirs_faire": [
                   "Expliquer le rôle de la chaleur dans la transmission d'énergie",
-                  "Identifier les usages domestiques",
+                  "Identifier les usages domestiques et industriels de la chaleur solaire",
                   "Citer 3 applications de la chaleur solaire au Cameroun",
-                  "Adopter des comportements éco-responsables"
+                  "Adopter des comportements éco-responsables et scientifiques basés sur 'La chaleur — du Soleil aux centrales solaires'."
                 ],
                 "savoirs_etre": [
                   "Économiser l'énergie au quotidien",
@@ -52763,7 +52763,7 @@
                   "Distinguer énergies fossiles et énergies renouvelables",
                   "Comparer l'impact environnemental de chaque type d'énergie",
                   "Citer 4 énergies renouvelables disponibles au Cameroun",
-                  "Adopter des comportements éco-responsables"
+                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Les sources d'énergie : fossiles et renouvelables'."
                 ],
                 "savoirs_etre": [
                   "Être conscient des enjeux écologiques",
@@ -53216,10 +53216,10 @@
                 "titre": "Le climat solaire et l'agriculture camerounaise",
                 "duree_estimee_min": 30,
                 "savoirs_faire": [
-                  "Expliquer le lien entre rayonnement solaire",
-                  "Identifier les zones agro-écologiques du Cameroun selon",
-                  "Citer 3 techniques modernes utilisant l'énergie solaire en",
-                  "Adopter des comportements éco-responsables"
+                  "Expliquer le lien entre rayonnement solaire et croissance des plantes (photosynthèse)",
+                  "Identifier les zones agro-écologiques du Cameroun selon l'ensoleillement",
+                  "Citer 3 techniques modernes utilisant l'énergie solaire en agriculture",
+                  "Adopter des comportements éco-responsables et scientifiques basés sur 'Le climat solaire et l'agriculture camerounaise'."
                 ],
                 "savoirs_etre": [
                   "Valoriser le travail agricole",
@@ -53673,10 +53673,10 @@
               "titre": "L'aventure spatiale : les grandes étapes et la place de l'Afrique",
               "duree_estimee_min": 30,
               "savoirs_faire": [
-                "Citer les grandes dates de la conquete spatiale",
+                "Citer les grandes dates de la conquete spatiale (Spoutnik, Apollo 11)",
                 "Nommer les premières personnes envoyees dans l'espace",
                 "Identifier la contribution africaine a l'aventure spatiale",
-                "Comprendre l'importance de la cooperation internationale en"
+                "Comprendre l'importance de la cooperation internationale en science"
               ],
               "savoirs_etre": [
                 "Être curieux et ouvert sur le monde",
@@ -53870,7 +53870,7 @@
                 "Decrire la forme de la Terre vue depuis l'espace",
                 "Expliquer la rotation de la Terre et le jour/la nuit",
                 "Comprendre la notion de fuseau horaire",
-                "Identifier le role des satellites pour la meteo"
+                "Identifier le role des satellites pour la meteo et la communication au Cameroun"
               ],
               "savoirs_etre": [
                 "Être curieux du monde",
@@ -54105,10 +54105,10 @@
                 "titre": "Describing and comparing planets — Listening and Speaking",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Describe a planet using key vocabulary",
-                  "Use comparatives and superlatives to compare planets",
+                  "Describe a planet using key vocabulary (size, colour, distance, temperature)",
+                  "Use comparatives and superlatives to compare planets (bigger than, the hottest, farther than)",
                   "Listen and respond to questions about space in English",
-                  "Interact fluently in English using expressions and grammar"
+                  "Interact fluently in English using expressions and grammar related to 'Describing and comparing planets — Listening and Speaking'."
                 ],
                 "savoirs_etre": [
                   "Develop the love for listening and speaking the English Language",
@@ -54469,9 +54469,9 @@
                 "titre": "Writing about space: a letter from an astronaut",
                 "duree_estimee_min": 25,
                 "savoirs_faire": [
-                  "Write a letter from an astronaut",
-                  "Write a letter from an astronaut",
-                  "Use punctuation marks correctly",
+                  "Write a structured letter or message from an astronaut to a child on Earth (6-8 sentences)",
+                  "Write a structured letter or message from an astronaut to a child on Earth (6-8 sentences)",
+                  "Use punctuation marks correctly (capital letters, full stops, question marks)",
                   "Show the interest to write"
                 ],
                 "savoirs_etre": [
@@ -54916,9 +54916,9 @@
               "duree_estimee_min": 25,
               "savoirs_faire": [
                 "Expliquer pourquoi l'enfant a des droits",
-                "Citer les principaux droits de l'enfant",
-                "Citer les devoirs de l'enfant envers ses parents, ses maitres",
-                "Mettre en scene un cas de droit ou de devoir dans la vie"
+                "Citer les principaux droits de l'enfant (éducation, sante, protection, jeu)",
+                "Citer les devoirs de l'enfant envers ses parents, ses maitres et son pays",
+                "Mettre en scene un cas de droit ou de devoir dans la vie quotidienne"
               ],
               "savoirs_etre": [
                 "Être responsable et respectueux",
@@ -55496,7 +55496,7 @@
               "savoirs_faire": [
                 "Definir un satellite et expliquer son role",
                 "Expliquer le fonctionnement simple du GPS",
-                "Citer les usages quotidiens du GPS au Cameroun",
+                "Citer les usages quotidiens du GPS au Cameroun (Google Maps, Yango, taxi)",
                 "Utiliser une application de cartographie sur un smartphone"
               ],
               "savoirs_etre": [

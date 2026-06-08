@@ -25,10 +25,10 @@
               "id": "SIL_T1_UA1_EO_L1",
               "titre": "Ma famille (parents, frères et sœurs)",
               "savoirs_faire": [
-                "Nommer les membres de sa famille nucléaire",
+                "Nommer les membres de sa famille nucléaire (père, mère, frère, sœur)",
                 "Présenter les membres de sa famille à voix haute devant la classe",
                 "Expliquer son lien de parenté de façon simple et audible",
-                "Adopter une posture d'écoute respectueuse lorsque ses camarades"
+                "Adopter une posture d'écoute respectueuse lorsque ses camarades parlent"
               ],
               "exercices": [
                 {
@@ -107,10 +107,10 @@
               "id": "SIL_T1_UA1_EO_L2",
               "titre": "Les pièces de la maison et objets domestiques",
               "savoirs_faire": [
-                "Nommer les différentes pièces de la maison",
-                "Identifier les objets domestiques courants",
+                "Nommer les différentes pièces de la maison (salon, chambre, cuisine, douche)",
+                "Identifier les objets domestiques courants (table, chaise, lit, marmite)",
                 "Expliquer l'utilité principale de chaque pièce de la maison",
-                "Adopter les bons réflexes de sécurité avec les objets dangereux"
+                "Adopter les bons réflexes de sécurité avec les objets dangereux (couteau, feu)"
               ],
               "exercices": [
                 {
@@ -194,9 +194,9 @@
               "id": "SIL_T1_UA1_LC_L1",
               "titre": "Initiation au graphisme (lignes verticales et horizontales)",
               "savoirs_faire": [
-                "Distinguer visuellement une ligne verticale d'une ligne",
-                "Suivre du doigt des lignes tracées au tableau ou sur une feuille",
-                "Identifier des objets de l'environnement qui rappellent des",
+                "Distinguer visuellement une ligne verticale d'une ligne horizontale",
+                "Suivre du doigt des lignes tracées au tableau ou sur une feuille de gauche à droite",
+                "Identifier des objets de l'environnement qui rappellent des lignes verticales ou horizontales",
                 "Montrer de l'intérêt pour les formes et le dessin de base"
               ],
               "exercices": [
@@ -277,9 +277,9 @@
               "titre": "Les formes et la reconnaissance de la lettre 'a'",
               "savoirs_faire": [
                 "Reconnaître la lettre 'a' minuscule script parmi d'autres lettres",
-                "Associer la lettre 'a' au son vocalique [a] prononcé par",
+                "Associer la lettre 'a' au son vocalique [a] prononcé par l'enseignant",
                 "Distinguer la forme ronde et la petite canne de la lettre 'a'",
-                "Repérer la lettre 'a' dans des étiquettes de mots simples"
+                "Repérer la lettre 'a' dans des étiquettes de mots simples illustrés"
               ],
               "exercices": [
                 {
@@ -363,9 +363,9 @@
               "id": "SIL_T1_UA1_EC_L1",
               "titre": "Tracé de lignes verticales et horizontales",
               "savoirs_faire": [
-                "Tenir correctement son crayon ou sa craie avec trois doigts",
-                "Tracer des lignes verticales bien droites de haut en bas sur",
-                "Tracer des lignes horizontales bien droites de gauche à droite",
+                "Tenir correctement son crayon ou sa craie avec trois doigts (pince)",
+                "Tracer des lignes verticales bien droites de haut en bas sur l'ardoise",
+                "Tracer des lignes horizontales bien droites de gauche à droite sur l'ardoise",
                 "Respecter l'espace d'écriture sur l'ardoise ou la feuille"
               ],
               "exercices": [
@@ -446,8 +446,8 @@
               "titre": "Écriture de la lettre 'a' en minuscule script",
               "savoirs_faire": [
                 "Tracer un rond bien fermé sur son ardoise de droite à gauche",
-                "Tracer une petite canne verticale bien droite sur le côté droit",
-                "Assembler les deux gestes",
+                "Tracer une petite canne verticale bien droite sur le côté droit du rond",
+                "Assembler les deux gestes pour former la lettre 'a' minuscule script",
                 "Respecter le lignage d'écriture de base"
               ],
               "exercices": [
@@ -534,8 +534,8 @@
               "savoirs_faire": [
                 "Reconnaître visuellement un cercle, un carré et un triangle",
                 "Pointer du doigt et nommer ces formes géométriques simples",
-                "Associer des objets domestiques familiers à ces formes",
-                "Distinguer les caractéristiques simples"
+                "Associer des objets domestiques familiers à ces formes géométriques",
+                "Distinguer les caractéristiques simples (le carré a 4 côtés, le cercle est rond)"
               ],
               "exercices": [
                 {
@@ -617,7 +617,7 @@
                 "Dénombrer une collection comprenant exactement 1 objet",
                 "Associer la quantité unitaire au mot-nombre 'un' à l'oral",
                 "Reconnaître le symbole chiffré '1' à l'écran",
-                "Tracer le chiffre '1' sur son ardoise"
+                "Tracer le chiffre '1' sur son ardoise (un petit trait oblique puis un grand trait vertical)"
               ],
               "exercices": [
                 {
@@ -701,9 +701,9 @@
               "id": "SIL_T1_UA1_SC_L1",
               "titre": "Les parties du corps et l'hygiène des mains à la maison",
               "savoirs_faire": [
-                "Nommer les grandes parties de son corps",
+                "Nommer les grandes parties de son corps (tête, bras, ventre, jambes)",
                 "Pointer ses mains et expliquer à quoi elles servent à la maison",
-                "Démontrer la technique correcte de lavage des mains avec de",
+                "Démontrer la technique correcte de lavage des mains avec de l'eau propre et du savon",
                 "Expliquer l'importance de se laver les mains avant de manger"
               ],
               "exercices": [
@@ -783,9 +783,9 @@
               "id": "SIL_T1_UA1_SC_L2",
               "titre": "La propreté et le rangement de la maison",
               "savoirs_faire": [
-                "Identifier les outils de nettoyage de la maison",
-                "Expliquer pourquoi il ne faut pas jeter de déchets par terre au",
-                "Participer activement à ranger ses jouets",
+                "Identifier les outils de nettoyage de la maison (balai, seau d'eau, serpillière)",
+                "Expliquer pourquoi il ne faut pas jeter de déchets par terre au salon ou à la cuisine",
+                "Participer activement à ranger ses jouets et ses habits à leur place",
                 "Adopter des habitudes de vie hygiéniques au foyer"
               ],
               "exercices": [
@@ -871,8 +871,8 @@
               "titre": "Respecter ses parents et ses aînés à la maison",
               "savoirs_faire": [
                 "Saluer poliment ses parents et les anciens de la maison au réveil",
-                "Écouter attentivement les consignes",
-                "Adopter un langage poli et respectueux",
+                "Écouter attentivement les consignes et conseils donnés par ses parents",
+                "Adopter un langage poli et respectueux (s'il vous plaît, merci, pardon)",
                 "Comprendre l'importance de l'obéissance pour vivre en sécurité"
               ],
               "exercices": [
@@ -953,7 +953,7 @@
               "titre": "Participer aux petites tâches ménagères en famille",
               "savoirs_faire": [
                 "Identifier les tâches de la maison adaptées à son âge en SIL",
-                "Expliquer pourquoi il est important d'aider sa famille à la",
+                "Expliquer pourquoi il est important d'aider sa famille à la maison",
                 "Démontrer sa volonté de collaborer (ranger, essuyer la table)",
                 "Adopter une attitude joyeuse et volontaire dans l'effort familial"
               ],
@@ -1039,8 +1039,8 @@
               "id": "SIL_T1_UA1_EN_L1",
               "titre": "Introducing my family members (father, mother, sister, brother)",
               "savoirs_faire": [
-                "Understand the English words for core family members",
-                "Point to drawings representing these family members when named",
+                "Understand the English words for core family members (father, mother, brother, sister)",
+                "Point to drawings representing these family members when named in English",
                 "Say 'This is my mother' or 'This is my father' clearly at school",
                 "Greet family members in English at home (Good morning, Hello)"
               ],
@@ -1121,9 +1121,9 @@
               "id": "SIL_T1_UA1_EN_L2",
               "titre": "Naming common house objects (table, chair, bed, door)",
               "savoirs_faire": [
-                "Recognize and name common house objects in English",
+                "Recognize and name common house objects in English (table, chair, bed, door)",
                 "Point to these objects in the room when requested in English",
-                "Understand simple instructions in English",
+                "Understand simple instructions in English (Open the door, sit on the chair)",
                 "Enjoy learning vocabulary through songs and interactive play"
               ],
               "exercices": [
@@ -1214,10 +1214,10 @@
               "id": "SIL_T1_UA2_EO_L1",
               "titre": "Mon village, ma ville",
               "savoirs_faire": [
-                "Décrire oralement des objets",
-                "Demander et donner une information sur son lieu de vie",
-                "Échanger entre locuteurs dans diverses situations de",
-                "Prononcer des sons de l'alphabet"
+                "Décrire oralement des objets et des lieux réels en utilisant un vocabulaire approprié en rapport avec le village et la ville (maison, rue, marché, puits, fontaine, quartier)",
+                "Demander et donner une information sur son lieu de vie (Où habites-tu ? J'habite à... / dans un village / dans une ville)",
+                "Échanger entre locuteurs dans diverses situations de communication liées au cadre de vie",
+                "Prononcer des sons de l'alphabet et identifier les sons [a], [o], [i] dans des mots courants du village/ville"
               ],
               "exercices": [
                 {
@@ -1296,10 +1296,10 @@
               "id": "SIL_T1_UA2_EO_L2",
               "titre": "L'eau dans notre vie",
               "savoirs_faire": [
-                "Décrire oralement les sources",
-                "Identifier les sons [a], [o], [i] dans des mots liés à l'eau",
-                "Raconter une situation liée à l'eau",
-                "Exprimer oralement l'importance de l'eau propre pour la santé"
+                "Décrire oralement les sources et les usages de l'eau dans le village/ville (pluie, rivière, puits, fontaine, robinet)",
+                "Identifier les sons [a], [o], [i] dans des mots liés à l'eau (eau, robinet, pluie, fontaine, puits)",
+                "Raconter une situation liée à l'eau (aller chercher de l'eau, se laver, arroser)",
+                "Exprimer oralement l'importance de l'eau propre pour la santé et la vie quotidienne"
               ],
               "exercices": [
                 {
@@ -1384,10 +1384,10 @@
               "id": "SIL_T1_UA2_LC_L1",
               "titre": "Les voyelles A et O",
               "savoirs_faire": [
-                "Prononcer correctement le son [a]",
-                "Prononcer correctement le son [o]",
-                "Lire des syllabes directes contenant a",
-                "Lire des mots simples formés avec a"
+                "Prononcer correctement le son [a] et identifier la lettre 'a' en minuscule et en majuscule dans une série de lettres",
+                "Prononcer correctement le son [o] et identifier la lettre 'o' en minuscule et en majuscule",
+                "Lire des syllabes directes contenant a et o : ma, la, ta, pa, mo, lo, to, po, bo",
+                "Lire des mots simples formés avec a et o et en comprendre le sens : mama, moto, polo, boa"
               ],
               "exercices": [
                 {
@@ -1466,10 +1466,10 @@
               "id": "SIL_T1_UA2_LC_L2",
               "titre": "La voyelle I et les mots",
               "savoirs_faire": [
-                "Prononcer correctement le son [i]",
+                "Prononcer correctement le son [i] et identifier la lettre 'i' (minuscule et majuscule) dans une série de lettres et de mots",
                 "Lire des syllabes directes contenant i : mi, li, pi, ti, si, bi",
-                "Lire des mots mélangeant les voyelles a, o, i : ami, midi, loti,",
-                "Comprendre le sens d'un mot lu à partir du contexte ou de"
+                "Lire des mots mélangeant les voyelles a, o, i : ami, midi, loti, pili, miso",
+                "Comprendre le sens d'un mot lu à partir du contexte ou de l'image associée"
               ],
               "exercices": [
                 {
@@ -1554,10 +1554,10 @@
               "id": "SIL_T1_UA2_EC_L1",
               "titre": "J'écris les lettres A et O",
               "savoirs_faire": [
-                "Tracer correctement la lettre 'a' en minuscule en respectant le",
-                "Tracer correctement la lettre 'A' en majuscule sur une ligne de",
-                "Tracer correctement les lettres 'o' et 'O'",
-                "Copier des mots simples contenant a"
+                "Tracer correctement la lettre 'a' en minuscule en respectant le sens conventionnel d'écriture (de gauche à droite, de haut en bas)",
+                "Tracer correctement la lettre 'A' en majuscule sur une ligne de cahier",
+                "Tracer correctement les lettres 'o' et 'O' (ronde, fermée, dans la bonne proportion)",
+                "Copier des mots simples contenant a et o — moto, polo, mama — en respectant la taille et la forme des lettres"
               ],
               "exercices": [
                 {
@@ -1636,10 +1636,10 @@
               "id": "SIL_T1_UA2_EC_L2",
               "titre": "J'écris la lettre I et je copie des mots",
               "savoirs_faire": [
-                "Tracer correctement la lettre 'i' minuscule : un trait vertical",
-                "Tracer correctement la lettre 'I' majuscule avec ses deux",
-                "Copier des mots mêlant a, o, i en respectant la taille, la forme",
-                "Respecter le sens conventionnel de l'écriture"
+                "Tracer correctement la lettre 'i' minuscule : un trait vertical droit surmonté d'un point",
+                "Tracer correctement la lettre 'I' majuscule avec ses deux petites barres horizontales",
+                "Copier des mots mêlant a, o, i en respectant la taille, la forme et l'espace entre les mots",
+                "Respecter le sens conventionnel de l'écriture et l'espacement correct entre les lettres d'un même mot"
               ],
               "exercices": [
                 {
@@ -1723,10 +1723,10 @@
               "id": "SIL_T1_UA2_MA_L1",
               "titre": "Je compte dans mon quartier — Les nombres 1 à 6",
               "savoirs_faire": [
-                "Compter des objets du village/ville de 1 à 6 en pointant chaque",
-                "Associer le symbole chiffre à la quantité correspondante",
-                "Écrire les chiffres 4, 5 et 6 en respectant la forme correcte",
-                "Comparer deux quantités"
+                "Compter des objets du village/ville de 1 à 6 (maisons, arbres, étals de marché, personnes) en pointant chaque objet",
+                "Associer le symbole chiffre à la quantité correspondante pour les nombres 1 à 6",
+                "Écrire les chiffres 4, 5 et 6 en respectant la forme correcte (les chiffres 1, 2, 3 étant supposés acquis de UA1)",
+                "Comparer deux quantités (entre 1 et 6) et utiliser les termes : plus que / moins que / autant que"
               ],
               "exercices": [
                 {
@@ -1805,10 +1805,10 @@
               "id": "SIL_T1_UA2_MA_L2",
               "titre": "Les formes de ma ville — Géométrie",
               "savoirs_faire": [
-                "Reconnaître",
-                "Associer une forme géométrique à un objet réel du village/ville",
-                "Trier",
-                "Reproduire à main levée un cercle, un carré"
+                "Reconnaître et nommer les 4 formes géométriques de base : cercle, carré, triangle, rectangle",
+                "Associer une forme géométrique à un objet réel du village/ville (fenêtre=carré, roue=cercle, toit=triangle, porte=rectangle)",
+                "Trier et classer des objets ou des images selon leur forme géométrique (4 groupes)",
+                "Reproduire à main levée un cercle, un carré et un triangle en respectant approximativement les proportions"
               ],
               "exercices": [
                 {
@@ -1892,10 +1892,10 @@
               "id": "SIL_T1_UA2_SC_L1",
               "titre": "L'eau dans notre vie",
               "savoirs_faire": [
-                "Identifier",
-                "Décrire les principales utilisations de l'eau au quotidien",
-                "Distinguer l'eau propre de l'eau sale et expliquer les risques",
-                "Citer au moins 3 gestes concrets pour conserver"
+                "Identifier et nommer les différentes sources d'eau présentes au village/ville (pluie, rivière, puits, fontaine, robinet)",
+                "Décrire les principales utilisations de l'eau au quotidien (boire, cuisiner, se laver, arroser, construire)",
+                "Distinguer l'eau propre (claire, sans odeur) de l'eau sale (trouble, colorée, malodorante) et expliquer les risques",
+                "Citer au moins 3 gestes concrets pour conserver et protéger l'eau propre"
               ],
               "exercices": [
                 {
@@ -1974,10 +1974,10 @@
               "id": "SIL_T1_UA2_SC_L2",
               "titre": "Notre quartier propre",
               "savoirs_faire": [
-                "Identifier les types de déchets",
-                "Expliquer les conséquences de la pollution du quartier sur la",
-                "Citer au moins 3 bonnes pratiques",
-                "Distinguer un quartier propre d'un quartier sale à partir"
+                "Identifier les types de déchets et de pollution présents dans le quartier/village (ordures ménagères, eaux usées, fumées, déchets animaux)",
+                "Expliquer les conséquences de la pollution du quartier sur la santé et le cadre de vie (maladies, mauvaises odeurs, insectes, laideur)",
+                "Citer au moins 3 bonnes pratiques pour maintenir son quartier propre (jeter dans la poubelle, balayer devant sa porte, ne pas brûler n'importe où)",
+                "Distinguer un quartier propre d'un quartier sale à partir d'images et en tirer des conclusions pratiques"
               ],
               "exercices": [
                 {
@@ -2061,10 +2061,10 @@
               "id": "SIL_T1_UA2_SH_L1",
               "titre": "Je vis avec mes voisins",
               "savoirs_faire": [
-                "Définir ce qu'est un voisin",
-                "Identifier les comportements qui favorisent la paix dans le",
-                "Distinguer les comportements perturbateurs des comportements",
-                "Appliquer les formules de politesse dans les échanges avec les"
+                "Définir ce qu'est un voisin et décrire les relations de bon voisinage (partage, respect, entraide)",
+                "Identifier les comportements qui favorisent la paix dans le quartier (saluer, ne pas faire de bruit la nuit, partager, aider)",
+                "Distinguer les comportements perturbateurs (disputes, bruit, vols, insolence) des comportements pacifiques",
+                "Appliquer les formules de politesse dans les échanges avec les voisins (bonjour, merci, s'il vous plaît, pardon)"
               ],
               "exercices": [
                 {
@@ -2143,10 +2143,10 @@
               "id": "SIL_T1_UA2_SH_L2",
               "titre": "Les services de mon quartier",
               "savoirs_faire": [
-                "Identifier",
-                "Associer chaque service à sa fonction principale",
-                "Expliquer l'importance de chaque service pour la vie",
-                "Localiser dans son propre quartier ou village au moins 3"
+                "Identifier et nommer les services essentiels du village/ville : école, marché, dispensaire, lieu de culte, mairie/chefferie, fontaine/puits",
+                "Associer chaque service à sa fonction principale (dispensaire → soigner, marché → acheter/vendre, école → apprendre)",
+                "Expliquer l'importance de chaque service pour la vie et le bien-être de la communauté",
+                "Localiser dans son propre quartier ou village au moins 3 services qu'il fréquente réellement"
               ],
               "exercices": [
                 {
@@ -2230,10 +2230,10 @@
               "id": "SIL_T1_UA2_EN_L1",
               "titre": "My village, my town",
               "savoirs_faire": [
-                "Name 6 key places in a village or town in English: market,",
-                "Use simple sentences to locate a place: The market is near my",
-                "Listen to simple English sentences and identify the place being",
-                "Ask and answer simple questions about places using basic"
+                "Name 6 key places in a village or town in English: market, school, hospital, church, well, road",
+                "Use simple sentences to locate a place: The market is near my house / My school is far / The well is here",
+                "Listen to simple English sentences and identify the place being described",
+                "Ask and answer simple questions about places using basic English: Where is the market? — It is near the well."
               ],
               "exercices": [
                 {
@@ -2312,10 +2312,10 @@
               "id": "SIL_T1_UA2_EN_L2",
               "titre": "Water is life",
               "savoirs_faire": [
-                "Name water-related vocabulary in English: water, rain, river,",
-                "Use simple sentences about water: We drink clean water / Do not",
-                "Listen to and respond to simple instructions about water: Point",
-                "Recite a short English water chant with correct rhythm and"
+                "Name water-related vocabulary in English: water, rain, river, well, tap, clean, dirty, drink, wash",
+                "Use simple sentences about water: We drink clean water / Do not drink dirty water / Rain comes from the sky",
+                "Listen to and respond to simple instructions about water: Point to the river / Show me the well / Is this water clean or dirty?",
+                "Recite a short English water chant with correct rhythm and pronunciation"
               ],
               "exercices": [
                 {
@@ -2405,10 +2405,10 @@
               "id": "SIL_T1_UA3_EO_L1",
               "titre": "Mon école, mes camarades",
               "savoirs_faire": [
-                "Décrire oralement l'environnement scolaire en utilisant le",
-                "Présenter ses camarades de classe",
-                "Raconter oralement une courte situation vécue ou imaginée à",
-                "Identifier"
+                "Décrire oralement l'environnement scolaire en utilisant le vocabulaire approprié (salle de classe, cour, toilettes, bureau du directeur, tableau, pupitres, fenêtres)",
+                "Présenter ses camarades de classe et son enseignant à l'aide de formules appropriées (Je vous présente... Il/Elle s'appelle... C'est mon ami/mon amie...)",
+                "Raconter oralement une courte situation vécue ou imaginée à l'école en utilisant des phrases simples et cohérentes",
+                "Identifier et prononcer les sons [u] et [e] dans des mots liés à l'école (école, bureau, élève, pupitres, uniforme)"
               ],
               "exercices": [
                 {
@@ -2487,10 +2487,10 @@
               "id": "SIL_T1_UA3_EO_L2",
               "titre": "J'apprends à l'école — matériel et poème",
               "savoirs_faire": [
-                "Nommer",
-                "Décrire les activités d'apprentissage à l'école",
-                "Déclamer un court poème sur l'école avec expression vocale,",
-                "Prononcer clairement les sons [é], [è]"
+                "Nommer et décrire les matériels scolaires courants en indiquant leur utilité (crayon → écrire, cahier → noter les leçons, ardoise → s'exercer, règle → tracer des lignes, cartable → transporter ses affaires)",
+                "Décrire les activités d'apprentissage à l'école (lire, écrire, compter, dessiner, chanter, écouter, réciter, jouer)",
+                "Déclamer un court poème sur l'école avec expression vocale, rythme et volume appropriés",
+                "Prononcer clairement les sons [é], [è] et [ê] dans des mots liés à l'école (école, élève, fête, être, fenêtre, règle, maître)"
               ],
               "exercices": [
                 {
@@ -2576,10 +2576,10 @@
               "id": "SIL_T1_UA3_LC_L1",
               "titre": "Les voyelles U et E",
               "savoirs_faire": [
-                "Prononcer correctement le son [u]",
-                "Prononcer correctement le son [e/ə]",
-                "Lire des syllabes directes contenant u",
-                "Lire des mots simples mélangeant toutes les voyelles connues"
+                "Prononcer correctement le son [u] (comme dans 'lune') et identifier la lettre 'u' en minuscule et en majuscule dans des séries de lettres et de mots",
+                "Prononcer correctement le son [e/ə] (comme dans 'le') et identifier la lettre 'e' en minuscule et en majuscule",
+                "Lire des syllabes directes contenant u et e : lu, ru, tu, mu, su / le, me, te, se, re, pe",
+                "Lire des mots simples mélangeant toutes les voyelles connues (a, o, i, u, e) et en identifier le sens dans un contexte scolaire"
               ],
               "exercices": [
                 {
@@ -2658,10 +2658,10 @@
               "id": "SIL_T1_UA3_LC_L2",
               "titre": "Les voyelles accentuées É, È, Ê et les mots de l'école",
               "savoirs_faire": [
-                "Distinguer",
-                "Identifier",
-                "Lire des mots fréquents de l'école contenant é, è, ê comme mots",
-                "Comprendre le sens d'un mot lu à partir de son contexte scolaire"
+                "Distinguer et prononcer correctement les trois voyelles accentuées : é [é fermé, bouche mi-fermée], è et ê [è ouvert, bouche plus ouverte]",
+                "Identifier et nommer les accents : accent aigu (é), accent grave (è), accent circonflexe (ê) et comprendre leur rôle sur le son",
+                "Lire des mots fréquents de l'école contenant é, è, ê comme mots globaux : école, élève, fête, fenêtre, règle, maître, été",
+                "Comprendre le sens d'un mot lu à partir de son contexte scolaire (image, situation de classe)"
               ],
               "exercices": [
                 {
@@ -2746,10 +2746,10 @@
               "id": "SIL_T1_UA3_EC_L1",
               "titre": "J'écris les lettres U et E",
               "savoirs_faire": [
-                "Tracer correctement la lettre 'u' minuscule : deux traits",
-                "Tracer correctement la lettre 'U' majuscule : deux traits",
-                "Tracer correctement la lettre 'e' minuscule : une boucle",
-                "Copier des mots simples contenant u"
+                "Tracer correctement la lettre 'u' minuscule : deux traits verticaux liés en bas par une courbe, suivi d'un trait final vers le bas",
+                "Tracer correctement la lettre 'U' majuscule : deux traits verticaux liés par une courbe en bas",
+                "Tracer correctement la lettre 'e' minuscule : une boucle horizontale ouverte à droite, partant d'un trait horizontal au milieu",
+                "Copier des mots simples contenant u et e en respectant la taille, la forme et l'espacement des lettres"
               ],
               "exercices": [
                 {
@@ -2828,10 +2828,10 @@
               "id": "SIL_T1_UA3_EC_L2",
               "titre": "J'écris É, È, Ê et des mots de l'école",
               "savoirs_faire": [
-                "Tracer correctement les trois accents sur le 'e' : accent aigu,",
+                "Tracer correctement les trois accents sur le 'e' : accent aigu (trait montant vers la droite /), accent grave (trait descendant vers la droite \\), accent circonflexe (chapeau pointu ^)",
                 "Écrire correctement é, è, ê dans des mots simples de l'école",
-                "Copier des mots de l'école contenant des voyelles accentuées :",
-                "Produire par écrit 2 à 3 mots en rapport avec l'école sous"
+                "Copier des mots de l'école contenant des voyelles accentuées : été, école, élève, règle",
+                "Produire par écrit 2 à 3 mots en rapport avec l'école sous dictée guidée"
               ],
               "exercices": [
                 {
@@ -2915,10 +2915,10 @@
               "id": "SIL_T1_UA3_MA_L1",
               "titre": "Je compte mon matériel scolaire — Les nombres 7 à 10",
               "savoirs_faire": [
-                "Compter des objets scolaires de 7 à 10 en pointant chaque objet",
-                "Associer le symbole chiffre à la quantité correspondante",
-                "Écrire les chiffres 7, 8, 9",
-                "Ordonner les nombres de 1 à 10 dans l'ordre croissant"
+                "Compter des objets scolaires de 7 à 10 (stylos, crayons, cahiers, élèves, chaises) en pointant chaque objet",
+                "Associer le symbole chiffre à la quantité correspondante pour les nombres 7, 8, 9 et 10",
+                "Écrire les chiffres 7, 8, 9 et 10 en respectant la forme correcte et l'orientation",
+                "Ordonner les nombres de 1 à 10 dans l'ordre croissant (1→10) et décroissant (10→1)"
               ],
               "exercices": [
                 {
@@ -2997,10 +2997,10 @@
               "id": "SIL_T1_UA3_MA_L2",
               "titre": "Premier et dernier — Les nombres ordinaux et initiation à l'addition",
               "savoirs_faire": [
-                "Utiliser les nombres ordinaux simples dans des situations",
-                "Identifier la position d'un objet ou d'une personne dans une",
-                "Ordonner une série de 5 images ou d'objets",
-                "Réaliser des additions simples concrètes avec des objets"
+                "Utiliser les nombres ordinaux simples dans des situations concrètes de la vie scolaire : premier, deuxième, troisième, dernier",
+                "Identifier la position d'un objet ou d'une personne dans une file/série (le 2ème élève dans la queue, la 3ème chaise en partant de la porte)",
+                "Ordonner une série de 5 images ou d'objets et indiquer la position de chacun avec le nombre ordinal correct",
+                "Réaliser des additions simples concrètes avec des objets scolaires : 3 crayons + 2 crayons = 5 crayons (en manipulant des objets physiques)"
               ],
               "exercices": [
                 {
@@ -3084,10 +3084,10 @@
               "id": "SIL_T1_UA3_SC_L1",
               "titre": "Mon matériel scolaire",
               "savoirs_faire": [
-                "Nommer",
-                "Identifier les matériaux dont sont faits les objets scolaires",
-                "Expliquer l'utilité de chaque matériel scolaire dans les",
-                "Prendre soin du matériel scolaire : identifier les bons gestes"
+                "Nommer et classer les matériels scolaires par catégorie fonctionnelle : outils pour écrire (crayon, stylo, craie, ardoise), outils pour lire (livre, cahier), outils pour ranger (cartable, trousse)",
+                "Identifier les matériaux dont sont faits les objets scolaires et comprendre leur utilité (bois du crayon → léger et solide, papier du cahier → facile à écrire dessus, plastique de la règle → résistant et transparent)",
+                "Expliquer l'utilité de chaque matériel scolaire dans les apprentissages quotidiens",
+                "Prendre soin du matériel scolaire : identifier les bons gestes (couvrir les livres, ranger la trousse, ne pas casser les crayons, taille-crayons utilisé correctement)"
               ],
               "exercices": [
                 {
@@ -3166,10 +3166,10 @@
               "id": "SIL_T1_UA3_SC_L2",
               "titre": "La propreté à l'école",
               "savoirs_faire": [
-                "Identifier les règles d'hygiène à respecter à l'école : se laver",
-                "Expliquer pourquoi la propreté est importante à l'école : santé",
-                "Distinguer une salle de classe propre d'une salle de classe sale",
-                "S'engager dans 3 actions concrètes quotidiennes"
+                "Identifier les règles d'hygiène à respecter à l'école : se laver les mains avant de manger, jeter les papiers et emballages dans la corbeille, garder sa table et son espace de travail propres, ne pas cracher par terre",
+                "Expliquer pourquoi la propreté est importante à l'école : santé des élèves (microbes), cadre d'apprentissage (concentration), respect de l'environnement et des autres",
+                "Distinguer une salle de classe propre d'une salle de classe sale à partir d'images et identifier les conséquences de chaque situation",
+                "S'engager dans 3 actions concrètes quotidiennes pour garder sa salle de classe propre"
               ],
               "exercices": [
                 {
@@ -3253,10 +3253,10 @@
               "id": "SIL_T1_UA3_SH_L1",
               "titre": "Les règles de mon école",
               "savoirs_faire": [
-                "Identifier et nommer les principales règles de vie scolaire",
-                "Expliquer pourquoi chaque règle est nécessaire au bon",
-                "Distinguer les comportements acceptables des comportements",
-                "Participer à la construction collective d'une 'charte de classe'"
+                "Identifier et nommer les principales règles de vie scolaire (arriver à l'heure, respecter l'enseignant et les camarades, ne pas se battre, lever la main avant de parler, ne pas tricher, prendre soin du matériel)",
+                "Expliquer pourquoi chaque règle est nécessaire au bon fonctionnement de la classe et de l'école",
+                "Distinguer les comportements acceptables des comportements inacceptables à l'école et proposer une alternative correcte",
+                "Participer à la construction collective d'une 'charte de classe' simple avec au moins 5 règles fondamentales formulées à la 1ère personne"
               ],
               "exercices": [
                 {
@@ -3335,10 +3335,10 @@
               "id": "SIL_T1_UA3_SH_L2",
               "titre": "Mes droits et devoirs à l'école",
               "savoirs_faire": [
-                "Nommer ses droits fondamentaux à l'école : droit d'apprendre",
-                "Nommer ses devoirs à l'école : devoir de venir régulièrement, de",
-                "Associer chaque droit à son devoir correspondant",
-                "Citer des exemples concrets de situations où ses droits sont"
+                "Nommer ses droits fondamentaux à l'école : droit d'apprendre dans de bonnes conditions, droit à la sécurité et à la protection contre la violence, droit d'être respecté, droit de poser des questions et de demander de l'aide",
+                "Nommer ses devoirs à l'école : devoir de venir régulièrement, de faire ses devoirs, de respecter les autres élèves et l'enseignant, de prendre soin du matériel de l'école",
+                "Associer chaque droit à son devoir correspondant (droit d'apprendre ↔ devoir d'être attentif et présent)",
+                "Citer des exemples concrets de situations où ses droits sont respectés ou non respectés, et savoir à qui s'adresser en cas de problème"
               ],
               "exercices": [
                 {
@@ -3422,10 +3422,10 @@
               "id": "SIL_T1_UA3_EN_L1",
               "titre": "My classroom",
               "savoirs_faire": [
-                "Name 8 classroom objects in English with correct pronunciation:",
-                "Use simple sentences to describe the classroom: There is a board",
-                "Ask and answer using 'What is this?' — 'This is a",
-                "Identify colours of classroom objects in English: red, blue,"
+                "Name 8 classroom objects in English with correct pronunciation: board (tableau), chalk (craie), desk (pupitre), chair (chaise), book (livre), pen (stylo), pencil (crayon), bag (sac/cartable)",
+                "Use simple sentences to describe the classroom: There is a board in my classroom / I have a pencil and a book / My bag is on the desk",
+                "Ask and answer using 'What is this?' — 'This is a book/chair/pen...' and 'What colour is your...?' — 'It is red/blue/green...'",
+                "Identify colours of classroom objects in English: red, blue, green, yellow, black, white, brown, orange"
               ],
               "exercices": [
                 {
@@ -3504,10 +3504,10 @@
               "id": "SIL_T1_UA3_EN_L2",
               "titre": "At school",
               "savoirs_faire": [
-                "Describe a school day routine using simple English: wake up, go",
-                "Understand and respond to 6 common classroom instructions in",
-                "Express preferences about school using 'I like' and 'I don't",
-                "Describe a school day in 3 simple English sentences: In the"
+                "Describe a school day routine using simple English: wake up, go to school, learn, eat, play, go home, sleep",
+                "Understand and respond to 6 common classroom instructions in English: Sit down / Stand up / Open your book / Close your book / Listen / Repeat / Write / Stop",
+                "Express preferences about school using 'I like' and 'I don't like': I like drawing / I don't like sitting still for a long time",
+                "Describe a school day in 3 simple English sentences: In the morning I go to school / At school I learn and play / In the evening I go home"
               ],
               "exercices": [
                 {
@@ -3648,10 +3648,10 @@
               "id": "SIL_T2_UA4_EO_L1",
               "titre": "Les métiers de mon quartier",
               "savoirs_faire": [
-                "Nommer 6 métiers du quartier : menuisier, couturier, forgeron,",
-                "Associer chaque métier à son lieu de travail",
-                "Décrire en 1 phrase l'action principale d'un artisan",
-                "Identifier"
+                "Nommer 6 métiers du quartier : menuisier, couturier, forgeron, maçon, commerçant, enseignant",
+                "Associer chaque métier à son lieu de travail (forgeron→forge, commerçant→marché)",
+                "Décrire en 1 phrase l'action principale d'un artisan (Le menuisier coupe le bois avec sa scie)",
+                "Identifier et prononcer le son complexe [ou] dans des mots de métiers : couture, outil, coudre"
               ],
               "exercices": [
                 {
@@ -3691,9 +3691,8 @@
                     "B": "À la forge",
                     "C": "Au marché ou dans sa boutique"
                   },
-                  "reponse": true,
-                  "explication": "Un commerçant achète et vend des produits dans un marché ou une boutique.",
-                  "type": "vrai_faux"
+                  "reponse": "Au marché ou dans sa boutique",
+                  "explication": "Un commerçant achète et vend des produits dans un marché ou une boutique."
                 },
                 {
                   "question": "Dans le mot 'couture', quel son complexe entend-on au début ?",
@@ -3732,10 +3731,10 @@
               "id": "SIL_T2_UA4_EO_L2",
               "titre": "Le travail et ses outils",
               "savoirs_faire": [
-                "Nommer les outils principaux de 4 métiers : marteau→forgeron,",
-                "Décrire l'utilité de chaque outil en 1 phrase : Le marteau sert",
-                "Raconter une courte histoire autour d'un artisan camerounais en",
-                "Identifier"
+                "Nommer les outils principaux de 4 métiers : marteau→forgeron, scie→menuisier, balance→commerçant, truelle→maçon",
+                "Décrire l'utilité de chaque outil en 1 phrase : Le marteau sert à frapper le métal",
+                "Raconter une courte histoire autour d'un artisan camerounais en utilisant le vocabulaire du métier",
+                "Identifier et prononcer le son [ou] dans des mots d'outils : outil, couteau, moudre, moule"
               ],
               "exercices": [
                 {
@@ -3775,9 +3774,8 @@
                     "B": "[i]",
                     "C": "[ou]"
                   },
-                  "reponse": true,
-                  "explication": "'ou-til' : la première syllabe 'ou' contient clairement le son [ou].",
-                  "type": "vrai_faux"
+                  "reponse": "[ou]",
+                  "explication": "'ou-til' : la première syllabe 'ou' contient clairement le son [ou]."
                 },
                 {
                   "question": "Ngono coud une robe. Quel outil utilise-t-il ?",
@@ -3820,10 +3818,10 @@
               "id": "SIL_T2_UA4_LC_L1",
               "titre": "La voyelle complexe OU et la consonne M",
               "savoirs_faire": [
-                "Prononcer correctement la voyelle complexe [ou]",
+                "Prononcer correctement la voyelle complexe [ou] et identifier 'ou' dans des mots écrits",
                 "Lire les syllabes directes avec M : ma, mo, mi, mu, me, mou",
                 "Lire la syllabe complexe 'mou' et distinguer [ou] de [o]",
-                "Lire des mots contenant 'ou'"
+                "Lire des mots contenant 'ou' et M : mou, moue, moule, mouton, moto"
               ],
               "exercices": [
                 {
@@ -3863,9 +3861,8 @@
                     "B": "ma",
                     "C": "ti"
                   },
-                  "reponse": true,
-                  "explication": "La syllabe 'ma' commence par la consonne M suivie de la voyelle A.",
-                  "type": "vrai_faux"
+                  "reponse": "ma",
+                  "explication": "La syllabe 'ma' commence par la consonne M suivie de la voyelle A."
                 },
                 {
                   "question": "Lis 'mouton'. Combien de syllabes ?",
@@ -3904,9 +3901,9 @@
               "id": "SIL_T2_UA4_LC_L2",
               "titre": "Les syllabes inversées AL, OL, UL, IL",
               "savoirs_faire": [
-                "Lire les syllabes inversées al, ol, ul, il",
-                "Distinguer syllabes directes des syllabes inversées",
-                "Lire des mots contenant ces syllabes inversées : bal, col, til,",
+                "Lire les syllabes inversées al, ol, ul, il (voyelle puis consonne L)",
+                "Distinguer syllabes directes (la, lo, lu, li) des syllabes inversées (al, ol, ul, il)",
+                "Lire des mots contenant ces syllabes inversées : bal, col, til, mal, sol",
                 "Comprendre le sens de ces mots dans le contexte des métiers"
               ],
               "exercices": [
@@ -3947,9 +3944,8 @@
                     "B": "al",
                     "C": "lo"
                   },
-                  "reponse": true,
-                  "explication": "En inversant 'la' (l+a), on obtient 'al' (a+l). Mêmes lettres, ordre inversé.",
-                  "type": "vrai_faux"
+                  "reponse": "al",
+                  "explication": "En inversant 'la' (l+a), on obtient 'al' (a+l). Mêmes lettres, ordre inversé."
                 },
                 {
                   "question": "Dans le mot 'sol', quelle syllabe inversée voit-on ?",
@@ -3993,8 +3989,8 @@
               "id": "SIL_T2_UA4_EC_L1",
               "titre": "J'écris OU et la consonne M",
               "savoirs_faire": [
-                "Tracer correctement la voyelle complexe 'ou' en deux lettres",
-                "Tracer correctement la consonne M minuscule et majuscule",
+                "Tracer correctement la voyelle complexe 'ou' en deux lettres bien formées et liées",
+                "Tracer correctement la consonne M minuscule (3 bosses vers le haut) et majuscule",
                 "Écrire des syllabes avec M : ma, mo, mi, mu, me, mou",
                 "Copier des mots contenant M et ou : mouton, mou, moule, mama"
               ],
@@ -4036,9 +4032,8 @@
                     "B": "3 bosses",
                     "C": "1 seule bosse"
                   },
-                  "reponse": true,
-                  "explication": "Le M minuscule a 3 bosses, le N n'en a que 2. C'est la principale différence visuelle.",
-                  "type": "vrai_faux"
+                  "reponse": "3 bosses",
+                  "explication": "Le M minuscule a 3 bosses, le N n'en a que 2. C'est la principale différence visuelle."
                 },
                 {
                   "question": "Lequel est correctement écrit ?",
@@ -4077,8 +4072,8 @@
               "id": "SIL_T2_UA4_EC_L2",
               "titre": "J'écris les syllabes inversées et des mots de métiers",
               "savoirs_faire": [
-                "Écrire les syllabes inversées al, ol, ul, il en respectant",
-                "Écrire des mots simples contenant des syllabes inversées : bal,",
+                "Écrire les syllabes inversées al, ol, ul, il en respectant l'ordre voyelle + L",
+                "Écrire des mots simples contenant des syllabes inversées : bal, col, sol, mal",
                 "Copier une courte phrase : 'Mama coud ma robe'",
                 "Produire par écrit 2 mots de métiers sous dictée guidée"
               ],
@@ -4120,9 +4115,8 @@
                     "B": "'sol' pour le plancher",
                     "C": "'los' pour le plancher"
                   },
-                  "reponse": true,
-                  "explication": "'sol' = s-o-l. La syllabe inversée 'ol' (O + L) est à la fin du mot.",
-                  "type": "vrai_faux"
+                  "reponse": "'sol' pour le plancher",
+                  "explication": "'sol' = s-o-l. La syllabe inversée 'ol' (O + L) est à la fin du mot."
                 },
                 {
                   "question": "Combien de mots dans 'Mama coud ma robe' ?",
@@ -4166,8 +4160,8 @@
               "id": "SIL_T2_UA4_MA_L1",
               "titre": "L'addition au marché",
               "savoirs_faire": [
-                "Comprendre l'addition comme 'mettre ensemble' à partir de",
-                "Réaliser des additions simples en manipulant des objets",
+                "Comprendre l'addition comme 'mettre ensemble' à partir de situations concrètes de métiers",
+                "Réaliser des additions simples (résultats ≤ 10) en manipulant des objets",
                 "Lire et écrire : 3 + 4 = 7 (signe +, signe =, résultat)",
                 "Résoudre 3 additions simples en contexte de marché ou d'atelier"
               ],
@@ -4209,9 +4203,8 @@
                     "B": "Le signe +",
                     "C": "Le signe ="
                   },
-                  "reponse": true,
-                  "explication": "Le signe + (plus) signifie additionner, mettre ensemble deux quantités.",
-                  "type": "vrai_faux"
+                  "reponse": "Le signe +",
+                  "explication": "Le signe + (plus) signifie additionner, mettre ensemble deux quantités."
                 },
                 {
                   "question": "5 + 4 = ___",
@@ -4250,7 +4243,7 @@
               "id": "SIL_T2_UA4_MA_L2",
               "titre": "Résoudre des problèmes d'addition",
               "savoirs_faire": [
-                "Identifier les informations utiles dans un énoncé",
+                "Identifier les informations utiles dans un énoncé (qui, combien, que se passe-t-il)",
                 "Choisir l'addition pour résoudre un problème de métier",
                 "Écrire l'opération et calculer le résultat",
                 "Formuler la réponse en phrase complète"
@@ -4293,9 +4286,8 @@
                     "B": "4 + 5 = ?",
                     "C": "4 × 5 = ?"
                   },
-                  "reponse": true,
-                  "explication": "On additionne car on met ensemble les deux productions.",
-                  "type": "vrai_faux"
+                  "reponse": "4 + 5 = ?",
+                  "explication": "On additionne car on met ensemble les deux productions."
                 },
                 {
                   "question": "6 + 2 = ?",
@@ -4339,9 +4331,9 @@
               "id": "SIL_T2_UA4_SC_L1",
               "titre": "Les matériaux des artisans",
               "savoirs_faire": [
-                "Identifier les matériaux des artisans camerounais : bois, métal,",
-                "Associer matériau",
-                "Décrire les propriétés sensorielles d'un matériau : dur/mou,",
+                "Identifier les matériaux des artisans camerounais : bois, métal, tissu, argile, raphia",
+                "Associer matériau et artisan : bois→menuisier, métal→forgeron, tissu→couturier, argile→potier",
+                "Décrire les propriétés sensorielles d'un matériau : dur/mou, lisse/rugueux, lourd/léger",
                 "Expliquer pourquoi chaque artisan choisit son matériau principal"
               ],
               "exercices": [
@@ -4382,9 +4374,8 @@
                     "B": "Il est léger, solide et facile à couper",
                     "C": "Il ne brûle jamais"
                   },
-                  "reponse": true,
-                  "explication": "Le bois est solide, relativement léger et peut être coupé, poncé, cloué et sculpté.",
-                  "type": "vrai_faux"
+                  "reponse": "Il est léger, solide et facile à couper",
+                  "explication": "Le bois est solide, relativement léger et peut être coupé, poncé, cloué et sculpté."
                 },
                 {
                   "question": "Le forgeron utilise :",
@@ -4423,9 +4414,9 @@
               "id": "SIL_T2_UA4_SC_L2",
               "titre": "D'où viennent les objets que j'utilise ?",
               "savoirs_faire": [
-                "Identifier l'origine naturelle des matériaux : bois=forêt,",
-                "Décrire le chemin de transformation d'un objet :",
-                "Reconnaître des objets artisanaux camerounais : mortier, natte,",
+                "Identifier l'origine naturelle des matériaux : bois=forêt, métal=mines, tissu=coton, argile=sol",
+                "Décrire le chemin de transformation d'un objet : arbre→bois→meuble / coton→fil→tissu→vêtement",
+                "Reconnaître des objets artisanaux camerounais : mortier, natte, panier, canari",
                 "Exprimer de la gratitude pour le travail des artisans"
               ],
               "exercices": [
@@ -4466,9 +4457,8 @@
                     "B": "Le vannier ou le tisseur",
                     "C": "Le maçon"
                   },
-                  "reponse": true,
-                  "explication": "Le vannier tresse les fibres de raphia, rotin ou osier pour fabriquer nattes, paniers et sacs.",
-                  "type": "vrai_faux"
+                  "reponse": "Le vannier ou le tisseur",
+                  "explication": "Le vannier tresse les fibres de raphia, rotin ou osier pour fabriquer nattes, paniers et sacs."
                 },
                 {
                   "question": "Le canari est fabriqué par :",
@@ -4511,10 +4501,10 @@
               "id": "SIL_T2_UA4_SH_L1",
               "titre": "Les métiers qui servent la communauté",
               "savoirs_faire": [
-                "Identifier les métiers de service essentiels : médecin,",
-                "Expliquer comment chaque métier contribue au bien-être de la",
-                "Distinguer métiers visibles",
-                "Exprimer de la gratitude envers ceux qui exercent des métiers de"
+                "Identifier les métiers de service essentiels : médecin, enseignant, infirmier, agent de propreté, policier",
+                "Expliquer comment chaque métier contribue au bien-être de la communauté",
+                "Distinguer métiers visibles et moins visibles mais tout aussi importants",
+                "Exprimer de la gratitude envers ceux qui exercent des métiers de service"
               ],
               "exercices": [
                 {
@@ -4554,9 +4544,8 @@
                     "B": "Il maintient les rues propres et évite les maladies",
                     "C": "Il est important seulement pour gagner de l'argent"
                   },
-                  "reponse": true,
-                  "explication": "L'agent de propreté protège la santé publique en évitant l'accumulation d'ordures.",
-                  "type": "vrai_faux"
+                  "reponse": "Il maintient les rues propres et évite les maladies",
+                  "explication": "L'agent de propreté protège la santé publique en évitant l'accumulation d'ordures."
                 },
                 {
                   "question": "La bonne expression de gratitude est :",
@@ -4595,10 +4584,10 @@
               "id": "SIL_T2_UA4_SH_L2",
               "titre": "Respect du travail et dignité de tous les métiers",
               "savoirs_faire": [
-                "Affirmer que tous les métiers honnêtes méritent le respect",
-                "Identifier des préjugés sur certains métiers et les déconstruire",
+                "Affirmer que tous les métiers honnêtes méritent le respect quelle que soit leur rémunération",
+                "Identifier des préjugés sur certains métiers (manuel = moins bien) et les déconstruire",
                 "Relier travail honnête à fierté personnelle et dignité humaine",
-                "Exprimer ses aspirations professionnelles en les justifiant par"
+                "Exprimer ses aspirations professionnelles en les justifiant par des valeurs"
               ],
               "exercices": [
                 {
@@ -4638,9 +4627,8 @@
                     "B": "Le même respect que tout travailleur honnête",
                     "C": "Des critiques"
                   },
-                  "reponse": true,
-                  "explication": "Le cultivateur nourrit la communauté. Son travail est fondamental.",
-                  "type": "vrai_faux"
+                  "reponse": "Le même respect que tout travailleur honnête",
+                  "explication": "Le cultivateur nourrit la communauté. Son travail est fondamental."
                 },
                 {
                   "question": "Manga veut être forgeron. Ses amis se moquent. La bonne réaction :",
@@ -4684,10 +4672,10 @@
               "id": "SIL_T2_UA4_EN_L1",
               "titre": "Jobs and professions",
               "savoirs_faire": [
-                "Name 7 jobs in English: teacher, doctor, farmer, carpenter,",
-                "Use simple sentences: A teacher teaches / A farmer grows food /",
-                "Identify a job when described in simple English",
-                "Ask and answer: What do you want to be? — I want to be a"
+                "Name 7 jobs in English: teacher, doctor, farmer, carpenter, merchant, blacksmith, tailor",
+                "Use simple sentences: A teacher teaches / A farmer grows food / A doctor heals sick people",
+                "Identify a job when described in simple English (builds houses → builder/mason)",
+                "Ask and answer: What do you want to be? — I want to be a doctor/teacher/farmer"
               ],
               "exercices": [
                 {
@@ -4727,9 +4715,8 @@
                     "B": "Teacher",
                     "C": "Farmer"
                   },
-                  "reponse": true,
-                  "explication": "'Teacher' = enseignant(e). A teacher teaches students.",
-                  "type": "vrai_faux"
+                  "reponse": "Teacher",
+                  "explication": "'Teacher' = enseignant(e). A teacher teaches students."
                 },
                 {
                   "question": "A carpenter works with:",
@@ -4768,10 +4755,10 @@
               "id": "SIL_T2_UA4_EN_L2",
               "titre": "What do they do? — Action verbs for jobs",
               "savoirs_faire": [
-                "Use 8 action verbs for jobs: teach, heal, grow, build, sell,",
-                "Connect verb to job: A teacher teaches / A farmer grows food / A",
-                "Use simple present: She teaches children / He grows maize / They",
-                "Listen and respond to job-related instructions: Mime a farmer /"
+                "Use 8 action verbs for jobs: teach, heal, grow, build, sell, make, cook, drive",
+                "Connect verb to job: A teacher teaches / A farmer grows food / A builder builds houses",
+                "Use simple present: She teaches children / He grows maize / They sell at the market",
+                "Listen and respond to job-related instructions: Mime a farmer / Point to the carpenter"
               ],
               "exercices": [
                 {
@@ -4811,9 +4798,8 @@
                     "B": "sells",
                     "C": "teaches"
                   },
-                  "reponse": true,
-                  "explication": "'A teacher teaches children.' The verb for teaching is 'teach.'",
-                  "type": "vrai_faux"
+                  "reponse": "teaches",
+                  "explication": "'A teacher teaches children.' The verb for teaching is 'teach.'"
                 },
                 {
                   "question": "What does a trader/merchant do?",
@@ -4908,10 +4894,10 @@
               "id": "SIL_T2_UA5_EO_L1",
               "titre": "Les moyens de transport au Cameroun",
               "savoirs_faire": [
-                "Nommer 7 moyens de transport : moto, taxi, bus, pirogue, train,",
+                "Nommer 7 moyens de transport : moto, taxi, bus, pirogue, train, avion, vélo",
                 "Associer chaque transport à son milieu : air, eau, terre",
-                "Comparer les transports selon leurs caractéristiques :",
-                "Identifier le son [r] dans des mots de transport : route, rail,"
+                "Comparer les transports selon leurs caractéristiques : rapide/lent, cher/abordable",
+                "Identifier le son [r] dans des mots de transport : route, rail, rapide, rivière"
               ],
               "exercices": [
                 {
@@ -4951,9 +4937,8 @@
                     "B": "Dans les airs",
                     "C": "Sur les rivières et les lacs"
                   },
-                  "reponse": true,
-                  "explication": "La pirogue est une embarcation traditionnelle très utilisée sur les rivières camerounaises.",
-                  "type": "vrai_faux"
+                  "reponse": "Sur les rivières et les lacs",
+                  "explication": "La pirogue est une embarcation traditionnelle très utilisée sur les rivières camerounaises."
                 },
                 {
                   "question": "Dans 'route', quel son de consonne au début ?",
@@ -4991,10 +4976,10 @@
               "id": "SIL_T2_UA5_EO_L2",
               "titre": "Je prépare mon voyage",
               "savoirs_faire": [
-                "Décrire les étapes de préparation : faire les bagages, acheter",
-                "Exprimer des émotions liées au voyage : excitation, peur, joie,",
-                "Raconter un voyage avec connecteurs temporels : d'abord,",
-                "Identifier le son [r] dans des mots du voyage : route, rivière,"
+                "Décrire les étapes de préparation : faire les bagages, acheter les provisions, dire au revoir, prendre le transport",
+                "Exprimer des émotions liées au voyage : excitation, peur, joie, tristesse de quitter la famille",
+                "Raconter un voyage avec connecteurs temporels : d'abord, ensuite, puis, enfin",
+                "Identifier le son [r] dans des mots du voyage : route, rivière, arriver, partir, retour"
               ],
               "exercices": [
                 {
@@ -5034,9 +5019,8 @@
                     "B": "Triste de quitter sa famille / nerveux",
                     "C": "En colère"
                   },
-                  "reponse": true,
-                  "explication": "Pleurer au départ = tristesse de se séparer ou appréhension de l'inconnu.",
-                  "type": "vrai_faux"
+                  "reponse": "Triste de quitter sa famille / nerveux",
+                  "explication": "Pleurer au départ = tristesse de se séparer ou appréhension de l'inconnu."
                 },
                 {
                   "question": "Dans 'rivière', quel son se répète deux fois ?",
@@ -5080,10 +5064,10 @@
               "id": "SIL_T2_UA5_LC_L1",
               "titre": "Les consonnes R et T",
               "savoirs_faire": [
-                "Prononcer correctement R [r]",
-                "Prononcer correctement T [t]",
-                "Lire des syllabes avec R",
-                "Lire des mots contenant R"
+                "Prononcer correctement R [r] et identifier 'r' en minuscule et majuscule",
+                "Prononcer correctement T [t] et identifier 't' en minuscule et majuscule",
+                "Lire des syllabes avec R et T : ra, ro, ri, ru, re / ta, to, ti, tu, te",
+                "Lire des mots contenant R et T : roue, route, riz, tôt, moto, tomate"
               ],
               "exercices": [
                 {
@@ -5123,9 +5107,8 @@
                     "B": "la",
                     "C": "ta"
                   },
-                  "reponse": true,
-                  "explication": "'ta' commence par T. 'ra' → R, 'la' → L.",
-                  "type": "vrai_faux"
+                  "reponse": "ta",
+                  "explication": "'ta' commence par T. 'ra' → R, 'la' → L."
                 },
                 {
                   "question": "Dans 'route', quel son au début ?",
@@ -5164,9 +5147,9 @@
               "id": "SIL_T2_UA5_LC_L2",
               "titre": "La consonne P et les syllabes inversées AR, OR, UR, IR, ER",
               "savoirs_faire": [
-                "Prononcer correctement P [p]",
+                "Prononcer correctement P [p] et identifier 'p' minuscule et majuscule",
                 "Lire les syllabes inversées ar, or, ur, ir, er (voyelle puis R)",
-                "Lire des mots contenant P",
+                "Lire des mots contenant P et syllabes inversées : par, port, sur, mer, peur, partir, arriver",
                 "Comprendre le sens des mots lus dans le contexte du voyage"
               ],
               "exercices": [
@@ -5207,9 +5190,8 @@
                     "B": "[a]",
                     "C": "[or]"
                   },
-                  "reponse": true,
-                  "explication": "Dans 'ar', la voyelle A vient en premier, puis R. Les syllabes inversées commencent par la voyelle.",
-                  "type": "vrai_faux"
+                  "reponse": "[a]",
+                  "explication": "Dans 'ar', la voyelle A vient en premier, puis R. Les syllabes inversées commencent par la voyelle."
                 },
                 {
                   "question": "Dans quel mot trouve-t-on la syllabe inversée 'er' ?",
@@ -5254,7 +5236,7 @@
               "titre": "J'écris R et T",
               "savoirs_faire": [
                 "Tracer 'r' minuscule (petit pont courbé) et 'R' majuscule",
-                "Tracer 't' minuscule et 'T' majuscule",
+                "Tracer 't' minuscule (trait vertical + barre au milieu) et 'T' majuscule",
                 "Écrire des syllabes : ra, ro, ri, ta, to, ti",
                 "Copier des mots de voyage : route, riz, tôt, moto"
               ],
@@ -5296,9 +5278,8 @@
                     "B": "Au milieu du trait",
                     "C": "En bas"
                   },
-                  "reponse": true,
-                  "explication": "La barre du 't' est au milieu. En haut = ressemble à une croix.",
-                  "type": "vrai_faux"
+                  "reponse": "Au milieu du trait",
+                  "explication": "La barre du 't' est au milieu. En haut = ressemble à une croix."
                 },
                 {
                   "question": "Quel mot est correctement copié ?",
@@ -5337,9 +5318,9 @@
               "id": "SIL_T2_UA5_EC_L2",
               "titre": "J'écris P et les syllabes inversées",
               "savoirs_faire": [
-                "Tracer 'p' minuscule et 'P' majuscule",
+                "Tracer 'p' minuscule (jambage descendant + boucle à droite en bas) et 'P' majuscule",
                 "Écrire les syllabes inversées ar, or, ur, ir, er (voyelle + R)",
-                "Écrire des mots du voyage avec P",
+                "Écrire des mots du voyage avec P et syllabes inversées : par, port, peur, partir",
                 "Copier une courte phrase : 'Tabi part en bus.'"
               ],
               "exercices": [
@@ -5380,9 +5361,8 @@
                     "B": "A puis R",
                     "C": "Les deux ensemble"
                   },
-                  "reponse": true,
-                  "explication": "Syllabes inversées : voyelle d'abord, consonne ensuite. 'ar' = A puis R.",
-                  "type": "vrai_faux"
+                  "reponse": "A puis R",
+                  "explication": "Syllabes inversées : voyelle d'abord, consonne ensuite. 'ar' = A puis R."
                 },
                 {
                   "question": "Quel mot contient la syllabe inversée 'er' ?",
@@ -5426,10 +5406,10 @@
               "id": "SIL_T2_UA5_MA_L1",
               "titre": "La soustraction — enlever et donner",
               "savoirs_faire": [
-                "Comprendre la soustraction comme 'enlever', 'partir',",
-                "Réaliser des soustractions en manipulant des objets",
+                "Comprendre la soustraction comme 'enlever', 'partir', 'dépenser', 'donner'",
+                "Réaliser des soustractions (résultats ≥ 0) en manipulant des objets",
                 "Lire et écrire : 8 - 3 = 5 (signe -, signe =, résultat)",
-                "Résoudre 3 soustractions simples en contexte de voyage ou de"
+                "Résoudre 3 soustractions simples en contexte de voyage ou de marché"
               ],
               "exercices": [
                 {
@@ -5469,9 +5449,8 @@
                     "B": "Le signe -",
                     "C": "Le signe ="
                   },
-                  "reponse": true,
-                  "explication": "Le signe - (moins) = soustraire, enlever une quantité.",
-                  "type": "vrai_faux"
+                  "reponse": "Le signe -",
+                  "explication": "Le signe - (moins) = soustraire, enlever une quantité."
                 },
                 {
                   "question": "10 - 4 = ___",
@@ -5510,8 +5489,8 @@
               "id": "SIL_T2_UA5_MA_L2",
               "titre": "Problèmes de voyage — addition et soustraction",
               "savoirs_faire": [
-                "Identifier si on doit additionner ou soustraire",
-                "Résoudre des problèmes mêlant addition",
+                "Identifier si on doit additionner (mettre ensemble) ou soustraire (enlever, dépenser)",
+                "Résoudre des problèmes mêlant addition et soustraction en contexte voyage",
                 "Écrire l'opération et formuler la réponse en phrase",
                 "Vérifier son résultat par manipulation ou comptage"
               ],
@@ -5553,9 +5532,8 @@
                     "B": "9",
                     "C": "10"
                   },
-                  "reponse": true,
-                  "explication": "7 + 3 = 10. 'montés' + 'en tout' → addition.",
-                  "type": "vrai_faux"
+                  "reponse": "10",
+                  "explication": "7 + 3 = 10. 'montés' + 'en tout' → addition."
                 },
                 {
                   "question": "Tabi avait 9F. Achète un ticket à 5F. Il lui reste :",
@@ -5599,10 +5577,10 @@
               "id": "SIL_T2_UA5_SC_L1",
               "titre": "Comment fonctionnent les transports ?",
               "savoirs_faire": [
-                "Identifier la source d'énergie de 3 transports : carburant,",
-                "Expliquer simplement pourquoi un véhicule se déplace :",
-                "Comparer les transports selon l'impact environnemental :",
-                "Nommer 2 inventions qui ont changé les voyages au Cameroun : la"
+                "Identifier la source d'énergie de 3 transports : carburant (moto/bus), vent (voilier), énergie humaine (vélo/pirogue)",
+                "Expliquer simplement pourquoi un véhicule se déplace : carburant→moteur→roues",
+                "Comparer les transports selon l'impact environnemental : carburant = pollution, vélo = propre",
+                "Nommer 2 inventions qui ont changé les voyages au Cameroun : la moto, le téléphone portable"
               ],
               "exercices": [
                 {
@@ -5642,9 +5620,8 @@
                     "B": "La voiture",
                     "C": "La pirogue à rame"
                   },
-                  "reponse": true,
-                  "explication": "La pirogue à rame avance grâce à la force musculaire du pagayeur.",
-                  "type": "vrai_faux"
+                  "reponse": "La pirogue à rame",
+                  "explication": "La pirogue à rame avance grâce à la force musculaire du pagayeur."
                 },
                 {
                   "question": "Pourquoi le bus pollue-t-il l'air ?",
@@ -5682,10 +5659,10 @@
               "id": "SIL_T2_UA5_SC_L2",
               "titre": "La sécurité dans les transports",
               "savoirs_faire": [
-                "Identifier les règles de sécurité : casque sur moto, ceinture en",
-                "Expliquer pourquoi chaque règle est importante",
-                "Décrire le comportement d'un bon voyageur : patient,",
-                "Réagir correctement face à une urgence simple : bus en panne,"
+                "Identifier les règles de sécurité : casque sur moto, ceinture en voiture, ne pas surcharger la pirogue, rester assis dans le bus",
+                "Expliquer pourquoi chaque règle est importante et quel accident elle prévient",
+                "Décrire le comportement d'un bon voyageur : patient, respectueux, attentif aux consignes",
+                "Réagir correctement face à une urgence simple : bus en panne, blessure légère, perte de vue de la famille"
               ],
               "exercices": [
                 {
@@ -5725,9 +5702,8 @@
                     "B": "Le poids excessif peut la faire chavirer",
                     "C": "C'est cher"
                   },
-                  "reponse": true,
-                  "explication": "Une pirogue surchargée peut chavirer et faire tomber tous les passagers à l'eau.",
-                  "type": "vrai_faux"
+                  "reponse": "Le poids excessif peut la faire chavirer",
+                  "explication": "Une pirogue surchargée peut chavirer et faire tomber tous les passagers à l'eau."
                 },
                 {
                   "question": "Dans le bus, le comportement le plus sûr est de :",
@@ -5771,10 +5747,10 @@
               "id": "SIL_T2_UA5_SH_L1",
               "titre": "Le voyage en famille et en communauté",
               "savoirs_faire": [
-                "Décrire les préparatifs collectifs : décisions partagées,",
-                "Expliquer la solidarité en voyage : aider un vieux avec ses",
-                "Identifier les comportements respectueux envers les autres",
-                "Relier le voyage à la découverte de nouvelles cultures"
+                "Décrire les préparatifs collectifs : décisions partagées, répartition des tâches",
+                "Expliquer la solidarité en voyage : aider un vieux avec ses bagages, partager sa nourriture",
+                "Identifier les comportements respectueux envers les autres voyageurs",
+                "Relier le voyage à la découverte de nouvelles cultures et régions du Cameroun"
               ],
               "exercices": [
                 {
@@ -5814,9 +5790,8 @@
                     "B": "Lui céder sa place ou demander à quelqu'un de le faire",
                     "C": "Lui dire de prendre le prochain bus"
                   },
-                  "reponse": true,
-                  "explication": "Céder sa place à une personne âgée = respect et solidarité fondamentaux.",
-                  "type": "vrai_faux"
+                  "reponse": "Lui céder sa place ou demander à quelqu'un de le faire",
+                  "explication": "Céder sa place à une personne âgée = respect et solidarité fondamentaux."
                 },
                 {
                   "question": "En voyageant dans d'autres régions du Cameroun, on peut découvrir :",
@@ -5854,10 +5829,10 @@
               "id": "SIL_T2_UA5_SH_L2",
               "titre": "Respect des règles et sécurité en voyage",
               "savoirs_faire": [
-                "Identifier les règles dans les espaces de transport public :",
-                "Expliquer le rôle des agents de transport : conducteur, agent de",
-                "Appliquer la règle de la file d'attente : premier arrivé,",
-                "Comprendre l'importance du billet : preuve de voyage,"
+                "Identifier les règles dans les espaces de transport public : gare, terminus, embarcadère",
+                "Expliquer le rôle des agents de transport : conducteur, agent de gare, policier de route",
+                "Appliquer la règle de la file d'attente : premier arrivé, premier servi",
+                "Comprendre l'importance du billet : preuve de voyage, identification, sécurité"
               ],
               "exercices": [
                 {
@@ -5897,9 +5872,8 @@
                     "B": "Conduire en sécurité et s'assurer que les passagers sont en sécurité",
                     "C": "Inspecter les passeports"
                   },
-                  "reponse": true,
-                  "explication": "Le conducteur est responsable de la sécurité de tous les passagers.",
-                  "type": "vrai_faux"
+                  "reponse": "Conduire en sécurité et s'assurer que les passagers sont en sécurité",
+                  "explication": "Le conducteur est responsable de la sécurité de tous les passagers."
                 },
                 {
                   "question": "Pourquoi avoir un billet de transport ?",
@@ -5943,10 +5917,10 @@
               "id": "SIL_T2_UA5_EN_L1",
               "titre": "Means of transport",
               "savoirs_faire": [
-                "Name 7 means of transport: car, bus, motorcycle, boat/canoe,",
-                "Use simple sentences: I travel by bus / We go by boat / She",
-                "Classify transport: land / water / air",
-                "Ask and answer: How do you go to school? — I go by bus/on"
+                "Name 7 means of transport: car, bus, motorcycle, boat/canoe, plane, bicycle, train",
+                "Use simple sentences: I travel by bus / We go by boat / She flies by plane",
+                "Classify transport: land (car, bus, bicycle) / water (boat, canoe) / air (plane)",
+                "Ask and answer: How do you go to school? — I go by bus/on foot/by motorcycle"
               ],
               "exercices": [
                 {
@@ -5986,9 +5960,8 @@
                     "B": "A bicycle",
                     "C": "A plane"
                   },
-                  "reponse": true,
-                  "explication": "A plane (avion) travels in the air.",
-                  "type": "vrai_faux"
+                  "reponse": "A plane",
+                  "explication": "A plane (avion) travels in the air."
                 },
                 {
                   "question": "'À pied' in English:",
@@ -6027,10 +6000,10 @@
               "id": "SIL_T2_UA5_EN_L2",
               "titre": "Going on a journey — directions and travel phrases",
               "savoirs_faire": [
-                "Use basic direction words: left, right, straight, near, far,",
-                "Use travel phrases: Where is the bus station? / Turn left / Go",
+                "Use basic direction words: left, right, straight, near, far, here, there",
+                "Use travel phrases: Where is the bus station? / Turn left / Go straight / It is near the market",
                 "Listen and respond to simple direction instructions in English",
-                "Say a journey in 3 English sentences: I leave home / I take the"
+                "Say a journey in 3 English sentences: I leave home / I take the bus / I arrive at school"
               ],
               "exercices": [
                 {
@@ -6070,9 +6043,8 @@
                     "B": "À côté, pas loin",
                     "C": "Au-dessus"
                   },
-                  "reponse": true,
-                  "explication": "'Near' = proche. Opposite = 'far' = loin.",
-                  "type": "vrai_faux"
+                  "reponse": "À côté, pas loin",
+                  "explication": "'Near' = proche. Opposite = 'far' = loin."
                 },
                 {
                   "question": "'Where ___ the bus station?'",
@@ -6167,10 +6139,10 @@
               "id": "SIL_T2_UA6_EO_L1",
               "titre": "Mon corps et ma santé",
               "savoirs_faire": [
-                "Nommer les symptômes de maladies courantes : fièvre, toux,",
-                "Associer symptôme à maladie probable : fièvre+frissons→paludisme",
-                "Décrire son état de santé : J'ai mal à la tête / Je tousse /",
-                "Identifier le son [s] dans des mots de santé : santé, symptôme,"
+                "Nommer les symptômes de maladies courantes : fièvre, toux, douleurs abdominales, maux de tête, éruptions",
+                "Associer symptôme à maladie probable : fièvre+frissons→paludisme / toux+mucus→rhume",
+                "Décrire son état de santé : J'ai mal à la tête / Je tousse / J'ai de la fièvre depuis hier",
+                "Identifier le son [s] dans des mots de santé : santé, symptôme, soin, sang"
               ],
               "exercices": [
                 {
@@ -6210,9 +6182,8 @@
                     "B": "[t]",
                     "C": "[s]"
                   },
-                  "reponse": true,
-                  "explication": "'santé' commence par S. Le son [s] est sifflant : l'air passe entre les dents.",
-                  "type": "vrai_faux"
+                  "reponse": "[s]",
+                  "explication": "'santé' commence par S. Le son [s] est sifflant : l'air passe entre les dents."
                 },
                 {
                   "question": "Amina tousse et a le nez qui coule. Elle a probablement :",
@@ -6251,10 +6222,10 @@
               "id": "SIL_T2_UA6_EO_L2",
               "titre": "Chez le docteur et à l'infirmerie",
               "savoirs_faire": [
-                "Jouer une consultation médicale : décrire ses symptômes, écouter",
-                "Nommer les acteurs de la santé",
-                "Comprendre l'importance de prendre tous ses médicaments selon la",
-                "Identifier les sons [s], [b]"
+                "Jouer une consultation médicale : décrire ses symptômes, écouter et comprendre les conseils",
+                "Nommer les acteurs de la santé et leurs rôles : médecin, infirmier, pharmacien, agent de santé",
+                "Comprendre l'importance de prendre tous ses médicaments selon la prescription",
+                "Identifier les sons [s], [b] et [d] dans le vocabulaire médical : soin, bandage, dispensaire"
               ],
               "exercices": [
                 {
@@ -6294,9 +6265,8 @@
                     "B": "Pour éliminer complètement les microbes et éviter qu'ils deviennent résistants",
                     "C": "Parce que le médecin sera en colère"
                   },
-                  "reponse": true,
-                  "explication": "Arrêter trop tôt laisse des microbes survivants qui deviennent résistants — problème mondial grave.",
-                  "type": "vrai_faux"
+                  "reponse": "Pour éliminer complètement les microbes et éviter qu'ils deviennent résistants",
+                  "explication": "Arrêter trop tôt laisse des microbes survivants qui deviennent résistants — problème mondial grave."
                 },
                 {
                   "question": "Dans 'dispensaire', quel son entend-on deux fois ?",
@@ -6340,9 +6310,9 @@
               "id": "SIL_T2_UA6_LC_L1",
               "titre": "Les consonnes S et B",
               "savoirs_faire": [
-                "Prononcer correctement S [s] et identifier 's'",
+                "Prononcer correctement S [s] (fricative sifflante) et identifier 's'",
                 "Prononcer correctement B [b] (occlusive sonore) et identifier 'b'",
-                "Lire des syllabes avec S",
+                "Lire des syllabes avec S et B : sa, so, si, su, se / ba, bo, bi, bu, be",
                 "Lire des mots de santé : soin, soif, boire, bébé, sirop, bas"
               ],
               "exercices": [
@@ -6383,9 +6353,8 @@
                     "B": "sirop",
                     "C": "boire"
                   },
-                  "reponse": true,
-                  "explication": "'boire' commence par B. 'soif' et 'sirop' commencent par S.",
-                  "type": "vrai_faux"
+                  "reponse": "boire",
+                  "explication": "'boire' commence par B. 'soif' et 'sirop' commencent par S."
                 },
                 {
                   "question": "Lis 'sirop'. Combien de syllabes ?",
@@ -6424,10 +6393,10 @@
               "id": "SIL_T2_UA6_LC_L2",
               "titre": "La consonne D et lecture de phrases simples",
               "savoirs_faire": [
-                "Prononcer correctement D [d] et identifier 'd'",
+                "Prononcer correctement D [d] (occlusive sonore, langue contre les dents) et identifier 'd'",
                 "Lire des syllabes avec D : da, do, di, du, de",
                 "Lire des phrases simples de 3 à 5 mots sur la santé",
-                "Comprendre le sens d'une phrase lue"
+                "Comprendre le sens d'une phrase lue et répondre à des questions simples"
               ],
               "exercices": [
                 {
@@ -6467,9 +6436,8 @@
                     "B": "boire",
                     "C": "dos"
                   },
-                  "reponse": true,
-                  "explication": "'dos' commence par D. 'soif' → S, 'boire' → B.",
-                  "type": "vrai_faux"
+                  "reponse": "dos",
+                  "explication": "'dos' commence par D. 'soif' → S, 'boire' → B."
                 },
                 {
                   "question": "'Tabi boit du sirop.' Qu'est-ce que Tabi boit ?",
@@ -6514,8 +6482,8 @@
               "titre": "J'écris S et B",
               "savoirs_faire": [
                 "Tracer 's' minuscule (double courbe) et 'S' majuscule",
-                "Tracer 'b' minuscule et 'B' majuscule",
-                "Distinguer b/d/p/q à l'écrit : chacun a sa boucle dans un sens",
+                "Tracer 'b' minuscule (jambage montant + boucle à droite) et 'B' majuscule",
+                "Distinguer b/d/p/q à l'écrit : chacun a sa boucle dans un sens différent",
                 "Copier des mots de santé : soif, boire, sirop, bébé"
               ],
               "exercices": [
@@ -6556,9 +6524,8 @@
                     "B": "b = boucle à droite / d = boucle à gauche",
                     "C": "Le nombre de courbes"
                   },
-                  "reponse": true,
-                  "explication": "'b' = panse à droite. 'd' = panse à gauche (c + trait à droite).",
-                  "type": "vrai_faux"
+                  "reponse": "b = boucle à droite / d = boucle à gauche",
+                  "explication": "'b' = panse à droite. 'd' = panse à gauche (c + trait à droite)."
                 },
                 {
                   "question": "Quel mot est correctement copié ?",
@@ -6597,9 +6564,9 @@
               "id": "SIL_T2_UA6_EC_L2",
               "titre": "J'écris D et des phrases sur la santé",
               "savoirs_faire": [
-                "Tracer 'd' minuscule et 'D' majuscule",
-                "Consolider la distinction écrite b/d : droite",
-                "Copier une phrase sur la santé avec majuscule, espaces et point",
+                "Tracer 'd' minuscule (boucle à gauche + jambage montant) et 'D' majuscule",
+                "Consolider la distinction écrite b/d : droite pour b, gauche pour d",
+                "Copier une phrase sur la santé (5-6 mots) avec majuscule, espaces et point",
                 "Produire par écrit 2 mots sur la santé sous dictée guidée"
               ],
               "exercices": [
@@ -6640,9 +6607,8 @@
                     "B": "s",
                     "C": "d"
                   },
-                  "reponse": true,
-                  "explication": "'dos' = d-o-s. D est la première lettre.",
-                  "type": "vrai_faux"
+                  "reponse": "d",
+                  "explication": "'dos' = d-o-s. D est la première lettre."
                 },
                 {
                   "question": "'Manga boit de l'eau.' Combien de mots ?",
@@ -6686,10 +6652,10 @@
               "id": "SIL_T2_UA6_MA_L1",
               "titre": "Au dispensaire — problèmes de santé",
               "savoirs_faire": [
-                "Identifier si l'opération est addition ou soustraction dans un",
-                "Résoudre des problèmes liés au dispensaire : comprimés,",
+                "Identifier si l'opération est addition ou soustraction dans un problème de santé",
+                "Résoudre des problèmes liés au dispensaire : comprimés, médicaments, lits",
                 "Réviser additions et soustractions (résultats 0-10)",
-                "Formuler la réponse en phrase complète adaptée au contexte"
+                "Formuler la réponse en phrase complète adaptée au contexte médical"
               ],
               "exercices": [
                 {
@@ -6729,9 +6695,8 @@
                     "B": "5",
                     "C": "6"
                   },
-                  "reponse": true,
-                  "explication": "2 + 3 = 5.",
-                  "type": "vrai_faux"
+                  "reponse": "5",
+                  "explication": "2 + 3 = 5."
                 },
                 {
                   "question": "Dispensaire : 7 lits - 5 occupés = lits libres :",
@@ -6770,7 +6735,7 @@
               "id": "SIL_T2_UA6_MA_L2",
               "titre": "Bilan T2 — révision mathématiques",
               "savoirs_faire": [
-                "Réviser les mathématiques du T2",
+                "Réviser toutes les compétences mathématiques du T2 : dénombrement 1-10, addition, soustraction, ordinaux",
                 "Résoudre des problèmes variés sans catégorie indiquée",
                 "Montrer la progression depuis le début de l'année",
                 "Identifier ses points forts et domaines à améliorer"
@@ -6813,9 +6778,8 @@
                     "B": "5",
                     "C": "6"
                   },
-                  "reponse": true,
-                  "explication": "10 - 5 = 5. Vérification : 5 + 5 = 10 ✓",
-                  "type": "vrai_faux"
+                  "reponse": "5",
+                  "explication": "10 - 5 = 5. Vérification : 5 + 5 = 10 ✓"
                 },
                 {
                   "question": "Dans une file de 6, la 6e position est :",
@@ -6859,10 +6823,10 @@
               "id": "SIL_T2_UA6_SC_L1",
               "titre": "Les maladies courantes au Cameroun et leurs causes",
               "savoirs_faire": [
-                "Nommer 5 maladies courantes",
-                "Distinguer 3 modes de transmission : insectes, eau/nourriture",
+                "Nommer 5 maladies courantes et leurs agents : paludisme=moustique/plasmodium, choléra=eau sale, grippe=virus, typhoïde=aliments contaminés, vers=mains sales",
+                "Distinguer 3 modes de transmission : insectes, eau/nourriture contaminée, contact/air",
                 "Identifier les situations à risque pour chaque maladie",
-                "Exprimer le lien entre comportements préventifs"
+                "Exprimer le lien entre comportements préventifs et réduction des maladies"
               ],
               "exercices": [
                 {
@@ -6902,9 +6866,8 @@
                     "B": "La grippe",
                     "C": "Des vers intestinaux ou intoxication alimentaire"
                   },
-                  "reponse": true,
-                  "explication": "Les légumes non lavés peuvent contenir des œufs de vers ou des bactéries.",
-                  "type": "vrai_faux"
+                  "reponse": "Des vers intestinaux ou intoxication alimentaire",
+                  "explication": "Les légumes non lavés peuvent contenir des œufs de vers ou des bactéries."
                 },
                 {
                   "question": "Boire de l'eau sale peut causer :",
@@ -6942,10 +6905,10 @@
               "id": "SIL_T2_UA6_SC_L2",
               "titre": "Les gestes qui protègent la santé",
               "savoirs_faire": [
-                "Nommer",
-                "Expliquer le mécanisme de protection de chaque geste : le savon",
-                "Construire sa routine d'hygiène quotidienne en 5 gestes dans",
-                "Comprendre l'importance des vaccinations"
+                "Nommer et décrire 6 gestes de prévention : se laver les mains avec savon, boire eau traitée, dormir sous moustiquaire, laver les fruits/légumes, se vacciner, couvrir les aliments",
+                "Expliquer le mécanisme de protection de chaque geste : le savon détruit les microbes",
+                "Construire sa routine d'hygiène quotidienne en 5 gestes dans l'ordre de la journée",
+                "Comprendre l'importance des vaccinations pour protection individuelle ET collective"
               ],
               "exercices": [
                 {
@@ -6985,9 +6948,8 @@
                     "B": "Elle crée une barrière physique entre le moustique et la personne",
                     "C": "Elle éloigne par son odeur"
                   },
-                  "reponse": true,
-                  "explication": "La moustiquaire = barrière mécanique. Les moustiques ne peuvent pas la traverser.",
-                  "type": "vrai_faux"
+                  "reponse": "Elle crée une barrière physique entre le moustique et la personne",
+                  "explication": "La moustiquaire = barrière mécanique. Les moustiques ne peuvent pas la traverser."
                 },
                 {
                   "question": "Un enfant vacciné contre la rougeole :",
@@ -7031,10 +6993,10 @@
               "id": "SIL_T2_UA6_SH_L1",
               "titre": "Les droits à la santé",
               "savoirs_faire": [
-                "Affirmer que chaque enfant a le droit d'être soigné quelle que",
-                "Identifier les structures de santé accessibles : dispensaire,",
-                "Expliquer la gratuité des soins",
-                "Dénoncer les situations d'injustice : manque d'accès aux soins"
+                "Affirmer que chaque enfant a le droit d'être soigné quelle que soit sa situation",
+                "Identifier les structures de santé accessibles : dispensaire, CSI, hôpital de district",
+                "Expliquer la gratuité des soins pour les enfants de moins de 5 ans au Cameroun",
+                "Dénoncer les situations d'injustice : manque d'accès aux soins dans les zones rurales"
               ],
               "exercices": [
                 {
@@ -7074,9 +7036,8 @@
                     "B": "Un centre de santé de proximité où des infirmiers soignent les patients",
                     "C": "L'appartement du médecin"
                   },
-                  "reponse": true,
-                  "explication": "Un dispensaire/CSI = structure de soins de proximité, souvent le premier point d'accès en zone rurale.",
-                  "type": "vrai_faux"
+                  "reponse": "Un centre de santé de proximité où des infirmiers soignent les patients",
+                  "explication": "Un dispensaire/CSI = structure de soins de proximité, souvent le premier point d'accès en zone rurale."
                 },
                 {
                   "question": "Un enfant sans argent pour les soins :",
@@ -7114,10 +7075,10 @@
               "id": "SIL_T2_UA6_SH_L2",
               "titre": "Prendre soin des malades — solidarité et compassion",
               "savoirs_faire": [
-                "Décrire les comportements bienveillants envers un malade :",
-                "Distinguer comportements qui aident de ceux qui nuisent",
-                "Exprimer de l'empathie",
-                "Comprendre que prendre soin des malades est une valeur"
+                "Décrire les comportements bienveillants envers un malade : écouter, apporter de l'eau, rester calme, éviter les bruits forts",
+                "Distinguer comportements qui aident (écouter, aider) de ceux qui nuisent (se moquer, abandonner)",
+                "Exprimer de l'empathie et de la compassion envers les personnes malades ou vulnérables",
+                "Comprendre que prendre soin des malades est une valeur universelle et une responsabilité de communauté"
               ],
               "exercices": [
                 {
@@ -7157,9 +7118,8 @@
                     "B": "Cruel et injuste — la maladie peut arriver à n'importe qui",
                     "C": "Normal entre amis"
                   },
-                  "reponse": true,
-                  "explication": "Se moquer d'une personne vulnérable = cruauté. La maladie peut toucher n'importe qui.",
-                  "type": "vrai_faux"
+                  "reponse": "Cruel et injuste — la maladie peut arriver à n'importe qui",
+                  "explication": "Se moquer d'une personne vulnérable = cruauté. La maladie peut toucher n'importe qui."
                 },
                 {
                   "question": "Pourquoi prendre soin des malades est une responsabilité collective ?",
@@ -7204,9 +7164,9 @@
               "titre": "Parts of the body and health vocabulary",
               "savoirs_faire": [
                 "Name 8 body parts: head, stomach, leg, arm, hand, eye, ear, tooth",
-                "Use sentences about feeling sick: I have a headache / My stomach",
-                "Describe healthy vs unhealthy: I feel well / I feel sick / He is",
-                "Respond: How do you feel? — I feel fine/sick. Where does it"
+                "Use sentences about feeling sick: I have a headache / My stomach hurts / I feel sick / I have a fever",
+                "Describe healthy vs unhealthy: I feel well / I feel sick / He is healthy / She is ill",
+                "Respond: How do you feel? — I feel fine/sick. Where does it hurt? — My head hurts."
               ],
               "exercices": [
                 {
@@ -7246,9 +7206,8 @@
                     "B": "Head",
                     "C": "Arm"
                   },
-                  "reponse": true,
-                  "explication": "'Stomach' = estomac/ventre.",
-                  "type": "vrai_faux"
+                  "reponse": "Stomach",
+                  "explication": "'Stomach' = estomac/ventre."
                 },
                 {
                   "question": "'I feel sick' means:",
@@ -7288,9 +7247,9 @@
               "titre": "Going to the doctor — health conversations",
               "savoirs_faire": [
                 "Use a simple doctor-patient dialogue in English (4-6 exchanges)",
-                "Name 4 health professionals: doctor, nurse, pharmacist, health",
-                "Use imperatives for health advice: Drink water / Rest / Take",
-                "Say 3 prevention sentences: I sleep under a mosquito net / I"
+                "Name 4 health professionals: doctor, nurse, pharmacist, health worker",
+                "Use imperatives for health advice: Drink water / Rest / Take your medicine / Wash your hands",
+                "Say 3 prevention sentences: I sleep under a mosquito net / I wash my hands / I drink clean water"
               ],
               "exercices": [
                 {
@@ -7330,9 +7289,8 @@
                     "B": "Wash",
                     "C": "Sleep"
                   },
-                  "reponse": true,
-                  "explication": "'Wash your hands before eating' = key health instruction.",
-                  "type": "vrai_faux"
+                  "reponse": "Wash",
+                  "explication": "'Wash your hands before eating' = key health instruction."
                 },
                 {
                   "question": "'I drink clean water every day' is a statement of:",
@@ -7451,10 +7409,10 @@
               "id": "SIL_T3_UA7_EO_L1",
               "titre": "Mes jeux préférés au Cameroun",
               "savoirs_faire": [
-                "Nommer",
-                "Comparer les jeux traditionnels",
-                "Décrire les caractéristiques d'un jeu : nombre de joueurs,",
-                "Identifier"
+                "Nommer et décrire 6 jeux traditionnels camerounais : ngonga, osselets, corde à sauter, billes, cache-cache, course",
+                "Comparer les jeux traditionnels et les jeux modernes (téléphone, console) : avantages et inconvénients",
+                "Décrire les caractéristiques d'un jeu : nombre de joueurs, matériel, lieu de jeu, buts",
+                "Identifier et prononcer le son [n] dans des mots de jeux : ngonga, nager, nœud, niveau"
               ],
               "exercices": [
                 {
@@ -7494,9 +7452,8 @@
                     "B": "[n]",
                     "C": "[m]"
                   },
-                  "reponse": true,
-                  "explication": "'ngonga' commence par le son nasal [n]. La consonne N se prononce avec vibration du nez, bouche légèrement ouverte.",
-                  "type": "vrai_faux"
+                  "reponse": "[n]",
+                  "explication": "'ngonga' commence par le son nasal [n]. La consonne N se prononce avec vibration du nez, bouche légèrement ouverte."
                 },
                 {
                   "question": "Lequel de ces jeux fait bouger le corps en plein air ?",
@@ -7534,10 +7491,10 @@
               "id": "SIL_T3_UA7_EO_L2",
               "titre": "Les règles du jeu",
               "savoirs_faire": [
-                "Expliquer les règles d'un jeu simple en respectant l'ordre des",
-                "Distinguer les comportements de fair-play des mauvais",
-                "Exprimer ses émotions face au jeu : joie de gagner, déception de",
-                "Identifier"
+                "Expliquer les règles d'un jeu simple en respectant l'ordre des actions : d'abord / ensuite / enfin",
+                "Distinguer les comportements de fair-play (accepter de perdre, respecter les règles) des mauvais comportements (tricher, se disputer)",
+                "Exprimer ses émotions face au jeu : joie de gagner, déception de perdre, surprise d'un retournement",
+                "Identifier et prononcer le son [v] dans des mots de jeux et de valeurs : victoire, valeur, vainqueur, vite"
               ],
               "exercices": [
                 {
@@ -7577,9 +7534,8 @@
                     "B": "[n]",
                     "C": "[v]"
                   },
-                  "reponse": true,
-                  "explication": "'victoire' commence par V. Le son [v] est fricatif et sonore (vibration de gorge) : lèvre inférieure contre dents du haut.",
-                  "type": "vrai_faux"
+                  "reponse": "[v]",
+                  "explication": "'victoire' commence par V. Le son [v] est fricatif et sonore (vibration de gorge) : lèvre inférieure contre dents du haut."
                 },
                 {
                   "question": "Tabi perd à la course mais dit 'Tu as couru plus vite, félicitations.' C'est un exemple de :",
@@ -7623,10 +7579,10 @@
               "id": "SIL_T3_UA7_LC_L1",
               "titre": "Les consonnes N et V",
               "savoirs_faire": [
-                "Prononcer correctement N [n] et identifier 'n' dans les mots",
-                "Prononcer correctement V [v] et identifier 'v'",
-                "Lire les syllabes avec N",
-                "Lire des mots de jeux contenant N"
+                "Prononcer correctement N [n] (nasale, vibration du nez) et identifier 'n' dans les mots",
+                "Prononcer correctement V [v] (fricative sonore, lèvre inférieure contre dents du haut) et identifier 'v'",
+                "Lire les syllabes avec N et V : na, no, ni, nu, ne / va, vo, vi, vu, ve",
+                "Lire des mots de jeux contenant N et V : nœud, niveau, vite, victoire, vélo, nager"
               ],
               "exercices": [
                 {
@@ -7666,9 +7622,8 @@
                     "B": "La lèvre inférieure touche les dents du haut et on souffle avec vibration",
                     "C": "On souffle entre les dents"
                   },
-                  "reponse": true,
-                  "explication": "[v] = fricative labiodentale sonore. Lèvre inférieure + dents du haut + souffle + vibration.",
-                  "type": "vrai_faux"
+                  "reponse": "La lèvre inférieure touche les dents du haut et on souffle avec vibration",
+                  "explication": "[v] = fricative labiodentale sonore. Lèvre inférieure + dents du haut + souffle + vibration."
                 },
                 {
                   "question": "Quel mot commence par V ?",
@@ -7707,9 +7662,9 @@
               "id": "SIL_T3_UA7_LC_L2",
               "titre": "Les syllabes inversées AN, AM, EN, EM",
               "savoirs_faire": [
-                "Lire les syllabes inversées an, am, en, em",
-                "Distinguer : an/am et en/em",
-                "Lire des mots contenant ces syllabes inversées : dans, temps,",
+                "Lire les syllabes inversées an, am, en, em (voyelle puis consonne nasale N ou M)",
+                "Distinguer : an/am (voyelle A + nasale) et en/em (voyelle E + nasale)",
+                "Lire des mots contenant ces syllabes inversées : dans, temps, enfant, lampe, champ, vent, dent",
                 "Comprendre le sens de mots lus dans le contexte des jeux"
               ],
               "exercices": [
@@ -7750,9 +7705,8 @@
                     "B": "en",
                     "C": "em"
                   },
-                  "reponse": true,
-                  "explication": "'en-fant' : la première syllabe 'en' est une syllabe inversée nasale (E + N).",
-                  "type": "vrai_faux"
+                  "reponse": "en",
+                  "explication": "'en-fant' : la première syllabe 'en' est une syllabe inversée nasale (E + N)."
                 },
                 {
                   "question": "Lis la phrase : 'L'enfant joue dans le champ.' Où joue l'enfant ?",
@@ -7797,9 +7751,9 @@
               "titre": "J'écris N et V",
               "savoirs_faire": [
                 "Tracer 'n' minuscule (2 bosses vers le haut) et 'N' majuscule",
-                "Tracer 'v' minuscule et 'V' majuscule",
-                "Distinguer à l'écrit : m / n / v",
-                "Copier des mots de jeux contenant N"
+                "Tracer 'v' minuscule (2 traits qui se rejoignent en pointe) et 'V' majuscule",
+                "Distinguer à l'écrit : m (3 bosses) / n (2 bosses) / v (pointe vers le bas)",
+                "Copier des mots de jeux contenant N et V : nœud, vite, niveau, victoire"
               ],
               "exercices": [
                 {
@@ -7839,9 +7793,8 @@
                     "B": "v a une POINTE en bas, u a une COURBE en bas",
                     "C": "v est plus grand que u"
                   },
-                  "reponse": true,
-                  "explication": "'v' = deux traits droits qui se rejoignent en pointe. 'u' = deux traits qui forment une courbe douce au bas.",
-                  "type": "vrai_faux"
+                  "reponse": "v a une POINTE en bas, u a une COURBE en bas",
+                  "explication": "'v' = deux traits droits qui se rejoignent en pointe. 'u' = deux traits qui forment une courbe douce au bas."
                 },
                 {
                   "question": "Quel mot est correctement copié ?",
@@ -7880,10 +7833,10 @@
               "id": "SIL_T3_UA7_EC_L2",
               "titre": "J'écris les syllabes nasales AN, AM, EN, EM",
               "savoirs_faire": [
-                "Écrire les syllabes inversées nasales an, am, en, em en",
-                "Écrire des mots contenant ces syllabes : dans, vent, enfant,",
-                "Copier une courte phrase sur les jeux : 'Tabi joue dans le",
-                "Produire par écrit 2 mots sous dictée guidée contenant une"
+                "Écrire les syllabes inversées nasales an, am, en, em en respectant l'ordre voyelle + nasale",
+                "Écrire des mots contenant ces syllabes : dans, vent, enfant, temps",
+                "Copier une courte phrase sur les jeux : 'Tabi joue dans le champ.'",
+                "Produire par écrit 2 mots sous dictée guidée contenant une syllabe nasale"
               ],
               "exercices": [
                 {
@@ -7923,9 +7876,8 @@
                     "B": "en",
                     "C": "em"
                   },
-                  "reponse": true,
-                  "explication": "'vent' = v + en + t. La syllabe nasale 'en' est au milieu du mot.",
-                  "type": "vrai_faux"
+                  "reponse": "en",
+                  "explication": "'vent' = v + en + t. La syllabe nasale 'en' est au milieu du mot."
                 },
                 {
                   "question": "Combien de mots dans 'Tabi joue dans le champ.' ?",
@@ -7969,9 +7921,9 @@
               "id": "SIL_T3_UA7_MA_L1",
               "titre": "Les nombres 11 à 15",
               "savoirs_faire": [
-                "Dénombrer des collections de 11 à 15 objets en groupant par 10 +",
+                "Dénombrer des collections de 11 à 15 objets en groupant par 10 + unités restantes",
                 "Lire et écrire les nombres 11, 12, 13, 14, 15 en chiffres",
-                "Comprendre la décomposition : 11 = 10 + 1 / 12 = 10 + 2 ... / 15",
+                "Comprendre la décomposition : 11 = 10 + 1 / 12 = 10 + 2 ... / 15 = 10 + 5",
                 "Comparer et ordonner les nombres de 11 à 15 : 12 < 14 / 15 > 11"
               ],
               "exercices": [
@@ -8012,9 +7964,8 @@
                     "B": "13",
                     "C": "14"
                   },
-                  "reponse": true,
-                  "explication": "Après 12 vient 13 (treize). L'ordre est : 11, 12, 13, 14, 15.",
-                  "type": "vrai_faux"
+                  "reponse": "13",
+                  "explication": "Après 12 vient 13 (treize). L'ordre est : 11, 12, 13, 14, 15."
                 },
                 {
                   "question": "Manga a 11 billes et Tabi en a 15. Qui en a le plus ?",
@@ -8053,7 +8004,7 @@
               "id": "SIL_T3_UA7_MA_L2",
               "titre": "Les nombres 16 à 20",
               "savoirs_faire": [
-                "Dénombrer des collections de 16 à 20 objets en groupant par 10 +",
+                "Dénombrer des collections de 16 à 20 objets en groupant par 10 + unités restantes",
                 "Lire et écrire les nombres 16, 17, 18, 19, 20 en chiffres",
                 "Comprendre que 20 = 2 dizaines = 10 + 10",
                 "Ordonner les nombres de 1 à 20 sur une ligne numérique"
@@ -8096,9 +8047,8 @@
                     "B": "10 + 10 (2 dizaines)",
                     "C": "10 + 11"
                   },
-                  "reponse": true,
-                  "explication": "20 = 2 dizaines = 10 + 10. C'est le premier nombre avec 2 groupes de 10 complets.",
-                  "type": "vrai_faux"
+                  "reponse": "10 + 10 (2 dizaines)",
+                  "explication": "20 = 2 dizaines = 10 + 10. C'est le premier nombre avec 2 groupes de 10 complets."
                 },
                 {
                   "question": "Quel nombre vient juste AVANT 19 ?",
@@ -8142,9 +8092,9 @@
               "id": "SIL_T3_UA7_SC_L1",
               "titre": "Comment les jouets sont-ils fabriqués ?",
               "savoirs_faire": [
-                "Identifier les matériaux des jouets courants : plastique, bois,",
-                "Décrire simplement le processus de fabrication d'un jouet simple",
-                "Comparer jouets artisanaux camerounais et jouets industriels",
+                "Identifier les matériaux des jouets courants : plastique, bois, métal, tissu, caoutchouc",
+                "Décrire simplement le processus de fabrication d'un jouet simple (voiture en bois, poupée en tissu)",
+                "Comparer jouets artisanaux camerounais (voiture en canettes, ballon en chaussettes) et jouets industriels",
                 "Identifier les caractéristiques d'un jouet sûr pour un enfant"
               ],
               "exercices": [
@@ -8185,9 +8135,8 @@
                     "B": "Un jouet avec de petites pièces pouvant être avalées",
                     "C": "Un cube en bois poli sans angles"
                   },
-                  "reponse": true,
-                  "explication": "Les petites pièces de moins de 3 cm = risque de suffocation pour les bébés et les très jeunes enfants.",
-                  "type": "vrai_faux"
+                  "reponse": "Un jouet avec de petites pièces pouvant être avalées",
+                  "explication": "Les petites pièces de moins de 3 cm = risque de suffocation pour les bébés et les très jeunes enfants."
                 },
                 {
                   "question": "Pourquoi valoriser les jouets artisanaux camerounais ?",
@@ -8225,9 +8174,9 @@
               "id": "SIL_T3_UA7_SC_L2",
               "titre": "Les jeux en plein air et la santé",
               "savoirs_faire": [
-                "Expliquer les bénéfices des jeux en plein air sur la santé :",
-                "Distinguer les jeux qui font bouger le corps des jeux sédentaires",
-                "Identifier les précautions à prendre lors des jeux en plein air",
+                "Expliquer les bénéfices des jeux en plein air sur la santé : endurance, force musculaire, coordination, bien-être mental",
+                "Distinguer les jeux qui font bouger le corps (corde, course, danse) des jeux sédentaires (cartes, téléphone)",
+                "Identifier les précautions à prendre lors des jeux en plein air : soleil, blessures, hydratation",
                 "Relier activité physique régulière et bonne santé à long terme"
               ],
               "exercices": [
@@ -8268,9 +8217,8 @@
                     "B": "Faire un puzzle",
                     "C": "Jouer à la corde à sauter"
                   },
-                  "reponse": true,
-                  "explication": "La corde à sauter = activité physique qui développe la coordination, l'endurance et les jambes.",
-                  "type": "vrai_faux"
+                  "reponse": "Jouer à la corde à sauter",
+                  "explication": "La corde à sauter = activité physique qui développe la coordination, l'endurance et les jambes."
                 },
                 {
                   "question": "Avant de jouer dehors sous le soleil chaud, on doit :",
@@ -8314,10 +8262,10 @@
               "id": "SIL_T3_UA7_SH_L1",
               "titre": "Jouer ensemble — partage, fair-play, respect",
               "savoirs_faire": [
-                "Définir le fair-play : jouer selon les règles, accepter la",
-                "Identifier des situations de fair-play",
-                "Exprimer des valeurs de partage",
-                "Comprendre que le jeu collectif renforce les liens sociaux"
+                "Définir le fair-play : jouer selon les règles, accepter la défaite, respecter l'adversaire",
+                "Identifier des situations de fair-play et d'anti-fair-play dans des scénarios de jeu",
+                "Exprimer des valeurs de partage et d'inclusion : inviter un camarade isolé à jouer",
+                "Comprendre que le jeu collectif renforce les liens sociaux et la cohésion du groupe"
               ],
               "exercices": [
                 {
@@ -8357,9 +8305,8 @@
                     "B": "Parce que tout le monde mérite d'être inclus et que jouer seul quand on ne le veut pas est triste",
                     "C": "Parce que le maître va se mettre en colère"
                   },
-                  "reponse": true,
-                  "explication": "L'inclusion dans le jeu est un acte de bienveillance qui construit un environnement scolaire solidaire.",
-                  "type": "vrai_faux"
+                  "reponse": "Parce que tout le monde mérite d'être inclus et que jouer seul quand on ne le veut pas est triste",
+                  "explication": "L'inclusion dans le jeu est un acte de bienveillance qui construit un environnement scolaire solidaire."
                 },
                 {
                   "question": "Amina triche pendant le jeu. La bonne réaction de ses camarades est :",
@@ -8398,10 +8345,10 @@
               "id": "SIL_T3_UA7_SH_L2",
               "titre": "Les jeux traditionnels camerounais — patrimoine culturel",
               "savoirs_faire": [
-                "Identifier 5 jeux traditionnels camerounais",
-                "Expliquer pourquoi les jeux traditionnels sont un patrimoine",
-                "Comparer les valeurs transmises par les jeux traditionnels",
-                "Exprimer de la fierté pour les jeux traditionnels camerounais"
+                "Identifier 5 jeux traditionnels camerounais et leurs régions d'origine : le ndolo, le bon-bon, la mangala, la course à l'œuf, la lutte traditionnelle",
+                "Expliquer pourquoi les jeux traditionnels sont un patrimoine culturel à préserver",
+                "Comparer les valeurs transmises par les jeux traditionnels (endurance, stratégie, communauté) et les jeux modernes",
+                "Exprimer de la fierté pour les jeux traditionnels camerounais et l'envie de les partager"
               ],
               "exercices": [
                 {
@@ -8441,9 +8388,8 @@
                     "B": "Parce qu'ils transmettent des valeurs, des savoir-faire et des liens entre les générations depuis des siècles",
                     "C": "Parce qu'ils sont amusants"
                   },
-                  "reponse": true,
-                  "explication": "Un patrimoine culturel = tout ce qu'une communauté transmet de génération en génération : langues, arts, jeux, pratiques.",
-                  "type": "vrai_faux"
+                  "reponse": "Parce qu'ils transmettent des valeurs, des savoir-faire et des liens entre les générations depuis des siècles",
+                  "explication": "Un patrimoine culturel = tout ce qu'une communauté transmet de génération en génération : langues, arts, jeux, pratiques."
                 },
                 {
                   "question": "Quelle valeur principale transmet la lutte traditionnelle camerounaise ?",
@@ -8486,10 +8432,10 @@
               "id": "SIL_T3_UA7_EN_L1",
               "titre": "Games and toys",
               "savoirs_faire": [
-                "Name 7 toys and games in English: ball, rope, doll, toy car,",
-                "Use sentences about playing: I play with a ball / We play",
-                "Describe a game: It is a game for 2 players / You need a rope /",
-                "Ask and answer: What is your favourite game? — My favourite game"
+                "Name 7 toys and games in English: ball, rope, doll, toy car, marbles, hide-and-seek, race",
+                "Use sentences about playing: I play with a ball / We play hide-and-seek / She likes dolls",
+                "Describe a game: It is a game for 2 players / You need a rope / The winner is the fastest",
+                "Ask and answer: What is your favourite game? — My favourite game is ___"
               ],
               "exercices": [
                 {
@@ -8529,9 +8475,8 @@
                     "B": "Je joue avec un ballon",
                     "C": "Je joue avec des billes"
                   },
-                  "reponse": true,
-                  "explication": "'Ball' = ballon/balle. 'I play with a ball' = je joue avec un ballon.",
-                  "type": "vrai_faux"
+                  "reponse": "Je joue avec un ballon",
+                  "explication": "'Ball' = ballon/balle. 'I play with a ball' = je joue avec un ballon."
                 },
                 {
                   "question": "How do you say 'cache-cache' in English?",
@@ -8570,10 +8515,10 @@
               "id": "SIL_T3_UA7_EN_L2",
               "titre": "Let's play! — game instructions and turn-taking",
               "savoirs_faire": [
-                "Use game instruction vocabulary: your turn / my turn / start /",
-                "Follow and give simple game instructions in English: Roll the",
-                "Count scores in English from 1 to 20: Team A has fifteen points",
-                "Say sportsmanship phrases: Well done / Good game / Try again /"
+                "Use game instruction vocabulary: your turn / my turn / start / stop / win / lose / score / team",
+                "Follow and give simple game instructions in English: Roll the dice / Jump over the rope / Run to the line",
+                "Count scores in English from 1 to 20: Team A has fifteen points / Team B has twelve",
+                "Say sportsmanship phrases: Well done / Good game / Try again / You won / It is a tie"
               ],
               "exercices": [
                 {
@@ -8613,9 +8558,8 @@
                     "B": "Someone who did something well / won",
                     "C": "Someone who is starting to play"
                   },
-                  "reponse": true,
-                  "explication": "'Well done!' = bravo ! / bien joué ! Used to congratulate someone.",
-                  "type": "vrai_faux"
+                  "reponse": "Someone who did something well / won",
+                  "explication": "'Well done!' = bravo ! / bien joué ! Used to congratulate someone."
                 },
                 {
                   "question": "Team A has fifteen points. How do you write 15?",
@@ -8710,10 +8654,10 @@
               "id": "SIL_T3_UA8_EO_L1",
               "titre": "Comment communique-t-on au Cameroun ?",
               "savoirs_faire": [
-                "Nommer",
-                "Nommer",
-                "Comparer la rapidité, la portée",
-                "Identifier"
+                "Nommer et décrire les moyens de communication traditionnels : tam-tam, crieur public, message oral transmis de bouche à oreille",
+                "Nommer et décrire les moyens de communication modernes : téléphone, radio, télévision, WhatsApp, internet",
+                "Comparer la rapidité, la portée et le coût de chaque moyen de communication",
+                "Identifier et prononcer le son [f] dans des mots de communication : fil, fax, filaire, fréquence"
               ],
               "exercices": [
                 {
@@ -8753,9 +8697,8 @@
                     "B": "La télévision",
                     "C": "WhatsApp"
                   },
-                  "reponse": true,
-                  "explication": "WhatsApp est une application de messagerie qui permet l'envoi instantané de textes, images, vidéos et messages vocaux via internet.",
-                  "type": "vrai_faux"
+                  "reponse": "WhatsApp",
+                  "explication": "WhatsApp est une application de messagerie qui permet l'envoi instantané de textes, images, vidéos et messages vocaux via internet."
                 },
                 {
                   "question": "Dans le mot 'filaire', quel son de consonne entend-on au début ?",
@@ -8793,10 +8736,10 @@
               "id": "SIL_T3_UA8_EO_L2",
               "titre": "Écrire et envoyer un message",
               "savoirs_faire": [
-                "Décrire les étapes de rédaction d'un message simple :",
-                "Distinguer les types de messages selon leur contexte : message",
-                "Identifier les éléments essentiels d'un message complet : qui",
-                "Identifier"
+                "Décrire les étapes de rédaction d'un message simple : destinataire, contenu, formule de politesse",
+                "Distinguer les types de messages selon leur contexte : message d'urgence, invitation, remerciement, information",
+                "Identifier les éléments essentiels d'un message complet : qui parle, à qui, pour dire quoi, dans quel but",
+                "Identifier et prononcer les sons [k] (comme C/Q/K) et [z] dans des mots de communication : code, quiz, zéro, zone"
               ],
               "exercices": [
                 {
@@ -8836,9 +8779,8 @@
                     "B": "Un message d'urgence",
                     "C": "Un message de remerciement"
                   },
-                  "reponse": true,
-                  "explication": "Un message d'urgence signale une situation nécessitant une aide immédiate. Il doit être court, clair et précis.",
-                  "type": "vrai_faux"
+                  "reponse": "Un message d'urgence",
+                  "explication": "Un message d'urgence signale une situation nécessitant une aide immédiate. Il doit être court, clair et précis."
                 },
                 {
                   "question": "'Allô, qui est à l'appareil ?' est une formule utilisée pour :",
@@ -8882,10 +8824,10 @@
               "id": "SIL_T3_UA8_LC_L1",
               "titre": "Les consonnes F, Z et la syllabe EU",
               "savoirs_faire": [
-                "Prononcer correctement F [f]",
-                "Distinguer [f] et [v] et [s] et [z]",
-                "Lire la syllabe complexe 'eu' [ø]",
-                "Lire des mots de communication contenant F"
+                "Prononcer correctement F [f] (fricative sourde) et Z [z] (fricative sonore) et les identifier dans des mots",
+                "Distinguer [f] et [v] (même articulation, sourd/sonore) et [s] et [z] (même distinction)",
+                "Lire la syllabe complexe 'eu' [ø] et des mots contenant 'eu' : peu, feu, jeu, bleu, vœu",
+                "Lire des mots de communication contenant F et Z : fax, filaire, zone, zéro, fusée"
               ],
               "exercices": [
                 {
@@ -8925,9 +8867,8 @@
                     "B": "La présence ou l'absence de vibration de gorge",
                     "C": "La force du souffle"
                   },
-                  "reponse": true,
-                  "explication": "[f] = sourd (pas de vibration) / [v] = sonore (vibration). Même articulation, différence : vibration.",
-                  "type": "vrai_faux"
+                  "reponse": "La présence ou l'absence de vibration de gorge",
+                  "explication": "[f] = sourd (pas de vibration) / [v] = sonore (vibration). Même articulation, différence : vibration."
                 },
                 {
                   "question": "Dans quel mot entend-on la syllabe 'eu' ?",
@@ -8966,10 +8907,10 @@
               "id": "SIL_T3_UA8_LC_L2",
               "titre": "Les consonnes C/Q/K et lecture de textes variés",
               "savoirs_faire": [
-                "Comprendre que C, Q",
-                "Lire des mots contenant [k] : car, coq, kilo, qui, que, avec,",
-                "Lire un court texte de 3 à 5 phrases sur la communication",
-                "Répondre à des questions simples sur un texte lu : Qui ? Quoi ?"
+                "Comprendre que C, Q et K peuvent faire le son [k] dans différents contextes : car, qui, kilo",
+                "Lire des mots contenant [k] : car, coq, kilo, qui, que, avec, tac, bloc",
+                "Lire un court texte de 3 à 5 phrases sur la communication et en comprendre le sens global",
+                "Répondre à des questions simples sur un texte lu : Qui ? Quoi ? Où ? Quand ?"
               ],
               "exercices": [
                 {
@@ -9009,9 +8950,8 @@
                     "B": "Q (avec le U muet qui suit)",
                     "C": "K"
                   },
-                  "reponse": true,
-                  "explication": "'qui' = QU + I. La lettre Q fait le son [k] mais elle est presque toujours suivie d'un U muet en français.",
-                  "type": "vrai_faux"
+                  "reponse": "Q (avec le U muet qui suit)",
+                  "explication": "'qui' = QU + I. La lettre Q fait le son [k] mais elle est presque toujours suivie d'un U muet en français."
                 },
                 {
                   "question": "Lis le texte : 'Manga envoie un message à Tabi.' Qui envoie le message ?",
@@ -9056,9 +8996,9 @@
               "titre": "J'écris F, Z et EU",
               "savoirs_faire": [
                 "Tracer 'f' minuscule (trait courbe + barre) et 'F' majuscule",
-                "Tracer 'z' minuscule et 'Z' majuscule",
+                "Tracer 'z' minuscule (trait horizontal, diagonal, horizontal) et 'Z' majuscule",
                 "Écrire des syllabes contenant F et Z : fa, fo, ze, za, feu",
-                "Copier des mots de communication contenant F, Z"
+                "Copier des mots de communication contenant F, Z et EU : fax, zone, feu, jeu, zéro"
               ],
               "exercices": [
                 {
@@ -9098,9 +9038,8 @@
                     "B": "3 traits : horizontal haut, diagonal, horizontal bas",
                     "C": "2 traits verticaux et 1 horizontal"
                   },
-                  "reponse": true,
-                  "explication": "Le 'z' = trait horizontal haut + trait diagonal descendant + trait horizontal bas. Comme un éclair.",
-                  "type": "vrai_faux"
+                  "reponse": "3 traits : horizontal haut, diagonal, horizontal bas",
+                  "explication": "Le 'z' = trait horizontal haut + trait diagonal descendant + trait horizontal bas. Comme un éclair."
                 },
                 {
                   "question": "La syllabe 'eu' s'écrit avec :",
@@ -9139,10 +9078,10 @@
               "id": "SIL_T3_UA8_EC_L2",
               "titre": "Bilan écriture SIL — je produis mes propres phrases",
               "savoirs_faire": [
-                "Réviser toutes les lettres apprises en SIL : a, i, b, v, u, e,",
-                "Écrire correctement de mémoire au moins 10 lettres de l'alphabet",
-                "Produire par écrit 1 phrase courte de 3 à 5 mots de façon",
-                "Distinguer à l'écrit les lettres souvent confondues : b/d/p/q,"
+                "Réviser toutes les lettres apprises en SIL : a, i, b, v, u, e, m, p, l, r, t, s, n, d, o, f, z et voyelles complexes (ou, eu)",
+                "Écrire correctement de mémoire au moins 10 lettres de l'alphabet apprises en SIL",
+                "Produire par écrit 1 phrase courte de 3 à 5 mots de façon autonome",
+                "Distinguer à l'écrit les lettres souvent confondues : b/d/p/q, m/n, r/n, v/u"
               ],
               "exercices": [
                 {
@@ -9182,9 +9121,8 @@
                     "B": "La position de leur boucle : b = boucle droite / d = boucle gauche",
                     "C": "Leur nombre de bosses"
                   },
-                  "reponse": true,
-                  "explication": "'b' = jambage montant + boucle à DROITE. 'd' = rond à gauche + jambage montant à DROITE. La boucle change de côté.",
-                  "type": "vrai_faux"
+                  "reponse": "La position de leur boucle : b = boucle droite / d = boucle gauche",
+                  "explication": "'b' = jambage montant + boucle à DROITE. 'd' = rond à gauche + jambage montant à DROITE. La boucle change de côté."
                 },
                 {
                   "question": "Pour produire une phrase écrite, on a besoin DE MINIMUM :",
@@ -9229,8 +9167,8 @@
               "titre": "Révision générale — les nombres de 1 à 20",
               "savoirs_faire": [
                 "Dénombrer, lire et écrire tous les nombres de 1 à 20",
-                "Ordonner les nombres de 1 à 20 dans l'ordre croissant",
-                "Réviser les opérations : additions",
+                "Ordonner les nombres de 1 à 20 dans l'ordre croissant et décroissant",
+                "Réviser les opérations : additions et soustractions avec résultats entre 0 et 10",
                 "Résoudre des problèmes variés liés au contexte des communications"
               ],
               "exercices": [
@@ -9271,9 +9209,8 @@
                     "B": "17",
                     "C": "18"
                   },
-                  "reponse": true,
-                  "explication": "9 + 8 = 17. Vérifier en comptant depuis 9 : 10,11,12,13,14,15,16,17.",
-                  "type": "vrai_faux"
+                  "reponse": "17",
+                  "explication": "9 + 8 = 17. Vérifier en comptant depuis 9 : 10,11,12,13,14,15,16,17."
                 },
                 {
                   "question": "Bilan : quel est le résultat de 14 - 6 ?",
@@ -9312,10 +9249,10 @@
               "id": "SIL_T3_UA8_MA_L2",
               "titre": "Bilan annuel mathématiques SIL — test final",
               "savoirs_faire": [
-                "Démontrer la maîtrise des nombres 1-20 acquise tout au long de",
-                "Résoudre des problèmes variés utilisant addition",
-                "Identifier les formes géométriques de base : cercle, carré,",
-                "Montrer la progression globale en mathématiques depuis le début"
+                "Démontrer la maîtrise des nombres 1-20 acquise tout au long de l'année SIL",
+                "Résoudre des problèmes variés utilisant addition et soustraction de façon autonome",
+                "Identifier les formes géométriques de base : cercle, carré, triangle, rectangle",
+                "Montrer la progression globale en mathématiques depuis le début de l'année SIL"
               ],
               "exercices": [
                 {
@@ -9355,9 +9292,8 @@
                     "B": "17",
                     "C": "18"
                   },
-                  "reponse": true,
-                  "explication": "8 + 9 = 17. Compter : 8 doigts + 9 autres = 17. Ou compter depuis 8 : 9,10,11,12,13,14,15,16,17.",
-                  "type": "vrai_faux"
+                  "reponse": "17",
+                  "explication": "8 + 9 = 17. Compter : 8 doigts + 9 autres = 17. Ou compter depuis 8 : 9,10,11,12,13,14,15,16,17."
                 },
                 {
                   "question": "Bilan final : 18 - 7 = ?",
@@ -9402,10 +9338,10 @@
               "id": "SIL_T3_UA8_SC_L1",
               "titre": "Les outils de communication modernes",
               "savoirs_faire": [
-                "Identifier",
-                "Expliquer simplement comment fonctionne un téléphone portable :",
-                "Identifier les sources d'énergie des appareils de communication",
-                "Comprendre que l'internet connecte des personnes partout dans le"
+                "Identifier et décrire 5 outils de communication modernes : téléphone portable, radio, télévision, ordinateur, internet",
+                "Expliquer simplement comment fonctionne un téléphone portable : antenne, signal, réseau",
+                "Identifier les sources d'énergie des appareils de communication : batterie, électricité, panneau solaire",
+                "Comprendre que l'internet connecte des personnes partout dans le monde"
               ],
               "exercices": [
                 {
@@ -9445,9 +9381,8 @@
                     "B": "Les mots sont transformés en ondes radio par l'antenne émettrice, puis captées et retransformées en son par la radio réceptrice",
                     "C": "La radio enregistre et rejoue les mots"
                   },
-                  "reponse": true,
-                  "explication": "La radio fonctionne par transformation du son en signal électromagnétique (ondes radio), transmission dans l'air, et retransformation en son par le récepteur.",
-                  "type": "vrai_faux"
+                  "reponse": "Les mots sont transformés en ondes radio par l'antenne émettrice, puis captées et retransformées en son par la radio réceptrice",
+                  "explication": "La radio fonctionne par transformation du son en signal électromagnétique (ondes radio), transmission dans l'air, et retransformation en son par le récepteur."
                 },
                 {
                   "question": "Internet permet principalement de :",
@@ -9486,10 +9421,10 @@
               "id": "SIL_T3_UA8_SC_L2",
               "titre": "Les moyens de communication traditionnels",
               "savoirs_faire": [
-                "Décrire le fonctionnement du tam-tam comme moyen de",
-                "Identifier les autres moyens de communication traditionnels :",
-                "Comparer les avantages",
-                "Exprimer de la fierté"
+                "Décrire le fonctionnement du tam-tam comme moyen de communication codifié",
+                "Identifier les autres moyens de communication traditionnels : griots, crieurs publics, signaux de fumée, courriers portés",
+                "Comparer les avantages et limites des communications traditionnelles et modernes",
+                "Exprimer de la fierté et du respect pour les systèmes de communication développés par les ancêtres africains"
               ],
               "exercices": [
                 {
@@ -9529,9 +9464,8 @@
                     "B": "Mémoriser et transmettre l'histoire, les traditions et les liens familiaux par la parole et le chant",
                     "C": "Cultiver les champs"
                   },
-                  "reponse": true,
-                  "explication": "Le griot est à la fois conteur, historien, généalogiste et musicien. Il est la mémoire vivante de sa communauté.",
-                  "type": "vrai_faux"
+                  "reponse": "Mémoriser et transmettre l'histoire, les traditions et les liens familiaux par la parole et le chant",
+                  "explication": "Le griot est à la fois conteur, historien, généalogiste et musicien. Il est la mémoire vivante de sa communauté."
                 },
                 {
                   "question": "Quel avantage particulier a le tam-tam sur le téléphone portable ?",
@@ -9575,10 +9509,10 @@
               "id": "SIL_T3_UA8_SH_L1",
               "titre": "Communiquer avec respect et bienveillance",
               "savoirs_faire": [
-                "Identifier les règles d'une communication respectueuse : écouter",
-                "Distinguer une communication bienveillante d'une communication",
-                "Appliquer les formules de politesse dans différents contextes de",
-                "Comprendre que les mots peuvent blesser autant que les actes"
+                "Identifier les règles d'une communication respectueuse : écouter sans interrompre, parler à son tour, respecter l'opinion de l'autre",
+                "Distinguer une communication bienveillante (encourageante, polie) d'une communication blessante (insultes, moqueries)",
+                "Appliquer les formules de politesse dans différents contextes de communication : saluer, remercier, s'excuser",
+                "Comprendre que les mots peuvent blesser autant que les actes physiques — notion de violence verbale"
               ],
               "exercices": [
                 {
@@ -9618,9 +9552,8 @@
                     "B": "Blessante et inappropriée — c'est une forme de violence verbale",
                     "C": "Normale entre amis"
                   },
-                  "reponse": true,
-                  "explication": "'Tu es bête' = insulte. Elle blesse, humilie et n'aide pas la personne à progresser. C'est une forme de violence verbale.",
-                  "type": "vrai_faux"
+                  "reponse": "Blessante et inappropriée — c'est une forme de violence verbale",
+                  "explication": "'Tu es bête' = insulte. Elle blesse, humilie et n'aide pas la personne à progresser. C'est une forme de violence verbale."
                 },
                 {
                   "question": "Quelle phrase montre une communication bienveillante ?",
@@ -9659,10 +9592,10 @@
               "id": "SIL_T3_UA8_SH_L2",
               "titre": "Bilan SIL — ce que j'ai appris cette année",
               "savoirs_faire": [
-                "Faire le bilan de toutes les valeurs",
-                "Exprimer de la gratitude envers les enseignants, les parents",
-                "Projeter ses apprentissages vers la classe CP : qu'est-ce qui va",
-                "Exprimer ses émotions face à la fin de l'année SIL"
+                "Faire le bilan de toutes les valeurs et compétences sociales apprises au cours de l'année SIL",
+                "Exprimer de la gratitude envers les enseignants, les parents et les camarades pour l'année vécue ensemble",
+                "Projeter ses apprentissages vers la classe CP : qu'est-ce qui va changer ? Qu'est-ce qu'on va apprendre ?",
+                "Exprimer ses émotions face à la fin de l'année SIL et à la transition vers le CP"
               ],
               "exercices": [
                 {
@@ -9702,9 +9635,8 @@
                     "B": "Important : reconnaître le travail de quelqu'un renforce les liens et montre qu'on apprécie ses efforts",
                     "C": "Inutile"
                   },
-                  "reponse": true,
-                  "explication": "La gratitude renforce les relations sociales et développe l'empathie. Reconnaître le travail de la maîtresse = geste de maturité émotionnelle.",
-                  "type": "vrai_faux"
+                  "reponse": "Important : reconnaître le travail de quelqu'un renforce les liens et montre qu'on apprécie ses efforts",
+                  "explication": "La gratitude renforce les relations sociales et développe l'empathie. Reconnaître le travail de la maîtresse = geste de maturité émotionnelle."
                 },
                 {
                   "question": "Au cours de l'année SIL, l'élève a principalement appris :",
@@ -9748,10 +9680,10 @@
               "id": "SIL_T3_UA8_EN_L1",
               "titre": "Ways to communicate",
               "savoirs_faire": [
-                "Name 7 ways to communicate in English: phone, radio, television,",
-                "Use sentences about communication: I call my friend / We listen",
-                "Describe traditional African communication: The drum sends",
-                "Compare: 'In the past, people used drums. Now, people use"
+                "Name 7 ways to communicate in English: phone, radio, television, letter, message, talk, listen",
+                "Use sentences about communication: I call my friend / We listen to the radio / She sends a message",
+                "Describe traditional African communication: The drum sends messages / The griot tells stories",
+                "Compare: 'In the past, people used drums. Now, people use phones.'"
               ],
               "exercices": [
                 {
@@ -9791,9 +9723,8 @@
                     "B": "Send a message",
                     "C": "Write a letter"
                   },
-                  "reponse": true,
-                  "explication": "'Send a message' = envoyer un message. 'Send' = envoyer.",
-                  "type": "vrai_faux"
+                  "reponse": "Send a message",
+                  "explication": "'Send a message' = envoyer un message. 'Send' = envoyer."
                 },
                 {
                   "question": "'The drum sends messages.' Who/what sends messages in this sentence?",
@@ -9832,10 +9763,10 @@
               "id": "SIL_T3_UA8_EN_L2",
               "titre": "Saying goodbye — final English bilan SIL",
               "savoirs_faire": [
-                "Use goodbye phrases and good wishes in English: Goodbye / See",
-                "Say 3 things learned in English class this year",
+                "Use goodbye phrases and good wishes in English: Goodbye / See you / Good luck / Have a good day / Thank you",
+                "Say 3 things learned in English class this year (vocabulary domains: jobs, transport, health, games, communication)",
                 "Count from 1 to 20 in English",
-                "Say 1 complete English sentence independently: I want to be a"
+                "Say 1 complete English sentence independently: I want to be a ___ / I travel by ___ / I feel well"
               ],
               "exercices": [
                 {
@@ -9875,9 +9806,8 @@
                     "B": "Eighteen",
                     "C": "Nineteen"
                   },
-                  "reponse": true,
-                  "explication": "Seventeen (17) → Eighteen (18) → Nineteen (19) → Twenty (20).",
-                  "type": "vrai_faux"
+                  "reponse": "Eighteen",
+                  "explication": "Seventeen (17) → Eighteen (18) → Nineteen (19) → Twenty (20)."
                 },
                 {
                   "question": "Say 'I want to be a doctor' in English. The key verb is:",
