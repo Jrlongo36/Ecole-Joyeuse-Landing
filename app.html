@@ -5858,8 +5858,11 @@ function setupLogoTaps() {
 
 // ─── FREEMIUM (verrouillage classes) ───
 function isClasseLocked(classe) {
-  // DÉMO : toutes classes accessibles
-  return false;
+  // FREEMIUM : SIL + CP gratuits, CE1 a CM2 payants
+  var FREE = ['SIL', 'CP'];
+  if (FREE.indexOf(classe) !== -1) return false;
+  if (DEV_MODE_UNLOCK_ALL) return false;
+  return !isPremiumActive();
 }
 
 /* ════════════════════════════════════════════════════════════════
