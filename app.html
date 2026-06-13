@@ -3811,7 +3811,7 @@ function renderDiscipline(classe, trim, uaKey, disc, dData) {
      • Déverrouillage progressif des leçons (score ≥ 50%)
      • Verrouillage premium des classes CE2/CM1/CM2
    ════════════════════════════════════════════════════════════════ */
-const DEV_MODE_UNLOCK_ALL = true; // TEMP TEST
+const DEV_MODE_UNLOCK_ALL = false; // PROD
 
 const UNLOCK_THRESHOLD = 50; // %
 
@@ -4210,9 +4210,7 @@ function getExoMaxPoints(ex) {
 }
 
 function quitQuiz() {
-  if (confirm('Quitter ? Ta progression sur cet exercice sera perdue.')) {
-    showScreen('lessonScreen');
-  }
+  showScreen('lessonScreen');
 }
 
 function renderQuizItem() {
@@ -4233,7 +4231,7 @@ function renderQuizItem() {
 
 /* ─── Quiz (QCM simple) ─── */
 function renderQuizQuestion(q) {
-  const options = q.options || [];
+  const options = q.options || q.choix || [];
   let html = '<div class="exo-card">';
   html += '<div class="exo-question">' + sanitizeLessonHTML(q.question || '') + '</div>';
   html += '<div class="exo-options">';
@@ -5285,10 +5283,8 @@ function tcgRetry() {
   else openTestTrim(_tcgState.trim, _tcgState.kind);
 }
 function quitTcg() {
-  if (confirm('Quitter le test ? Tu perdras ta progression.')) {
-    showScreen('levelScreen');
-    _tcgState = null;
-  }
+  showScreen('levelScreen');
+  _tcgState = null;
 }
 
 /* ════════════════════════════════════════════════════════════════
@@ -5575,13 +5571,11 @@ function examenRetry() {
   startExamen(id, kind);
 }
 function quitExamen() {
-  if (confirm('Quitter l\'examen ? Ta progression sera perdue.')) {
-    if (_examenTimerInterval) clearInterval(_examenTimerInterval);
-    const kind = _examenState ? _examenState.kind : 'cep';
-    _examenState = null;
-    if (kind === 'cep') openCepMenu();
-    else openConcoursMenu();
-  }
+  if (_examenTimerInterval) clearInterval(_examenTimerInterval);
+  const kind = _examenState ? _examenState.kind : 'cep';
+  _examenState = null;
+  if (kind === 'cep') openCepMenu();
+  else openConcoursMenu();
 }
 
 // ─── PIN PARENT ───
