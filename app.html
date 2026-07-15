@@ -2519,6 +2519,24 @@ function lsSet(key, val) {
   try { localStorage.setItem(key, JSON.stringify(val)); } catch(e) {}
 }
 
+/* ── Accès QA/testeur (03/07/2026) ──
+   Lien secret, jamais affiché ni lié dans l'interface : ouvrir
+   app.html?qa=EJ-QA-2026-DOUALA-7F3K9 débloque le premium sur cet
+   appareil, pour vérifier les classes payantes sans payer. Rien de
+   visible pour un utilisateur normal — remplace l'ancien menu caché
+   (5 taps logo) supprimé aujourd'hui, qui était public/découvrable. */
+(function activerAccesQA() {
+  const QA_TOKEN = 'EJ-QA-2026-DOUALA-7F3K9';
+  try {
+    const params = new URLSearchParams(location.search);
+    const qa = params.get('qa');
+    if (qa && qa === QA_TOKEN) {
+      lsSet('ej_premium', { active: true, plan: 'Accès QA interne', activatedVia: 'qa-link', expiry: null });
+      history.replaceState({}, '', location.pathname + location.hash);
+    }
+  } catch(e) {}
+})();
+
 function loadProfile() { return lsGet('ej_profile', null); }
 function saveProfile(p) { lsSet('ej_profile', p); APP.profile = p; }
 
@@ -4230,10 +4248,39 @@ function renderQuizItem() {
 }
 
 /* ─── Quiz (QCM simple) ─── */
+// Filet de securite : si "options" est un objet {A:.., B:..} au lieu d'un
+// tableau (ancien format), on le convertit en tableau et on remappe la
+// lettre de "reponse" vers l'index correspondant. Evite un crash total
+// de l'ecran quiz (options.forEach n'existe pas sur un objet).
+function normalizeQuizOptions(q) {
+  if (q && q.options && !Array.isArray(q.options) && typeof q.options === 'object') {
+    const keys = Object.keys(q.options);
+    const values = keys.map(k => q.options[k]);
+    if (typeof q.reponse === 'string' && keys.indexOf(q.reponse) !== -1) {
+      q.reponse = keys.indexOf(q.reponse);
+    }
+    q.options = values;
+  }
+}
+
 function renderQuizQuestion(q) {
+  normalizeQuizOptions(q);
   const options = q.options || q.choix || [];
   let html = '<div class="exo-card">';
   html += '<div class="exo-question">' + sanitizeLessonHTML(q.question || '') + '</div>';
+
+  // Filet de securite : question sans aucune option exploitable (donnee
+  // manquante) -> on ne bloque jamais l'enfant. On affiche l'explication
+  // si elle existe et on laisse passer au lieu d'un ecran fige (Valider
+  // grise a vie, Suivant invisible).
+  if (!options.length) {
+    html += '<div style="font-size:.85em;color:var(--text-3);margin:8px 0">⚠️ Question indisponible pour le moment.</div>';
+    if (q.explication || q.feedback) html += '<div class="exo-feedback show correct">' + escapeHTML(q.explication || q.feedback) + '</div>';
+    html += '<button class="exo-next-btn show" onclick="skipQuizItem()">Continuer →</button>';
+    html += '</div>';
+    return html;
+  }
+
   html += '<div class="exo-options">';
   options.forEach((opt, i) => {
     html += '<button class="exo-option" data-i="' + i + '" onclick="selectQuizOpt(' + i + ')">' + escapeHTML(opt) + '</button>';
@@ -4312,30 +4359,113 @@ function nextQuizItem() {
   }
 }
 
+// Filet de securite : question sans option exploitable (donnee manquante).
+// On credite les points (l'enfant n'a pas a etre penalise pour un bug de
+// contenu) et on passe a la suite, jamais de blocage.
+function skipQuizItem() {
+  const q = APP.quiz;
+  const item = q.items[q.idx];
+  const pts = item.points || 2;
+  q.score += pts;
+  q.answers.push({ idx: q.idx, selected: -1, correct: true, skipped: true });
+  nextQuizItem();
+}
+
 /* ─── Exercices (multi-types) ─── */
+const EXO_TYPES_CONNUS = ['qcm','qcm_multi','vrai_faux','fillblank','relier','classer','ordonner','dictee','autre','calcul','redaction'];
+
+// Filet de securite : verifie qu'un exercice rendu est reellement jouable
+// (au moins un element cliquable/saisissable). Si non, on bascule sur
+// renderExoActiviteLibre() plutot que d'afficher une carte vide/cassee.
+function isExoJouable(type, st) {
+  const HAS_BLANK = /___+|\.\.\./;
+  switch(type) {
+    case 'qcm':
+      return Array.isArray(st.questions) && st.questions.some(q =>
+        Array.isArray(q.options) && q.options.length > 0 &&
+        q.options.every(o => typeof o === 'string' || typeof o === 'number') &&
+        q.reponse !== undefined && q.reponse !== null && q.reponse !== '');
+    case 'qcm_multi':
+      return Array.isArray(st.options) && st.options.length > 0;
+    case 'vrai_faux':
+      return Array.isArray(st.items) && st.items.length > 0;
+    case 'fillblank':
+      return Array.isArray(st.items) && st.items.length > 0 && st.items.some(it => HAS_BLANK.test(it.phrase || it.texte || ''));
+    case 'relier':
+      return Array.isArray(st.gauche) && st.gauche.length > 0 && Array.isArray(st.droite) && st.droite.length > 0;
+    case 'classer':
+      return Array.isArray(st.elements) && st.elements.length > 0 && Array.isArray(st.categories) && st.categories.length > 0;
+    case 'ordonner':
+      return Array.isArray(st.elements) && st.elements.length > 0;
+    case 'calcul':
+      return Array.isArray(st.calculs) && st.calculs.length > 0 && st.calculs.some(c => HAS_BLANK.test(c.enonce || ''));
+    case 'redaction':
+      return Array.isArray(st.questions) && st.questions.length > 0;
+    case 'dictee':
+      return true; // zone de saisie toujours presente
+    default:
+      return false;
+  }
+}
+
 function renderExercice(ex) {
   const type = (ex.type || 'qcm').toLowerCase();
-  let html = '<div class="exo-card">';
-  if (ex.consigne) html += '<div class="exo-consigne">' + sanitizeLessonHTML(ex.consigne) + '</div>';
+  let body = '';
 
   switch(type) {
-    case 'qcm':       html += renderExoQCM(ex);       break;
-    case 'qcm_multi': html += renderExoQCMmulti(ex);  break;
-    case 'vrai_faux': html += renderExoVF(ex);        break;
-    case 'fillblank': html += renderExoFill(ex);      break;
-    case 'relier':    html += renderExoRelier(ex);    break;
-    case 'classer':   html += renderExoClasser(ex);   break;
-    case 'ordonner':  html += renderExoOrdonner(ex);  break;
-    case 'dictee':    html += renderExoDictee(ex);    break;
-    case 'autre':     html += renderExoAutre(ex);     break;
-    case 'calcul':    html += renderExoCalcul(ex);    break;
-    case 'redaction': html += renderExoRedaction(ex); break;
-    default:          html += renderExoQCM(ex);
+    case 'qcm':       body = renderExoQCM(ex);       break;
+    case 'qcm_multi': body = renderExoQCMmulti(ex);  break;
+    case 'vrai_faux': body = renderExoVF(ex);        break;
+    case 'fillblank': body = renderExoFill(ex);      break;
+    case 'relier':    body = renderExoRelier(ex);    break;
+    case 'classer':   body = renderExoClasser(ex);   break;
+    case 'ordonner':  body = renderExoOrdonner(ex);  break;
+    case 'dictee':    body = renderExoDictee(ex);    break;
+    case 'autre':     body = renderExoAutre(ex);     break;
+    case 'calcul':    body = renderExoCalcul(ex);    break;
+    case 'redaction': body = renderExoRedaction(ex); break;
+    default:          body = renderExoQCM(ex);
   }
 
+  // Filet de securite : type inconnu (ex: "oral", "observation"...) OU
+  // donnees insuffisantes pour le type declare -> carte d'activite libre
+  // au lieu d'un exercice vide/casse.
+  const typeEffectif = EXO_TYPES_CONNUS.includes(type) ? type : 'qcm';
+  if (!isExoJouable(typeEffectif, exoState)) {
+    body = renderExoActiviteLibre(ex);
+  }
+
+  let html = '<div class="exo-card">';
+  if (ex.consigne && exoState.type !== 'activite_libre') html += '<div class="exo-consigne">' + sanitizeLessonHTML(ex.consigne) + '</div>';
+  html += body;
   html += '<div class="exo-feedback" id="exoFeedback"></div>';
   html += '<button class="exo-validate-btn" id="exoValidate" onclick="validateExercice()">Valider</button>';
   html += '<button class="exo-next-btn" id="exoNext" onclick="nextQuizItem()">Suivant →</button>';
+  html += '</div>';
+  return html;
+}
+
+/* ─── Activite libre : filet de securite pour exercices oraux/pratiques
+   sans donnees cliquables (type inconnu ou options manquantes). On montre
+   les instructions + la correction (si presente dans les donnees) plutot
+   que de faire planter ou bloquer l'ecran. Toujours validable. ─── */
+function renderExoActiviteLibre(ex) {
+  exoState = { type: 'activite_libre', vu_correction: false };
+  let html = '<div class="exo-activite-libre">';
+  const texte = ex.consigne || ex.enonce || ex.histoire_maitre || ex.texte_maitre || ex.question || ex.titre || '';
+  if (texte) html += '<div class="exo-consigne">' + sanitizeLessonHTML(String(texte)) + '</div>';
+  if (Array.isArray(ex.questions) && ex.questions.length && ex.questions.every(q => typeof q === 'string')) {
+    html += '<ul style="margin:10px 0 0 20px;padding:0">';
+    ex.questions.forEach(q => { html += '<li style="margin-bottom:6px">' + escapeHTML(q) + '</li>'; });
+    html += '</ul>';
+  }
+  html += '<div style="font-size:.82em;color:var(--text-3);margin-top:12px">🗣️ Activite a faire a voix haute ou sur le cahier, avec un adulte ou seul(e).</div>';
+  const correction = ex.reponses_attendues || ex.auto_correction || ex.note_correction || ex.reponse_attendue || ex.reponse || ex.reponses;
+  if (correction) {
+    html += '<button type="button" class="tts-btn" style="margin-top:10px" onclick="this.nextElementSibling.style.display=\'block\';this.style.display=\'none\'">💡 Voir la correction</button>';
+    html += '<div style="display:none;margin-top:8px;padding:10px;background:#f0fdf4;border-radius:8px;font-size:.9em">' +
+      (Array.isArray(correction) ? correction.map(escapeHTML).join('<br>') : escapeHTML(String(correction))) + '</div>';
+  }
   html += '</div>';
   return html;
 }
@@ -4743,6 +4873,11 @@ function checkExercice(ex, st) {
         if (ans.length >= 10) pts++;
         else ok = false;
       });
+      break;
+    case 'activite_libre':
+      // Exercice oral/pratique sans correction automatique possible :
+      // on credite la participation (l'enfant a lu/fait l'activite).
+      max = 1; pts = 1; ok = true;
       break;
     default:
       max = 1;
@@ -5773,15 +5908,39 @@ function renderPremiumScreen() {
     html += '</div>';
   }
 
-  // 3 tiers
+  // Grille tarifaire officielle validée (04/07/2026, echelonnee par classe) — voir
+  // QG_STRATEGIQUE/.../PRICING pour la source. Prix "FRAIS" (1,05) = note interne
+  // (marge), jamais affiché aux familles.
+  const PRICING_GRID = {
+    SIL: { ua: 0,    trimestre: 0,     an: 0 },
+    CP:  { ua: 0,    trimestre: 0,     an: 0 },
+    CE1: { ua: 1000, trimestre: 2500,  an: 5000 },
+    CE2: { ua: 1500, trimestre: 3500,  an: 7000 },
+    CM1: { ua: 2000, trimestre: 4500,  an: 9000 },
+    CM2: { ua: 2500, trimestre: 5500,  an: 10000 }
+  };
+  const PRIX_FAMILLE = { trimestre: 15000, an: 20000 };
+  const PRIX_CEP = 3000;
+  const paidClasses = ['CE1', 'CE2', 'CM1', 'CM2'];
+  const classeActuelle = (APP.profile && paidClasses.includes(APP.profile.classe)) ? APP.profile.classe : 'CE1';
+  const px = PRICING_GRID[classeActuelle];
+
   const tiers = [
-    { name: '1 UA', duration: '1 Unité', price: 1000, popular: false,
-      features: ['Une classe au choix', 'Toutes les UA d\'une séquence', 'Tests intégrés', 'Sans publicité'] },
-    { name: 'Trimestre', duration: '3 mois', price: 2500, popular: true,
-      features: ['Toutes les classes débloquées', '1 trimestre complet', 'Tous les tests + CEP', 'Espace parent', 'Sans publicité'] },
-    { name: 'Année / Classe', duration: '12 mois', price: 5000, popular: false,
-      features: ['Toutes les classes débloquées', 'Année complète', 'Tous les tests + CEP + Concours 6e', 'Espace parent', 'Mises à jour incluses'] }
+    { name: '1 UA', duration: '~1 mois', price: px.ua, popular: false,
+      features: ['Classe ' + classeActuelle, '1 Unité d\'Apprentissage complète', 'Leçons + quiz + test', 'Sans publicité'] },
+    { name: 'Trimestre', duration: '3 mois', price: px.trimestre, popular: false,
+      features: ['Classe ' + classeActuelle, 'Trimestre complet (T1, T2 ou T3)', 'Espace parent', 'Sans publicité'] },
+    { name: 'Année complète', duration: '12 mois', price: px.an, popular: true,
+      features: ['Classe ' + classeActuelle, 'Année complète (tous trimestres)', 'Espace parent', 'Mises à jour incluses'] },
+    { name: 'Famille — Trimestre', duration: '3 mois · 3 enfants min.', price: PRIX_FAMILLE.trimestre, popular: false,
+      features: ['Toutes les classes débloquées (SIL au CM2)', 'Pour tous les enfants de la famille (3 min.)', 'Espace parent', 'Sans publicité'] },
+    { name: 'Famille — Année', duration: '12 mois · 3 enfants min.', price: PRIX_FAMILLE.an, popular: false,
+      features: ['Toutes les classes débloquées (SIL au CM2)', 'Pour tous les enfants de la famille (3 min.)', 'Espace parent', 'Mises à jour incluses'] }
   ];
+  if (classeActuelle === 'CM2') {
+    tiers.push({ name: 'CEP — Examen blanc', duration: '12 mois', price: PRIX_CEP, popular: false,
+      features: ['Épreuves blanches CEP', 'Corrections détaillées', 'Spécial CM2'] });
+  }
   tiers.forEach(t => {
     html += '<div class="tier-card' + (t.popular ? ' popular' : '') + '">';
     html += '<div class="tier-name">' + t.name + '</div>';
@@ -5838,11 +5997,21 @@ function setupLogoTaps() {
     _logoTapTimer = setTimeout(() => { _logoTapCount = 0; }, 2000);
     if (_logoTapCount >= 7) {
       _logoTapCount = 0;
-      const code = prompt('🔓 Code développeur :');
-      if (code === 'RJV2025') {
+      const code = prompt('🔓 Code d\'activation :');
+      if (code === 'RJV2026_DEV') {
+        lsSet('ej_premium', { active: true, plan: 'DEV (Permanent)', expiry: null, code: 'RJV2026_DEV' });
+        toast('✓ Accès Premium Permanent Activé !');
+        setTimeout(() => location.reload(), 1500);
+      } else if (code === 'RJV2026_TEST') {
+        const oneWeek = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000);
+        lsSet('ej_premium', { active: true, plan: 'DEV (Test 7 Jours)', expiry: oneWeek.toISOString(), code: 'RJV2026_TEST' });
+        toast('✓ Accès Premium 7 Jours Activé !');
+        setTimeout(() => location.reload(), 1500);
+      } else if (code === 'RJV2025') {
         const oneYear = new Date(); oneYear.setFullYear(oneYear.getFullYear() + 1);
         lsSet('ej_premium', { active: true, plan: 'DEV (RJV2025)', expiry: oneYear.toISOString(), code: 'RJV2025' });
         toast('✓ Code dev activé — Premium 1 an');
+        setTimeout(() => location.reload(), 1500);
       } else if (code) {
         toast('Code incorrect');
       }
