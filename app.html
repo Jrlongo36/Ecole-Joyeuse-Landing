@@ -5937,7 +5937,7 @@ function renderPremiumScreen() {
     { name: 'Famille — Année', duration: '12 mois · 3 enfants min.', price: PRIX_FAMILLE.an, popular: false,
       features: ['Toutes les classes débloquées (SIL au CM2)', 'Pour tous les enfants de la famille (3 min.)', 'Espace parent', 'Mises à jour incluses'] }
   ];
-  if (classeActuelle === 'CM2') {
+  if (classeActuelle === 'CM1' || classeActuelle === 'CM2') {
     tiers.push({ name: 'CEP — Examen blanc', duration: '12 mois', price: PRIX_CEP, popular: false,
       features: ['Épreuves blanches CEP', 'Corrections détaillées', 'Spécial CM2'] });
   }
