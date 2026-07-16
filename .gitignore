@@ -1,2 +1,16 @@
 .DS_Store
 temp_clone
+
+# Secrets — ne jamais versionner
+.env
+*.env
+*_key.txt
+*.keystore
+*.jks
+node_modules/
+__pycache__/
+*.pyc
+*.bak
+*.bak2
+*.backup*
+*.BACKUP*

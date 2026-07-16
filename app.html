@@ -3575,13 +3575,21 @@ function renderDashboard() {
     extrasBlock.style.cssText = 'margin: 18px 14px 0; display:grid; grid-template-columns: 1fr 1fr; gap:10px;';
     grid.parentNode.appendChild(extrasBlock);
   }
-  const isCM2 = APP.profile.classe === 'CM2';
+  const showCepBtn = ['CM1', 'CM2'].includes(APP.profile.classe) && (hasAccesCepAuto() || (function(){
+    const p = lsGet('ej_premium', null);
+    return p && p.active && (p.plan === 'cep' || p.plan === 'cep_solo' || p.plan === 'cep_prep' || p.plan === 'CEP' || p.plan === 'CEP — Examen blanc');
+  })());
+  const showConcoursBtn = APP.profile.classe === 'CM2';
   let accessHTML = '';
-  if (isCM2) {
+  if (showCepBtn) {
     accessHTML += '<button class="parent-action-btn" style="background:linear-gradient(135deg,#CE1126,#9B0D1E);color:#fff;border:none;text-align:center;font-weight:700" onclick="openCepMenu()">🎓 Révision CEP</button>';
+  }
+  if (showConcoursBtn) {
     accessHTML += '<button class="parent-action-btn" style="background:linear-gradient(135deg,#007A5E,#005A45);color:#fff;border:none;text-align:center;font-weight:700" onclick="openConcoursMenu()">🏆 Concours 6e</button>';
   }
-  accessHTML += '<button class="parent-action-btn" style="background:linear-gradient(135deg,#1a1a2e,#16213e);color:#fff;border:none;text-align:center;font-weight:700' + (isCM2 ? '' : ';grid-column:span 2') + '" onclick="openPin()">👨‍👩‍👧 Espace parent</button>';
+  const nbBtns = (showCepBtn ? 1 : 0) + (showConcoursBtn ? 1 : 0);
+  const spanStyle = (nbBtns === 0 || nbBtns === 2) ? '' : ';grid-column:span 2';
+  accessHTML += '<button class="parent-action-btn" style="background:linear-gradient(135deg,#1a1a2e,#16213e);color:#fff;border:none;text-align:center;font-weight:700' + spanStyle + '" onclick="openPin()">👨‍👩‍👧 Espace parent</button>';
   // DÉMO : bouton premium masqué
   extrasBlock.innerHTML = accessHTML;
 }
@@ -5890,7 +5898,53 @@ function isPremiumActive() {
   return true;
 }
 
+function hasAccesCepAuto() {
+  const p = lsGet('ej_premium', null);
+  if (!p || !p.active) return false;
+  const classeOk = ['CM1','CM2'].includes(p.classe);
+  const planOk = (p.plan === 'annee' || p.plan === 'trimestre');
+  return classeOk && planOk;
+}
+
+async function ejActiverCode() {
+  if (!navigator.onLine) {
+    toast('Connexion requise pour valider votre code'); return;
+  }
+  const code = (document.getElementById('ej-codeval').value||'')
+                 .trim().toUpperCase();
+  if (!code) { toast('Saisissez votre code'); return; }
+  const EJ_SB_URL = 'https://rgpxvabmghquygvnqlcl.supabase.co';
+  const EJ_SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJncHh2YWJtZ2hxdXlndm5xbGNsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE1OTk3NDMsImV4cCI6MjA5NzE3NTc0M30.J19m1FORLTlzVX3MmBGngGdYx3NqK0GR-5IIuEzJb0I';
+  try {
+    const r = await fetch(
+      EJ_SB_URL+'/rest/v1/activation_codes?code=eq.'+encodeURIComponent(code)
+      +'&used=eq.false&select=*',
+      { headers:{ apikey:EJ_SB_KEY, Authorization:'Bearer '+EJ_SB_KEY } }
+    );
+    const data = await r.json();
+    if (!data.length) { toast('Code invalide ou déjà utilisé'); return; }
+    const ac = data[0];
+    if (new Date(ac.expires_at) < new Date()) { toast('Code expiré'); return; }
+    await fetch(EJ_SB_URL+'/rest/v1/activation_codes?code=eq.'+encodeURIComponent(code), {
+      method:'PATCH',
+      headers:{ apikey:EJ_SB_KEY, Authorization:'Bearer '+EJ_SB_KEY,
+                'Content-Type':'application/json', Prefer:'return=minimal' },
+      body: JSON.stringify({ used:true, used_at:new Date().toISOString() })
+    });
+    lsSet('ej_premium', {
+      active:true, plan:ac.plan, classe:ac.classe,
+      expiry:ac.expires_at, code
+    });
+    toast('Accès activé !');
+    setTimeout(()=>location.reload(), 1200);
+  } catch(e) { toast('Erreur réseau — réessayez'); }
+}
+
 function renderPremiumScreen() {
+  const IS_NATIVE_APP = !!(window.Capacitor &&
+    window.Capacitor.isNativePlatform &&
+    window.Capacitor.isNativePlatform());
+
   const active = isPremiumActive();
   const premiumData = lsGet('ej_premium', null);
   let html = '';
@@ -5908,56 +5962,78 @@ function renderPremiumScreen() {
     html += '</div>';
   }
 
-  // Grille tarifaire officielle validée (04/07/2026, echelonnee par classe) — voir
-  // QG_STRATEGIQUE/.../PRICING pour la source. Prix "FRAIS" (1,05) = note interne
-  // (marge), jamais affiché aux familles.
-  const PRICING_GRID = {
-    SIL: { ua: 0,    trimestre: 0,     an: 0 },
-    CP:  { ua: 0,    trimestre: 0,     an: 0 },
-    CE1: { ua: 1000, trimestre: 2500,  an: 5000 },
-    CE2: { ua: 1500, trimestre: 3500,  an: 7000 },
-    CM1: { ua: 2000, trimestre: 4500,  an: 9000 },
-    CM2: { ua: 2500, trimestre: 5500,  an: 10000 }
-  };
-  const PRIX_FAMILLE = { trimestre: 15000, an: 20000 };
-  const PRIX_CEP = 3000;
-  const paidClasses = ['CE1', 'CE2', 'CM1', 'CM2'];
-  const classeActuelle = (APP.profile && paidClasses.includes(APP.profile.classe)) ? APP.profile.classe : 'CE1';
-  const px = PRICING_GRID[classeActuelle];
+  if (IS_NATIVE_APP) {
+    if (!active) {
+      html += '<div style="padding:16px;background:var(--bg-white);border-radius:14px;box-shadow:var(--shadow-card);margin-bottom:16px;text-align:center;">';
+      html += '<div style="font-size:0.95em;line-height:1.5;margin-bottom:16px;color:#333;">Pour activer votre accès, rendez-vous sur <b>ecolejoyeuse.pages.dev</b>, puis saisissez ici le code reçu.</div>';
+      html += '<div style="display:flex;flex-direction:column;gap:10px;align-items:stretch;">';
+      html += '<input type="text" id="ej-codeval" placeholder="Entrez votre code d\'activation" style="padding:12px;border:2px solid #ddd;border-radius:10px;font-size:1em;text-align:center;text-transform:uppercase;outline:none;" />';
+      html += '<button onclick="ejActiverCode()" style="background:linear-gradient(135deg,var(--vert-moyen),var(--vert-fonce));color:#fff;border:none;padding:12px;border-radius:10px;font-weight:700;font-size:1em;cursor:pointer;">Activer</button>';
+      html += '</div>';
+      html += '</div>';
+    }
+  } else {
+    const PRICING_GRID = {
+      SIL: { ua: 0,    trimestre: 0,     an: 0 },
+      CP:  { ua: 0,    trimestre: 0,     an: 0 },
+      CE1: { ua: 1000, trimestre: 2500,  an: 5000 },
+      CE2: { ua: 1500, trimestre: 3500,  an: 7000 },
+      CM1: { ua: 2000, trimestre: 4500,  an: 9000 },
+      CM2: { ua: 2500, trimestre: 5500,  an: 10000 }
+    };
+    const PRIX_FAMILLE = { trimestre: 15000, an: 20000 };
+    const PRIX_CEP = 3000;
+    const paidClasses = ['CE1', 'CE2', 'CM1', 'CM2'];
+    const classeActuelle = (APP.profile && paidClasses.includes(APP.profile.classe)) ? APP.profile.classe : 'CE1';
+    const px = PRICING_GRID[classeActuelle];
 
-  const tiers = [
-    { name: '1 UA', duration: '~1 mois', price: px.ua, popular: false,
-      features: ['Classe ' + classeActuelle, '1 Unité d\'Apprentissage complète', 'Leçons + quiz + test', 'Sans publicité'] },
-    { name: 'Trimestre', duration: '3 mois', price: px.trimestre, popular: false,
-      features: ['Classe ' + classeActuelle, 'Trimestre complet (T1, T2 ou T3)', 'Espace parent', 'Sans publicité'] },
-    { name: 'Année complète', duration: '12 mois', price: px.an, popular: true,
-      features: ['Classe ' + classeActuelle, 'Année complète (tous trimestres)', 'Espace parent', 'Mises à jour incluses'] },
-    { name: 'Famille — Trimestre', duration: '3 mois · 3 enfants min.', price: PRIX_FAMILLE.trimestre, popular: false,
-      features: ['Toutes les classes débloquées (SIL au CM2)', 'Pour tous les enfants de la famille (3 min.)', 'Espace parent', 'Sans publicité'] },
-    { name: 'Famille — Année', duration: '12 mois · 3 enfants min.', price: PRIX_FAMILLE.an, popular: false,
-      features: ['Toutes les classes débloquées (SIL au CM2)', 'Pour tous les enfants de la famille (3 min.)', 'Espace parent', 'Mises à jour incluses'] }
-  ];
-  if (classeActuelle === 'CM1' || classeActuelle === 'CM2') {
-    tiers.push({ name: 'CEP — Examen blanc', duration: '12 mois', price: PRIX_CEP, popular: false,
-      features: ['Épreuves blanches CEP', 'Corrections détaillées', 'Spécial CM2'] });
+    const tiers = [
+      { name: '1 UA', duration: '~1 mois', price: px.ua, popular: false,
+        features: ['Classe ' + classeActuelle, '1 Unité d\'Apprentissage complète', 'Leçons + quiz + test', 'Sans publicité'] },
+      { name: 'Trimestre', duration: '3 mois', price: px.trimestre, popular: false,
+        features: ['Classe ' + classeActuelle, 'Trimestre complet (T1, T2 ou T3)', 'Espace parent', 'Sans publicité'] },
+      { name: 'Année complète', duration: '12 mois', price: px.an, popular: true,
+        features: ['Classe ' + classeActuelle, 'Année complète (tous trimestres)', 'Espace parent', 'Mises à jour incluses'] },
+      { name: 'Famille — Trimestre', duration: '3 mois · 3 enfants min.', price: PRIX_FAMILLE.trimestre, popular: false,
+        features: ['Toutes les classes débloquées (SIL au CM2)', 'Pour tous les enfants de la famille (3 min.)', 'Espace parent', 'Sans publicité'] },
+      { name: 'Famille — Année', duration: '12 mois · 3 enfants min.', price: PRIX_FAMILLE.an, popular: false,
+        features: ['Toutes les classes débloquées (SIL au CM2)', 'Pour tous les enfants de la famille (3 min.)', 'Espace parent', 'Mises à jour incluses'] }
+    ];
+    if ((classeActuelle === 'CM1' || classeActuelle === 'CM2') && !hasAccesCepAuto()) {
+      tiers.push({ name: 'CEP — Examen blanc', duration: '12 mois', price: PRIX_CEP, popular: false,
+        features: ['Épreuves blanches CEP', 'Corrections détaillées', 'Spécial CM2'] });
+    }
+    tiers.forEach(t => {
+      html += '<div class="tier-card' + (t.popular ? ' popular' : '') + '">';
+      html += '<div class="tier-name">' + t.name + '</div>';
+      html += '<div class="tier-duration">' + t.duration + '</div>';
+      html += '<div class="tier-price">' + t.price + '<span class="tier-price-unit"> FCFA</span></div>';
+      html += '<ul class="tier-features">' + t.features.map(f => '<li>' + escapeHTML(f) + '</li>').join('') + '</ul>';
+      html += '<button class="tier-btn' + (t.popular ? ' gold' : '') + '" onclick="initiatePremiumPurchase(\'' + t.name + '\',' + t.price + ')">Choisir ce plan</button>';
+      html += '</div>';
+    });
+
+    html += '<div style="margin-top:18px;padding:14px;background:var(--bg-white);border-radius:14px;box-shadow:var(--shadow-card)">';
+    html += '<div style="font-weight:700;font-size:.92em;margin-bottom:10px;color:var(--vert-fonce)">💳 Modes de paiement acceptés :</div>';
+    html += '<div class="mm-buttons">';
+    html += '<div class="mm-btn orange">📱 Orange Money</div>';
+    html += '<div class="mm-btn mtn">📱 MTN MoMo</div>';
+    html += '<div class="mm-btn cinetpay">💳 CinetPay</div>';
+    html += '</div></div>';
+
+    if (!active) {
+      html += '<div style="margin-top:18px;padding:16px;background:var(--bg-white);border-radius:14px;box-shadow:var(--shadow-card);text-align:center;">';
+      html += '<button id="ej-showcodebtn" onclick="document.getElementById(\'ej-codezone\').style.display=\'block\';this.style.display=\'none\';" style="background:none;border:none;color:var(--vert-moyen);font-weight:700;font-size:0.95em;cursor:pointer;text-decoration:underline;">J\'ai déjà un code</button>';
+      html += '<div id="ej-codezone" style="display:none;margin-top:10px;">';
+      html += '<div style="font-size:0.85em;color:#666;margin-bottom:8px;">Saisissez votre code d\'activation reçu :</div>';
+      html += '<div style="display:flex;gap:8px;justify-content:center;">';
+      html += '<input type="text" id="ej-codeval" placeholder="EX: ABCD-1234" style="padding:10px;border:1px solid #ccc;border-radius:8px;font-size:0.9em;text-align:center;text-transform:uppercase;width:180px;outline:none;" />';
+      html += '<button onclick="ejActiverCode()" style="background:linear-gradient(135deg,var(--vert-moyen),var(--vert-fonce));color:#fff;border:none;padding:10px 16px;border-radius:8px;font-weight:700;font-size:0.9em;cursor:pointer;">Activer</button>';
+      html += '</div>';
+      html += '</div>';
+      html += '</div>';
+    }
   }
-  tiers.forEach(t => {
-    html += '<div class="tier-card' + (t.popular ? ' popular' : '') + '">';
-    html += '<div class="tier-name">' + t.name + '</div>';
-    html += '<div class="tier-duration">' + t.duration + '</div>';
-    html += '<div class="tier-price">' + t.price + '<span class="tier-price-unit"> FCFA</span></div>';
-    html += '<ul class="tier-features">' + t.features.map(f => '<li>' + escapeHTML(f) + '</li>').join('') + '</ul>';
-    html += '<button class="tier-btn' + (t.popular ? ' gold' : '') + '" onclick="initiatePremiumPurchase(\'' + t.name + '\',' + t.price + ')">Choisir ce plan</button>';
-    html += '</div>';
-  });
-
-  html += '<div style="margin-top:18px;padding:14px;background:var(--bg-white);border-radius:14px;box-shadow:var(--shadow-card)">';
-  html += '<div style="font-weight:700;font-size:.92em;margin-bottom:10px;color:var(--vert-fonce)">💳 Modes de paiement acceptés :</div>';
-  html += '<div class="mm-buttons">';
-  html += '<div class="mm-btn orange">📱 Orange Money</div>';
-  html += '<div class="mm-btn mtn">📱 MTN MoMo</div>';
-  html += '<div class="mm-btn cinetpay">💳 CinetPay</div>';
-  html += '</div></div>';
 
   document.getElementById('premiumContent').innerHTML = html;
 }

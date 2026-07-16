@@ -1071,7 +1071,16 @@
                       "rep": 1,
                       "modalite": "oral"
                     },
-                    "astuce": "Le matin, on dit toujours « bonjour » à la personne qu'on rencontre. « Au revoir » se dit quand on s'en va."
+                    "astuce": "Le matin, on dit toujours « bonjour » à la personne qu'on rencontre. « Au revoir » se dit quand on s'en va.",
+                    "options": [
+                      "Au revoir madame.",
+                      "Bonjour madame.",
+                      "Salut !",
+                      "Merci madame."
+                    ],
+                    "reponse": 1,
+                    "question": "[À LIRE PAR L'ENSEIGNANT] Tina arrive à l'école le matin. Que dit-elle à sa maîtresse ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_02",
@@ -1086,7 +1095,15 @@
                       "rep": 1,
                       "modalite": "oral_ecoute"
                     },
-                    "astuce": "Pour se présenter, on dit d'abord son nom, puis son âge. Une bonne présentation a du sens : on comprend qui c'est et quel âge il a."
+                    "astuce": "Pour se présenter, on dit d'abord son nom, puis son âge. Une bonne présentation a du sens : on comprend qui c'est et quel âge il a.",
+                    "options": [
+                      "Amina je m'appelle six ans",
+                      "Je m'appelle Amina. J'ai 6 ans.",
+                      "Bonjour six ans Amina je"
+                    ],
+                    "reponse": 1,
+                    "question": "[L'ENSEIGNANT LIT LES 3 PRÉSENTATIONS À VOIX HAUTE] Écoute Amina se présenter de 3 façons. Laquelle est la bonne ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_03",
@@ -1101,7 +1118,15 @@
                       "rep": 1,
                       "modalite": "oral_image"
                     },
-                    "astuce": "Pour saluer un nouveau camarade, on dit bonjour, on donne son nom, et on lui demande le sien en retour. C'est poli et amical."
+                    "astuce": "Pour saluer un nouveau camarade, on dit bonjour, on donne son nom, et on lui demande le sien en retour. C'est poli et amical.",
+                    "options": [
+                      "Donne-moi ton ballon !",
+                      "Bonjour, je m'appelle Tabi. Et toi ?",
+                      "Au revoir."
+                    ],
+                    "reponse": 1,
+                    "question": "[L'ENSEIGNANT MONTRE L'IMAGE DE TABI ET LIT LES 3 OPTIONS] Tabi rencontre un nouveau camarade dans la cour. Que doit-il dire pour bien le saluer ?",
+                    "_fix_contenu_choix_promoted": true
                   }
                 ],
                 "quiz": [
@@ -1117,7 +1142,9 @@
                     "rep": 1,
                     "expl": "« Bonjour » est la salutation du matin.",
                     "modalite": "oral",
-                    "perso": "Amina"
+                    "perso": "Amina",
+                    "question": "Que dit-on en arrivant à l'école le matin ?",
+                    "reponse": 1
                   },
                   {
                     "q": "Vrai ou faux : on dit « merci » quand on reçoit quelque chose.",
@@ -1125,7 +1152,13 @@
                     "rep": true,
                     "expl": "« Merci » exprime la politesse quand on reçoit un objet ou un service.",
                     "modalite": "oral",
-                    "perso": "Ngono"
+                    "perso": "Ngono",
+                    "question": "Vrai ou faux : on dit « merci » quand on reçoit quelque chose.",
+                    "options": [
+                      "Vrai",
+                      "Faux"
+                    ],
+                    "reponse": 0
                   },
                   {
                     "q": "[L'enseignant lit] Pour demander un crayon poliment, quelle formule utilise-t-on ?",
@@ -1139,7 +1172,9 @@
                     "rep": 1,
                     "expl": "« S'il te plaît » est la formule de politesse pour faire une demande.",
                     "modalite": "oral",
-                    "perso": "Manga"
+                    "perso": "Manga",
+                    "question": "[L'enseignant lit] Pour demander un crayon poliment, quelle formule utilise-t-on ?",
+                    "reponse": 1
                   },
                   {
                     "q": "Qui salue-t-on à l'école ?",
@@ -1153,7 +1188,9 @@
                     "rep": 2,
                     "expl": "On salue toutes les personnes de l'école : enseignants, camarades, personnel.",
                     "modalite": "oral",
-                    "perso": "Tina"
+                    "perso": "Tina",
+                    "question": "Qui salue-t-on à l'école ?",
+                    "reponse": 2
                   }
                 ],
                 "test_integration": {
@@ -1208,7 +1245,16 @@
                       ],
                       "rep": 1
                     },
-                    "astuce": "Prononce chaque mot à voix haute. Le son [a] s'entend bien à l'oral, comme dans « papa »."
+                    "astuce": "Prononce chaque mot à voix haute. Le son [a] s'entend bien à l'oral, comme dans « papa ».",
+                    "options": [
+                      "A",
+                      "a",
+                      "3",
+                      "4"
+                    ],
+                    "reponse": 1,
+                    "question": "[L'enseignant prononce 4 mots] Dans quel mot entends-tu le son [a] ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_02",
@@ -1233,7 +1279,16 @@
                       ],
                       "rep": 1
                     },
-                    "astuce": "Compte lettre par lettre : A-M-I-N-A. La lettre A apparaît 2 fois : au début et à la fin."
+                    "astuce": "Compte lettre par lettre : A-M-I-N-A. La lettre A apparaît 2 fois : au début et à la fin.",
+                    "options": [
+                      "1",
+                      "2",
+                      "3",
+                      "4"
+                    ],
+                    "reponse": 1,
+                    "question": "Combien de fois trouves-tu la lettre A (majuscule ou minuscule) dans le mot AMINA écrit au tableau ?",
+                    "_fix_contenu_choix_promoted": true
                   }
                 ],
                 "quiz": [
@@ -1248,14 +1303,22 @@
                     ],
                     "rep": 0,
                     "expl": "La lettre A se prononce [a], comme dans « ami ».",
-                    "perso": "Manga"
+                    "perso": "Manga",
+                    "question": "Quel est le son de la lettre A ?",
+                    "reponse": 0
                   },
                   {
                     "q": "Vrai ou faux : « Amina » commence par la lettre A.",
                     "type": "vrai_faux",
                     "rep": true,
                     "expl": "Oui, « Amina » commence bien par A en majuscule.",
-                    "perso": "Tina"
+                    "perso": "Tina",
+                    "question": "Vrai ou faux : « Amina » commence par la lettre A.",
+                    "options": [
+                      "Vrai",
+                      "Faux"
+                    ],
+                    "reponse": 0
                   },
                   {
                     "q": "[L'enseignant montre 3 mots] Lequel commence par la lettre a ?",
@@ -1267,7 +1330,9 @@
                     ],
                     "rep": 1,
                     "expl": "« Ami » commence par la lettre a et signifie « copain ».",
-                    "perso": "Tabi"
+                    "perso": "Tabi",
+                    "question": "[L'enseignant montre 3 mots] Lequel commence par la lettre a ?",
+                    "reponse": 1
                   },
                   {
                     "q": "Quelle écriture est la minuscule ?",
@@ -1280,7 +1345,9 @@
                     ],
                     "rep": 1,
                     "expl": "La minuscule de A est a (petit a).",
-                    "perso": "Bineta"
+                    "perso": "Bineta",
+                    "question": "Quelle écriture est la minuscule ?",
+                    "reponse": 1
                   }
                 ],
                 "test_integration": {
@@ -1350,7 +1417,16 @@
                       ],
                       "rep": 1
                     },
-                    "astuce": "La lettre a commence par un petit rond, comme une boule. Ensuite on ajoute le trait vertical à droite, qui descend bien droit."
+                    "astuce": "La lettre a commence par un petit rond, comme une boule. Ensuite on ajoute le trait vertical à droite, qui descend bien droit.",
+                    "options": [
+                      "1",
+                      "2",
+                      "3",
+                      "4"
+                    ],
+                    "reponse": 1,
+                    "question": "Pour bien écrire la lettre a minuscule, par où commence-t-on ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_03",
@@ -1374,21 +1450,31 @@
                     ],
                     "rep": 2,
                     "expl": "Il faut 3 traits : 2 traits penchés et 1 barre horizontale.",
-                    "perso": "Tabi"
+                    "perso": "Tabi",
+                    "question": "Combien de traits faut-il pour écrire la lettre A en majuscule ?",
+                    "reponse": 2
                   },
                   {
                     "q": "Vrai ou faux : on tient son crayon entre 3 doigts.",
                     "type": "vrai_faux",
                     "rep": true,
                     "expl": "On tient le crayon entre le pouce, l'index et il s'appuie sur le majeur.",
-                    "perso": "Bineta"
+                    "perso": "Bineta",
+                    "question": "Vrai ou faux : on tient son crayon entre 3 doigts.",
+                    "options": [
+                      "Vrai",
+                      "Faux"
+                    ],
+                    "reponse": 0
                   },
                   {
                     "q": "Pour écrire la lettre a minuscule, on commence par tracer un _____.",
                     "type": "trou",
                     "rep": "rond",
                     "expl": "Le a minuscule commence par un petit rond fermé, puis le trait vertical.",
-                    "perso": "Amina"
+                    "perso": "Amina",
+                    "question": "Pour écrire la lettre a minuscule, on commence par tracer un _____.",
+                    "reponse": "rond"
                   },
                   {
                     "q": "Sur le cahier 32 pages, la majuscule A monte jusqu'à quelle ligne ?",
@@ -1401,7 +1487,9 @@
                     ],
                     "rep": 2,
                     "expl": "La majuscule monte jusqu'à la ligne du haut du carreau. Elle est plus grande que la minuscule.",
-                    "perso": "Ngono"
+                    "perso": "Ngono",
+                    "question": "Sur le cahier 32 pages, la majuscule A monte jusqu'à quelle ligne ?",
+                    "reponse": 2
                   }
                 ],
                 "test_integration": {
@@ -1451,7 +1539,16 @@
                       ],
                       "rep": 1
                     },
-                    "astuce": "Le crayon laisse une trace quand on appuie sur le cahier. La gomme, elle, sert à effacer."
+                    "astuce": "Le crayon laisse une trace quand on appuie sur le cahier. La gomme, elle, sert à effacer.",
+                    "options": [
+                      "1",
+                      "2",
+                      "3",
+                      "4"
+                    ],
+                    "reponse": 1,
+                    "question": "[L'enseignant montre 4 objets ou images] Quel objet sert à écrire sur un cahier ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_02",
@@ -1466,7 +1563,15 @@
                       "rep": 1,
                       "modalite": "oral"
                     },
-                    "astuce": "À l'école, on écrit sur un objet en papier avec des lignes. Ce n'est ni un jouet ni un véhicule."
+                    "astuce": "À l'école, on écrit sur un objet en papier avec des lignes. Ce n'est ni un jouet ni un véhicule.",
+                    "options": [
+                      "1",
+                      "2",
+                      "3"
+                    ],
+                    "reponse": 1,
+                    "question": "[L'enseignant lit la phrase à voix haute, en montrant les images des 3 objets] Bineta veut écrire son nom. Sur quel objet va-t-elle écrire ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_03",
@@ -1482,7 +1587,16 @@
                       "rep": 0,
                       "modalite": "oral_image"
                     },
-                    "astuce": "Le livre sert à lire des histoires. Le cahier sert à écrire. Tabi tient le livre."
+                    "astuce": "Le livre sert à lire des histoires. Le cahier sert à écrire. Tabi tient le livre.",
+                    "options": [
+                      "1",
+                      "2",
+                      "3",
+                      "4"
+                    ],
+                    "reponse": 0,
+                    "question": "[L'enseignant montre l'image et lit] Tabi tient un livre. Tina tient un cahier. Qui tient l'objet qui sert à LIRE ?",
+                    "_fix_contenu_choix_promoted": true
                   }
                 ],
                 "quiz": [
@@ -1498,7 +1612,9 @@
                     "rep": 1,
                     "expl": "La gomme efface les traces du crayon.",
                     "modalite": "oral",
-                    "perso": "Manga"
+                    "perso": "Manga",
+                    "question": "Quel objet sert à effacer ?",
+                    "reponse": 1
                   },
                   {
                     "q": "Vrai ou faux : la personne qui enseigne à l'école s'appelle l'enseignant.",
@@ -1506,7 +1622,13 @@
                     "rep": true,
                     "expl": "L'enseignant (ou la maîtresse, le maître) est la personne qui apprend aux élèves.",
                     "modalite": "oral",
-                    "perso": "Tina"
+                    "perso": "Tina",
+                    "question": "Vrai ou faux : la personne qui enseigne à l'école s'appelle l'enseignant.",
+                    "options": [
+                      "Vrai",
+                      "Faux"
+                    ],
+                    "reponse": 0
                   },
                   {
                     "q": "[L'enseignant lit] Avec quel objet trace-t-on un trait bien droit ?",
@@ -1520,7 +1642,9 @@
                     "rep": 1,
                     "expl": "La règle est l'outil qui sert à tracer des traits droits.",
                     "modalite": "oral",
-                    "perso": "Tabi"
+                    "perso": "Tabi",
+                    "question": "[L'enseignant lit] Avec quel objet trace-t-on un trait bien droit ?",
+                    "reponse": 1
                   },
                   {
                     "q": "Au Cameroun, beaucoup d'enfants vont à l'école _____ (gratuite).",
@@ -1528,7 +1652,9 @@
                     "rep": "publique",
                     "expl": "Beaucoup d'enfants vont à l'école publique, qui est gratuite au primaire.",
                     "modalite": "oral",
-                    "perso": "Bineta"
+                    "perso": "Bineta",
+                    "question": "Au Cameroun, beaucoup d'enfants vont à l'école _____ (gratuite).",
+                    "reponse": "publique"
                   }
                 ],
                 "test_integration": {
@@ -4535,7 +4661,16 @@
                       "rep": 1,
                       "modalite": "oral_ecoute"
                     },
-                    "astuce": "Quand on prépare un plat à la cuisine comme le ndolè, on cuisine. C'est l'action qui correspond à préparer à manger."
+                    "astuce": "Quand on prépare un plat à la cuisine comme le ndolè, on cuisine. C'est l'action qui correspond à préparer à manger.",
+                    "options": [
+                      "Elle dort.",
+                      "Elle cuisine.",
+                      "Elle joue au ballon.",
+                      "Elle écrit."
+                    ],
+                    "reponse": 1,
+                    "question": "[L'ENSEIGNANT LIT À VOIX HAUTE] La maman de Tina prépare le ndolè à la cuisine. Que fait la maman de Tina ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_02",
@@ -4550,7 +4685,15 @@
                       "rep": 1,
                       "modalite": "oral_image"
                     },
-                    "astuce": "Papa, maman et grand-mère sont des personnes de la famille. Les voisins habitent à côté mais ne sont pas la famille."
+                    "astuce": "Papa, maman et grand-mère sont des personnes de la famille. Les voisins habitent à côté mais ne sont pas la famille.",
+                    "options": [
+                      "De ses voisins",
+                      "Des personnes de sa famille",
+                      "De ses camarades de classe"
+                    ],
+                    "reponse": 1,
+                    "question": "[L'ENSEIGNANT MONTRE 3 IMAGES DE FAMILLE ET LIT LES OPTIONS] Voici la famille d'Amina. Amina dit : « C'est mon papa, c'est ma maman, et voici ma grand-mère ». De qui parle Amina ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_03",
@@ -4565,7 +4708,15 @@
                       "rep": 1,
                       "modalite": "oral_ecoute"
                     },
-                    "astuce": "Pour présenter quelqu'un de sa famille, on commence par « Voici mon... » ou « Voici ma... », puis on dit qui c'est et comment il s'appelle."
+                    "astuce": "Pour présenter quelqu'un de sa famille, on commence par « Voici mon... » ou « Voici ma... », puis on dit qui c'est et comment il s'appelle.",
+                    "options": [
+                      "Grand-père Tabi mon",
+                      "Voici mon grand-père. Il s'appelle Daniel.",
+                      "Mon le grand-père s'appelle."
+                    ],
+                    "reponse": 1,
+                    "question": "[L'ENSEIGNANT LIT] Tabi veut présenter son grand-père à voix haute. Quelle phrase est correcte pour bien le présenter ?",
+                    "_fix_contenu_choix_promoted": true
                   }
                 ],
                 "quiz": [
@@ -4581,7 +4732,9 @@
                     "rep": 1,
                     "expl": "La grand-mère est la maman de papa ou de maman.",
                     "modalite": "oral",
-                    "perso": "Tabi"
+                    "perso": "Tabi",
+                    "question": "[L'enseignant lit] Qui est la maman de papa ?",
+                    "reponse": 1
                   },
                   {
                     "q": "Vrai ou faux : le frère et la sœur appartiennent à la même famille.",
@@ -4589,7 +4742,13 @@
                     "rep": true,
                     "expl": "Oui, le frère et la sœur ont les mêmes parents : ils sont de la même famille.",
                     "modalite": "oral",
-                    "perso": "Bineta"
+                    "perso": "Bineta",
+                    "question": "Vrai ou faux : le frère et la sœur appartiennent à la même famille.",
+                    "options": [
+                      "Vrai",
+                      "Faux"
+                    ],
+                    "reponse": 0
                   },
                   {
                     "q": "[L'enseignant lit] Comment dit-on quand on parle de sa propre maman ?",
@@ -4603,7 +4762,9 @@
                     "rep": 2,
                     "expl": "Quand on parle de notre propre maman, on dit « ma maman ». « Ma » montre que c'est la nôtre.",
                     "modalite": "oral",
-                    "perso": "Amina"
+                    "perso": "Amina",
+                    "question": "[L'enseignant lit] Comment dit-on quand on parle de sa propre maman ?",
+                    "reponse": 2
                   },
                   {
                     "q": "[L'enseignant lit] Au Cameroun, dans une grande famille, qui s'occupe souvent des petits enfants ?",
@@ -4617,7 +4778,9 @@
                     "rep": 2,
                     "expl": "Dans les familles camerounaises, plusieurs membres s'occupent des enfants : c'est la tradition.",
                     "modalite": "oral",
-                    "perso": "Ngono"
+                    "perso": "Ngono",
+                    "question": "[L'enseignant lit] Au Cameroun, dans une grande famille, qui s'occupe souvent des petits enfants ?",
+                    "reponse": 2
                   }
                 ],
                 "test_integration": {
@@ -4671,7 +4834,16 @@
                       ],
                       "rep": 1
                     },
-                    "astuce": "Prononce chaque mot à voix haute. Le son [i] s'entend bien dans « riz », « lit », « ami », « Tina »."
+                    "astuce": "Prononce chaque mot à voix haute. Le son [i] s'entend bien dans « riz », « lit », « ami », « Tina ».",
+                    "options": [
+                      "A",
+                      "I",
+                      "Ai",
+                      "ia"
+                    ],
+                    "reponse": 1,
+                    "question": "[L'enseignant prononce 4 mots à voix haute] Dans quel mot entends-tu le son [i] ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_02",
@@ -4696,7 +4868,16 @@
                       ],
                       "rep": 1
                     },
-                    "astuce": "Regarde bien BINETA = B-I-N-E-T-A. Compte seulement les i (minuscule ou majuscule). Il n'y en a qu'un seul."
+                    "astuce": "Regarde bien BINETA = B-I-N-E-T-A. Compte seulement les i (minuscule ou majuscule). Il n'y en a qu'un seul.",
+                    "options": [
+                      "0",
+                      "1",
+                      "2",
+                      "3"
+                    ],
+                    "reponse": 1,
+                    "question": "Combien de fois trouves-tu la lettre i dans le prénom BINETA écrit au tableau ?",
+                    "_fix_contenu_choix_promoted": true
                   }
                 ],
                 "quiz": [
@@ -4711,14 +4892,22 @@
                     ],
                     "rep": 1,
                     "expl": "La lettre I se prononce [i], comme dans « ami ».",
-                    "perso": "Amina"
+                    "perso": "Amina",
+                    "question": "Quel est le son de la lettre I ?",
+                    "reponse": 1
                   },
                   {
                     "q": "Vrai ou faux : « Tina » contient la lettre i.",
                     "type": "vrai_faux",
                     "rep": true,
                     "expl": "Oui, « Tina » s'écrit T-i-n-a et contient bien la lettre i.",
-                    "perso": "Ngono"
+                    "perso": "Ngono",
+                    "question": "Vrai ou faux : « Tina » contient la lettre i.",
+                    "options": [
+                      "Vrai",
+                      "Faux"
+                    ],
+                    "reponse": 0
                   },
                   {
                     "q": "[L'enseignant montre 3 mots écrits] Lequel commence par la lettre i ?",
@@ -4730,7 +4919,9 @@
                     ],
                     "rep": 2,
                     "expl": "« Île » commence par la lettre i. Une île, c'est une terre entourée d'eau.",
-                    "perso": "Manga"
+                    "perso": "Manga",
+                    "question": "[L'enseignant montre 3 mots écrits] Lequel commence par la lettre i ?",
+                    "reponse": 2
                   },
                   {
                     "q": "Quelle écriture est la minuscule de I ?",
@@ -4743,7 +4934,9 @@
                     ],
                     "rep": 1,
                     "expl": "La minuscule de I est i (petit i avec un point au-dessus).",
-                    "perso": "Tina"
+                    "perso": "Tina",
+                    "question": "Quelle écriture est la minuscule de I ?",
+                    "reponse": 1
                   }
                 ],
                 "test_integration": {
@@ -4796,7 +4989,16 @@
                       ],
                       "rep": 0
                     },
-                    "astuce": "La majuscule I est très simple : un seul trait vertical, bien droit, qui descend de haut en bas. C'est la lettre la plus facile à écrire !"
+                    "astuce": "La majuscule I est très simple : un seul trait vertical, bien droit, qui descend de haut en bas. C'est la lettre la plus facile à écrire !",
+                    "options": [
+                      "1",
+                      "2",
+                      "3",
+                      "4"
+                    ],
+                    "reponse": 0,
+                    "question": "Pour tracer la lettre I en majuscule, de combien de traits a-t-on besoin ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_02",
@@ -4811,7 +5013,16 @@
                       ],
                       "rep": 2
                     },
-                    "astuce": "Le point du i est toujours AU-DESSUS du trait, jamais ailleurs. C'est comme une petite tête sur un petit corps."
+                    "astuce": "Le point du i est toujours AU-DESSUS du trait, jamais ailleurs. C'est comme une petite tête sur un petit corps.",
+                    "options": [
+                      "1",
+                      "2",
+                      "3",
+                      "4"
+                    ],
+                    "reponse": 2,
+                    "question": "Où se trouve le point sur la lettre i minuscule ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_03",
@@ -4835,21 +5046,31 @@
                     ],
                     "rep": 0,
                     "expl": "La majuscule I = 1 seul trait vertical droit.",
-                    "perso": "Manga"
+                    "perso": "Manga",
+                    "question": "La majuscule I est composée de combien de trait(s) ?",
+                    "reponse": 0
                   },
                   {
                     "q": "Vrai ou faux : on doit toujours mettre le point sur le i minuscule.",
                     "type": "vrai_faux",
                     "rep": true,
                     "expl": "Oui, le point au-dessus du i est obligatoire. Sans lui, la lettre n'est pas un i.",
-                    "perso": "Tina"
+                    "perso": "Tina",
+                    "question": "Vrai ou faux : on doit toujours mettre le point sur le i minuscule.",
+                    "options": [
+                      "Vrai",
+                      "Faux"
+                    ],
+                    "reponse": 0
                   },
                   {
                     "q": "Sur le cahier 32 pages, la majuscule I monte jusqu'à _____.",
                     "type": "trou",
                     "rep": "la ligne du haut",
                     "expl": "Comme toutes les majuscules, le I monte jusqu'à la ligne du haut du carreau.",
-                    "perso": "Tabi"
+                    "perso": "Tabi",
+                    "question": "Sur le cahier 32 pages, la majuscule I monte jusqu'à _____.",
+                    "reponse": "la ligne du haut"
                   },
                   {
                     "q": "Pour bien écrire i minuscule, on commence par _____.",
@@ -4862,7 +5083,9 @@
                     ],
                     "rep": 1,
                     "expl": "On trace d'abord le trait vertical, puis on ajoute le point au-dessus.",
-                    "perso": "Bineta"
+                    "perso": "Bineta",
+                    "question": "Pour bien écrire i minuscule, on commence par _____.",
+                    "reponse": 1
                   }
                 ],
                 "test_integration": {
@@ -4912,7 +5135,15 @@
                       "rep": 1,
                       "modalite": "oral_ecoute"
                     },
-                    "astuce": "« Papa » est un mot masculin. Devant un mot masculin, on dit « mon ». On dit donc « mon papa »."
+                    "astuce": "« Papa » est un mot masculin. Devant un mot masculin, on dit « mon ». On dit donc « mon papa ».",
+                    "options": [
+                      "1",
+                      "2",
+                      "3"
+                    ],
+                    "reponse": 1,
+                    "question": "[L'ENSEIGNANT LIT] Tina veut parler de son papa à voix haute. Quelle phrase utilise-t-elle ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_02",
@@ -4927,7 +5158,15 @@
                       "rep": 1,
                       "modalite": "oral_image"
                     },
-                    "astuce": "Préparer le repas, c'est faire la cuisine. C'est cuisiner pour donner à manger à toute la famille."
+                    "astuce": "Préparer le repas, c'est faire la cuisine. C'est cuisiner pour donner à manger à toute la famille.",
+                    "options": [
+                      "1",
+                      "2",
+                      "3"
+                    ],
+                    "reponse": 1,
+                    "question": "[L'ENSEIGNANT MONTRE 3 IMAGES ET LIT] Amina dit : « C'est ma maman. Elle prépare le repas ». Que fait la maman d'Amina ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_03",
@@ -4942,7 +5181,15 @@
                       "rep": 1,
                       "modalite": "oral_ecoute"
                     },
-                    "astuce": "Quand on parle de PLUSIEURS personnes ou choses, on dit « mes ». Comme il y a 2 frères, c'est « mes frères »."
+                    "astuce": "Quand on parle de PLUSIEURS personnes ou choses, on dit « mes ». Comme il y a 2 frères, c'est « mes frères ».",
+                    "options": [
+                      "1",
+                      "2",
+                      "3"
+                    ],
+                    "reponse": 1,
+                    "question": "[L'ENSEIGNANT LIT] Bineta veut dire qu'elle a 2 frères. Quelle phrase est correcte à l'oral ?",
+                    "_fix_contenu_choix_promoted": true
                   }
                 ],
                 "quiz": [
@@ -4958,7 +5205,9 @@
                     "rep": 1,
                     "expl": "La grand-mère est la maman de papa ou de maman.",
                     "modalite": "oral",
-                    "perso": "Amina"
+                    "perso": "Amina",
+                    "question": "[L'enseignant lit] Comment appelle-t-on la maman de papa ?",
+                    "reponse": 1
                   },
                   {
                     "q": "[L'enseignant lit] Pour parler de sa propre sœur, comment dit-on ?",
@@ -4971,7 +5220,9 @@
                     "rep": 1,
                     "expl": "« Sœur » est un mot féminin. Donc on dit « ma sœur ».",
                     "modalite": "oral",
-                    "perso": "Ngono"
+                    "perso": "Ngono",
+                    "question": "[L'enseignant lit] Pour parler de sa propre sœur, comment dit-on ?",
+                    "reponse": 1
                   },
                   {
                     "q": "Vrai ou faux : « mes » s'utilise quand il y a plusieurs personnes ou objets.",
@@ -4979,7 +5230,13 @@
                     "rep": true,
                     "expl": "Oui, « mes » s'utilise pour parler de plusieurs : mes frères, mes sœurs, mes parents.",
                     "modalite": "oral",
-                    "perso": "Manga"
+                    "perso": "Manga",
+                    "question": "Vrai ou faux : « mes » s'utilise quand il y a plusieurs personnes ou objets.",
+                    "options": [
+                      "Vrai",
+                      "Faux"
+                    ],
+                    "reponse": 0
                   },
                   {
                     "q": "[L'enseignant lit] Au Cameroun, qui fait souvent le ndolè à la maison ?",
@@ -4993,7 +5250,9 @@
                     "rep": 1,
                     "expl": "Au Cameroun, la maman ou la grand-mère prépare souvent les plats traditionnels comme le ndolè.",
                     "modalite": "oral",
-                    "perso": "Tina"
+                    "perso": "Tina",
+                    "question": "[L'enseignant lit] Au Cameroun, qui fait souvent le ndolè à la maison ?",
+                    "reponse": 1
                   }
                 ],
                 "test_integration": {
@@ -5396,6 +5655,16 @@
                       "petit"
                     ],
                     "reponses": {
+                      "le panier": "grand",
+                      "la pièce de monnaie": "petit",
+                      "le sac": "petit"
+                    },
+                    "feedback_correct": "Parfait ! Tu sais comparer selon la taille.",
+                    "feedback_incorrect": "Visualise les deux objets côte à côte et compare leur taille.",
+                    "astuce": "Demande-toi : lequel est le plus grand ?",
+                    "notion": "comparer_grand",
+                    "points": 6,
+                    "_reponses_original": {
                       "grand": [
                         "le panier"
                       ],
@@ -5403,12 +5672,7 @@
                         "la pièce de monnaie",
                         "le sac"
                       ]
-                    },
-                    "feedback_correct": "Parfait ! Tu sais comparer selon la taille.",
-                    "feedback_incorrect": "Visualise les deux objets côte à côte et compare leur taille.",
-                    "astuce": "Demande-toi : lequel est le plus grand ?",
-                    "notion": "comparer_grand",
-                    "points": 6
+                    }
                   },
                   {
                     "id": "ex2",
@@ -7524,7 +7788,16 @@
                       "rep": 1,
                       "modalite": "oral_ecoute"
                     },
-                    "astuce": "Le matin, on va à l'école pour apprendre. C'est le moment de la journée où la maîtresse enseigne. Les autres activités viennent après."
+                    "astuce": "Le matin, on va à l'école pour apprendre. C'est le moment de la journée où la maîtresse enseigne. Les autres activités viennent après.",
+                    "options": [
+                      "Il dort.",
+                      "Il va à l'école.",
+                      "Il fait les courses.",
+                      "Il joue au ballon."
+                    ],
+                    "reponse": 1,
+                    "question": "[L'ENSEIGNANT LIT À VOIX HAUTE] Manga habite à Bonabéri à Douala. Tous les matins, sa maman l'amène à l'école. L'après-midi, il joue avec ses voisins. Que fait Manga le matin ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_02",
@@ -7539,7 +7812,15 @@
                       "rep": 1,
                       "modalite": "oral_image"
                     },
-                    "astuce": "Au marché, on achète à manger : fruits, légumes, viande, poisson. C'est le lieu pour faire les courses au Cameroun."
+                    "astuce": "Au marché, on achète à manger : fruits, légumes, viande, poisson. C'est le lieu pour faire les courses au Cameroun.",
+                    "options": [
+                      "À l'école",
+                      "Au marché",
+                      "À la pharmacie"
+                    ],
+                    "reponse": 1,
+                    "question": "[L'ENSEIGNANT MONTRE 3 IMAGES DE LIEUX ET LIT LES OPTIONS] Ngono dit : « Dans mon quartier à Yaoundé, je vais souvent au marché avec ma maman pour acheter du manioc et des bananes ». Où va Ngono avec sa maman ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_03",
@@ -7554,7 +7835,15 @@
                       "rep": 1,
                       "modalite": "oral_ecoute"
                     },
-                    "astuce": "Pour présenter son village ou son quartier, on dit d'abord « J'habite à... » ou « J'habite dans... », puis on donne le nom. Les mots doivent être dans le bon ordre pour être compris."
+                    "astuce": "Pour présenter son village ou son quartier, on dit d'abord « J'habite à... » ou « J'habite dans... », puis on donne le nom. Les mots doivent être dans le bon ordre pour être compris.",
+                    "options": [
+                      "Village mon Bineta j'habite.",
+                      "J'habite dans un village. Il s'appelle Mokolo.",
+                      "Mon Mokolo dans village."
+                    ],
+                    "reponse": 1,
+                    "question": "[L'ENSEIGNANT LIT] Bineta habite dans un village du Nord. Elle veut présenter son village à voix haute. Quelle phrase est la mieux pour commencer ?",
+                    "_fix_contenu_choix_promoted": true
                   }
                 ],
                 "quiz": [
@@ -7570,7 +7859,9 @@
                     "rep": 1,
                     "expl": "Le voisin ou la voisine est la personne qui habite la maison juste à côté de la tienne.",
                     "modalite": "oral",
-                    "perso": "Manga"
+                    "perso": "Manga",
+                    "question": "[L'enseignant lit] Quelle personne habite à côté de chez toi ?",
+                    "reponse": 1
                   },
                   {
                     "q": "Vrai ou faux : un quartier est une partie d'une ville.",
@@ -7578,7 +7869,13 @@
                     "rep": true,
                     "expl": "Oui. Une ville comme Douala est divisée en plusieurs quartiers : Bonabéri, Akwa, Deido, Bonanjo...",
                     "modalite": "oral",
-                    "perso": "Tina"
+                    "perso": "Tina",
+                    "question": "Vrai ou faux : un quartier est une partie d'une ville.",
+                    "options": [
+                      "Vrai",
+                      "Faux"
+                    ],
+                    "reponse": 0
                   },
                   {
                     "q": "[L'enseignant lit] Au Cameroun, quel moyen de transport peut t'amener dans ton quartier ?",
@@ -7592,7 +7889,9 @@
                     "rep": 1,
                     "expl": "Le mototaxi est très utilisé dans les quartiers du Cameroun pour les courts trajets.",
                     "modalite": "oral",
-                    "perso": "Tabi"
+                    "perso": "Tabi",
+                    "question": "[L'enseignant lit] Au Cameroun, quel moyen de transport peut t'amener dans ton quartier ?",
+                    "reponse": 1
                   },
                   {
                     "q": "[L'enseignant lit] Comment appelle-t-on la personne qui vend dans la petite boutique du quartier ?",
@@ -7606,7 +7905,9 @@
                     "rep": 1,
                     "expl": "Le boutiquier (ou la boutiquière) vend le savon, le riz, le sucre et les petites choses du quartier.",
                     "modalite": "oral",
-                    "perso": "Bineta"
+                    "perso": "Bineta",
+                    "question": "[L'enseignant lit] Comment appelle-t-on la personne qui vend dans la petite boutique du quartier ?",
+                    "reponse": 1
                   }
                 ],
                 "test_integration": {
@@ -7659,7 +7960,16 @@
                       ],
                       "rep": 1
                     },
-                    "astuce": "Prononce chaque mot à voix haute. Le son [y] s'entend dans « tu », « lune », « sur ». Attention : « manioc » a un O et A, pas un U."
+                    "astuce": "Prononce chaque mot à voix haute. Le son [y] s'entend dans « tu », « lune », « sur ». Attention : « manioc » a un O et A, pas un U.",
+                    "options": [
+                      "A",
+                      "I",
+                      "U",
+                      "ia"
+                    ],
+                    "reponse": 1,
+                    "question": "[L'enseignant prononce 4 mots à voix haute] Dans quel mot entends-tu le son [y] (comme dans « tu ») ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_02",
@@ -7684,7 +7994,16 @@
                       ],
                       "rep": 1
                     },
-                    "astuce": "Regarde bien MANUEL = M-A-N-U-E-L. Compte seulement les u (minuscule ou majuscule). Il n'y en a qu'un seul."
+                    "astuce": "Regarde bien MANUEL = M-A-N-U-E-L. Compte seulement les u (minuscule ou majuscule). Il n'y en a qu'un seul.",
+                    "options": [
+                      "0",
+                      "1",
+                      "2",
+                      "3"
+                    ],
+                    "reponse": 1,
+                    "question": "Combien de fois trouves-tu la lettre u dans le mot MANUEL écrit au tableau ?",
+                    "_fix_contenu_choix_promoted": true
                   }
                 ],
                 "quiz": [
@@ -7699,14 +8018,22 @@
                     ],
                     "rep": 2,
                     "expl": "La lettre U seule se prononce [y], comme dans « tu », « lune », « sur ».",
-                    "perso": "Tabi"
+                    "perso": "Tabi",
+                    "question": "Quel est le son de la lettre U seule ?",
+                    "reponse": 2
                   },
                   {
                     "q": "Vrai ou faux : la lettre U est une voyelle, comme A et I.",
                     "type": "vrai_faux",
                     "rep": true,
                     "expl": "Oui, U est une voyelle. Il y a 6 voyelles en français : a, e, i, o, u, y.",
-                    "perso": "Bineta"
+                    "perso": "Bineta",
+                    "question": "Vrai ou faux : la lettre U est une voyelle, comme A et I.",
+                    "options": [
+                      "Vrai",
+                      "Faux"
+                    ],
+                    "reponse": 0
                   },
                   {
                     "q": "[L'enseignant montre 3 mots écrits] Lequel commence par la lettre u ?",
@@ -7718,7 +8045,9 @@
                     ],
                     "rep": 1,
                     "expl": "« Université » commence par la lettre u. C'est l'école des grands.",
-                    "perso": "Amina"
+                    "perso": "Amina",
+                    "question": "[L'enseignant montre 3 mots écrits] Lequel commence par la lettre u ?",
+                    "reponse": 1
                   },
                   {
                     "q": "Quelle écriture est la minuscule de U ?",
@@ -7731,7 +8060,9 @@
                     ],
                     "rep": 1,
                     "expl": "La minuscule de U est u (forme arrondie en bas). Attention à ne pas confondre avec n (arrondi en haut).",
-                    "perso": "Ngono"
+                    "perso": "Ngono",
+                    "question": "Quelle écriture est la minuscule de U ?",
+                    "reponse": 1
                   }
                 ],
                 "test_integration": {
@@ -7779,7 +8110,16 @@
                       ],
                       "rep": 1
                     },
-                    "astuce": "On commence en haut à gauche, on descend, on fait une courbe en bas comme un seau, puis on remonte en haut à droite. C'est un mouvement continu, sans lever le crayon."
+                    "astuce": "On commence en haut à gauche, on descend, on fait une courbe en bas comme un seau, puis on remonte en haut à droite. C'est un mouvement continu, sans lever le crayon.",
+                    "options": [
+                      "1",
+                      "2",
+                      "3",
+                      "4"
+                    ],
+                    "reponse": 1,
+                    "question": "Pour tracer la lettre U en majuscule, par où commence-t-on ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_02",
@@ -7794,7 +8134,16 @@
                       ],
                       "rep": 1
                     },
-                    "astuce": "La lettre u ressemble à un petit seau (arrondi en bas pour contenir de l'eau). La lettre n ressemble à un petit pont (arrondi en haut). Cette différence est très importante !"
+                    "astuce": "La lettre u ressemble à un petit seau (arrondi en bas pour contenir de l'eau). La lettre n ressemble à un petit pont (arrondi en haut). Cette différence est très importante !",
+                    "options": [
+                      "1",
+                      "2",
+                      "3",
+                      "4"
+                    ],
+                    "reponse": 1,
+                    "question": "Quelle est la différence entre la lettre u et la lettre n ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_03",
@@ -7818,21 +8167,31 @@
                     ],
                     "rep": 1,
                     "expl": "La majuscule U est en forme de seau : ouverte en haut, arrondie en bas.",
-                    "perso": "Amina"
+                    "perso": "Amina",
+                    "question": "La majuscule U ressemble à quel objet ?",
+                    "reponse": 1
                   },
                   {
                     "q": "Vrai ou faux : la lettre u n'a pas de point.",
                     "type": "vrai_faux",
                     "rep": true,
                     "expl": "Oui, la lettre u n'a pas de point. Seule la lettre i a un point au-dessus.",
-                    "perso": "Ngono"
+                    "perso": "Ngono",
+                    "question": "Vrai ou faux : la lettre u n'a pas de point.",
+                    "options": [
+                      "Vrai",
+                      "Faux"
+                    ],
+                    "reponse": 0
                   },
                   {
                     "q": "La minuscule u est arrondie en _____ (bas/haut).",
                     "type": "trou",
                     "rep": "bas",
                     "expl": "u est arrondi en BAS (comme un petit seau). C'est ce qui le différencie de n (arrondi en haut).",
-                    "perso": "Manga"
+                    "perso": "Manga",
+                    "question": "La minuscule u est arrondie en _____ (bas/haut).",
+                    "reponse": "bas"
                   },
                   {
                     "q": "Sur le cahier 32 pages, la majuscule U monte jusqu'à _____.",
@@ -7845,7 +8204,9 @@
                     ],
                     "rep": 1,
                     "expl": "Comme toutes les majuscules, U monte jusqu'à la ligne du haut du carreau.",
-                    "perso": "Tina"
+                    "perso": "Tina",
+                    "question": "Sur le cahier 32 pages, la majuscule U monte jusqu'à _____.",
+                    "reponse": 1
                   }
                 ],
                 "test_integration": {
@@ -7894,7 +8255,15 @@
                       "rep": 1,
                       "modalite": "oral_ecoute"
                     },
-                    "astuce": "Pour dire où on habite, on dit « J'habite à... » suivi du nom de la ville ou du village. Les mots doivent être dans le bon ordre."
+                    "astuce": "Pour dire où on habite, on dit « J'habite à... » suivi du nom de la ville ou du village. Les mots doivent être dans le bon ordre.",
+                    "options": [
+                      "1",
+                      "2",
+                      "3"
+                    ],
+                    "reponse": 1,
+                    "question": "[L'ENSEIGNANT LIT] Bineta veut dire à voix haute où elle habite. Quelle phrase est la mieux ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_02",
@@ -7909,7 +8278,15 @@
                       "rep": 1,
                       "modalite": "oral_image"
                     },
-                    "astuce": "On achète à manger (riz, bananes, légumes) au marché. À l'école, on apprend. À l'église ou à la mosquée, on prie."
+                    "astuce": "On achète à manger (riz, bananes, légumes) au marché. À l'école, on apprend. À l'église ou à la mosquée, on prie.",
+                    "options": [
+                      "1",
+                      "2",
+                      "3"
+                    ],
+                    "reponse": 1,
+                    "question": "[L'ENSEIGNANT MONTRE 3 IMAGES ET LIT] Voici 3 lieux : un marché, une école, une église. Manga dit : « J'achète du riz et des bananes ». À quel lieu va-t-il ?",
+                    "_fix_contenu_choix_promoted": true
                   },
                   {
                     "id": "ex_03",
@@ -7924,7 +8301,15 @@
                       "rep": 0,
                       "modalite": "oral_ecoute"
                     },
-                    "astuce": "Le quartier se trouve EN VILLE (comme Bonabéri à Douala). Le village se trouve À LA CAMPAGNE, où il y a des champs et des animaux."
+                    "astuce": "Le quartier se trouve EN VILLE (comme Bonabéri à Douala). Le village se trouve À LA CAMPAGNE, où il y a des champs et des animaux.",
+                    "options": [
+                      "1",
+                      "2",
+                      "3"
+                    ],
+                    "reponse": 0,
+                    "question": "[L'ENSEIGNANT LIT] Quelle est la différence entre un quartier et un village ?",
+                    "_fix_contenu_choix_promoted": true
                   }
                 ],
                 "quiz": [
@@ -7940,7 +8325,9 @@
                     "rep": 1,
                     "expl": "Le voisin (ou la voisine) est la personne qui habite la maison juste à côté de la tienne.",
                     "modalite": "oral",
-                    "perso": "Tabi"
+                    "perso": "Tabi",
+                    "question": "[L'enseignant lit] Comment appelle-t-on la personne qui habite à côté de chez toi ?",
+                    "reponse": 1
                   },
                   {
                     "q": "Vrai ou faux : Bonabéri est un quartier de Douala.",
@@ -7948,7 +8335,13 @@
                     "rep": true,
                     "expl": "Oui, Bonabéri est un quartier de Douala, la grande ville du Littoral.",
                     "modalite": "oral",
-                    "perso": "Bineta"
+                    "perso": "Bineta",
+                    "question": "Vrai ou faux : Bonabéri est un quartier de Douala.",
+                    "options": [
+                      "Vrai",
+                      "Faux"
+                    ],
+                    "reponse": 0
                   },
                   {
                     "q": "[L'enseignant lit] Au Cameroun, où achète-t-on souvent du manioc et des bananes ?",
@@ -7962,7 +8355,9 @@
                     "rep": 1,
                     "expl": "Au marché, on achète les aliments frais comme le manioc, les bananes, le poisson.",
                     "modalite": "oral",
-                    "perso": "Amina"
+                    "perso": "Amina",
+                    "question": "[L'enseignant lit] Au Cameroun, où achète-t-on souvent du manioc et des bananes ?",
+                    "reponse": 1
                   },
                   {
                     "q": "[L'enseignant lit] Pour dire où on habite, on commence par...",
@@ -7975,7 +8370,9 @@
                     "rep": 1,
                     "expl": "On dit « J'habite à... » suivi du nom de la ville ou du village. C'est la formule correcte.",
                     "modalite": "oral",
-                    "perso": "Ngono"
+                    "perso": "Ngono",
+                    "question": "[L'enseignant lit] Pour dire où on habite, on commence par...",
+                    "reponse": 1
                   }
                 ],
                 "test_integration": {
@@ -8370,6 +8767,16 @@
                       "petit"
                     ],
                     "reponses": {
+                      "le cahier": "grand",
+                      "le crayon": "petit",
+                      "le cartable": "petit"
+                    },
+                    "feedback_correct": "Parfait ! Tu sais comparer selon la taille.",
+                    "feedback_incorrect": "Visualise les deux objets côte à côte et compare leur taille.",
+                    "astuce": "Demande-toi : lequel est le plus grand ?",
+                    "notion": "comparer_grand",
+                    "points": 6,
+                    "_reponses_original": {
                       "grand": [
                         "le cahier"
                       ],
@@ -8377,12 +8784,7 @@
                         "le crayon",
                         "le cartable"
                       ]
-                    },
-                    "feedback_correct": "Parfait ! Tu sais comparer selon la taille.",
-                    "feedback_incorrect": "Visualise les deux objets côte à côte et compare leur taille.",
-                    "astuce": "Demande-toi : lequel est le plus grand ?",
-                    "notion": "comparer_grand",
-                    "points": 6
+                    }
                   },
                   {
                     "id": "ex2",
@@ -12307,6 +12709,16 @@
                       "lent"
                     ],
                     "reponses": {
+                      "la pirogue": "rapide",
+                      "la scie": "lent",
+                      "le ciseau": "lent"
+                    },
+                    "feedback_correct": "Parfait ! Tu sais comparer selon la vitesse.",
+                    "feedback_incorrect": "Visualise les deux objets côte à côte et compare leur vitesse.",
+                    "astuce": "Demande-toi : lequel est le plus rapide ?",
+                    "notion": "comparer_rapide",
+                    "points": 6,
+                    "_reponses_original": {
                       "rapide": [
                         "la pirogue"
                       ],
@@ -12314,12 +12726,7 @@
                         "la scie",
                         "le ciseau"
                       ]
-                    },
-                    "feedback_correct": "Parfait ! Tu sais comparer selon la vitesse.",
-                    "feedback_incorrect": "Visualise les deux objets côte à côte et compare leur vitesse.",
-                    "astuce": "Demande-toi : lequel est le plus rapide ?",
-                    "notion": "comparer_rapide",
-                    "points": 6
+                    }
                   },
                   {
                     "id": "ex2",
@@ -12490,6 +12897,16 @@
                       "le rectangle"
                     ],
                     "reponses": {
+                      "le toit d'une case": "le triangle",
+                      "un panneau de danger": "le triangle",
+                      "un cahier": "le rectangle"
+                    },
+                    "feedback_correct": "Tu identifies bien les formes géométriques !",
+                    "feedback_incorrect": "Regarde les côtés de chaque objet.",
+                    "astuce": "Compte les côtés : 0 = cercle, 3 = triangle, 4 = carré/rectangle.",
+                    "notion": "identifier_formes",
+                    "points": 6,
+                    "_reponses_original": {
                       "le triangle": [
                         "le toit d'une case",
                         "un panneau de danger"
@@ -12497,12 +12914,7 @@
                       "le rectangle": [
                         "un cahier"
                       ]
-                    },
-                    "feedback_correct": "Tu identifies bien les formes géométriques !",
-                    "feedback_incorrect": "Regarde les côtés de chaque objet.",
-                    "astuce": "Compte les côtés : 0 = cercle, 3 = triangle, 4 = carré/rectangle.",
-                    "notion": "identifier_formes",
-                    "points": 6
+                    }
                   }
                 ],
                 "quiz": [
@@ -15432,6 +15844,16 @@
                       "lent"
                     ],
                     "reponses": {
+                      "la carte": "rapide",
+                      "la boussole": "lent",
+                      "le bus": "lent"
+                    },
+                    "feedback_correct": "Parfait ! Tu sais comparer selon la vitesse.",
+                    "feedback_incorrect": "Visualise les deux objets côte à côte et compare leur vitesse.",
+                    "astuce": "Demande-toi : lequel est le plus rapide ?",
+                    "notion": "comparer_rapide",
+                    "points": 6,
+                    "_reponses_original": {
                       "rapide": [
                         "la carte"
                       ],
@@ -15439,12 +15861,7 @@
                         "la boussole",
                         "le bus"
                       ]
-                    },
-                    "feedback_correct": "Parfait ! Tu sais comparer selon la vitesse.",
-                    "feedback_incorrect": "Visualise les deux objets côte à côte et compare leur vitesse.",
-                    "astuce": "Demande-toi : lequel est le plus rapide ?",
-                    "notion": "comparer_rapide",
-                    "points": 6
+                    }
                   },
                   {
                     "id": "ex2",
@@ -15609,6 +16026,16 @@
                       "le rectangle"
                     ],
                     "reponses": {
+                      "le toit d'une case": "le triangle",
+                      "un panneau de danger": "le triangle",
+                      "un cahier": "le rectangle"
+                    },
+                    "feedback_correct": "Tu identifies bien les formes géométriques !",
+                    "feedback_incorrect": "Regarde les côtés de chaque objet.",
+                    "astuce": "Compte les côtés : 0 = cercle, 3 = triangle, 4 = carré/rectangle.",
+                    "notion": "identifier_formes",
+                    "points": 6,
+                    "_reponses_original": {
                       "le triangle": [
                         "le toit d'une case",
                         "un panneau de danger"
@@ -15616,12 +16043,7 @@
                       "le rectangle": [
                         "un cahier"
                       ]
-                    },
-                    "feedback_correct": "Tu identifies bien les formes géométriques !",
-                    "feedback_incorrect": "Regarde les côtés de chaque objet.",
-                    "astuce": "Compte les côtés : 0 = cercle, 3 = triangle, 4 = carré/rectangle.",
-                    "notion": "identifier_formes",
-                    "points": 6
+                    }
                   }
                 ],
                 "quiz": [
@@ -18371,6 +18793,16 @@
                       "vide"
                     ],
                     "reponses": {
+                      "le savon": "plein",
+                      "l'eau potable": "vide",
+                      "le médicament": "vide"
+                    },
+                    "feedback_correct": "Parfait ! Tu sais comparer selon la contenance.",
+                    "feedback_incorrect": "Visualise les deux objets côte à côte et compare leur contenance.",
+                    "astuce": "Demande-toi : lequel est le plus plein ?",
+                    "notion": "comparer_plein",
+                    "points": 6,
+                    "_reponses_original": {
                       "plein": [
                         "le savon"
                       ],
@@ -18378,12 +18810,7 @@
                         "l'eau potable",
                         "le médicament"
                       ]
-                    },
-                    "feedback_correct": "Parfait ! Tu sais comparer selon la contenance.",
-                    "feedback_incorrect": "Visualise les deux objets côte à côte et compare leur contenance.",
-                    "astuce": "Demande-toi : lequel est le plus plein ?",
-                    "notion": "comparer_plein",
-                    "points": 6
+                    }
                   },
                   {
                     "id": "ex2",
@@ -22854,6 +23281,16 @@
                       "lent"
                     ],
                     "reponses": {
+                      "le tam-tam": "rapide",
+                      "le masque de danse": "lent",
+                      "le jeu de société": "lent"
+                    },
+                    "feedback_correct": "Parfait ! Tu sais comparer selon la vitesse.",
+                    "feedback_incorrect": "Visualise les deux objets côte à côte et compare leur vitesse.",
+                    "astuce": "Demande-toi : lequel est le plus rapide ?",
+                    "notion": "comparer_rapide",
+                    "points": 6,
+                    "_reponses_original": {
                       "rapide": [
                         "le tam-tam"
                       ],
@@ -22861,12 +23298,7 @@
                         "le masque de danse",
                         "le jeu de société"
                       ]
-                    },
-                    "feedback_correct": "Parfait ! Tu sais comparer selon la vitesse.",
-                    "feedback_incorrect": "Visualise les deux objets côte à côte et compare leur vitesse.",
-                    "astuce": "Demande-toi : lequel est le plus rapide ?",
-                    "notion": "comparer_rapide",
-                    "points": 6
+                    }
                   },
                   {
                     "id": "ex2",
@@ -23031,6 +23463,16 @@
                       "le rectangle"
                     ],
                     "reponses": {
+                      "le toit d'une case": "le triangle",
+                      "un panneau de danger": "le triangle",
+                      "un cahier": "le rectangle"
+                    },
+                    "feedback_correct": "Tu identifies bien les formes géométriques !",
+                    "feedback_incorrect": "Regarde les côtés de chaque objet.",
+                    "astuce": "Compte les côtés : 0 = cercle, 3 = triangle, 4 = carré/rectangle.",
+                    "notion": "identifier_formes",
+                    "points": 6,
+                    "_reponses_original": {
                       "le triangle": [
                         "le toit d'une case",
                         "un panneau de danger"
@@ -23038,12 +23480,7 @@
                       "le rectangle": [
                         "un cahier"
                       ]
-                    },
-                    "feedback_correct": "Tu identifies bien les formes géométriques !",
-                    "feedback_incorrect": "Regarde les côtés de chaque objet.",
-                    "astuce": "Compte les côtés : 0 = cercle, 3 = triangle, 4 = carré/rectangle.",
-                    "notion": "identifier_formes",
-                    "points": 6
+                    }
                   }
                 ],
                 "quiz": [
@@ -26442,6 +26879,16 @@
                       "petit"
                     ],
                     "reponses": {
+                      "la radio": "grand",
+                      "le journal": "petit",
+                      "le panneau": "petit"
+                    },
+                    "feedback_correct": "Parfait ! Tu sais comparer selon la taille.",
+                    "feedback_incorrect": "Visualise les deux objets côte à côte et compare leur taille.",
+                    "astuce": "Demande-toi : lequel est le plus grand ?",
+                    "notion": "comparer_grand",
+                    "points": 6,
+                    "_reponses_original": {
                       "grand": [
                         "la radio"
                       ],
@@ -26449,12 +26896,7 @@
                         "le journal",
                         "le panneau"
                       ]
-                    },
-                    "feedback_correct": "Parfait ! Tu sais comparer selon la taille.",
-                    "feedback_incorrect": "Visualise les deux objets côte à côte et compare leur taille.",
-                    "astuce": "Demande-toi : lequel est le plus grand ?",
-                    "notion": "comparer_grand",
-                    "points": 6
+                    }
                   },
                   {
                     "id": "ex2",
