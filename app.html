@@ -5990,28 +5990,29 @@ function renderPremiumScreen() {
     const px = PRICING_GRID[classeActuelle];
 
     const tiers = [
-      { name: '1 UA', duration: '~1 mois', price: px.ua, popular: false,
+      { name: '1 UA', duration: '~1 mois', price: px.ua, popular: false, id: 'ua', classeCible: classeActuelle, cep: false,
         features: ['Classe ' + classeActuelle, '1 Unité d\'Apprentissage complète', 'Leçons + quiz + test', 'Sans publicité'] },
-      { name: 'Trimestre', duration: '3 mois', price: px.trimestre, popular: false,
+      { name: 'Trimestre', duration: '3 mois', price: px.trimestre, popular: false, id: 'trimestre', classeCible: classeActuelle, cep: false,
         features: ['Classe ' + classeActuelle, 'Trimestre complet (T1, T2 ou T3)', 'Espace parent', 'Sans publicité'] },
-      { name: 'Année complète', duration: '12 mois', price: px.an, popular: true,
+      { name: 'Année complète', duration: '12 mois', price: px.an, popular: true, id: 'annee', classeCible: classeActuelle, cep: false,
         features: ['Classe ' + classeActuelle, 'Année complète (tous trimestres)', 'Espace parent', 'Mises à jour incluses'] },
-      { name: 'Famille — Trimestre', duration: '3 mois · 3 enfants min.', price: PRIX_FAMILLE.trimestre, popular: false,
+      { name: 'Famille — Trimestre', duration: '3 mois · 3 enfants min.', price: PRIX_FAMILLE.trimestre, popular: false, id: 'trimestre', classeCible: 'ALL', cep: false,
         features: ['Toutes les classes débloquées (SIL au CM2)', 'Pour tous les enfants de la famille (3 min.)', 'Espace parent', 'Sans publicité'] },
-      { name: 'Famille — Année', duration: '12 mois · 3 enfants min.', price: PRIX_FAMILLE.an, popular: false,
+      { name: 'Famille — Année', duration: '12 mois · 3 enfants min.', price: PRIX_FAMILLE.an, popular: false, id: 'annee', classeCible: 'ALL', cep: false,
         features: ['Toutes les classes débloquées (SIL au CM2)', 'Pour tous les enfants de la famille (3 min.)', 'Espace parent', 'Mises à jour incluses'] }
     ];
     if ((classeActuelle === 'CM1' || classeActuelle === 'CM2') && !hasAccesCepAuto()) {
-      tiers.push({ name: 'CEP — Examen blanc', duration: '12 mois', price: PRIX_CEP, popular: false,
-        features: ['Épreuves blanches CEP', 'Corrections détaillées', 'Spécial CM2'] });
+      tiers.push({ name: 'CEP — Examen blanc', duration: '12 mois', price: PRIX_CEP, popular: false, id: 'annee', classeCible: classeActuelle, cep: true,
+        features: ['Épreuves blanches CEP', 'Corrections détaillées', 'Spécial CM1/CM2'] });
     }
-    tiers.forEach(t => {
+    window.__ejTiers = tiers;
+    tiers.forEach((t, __idx) => {
       html += '<div class="tier-card' + (t.popular ? ' popular' : '') + '">';
       html += '<div class="tier-name">' + t.name + '</div>';
       html += '<div class="tier-duration">' + t.duration + '</div>';
       html += '<div class="tier-price">' + t.price + '<span class="tier-price-unit"> FCFA</span></div>';
       html += '<ul class="tier-features">' + t.features.map(f => '<li>' + escapeHTML(f) + '</li>').join('') + '</ul>';
-      html += '<button class="tier-btn' + (t.popular ? ' gold' : '') + '" onclick="initiatePremiumPurchase(\'' + t.name + '\',' + t.price + ')">Choisir ce plan</button>';
+      html += '<button class="tier-btn' + (t.popular ? ' gold' : '') + '" onclick="initiatePremiumPurchase(' + __idx + ')">Choisir ce plan</button>';
       html += '</div>';
     });
 
@@ -6039,28 +6040,126 @@ function renderPremiumScreen() {
   document.getElementById('premiumContent').innerHTML = html;
 }
 
-function initiatePremiumPurchase(plan, price) {
-  var msg = encodeURIComponent(
-    'Bonjour, je souhaite activer le plan ' + plan + ' (' + price + ' FCFA) pour Ecole Joyeuse.\n\n'
-    + 'Prenom de l\'enfant : ...\nClasse : ...\n\n'
-    + 'Merci de m\'indiquer comment effectuer le paiement Mobile Money.'
-  );
-  var waUrl = 'https://wa.me/237690384199?text=' + msg;
-  var modal = document.createElement('div');
+const EJ_CAMPAY_COLLECT_URL = 'https://rgpxvabmghquygvnqlcl.supabase.co/functions/v1/campay-collect';
+const EJ_CAMPAY_VERIFY_URL  = 'https://rgpxvabmghquygvnqlcl.supabase.co/functions/v1/campay-verify';
+
+function initiatePremiumPurchase(tierIdx) {
+  const t = (window.__ejTiers || [])[tierIdx];
+  if (!t) { toast('Erreur : formule introuvable'); return; }
+
+  const modal = document.createElement('div');
   modal.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.6);z-index:9999;display:flex;align-items:flex-end;justify-content:center';
   modal.innerHTML = '<div style="background:#fff;border-radius:20px 20px 0 0;padding:24px 20px 32px;width:100%;max-width:480px">'
-    + '<div style="font-weight:700;font-size:1.1em;margin-bottom:4px">&#11088; Plan ' + plan + ' &mdash; ' + price + ' FCFA</div>'
-    + '<div style="font-size:.85em;color:#666;margin-bottom:18px">Choisissez votre mode de paiement&nbsp;:</div>'
-    + '<a href="' + waUrl + '" target="_blank" style="display:block;background:linear-gradient(135deg,#25D366,#128C7E);color:#fff;border-radius:12px;padding:14px;text-align:center;font-weight:700;font-size:.95em;text-decoration:none;margin-bottom:10px">&#128172; WhatsApp &mdash; Confirmer ma commande</a>'
-    + '<div style="background:#f5f5f5;border-radius:12px;padding:12px 14px;font-size:.82em;margin-bottom:14px">'
-    + '<b>Orange Money&nbsp;:</b> 690 384 199<br>'
-    + '<b>MTN MoMo&nbsp;:</b> 653 571 659<br>'
-    + '<span style="color:#888">Envoyez le montant exact puis cliquez WhatsApp ci-dessus</span>'
+    + '<div style="font-weight:700;font-size:1.1em;margin-bottom:4px">&#11088; ' + escapeHTML(t.name) + ' &mdash; ' + t.price + ' FCFA</div>'
+    + '<div style="font-size:.85em;color:#666;margin-bottom:16px">Entrez vos informations pour payer :</div>'
+    + '<input id="ej-pay-nom" type="text" placeholder="Nom complet" maxlength="100" style="width:100%;padding:12px;margin-bottom:8px;border:1.5px solid #ddd;border-radius:8px;font-size:.95em;box-sizing:border-box;">'
+    + '<input id="ej-pay-tel" type="tel" placeholder="Numéro Mobile Money (ex: 691234567)" maxlength="9" style="width:100%;padding:12px;margin-bottom:8px;border:1.5px solid #ddd;border-radius:8px;font-size:.95em;box-sizing:border-box;">'
+    + '<div style="display:flex;gap:8px;margin-bottom:14px;">'
+    + '<button id="ej-pay-mtn" onclick="ejChoisirOperateur(\'mtn\')" style="flex:1;padding:10px;border:2px solid #ddd;border-radius:8px;font-weight:700;font-size:.85em;background:#fff;cursor:pointer;">MTN MoMo</button>'
+    + '<button id="ej-pay-orange" onclick="ejChoisirOperateur(\'orange\')" style="flex:1;padding:10px;border:2px solid #ddd;border-radius:8px;font-weight:700;font-size:.85em;background:#fff;cursor:pointer;">Orange Money</button>'
     + '</div>'
-    + '<button onclick="this.parentNode.parentNode.remove()" style="width:100%;padding:12px;border-radius:12px;background:#eee;font-size:.9em;font-weight:600;border:none;cursor:pointer">Fermer</button>'
+    + '<div id="ej-pay-msg" style="font-size:.8em;color:#c0392b;margin-bottom:10px;min-height:1em;"></div>'
+    + '<button id="ej-pay-submit" onclick="ejLancerPaiementCamPay(' + tierIdx + ')" style="width:100%;padding:14px;border-radius:12px;background:linear-gradient(135deg,var(--vert-moyen),var(--vert-fonce));color:#fff;font-weight:700;font-size:.95em;border:none;cursor:pointer;margin-bottom:8px;">Payer ' + t.price + ' FCFA</button>'
+    + '<button onclick="this.parentNode.parentNode.remove()" style="width:100%;padding:12px;border-radius:12px;background:#eee;font-size:.9em;font-weight:600;border:none;cursor:pointer">Annuler</button>'
     + '</div>';
   document.body.appendChild(modal);
   modal.addEventListener('click', function(e){ if(e.target === modal) modal.remove(); });
+  window.__ejOperateurChoisi = null;
+}
+
+function ejChoisirOperateur(op) {
+  window.__ejOperateurChoisi = op;
+  const mtn = document.getElementById('ej-pay-mtn'), orange = document.getElementById('ej-pay-orange');
+  if (mtn) mtn.style.cssText = mtn.style.cssText.replace(/border:[^;]+;/, op === 'mtn' ? 'border:2px solid #ffcb05;background:#fffbea;' : 'border:2px solid #ddd;');
+  if (orange) orange.style.cssText = orange.style.cssText.replace(/border:[^;]+;/, op === 'orange' ? 'border:2px solid #ff6600;background:#fff2ea;' : 'border:2px solid #ddd;');
+}
+
+async function ejLancerPaiementCamPay(tierIdx) {
+  const t = (window.__ejTiers || [])[tierIdx];
+  const nom = (document.getElementById('ej-pay-nom').value || '').trim();
+  const tel = (document.getElementById('ej-pay-tel').value || '').trim();
+  const msgEl = document.getElementById('ej-pay-msg');
+  const btn = document.getElementById('ej-pay-submit');
+
+  if (nom.length < 3) { msgEl.textContent = 'Entrez votre nom complet.'; return; }
+  if (!/^[0-9]{9}$/.test(tel)) { msgEl.textContent = 'Numéro invalide (9 chiffres).'; return; }
+  if (!window.__ejOperateurChoisi) { msgEl.textContent = 'Choisissez MTN ou Orange.'; return; }
+  if (!navigator.onLine) { msgEl.textContent = 'Connexion internet requise.'; return; }
+
+  msgEl.textContent = '';
+  btn.disabled = true;
+  btn.textContent = 'Connexion en cours…';
+
+  try {
+    const resp = await fetch(EJ_CAMPAY_COLLECT_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        nom, phone: tel, operateur: window.__ejOperateurChoisi,
+        plan: t.id, classe: t.classeCible, cep: t.cep,
+      }),
+    });
+    const data = await resp.json();
+    if (!resp.ok || !data.campay_reference) {
+      if (resp.status === 429) throw new Error('Trop de tentatives. Réessayez dans 10 minutes.');
+      throw new Error(data.error || 'Erreur de connexion au paiement.');
+    }
+    ejAttendreConfirmationCamPay(data.campay_reference, t);
+  } catch (err) {
+    msgEl.textContent = err.message || 'Erreur réseau, réessayez.';
+    btn.disabled = false;
+    btn.textContent = 'Payer ' + t.price + ' FCFA';
+  }
+}
+
+function ejAttendreConfirmationCamPay(reference, t) {
+  const modal = document.querySelector('#ej-pay-submit')?.closest('div[style*="position:fixed"]')
+    || document.body.lastElementChild;
+  modal.innerHTML = '<div style="background:#fff;border-radius:20px;padding:32px 24px;width:90%;max-width:420px;text-align:center;">'
+    + '<div style="width:44px;height:44px;border:4px solid #eee;border-top-color:var(--vert-moyen);border-radius:50%;margin:0 auto 16px;animation:ejspin .8s linear infinite;"></div>'
+    + '<div style="font-weight:700;margin-bottom:8px;">Vérification du paiement…</div>'
+    + '<div style="font-size:.85em;color:#666;">Validez la demande reçue sur votre téléphone.</div>'
+    + '</div>'
+    + '<style>@keyframes ejspin{to{transform:rotate(360deg)}}</style>';
+
+  let tentatives = 0;
+  const MAX = 30;
+  const poll = async () => {
+    tentatives++;
+    try {
+      const r = await fetch(EJ_CAMPAY_VERIFY_URL, {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ campay_reference: reference }),
+      });
+      const data = await r.json();
+      if (data.status === 'SUCCESSFUL' && data.code) {
+        lsSet('ej_premium', {
+          active: true, plan: t.id, classe: t.classeCible,
+          expiry: data.expires_at || null, code: data.code,
+        });
+        modal.querySelector('div').innerHTML = '<div style="font-size:2em;margin-bottom:10px;">✅</div>'
+          + '<div style="font-weight:700;color:var(--vert-fonce);margin-bottom:6px;">Paiement confirmé !</div>'
+          + '<div style="font-size:.85em;color:#666;">Votre accès est activé.</div>';
+        setTimeout(() => location.reload(), 1800);
+        return;
+      }
+      if (data.status === 'FAILED') {
+        modal.remove();
+        toast('Paiement échoué ou annulé. Réessayez.');
+        return;
+      }
+      if (tentatives >= MAX) {
+        modal.remove();
+        toast('Vérification trop longue. Si vous avez payé, contactez le support avec la référence ' + reference);
+        return;
+      }
+      setTimeout(poll, 4000);
+    } catch (e) {
+      if (tentatives >= MAX) { modal.remove(); toast('Erreur réseau, réessayez.'); return; }
+      setTimeout(poll, 4000);
+    }
+  };
+  poll();
 }
 
 // ─── CODE DEV RJV2025 (7 taps sur le logo splash) ───
