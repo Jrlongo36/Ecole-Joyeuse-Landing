@@ -5941,9 +5941,11 @@ async function ejActiverCode() {
 }
 
 function renderPremiumScreen() {
-  const IS_NATIVE_APP = !!(window.Capacitor &&
-    window.Capacitor.isNativePlatform &&
-    window.Capacitor.isNativePlatform());
+  const IS_NATIVE_APP = !!(
+    (window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform())
+    || window.cordova
+    || (typeof location !== 'undefined' && location.protocol === 'file:')
+  );
 
   const active = isPremiumActive();
   const premiumData = lsGet('ej_premium', null);
