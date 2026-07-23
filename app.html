@@ -3656,7 +3656,13 @@ function countLeconsInDiscipline(d) {
 }
 
 async function openClasse(classe) {
-  // Vérification freemium en premier (sauf si premium actif via code RJV2025)
+  // Test de niveau toujours gratuit, même classe verrouillée (aperçu avant achat Premium)
+  if (shouldRequireTestNiveau(classe)) {
+    APP.nav.classe = classe;
+    await openTestNiveau(classe);
+    return;
+  }
+  // Vérification freemium (sauf si premium actif via code RJV2025)
   if (isClasseLocked(classe)) {
     showScreen('premiumScreen');
     renderPremiumScreen();
@@ -3669,11 +3675,6 @@ async function openClasse(classe) {
     if (!ok) { toast('Impossible de charger ' + classe, 3000); return; }
   }
   APP.nav.classe = classe;
-  // Test de niveau obligatoire à la 1ère connexion (sauf SIL)
-  if (shouldRequireTestNiveau(classe)) {
-    await openTestNiveau(classe);
-    return;
-  }
   showScreen('levelScreen');
   renderLevelScreen();
 }
@@ -5226,16 +5227,19 @@ function showTestNivResults() {
 
 function testNiveauContinue() {
   const statut = document.getElementById('testNivCtaBtn').dataset.statut;
-  if (statut === 'reprendre') {
-    APP.nav.classe = _testNivState.classePrec;
-    showScreen('levelScreen');
-    renderLevelScreen();
-  } else {
-    APP.nav.classe = _testNivState.classeCible;
-    showScreen('levelScreen');
-    renderLevelScreen();
-  }
+  const cible = (statut === 'reprendre') ? _testNivState.classePrec : _testNivState.classeCible;
   _testNivState = null;
+  // Après le test gratuit, la classe cible reste soumise au verrou freemium
+  if (isClasseLocked(cible)) {
+    APP.nav.classe = cible;
+    showScreen('premiumScreen');
+    renderPremiumScreen();
+    toast('Test terminé ! Passe Premium pour débloquer ' + cible, 3000);
+    return;
+  }
+  APP.nav.classe = cible;
+  showScreen('levelScreen');
+  renderLevelScreen();
 }
 
 function testNiveauRetry() {
