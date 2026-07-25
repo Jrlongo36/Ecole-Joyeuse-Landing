@@ -3575,10 +3575,7 @@ function renderDashboard() {
     extrasBlock.style.cssText = 'margin: 18px 14px 0; display:grid; grid-template-columns: 1fr 1fr; gap:10px;';
     grid.parentNode.appendChild(extrasBlock);
   }
-  const showCepBtn = ['CM1', 'CM2'].includes(APP.profile.classe) && (hasAccesCepAuto() || (function(){
-    const p = lsGet('ej_premium', null);
-    return p && p.active && (p.plan === 'cep' || p.plan === 'cep_solo' || p.plan === 'cep_prep' || p.plan === 'CEP' || p.plan === 'CEP — Examen blanc');
-  })());
+  const showCepBtn = isCepUnlocked() || ['CM1', 'CM2'].includes(APP.profile.classe);
   const showConcoursBtn = APP.profile.classe === 'CM2';
   let accessHTML = '';
   if (showCepBtn) {
@@ -5910,6 +5907,13 @@ function hasAccesCepAuto() {
   return classeOk && planOk;
 }
 
+function isCepUnlocked() {
+  if (DEV_MODE_UNLOCK_ALL) return true;
+  if (hasAccesCepAuto()) return true;
+  const p = lsGet('ej_premium', null);
+  return !!(p && p.active && (p.cep === true || p.plan === 'cep' || p.plan === 'cep_solo' || p.plan === 'cep_prep' || p.plan === 'CEP' || p.plan === 'CEP — Examen blanc' || p.plan === 'cep_autonome'));
+}
+
 async function ejActiverCode() {
   if (!navigator.onLine) {
     toast('Connexion requise pour valider votre code'); return;
@@ -5987,7 +5991,7 @@ function renderPremiumScreen() {
       CM1: { ua: 2000, trimestre: 4500,  an: 9000 },
       CM2: { ua: 2500, trimestre: 5500,  an: 10000 }
     };
-    const PRIX_FAMILLE = { trimestre: 15000, an: 20000 };
+    const PRIX_FAMILLE = { ua: 6000, trimestre: 15000, an: 20000 };
     const PRIX_CEP = 3000;
     const paidClasses = ['CE1', 'CE2', 'CM1', 'CM2'];
     const classeActuelle = (APP.profile && paidClasses.includes(APP.profile.classe)) ? APP.profile.classe : 'CE1';
@@ -6000,14 +6004,16 @@ function renderPremiumScreen() {
         features: ['Classe ' + classeActuelle, 'Trimestre complet (T1, T2 ou T3)', 'Espace parent', 'Sans publicité'] },
       { name: 'Année complète', duration: '12 mois', price: px.an, popular: true, id: 'annee', classeCible: classeActuelle, cep: false,
         features: ['Classe ' + classeActuelle, 'Année complète (tous trimestres)', 'Espace parent', 'Mises à jour incluses'] },
+      { name: 'Famille — 1 UA', duration: '~1 mois · 3 enfants min.', price: PRIX_FAMILLE.ua, popular: false, id: 'ua', classeCible: 'ALL', cep: false,
+        features: ['Toutes les classes débloquées (SIL au CM2)', 'Pour tous les enfants de la famille (3 min.)', 'Espace parent', 'Sans publicité'] },
       { name: 'Famille — Trimestre', duration: '3 mois · 3 enfants min.', price: PRIX_FAMILLE.trimestre, popular: false, id: 'trimestre', classeCible: 'ALL', cep: false,
         features: ['Toutes les classes débloquées (SIL au CM2)', 'Pour tous les enfants de la famille (3 min.)', 'Espace parent', 'Sans publicité'] },
       { name: 'Famille — Année', duration: '12 mois · 3 enfants min.', price: PRIX_FAMILLE.an, popular: false, id: 'annee', classeCible: 'ALL', cep: false,
         features: ['Toutes les classes débloquées (SIL au CM2)', 'Pour tous les enfants de la famille (3 min.)', 'Espace parent', 'Mises à jour incluses'] }
     ];
-    if ((classeActuelle === 'CM1' || classeActuelle === 'CM2') && !hasAccesCepAuto()) {
-      tiers.push({ name: 'CEP — Examen blanc', duration: '12 mois', price: PRIX_CEP, popular: false, id: 'annee', classeCible: classeActuelle, cep: true,
-        features: ['Épreuves blanches CEP', 'Corrections détaillées', 'Spécial CM1/CM2'] });
+    if (!hasAccesCepAuto() && !isCepUnlocked()) {
+      tiers.push({ name: 'CEP — Examen blanc', duration: '12 mois', price: PRIX_CEP, popular: false, id: 'cep', classeCible: 'ALL', cep: true,
+        features: ['10 Épreuves blanches CEP', 'Corrections détaillées', 'Accessible indépendamment de la classe'] });
     }
     window.__ejTiers = tiers;
     tiers.forEach((t, __idx) => {

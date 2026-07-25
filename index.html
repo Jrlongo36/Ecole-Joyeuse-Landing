@@ -121,17 +121,28 @@
 
     /* PRICING */
     .pricing-section { background:linear-gradient(135deg,#F0FFF8 0%,#FFF9E6 100%); padding:4rem 0; }
-    .pricing-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1.5rem; max-width:1000px; margin:0 auto; }
-    .pricing-card { background:#fff; border-radius:16px; padding:1.75rem; text-align:center; box-shadow:0 4px 16px rgba(0,0,0,0.08); border-top:4px solid; }
-    .pricing-card.t1{border-color:#10b981;} .pricing-card.t2{border-color:var(--jaune);}
-    .pricing-card.t3{border-color:var(--vert);border-width:3px;} .pricing-card.t4{border-color:var(--rouge);}
-    .pricing-card.t6{border-color:#1f2937;}
-    .pricing-tier { font-size:0.8em; text-transform:uppercase; letter-spacing:1px; font-weight:700; margin-bottom:0.5rem; color:#6b7280; }
-    .pricing-price { font-size:1.8em; font-weight:900; line-height:1; margin:0.5rem 0; }
-    .pricing-card.t1 .pricing-price{color:#10b981;} .pricing-card.t2 .pricing-price{color:#d97706;}
-    .pricing-card.t3 .pricing-price{color:var(--vert);} .pricing-card.t4 .pricing-price{color:var(--rouge);}
-    .pricing-card.t6 .pricing-price{color:#1f2937;font-size:1.3em;}
-    .pricing-desc { font-size:0.85em; color:#6b7280; margin-top:0.5rem; line-height:1.5; }
+    .pricing-matrix { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:1.5rem; max-width:1100px; margin:2rem auto 1.5rem; }
+    .pricing-class-card { background:#fff; border-radius:16px; box-shadow:0 4px 16px rgba(0,0,0,0.06); border:1px solid #e5e7eb; overflow:hidden; display:flex; flex-direction:column; transition:transform 0.2s ease, box-shadow 0.2s ease; }
+    .pricing-class-card:hover { transform:translateY(-3px); box-shadow:0 8px 24px rgba(0,0,0,0.1); }
+    .pricing-class-card.free { border-top:4px solid #10b981; }
+    .pricing-class-card.family { border-top:4px solid var(--rouge); }
+    .pricing-class-card:not(.free):not(.family) { border-top:4px solid var(--vert); }
+    .pricing-card-header { padding:1.25rem 1.5rem; background:#fafafa; border-bottom:1px solid #f0f0f0; display:flex; justify-content:space-between; align-items:center; }
+    .pricing-card-header h3 { margin:0; font-size:1.3em; font-weight:800; color:#1f2937; }
+    .badge-free { background:#d1fae5; color:#065f46; font-size:0.75em; font-weight:800; padding:0.25rem 0.6rem; border-radius:20px; }
+    .badge-level { color:#6b7280; font-size:0.8em; font-weight:600; }
+    .badge-family { background:#fee2e2; color:#991b1b; font-size:0.75em; font-weight:800; padding:0.25rem 0.6rem; border-radius:20px; }
+    .pricing-card-body { padding:1.25rem 1.5rem; flex:1; display:flex; flex-direction:column; gap:0.75rem; justify-content:center; }
+    .free-desc { color:#4b5563; font-size:0.9em; margin:0; line-height:1.5; }
+    .price-row { display:flex; justify-content:space-between; align-items:center; font-size:0.92em; color:#374151; padding:0.4rem 0; border-bottom:1px dashed #f3f4f6; }
+    .price-row:last-child { border-bottom:none; }
+    .price-row.highlight { background:#f0fdf4; padding:0.5rem 0.6rem; border-radius:8px; border-bottom:none; font-weight:600; }
+    .price-row.highlight strong { color:var(--vert); font-size:1.1em; }
+    .cep-pricing-banner { max-width:1100px; margin:0 auto 1.5rem; background:linear-gradient(135deg, #FFF9E6 0%, #FFF3C4 100%); border:2px solid var(--jaune); border-radius:16px; padding:1.25rem 1.75rem; display:flex; justify-content:space-between; align-items:center; gap:1.5rem; flex-wrap:wrap; }
+    .cep-banner-info h4 { margin:0 0 0.25rem; font-size:1.1em; color:#92400e; font-weight:800; }
+    .cep-banner-info p { margin:0; font-size:0.88em; color:#78350f; }
+    .cep-banner-price strong { font-size:1.8em; font-weight:900; color:#92400e; }
+    .cep-banner-price span { font-size:0.9em; color:#a16207; }
     .pricing-note { text-align:center; margin-top:2rem; font-size:0.9em; color:#6b7280; font-style:italic; }
 
     /* CEP */
@@ -435,19 +446,101 @@
 <!-- TARIFS -->
 <section id="tarifs" class="pricing-section">
   <div class="container">
-    <h2 class="section-title" style="margin-bottom:1rem;">Tarifs Accessibles À Tous</h2>
-    <p class="section-subtitle">Payez uniquement la classe dont votre enfant a besoin.</p>
-    <div class="pricing-grid">
-      <div class="pricing-card t1"><div class="pricing-tier">Par UA</div><div class="pricing-price">1 000 F</div><div class="pricing-desc">1 Unité d'Apprentissage complète<br><em>Idéal pour tester</em></div></div>
-      <div class="pricing-card t2"><div class="pricing-tier">Par Trimestre</div><div class="pricing-price">2 500 F</div><div class="pricing-desc">T1, T2 ou T3 d'une classe<br><em>Idéal en cours d'année</em></div></div>
-      <div class="pricing-card t3">
-        <div style="background:var(--vert);color:#fff;font-size:0.7em;font-weight:800;padding:0.2rem 0.75rem;border-radius:20px;display:inline-block;margin-bottom:0.5rem;">MEILLEURE VALEUR</div>
-        <div class="pricing-tier">Classe Annuelle</div><div class="pricing-price">5 000 F</div><div class="pricing-desc">1 classe complète, toute l'année<br><em>Toutes UA + tous trimestres</em></div>
+    <h2 class="section-title" style="margin-bottom:0.5rem;">Tarifs Accessibles À Tous</h2>
+    <p class="section-subtitle">Grille officielle échelonnée par classe · Payez uniquement la classe dont votre enfant a besoin.</p>
+    
+    <!-- Grille par Classe -->
+    <div class="pricing-matrix">
+      <!-- Card SIL / CP -->
+      <div class="pricing-class-card free">
+        <div class="pricing-card-header">
+          <h3>SIL &amp; CP</h3>
+          <span class="badge-free">100% GRATUIT</span>
+        </div>
+        <div class="pricing-card-body">
+          <p class="free-desc">Accès gratuit et permanent à l'intégralité du programme officiel SIL et CP (100% des leçons, quiz et tests).</p>
+          <div class="price-row highlight"><span>Toutes UA / Trimestres / Année</span> <strong>0 FCFA</strong></div>
+        </div>
       </div>
-      <div class="pricing-card t4"><div class="pricing-tier">Famille</div><div class="pricing-price">12 000 F</div><div class="pricing-desc">3 enfants et plus, toutes classes<br><em>Économie maximale</em></div></div>
-      <div class="pricing-card t6"><div class="pricing-tier">École / Institution</div><div class="pricing-price">Sur devis</div><div class="pricing-desc">Contrats écoles, ONG, MINEDUB<br><em>Tarifs préférentiels</em></div></div>
+
+      <!-- Card CE1 -->
+      <div class="pricing-class-card">
+        <div class="pricing-card-header">
+          <h3>CE1</h3>
+          <span class="badge-level">Cours Élémentaire 1ère année</span>
+        </div>
+        <div class="pricing-card-body">
+          <div class="price-row"><span>1 Unité d'Apprentissage (UA)</span> <strong>1 000 F</strong></div>
+          <div class="price-row"><span>1 Trimestre (T1, T2 ou T3)</span> <strong>2 500 F</strong></div>
+          <div class="price-row highlight"><span>Année Complète (Toutes UA)</span> <strong>5 000 F</strong></div>
+        </div>
+      </div>
+
+      <!-- Card CE2 -->
+      <div class="pricing-class-card">
+        <div class="pricing-card-header">
+          <h3>CE2</h3>
+          <span class="badge-level">Cours Élémentaire 2e année</span>
+        </div>
+        <div class="pricing-card-body">
+          <div class="price-row"><span>1 Unité d'Apprentissage (UA)</span> <strong>1 500 F</strong></div>
+          <div class="price-row"><span>1 Trimestre (T1, T2 ou T3)</span> <strong>3 500 F</strong></div>
+          <div class="price-row highlight"><span>Année Complète (Toutes UA)</span> <strong>7 000 F</strong></div>
+        </div>
+      </div>
+
+      <!-- Card CM1 -->
+      <div class="pricing-class-card">
+        <div class="pricing-card-header">
+          <h3>CM1</h3>
+          <span class="badge-level">Cours Moyen 1ère année</span>
+        </div>
+        <div class="pricing-card-body">
+          <div class="price-row"><span>1 Unité d'Apprentissage (UA)</span> <strong>2 000 F</strong></div>
+          <div class="price-row"><span>1 Trimestre (T1, T2 ou T3)</span> <strong>4 500 F</strong></div>
+          <div class="price-row highlight"><span>Année Complète (Toutes UA)</span> <strong>9 000 F</strong></div>
+        </div>
+      </div>
+
+      <!-- Card CM2 -->
+      <div class="pricing-class-card">
+        <div class="pricing-card-header">
+          <h3>CM2</h3>
+          <span class="badge-level">Cours Moyen 2e année</span>
+        </div>
+        <div class="pricing-card-body">
+          <div class="price-row"><span>1 Unité d'Apprentissage (UA)</span> <strong>2 500 F</strong></div>
+          <div class="price-row"><span>1 Trimestre (T1, T2 ou T3)</span> <strong>5 500 F</strong></div>
+          <div class="price-row highlight"><span>Année Complète (Toutes UA)</span> <strong>10 000 F</strong></div>
+        </div>
+      </div>
+
+      <!-- Card FAMILLE -->
+      <div class="pricing-class-card family">
+        <div class="pricing-card-header">
+          <h3>Formule Famille</h3>
+          <span class="badge-family">3 enfants et + · Toutes classes</span>
+        </div>
+        <div class="pricing-card-body">
+          <div class="price-row"><span>Famille — 1 UA</span> <strong>6 000 F</strong></div>
+          <div class="price-row"><span>Famille — Trimestre</span> <strong>15 000 F</strong></div>
+          <div class="price-row highlight"><span>Famille — Année Complète</span> <strong>20 000 F</strong></div>
+        </div>
+      </div>
     </div>
-    <p class="pricing-note">💡 Tous les tarifs sont en Francs CFA · Orange Money ou MTN MoMo uniquement</p>
+
+    <!-- Banner CEP Autonome -->
+    <div class="cep-pricing-banner">
+      <div class="cep-banner-info">
+        <h4>🎓 Module Autonome CEP — Préparation Examen Blanc</h4>
+        <p>10 épreuves blanches complètes avec corrections détaillées pour l'examen officiel du CEP. Accessible indépendamment de la classe.</p>
+      </div>
+      <div class="cep-banner-price">
+        <strong>3 000 F</strong> <span>/ an</span>
+      </div>
+    </div>
+
+    <p class="pricing-note">Tous les tarifs sont en Francs CFA (XAF) · Orange Money ou MTN MoMo uniquement</p>
   </div>
 </section>
 
