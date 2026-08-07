@@ -166,6 +166,39 @@ input, select, textarea { font-family: inherit; font-size: 1em; }
 .profile-header { text-align: center; padding: 16px 0 24px; }
 .profile-header h1 { font-size: 1.8em; margin-bottom: 6px; }
 .profile-header p { opacity: .85; font-size: .95em; }
+
+/* ════════════════════════════════════════════════════════════
+   PROFILE SELECTOR (multi-profils, Android/natif uniquement)
+   ════════════════════════════════════════════════════════════ */
+#profileSelectorScreen {
+  background: linear-gradient(135deg, #007A5E, #005A45);
+  color: #fff;
+  padding: 24px 20px 40px;
+  min-height: 100vh;
+}
+.profile-select-card {
+  background: #fff;
+  color: var(--text-1);
+  border-radius: 16px;
+  padding: 18px 10px;
+  text-align: center;
+  box-shadow: var(--shadow-card);
+  cursor: pointer;
+  position: relative;
+  transition: transform .15s ease;
+}
+.profile-select-card:active { transform: scale(.96); }
+.profile-select-avatar { font-size: 2.2em; margin-bottom: 8px; }
+.profile-select-name { font-weight: 700; font-size: 1em; }
+.profile-select-classe { font-size: .8em; opacity: .65; margin-top: 2px; }
+.profile-select-add { opacity: .85; border: 2px dashed #ccc; box-shadow: none; }
+.profile-select-del {
+  position: absolute; top: 6px; right: 8px;
+  font-size: .8em; color: #ef4444; opacity: .6;
+  width: 22px; height: 22px; line-height: 22px;
+}
+.profile-select-del:active { opacity: 1; }
+
 .profile-card {
   background: #fff;
   color: var(--text-1);
@@ -2111,12 +2144,31 @@ input, select, textarea { font-family: inherit; font-size: 1em; }
       <label>Ton avatar</label>
       <div class="avatar-grid" id="avatarGrid"></div>
 
+      <label>Ta photo de profil (facultatif)</label>
+      <div class="photo-upload-container" style="display:flex;align-items:center;gap:10px;margin-bottom:18px;flex-wrap:wrap;">
+        <div id="profilePhotoPreview" style="width:60px;height:60px;border-radius:50%;background:#e5e7eb;display:flex;align-items:center;justify-content:center;font-size:1.8em;color:#9ca3af;overflow:hidden;border:2px solid var(--vert-primaire);">👤</div>
+        <button type="button" class="btn-secondary" onclick="document.getElementById('profilePhotoInput').click()" style="padding:8px 14px;font-size:0.85em;border-radius:8px;border:1.5px solid #ddd;background:#fff;font-weight:600;cursor:pointer;color:#333;">Choisir une photo</button>
+        <button type="button" class="btn-secondary" onclick="document.getElementById('profilePhotoCameraInput').click()" style="padding:8px 14px;font-size:0.85em;border-radius:8px;border:1.5px solid #ddd;background:#fff;font-weight:600;cursor:pointer;color:#333;">📸 Prendre un selfie</button>
+        <button type="button" id="btnDeletePhoto" onclick="deleteProfilePhotoDraft()" style="display:none;padding:8px 14px;font-size:0.85em;border-radius:8px;border:1.5px solid #ef4444;background:#fff;color:#ef4444;font-weight:600;cursor:pointer;">Supprimer</button>
+        <input type="file" id="profilePhotoInput" accept="image/*" style="display:none;" onchange="handleProfilePhotoSelect(event)">
+        <input type="file" id="profilePhotoCameraInput" accept="image/*" capture="user" style="display:none;" onchange="handleProfilePhotoSelect(event)">
+      </div>
+
       <label>Ta classe</label>
       <div class="classe-grid" id="classeGrid"></div>
 
       <button class="btn-primary" id="profileSubmit" onclick="createProfile()" disabled>Commencer →</button>
       <div id="profileHint" style="text-align:center;margin-top:12px;font-size:.85em;color:var(--text-3);min-height:18px">👆 Tape ton prénom, choisis un avatar et ta classe</div>
     </div>
+  </div>
+
+  <!-- ═══════════ PROFILE SELECTOR (ANDROID/NATIF UNIQUEMENT) ═══════════ -->
+  <div id="profileSelectorScreen" class="screen">
+    <div class="profile-header">
+      <h1>👨‍👩‍👧‍👦 Qui utilise l'app ?</h1>
+      <p>Choisis ton profil ou ajoute un enfant</p>
+    </div>
+    <div id="profileSelectorGrid" style="display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:16px;"></div>
   </div>
 
   <!-- ═══════════ DASHBOARD ═══════════ -->
@@ -2127,7 +2179,7 @@ input, select, textarea { font-family: inherit; font-size: 1em; }
           <div class="dash-hello">Bonjour 👋</div>
           <div class="dash-name" id="dashName">—</div>
         </div>
-        <div class="dash-avatar" id="dashAvatar">👤</div>
+        <div class="dash-avatar" id="dashAvatar" onclick="openProfileSelectorFromDashboard()">👤</div>
       </div>
       <div class="dash-xp-bar"><div class="dash-xp-fill" id="dashXpFill" style="width:0%"></div></div>
       <div class="dash-xp-label" id="dashXpLabel">0 XP · Niveau 1</div>
@@ -2519,31 +2571,342 @@ function lsSet(key, val) {
   try { localStorage.setItem(key, JSON.stringify(val)); } catch(e) {}
 }
 
-/* ── Accès QA/testeur (03/07/2026) ──
-   Lien secret, jamais affiché ni lié dans l'interface : ouvrir
-   app.html?qa=EJ-QA-2026-DOUALA-7F3K9 débloque le premium sur cet
-   appareil, pour vérifier les classes payantes sans payer. Rien de
-   visible pour un utilisateur normal — remplace l'ancien menu caché
-   (5 taps logo) supprimé aujourd'hui, qui était public/découvrable. */
-(function activerAccesQA() {
-  const QA_TOKEN = 'EJ-QA-2026-DOUALA-7F3K9';
-  try {
-    const params = new URLSearchParams(location.search);
-    const qa = params.get('qa');
-    if (qa && qa === QA_TOKEN) {
-      lsSet('ej_premium', { active: true, plan: 'Accès QA interne', activatedVia: 'qa-link', expiry: null });
-      history.replaceState({}, '', location.pathname + location.hash);
-    }
-  } catch(e) {}
-})();
+/* ════════════════════════════════════════════════════════════════
+   MULTI-PROFILS — ANDROID/NATIF UNIQUEMENT, JAMAIS SUR LE SITE WEB
+   Ajouté 29/07/2026. Le site web (ecolejoyeuse.pages.dev) continue de
+   fonctionner en profil unique, comportement inchangé (branches
+   IS_NATIVE_APP ci-dessous). La couche progression/badges/streak/photo
+   était déjà scindée par kid_id : rien à migrer de ce côté.
+   ════════════════════════════════════════════════════════════════ */
+const IS_NATIVE_APP = !!(
+  (window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform())
+  || window.cordova
+  || (typeof location !== 'undefined' && location.protocol === 'file:')
+);
+const MAX_PROFILES = 6;
+const MIN_PROFILE_SLOTS = 3;
 
-function loadProfile() { return lsGet('ej_profile', null); }
-function saveProfile(p) { lsSet('ej_profile', p); APP.profile = p; }
+function loadProfilesRegistry() { return lsGet('ej_profiles', []); }
+function saveProfilesRegistry(list) { lsSet('ej_profiles', list); }
+function getActiveProfileId() { return lsGet('ej_active_profile_id', null); }
+function setActiveProfileId(id) { lsSet('ej_active_profile_id', id); }
+
+// La licence Famille (classe:'ALL') est la SEULE licence qui autorise plus
+// d'un profil enfant — conforme à la formule vendue "3 enfants min.".
+// Sans licence Famille active (aucune licence, ou licence classe unique),
+// l'app reste à 1 seul profil.
+function hasFamilleLicense() {
+  if (DEV_MODE_UNLOCK_ALL) return true; // appareil de test entierement debloque
+  const p = lsGet('ej_premium', null);
+  if (!p || !p.active || p.classe !== 'ALL') return false;
+  if (p.expiry && new Date(p.expiry) < new Date()) return false;
+  return true;
+}
+
+// Migre l'ancien profil unique (ej_profile) vers le registre multi-profils,
+// une seule fois, sans perte : la progression/badges/streak/photo sont
+// déjà stockées par kid_id, rien à toucher de ce côté.
+function migrateToMultiProfile() {
+  const existing = loadProfilesRegistry();
+  if (existing && existing.length) return;
+  const legacy = loadProfile();
+  if (legacy && legacy.id) {
+    saveProfilesRegistry([legacy]);
+    setActiveProfileId(legacy.id);
+  }
+}
+
+// Ajoute un profil nouvellement créé au registre multi-profils et l'active.
+function addProfileToRegistry(p) {
+  const list = loadProfilesRegistry();
+  if (!list.find(x => x.id === p.id)) { list.push(p); saveProfilesRegistry(list); }
+  setActiveProfileId(p.id);
+}
+
+// Active un profil existant du registre : mirroring dans ej_profile pour
+// compatibilité avec tout le code existant (APP.profile / loadProfile()).
+async function activateProfile(id) {
+  const list = loadProfilesRegistry();
+  const p = list.find(x => x.id === id);
+  if (!p) { toast('Profil introuvable'); return; }
+  saveProfile(p);
+  setActiveProfileId(p.id);
+  APP.profile = p;
+  if (p.classe && CLASSES.includes(p.classe) && (!APP.curriculum || !APP.curriculum[p.classe])) {
+    toast('Chargement du programme ' + p.classe + '…', 2000);
+    const ok = await loadCurriculumForClass(p.classe);
+    if (!ok) { toast('❌ Impossible de charger le programme. Vérifie ta connexion.', 4000); return; }
+  }
+  showScreen('dashboardScreen');
+  renderDashboard();
+}
+
+// Supprime définitivement un profil du registre (et toutes ses données).
+async function deleteProfileById(id) {
+  if (!confirm('Supprimer COMPLÈTEMENT ce profil enfant et toutes ses données ? Cette action est irréversible.')) return;
+  if (!confirm('Confirmez-vous ? Le nom, la photo et la progression de cet enfant seront supprimés.')) return;
+  try { await deletePhoto(id); } catch(err) { console.error('Erreur suppression photo:', err); }
+  for (const c of CLASSES) {
+    localStorage.removeItem('ej_progress_' + id + '_' + c);
+    localStorage.removeItem('ej_niveau_test_' + id + '_' + c);
+  }
+  localStorage.removeItem('ej_badges_' + id);
+  localStorage.removeItem('ej_streak_' + id);
+  let list = loadProfilesRegistry().filter(x => x.id !== id);
+  saveProfilesRegistry(list);
+  if (getActiveProfileId() === id) {
+    setActiveProfileId(null);
+    localStorage.removeItem('ej_profile');
+    APP.profile = null;
+  }
+  toast('✓ Profil supprimé');
+  renderProfileSelector();
+}
+
+// Écran "Qui utilise l'app ?" : profils existants + emplacements vides
+// jusqu'à MIN_PROFILE_SLOTS (3 minimum), UNIQUEMENT si licence Famille
+// active. Sans licence Famille, un seul profil est autorisé.
+function renderProfileSelector() {
+  const list = loadProfilesRegistry();
+  const wrap = document.getElementById('profileSelectorGrid');
+  if (!wrap) return;
+  const famille = hasFamilleLicense();
+  let html = '';
+  list.forEach(p => {
+    html += '<div class="profile-select-card" onclick="activateProfile(\'' + p.id + '\')">';
+    html += '<div class="profile-select-avatar">' + (p.avatar || '👤') + '</div>';
+    html += '<div class="profile-select-name">' + escapeHTML(p.prenom || '') + '</div>';
+    html += '<div class="profile-select-classe">' + (p.classe || '') + '</div>';
+    html += '<div class="profile-select-del" onclick="event.stopPropagation(); deleteProfileById(\'' + p.id + '\')" title="Supprimer">✕</div>';
+    html += '</div>';
+  });
+  if (famille) {
+    const canAdd = list.length < MAX_PROFILES;
+    const emptySlots = Math.max(MIN_PROFILE_SLOTS - list.length, canAdd ? 1 : 0);
+    for (let i = 0; i < emptySlots && (list.length + i) < MAX_PROFILES; i++) {
+      html += '<div class="profile-select-card profile-select-add" onclick="openAddProfileFromSelector()">';
+      html += '<div class="profile-select-avatar">➕</div>';
+      html += '<div class="profile-select-name">Ajouter un enfant</div>';
+      html += '</div>';
+    }
+  } else if (list.length === 0) {
+    // Aucun profil et pas de licence Famille : un seul emplacement, gratuit.
+    html += '<div class="profile-select-card profile-select-add" onclick="openAddProfileFromSelector()">';
+    html += '<div class="profile-select-avatar">➕</div>';
+    html += '<div class="profile-select-name">Ajouter un enfant</div>';
+    html += '</div>';
+  } else {
+    // 1 profil déjà présent, pas de licence Famille : proposer la mise à niveau.
+    html += '<div class="profile-select-card profile-select-add" onclick="showScreen(\'premiumScreen\');renderPremiumScreen();" style="opacity:.85">';
+    html += '<div class="profile-select-avatar">🔒</div>';
+    html += '<div class="profile-select-name">Formule Famille pour ajouter d\'autres enfants</div>';
+    html += '</div>';
+  }
+  wrap.innerHTML = html;
+}
+
+// Ouvre la création de profil depuis le sélecteur (réutilise l'écran existant).
+// Bloque l'ajout d'un 2e enfant sans licence Famille active.
+function openAddProfileFromSelector() {
+  const list = loadProfilesRegistry();
+  if (!hasFamilleLicense() && list.length >= 1) {
+    toast('Passe à la formule Famille pour ajouter plus d\'un enfant');
+    showScreen('premiumScreen');
+    renderPremiumScreen();
+    return;
+  }
+  showScreen('profileScreen');
+  initProfileScreen();
+}
+
+// Point d'entrée depuis le dashboard (avatar cliqué ou bouton dédié).
+function openProfileSelectorFromDashboard() {
+  if (!IS_NATIVE_APP) return;
+  showScreen('profileSelectorScreen');
+  renderProfileSelector();
+}
+
+/* ── IndexedDB pour stockage local des photos ── */
+const EJ_DB_NAME = 'ej_local_db';
+const EJ_DB_VERSION = 1;
+const EJ_STORE_NAME = 'photos';
+
+function getEjDB() {
+  return new Promise((resolve, reject) => {
+    const request = indexedDB.open(EJ_DB_NAME, EJ_DB_VERSION);
+    request.onupgradeneeded = function(e) {
+      const db = e.target.result;
+      if (!db.objectStoreNames.contains(EJ_STORE_NAME)) {
+        db.createObjectStore(EJ_STORE_NAME);
+      }
+    };
+    request.onsuccess = function(e) { resolve(e.target.result); };
+    request.onerror = function(e) { reject(e.target.error); };
+  });
+}
+
+async function savePhoto(idEnfant, dataUrl) {
+  try {
+    const db = await getEjDB();
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction(EJ_STORE_NAME, 'readwrite');
+      const store = tx.objectStore(EJ_STORE_NAME);
+      const request = store.put(dataUrl, idEnfant);
+      request.onsuccess = () => resolve();
+      request.onerror = () => reject(request.error);
+    });
+  } catch(e) {
+    console.error('savePhoto error', e);
+  }
+}
+
+async function getPhoto(idEnfant) {
+  try {
+    const db = await getEjDB();
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction(EJ_STORE_NAME, 'readonly');
+      const store = tx.objectStore(EJ_STORE_NAME);
+      const request = store.get(idEnfant);
+      request.onsuccess = () => resolve(request.result);
+      request.onerror = () => reject(request.error);
+    });
+  } catch(e) {
+    console.error('getPhoto error', e);
+    return null;
+  }
+}
+
+async function deletePhoto(idEnfant) {
+  try {
+    const db = await getEjDB();
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction(EJ_STORE_NAME, 'readwrite');
+      const store = tx.objectStore(EJ_STORE_NAME);
+      const request = store.delete(idEnfant);
+      request.onsuccess = () => resolve();
+      request.onerror = () => reject(request.error);
+    });
+  } catch(e) {
+    console.error('deletePhoto error', e);
+  }
+}
+
+/* ── Compression image et nettoyage EXIF ── */
+function compressAndStripImage(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = function(e) {
+      const img = new Image();
+      img.onload = function() {
+        const canvas = document.createElement('canvas');
+        let width = img.width;
+        let height = img.height;
+        const MAX_SIZE = 400;
+        if (width > height) {
+          if (width > MAX_SIZE) {
+            height *= MAX_SIZE / width;
+            width = MAX_SIZE;
+          }
+        } else {
+          if (height > MAX_SIZE) {
+            width *= MAX_SIZE / height;
+            height = MAX_SIZE;
+          }
+        }
+        canvas.width = width;
+        canvas.height = height;
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0, width, height);
+        const compressedDataUrl = canvas.toDataURL('image/jpeg', 0.75);
+        resolve(compressedDataUrl);
+      };
+      img.onerror = reject;
+      img.src = e.target.result;
+    };
+    reader.onerror = reject;
+    reader.readAsDataURL(file);
+  });
+}
+
+async function ejVerifierPremiumEnLigne() {
+  const p = lsGet('ej_premium', null);
+  if (!p || !p.code || !navigator.onLine) return;
+  const EJ_SB_URL = 'https://rgpxvabmghquygvnqlcl.supabase.co';
+  const EJ_SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJncHh2YWJtZ2hxdXlndm5xbGNsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE1OTk3NDMsImV4cCI6MjA5NzE3NTc0M30.J19m1FORLTlzVX3MmBGngGdYx3NqK0GR-5IIuEzJb0I';
+  try {
+    const r = await fetch(EJ_SB_URL + '/rest/v1/rpc/verify_activation_code', {
+      method: 'POST',
+      headers: {
+        apikey: EJ_SB_KEY,
+        Authorization: 'Bearer ' + EJ_SB_KEY,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ input_code: p.code })
+    });
+    if (!r.ok) return;
+    const data = await r.json();
+    const result = data && data[0];
+    if (result && result.is_valid) {
+      p.active = true;
+      p.plan = result.plan;
+      p.classe = result.classe;
+      p.expiry = result.expires_at;
+      lsSet('ej_premium', p);
+    } else {
+      localStorage.removeItem('ej_premium');
+      toast('Abonnement premium expiré ou invalide');
+      setTimeout(() => location.reload(), 1500);
+    }
+  } catch(e) {
+    console.error('Erreur verification premium', e);
+  }
+}
+
+function loadProfile() {
+  const p = lsGet('ej_profile', null);
+  if (p && !p.id) {
+    p.id = 'kid_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    // Migration de la progression existante pour chaque classe
+    for (const c of CLASSES) {
+      const oldProg = localStorage.getItem('ej_progress_' + c);
+      if (oldProg) {
+        localStorage.setItem('ej_progress_' + p.id + '_' + c, oldProg);
+      }
+      const oldNiveauTest = localStorage.getItem('ej_niveau_test_' + c);
+      if (oldNiveauTest) {
+        localStorage.setItem('ej_niveau_test_' + p.id + '_' + c, oldNiveauTest);
+      }
+    }
+    const oldBadges = localStorage.getItem('ej_badges');
+    if (oldBadges) {
+      localStorage.setItem('ej_badges_' + p.id, oldBadges);
+    }
+    const oldStreak = localStorage.getItem('ej_streak');
+    if (oldStreak) {
+      localStorage.setItem('ej_streak_' + p.id, oldStreak);
+    }
+    saveProfile(p);
+  }
+  return p;
+}
+function saveProfile(p) {
+  if (p && !p.id) {
+    p.id = 'kid_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+  }
+  lsSet('ej_profile', p);
+  APP.profile = p;
+}
 
 function getProgress(classe) {
-  return lsGet('ej_progress_' + classe, { scores: {}, lecons_done: {}, xp: 0 });
+  const p = loadProfile();
+  const idEnfant = p ? p.id : 'default';
+  return lsGet('ej_progress_' + idEnfant + '_' + classe, { scores: {}, lecons_done: {}, xp: 0 });
 }
-function saveProgress(classe, prog) { lsSet('ej_progress_' + classe, prog); }
+function saveProgress(classe, prog) {
+  const p = loadProfile();
+  const idEnfant = p ? p.id : 'default';
+  lsSet('ej_progress_' + idEnfant + '_' + classe, prog);
+}
 function saveLeconScore(classe, leconId, scorePct) {
   const p = getProgress(classe);
   const prev = p.scores[leconId] || 0;
@@ -2585,7 +2948,9 @@ function getLevelInfo(xp) {
 }
 
 function updateStreak() {
-  const s = lsGet('ej_streak', { count: 0, lastDate: null, best: 0 });
+  const p = loadProfile();
+  const idEnfant = p ? p.id : 'default';
+  const s = lsGet('ej_streak_' + idEnfant, { count: 0, lastDate: null, best: 0 });
   const today = new Date().toISOString().split('T')[0];
   if (s.lastDate === today) return s;
   const yest = new Date(); yest.setDate(yest.getDate() - 1);
@@ -2594,10 +2959,14 @@ function updateStreak() {
   else s.count = 1;
   s.lastDate = today;
   if (s.count > (s.best || 0)) s.best = s.count;
-  lsSet('ej_streak', s);
+  lsSet('ej_streak_' + idEnfant, s);
   return s;
 }
-function getStreak() { return lsGet('ej_streak', { count: 0, lastDate: null, best: 0 }); }
+function getStreak() {
+  const p = loadProfile();
+  const idEnfant = p ? p.id : 'default';
+  return lsGet('ej_streak_' + idEnfant, { count: 0, lastDate: null, best: 0 });
+}
 
 /* ─── Définition des badges — système Fournitures × Métaux ─── */
 
@@ -3317,6 +3686,7 @@ async function boot() {
         '✓ Prêt — choisis ta classe pour commencer';
     }
     document.getElementById('splashStartBtn').classList.add('ready');
+    ejVerifierPremiumEnLigne();
   } catch(e) {
     bootError(e);
   }
@@ -3369,6 +3739,21 @@ function bootError(e) {
 }
 
 function bootContinue() {
+  // ── Branche multi-profils (Android/natif uniquement) ──
+  // Le site web ne passe JAMAIS ici : IS_NATIVE_APP est false sur le
+  // navigateur, tout le flux ci-dessous (profil unique) reste inchangé.
+  if (IS_NATIVE_APP) {
+    migrateToMultiProfile();
+    const profiles = loadProfilesRegistry();
+    if (profiles.length > 0) {
+      showScreen('profileSelectorScreen');
+      renderProfileSelector();
+      return;
+    }
+    showScreen('profileScreen');
+    initProfileScreen();
+    return;
+  }
   APP.profile = loadProfile();
   // Cas 1 : profil complet ET classe disponible → dashboard direct
   if (APP.profile && APP.profile.prenom && APP.profile.classe && CLASSES.includes(APP.profile.classe)) {
@@ -3405,9 +3790,49 @@ function bootContinue() {
    PROFILE
    ════════════════════════════════════════════════════════════════ */
 let profileDraft = { prenom: '', avatar: '', classe: '' };
+let profilePhotoDraft = null;
+
+async function handleProfilePhotoSelect(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  try {
+    toast('Traitement de l\'image…', 1500);
+    const compressedDataUrl = await compressAndStripImage(file);
+    profilePhotoDraft = compressedDataUrl;
+    const preview = document.getElementById('profilePhotoPreview');
+    if (preview) {
+      preview.innerHTML = '<img src="' + compressedDataUrl + '" style="width:100%;height:100%;object-fit:cover;">';
+    }
+    const btnDel = document.getElementById('btnDeletePhoto');
+    if (btnDel) btnDel.style.display = 'block';
+    toast('✓ Image chargée et sécurisée');
+  } catch(e) {
+    console.error('Photo error', e);
+    toast('❌ Erreur lors du chargement de la photo');
+  }
+}
+
+function deleteProfilePhotoDraft() {
+  profilePhotoDraft = null;
+  const preview = document.getElementById('profilePhotoPreview');
+  if (preview) preview.innerHTML = '👤';
+  const btnDel = document.getElementById('btnDeletePhoto');
+  if (btnDel) btnDel.style.display = 'none';
+  const input = document.getElementById('profilePhotoInput');
+  if (input) input.value = '';
+}
 
 function initProfileScreen() {
   profileDraft = { prenom: '', avatar: '', classe: '' };
+  profilePhotoDraft = null;
+  
+  const preview = document.getElementById('profilePhotoPreview');
+  if (preview) preview.innerHTML = '👤';
+  const btnDelete = document.getElementById('btnDeletePhoto');
+  if (btnDelete) btnDelete.style.display = 'none';
+  const fileInput = document.getElementById('profilePhotoInput');
+  if (fileInput) fileInput.value = '';
+
   const avGrid = document.getElementById('avatarGrid');
   avGrid.innerHTML = AVATARS.map((a,i) =>
     '<div class="avatar-opt" data-av="' + a + '" onclick="pickAvatar(\'' + a + '\')">' + a + '</div>'
@@ -3474,6 +3899,7 @@ function updateProfileBtn() {
 
 async function createProfile() {
   const p = {
+    id: 'kid_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9),
     prenom: profileDraft.prenom,
     avatar: profileDraft.avatar,
     classe: profileDraft.classe,
@@ -3492,6 +3918,12 @@ async function createProfile() {
   }
 
   saveProfile(p);
+  if (IS_NATIVE_APP) addProfileToRegistry(p);
+
+  if (profilePhotoDraft) {
+    await savePhoto(p.id, profilePhotoDraft);
+  }
+
   toast('Profil créé · bienvenue ' + p.prenom + ' !');
   showScreen('dashboardScreen');
   renderDashboard();
@@ -3532,7 +3964,21 @@ function renderDashboard() {
   if (!APP.profile) APP.profile = loadProfile();
   if (!APP.profile) return;
   document.getElementById('dashName').textContent = APP.profile.prenom;
-  document.getElementById('dashAvatar').textContent = APP.profile.avatar || '👤';
+  
+  const avatarEl = document.getElementById('dashAvatar');
+  avatarEl.textContent = APP.profile.avatar || '👤';
+  avatarEl.style.backgroundImage = 'none';
+  avatarEl.style.backgroundSize = 'cover';
+  avatarEl.style.backgroundPosition = 'center';
+
+  if (APP.profile.id) {
+    getPhoto(APP.profile.id).then(dataUrl => {
+      if (dataUrl) {
+        avatarEl.textContent = '';
+        avatarEl.style.backgroundImage = 'url(' + dataUrl + ')';
+      }
+    }).catch(err => console.error('Error loading avatar photo', err));
+  }
 
   const totalXp = getTotalXp();
   const lvl = getLevelInfo(totalXp);
@@ -3561,6 +4007,9 @@ function renderDashboard() {
   const nbBadges = Object.keys(getBadges()).length;
   extras += '<div class="dash-badges-btn" onclick="showBadgesScreen()"><span class="badges-icon">🏅</span><b>' + nbBadges + '</b><span class="badges-label">badges</span></div>';
   extras += '<div class="dash-parcours-btn" onclick="showParcoursScreen()"><span class="badges-icon">📈</span><b>parcours</b><span class="badges-label">mes stats</span></div>';
+  if (IS_NATIVE_APP) {
+    extras += '<div class="dash-badges-btn" onclick="openProfileSelectorFromDashboard()"><span class="badges-icon">👨‍👩‍👧‍👦</span><b>' + loadProfilesRegistry().length + '</b><span class="badges-label">changer d\'enfant</span></div>';
+  }
   extras += '</div>';
   streakWrap.innerHTML = extras;
 
@@ -3667,6 +4116,15 @@ async function openClasse(classe) {
     return;
   }
   if (!APP.curriculum || !APP.curriculum[classe]) {
+    // Site web = demo depuis le 06/08/2026 : CE1-CM2 n'ont plus de
+    // contenu local sur le site (uniquement dans l'app). Repli clair
+    // au lieu d'un echec de chargement silencieux.
+    if (!IS_NATIVE_APP && classe !== 'SIL' && classe !== 'CP') {
+      showScreen('premiumScreen');
+      renderPremiumScreen();
+      toast('📱 Cette classe est disponible dans l\'application mobile', 3500);
+      return;
+    }
     toast('Chargement ' + classe + '...', 2000);
     const ok = await loadCurriculumForClass(classe);
     if (!ok) { toast('Impossible de charger ' + classe, 3000); return; }
@@ -3840,7 +4298,6 @@ const DEV_MODE_UNLOCK_ALL = false; // PROD
 const UNLOCK_THRESHOLD = 50; // %
 
 function isLeconUnlocked(classe, lecons, idx, prog) {
-  return true; // DÉMO
   if (DEV_MODE_UNLOCK_ALL) return true;          // ⚠ DEV : tout débloqué
   if (idx === 0) return true;                       // 1re leçon toujours libre
   if (isPremiumActive && isPremiumActive()) return true; // premium = pas de verrou
@@ -5045,16 +5502,48 @@ let _testNivState = null;
 async function openTestNiveau(classe) {
   const classePrec = getClasseAvant(classe);
   if (!classePrec) { showScreen('dashboardScreen'); return; }
-  // Charger le curriculum de la classe précédente si absent en mémoire
-  if (!APP.curriculum || !APP.curriculum[classePrec]) {
+
+  // Banques de test de niveau autonomes (independantes du curriculum
+  // complet, payant) - ajoute 06/08/2026 pour permettre au site demo de
+  // proposer ces tests sans exposer publiquement les classes payantes.
+  const BANQUE_TEST_NIVEAU_AUTONOME = {
+    CE2: 'test_niveau_CE2.json',
+    CM1: 'test_niveau_CM1.json',
+    CM2: 'test_niveau_CM2.json'
+  };
+  let testNivQuestions;
+
+  if (BANQUE_TEST_NIVEAU_AUTONOME[classe]) {
     toast('Chargement du test ' + classePrec + '...', 2000);
-    const ok = await loadCurriculumForClass(classePrec);
-    if (!ok) { toast('Impossible de charger le test pour ' + classePrec, 3000); showScreen('dashboardScreen'); return; }
+    try {
+      const res = await fetch('./' + BANQUE_TEST_NIVEAU_AUTONOME[classe], { cache: 'default' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const pool = await res.json();
+      for (let i = pool.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [pool[i], pool[j]] = [pool[j], pool[i]];
+      }
+      testNivQuestions = pool.slice(0, 20);
+    } catch (err) {
+      console.error('Erreur chargement banque test niveau:', err);
+      toast('Impossible de charger le test pour ' + classePrec, 3000);
+      showScreen('dashboardScreen');
+      return;
+    }
+  } else {
+    // CP, CE1 : classes gratuites, comportement inchange (curriculum complet en memoire)
+    if (!APP.curriculum || !APP.curriculum[classePrec]) {
+      toast('Chargement du test ' + classePrec + '...', 2000);
+      const ok = await loadCurriculumForClass(classePrec);
+      if (!ok) { toast('Impossible de charger le test pour ' + classePrec, 3000); showScreen('dashboardScreen'); return; }
+    }
+    testNivQuestions = assembleQuestionsForTest({ classe: classePrec, n: 20 });
   }
+
   _testNivState = {
     classeCible: classe,
     classePrec: classePrec,
-    questions: assembleQuestionsForTest({ classe: classePrec, n: 20 }),
+    questions: testNivQuestions,
     idx: 0,
     score: 0,
     maxScore: 0,
@@ -5865,6 +6354,7 @@ function openParentDashboard() {
   html += '<button class="parent-action-btn" onclick="showScreen(\'premiumScreen\');renderPremiumScreen()">⭐ Gérer l\'abonnement Premium</button>';
   html += '<button class="parent-action-btn" onclick="window.print()">🖨️ Imprimer ce rapport</button>';
   html += '<button class="parent-danger-btn" onclick="resetProgress()">🗑️ Réinitialiser la progression</button>';
+  html += '<button class="parent-danger-btn" style="background:#b91c1c;margin-top:8px;" onclick="deleteActiveProfile()">🗑️ Supprimer le profil enfant</button>';
   html += '</div>';
 
   document.getElementById('parentDashContent').innerHTML = html;
@@ -5882,11 +6372,35 @@ function changePin() {
 function resetProgress() {
   if (!confirm('Réinitialiser TOUTE la progression ? Cette action est irréversible.')) return;
   if (!confirm('Confirmez-vous ? Toutes les données seront effacées.')) return;
-  for (const c of CLASSES) localStorage.removeItem('ej_progress_' + c);
-  localStorage.removeItem('ej_badges');
-  localStorage.removeItem('ej_streak');
-  CLASSES.forEach(c => localStorage.removeItem('ej_niveau_test_' + c));
+  const p = loadProfile();
+  const idEnfant = p ? p.id : 'default';
+  for (const c of CLASSES) localStorage.removeItem('ej_progress_' + idEnfant + '_' + c);
+  localStorage.removeItem('ej_badges_' + idEnfant);
+  localStorage.removeItem('ej_streak_' + idEnfant);
+  CLASSES.forEach(c => localStorage.removeItem('ej_niveau_test_' + idEnfant + '_' + c));
   toast('✓ Progression réinitialisée');
+  setTimeout(() => location.reload(), 1200);
+}
+async function deleteActiveProfile() {
+  if (!confirm('Supprimer COMPLÈTEMENT le profil enfant et toutes ses données ? Cette action est irréversible.')) return;
+  if (!confirm('Confirmez-vous ? Le nom, la photo et la progression de cet enfant seront supprimés.')) return;
+  
+  const p = loadProfile();
+  if (p && p.id) {
+    try {
+      await deletePhoto(p.id);
+    } catch(err) {
+      console.error('Erreur lors de la suppression de la photo:', err);
+    }
+    for (const c of CLASSES) {
+      localStorage.removeItem('ej_progress_' + p.id + '_' + c);
+      localStorage.removeItem('ej_niveau_test_' + p.id + '_' + c);
+    }
+    localStorage.removeItem('ej_badges_' + p.id);
+    localStorage.removeItem('ej_streak_' + p.id);
+  }
+  localStorage.removeItem('ej_profile');
+  toast('✓ Profil supprimé');
   setTimeout(() => location.reload(), 1200);
 }
 
@@ -5924,28 +6438,30 @@ async function ejActiverCode() {
   const EJ_SB_URL = 'https://rgpxvabmghquygvnqlcl.supabase.co';
   const EJ_SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJncHh2YWJtZ2hxdXlndm5xbGNsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE1OTk3NDMsImV4cCI6MjA5NzE3NTc0M30.J19m1FORLTlzVX3MmBGngGdYx3NqK0GR-5IIuEzJb0I';
   try {
-    const r = await fetch(
-      EJ_SB_URL+'/rest/v1/activation_codes?code=eq.'+encodeURIComponent(code)
-      +'&used=eq.false&select=*',
-      { headers:{ apikey:EJ_SB_KEY, Authorization:'Bearer '+EJ_SB_KEY } }
-    );
-    const data = await r.json();
-    if (!data.length) { toast('Code invalide ou déjà utilisé'); return; }
-    const ac = data[0];
-    if (new Date(ac.expires_at) < new Date()) { toast('Code expiré'); return; }
-    await fetch(EJ_SB_URL+'/rest/v1/activation_codes?code=eq.'+encodeURIComponent(code), {
-      method:'PATCH',
-      headers:{ apikey:EJ_SB_KEY, Authorization:'Bearer '+EJ_SB_KEY,
-                'Content-Type':'application/json', Prefer:'return=minimal' },
-      body: JSON.stringify({ used:true, used_at:new Date().toISOString() })
+    const r = await fetch(EJ_SB_URL + '/rest/v1/rpc/activate_code', {
+      method: 'POST',
+      headers: {
+        apikey: EJ_SB_KEY,
+        Authorization: 'Bearer ' + EJ_SB_KEY,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ input_code: code })
     });
+    const data = await r.json();
+    const result = data && data[0];
+    if (!result || !result.success) {
+      toast(result ? result.message : 'Code invalide ou déjà utilisé');
+      return;
+    }
     lsSet('ej_premium', {
-      active:true, plan:ac.plan, classe:ac.classe,
-      expiry:ac.expires_at, code
+      active: true, plan: result.plan, classe: result.classe,
+      expiry: result.expires_at, code
     });
     toast('Accès activé !');
-    setTimeout(()=>location.reload(), 1200);
-  } catch(e) { toast('Erreur réseau — réessayez'); }
+    setTimeout(() => location.reload(), 1200);
+  } catch(e) {
+    toast('Erreur réseau — réessayez');
+  }
 }
 
 function renderPremiumScreen() {
@@ -5977,7 +6493,7 @@ function renderPremiumScreen() {
       html += '<div style="padding:16px;background:var(--bg-white);border-radius:14px;box-shadow:var(--shadow-card);margin-bottom:16px;text-align:center;">';
       html += '<div style="font-size:0.95em;line-height:1.5;margin-bottom:16px;color:#333;">Pour activer votre accès, rendez-vous sur <b>ecolejoyeuse.pages.dev</b>, puis saisissez ici le code reçu.</div>';
       html += '<div style="display:flex;flex-direction:column;gap:10px;align-items:stretch;">';
-      html += '<input type="text" id="ej-codeval" placeholder="Entrez votre code d\'activation" style="padding:12px;border:2px solid #ddd;border-radius:10px;font-size:1em;text-align:center;text-transform:uppercase;outline:none;" />';
+      html += '<input type="text" id="ej-codeval" enterkeyhint="done" placeholder="Entrez votre code d\'activation" onkeydown="if(event.key===\'Enter\'){event.preventDefault();this.blur();ejActiverCode();}" style="padding:12px;border:2px solid #ddd;border-radius:10px;font-size:1em;text-align:center;text-transform:uppercase;outline:none;" />';
       html += '<button onclick="ejActiverCode()" style="background:linear-gradient(135deg,var(--vert-moyen),var(--vert-fonce));color:#fff;border:none;padding:12px;border-radius:10px;font-weight:700;font-size:1em;cursor:pointer;">Activer</button>';
       html += '</div>';
       html += '</div>';
@@ -6039,7 +6555,7 @@ function renderPremiumScreen() {
       html += '<div id="ej-codezone" style="display:none;margin-top:10px;">';
       html += '<div style="font-size:0.85em;color:#666;margin-bottom:8px;">Saisissez votre code d\'activation reçu :</div>';
       html += '<div style="display:flex;gap:8px;justify-content:center;">';
-      html += '<input type="text" id="ej-codeval" placeholder="EX: ABCD-1234" style="padding:10px;border:1px solid #ccc;border-radius:8px;font-size:0.9em;text-align:center;text-transform:uppercase;width:180px;outline:none;" />';
+      html += '<input type="text" id="ej-codeval" enterkeyhint="done" placeholder="EX: ABCD-1234" onkeydown="if(event.key===\'Enter\'){event.preventDefault();this.blur();ejActiverCode();}" style="padding:10px;border:1px solid #ccc;border-radius:8px;font-size:0.9em;text-align:center;text-transform:uppercase;width:180px;outline:none;" />';
       html += '<button onclick="ejActiverCode()" style="background:linear-gradient(135deg,var(--vert-moyen),var(--vert-fonce));color:#fff;border:none;padding:10px 16px;border-radius:8px;font-weight:700;font-size:0.9em;cursor:pointer;">Activer</button>';
       html += '</div>';
       html += '</div>';
@@ -6172,38 +6688,7 @@ function ejAttendreConfirmationCamPay(reference, t) {
   poll();
 }
 
-// ─── CODE DEV RJV2025 (7 taps sur le logo splash) ───
-let _logoTapCount = 0, _logoTapTimer = null;
-function setupLogoTaps() {
-  const logo = document.getElementById('splashLogo');
-  if (!logo) return;
-  logo.addEventListener('click', () => {
-    _logoTapCount++;
-    clearTimeout(_logoTapTimer);
-    _logoTapTimer = setTimeout(() => { _logoTapCount = 0; }, 2000);
-    if (_logoTapCount >= 7) {
-      _logoTapCount = 0;
-      const code = prompt('🔓 Code d\'activation :');
-      if (code === 'RJV2026_DEV') {
-        lsSet('ej_premium', { active: true, plan: 'DEV (Permanent)', expiry: null, code: 'RJV2026_DEV' });
-        toast('✓ Accès Premium Permanent Activé !');
-        setTimeout(() => location.reload(), 1500);
-      } else if (code === 'RJV2026_TEST') {
-        const oneWeek = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000);
-        lsSet('ej_premium', { active: true, plan: 'DEV (Test 7 Jours)', expiry: oneWeek.toISOString(), code: 'RJV2026_TEST' });
-        toast('✓ Accès Premium 7 Jours Activé !');
-        setTimeout(() => location.reload(), 1500);
-      } else if (code === 'RJV2025') {
-        const oneYear = new Date(); oneYear.setFullYear(oneYear.getFullYear() + 1);
-        lsSet('ej_premium', { active: true, plan: 'DEV (RJV2025)', expiry: oneYear.toISOString(), code: 'RJV2025' });
-        toast('✓ Code dev activé — Premium 1 an');
-        setTimeout(() => location.reload(), 1500);
-      } else if (code) {
-        toast('Code incorrect');
-      }
-    }
-  });
-}
+// setupLogoTaps retiré pour des raisons de sécurité en production
 
 // ─── FREEMIUM (verrouillage classes) ───
 function isClasseLocked(classe) {
@@ -6240,7 +6725,6 @@ function registerSW() {
    ════════════════════════════════════════════════════════════════ */
 boot();
 registerSW();
-setupLogoTaps();
 
 </script>
 </body>
