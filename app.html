@@ -3915,7 +3915,13 @@ async function createProfile() {
 
   // Téléchargement adaptatif du curriculum de la classe choisie
   // (premier lancement uniquement — économise 90% de bande passante)
-  if (!APP.curriculum || !APP.curriculum[p.classe]) {
+  // Sur le web (site demo depuis le 06/08/2026), CE1-CM2 n'ont plus de
+  // fichier local : ne PAS bloquer la creation du profil pour autant —
+  // l'enfant doit pouvoir choisir sa classe (demo + test de niveau),
+  // le contenu complet sera charge plus tard depuis l'application.
+  const classeChargeableIci = IS_NATIVE_APP || p.classe === 'SIL' || p.classe === 'CP';
+  if (!APP.curriculum) APP.curriculum = {}; // toujours un objet valide, meme si aucune classe n'est chargee ici
+  if (classeChargeableIci && !APP.curriculum[p.classe]) {
     toast('Téléchargement du programme ' + p.classe + '…', 2500);
     const ok = await loadCurriculumForClass(p.classe);
     if (!ok) {
@@ -3947,11 +3953,14 @@ async function changeClasseProfile(nouvelleClasse) {
   if (APP.profile && APP.profile.classe === nouvelleClasse) {
     return true; // déjà sur cette classe
   }
-  toast('Chargement du programme ' + nouvelleClasse + '…', 2500);
-  const ok = await loadCurriculumForClass(nouvelleClasse);
-  if (!ok) {
-    toast('❌ Impossible de charger ' + nouvelleClasse + '. Vérifie ta connexion.', 4000);
-    return false;
+  const classeChargeableIci = IS_NATIVE_APP || nouvelleClasse === 'SIL' || nouvelleClasse === 'CP';
+  if (classeChargeableIci) {
+    toast('Chargement du programme ' + nouvelleClasse + '…', 2500);
+    const ok = await loadCurriculumForClass(nouvelleClasse);
+    if (!ok) {
+      toast('❌ Impossible de charger ' + nouvelleClasse + '. Vérifie ta connexion.', 4000);
+      return false;
+    }
   }
   // Mettre à jour le profil
   const p = Object.assign({}, APP.profile || {}, { classe: nouvelleClasse });
@@ -4049,7 +4058,7 @@ function renderDashboard() {
 
 function renderNiveauCard(classe) {
   const prog = getProgress(classe);
-  const data = APP.curriculum[classe];
+  const data = APP.curriculum ? APP.curriculum[classe] : null;
   // Si curriculum chargé → compter dynamiquement. Sinon → lire depuis l'index.
   let totalLecons = 0;
   if (data) {
