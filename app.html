@@ -3675,13 +3675,20 @@ async function boot() {
 
     // 2. Si un profil existe déjà avec une classe → charger UNIQUEMENT le curriculum de cette classe
     const existingProfile = loadProfile();
-    if (existingProfile && existingProfile.classe && CLASSES.includes(existingProfile.classe)) {
+    // Sur le web (site demo depuis le 06/08/2026), CE1-CM2 n'ont plus de
+    // fichier local : ne JAMAIS tenter de les precharger ici, sinon un
+    // visiteur revenant avec un ancien profil bloque tout le site sur un
+    // ecran d'erreur. Seuls SIL/CP (gratuits, toujours presents) et le
+    // natif (app complete) preloadent au boot.
+    const classeAPreloader = existingProfile && existingProfile.classe && CLASSES.includes(existingProfile.classe)
+      && (IS_NATIVE_APP || existingProfile.classe === 'SIL' || existingProfile.classe === 'CP');
+    if (classeAPreloader) {
       const ok = await loadCurriculumForClass(existingProfile.classe);
       if (!ok) throw new Error('Chargement du curriculum pour ' + existingProfile.classe + ' échoué');
       document.getElementById('splashLoading').textContent =
         '✓ Classe ' + existingProfile.classe + ' prête (' + (APP.curriculum._meta.classe || '') + ')';
     } else {
-      // Pas de profil → afficher juste un état neutre, le curriculum sera téléchargé après choix de la classe
+      // Pas de profil, ou classe payante indisponible sur le web → état neutre
       document.getElementById('splashLoading').textContent =
         '✓ Prêt — choisis ta classe pour commencer';
     }
