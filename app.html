@@ -2128,6 +2128,7 @@ input, select, textarea { font-family: inherit; font-size: 1em; }
     <div class="splash-title">École Joyeuse</div>
     <div class="splash-tagline">Apprendre avec joie — SIL au CM2 · Programme MINEDUB officiel</div>
     <button class="splash-cta" id="splashStartBtn" onclick="bootContinue()">Commencer →</button>
+    <button class="splash-cta" id="splashLicenceBtn" onclick="openLicenceDirecte()" style="display:none;background:transparent;border:2px solid #fff;color:#fff;margin-top:10px;">💳 Obtenir une licence</button>
     <div class="splash-loading" id="splashLoading">Chargement du programme MINEDUB…</div>
   </div>
 
@@ -2141,9 +2142,12 @@ input, select, textarea { font-family: inherit; font-size: 1em; }
       <label>Ton prénom</label>
       <input type="text" class="profile-input" id="profPrenom" placeholder="Ex : Aïcha" maxlength="20">
 
+      <div id="profileAvatarBlock">
       <label>Ton avatar</label>
       <div class="avatar-grid" id="avatarGrid"></div>
+      </div>
 
+      <div id="profilePhotoBlock">
       <label>Ta photo de profil (facultatif)</label>
       <div class="photo-upload-container" style="display:flex;align-items:center;gap:10px;margin-bottom:18px;flex-wrap:wrap;">
         <div id="profilePhotoPreview" style="width:60px;height:60px;border-radius:50%;background:#e5e7eb;display:flex;align-items:center;justify-content:center;font-size:1.8em;color:#9ca3af;overflow:hidden;border:2px solid var(--vert-primaire);">👤</div>
@@ -2152,6 +2156,7 @@ input, select, textarea { font-family: inherit; font-size: 1em; }
         <button type="button" id="btnDeletePhoto" onclick="deleteProfilePhotoDraft()" style="display:none;padding:8px 14px;font-size:0.85em;border-radius:8px;border:1.5px solid #ef4444;background:#fff;color:#ef4444;font-weight:600;cursor:pointer;">Supprimer</button>
         <input type="file" id="profilePhotoInput" accept="image/*" style="display:none;" onchange="handleProfilePhotoSelect(event)">
         <input type="file" id="profilePhotoCameraInput" accept="image/*" capture="user" style="display:none;" onchange="handleProfilePhotoSelect(event)">
+      </div>
       </div>
 
       <label>Ta classe</label>
@@ -2445,7 +2450,7 @@ input, select, textarea { font-family: inherit; font-size: 1em; }
   <!-- ═══════════ LOT 3 — PREMIUM (Mobile Money) ═══════════ -->
   <div id="premiumScreen" class="screen">
     <div class="lvl-header" style="background:linear-gradient(135deg,#FCD116,#f97316);color:#000">
-      <button class="btn-back" onclick="showScreen('dashboardScreen')" style="background:rgba(0,0,0,.15);color:#000">←</button>
+      <button class="btn-back" onclick="goBackFromPremium()" style="background:rgba(0,0,0,.15);color:#000">←</button>
       <div class="lvl-title">⭐ Passer Premium</div>
     </div>
     <div id="premiumContent" style="padding:14px"></div>
@@ -2585,6 +2590,32 @@ const IS_NATIVE_APP = !!(
 );
 const MAX_PROFILES = 6;
 const MIN_PROFILE_SLOTS = 3;
+
+// Bouton "Obtenir une licence" visible uniquement sur le web (site demo) —
+// acces direct a l'achat, sans passer par la creation de profil.
+if (!IS_NATIVE_APP) {
+  document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('splashLicenceBtn');
+    if (btn) btn.style.display = 'block';
+  });
+}
+
+// Ouvre directement l'ecran de licence depuis l'accueil, sans profil requis.
+function openLicenceDirecte() {
+  showScreen('premiumScreen');
+  renderPremiumScreen();
+}
+
+// Retour depuis l'ecran licence : dashboard si un profil existe, sinon
+// l'accueil (cas d'un visiteur venu directement via "Obtenir une licence").
+function goBackFromPremium() {
+  if (APP.profile) {
+    showScreen('dashboardScreen');
+  } else {
+    showScreen('splashScreen');
+  }
+}
+
 
 function loadProfilesRegistry() { return lsGet('ej_profiles', []); }
 function saveProfilesRegistry(list) { lsSet('ej_profiles', list); }
@@ -3832,7 +3863,27 @@ function deleteProfilePhotoDraft() {
 function initProfileScreen() {
   profileDraft = { prenom: '', avatar: '', classe: '' };
   profilePhotoDraft = null;
-  
+
+  // Site web (demo depuis le 06/08/2026) : creation de profil simplifiee
+  // au strict minimum (prenom + classe). Pas d'avatar ni de photo a
+  // choisir - un avatar neutre est assigne silencieusement en interne
+  // pour que le reste de l'app (deja construit autour d'un profil)
+  // continue de fonctionner sans changement. L'app native garde le
+  // parcours complet inchange.
+  const avatarBlock = document.getElementById('profileAvatarBlock');
+  const photoBlock = document.getElementById('profilePhotoBlock');
+  const header = document.querySelector('#profileScreen .profile-header p');
+  if (!IS_NATIVE_APP) {
+    if (avatarBlock) avatarBlock.style.display = 'none';
+    if (photoBlock) photoBlock.style.display = 'none';
+    profileDraft.avatar = '👤';
+    if (header) header.textContent = 'Dis-nous ton prénom pour essayer la démo';
+  } else {
+    if (avatarBlock) avatarBlock.style.display = '';
+    if (photoBlock) photoBlock.style.display = '';
+    if (header) header.textContent = "Crée ton profil pour commencer l'aventure";
+  }
+
   const preview = document.getElementById('profilePhotoPreview');
   if (preview) preview.innerHTML = '👤';
   const btnDelete = document.getElementById('btnDeletePhoto');
@@ -3888,7 +3939,7 @@ function pickInactiveClasse(c) {
 function updateProfileBtn() {
   const missing = [];
   if (profileDraft.prenom.length < 2) missing.push('ton prénom');
-  if (!profileDraft.avatar) missing.push('un avatar');
+  if (IS_NATIVE_APP && !profileDraft.avatar) missing.push('un avatar');
   if (!profileDraft.classe) missing.push('ta classe');
   const btn = document.getElementById('profileSubmit');
   const hint = document.getElementById('profileHint');
