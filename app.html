@@ -2956,6 +2956,54 @@ function saveLeconScore(classe, leconId, scorePct) {
   return { xpGain, newBadges };
 }
 
+// Sauvegarde le detail des questions ratees d'une lecon (pas juste le
+// score) pour que l'espace parent puisse montrer PRECISEMENT ce que
+// l'enfant n'a pas bien fait, pas seulement un pourcentage.
+// Ecrase le resultat precedent pour cette lecon a chaque tentative
+// (reflete l'etat le plus recent, evite une accumulation illimitee).
+function saveQuizMistakes(classe, leconId, quizItems, quizAnswers) {
+  const p = loadProfile();
+  const idEnfant = p ? p.id : 'default';
+  const mistakes = [];
+  (quizAnswers || []).forEach(a => {
+    if (a.correct) return;
+    const item = quizItems[a.idx];
+    if (!item) return;
+    const opts = item.options || item.choix || [];
+    const reponseTxt = typeof item.reponse === 'number' ? opts[item.reponse] : item.reponse;
+    const selectedTxt = (typeof a.selected === 'number' && opts[a.selected] !== undefined) ? opts[a.selected] : null;
+    mistakes.push({
+      question: item.question || item.q_audio || '',
+      reponse_donnee: selectedTxt,
+      bonne_reponse: reponseTxt,
+      explication: item.explication || item.feedback || '',
+      notion: item.notion || ''
+    });
+  });
+  const key = 'ej_erreurs_' + idEnfant + '_' + classe;
+  const all = lsGet(key, {});
+  if (mistakes.length) {
+    all[leconId] = { date: Date.now(), mistakes };
+  } else {
+    delete all[leconId]; // tout juste -> pas d'erreurs a garder pour cette lecon
+  }
+  lsSet(key, all);
+}
+
+// Recupere le detail des erreurs d'une lecon precise pour l'enfant actif.
+function getMistakesForLesson(classe, leconId) {
+  const p = loadProfile();
+  const idEnfant = p ? p.id : 'default';
+  const all = lsGet('ej_erreurs_' + idEnfant + '_' + classe, {});
+  return all[leconId] ? all[leconId].mistakes : [];
+}
+
+// Affiche/masque le detail des questions ratees d'une lecon dans l'espace parent.
+function toggleMistakesDetail(domId) {
+  const el = document.getElementById(domId);
+  if (el) el.style.display = (el.style.display === 'none') ? 'block' : 'none';
+}
+
 /* ════════════════════════════════════════════════════════════════
    GAMIFICATION — XP / Niveaux / Streak / Badges / Mascotte
    ════════════════════════════════════════════════════════════════ */
@@ -5471,6 +5519,10 @@ function showResults() {
   // Sauvegarder le score + récupérer nouveaux badges
   const leconId = APP.nav.lecon.id || (APP.nav.classe + '-' + APP.nav.trimestre + '-' + APP.nav.ua + '-' + APP.nav.discipline);
   const result = saveLeconScore(APP.nav.classe, leconId, pct);
+  // Detail des questions ratees, pour l'espace parent (07/08/2026)
+  if (APP.quiz && APP.quiz.mode === 'quiz') {
+    saveQuizMistakes(APP.nav.classe, leconId, APP.quiz.items, APP.quiz.answers);
+  }
 
   // Toast XP + badges
   if (result.xpGain > 0 || (result.newBadges && result.newBadges.length)) {
@@ -6407,10 +6459,24 @@ function openParentDashboard() {
     html += '<div class="parent-section-title">🎯 Points à revoir (score &lt; 50%)</div>';
     for (const w of weakLessons) {
       const supply = SUPPLIES[w.matiere];
-      html += '<div class="parent-stat-row">';
-      html += '<span>' + (supply ? supply.emoji + ' ' : '📘 ') + escapeHTML(w.titre || w.lecon_id) + '</span>';
+      const mistakes = getMistakesForLesson(classe, w.lecon_id);
+      const domId = 'mistakes_' + w.lecon_id.replace(/[^a-zA-Z0-9]/g, '_');
+      html += '<div class="parent-stat-row" style="cursor:pointer;" onclick="toggleMistakesDetail(\'' + domId + '\')">';
+      html += '<span>' + (supply ? supply.emoji + ' ' : '📘 ') + escapeHTML(w.titre || w.lecon_id) + (mistakes.length ? ' <span style="font-size:.75em;color:var(--text-3)">(' + mistakes.length + ' question' + (mistakes.length > 1 ? 's' : '') + ' à revoir ▾)</span>' : '') + '</span>';
       html += '<b style="color:#CE1126">' + w.score + '%</b>';
       html += '</div>';
+      if (mistakes.length) {
+        html += '<div id="' + domId + '" style="display:none;padding:8px 12px 12px;background:#FFF5F5;border-radius:8px;margin:-4px 0 8px;">';
+        mistakes.forEach(m => {
+          html += '<div style="padding:8px 0;border-bottom:1px solid #f3d5d5;font-size:.88em;">';
+          html += '<div style="font-weight:600;color:var(--text-1);margin-bottom:4px;">❓ ' + escapeHTML(m.question) + '</div>';
+          if (m.reponse_donnee) html += '<div style="color:#CE1126;">✗ Réponse donnée : ' + escapeHTML(m.reponse_donnee) + '</div>';
+          if (m.bonne_reponse) html += '<div style="color:#007A5E;">✓ Bonne réponse : ' + escapeHTML(m.bonne_reponse) + '</div>';
+          if (m.explication) html += '<div style="color:var(--text-3);font-size:.92em;margin-top:2px;">💡 ' + escapeHTML(m.explication) + '</div>';
+          html += '</div>';
+        });
+        html += '</div>';
+      }
     }
     html += '</div>';
   }
