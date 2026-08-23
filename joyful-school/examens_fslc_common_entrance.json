@@ -1,0 +1,1092 @@
+{
+  "version": "1.0",
+  "examens": [
+    {
+      "id": "FSLC_MOCK2_2022_GENERAL_PAPER1",
+      "titre": "Mock FSLC 2022 - General Paper I (History, Geography, Citizenship)",
+      "type": "concours_6eme",
+      "epreuves": [
+        {
+          "titre": "History",
+          "questions": [
+            {
+              "type": "reponse_libre",
+              "q": "Before the annexation of Cameroon by the Germans, a treaty was signed between Cameroonian kings and German representatives (Germano-Douala Treaty). Name one term of this treaty, and identify the German leader who annexed Cameroon.",
+              "reponse_attendue": "One term: native land was to remain native property (or: respect of treaties already signed, or: no forced labour/torture). German leader: Gustav Nachtigal.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Why was Africa called 'The Dark Continent', and which was the first Christian mission to arrive in Cameroon in 1858?",
+              "reponse_attendue": "Africa was called 'The Dark Continent' because little was known about its interior. The first Christian mission to arrive in Cameroon in 1858 was the Basel Mission.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "The Industrial Revolution helped abolish the slave trade by replacing human labour with machines. In which European country did it start, and what is one negative effect it had?",
+              "reponse_attendue": "It started in England. One negative effect: pollution, or people losing their jobs.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Define the word 'slave trade'.",
+              "reponse_attendue": "Slave trade was the buying and selling of human beings.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Reuben Um Nyobe, Ahmadou Ahidjo, Andre Marie Mbida and John Ngu Foncha are important figures in Cameroon's history. Who formed the UPC party in 1948, and when did Ahmadou Ahidjo become the first president of Cameroon?",
+              "reponse_attendue": "Reuben Um Nyobe formed the UPC party in 1948. Ahmadou Ahidjo became the first president of Cameroon in 1960.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "The First World War extended to Africa, especially Cameroon. Where was the bloodiest battle of WWI fought in Cameroon, and in what year did WWI end in Cameroon?",
+              "reponse_attendue": "The bloodiest battle was fought at Nsanakang. The First World War ended in Cameroon in 1916.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "After Germany was chased out of Cameroon, the country was partitioned between Britain and France under the Mandate system. Which body partitioned Cameroon, and what policy did the French use to rule East Cameroon?",
+              "reponse_attendue": "The League of Nations partitioned Cameroon. The French used the policy of Assimilation to rule East Cameroon.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "There were four Empires of Western Sudan. Explain why Ghana was called the 'Gold Coast'.",
+              "reponse_attendue": "Ghana was called the 'Gold Coast' because it had a lot of gold deposits / was very rich in gold.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Our grandparents tell stories of the past that might not be totally accurate (e.g. that the early man ate rice and beans). What is the best form of history, and what did early man actually eat?",
+              "reponse_attendue": "The best form of history is Written History. Early man actually ate wild fruits and raw meat.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "In ancient civilization, the fall of one kingdom led to the rise of another. What is Mesopotamia called today, and what destroyed the Roman Empire?",
+              "reponse_attendue": "Mesopotamia is called Iraq today. The Roman Empire was destroyed by the Barbarians.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Match each historical figure to their achievement: the richest slave trader in England; he drew the first map of the world; the leader of religious reformation; he codified laws in Babylon; the Chinese writing system.",
+              "reponse_attendue": "John Hawkins (richest slave trader in England); Toscaneli (drew the first map of the world); Martin Luther (leader of religious reformation); Hammurabi (codified laws in Babylon); Characters (Chinese writing system).",
+              "points": 2.5,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "Democracy is practiced in many countries today. Where did democracy start?",
+              "options": [
+                "Sparta",
+                "Athens",
+                "Olympia",
+                "Socrates"
+              ],
+              "reponse_correcte": "b",
+              "points": 0.5,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "Dead bodies were embalmed in Egypt. How were they called?",
+              "options": [
+                "Hieroglyphics",
+                "Pyramids",
+                "Shadoofs",
+                "Mummies"
+              ],
+              "reponse_correcte": "d",
+              "points": 0.5,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "Reunification Day is celebrated as National Day. When did West Cameroon become united with East Cameroon?",
+              "options": [
+                "11th February, 1961",
+                "1st May, 1972",
+                "20th May, 1972",
+                "1st January 1961"
+              ],
+              "reponse_correcte": "a",
+              "points": 0.5,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "The Portuguese were the first to enter the interior of Cameroon. How did Fernando Po describe River Wouri, from which Cameroon later got its name?",
+              "options": [
+                "Rio dos Cameroes",
+                "The Chariots of gods",
+                "An eye for an eye, a tooth for a tooth",
+                "A toothless bull dog"
+              ],
+              "reponse_correcte": "a",
+              "points": 0.5,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "The early man carried out activities which later made him settle down. What was his first discovery?",
+              "options": [
+                "Agriculture",
+                "A dog",
+                "Fire",
+                "Hunting"
+              ],
+              "reponse_correcte": "c",
+              "points": 0.5,
+              "explication": ""
+            }
+          ]
+        },
+        {
+          "titre": "Geography",
+          "questions": [
+            {
+              "type": "reponse_libre",
+              "q": "Match each statement to its answer: the movement of the earth on its axis; the temperate grassland of Asia; the deepest ocean in the world; the largest native town in Africa; the capital city of South Africa; the company that refines crude oil in Cameroon; the highest mountain in the world; a piece of land that stretches into a sea or ocean; the water body connecting the Mediterranean and Red Sea; the largest game reserve in Cameroon.",
+              "reponse_attendue": "Rotation; Steppe; Pacific; Ibadan; Pretoria; SONARA; Everest; Peninsula; Suez Canal; Waza Park.",
+              "points": 5,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "The solar system is made up of the sun, stars and the nine planets. What is the planet on which plants and animals live called, and what is the path each planet moves round the sun called?",
+              "reponse_attendue": "The planet is called Earth. The path is called its Orbit.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Migration is the movement of people and goods due to push and pull factors. Give one push factor, and name the economic capital of Cameroon that receives many migrants from conflict areas.",
+              "reponse_attendue": "One push factor: education, jobs, or illness/insecurity. The economic capital that receives migrants is Douala.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Mr. Ekema cut down all his trees without replacement, while Mr. Roger cut few trees and replanted some. Who practiced re-afforestation, and who practiced deforestation?",
+              "reponse_attendue": "Mr. Roger practiced re-afforestation. Mr. Ekema practiced deforestation.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Timothy flew from Douala to Paris then Paris to New York. Name any two continents involved in his flight.",
+              "reponse_attendue": "Africa and Europe (and America).",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "James Williams is a British explorer visiting Cameroon for sight-seeing for the first time. What should we call him, and propose an attractive site he could visit.",
+              "reponse_attendue": "He should be called a Tourist. An attractive site: Waza Park, botanical gardens, etc.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Mrs. Esther lives in Garoua and takes a train from Yaounde to the Adamawa Region. What is the road used by a train called, and where is the railway terminus in the Adamawa Region?",
+              "reponse_attendue": "The road used by a train is called a Railway. The railway terminus in the Adamawa Region is at Ngaoundere.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Morning, evening, night and seasons come and pass due to movements of the earth. Which movement of the earth causes changes in seasons, and which satellite is shaded during a lunar eclipse?",
+              "reponse_attendue": "Revolution causes changes in seasons. The Moon is shaded during a lunar eclipse.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "A herdsman in the temperate grassland of South Africa (longitude 30° East of GMT) received a call from Accra-Ghana at 11:00am GMT. What local time did he answer the call, and what is the temperate grassland of South Africa called?",
+              "reponse_attendue": "He answered at 1:00pm. The temperate grassland of South Africa is called the Veldt.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "All CEMAC countries use Francs CFA. Which neighbouring country of Cameroon does NOT use Francs CFA, and what currency does it use?",
+              "reponse_attendue": "Nigeria does not use Francs CFA. It uses the Naira.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "On a globe, which line divides the earth into two equal parts, and what is the desert in South Africa called?",
+              "reponse_attendue": "The Equator divides the earth into two equal parts. The desert in South Africa is called the Namib Desert.",
+              "points": 1,
+              "explication": ""
+            }
+          ]
+        },
+        {
+          "titre": "Citizenship (Civics, Human Rights, Moral Education)",
+          "questions": [
+            {
+              "type": "reponse_libre",
+              "q": "Town cleaners were decorated by the head of the Yaounde urban council, and the patriotic song of Cameroon was sung. Who heads an urban council, and which song was sung?",
+              "reponse_attendue": "The Mayor heads an urban council. The National Anthem was sung.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "At the 20th May grand stand in Yaounde, the president and ministers watch the march past every National Day. Who is the head of the Executive arm of government in Cameroon, and what other feast is celebrated nationwide besides 20th May?",
+              "reponse_attendue": "The President is the head of the Executive arm of government. Another feast: 11th February (Youth Day).",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Mr. Ndifor was stopped at a checkpoint while driving from Douala to Yaounde. Which official document did he present to show he is Cameroonian?",
+              "reponse_attendue": "His National Identity Card.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "On the 31st of December, the Head of State addressed the nation. Name two communication media Cameroonians used to get the message.",
+              "reponse_attendue": "Television and Radio.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Ada was crowned best pupil in the FSLC examination 2020. Write FSLC in full.",
+              "reponse_attendue": "First School Leaving Certificate.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "If Dipepa's parents cannot afford to send her to college, propose two job opportunities she could do to earn a living.",
+              "reponse_attendue": "Hairdressing, joining the Police, running a call box, etc.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Adamou Ibrahim rears cattle and pays taxes to the state. What type of tax does he pay, and how does the state spend this money for citizens' benefit?",
+              "reponse_attendue": "He pays the Jangali tax. The state spends it on building schools, hospitals, electricity, road construction, etc.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Ndi's father has two wives who always argue over decisions. What type of marriage is this, and who is supposed to take decisions as head of the family?",
+              "reponse_attendue": "This is polygamy. The husband (father) is supposed to take decisions as head of the family.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Sama walked past while others were singing the anthem, and the head teacher advised him. What advice did the head teacher give, and who represents the Minister of Basic Education in a primary school?",
+              "reponse_attendue": "He advised Sama to stand at attention when the anthem is sung. The Head Teacher represents the Minister of Basic Education in a primary school.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "A minister was accused of bribery and corruption by the head of government, and the matter was sent to the highest court. Who is the head of government in Cameroon, and which is the highest court?",
+              "reponse_attendue": "The Prime Minister is the head of government. The Supreme Court is the highest court.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "A teacher was teaching sets in class, and when Ngwa raised his hand, the teacher bullied him and did not attend to him. Which right of Ngwa was violated?",
+              "reponse_attendue": "His right to freedom of expression (speech).",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Mary attends church services on Sundays with her friends. Which right does she enjoy?",
+              "reponse_attendue": "Her right to freedom of worship.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Tom accidentally hit his friend's head with a tennis ball and his friend grabbed his shirt. What should Tom do to make peace?",
+              "reponse_attendue": "Apologize and ask for forgiveness.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "The police wanted to search Mrs. Shella's house one morning. What should the police do first before searching her house?",
+              "reponse_attendue": "Present a search warrant.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Ekoto works hard and respects his parents, so he enjoys all his rights. Write two rights of a child at home.",
+              "reponse_attendue": "Right to eat, right to play, right to rest, etc.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Esther got up, prayed, brushed her teeth, ate and wore her Christmas dress to school, but was sent back home for disrespecting school rules. What was she supposed to do to her parents before brushing her teeth, and which school rule did she violate?",
+              "reponse_attendue": "She was supposed to greet her parents. She violated the rule of not wearing the school uniform.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Ndi, the class prefect, accepted bread from friends before wiping their names off the noise-makers list, and fought Mary who reported him. What crime did Ndi commit, and what should be done to him?",
+              "reponse_attendue": "He committed bribery and corruption. He should be punished.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "In war, there's no peace. Show one way we should make peace to stop conflict.",
+              "options": [
+                "Dialogue with others",
+                "Fight more",
+                "Forgive others",
+                "A and C are correct"
+              ],
+              "reponse_correcte": "d",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "We are advised to maintain safety measures at home. Advise a boy who plays with fire.",
+              "reponse_attendue": "He should stop playing with fire because it can burn him or burn the house/home.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Ndi picked up a used blade and cut his nails, accidentally cutting his fingers, and later tested HIV/AIDS positive. Advise others on one way to prevent HIV/AIDS.",
+              "reponse_attendue": "Avoid sharing sharp objects like blades and needles.",
+              "points": 1,
+              "explication": ""
+            }
+          ]
+        },
+        {
+          "titre": "Mathematics Paper I",
+          "questions": [
+            {
+              "type": "reponse_libre",
+              "q": "Mary cannot solve 432-276 in base 8. Help her.",
+              "reponse_attendue": "134 (base 8)",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "VII=7 and XI=11 in roman numerals. Which number is this: XXXVIII?",
+              "reponse_attendue": "38",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "These fractions 3/4, 3/5, 1/2, 5/8 are not arranged in order. Re-arrange them in descending order.",
+              "reponse_attendue": "3/4, 5/8, 3/5, 1/2",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Yup sold a dress for 24,000frs, he made a profit of 20%. Find the cost price.",
+              "reponse_attendue": "20,000 frs",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Write three million, seven thousand eight hundred and thirty-six in figures.",
+              "reponse_attendue": "3,007,836",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Atabong has 600frs and Atem has 550frs; how much money will Atabong give to Atem such that both have equal amounts?",
+              "reponse_attendue": "25 frs",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Two angles of a triangle measure 73 degrees and 45 degrees. Find the third angle.",
+              "reponse_attendue": "62 degrees",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "3/10 as a decimal is 0.3. Write 3/5 in decimal form.",
+              "reponse_attendue": "0.6",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Njo deposited 20,000frs for 2 1/2 years at 2% per annum. Find the simple interest.",
+              "reponse_attendue": "1,000 frs",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "A triangle has a height of 5cm and a base of 4cm. What is its area?",
+              "reponse_attendue": "10 cm2",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "1980 was a leap year. Which of these was also a leap year: 1958, 1968, 1978?",
+              "reponse_attendue": "1968",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Your dad has to pay income tax of 35frs per thousand. How much tax on income of 200,000frs?",
+              "reponse_attendue": "7,000 frs",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "The population of a village rose from 2500 to 2750 inhabitants in 5 years. Calculate the percentage increase.",
+              "reponse_attendue": "10%",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "The area of a house is 575 m2. Given that the width is 25m, what is the length?",
+              "reponse_attendue": "23 m",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Amil spent 2/3 of his money and had 600 frs left. How much had he at first?",
+              "reponse_attendue": "1,800 frs",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Given that X=18 and Y=3, solve (X divided by Y) times (X-Y).",
+              "reponse_attendue": "90",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "The average age of 4 boys is 13 years. Three of the boys are 9, 11 and 15 years. How old is the fourth boy?",
+              "reponse_attendue": "17 years",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Eno sells 3 oranges at 125 frs. What is the cost of 27 oranges?",
+              "reponse_attendue": "1,125 frs",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "The diameter of a circular drum is 49 cm; what is its circumference? (use pi=22/7)",
+              "reponse_attendue": "154 cm",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "A decade is a period of 10 years. How many decades make 4 centuries?",
+              "reponse_attendue": "40 decades",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Mrs. Mbu bought a bag of beans at 24,000 frs and sold the beans at 39,000 frs. What profit did she make?",
+              "reponse_attendue": "15,000 frs",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "60 kg of meat were shared between two women in the ratio 2:4. How many kg did each woman get?",
+              "reponse_attendue": "20 kg and 40 kg",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "The speed of a bus is 80km/hour. What distance can it cover in 2 hours?",
+              "reponse_attendue": "160 km",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "4 is an even number. Which of these are even numbers: 9, 8, 16, 19?",
+              "reponse_attendue": "8 and 16",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "An egg costs 75 frs. What is the cost of 4 dozens of eggs?",
+              "reponse_attendue": "3,600 frs",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "A prime number is a number that can divide only by 1 and itself. Which prime numbers are found between 1 and 10?",
+              "reponse_attendue": "2, 3, 5, 7",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "The Highest Common Factor of 12 and 20 is 4. What is their Least Common Multiple?",
+              "reponse_attendue": "60",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "A car is sold for 400,000 frs at a loss of 20%. How much did it cost?",
+              "reponse_attendue": "500,000 frs",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "A trader buys an article for 550 frs and sells it at 975 frs. What is his profit?",
+              "reponse_attendue": "425 frs",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Two angles of a triangle are 50 degrees and 70 degrees. Find the value of the third angle.",
+              "reponse_attendue": "60 degrees",
+              "points": 1,
+              "explication": ""
+            }
+          ]
+        },
+        {
+          "titre": "Mathematics Paper II",
+          "questions": [
+            {
+              "type": "reponse_libre",
+              "q": "If 6 men clear 8 hectares of farmland in 5 days, how many hectares will 15 men clear in 12 days working at the same rate?",
+              "reponse_attendue": "48 hectares",
+              "points": 10,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Universal set E = {1,2,3,4,5,6,7,8,9,10}. G = multiples of 2, F = factors of 12, H = prime numbers. Find: G ; F ; H ; G intersection F ; (H union F) complement ; G intersection F intersection H.",
+              "reponse_attendue": "G={2,4,6,8,10} ; F={1,2,3,4,6} ; H={2,3,5,7} ; G∩F={2,4,6} ; (H∪F)'={8,9,10} ; G∩F∩H={2}",
+              "points": 10,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "A school lawn measures 16m by 12m with a path 2m wide all round it. Find the area of the lawn (inside the path).",
+              "reponse_attendue": "96 m2",
+              "points": 5,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "What will be the cost of planting grass on the lawn at 200 frs per square meter?",
+              "reponse_attendue": "19,200 frs",
+              "points": 2,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "3 boys can clear the lawn in 4 hours. How long will it take you and a classmate (2 people) to clear it?",
+              "reponse_attendue": "6 hours",
+              "points": 3,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "A mother bought: 3 oil filters at 2,500 frs each, 3 bottles of engine oil at 4,500 frs each, 2 kg of grease at 1,000 frs each, 2 oil seals at 2,000 frs each. How much did she spend in total?",
+              "reponse_attendue": "27,000 frs",
+              "points": 3,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "If the garage gave a 5% discount, what amount did she pay?",
+              "reponse_attendue": "25,650 frs",
+              "points": 3,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "The mechanic charged 1,500 frs per car for 3 cars maintenance. Calculate the total amount spent at the garage.",
+              "reponse_attendue": "30,150 frs",
+              "points": 2,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "If she took 35,000 frs with her, what was her balance at the end?",
+              "reponse_attendue": "4,850 frs",
+              "points": 2,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "A plot costs 2,000,000 frs. Your father has 1,100,000 frs. How much does he need to borrow?",
+              "reponse_attendue": "900,000 frs",
+              "points": 3,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "If he borrows at 2% interest per annum from June 2012 to June 2017 (5 years), how much interest will he pay?",
+              "reponse_attendue": "90,000 frs",
+              "points": 4,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "How much will he pay back to the bank altogether?",
+              "reponse_attendue": "990,000 frs",
+              "points": 3,
+              "explication": ""
+            }
+          ]
+        },
+        {
+          "titre": "English Language - Grammar",
+          "questions": [
+            {
+              "type": "qcm",
+              "q": "My father ___ to work every day.",
+              "options": [
+                "go",
+                "goes",
+                "going",
+                "gone"
+              ],
+              "reponse_correcte": "b",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "There ___ many people at the market yesterday.",
+              "options": [
+                "is",
+                "was",
+                "were",
+                "are"
+              ],
+              "reponse_correcte": "c",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "She is ___ than her sister.",
+              "options": [
+                "tall",
+                "taller",
+                "tallest",
+                "more tall"
+              ],
+              "reponse_correcte": "b",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "The children ___ playing football when it started to rain.",
+              "options": [
+                "is",
+                "was",
+                "were",
+                "are"
+              ],
+              "reponse_correcte": "c",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "I have ___ my homework already.",
+              "options": [
+                "do",
+                "did",
+                "done",
+                "doing"
+              ],
+              "reponse_correcte": "c",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "This is the book ___ I bought yesterday.",
+              "options": [
+                "who",
+                "which",
+                "whom",
+                "whose"
+              ],
+              "reponse_correcte": "b",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "He usually ___ to school by bus every morning.",
+              "options": [
+                "go",
+                "goes",
+                "going",
+                "went"
+              ],
+              "reponse_correcte": "b",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "If it rains, we ___ stay at home.",
+              "options": [
+                "will",
+                "would",
+                "shall",
+                "must"
+              ],
+              "reponse_correcte": "a",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "My mother is a teacher and my father is ___ engineer.",
+              "options": [
+                "a",
+                "an",
+                "the",
+                "(nothing)"
+              ],
+              "reponse_correcte": "b",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "The boys ___ football in the field now.",
+              "options": [
+                "play",
+                "plays",
+                "is playing",
+                "are playing"
+              ],
+              "reponse_correcte": "d",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "Neither Tom ___ his brother came to school today.",
+              "options": [
+                "or",
+                "nor",
+                "and",
+                "but"
+              ],
+              "reponse_correcte": "b",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "She has been sick ___ Monday.",
+              "options": [
+                "for",
+                "since",
+                "from",
+                "at"
+              ],
+              "reponse_correcte": "b",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "The teacher asked the pupils ___ be quiet.",
+              "options": [
+                "to",
+                "for",
+                "that",
+                "(nothing)"
+              ],
+              "reponse_correcte": "a",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "My uncle bought ___ new car last week.",
+              "options": [
+                "a",
+                "an",
+                "the",
+                "(nothing)"
+              ],
+              "reponse_correcte": "a",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "We must respect ___ elders.",
+              "options": [
+                "we",
+                "our",
+                "us",
+                "ours"
+              ],
+              "reponse_correcte": "b",
+              "points": 1,
+              "explication": ""
+            }
+          ]
+        },
+        {
+          "titre": "English Language - Vocabulary",
+          "questions": [
+            {
+              "type": "qcm",
+              "q": "The opposite of \"happy\" is:",
+              "options": [
+                "sad",
+                "glad",
+                "angry",
+                "tired"
+              ],
+              "reponse_correcte": "a",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "The opposite of \"big\" is:",
+              "options": [
+                "large",
+                "huge",
+                "small",
+                "tall"
+              ],
+              "reponse_correcte": "c",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "The opposite of \"fast\" is:",
+              "options": [
+                "quick",
+                "slow",
+                "rapid",
+                "speedy"
+              ],
+              "reponse_correcte": "b",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "The opposite of \"clean\" is:",
+              "options": [
+                "dirty",
+                "neat",
+                "tidy",
+                "fresh"
+              ],
+              "reponse_correcte": "a",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "The opposite of \"difficult\" is:",
+              "options": [
+                "hard",
+                "easy",
+                "tough",
+                "complex"
+              ],
+              "reponse_correcte": "b",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "What sound does a dog make?",
+              "options": [
+                "bleats",
+                "barks",
+                "roars",
+                "moos"
+              ],
+              "reponse_correcte": "b",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "What sound does a cow make?",
+              "options": [
+                "barks",
+                "moos",
+                "crows",
+                "hisses"
+              ],
+              "reponse_correcte": "b",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "What sound does a lion make?",
+              "options": [
+                "roars",
+                "chirps",
+                "quacks",
+                "barks"
+              ],
+              "reponse_correcte": "a",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "What sound does a cat make?",
+              "options": [
+                "barks",
+                "mews",
+                "moos",
+                "roars"
+              ],
+              "reponse_correcte": "b",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "qcm",
+              "q": "What sound does a cock make?",
+              "options": [
+                "moos",
+                "crows",
+                "barks",
+                "roars"
+              ],
+              "reponse_correcte": "b",
+              "points": 1,
+              "explication": ""
+            }
+          ]
+        },
+        {
+          "titre": "English Language - Reading Comprehension",
+          "questions": [
+            {
+              "type": "reponse_libre",
+              "q": "Every Saturday morning, Ayuk and his sister Ekema wake up early to help their mother at the family farm near Bamenda. Their mother grows maize, beans, and vegetables which she sells at the local market. Ayuk carries water from the stream while Ekema weeds between the rows of maize. After two hours of work, their mother gives them a break, and they eat roasted corn together under a big mango tree.\nIn the afternoon, the whole family walks to the market to sell the vegetables they harvested that morning. Ekema enjoys helping her mother count the money at the end of the day. She dreams of becoming a businesswoman when she grows up. Ayuk, on the other hand, wants to become a farmer like his mother because he loves working with the soil and watching plants grow.\n\nQuestion : Where is the family farm located?",
+              "reponse_attendue": "Near Bamenda.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Every Saturday morning, Ayuk and his sister Ekema wake up early to help their mother at the family farm near Bamenda. Their mother grows maize, beans, and vegetables which she sells at the local market. Ayuk carries water from the stream while Ekema weeds between the rows of maize. After two hours of work, their mother gives them a break, and they eat roasted corn together under a big mango tree.\nIn the afternoon, the whole family walks to the market to sell the vegetables they harvested that morning. Ekema enjoys helping her mother count the money at the end of the day. She dreams of becoming a businesswoman when she grows up. Ayuk, on the other hand, wants to become a farmer like his mother because he loves working with the soil and watching plants grow.\n\nQuestion : What does Ayuk do to help on the farm?",
+              "reponse_attendue": "He carries water from the stream.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Every Saturday morning, Ayuk and his sister Ekema wake up early to help their mother at the family farm near Bamenda. Their mother grows maize, beans, and vegetables which she sells at the local market. Ayuk carries water from the stream while Ekema weeds between the rows of maize. After two hours of work, their mother gives them a break, and they eat roasted corn together under a big mango tree.\nIn the afternoon, the whole family walks to the market to sell the vegetables they harvested that morning. Ekema enjoys helping her mother count the money at the end of the day. She dreams of becoming a businesswoman when she grows up. Ayuk, on the other hand, wants to become a farmer like his mother because he loves working with the soil and watching plants grow.\n\nQuestion : What does Ekema do to help on the farm?",
+              "reponse_attendue": "She weeds between the rows of maize.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Every Saturday morning, Ayuk and his sister Ekema wake up early to help their mother at the family farm near Bamenda. Their mother grows maize, beans, and vegetables which she sells at the local market. Ayuk carries water from the stream while Ekema weeds between the rows of maize. After two hours of work, their mother gives them a break, and they eat roasted corn together under a big mango tree.\nIn the afternoon, the whole family walks to the market to sell the vegetables they harvested that morning. Ekema enjoys helping her mother count the money at the end of the day. She dreams of becoming a businesswoman when she grows up. Ayuk, on the other hand, wants to become a farmer like his mother because he loves working with the soil and watching plants grow.\n\nQuestion : What do Ayuk and Ekema eat under the mango tree?",
+              "reponse_attendue": "Roasted corn.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Every Saturday morning, Ayuk and his sister Ekema wake up early to help their mother at the family farm near Bamenda. Their mother grows maize, beans, and vegetables which she sells at the local market. Ayuk carries water from the stream while Ekema weeds between the rows of maize. After two hours of work, their mother gives them a break, and they eat roasted corn together under a big mango tree.\nIn the afternoon, the whole family walks to the market to sell the vegetables they harvested that morning. Ekema enjoys helping her mother count the money at the end of the day. She dreams of becoming a businesswoman when she grows up. Ayuk, on the other hand, wants to become a farmer like his mother because he loves working with the soil and watching plants grow.\n\nQuestion : Where does the family sell their vegetables?",
+              "reponse_attendue": "At the local market.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Every Saturday morning, Ayuk and his sister Ekema wake up early to help their mother at the family farm near Bamenda. Their mother grows maize, beans, and vegetables which she sells at the local market. Ayuk carries water from the stream while Ekema weeds between the rows of maize. After two hours of work, their mother gives them a break, and they eat roasted corn together under a big mango tree.\nIn the afternoon, the whole family walks to the market to sell the vegetables they harvested that morning. Ekema enjoys helping her mother count the money at the end of the day. She dreams of becoming a businesswoman when she grows up. Ayuk, on the other hand, wants to become a farmer like his mother because he loves working with the soil and watching plants grow.\n\nQuestion : What does Ekema dream of becoming?",
+              "reponse_attendue": "A businesswoman.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Every Saturday morning, Ayuk and his sister Ekema wake up early to help their mother at the family farm near Bamenda. Their mother grows maize, beans, and vegetables which she sells at the local market. Ayuk carries water from the stream while Ekema weeds between the rows of maize. After two hours of work, their mother gives them a break, and they eat roasted corn together under a big mango tree.\nIn the afternoon, the whole family walks to the market to sell the vegetables they harvested that morning. Ekema enjoys helping her mother count the money at the end of the day. She dreams of becoming a businesswoman when she grows up. Ayuk, on the other hand, wants to become a farmer like his mother because he loves working with the soil and watching plants grow.\n\nQuestion : What does Ayuk want to become when he grows up?",
+              "reponse_attendue": "A farmer.",
+              "points": 1,
+              "explication": ""
+            },
+            {
+              "type": "reponse_libre",
+              "q": "Every Saturday morning, Ayuk and his sister Ekema wake up early to help their mother at the family farm near Bamenda. Their mother grows maize, beans, and vegetables which she sells at the local market. Ayuk carries water from the stream while Ekema weeds between the rows of maize. After two hours of work, their mother gives them a break, and they eat roasted corn together under a big mango tree.\nIn the afternoon, the whole family walks to the market to sell the vegetables they harvested that morning. Ekema enjoys helping her mother count the money at the end of the day. She dreams of becoming a businesswoman when she grows up. Ayuk, on the other hand, wants to become a farmer like his mother because he loves working with the soil and watching plants grow.\n\nQuestion : Why does Ayuk want to become a farmer?",
+              "reponse_attendue": "Because he loves working with the soil and watching plants grow.",
+              "points": 1,
+              "explication": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

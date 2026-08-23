@@ -1,0 +1,30 @@
+{
+  "version": "1.1",
+  "date_maj": "2026-08-15",
+  "classes": [
+    {
+      "id": "Class1",
+      "total_lecons": 181
+    },
+    {
+      "id": "Class2",
+      "total_lecons": 183
+    },
+    {
+      "id": "Class3",
+      "total_lecons": 179
+    },
+    {
+      "id": "Class4",
+      "total_lecons": 184
+    },
+    {
+      "id": "Class5",
+      "total_lecons": 181
+    },
+    {
+      "id": "Class6",
+      "total_lecons": 184
+    }
+  ]
+}
